@@ -3,9 +3,11 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
+/confluence
+
 # Node artifact files
-node_modules/
-dist/
+/node_modules/
+/dist/
 
 # Compiled Java class files
 *.class
