@@ -8,19 +8,29 @@ Release Notes
 
 Check here for details of our releases (both historic and upcoming)
 
-## Upcoming Release in August 2021
+#### Upcoming Release in September 2021
+
+Launch of the new website and documentation portal
+
+<details>
+<summary>August 2021</summary>
 
 #### Getting ready for the soft launch!
 
-We are putting the finishing touches on the Web Portal that will allow us to start welcoming prospective clients to start using it
+We are putting the finishing touches on the Web Portal that will allow us to start welcoming prospective clients to start using it.
+Designing the screens that will get you started
 
-## July 2021
+</details>
+<details>
+<summary>July 2021</summary>
 
 #### Added support for real-time events
 
 We completed the first stage of the [real-time API](Realtime-Services_403275777.html) allowing for a more responsive experience in the GUI and the more collaboration opportunities in other applications
+</details>
 
-![](/images/icons/grey_arrow_down.png)June 2021
+<details>
+<summary>June 2021</summary>
 
 #### Curve configurations in the web portal
 
@@ -80,8 +90,10 @@ We have added support for the following special characters in cron expressions f
         
     *   `0 0 * 1 L *`
         
+</details>
 
-## May 2021
+<details>
+<summary>May 2021</summary>
 
 #### REST API improvements
 
@@ -111,7 +123,10 @@ Links allow you to view related data and information
 
 ![](/attachments/131316/305889696.png)
 
-## April 2021
+</details>
+
+<details>
+<summary>April 2021</summary>
 
 #### Curve Building Support
 
@@ -138,8 +153,10 @@ MY_CURVE = object as #CurveConfig
 end
 save ${curve:MY_CURVE}
 ```
+</details>
 
-## March 2021
+<details>
+<summary>March 2021</summary>
 
 #### Data aggregation support
 
@@ -161,8 +178,9 @@ Add _range query option to specify a date range for time-series retrieval. Add 3
 *   from(d) - from date d to the latest
 *   between(d1, d2) - between 2 dates, d1 and d2
     
-
-## February 2021
+</details>
+<details>
+<summary>February 2021</summary>
 
 #### Object and data storage
 
@@ -185,7 +203,9 @@ Added the ability to view process executions in the web portal:
 
 ![](/attachments/131316/187269165.png)
 
-## January 2021
+</details>
+<details>
+<summary>January 2021</summary>
 
 #### Indexes
 
@@ -195,13 +215,13 @@ Add ability for users to create custom database indexes to improve query perform
 
 Add ability for users to create and manage their own queues. Each queue can either be consumed by the loader process or can be left open to be consumed on-premises - see more [here](Message-Queues_26214401.html)
 
-## December 2020
+</details>
+<details>
+<summary>2020</summary>
 
 #### Geospatial queries
 
 Add ability to add geometric shapes as a data property on objects and support geospatial queries on data, such as finding all objects within a radius of a point or within a polygon - see more [here](Geospatial-Data-and-Queries_58229161.html)
-
-## November 2020
 
 #### Versioning
 
@@ -239,3 +259,4 @@ Allow users to add new queues and configure automatic data loading into propriet
 *   Simple regression
 *   Basic descriptive statistics (min, max, mean etc)
     
+</details>

@@ -1,26 +1,26 @@
 ## Legal Notices
 
-### [Cloud Terms Of Service](Cloud-Terms-Of-Service_380993595.html)
+### [Cloud Terms Of Service](Cloud-Terms-Of-Service)
 
 Terms of service for using our Cloud Services
 
-### [Cloud Service Service Level Agreement](Cloud-Service-Service-Level-Agreement_381059152.html)
+### [Cloud Service Service Level Agreement](Cloud-Service-Service-Level-Agreement)
 
 The service level agreement we offer for our Cloud Services
 
-### [Cloud Service Support Policy](Cloud-Service-Support-Policy_381059182.html)
+### [Cloud Service Support Policy](Cloud-Service-Support-Policy)
 
 The policy for puchased support of the Cloud Services
 
-### [Technical and Organizational Security Measures](Technical-and-Organizational-Security-Measures_381026530.html)
+### [Technical and Organizational Security Measures](Technical-and-Organizational-Security-Measures)
 
 The technical and organizational security measures to ensure a level of security appropriate to the risks that are presented by the processing of Customer Personal Data
 
-### [Cloud Service Subprocessors](Cloud-Service-Subprocessors_380993748.html)
+### [Cloud Service Subprocessors](Cloud-Service-Subprocessors)
 
 OpenDataDSL may engage entities to process personal data that you include in your use of the Cloud Services
 
-### [Cloud Data Processing Agreement](Cloud-Data-Processing-Agreement_380993700.html)
+### [Cloud Data Processing Agreement](Cloud-Data-Processing-Agreement)
 
 Data protection requirements with respect to the processing of Customer Personal Data
 

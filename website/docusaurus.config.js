@@ -22,9 +22,10 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'product/intro',
           position: 'left',
           label: 'Documentation',
+          sidebarPath: 'product'
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/pricing', label: 'Pricing', position: 'left'},
@@ -35,11 +36,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/intro',
+              to: '/docs/product/intro',
+            },
+            {
+              label: 'Tutorials',
+              to: '/docs/product/Tutorials/Tutorials',
             },
           ],
         },
@@ -48,15 +53,11 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/odsl',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/opendatadsl',
             },
           ],
         },
@@ -69,7 +70,7 @@ module.exports = {
             },
             {
               label: 'Legal Notices',
-              to: '/Legal-Notices',
+              to: '/legal/Legal-Notices',
             },
           ],
         },

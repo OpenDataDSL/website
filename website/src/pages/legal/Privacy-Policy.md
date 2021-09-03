@@ -5,8 +5,7 @@ Our practices towards the use of personal data that you provide to us
 
 _Last Updated 13th July 2021_
 
-1\. Purpose of the Privacy Policy
-=================================
+## 1\. Purpose of the Privacy Policy
 
 OpenDataDSL is committed to protecting your privacy. We have prepared this Privacy Policy to describe to you our practices regarding the Personal Data (as defined below) we collect from users of our website located at [opendatadsl.com](http://opendatadsl.com) and [portal.opendatadsl.com](http://portal.opendatadsl.com) and in connection with our OpenDataDSL products and services (the "Products"). In addition, this Privacy Policy tells you about your privacy rights and how the law protects you.
 
@@ -14,33 +13,27 @@ This website and our Products are not intended for children and we do not knowin
 
 It is important that you read this Privacy Policy together with any other privacy notice or fair processing notice we may provide on specific occasions when we are collecting or processing Personal Data about you so that you are fully aware of how and why we are using your data. This Privacy Policy supplements the other notices and is not intended to override them.
 
-2\. Controller and Contact Details
-==================================
+## 2\. Controller and Contact Details
 
 OpenDataDSL (collectively referred to as “Walkfares”, “OpenDataDSL”, “we”, “us” or “our” in this Privacy Policy) is the controller of Personal Data submitted in accordance with this Privacy Policy and is responsible for that Personal Data. We have appointed a data protection officer (DPO) who is responsible for overseeing questions in relation to this Privacy Policy. If you have any questions about this Privacy Policy, including any requests to exercise your legal rights, please contact our DPO at [privacy@opendatadsl.com](mailto:privacy@opendatadsl.com). You or your authorized agent may also submit requests to exercise your legal rights by submitting the webform available at [www.opendatadsl.com/legal/privacy-policy/request-for-deletion](http://www.opendatadsl.com/legal/privacy-policy/request-for-deletion).
 
-3\. Types of Data We Collect
-============================
+## 3\. Types of Data We Collect
 
 We collect Personal Data and Anonymous Data from you when you visit our site, when you send us information or communications, when you download and use our Products, and when you register for white papers, web seminars, and other events hosted by us. "Personal Data" means data that identifies, relates to, describes, can be used to contact, or could reasonably be linked directly or indirectly to you, including, for example, identifiers such as your real name, alias, postal address, unique personal identifier, online identifier, Internet Protocol (IP) address, email address, account name, or other similar identifiers; commercial information, including records of products or services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies; Internet or other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with an Internet website, application, or advertisement; and any other non-public information about you that is associated with or linked to any of the foregoing data. "Anonymous Data" means data that is not associated with or linked to your Personal Data; Anonymous Data does not permit the identification of individual persons. We do not collect any Special Categories of Personal Data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data). For details about the precise data points we collect and the categories of sources of such collection, please see Sections 4.1 through 4.5 below.
 
-3.1 Personal Data You Provide to us
------------------------------------
+### 3.1 Personal Data You Provide to us
 
 We collect Personal Data from you, such as your first and last name, e-mail and mailing addresses, professional title, and company name, and password (identifiers and professional or employment-related information) when you download and install the Products, create an account to log in to our network, or sign-up for our newsletter or other marketing material (internet/electronic activity). When you order Products on our website, we will collect all information necessary to complete the transaction, including your name, credit card information, billing information and shipping information (identifiers and financial information). We also retain information on your behalf, such as files and messages that you store using your account (Internet electronic activity). If you provide us feedback or contact us via e-mail or submit a response to an employment opportunity posted on our website, we will collect your name and e-mail address (identifiers), as well as any other content included in the e-mail, in order to send you a reply, and any information that you submit to us, such as a resume (professional or employment related information). When you participate in one of our surveys, we may collect additional profile information. When you post messages on the message boards of our website, the information contained in your posting will be stored on our servers and other users will be able to see it (Internet/electronic activity). We also collect other types of Personal Data that you provide to us voluntarily, such as operating system and version, Product version numbers, and other requested information if you contact us via e-mail regarding support for the Products (commercial information or Internet/electronic activity). We may also collect Personal Data, such as demographic information, from you via the Products or at other points in our website that state that Personal Data is being collected.
 
-3.2 Personal Data Collected Via Technology
-------------------------------------------
+### 3.2 Personal Data Collected Via Technology
 
 To make our website and Products more useful to you, our servers (which may be hosted by a third party service provider) collect Personal Data from you, including browser type, operating system, IP address (a number that is automatically assigned to your computer when you use the Internet, which may vary from session to session), domain name, and/or a date/time stamp for your visit (identifiers, commercial information or Internet/electronic activity).
 
-3.3 Personal Data Collected Via Cookies
----------------------------------------
+### 3.3 Personal Data Collected Via Cookies
 
 We also use Cookies (as defined below) and navigational data like Uniform Resource Locators (URL) to gather information regarding the date and time of your visit and the solutions and information for which you searched and which you viewed (Internet/electronic activity). Like most technology companies, we automatically gather this Personal Data and store it in log files each time you visit our website or access your account on our network. "Cookies" are small pieces of information that a website sends to your computer’s hard drive while you are viewing a web site. We may use both session Cookies (which expire once you close your web browser) and persistent Cookies (which stay on your computer until you delete them) to provide you with a more personal and interactive experience on our website. Persistent Cookies can be removed by following Internet browser help file directions. You may choose to refuse or disable Cookies via the settings on your browser, however by doing so, some areas of our website may not work properly.
 
-3.4 Personal and/or Anonymous Data Collected By Third Parties.
---------------------------------------------------------------
+### 3.4 Personal and/or Anonymous Data Collected By Third Parties.
 
 (a) We may receive Personal and/or Anonymous Data about you from other sources, including companies that provide our Products by way of a co-branded or private-labeled website or companies that offer their products and/or services on our website ("Third Party Companies"). Those Third Party Companies may supply us with Personal Data, such as your calendars and address book information, in order to help us establish the account. We may add this information to the information we have already collected from you via our website in order to improve the Products we provide.
 
@@ -48,16 +41,13 @@ We also use Cookies (as defined below) and navigational data like Uniform Resour
 
 (c) We have no control over, do not review, and cannot be responsible for, outside websites or their content. Please be aware that the terms of this Privacy Policy do not apply to these outside websites or content, or to any collection of data after you click on links to such outside websites. You may determine whether or not we are responsible for the content of a website by reviewing the URL and confirming the ownership of the applicable domain by means of a service such as [DNSstuff.com](http://DNSstuff.com).
 
-3.5 Personal Data That We Collect From You About Others.
---------------------------------------------------------
+### 3.5 Personal Data That We Collect From You About Others.
 
 If you decide to create an account for and invite a third party to join our network, we will collect your and the third party's names and e-mail addresses (identifiers) in order to send an e-mail and follow up with the third party. You or the third party may contact us at [privacy@opendatadsl.com](mailto:privacy@opendatadsl.com) to request the removal of this information from our database.
 
-4\. Use Of Your Data.
-=====================
+## 4\. Use Of Your Data.
 
-4.1 General Use.
-----------------
+### 4.1 General Use.
 
 In general, Personal Data you submit to us is used either to respond to requests that you make, or to aid us in serving you better. We use your Personal Data in the ways set out in the section below where we also detail the legal bases we rely on to do so:
 
@@ -192,46 +182,37 @@ to you about goods or services that may be of interest to you
 *   Third Parties
     
 
-4.2 Creation of Anonymous Data.
--------------------------------
+### 4.2 Creation of Anonymous Data.
 
 We may create Anonymous Data records from Personal Data by excluding information (such as your name and IP address) that makes the data personally identifiable to you. We use this Anonymous Data to analyze request and usage patterns so that we may enhance the content of our Products and improve site navigation, and for marketing and analytics. We reserve the right to use and disclose Anonymous Data to Third Party Companies in our discretion.
 
-4.3 Feedback.
--------------
+### 4.3 Feedback.
 
 If you provide feedback on any of our Products or our website, we may use such feedback for any purpose, provided we will not associate such feedback with your Personal Data. We will collect any information contained in such communication and will treat the Personal Data in such communication in accordance with this Privacy Policy.
 
-5\. Disclosure Of Your Personal Data.
-=====================================
+## 5\. Disclosure Of Your Personal Data.
 
-5.1 Disclosure to Affiliates.
------------------------------
+### 5.1 Disclosure to Affiliates.
 
 We may share some or all of your Personal Data with other companies under our common control ("Affiliates"), in which case we will require our Affiliates to honor this Privacy Policy. If another company acquires us or our assets, that company will possess the Personal Data collected by it and us and will assume the rights and obligations regarding your Personal Data as described in this Privacy Policy. We may also disclose your Personal Data to third parties in the event that we sell or buy any business or assets, in which case we may disclose your Personal Data to the prospective seller or buyer of such business or assets.
 
-5.2 Disclosure to Third Party Service Providers.
-------------------------------------------------
+### 5.2 Disclosure to Third Party Service Providers.
 
 **OpenDataDSL does not and will not sell your Personal Data.** Except as otherwise stated in this policy, we do not generally share the Personal Data that we collect with other entities. However, we may share your Personal Data -- including each category of Personal Data described above -- with third party service providers to: (a) provide you with the Products that we offer you through our website; (b) process payments; (c) conduct quality assurance testing; (d) facilitate creation and maintenance of accounts; (e) collect and analyze data; (f) provide technical support; or (g) provide specific business services, such as synchronization with other software applications and marketing services. These third party service providers are required by written agreement not to retain, use, or disclose your Personal Data other than to provide the services requested by us.
 
-5.3 Disclosure to Other Third Party Companies.
-----------------------------------------------
+### 5.3 Disclosure to Other Third Party Companies.
 
 We will not disclose your Personal Data to other Third Party Companies unless you have "opted-in" by following the instructions we provide to allow such disclosure, such as by registering for an event where we have notified you that we share attendee information with third-party sponsors of the event. If you have opted-in to receive e-mail communications from a Third Party Company and later wish to discontinue receipt of these e-mails, please contact the Third Party Company directly to update your preferences. The privacy policies of our Third Party Companies may apply to the use and disclosure of your Personal Data that we collect and disclose to such Third Party Companies. Because we do not control the privacy practices of our Third Party Companies, you should read and understand their privacy policies.
 
-5.4 Other Disclosures.
-----------------------
+### 5.4 Other Disclosures.
 
 Regardless of any choices you make regarding your Personal Data (as described below), we may disclose Personal Data if we believe in good faith that such disclosure is necessary to (a) comply with relevant laws or to respond to subpoenas or warrants served on us; (b) protect or defend our rights or property or the rights or property of users of the Products; or (c) protect against fraud and reduce credit risk.
 
-6\. Your Choices Regarding Your Personal Data.
-==============================================
+## 6\. Your Choices Regarding Your Personal Data.
 
 We offer you choices regarding the collection, use, and sharing of your Personal Data. We will periodically send you free newsletters and e-mails that directly promote the use of our site or the purchase of our Products. When you receive newsletters or promotional communications from us, you may indicate a preference to stop receiving further communications from us and you will have the opportunity to "opt-out" by following the unsubscribe instructions provided in the e-mail you receive or by contacting us directly (please see contact information above). Despite your indicated e-mail preferences, we may send you notices of any updates to our Privacy Policy.
 
-7\. Your Legal Rights regarding your Personal Data.
-===================================================
+## 7\. Your Legal Rights regarding your Personal Data.
 
 Under certain circumstances, you may have rights under applicable data protection laws in relation to your Personal Data.
 
@@ -261,43 +242,33 @@ This is a security measure to ensure that Personal Data is not disclosed to any 
 
 You also have the right to lodge a complaint with a [data protection authority](http://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=61208) if you consider that the processing of your personal information infringes applicable law. If you have any questions, concerns or complaints regarding our compliance with this notice and applicable data protection laws, we encourage you to first contact our Data Protection Officer. We will investigate and attempt to resolve complaints and disputes and will make every reasonable effort to honour your wish to exercise your rights as quickly as possible and in any event, within the timescales provided by data protection laws.
 
-8\. Security Of Your Personal Data.
-===================================
+## 8\. Security Of Your Personal Data.
 
 Unfortunately, the transmission of information via the internet is not completely secure. Although we are committed to protecting your Personal Data, we cannot guarantee the security of your information transmitted to our site; any transmission is at your own risk. Once we have received your information, we use a variety of industry-standard security technologies and procedures to help protect your Personal Data from unauthorized access, use, or disclosure. We have put in place procedures to deal with any suspected Personal data breach and will notify you and any applicable regulator of a breach where required to do so.
 
-9\. Data Retention.
-===================
+## 9\. Data Retention.
 
 We will only retain your Personal Data for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.
 
 To determine the appropriate retention period for Personal Data, we consider the amount, nature, and sensitivity of the Personal Data, the potential risk of harm from unauthorised use or disclosure of your Personal Data, the purposes for which we process your Personal Data and whether we can achieve those purposes through other means, and the applicable legal requirements.
 
-10\. Dispute Resolution.
-========================
+## 10\. Dispute Resolution.
 
 If you believe that we have not adhered to this Privacy Policy, please contact us by e-mail at [legal@opendatadsl.com](mailto:legal@opendatadsl.com). We will do our best to address your concerns. If you feel that your complaint has been addressed incompletely, we invite you to let us know for further investigation. If we are unable to reach a resolution to the dispute, we will settle the dispute exclusively under the rules of the American Arbitration Association.
 
-11\. Changes To This Privacy Policy.
-====================================
+## 11\. Changes To This Privacy Policy.
 
 This Privacy Policy is subject to occasional revision, and if we make any substantial changes in the way we use your Personal Data, we will notify you by sending you an e-mail to the last e-mail address you provided to us or by prominently posting notice of the changes on our website. Any material changes to this Privacy Policy will be effective upon the earlier of thirty (30) calendar days following our dispatch of an e-mail notice to you or thirty (30) calendar days following our posting of notice of the changes on our site. These changes will be effective immediately for new users of our website and Products. Please note that at all times you are responsible for updating your Personal Data to provide us with your most current e-mail address. In the event that the last e-mail address that you have provided us is not valid, or for any reason is not capable of delivering to you the notice described above, our dispatch of the e-mail containing such notice will nonetheless constitute effective notice of the changes described in the notice. In any event, changes to this Privacy Policy may affect our use of Personal Data that you provided us prior to our notification to you of the changes. If you do not wish to permit changes in our use of your Personal Data, you must notify us prior to the effective date of the changes that you wish to deactivate your account with us. Continued use of our website or Products, following notice of such changes shall indicate your acknowledgement of such changes and agreement to be bound by the terms and conditions of such changes.
 
-12\. Transfers of Personal Data outside the EEA.
-================================================
+## 12\. Transfers of Personal Data outside the EEA.
 
 Your personal information may be transferred and stored in countries outside the EU, that are subject to different standards of data protection. OpenDataDSL will take appropriate steps to ensure that transfers of personal information are in accordance with applicable law and carefully managed to protect your privacy rights and interests, including through the use of standard contractual clauses. Additionally, OpenDataDSL uses a limited number of third-party service providers to assist us in providing our services to customers. These third parties may access, process, or store Personal Data in the course of providing their services. OpenDataDSL obtains contractual commitments from them to protect your Personal Data.
 
-13\. Accessibility.
-===================
+## 13\. Accessibility.
 
 We are committed to making our products and services accessible to everyone. If you need help with your accessibility-related requests and other servicing needs please contact us at [privacy@opendatadsl.com](mailto:privacy@opendatadsl.com).
 
-14\. Online Tracking.
-=====================
+## 14\. Online Tracking.
 
 OpenDataDSL does not respond to do-not-track signals because we are not aware of a signal that demonstrates the consumer’s intention to not be tracked versus a preset browser setting. Should a uniform standard be adopted, we will be open to considering how best to implement it. For more information about interest-based ads, or to opt out of having your web browsing information used for behavioral advertising purposes, please visit [www.aboutads.info/choices](http://www.aboutads.info/choices).
 
-Document generated by Confluence on 31 Aug, 2021 08:45
-
-[Atlassian](http://www.atlassian.com/)

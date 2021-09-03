@@ -12,6 +12,7 @@ const FeatureList = [
         product, no more out-of-date, hard-to-install software.
       </>
     ),
+    link: "easy-to-use"
   },
   {
     title: 'Focus on What Matters',
@@ -58,20 +59,21 @@ const FeatureList = [
     jpg: require('../../static/img/customise.jpg').default,
     description: (
       <>
-        Build applications using our APIs and customise the portal with your logo and colours to
+        Build applications using our APIs and customise the portal with your own domain, logo and colours to
         make it your own.
       </>
     ),
   },
 ];
 
-function Feature({jpg, title, description}) {
+function Feature({jpg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img src={jpg} className={styles.featureSvg} alt={title} />
-        {/* <Svg className={styles.featureSvg} alt={title} /> */}
-      </div>
+      <a href={link}>
+        <div className="text--center">
+          <img src={jpg} className={styles.featureSvg} alt={title} />
+        </div>
+      </a>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

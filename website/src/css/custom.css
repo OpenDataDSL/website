@@ -26,3 +26,17 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+.column25 {
+  flex: 25%;
+}
+.column75 {
+  flex: 75%;
+}
