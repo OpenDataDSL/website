@@ -17,7 +17,7 @@ This tutorial assumes some familiarity with writing code as we will be doing som
 You will need to have the following:
 
 *   An account with OpenDataDSL    
-*   Microsoft VS Code with the [OpenDataDSL extension](/website/docs/User%20Guides/Microsoft-VS-Code-Extension)
+*   Microsoft VS Code with the [OpenDataDSL extension](/docs/product/User%20Guides/Microsoft-VS-Code-Extension)
     
 
 ## Tutorial Steps
@@ -97,7 +97,7 @@ This now displays:
 
 Note how Saturday, Sunday and Monday are now excluded from the output dates.
 
-For further details about the rules you can use, see [Holiday Calendar](Holiday-Calendar_2818189.html).
+For further details about the rules you can use, see [Holiday Calendar](/docs/product/Developer%20Guides/Calendars/Holiday-Calendar).
 
 ### Creating a TimeSeries
 
@@ -271,7 +271,7 @@ The states of the reliability status are:
 ```js
 // Setting the status when the value is added
 ts1 = TimeSeries("BUSINESS")
-ts1.add("2021-01-01", 21.5, \["Valid", "Calculated"\])
+ts1.add("2021-01-01", 21.5, ["Valid", "Calculated"])
 print json(ts1)
 ```
 
@@ -530,7 +530,7 @@ Results:
 
 ### Functions
 
-There are various functions in OpenDataDSL that work with TimeSeries - all of them are listed [here](TimeSeries-Functions_47546415.html).
+There are various functions in OpenDataDSL that work with TimeSeries - all of them are listed [here].
 
 #### Basic Statistics
 
@@ -568,7 +568,7 @@ Results:
 
 #### Regression
 
-Some TimeSeries functions produce an object with multiple resultant values, and example of this is the [simpleRegression](47808574.html) function.
+Some TimeSeries functions produce an object with multiple resultant values, and example of this is the [simpleRegression](Statistical%20Functions#simpleregression) function.
 
 ```js
 // Create a TimeSeries

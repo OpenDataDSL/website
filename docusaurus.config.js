@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'Smart Data Management Tools',
   url: 'https://doc.opendatadsl.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
