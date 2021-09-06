@@ -63,7 +63,7 @@ This code will print out the numbers 1 to 10 in the output console
 You can also iterate through a list or array or variables using a **for** statement:
 
 ```js
-args = \["Hello", "World"\]
+args = ["Hello", "World"]
 for arg in args
     print arg
 next
@@ -179,7 +179,7 @@ In order to make the code more readable for everyone else, you can add comments 
 
 ```js
 // This is an array
-args = \["Hello", "World"\] // A comment on the same line
+args = ["Hello", "World"] // A comment on the same line
 ```
 
 ### Multi-line comments

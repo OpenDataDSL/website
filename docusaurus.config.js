@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'OpenDataDSL',
   tagline: 'Smart Data Management Tools',
-  url: 'https://doc.opendatadsl.com',
+  url: 'https://www.opendatadsl.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'OpenDataDSL', // Usually your GitHub org/user name.
+  projectName: 'website', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'OpenDataDSL',
