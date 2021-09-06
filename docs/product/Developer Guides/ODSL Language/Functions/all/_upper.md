@@ -1,14 +1,15 @@
 Returns a copy of the passed in string with all the characters converted to UPPER case
 
-#### Syntax:
+#### Syntax
 
 ```js
 stringlower = upper(string)
 ```
 
-#### Example:
+#### Example
 ```js
 print lower("Who WhAT WhY")
-
-> WHO WHAT WHY
+```
+```
+WHO WHAT WHY
 ```

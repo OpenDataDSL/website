@@ -4,14 +4,15 @@ Returns the arithmetic average value from a list of values using the formula:
 
 ![](/attachments/47775825/47546452.png)
 
-#### Syntax:
+#### Syntax
 var = mean(List or TimeSeries)
-#### Result:
+#### Result
 A number representing the arithmetic average value from the input List or TimeSeries
-####Example:
+#### Example
 ```js
 data = [1,2,3]
 print mean(data)
-
-> 2
+```
+```
+2
 ```

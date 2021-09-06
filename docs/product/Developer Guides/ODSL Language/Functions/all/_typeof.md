@@ -1,13 +1,14 @@
 Returns a String with the type name of a variable
 
-## Syntax:
+#### Syntax
 ```js
 typeOf(Any Var)
 ```
-## Example:
+#### Example
 ```js
 a = "Hello"
 print typeOf(a)
-
-> Scalar
+```
+```
+Scalar
 ```

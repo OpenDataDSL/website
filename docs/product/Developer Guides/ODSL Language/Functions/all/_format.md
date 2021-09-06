@@ -1,19 +1,20 @@
-Convert a string to a date
-
+Converts a date into a string using the specific format
 
 #### Syntax
 ```js
-date = parse(stringdate, formatstring)
+string = format(date, formatstring)
 ```
 #### Example
 ```js
-date = parse("22Oct2020", "ddMMMyyyy")
-print date
+date = Date("2020-10-22")
+dstring = format(date, "ddMMMyyyy")
+print dstring
 ```
 ```
-2020-10-22T00:00:00
+22Oct2020
 ```
-#### Notes on formatstring
+
+### Notes on formatstring
 
 |Letter|Date or Time Component|Presentation|Examples|
 |-|-|-|-|

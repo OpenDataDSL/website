@@ -1,12 +1,13 @@
 Tests to see if the first string starts with the specified prefix. If either the string or the prefix are null, it returns false
 
-#### Syntax:
+#### Syntax
 ```js
 boolean = startsWith(str, prefix)
 ```
-#### Example:
+#### Example
 ```js
 print startsWith("Patent", "Pat")
-
-> true
+```
+```
+true
 ```

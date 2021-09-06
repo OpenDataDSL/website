@@ -1,13 +1,14 @@
 Joins 2 non-null strings together
 
-#### Syntax:
+#### Syntax
 ```js
 string = concatenate(str1, str2)
 ```
-#### Example:
+#### Example
 ```js
 str = concatenate("Cares", "s")
 print str
-
-> Caress
+```
+```
+Caress
 ```

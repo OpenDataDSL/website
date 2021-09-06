@@ -1,10 +1,10 @@
 Evaluates a string expression and returns the result
 
-## Syntax:
+#### Syntax
 ```js
 result = evaluate(string)
 ```
-## Example:
+#### Example
 ```js
 a=10
 b=12

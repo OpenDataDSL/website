@@ -14,6 +14,8 @@ import StartsWith from './all/_startsWith.md';
 import Trim from './all/_trim.md';
 import Upper from './all/_upper.md';
 
+A set of functions that help you manipulate string variables
+
 ## clean
 <Clean  />
 

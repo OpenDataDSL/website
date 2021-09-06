@@ -1,10 +1,10 @@
 Converts the input variable of any type to a JSON formatted string
 
-#### Syntax:
+#### Syntax
 ```js
 string = json(var)
 ```
-Example:
+#### Example
 ```js
 obj = Object()
 obj.name = "John"

@@ -1,12 +1,13 @@
 Returns true if a string contains another string
 
-#### Syntax:
+#### Syntax
 ```js
 boolean = contains(str1, str2)
 ```
-#### Example:
+#### Example
 ```js
 print contains("one,two,three,four,five", "two")
-
-> true
+```
+```
+true
 ```

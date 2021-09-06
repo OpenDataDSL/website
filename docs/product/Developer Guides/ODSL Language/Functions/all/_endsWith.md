@@ -1,12 +1,13 @@
 Tests to see if the first string ends with the specified suffix. If either the string or the suffix are null, it returns false
 
-#### Syntax:
+#### Syntax
 ```js
 boolean = endsWith(str, suffix)
 ```
-#### Example:
+#### Example
 ```js
 print endsWith("Patent", "tent")
-
-\> true
+```
+```
+> true
 ```

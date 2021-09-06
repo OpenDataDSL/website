@@ -6,17 +6,18 @@ The object contains 3 fields:
 *   scope - the scope of the variable, **Global** being the main scope    
 *   type - the type of the variable as returned by the **typeOf** function
 
-## Syntax:
+#### Syntax
 ```js
 variables()
 ```
-## Example:
+#### Example
 ```js
 a = "Hello"
 d = Date()
 print variables()
-
->[
+```
+```json
+[
 {
   "name": "a",
   "scope": "Global",

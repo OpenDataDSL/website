@@ -1,18 +1,18 @@
 Creates an arbitrage free monthly curve from an input curve
 
-## Description
+#### Description
 
 The bootstrap function converts quarters, seasons and years into months and performs an arbitrage-free calculation on any overlapping periods.
 
-## Syntax
+#### Syntax
 ```js
 bootstrapped = bootstrapCurve(Curve)
 ```
-## Result
+#### Result
 
 A curve with monthly tenors
 
-## Example
+#### Example
 ```js
 ondate = CurveDate(Date("2020-12-14"), "REOMHENG")
 
@@ -25,8 +25,9 @@ bootstrapped = bootstrapCurve(curve)
 for tenor in bootstrapped.contracts
     print tenor.absolute + " : " + tenor.value
 next
-
-> 2021M01 : 26.87
+```
+```
+2021M01 : 26.87
 2021M02 : 26.84
 2021M03 : 26.84
 2021M04 : 26.75

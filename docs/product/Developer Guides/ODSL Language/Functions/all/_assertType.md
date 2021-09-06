@@ -1,10 +1,10 @@
 A test to check if a variable is of a certain type
 
-## Syntax:
+#### Syntax
 ```js
 assertType(var, type)
 ```
-## Example:
+### Example
 ```js
 greeting = "Hello"
 obj = Object()

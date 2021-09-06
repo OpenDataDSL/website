@@ -1,14 +1,14 @@
 A curve function that shapes a monthly curve
 
-## Syntax
+#### Syntax
 ```js
 Curve = shape(Curve)
 ```
-## Result
+#### Result
 
 A curve that is shaped using the a normalised shape based on the first 12 months of the input curve. It then shapes the rest of the curve in blocks of 12 months retaining the correct average values.
 
-## Example
+#### Example
 ```js
 ondate = CurveDate(Date("2020-10-30"), "REOMHENG")
 
@@ -37,8 +37,9 @@ shaped = shape(bootstrapped)
 for tenor in shaped.contracts
     print tenor.absolute + " : " + tenor.value
 next
-
-> 2020M11 : 26.870000
+```
+```
+2020M11 : 26.870000
 2020M12 : 26.850000
 2021M01 : 26.750000
 2021M02 : 26.650000

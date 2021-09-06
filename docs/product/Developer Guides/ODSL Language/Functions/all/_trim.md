@@ -1,20 +1,21 @@
 Returns a string with any space characters from the start or end of the string removed
 
-#### Syntax:
+#### Syntax
 
 ```js
 string = trim(string)
 ```
 
-#### Example:
+#### Example
 
 ```js
 print trim(" This String ")
-
-> This String
-
+```
+```
+This String
+```js
 print "[" + trim(" This String ") + "]"
-
-> [This String]
-
+```
+```
+[This String]
 ```

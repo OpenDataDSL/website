@@ -1,8 +1,8 @@
-A test to check if a variable is null
+A test to check if a variable has the specified named property
 
 #### Syntax
 ```js
-assertNull(var)
+assertHasProperty(var, property)
 ```
 #### Example
 ```js
@@ -10,8 +10,7 @@ obj = Object()
 obj.name = "John"
 obj.value = 23
 
-// obj doesn't have a property called description
-assertNull(obj.description)
+assertHasProperty(obj, "name")
 ```
 If the test fails, an exception is thrown
 

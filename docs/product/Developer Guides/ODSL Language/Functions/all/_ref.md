@@ -1,10 +1,10 @@
 Creates a reference to an active variable. This is used when you don’t want to have a static object inside another object, instead this creates a dynamic reference to an object which is fetched whenever the property is requested.
 
-## Syntax:
+#### Syntax
 ```js
 reference = ref(var)
 ```
-## Example:
+#### Example
 ```js
 // Create an invoice type
 invoice = type

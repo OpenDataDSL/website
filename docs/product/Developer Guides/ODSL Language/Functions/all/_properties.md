@@ -7,16 +7,17 @@ The object contains 3 fields:
 *   type - the type of the property as returned by the **typeOf** function
     
 
-## Syntax:
+#### Syntax
 ```js
 properties(Any Var)
 ```
-## Example:
+#### Example
 ```js
 d = Date()
 print properties(d)
-
-> [
+```
+```json
+[
 {
   "description": "Get the year",
   "name": "year",

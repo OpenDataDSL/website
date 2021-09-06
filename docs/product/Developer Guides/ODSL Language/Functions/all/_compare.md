@@ -1,16 +1,18 @@
 Compares the contents of 2 non-null strings, returns true if they are the same
 
-#### Syntax:
+#### Syntax
 ```js
 boolean = compare(str1, str2)
 ```
-#### Example:
+#### Example
 ```js
 print compare("Hello", "hello")
-
-> false
-
+```
+```
+false
+```js
 print compare("Hello", "Hello")
-
-> true
+```
+```
+true
 ```

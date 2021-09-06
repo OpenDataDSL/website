@@ -1,6 +1,6 @@
 Returns an array of Objects that gives information about the methods of a variable.
 
-## Description
+#### Description
 
 The object contains 4 fields:
 
@@ -10,16 +10,17 @@ The object contains 4 fields:
 *   syntax - The syntax of the method including all the parameters
     
 
-## Syntax
+#### Syntax
 ```js
 methods(Any Var)
 ```
-## Example
+#### Example
 ```js
 d = Date()
 print methods(d)
-
-> [
+```
+```json
+[
 {
   "description": "Returns a new Date as the next calendar day after this one",
   "name": "next",

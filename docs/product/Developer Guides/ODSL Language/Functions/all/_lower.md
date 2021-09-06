@@ -1,12 +1,13 @@
 Returns a copy of the passed in string with all the characters converted to lower case
 
-#### Syntax:
+#### Syntax
 ```js
 stringlower = lower(string)
 ```
-#### Example:
+#### Example
 ```js
 print lower("Who WhAT WhY")
-
-> who what why
+```
+```
+who what why
 ```

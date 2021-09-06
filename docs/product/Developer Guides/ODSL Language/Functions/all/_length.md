@@ -1,12 +1,13 @@
 Returns the length of a string
 
-#### Syntax:
+#### Syntax
 ```js
 int = length(string)
 ```
-#### Example:
+#### Example
 ```js
 print length("The end is nigh")
-
-> 15
+```
+```
+15
 ```

@@ -1,10 +1,10 @@
 Tests to see if a value or expression is true
 
-## Syntax:
+#### Syntax
 ```js
 assertTrue(var, optional message)
 ```
-## Example:
+#### Example
 ```js
 obj = Object()
 obj.name = "John"

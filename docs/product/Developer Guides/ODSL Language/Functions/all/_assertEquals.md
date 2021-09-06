@@ -1,10 +1,10 @@
 A test to check if 2 variables or values are exactly equal
 
-## Syntax:
+#### Syntax
 ```js
 assertEquals(expected, value, optional message)
 ```
-## Example:
+#### Example
 ```js
 greeting = "Hello"
 obj = Object()

@@ -6,9 +6,9 @@ Observations (x,y pairs) are added as time=x and value=y
 
 The function result can also be used to predict other values given a Date input as shown in the example
 
-#### Syntax:
+#### Syntax
 var = simpleRegression(TimeSeries)
-#### Result:
+#### Result
 The output from this function is an [Object](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2719912/Object) with properties representing some statistical calculations on the input time-series as shown in the table below:
 
 |**Property**|**Description**|
@@ -35,7 +35,7 @@ The result also has methods as detailed in the following table:
 |-|-|
 |predict(date)|Use the regression model to predict the y value for a new x (Date) value|
 
-#### Example:
+#### Example
 ```js
 input = TimeSeries("DAILY")
 input.add("2020-11-01", 12.5)

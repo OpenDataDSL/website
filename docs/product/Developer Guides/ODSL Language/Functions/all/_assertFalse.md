@@ -1,10 +1,10 @@
 A test to check if an expression is false (not true)
 
-## Syntax:
+#### Syntax
 ```js
 assertFalse(expression, optional message)
 ```
-## Example:
+#### Example
 ```js
 obj = Object()
 obj.name = "John"
