@@ -1,11 +1,11 @@
 Calendar
 ========
 
-A calendar variable type represents an [ODSL Calendar](/docs/product/Developer%20Guides/Calendars/Calendars). It is used with [timeseries](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2785484/TimeSeries), curves and other time-bound resources. See [here](/docs/product/Developer%20Guides/Calendars/Calendars.md) for more detailed information on ODSL Calendars
+A calendar variable type represents an [ODSL Calendar](/docs/product/Developer%20Guides/Calendars/Calendars). It is used with [timeseries](TimeSeries), curves and other time-bound resources. See [here](/docs/product/Developer%20Guides/Calendars/Calendars) for more detailed information on ODSL Calendars
 
 ## Introduction
 
-The calendar variable wraps a standard [ODSL calendar](/docs/product/Developer%20Guides/Calendars/Calendars.md) and allows you to use the calendar in your scripts.
+The calendar variable wraps a standard [ODSL calendar](/docs/product/Developer%20Guides/Calendars/Calendars) and allows you to use the calendar in your scripts.
 
 ## Construction
 
