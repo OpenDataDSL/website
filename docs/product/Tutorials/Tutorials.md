@@ -22,7 +22,7 @@ This guide details the syntax of the find command and shows many examples of usi
 
 ### Integration
 
-#### [Setting up a custom local SQL Server data loader](Setting-up-a-custom-local-SQL-Server-data-loader)
+#### [Create a custom local SQL Server loader](Setting-up-a-custom-local-SQL-Server-data-loader)
 This tutorial takes a detailed look at subscribing to some data in OpenDataDSL which will trigger a message to be sent to a queue. We will write a client side C# application to listen for those messages and load the data into a local SQL Server
 
 ### Working with
