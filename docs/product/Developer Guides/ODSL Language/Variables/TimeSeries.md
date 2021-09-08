@@ -25,7 +25,7 @@ ts2 = TimeSeries("2020-10-01", "business", 12.5)
  Creates a TimeSeries aligned to the business calendar 
  with a list of values starting on the 1st October 2020
 **/
-ts3 = TimeSeries("2020-10-01", "business", \[12.5,12.6,12.7,12.8,12.9\])
+ts3 = TimeSeries("2020-10-01", "business", [12.5,12.6,12.7,12.8,12.9])
 
 /**
  Creates a TimeSeries aligned to the business calendar 
@@ -35,7 +35,7 @@ ts3 = TimeSeries("2020-10-01", "business", \[12.5,12.6,12.7,12.8,12.9\])
 ts4 = TimeSeries("2020-10-01", "business", "Hello", "any")
 
 // Creates a TimeSeries with multiple observations at various time points
-ts = TimeSeries(\["2020-11-21T08:40:12","2020-09-11T19:27:22"\], "SPARSE", \[12.5,15.5\])
+ts = TimeSeries(["2020-11-21T08:40:12","2020-09-11T19:27:22"], "SPARSE", [12.5,15.5])
 ```
 
 ## Properties

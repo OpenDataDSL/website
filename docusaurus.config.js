@@ -24,8 +24,7 @@ module.exports = {
           type: 'doc',
           docId: 'product/intro',
           position: 'left',
-          label: 'Documentation',
-          sidebarPath: 'product'
+          label: 'Documentation'
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/pricing', label: 'Pricing', position: 'left'},
@@ -97,5 +96,12 @@ module.exports = {
         },
       },
     ],
+  ],
+  stylesheets: [{
+    rel: "stylesheet",
+    href: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css",
+    integrity: "sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We",
+    crossorigin: "anonymous"
+    }
   ],
 };

@@ -7,7 +7,7 @@ The action resource contains all the standard public and your own proprietary wo
 
 The Action REST API is a full CRUD API allowing you to search and filter actions as well as update, version and delete them. It is accessed through the following URL:
 
-```https
+```json
 https://api.opendatadsl.com/service/action
 ```
 

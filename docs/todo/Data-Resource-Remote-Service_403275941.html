@@ -1,0 +1,555 @@
+Documentation : Data Resource Remote Service  
+
+1.  [Documentation](index.html)
+2.  [OpenDataDSL Documentation Home](OpenDataDSL-Documentation-Home_131075.html)
+3.  [API Reference Guides](API-Reference-Guides_65615.html)
+4.  [Services REST API Guide](Services-REST-API-Guide_2719745.html)
+5.  [API and SDK Documentation](API-and-SDK-Documentation_119537683.html)
+
+Documentation : Data Resource Remote Service
+============================================
+
+Created by Colin Hartley on 29 Jul, 2021
+
+The data resource contains all the complex data types like TimeSeries and Curve
+
+\[ [Data REST API](#DataResourceRemoteService-DataRESTAPI) \] \[ [Entities](#DataResourceRemoteService-Entities) \] \[ [Related Content](#DataResourceRemoteService-RelatedContent) \]
+
+Data REST API
+=============
+
+The Data REST API is a read-only API allowing you to search and filter the complex data types and is accessed through the following URL:
+
+https://api.opendatadsl.com/service/data
+
+The reason it is read-only is because you must relate the data entity to an object entity - so saving and deleting object entities with data properties will save and delete those related data entities
+
+The API consists of the following calls:
+
+**Method**
+
+**Path**
+
+**Example**
+
+**Description**
+
+GET
+
+Get the build information for this service
+
+GET
+
+{release}/{source}
+
+v1/public  
+v1/private
+
+List public or private data items
+
+GET
+
+{release}/{source}/{key}
+
+v1/private/TEST:SPOT
+
+Retrieve a single data item using its id
+
+Entities
+========
+
+There are currently 2 types of data entities (and their sub-entities):
+
+*   TimeSeries
+    
+    *   TimeValue
+        
+        *   Status
+            
+*   Curve
+    
+    *   Contract
+        
+        *   Status
+            
+
+TimeSeries Entity
+-----------------
+
+Here are the properties of a TimeSeries
+
+**Name**
+
+**Description**
+
+**Type**
+
+_id
+
+Unique id for the TimeSeries (or object id if this is not the latest version)
+
+String
+
+_type
+
+The type of the entity - always VarTimeSeries
+
+String
+
+description
+
+A description of the TimeSeries
+
+String
+
+start
+
+The start timestamp of the TimeSeries
+
+String(DateTime)
+
+calendar
+
+The code for the calendar that this TimeSeries maps to
+
+String
+
+timezone
+
+The timezone of the observations
+
+String
+
+currency
+
+The currency code
+
+String
+
+units
+
+The units code
+
+String
+
+properties
+
+An object containing custom dynamic properties
+
+Object
+
+_objid
+
+The id of the object that this belongs to
+
+String
+
+_dataid
+
+The name of the data id in the object
+
+String
+
+_access
+
+The data access role that this data belongs to
+
+String
+
+_objtype
+
+The object type of the object that this belongs to
+
+String
+
+_oid
+
+The id of the calendar - will match _id if this is the latest version of the calendar
+
+String
+
+_timestamp
+
+Timestamp of when this calendar version was created
+
+String(DateTime)
+
+_user
+
+The user id (email) of the user that created this calendar verision
+
+String
+
+_tag
+
+A list of version tag names for this calendar version
+
+String\[\]
+
+_version
+
+The version number of this calendar version
+
+int
+
+data
+
+The time series observations
+
+TimeValue\[\]
+
+TimeValue Entity
+----------------
+
+The TimeValue entity represents a single observation on a TimeSeries
+
+**Name**
+
+**Description**
+
+**Type**
+
+time
+
+The time point for this observation
+
+String(DateTime)
+
+value
+
+The value of this observation
+
+String or Numeric
+
+status
+
+A status object
+
+Status
+
+Status Entity
+-------------
+
+The Status entity represents the quality, source and reliability status of a TimeValue or Contract entity
+
+**Name**
+
+**Description**
+
+**Type**
+
+quality
+
+The data quality - one of:
+
+*   UNCHECKED
+    
+*   VALID
+    
+*   FAILED
+    
+
+String
+
+source
+
+The data source - one of:
+
+*   NEW
+    
+*   CHANGED
+    
+*   IMPLIED
+    
+*   FILLED
+    
+*   CONVERTED
+    
+*   CALCULATED
+    
+
+String
+
+reliability
+
+The reliability status - one of
+
+*   UNKNOWN
+    
+*   QUOTED
+    
+*   OBSERVED
+    
+*   UNOBSERVED
+    
+
+String
+
+Each status value can optionally be suffixed with a ':' and some information about the status, e.g. quality=FAILED:Failed Spike Check of 5%
+
+Curve Entity
+------------
+
+Here are the properties of a curve
+
+**Name**
+
+**Description**
+
+**Type**
+
+_id
+
+Unique id for the curve (or object id if this is not the latest version)
+
+String
+
+_type
+
+The type of the entity - always VarCurve
+
+String
+
+ondate
+
+An object representing a [CurveDate](CurveDate_7372894.html) which has the following properties:
+
+*   curveDate - String(Date)
+    
+*   expiryCalendar - String code for an expiry calendar
+    
+
+CurveDate
+
+currency
+
+The currency code
+
+String
+
+units
+
+The units code
+
+String
+
+properties
+
+An object containing custom dynamic properties
+
+Object
+
+_objid
+
+The id of the object that this belongs to
+
+String
+
+_dataid
+
+The name of the data id in the object
+
+String
+
+_access
+
+The data access role that this data belongs to
+
+String
+
+_objtype
+
+The object type of the object that this belongs to
+
+String
+
+_oid
+
+The id of the calendar - will match _id if this is the latest version of the calendar
+
+String
+
+_timestamp
+
+Timestamp of when this calendar version was created
+
+String(DateTime)
+
+_user
+
+The user id (email) of the user that created this calendar verision
+
+String
+
+_tag
+
+A list of version tag names for this calendar version
+
+String\[\]
+
+_version
+
+The version number of this calendar version
+
+int
+
+contracts
+
+An array of Contract entities
+
+Contract\[\]
+
+Contract Entity
+---------------
+
+The contract entity represents a single tenor or contract on a forward curve
+
+**Name**
+
+**Description**
+
+**Type**
+
+tenor
+
+The tenor [period code](Period-Code_2818227.html)
+
+String
+
+value
+
+The value of this tenor
+
+Numeric
+
+status
+
+The status object
+
+Status
+
+ondate
+
+An object representing a [CurveDate](CurveDate_7372894.html) which has the following properties:
+
+*   curveDate - String(Date)
+    
+*   expiryCalendar - String code for an expiry calendar
+    
+
+CurveDate
+
+properties
+
+An object containing some standard properties and any custom dynamic properties. The standard properties are:
+
+*   absolute - The absolute [period code](Period-Code_2818227.html) of the tenor
+    
+*   relative - The relative [period code](Period-Code_2818227.html) of the tenor
+    
+*   expiry - The expiry or last trading date of the tenor
+    
+*   start - The start of delivery if it is a delivered commodity
+    
+*   end - The end of delivery if it is a delivered commodity
+    
+
+Object
+
+Related Content
+===============
+
+*   Page:
+    
+    [Curve](/wiki/spaces/DOCUMENTAT/pages/7405672/Curve) —
+    
+    A curve is a structure that represents a set of values with a time index sometime in the future. It can be used for commodity and financial forward curves, yield curves and forecasts (weather, prices etc.)
+    
+*   Page:
+    
+    [simpleRegression (Function)](/wiki/spaces/DOCUMENTAT/pages/47808574) —
+    
+    SimpleRegression provides ordinary least squares regression with one independent variable estimating the linear model: `y = intercept + slope * x` or `y = slope * x`
+    
+*   Page:
+    
+    [mean (Function)](/wiki/spaces/DOCUMENTAT/pages/47775825) —
+    
+    Returns the arithmetic average value from a list of values
+    
+*   Page:
+    
+    [max (Function)](/wiki/spaces/DOCUMENTAT/pages/47775816) —
+    
+    Returns the largest value from a list of values.
+    
+*   Page:
+    
+    [geomean (Function)](/wiki/spaces/DOCUMENTAT/pages/47546461) —
+    
+    Returns the geometric average value from a list of values
+    
+*   Page:
+    
+    [min (Function)](/wiki/spaces/DOCUMENTAT/pages/47546436) —
+    
+    Returns the smallest value from a list of values.
+    
+*   Page:
+    
+    [extendCurve (Function)](/wiki/spaces/DOCUMENTAT/pages/332660739) —
+    
+    Extends a curve by a required number of years by using the value of the last maturity
+    
+*   Page:
+    
+    [forwardFillCurve (Function)](/wiki/spaces/DOCUMENTAT/pages/332333061) —
+    
+    Fills any gaps in a curve by using the value from a previous maturity
+    
+*   Page:
+    
+    [shape (Function)](/wiki/spaces/DOCUMENTAT/pages/322994408) —
+    
+    A curve function that shapes a monthly curve
+    
+*   Page:
+    
+    [asMonths (Function)](/wiki/spaces/DOCUMENTAT/pages/322961555) —
+    
+    A curve function that breaks a single contract into a list of monthly contracts, e.g. a quarter into 3 months
+    
+*   Page:
+    
+    [bootstrapCurve (Function)](/wiki/spaces/DOCUMENTAT/pages/322896029) —
+    
+    Creates an arbitrage free monthly curve from an input curve
+    
+*   Page:
+    
+    [Create a Forward Curve Configuration using ODSL](/wiki/spaces/DOCUMENTAT/pages/305857002/Create+a+Forward+Curve+Configuration+using+ODSL) —
+    
+    This tutorial walks you through creating a new forward curve configuration in the OpenDataDSL language, testing and running the curve and visualising it in the web portal.
+    
+*   Page:
+    
+    [Period Code](/wiki/spaces/DOCUMENTAT/pages/2818227/Period+Code) —
+    
+    A period code represents an absolute or relative delivery period for some commodity or financial future
+    
+*   Page:
+    
+    [Calendars](/wiki/spaces/DOCUMENTAT/pages/2818153/Calendars) —
+    
+    A detailed explanation of all the supported calendars in OpenDataDSL
+    
+*   Page:
+    
+    [TimeSeries](/wiki/spaces/DOCUMENTAT/pages/2785484/TimeSeries) —
+    
+    A timeseries is a list of values which are indexed by dates. A timeseries could be the price of a particular stock recorded at a certain time of each day (say the time that the stock exchange closes)
+    
+
+Document generated by Confluence on 31 Aug, 2021 08:45
+
+[Atlassian](http://www.atlassian.com/)
