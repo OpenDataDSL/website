@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OpenDataDSL',
-  tagline: 'Smart Data Management Tools',
+  title: 'Smart SAAS data management',
+  tagline: 'A real-world solution for getting your DATA and PROCESSES in the CLOUD',
   url: 'https://www.opendatadsl.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -28,6 +28,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/pricing', label: 'Pricing', position: 'left'},
+        {to: '/support', label: 'Support', position: 'left'},
         {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'left'}
       ],
     },

@@ -2,6 +2,37 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
+const AboutList = [
+  {
+    title: 'Our Story',
+    description: (
+      <>
+        After many years of building and using data management systems, 
+        we condensed all this knowledge into a domain specific language 
+        which encapsulates all aspects of data management in a simple and intuitive way.
+      </>
+    )
+  },
+  {
+    title: 'Our Vision',
+    description: (
+      <>
+        Our vision is to make high quality, flexible and low cost data modelling, 
+        management and reporting for all sizes of businesses and all types of markets.
+      </>
+    )
+  },
+  {
+    title: 'Technology',
+    description: (
+      <>
+        As a cloud SAAS company, we leverage elastic scaling and serverless technology 
+        to provide high quality, high performance, world scale software and services.
+      </>
+    )
+  }
+]
+
 const FeatureList = [
   {
     title: 'Easy to Use',
@@ -25,12 +56,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Make Massive Savings',
+    title: 'Big Savings',
     jpg: require('../../static/img/save_money.jpg').default,
     description: (
       <>
-        In OpenDataDSL you only pay for what you use, so you can cut
-        your IT spend on managing data.
+        In OpenDataDSL you only pay for what you use.
       </>
     ),
   },
@@ -67,22 +97,35 @@ const FeatureList = [
 ];
 
 function Feature({jpg, title, description, link}) {
-  return (
-    <div className={clsx('col col--4')}>
-      <a href={link}>
-        <div className="text--center">
-          <img src={jpg} className={styles.featureSvg} alt={title} />
+  var result;
+  if (jpg) {
+    result = (
+      <div className={clsx('col col--4')}>
+        <a href={link}>
+          <div className="text--center">
+            <img src={jpg} className={styles.featureSvg} alt={title} />
+          </div>
+        </a>
+        <div className="text--center padding-horiz--md">
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
-      </a>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
       </div>
-    </div>
-  );
+    );
+  } else {
+    result = (
+      <div className={clsx('col col--4')}>
+        <div className="text--center padding-horiz--md">
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </div>
+    );
+  }
+  return result;
 }
 
-export default function HomepageFeatures() {
+export function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -95,3 +138,18 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
+export function HomepageAbout() {
+  return (
+    <section className={styles.features}>
+      <div className="container">
+        <div className="row">
+          {AboutList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+

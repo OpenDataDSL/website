@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Documentation : Day-ahead Forecast of the Total Load</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Documentation</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="OpenDataDSL-Documentation-Home_131075.html">OpenDataDSL Documentation Home</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Data-Guides_36864001.html">Data Guides</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="ENTSOE_229638472.html">ENTSOE</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Load_238321665.html">Load</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Documentation : Day-ahead Forecast of the Total Load
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Shubha Swaroop</span>, last modified on 29 Mar, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <style type='text/css'>/*<![CDATA[*/
+div.rbtoc1630395953832 {padding: 0px;}
+div.rbtoc1630395953832 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1630395953832 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style><div class='toc-macro rbtoc1630395953832'>
+<ul class='toc-indentation'>
+<li><a href='#Day-aheadForecastoftheTotalLoad-Detaileddescription'>Detailed description</a></li>
+<li><a href='#Day-aheadForecastoftheTotalLoad-Schedule'>Schedule</a></li>
+<li><a href='#Day-aheadForecastoftheTotalLoad-DatasetDetails'>Dataset Details</a></li>
+<li><a href='#Day-aheadForecastoftheTotalLoad-DataId,NameandProfiles'>Data Id, Name and Profiles</a></li>
+<li><a href='#Day-aheadForecastoftheTotalLoad-HolidayCalendar'>Holiday Calendar</a></li>
+<li><a href='#Day-aheadForecastoftheTotalLoad-Timezone'>Timezone</a></li>
+<li><a href='#Day-aheadForecastoftheTotalLoad-Attributes'>Attributes</a></li>
+<li><a href='#Day-aheadForecastoftheTotalLoad-Tags'>Tags</a></li>
+</ul>
+</div><h3 id="Day-aheadForecastoftheTotalLoad-Detaileddescription"><sub>Detailed description</sub></h3><p><sub>Day-ahead forecast of the total load per market time unit.</sub></p><p><sub>A day-ahead forecast of the total load per market time unit per bidding zone at the latest two hours before the gate closure time of the day-ahead market in the bidding zone or at D-1, 12:00 in local time zone of the bidding zone at the latest when gate closure time does not apply. The day-ahead forecast has to be updated, if there are major changes.</sub></p><h3 id="Day-aheadForecastoftheTotalLoad-Schedule"><sub>Schedule</sub></h3><p><sub>The vendor update file is collected and processed at 23:45 hours UTC on daily basis.</sub></p><h3 id="Day-aheadForecastoftheTotalLoad-DatasetDetails"><sub>Dataset Details</sub></h3><p><sub>The dataset details for this feed is given below:</sub></p><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 156.0px;"/><col style="width: 604.0px;"/></colgroup><tbody><tr><td class="confluenceTd"><p><sub>Dataset Code</sub></p></td><td class="confluenceTd"><p><sub>ENTSOE_TL</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Dataset Name</sub></p></td><td class="confluenceTd"><p><sub>ENTSO Power Total Load</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Dataset Type</sub></p></td><td class="confluenceTd"><p><sub>Energy Fundamentals</sub></p></td></tr></tbody></table></div><h3 id="Day-aheadForecastoftheTotalLoad-DataId,NameandProfiles"><sub>Data Id, Name and Profiles</sub></h3><p><sub>The Data Id, Name Profile  convention used by OpenDataDSL for Day-ahead forecast of the total load is outlined below:</sub></p><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 158.0px;"/><col style="width: 334.0px;"/><col style="width: 76.0px;"/><col style="width: 101.0px;"/><col style="width: 90.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p><strong><sub>Data ID</sub></strong></p></th><th class="confluenceTh"><p><strong><sub>Data Id Name</sub></strong></p></th><th class="confluenceTh"><p><strong><sub>Profile</sub></strong></p></th><th class="confluenceTh"><p><strong><sub>Frequency</sub></strong></p></th><th class="confluenceTh"><p><strong><sub>Unit</sub></strong></p></th></tr><tr><td class="confluenceTd"><p><sub>ENTSO_EL.A65.A01.10YNL_L.PT15M</sub></p></td><td class="confluenceTd"><p><sub>ENTSO Electricity System Total Load Day Ahead Netherlands, TenneT NL BZ / CA/ MBA 15Minutely</sub></p></td><td class="confluenceTd"><p><sub>VOL</sub></p></td><td class="confluenceTd"><p><sub>15Minutely</sub></p></td><td class="confluenceTd"><p><sub>MW</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>ENTSO_EL.A65.A16.10YNL_L.PT15M</sub></p></td><td class="confluenceTd"><p><sub>ENTSO Electricity System Total Load Realised Netherlands, TenneT NL BZ / CA/ MBA 15Minutely</sub></p></td><td class="confluenceTd"><p><sub>VOL</sub></p></td><td class="confluenceTd"><p><sub>15Minutely</sub></p></td><td class="confluenceTd"><p><sub>MW</sub></p></td></tr></tbody></table></div><h3 id="Day-aheadForecastoftheTotalLoad-HolidayCalendar"><sub>Holiday Calendar</sub></h3><p><sub>The data doesn’t follow any holiday calendar and it is expected to load on daily basis.</sub></p><h3 id="Day-aheadForecastoftheTotalLoad-Timezone"><sub>Timezone</sub></h3><p><sub>The data is extracted in UTC and loaded to the server in UTC. The DayLight Saving treatment is not required in this case.</sub></p><h3 id="Day-aheadForecastoftheTotalLoad-Attributes"><sub>Attributes</sub></h3><p><sub>The attributes hold below values values for this dataset:</sub></p><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 156.0px;"/><col style="width: 604.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p><strong><sub>Name</sub></strong></p></th><th class="confluenceTh"><p><strong><sub>Sample Values</sub></strong></p></th></tr><tr><td class="confluenceTd"><p><sub>Source</sub></p></td><td class="confluenceTd"><p><sub>ENTSO-E</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>SourceName</sub></p></td><td class="confluenceTd"><p><sub>European Network of Transmission System Operators for Electricity</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Id</sub></p></td><td class="confluenceTd"><p><sub>ENTSO_EL.A65.A01.10YNL_L.PT15M</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Name</sub></p></td><td class="confluenceTd"><p><sub>ENTSO Electricity System Total Load Day Ahead Netherlands,TenneT NL BZ / CA/ MBA 15Minutely</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Description</sub></p></td><td class="confluenceTd"><p><sub>ENTSO Electricity System Total Load Day Ahead Netherlands,TenneT NL BZ / CA/ MBA 15Minutely</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Dataset</sub></p></td><td class="confluenceTd"><p><sub>ENTSOE_TL</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Dataset Name</sub></p></td><td class="confluenceTd"><p><sub>ENTSO Power Total Load</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Dataset Type</sub></p></td><td class="confluenceTd"><p><sub>Energy Fundamentals</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>class</sub></p></td><td class="confluenceTd"><p><sub>Day Ahead</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Unit</sub></p></td><td class="confluenceTd"><p><sub>MW</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>UnitName</sub></p></td><td class="confluenceTd"><p><sub>Megawatt</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Market</sub></p></td><td class="confluenceTd"><p><sub>European Electricity</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Product</sub></p></td><td class="confluenceTd"><p><sub>System Total Load Day Ahead</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Location</sub></p></td><td class="confluenceTd"><p><sub>Netherlands TenneT</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Frequency</sub></p></td><td class="confluenceTd"><p><sub>15Minutely</sub></p></td></tr><tr><td class="confluenceTd"><p><sub>Timezone</sub></p></td><td class="confluenceTd"><p><sub>UTC</sub></p></td></tr></tbody></table></div><h3 id="Day-aheadForecastoftheTotalLoad-Tags">Tags</h3><p><sub>ENTSO</sub></p><p><sub>ELECTRICITY</sub></p><p><sub>FUNDAMENTALS</sub></p><p><sub>NETHERLANDS TENNET</sub></p><p><sub>LOAD</sub></p><p><sub>TOTAL LOAD</sub></p><p><sub>DAY AHEAD</sub></p><p />
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on 31 Aug, 2021 08:45</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

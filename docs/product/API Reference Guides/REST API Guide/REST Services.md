@@ -4,9 +4,14 @@ sidebar_position: 4
 REST Services
 =========================================
 
-The section breaks the API documentation down into individual services
+The REST API services are a set of resource based CRUD REST services which can be used with any programming language that supports HTTPS REST calls.
 
-## Contents
+Further information can be found in the below links:
+* [REST Standards](Standards-and-Conventions)
+* [Searching](Searching-and-Filtering)
+* [Aggregation](Aggregation)
+
+## Services
 
 ### [Action Service](./Services/Action)
 The action resource contains all the standard public and your own proprietary workflow actions
@@ -23,21 +28,23 @@ A read-only service to find and retrieve public and private currencies
 ### [Curve Service](./Services/Curve)
 The curve resource contains all your proprietary forward curve configurations
 
-### [Data Service](Data-Resource-Remote-Service_403275941.html)
+### [Data Service](/.Services/Data)
 The data resource contains all the complex data types like TimeSeries and Curve
 
-### [Environment Service](Environment-Resource-Remote-Service_403275989.html)
+### [Environment Service](./Services/Environment)
 Contains information about your data environments
 
-### [Expiry Calendar Service](Expiry-Calendar-Resource-Remote-Service_403275973.html)
+### [Expiry Calendar Service](./Services/Expiry-Calendar)
 Contains all the public and private expiry calendars
 
-### [Object Service](Object-Resource-Remote-Service_288751767.html)
+### [Object Service](./Services/Object)
 The object resource contains all the reference and meta-data for all the public and private data in OpenDataDSL
 
-### [Process Execution Service](Process-Execution-Resource-Remote-Service_403832833.html)
+### [Process Execution Service](./Services/Process-Execution)
 The resource for monitoring all your processes
 
-### [Tenant Service](Tenant-Resource-Remote-Service_400785450.html)
+### [Tenant Service](./Services/Tenant)
 The tenant resource is a service to view and record your company information and tenancy configuration
 
+### [User Service](./Services/User)
+The tenant resource is a service to view and record your user information

@@ -60,7 +60,7 @@ https://api.opendatadsl.com/service/currency/v1/public?source=ECB&base=EUR&_dist
 
 To get a list of object ids for a provider.
 ```json
-https://api.opendatadsl.com/service/currency/v1/public?source=ECB&base=EUR&\_distinct=\_id
+https://api.opendatadsl.com/service/currency/v1/public?source=ECB&base=EUR&_distinct=_id
 ```
 
 #### Get the spot currency pair data for a specific currency from a provider
