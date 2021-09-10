@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/action
+tags:
+  - action
+---
 Action
 ======
 

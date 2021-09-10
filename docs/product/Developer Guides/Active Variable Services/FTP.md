@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/ftp
+tags:
+  - service
+  - ftp
+---
 FTP
 ====
 

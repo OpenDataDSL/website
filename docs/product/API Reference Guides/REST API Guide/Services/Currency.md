@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/currency
+tags:
+  - currency
+---
 Currency Service
 ================
 

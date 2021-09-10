@@ -1,5 +1,8 @@
 ---
 sidebar_position: 7
+slug: /odsl/calendar/expiry
+tags:
+  - calendar
 ---
 Expiry Calendar
 ===============
@@ -8,7 +11,7 @@ An expiry calendar is used to calculate the last trading date and the conversion
 
 ## Introduction
 
-The expiry calendar is used with forward curves to calculate the last trading day and the delivery period of a financially traded [contract](Contract_7405699.html). It uses expiry rules for date calculation which can be different for specific [period code](Period-Code) types.
+The expiry calendar is used with forward curves to calculate the last trading day and the delivery period of a financially traded [contract](/docs/odsl/variable/contract). It uses expiry rules for date calculation which can be different for specific [period code](Period-Code) types.
 
 ## Expiry Rules
 
@@ -140,7 +143,7 @@ e.g.
 
 ## Creating an expiry calendar
 
-To create an expiry calendar and add your specific expiry rules to it, use the ExpiryCalendar function with a [daily](Daily-Calendar), [business](Business-Calendar) or [holiday](Holiday-Calendar) calendar as a parameter.
+To create an expiry calendar and add your specific expiry rules to it, use the ExpiryCalendar function with a [daily](/docs/odsl/calendar/daily), [business](/docs/odsl/calendar/business) or [holiday](/docs/odsl/calendar/holiday) calendar as a parameter.
 
 ```js
 eombus = ExpiryCalendar(BusinessCalendar())
@@ -151,7 +154,7 @@ The example above creates an expiry calendar using a business calendar where the
 
 ## Saving and re-using your calendar
 
-Once you have created your expiry calendar, you can save it to the expiry calendar service using the save command on the expiry [calendar active variable service](Expiry-Calendar-Service_7372832.html) as follows:
+Once you have created your expiry calendar, you can save it to the expiry calendar service using the save command on the [expiry service](/docs/odsl/service/expiry) as follows:
 
 ```js
 save ${expiry:my_calendar}

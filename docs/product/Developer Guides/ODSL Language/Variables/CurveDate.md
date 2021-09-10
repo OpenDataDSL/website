@@ -1,11 +1,18 @@
+---
+slug: /odsl/variable/CurveDate
+tags:
+  - curve
+  - date
+---
+
 CurveDate
 =========================
 
-A CurveDate is used as the valuation [date](Date) of a curve. It is a date with an [expiry calendar](Expiry+Calendar)
+A CurveDate is used as the valuation [date](Date) of a curve. It is a date with an [expiry calendar](ExpiryCalendar)
 
 ## Construction
 
-A CurveDate is constructed using a [date](Date) and an [expiry calendar](Expiry+Calendar) as follows:
+A CurveDate is constructed using a [date](Date) and an [expiry calendar](ExpiryCalendar) as follows:
 ```js
 ondate = CurveDate(Date, ExpiryCalendar)
 ```
@@ -35,7 +42,7 @@ A CurveDate has the following properties:
 |hour|The hour of the day (0-23)|Scalar(Integer)|
 |minute|The minute of the hour (0-59)|Scalar(Integer)|
 |second|The second of the minute (0-59)|Scalar(Integer)|
-|calendar|The [expiry calendar](Expiry+Calendar) associated with this curve date (readonly)|ExpiryCalendar|
+|calendar|The [expiry calendar](ExpiryCalendar) associated with this curve date (readonly)|ExpiryCalendar|
 
 Example usage of properties:
 ```js

@@ -1,4 +1,10 @@
+---
+slug: /odsl/service/dhtml
+tags:
+  - service
+  - dhtml
+---
 DHTML
 ======
 
-A service to read Dynamic HTML pages as an [object](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2719912/Object) variable
+A service to read Dynamic HTML pages as an [object](/docs/odsl/variable/object) variable

@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/extractor
+tags:
+  - extractor
+  - etl
+---
 Extractor
 =========================
 

@@ -2,6 +2,9 @@
 id: intro
 title: Getting Started
 sidebar_position: 1
+tags:
+  - introduction
+  - odsl
 ---
 
 Getting Started
@@ -92,11 +95,11 @@ If you have other internal systems like risk systems or SAP that require any pub
 
 You can follow any of the links above to set you on your way to creating the perfect data management system or check out some of the interesting links below:
 
-*   [Take your first steps with the OpenDataDSL language](Getting-started-with-ODSL_33242.html)
+*   [Take your first steps with the OpenDataDSL language](/docs/tutorials/gettingstartedodsl)
     
-*   [Take a look at our data guides](Data-Guides_36864001.html)
+*   [Take a look at our data guides](/docs/data/catalog)
     
-*   [Check out the REST API](Services-REST-API-Guide_2719745.html)
+*   [Check out the REST API](/docs/api/rest/rest)
     
-*   [Read the user guides for our GUI and extensions](User-Guides_65601.html)
+*   [Read the user guides for our GUI and extensions](/docs/user/vscode)
     

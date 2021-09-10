@@ -1,3 +1,8 @@
+---
+slug: /kb/currency
+tags:
+  - currency
+---
 Currency Codes
 ==============
 

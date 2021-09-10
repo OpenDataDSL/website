@@ -1,15 +1,20 @@
+---
+slug: /odsl/variable/calendar
+tags:
+  - calendar
+---
 Calendar
 ========
 
-A calendar variable type represents an [ODSL Calendar](/docs/product/Developer%20Guides/Calendars/Calendars). It is used with [timeseries](TimeSeries), curves and other time-bound resources. See [here](/docs/product/Developer%20Guides/Calendars/Calendars) for more detailed information on ODSL Calendars
+A calendar variable type represents an [ODSL Calendar](/docs/odsl/calendar/calendars). It is used with [timeseries](TimeSeries), curves and other time-bound resources. See [here](/docs/odsl/calendar/calendars) for more detailed information on ODSL Calendars
 
 ## Introduction
 
-The calendar variable wraps a standard [ODSL calendar](/docs/product/Developer%20Guides/Calendars/Calendars) and allows you to use the calendar in your scripts.
+The calendar variable wraps a standard [ODSL calendar](/docs/odsl/calendar/Calendars) and allows you to use the calendar in your scripts.
 
 ## Construction
 
-Calendars are usually read from the [Calendar Service](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2785559/Calendar+Service) and referenced using their code, e.g. “business”, but some basic calendars can be constructed as follows:
+Calendars are usually read from the [Calendar Service](/docs/odsl/service/calendar) and referenced using their code, e.g. “business”, but some basic calendars can be constructed as follows:
 ```js
 // Create a daily calendar
 daily = DailyCalendar()

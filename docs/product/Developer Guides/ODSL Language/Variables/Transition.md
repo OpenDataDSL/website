@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/transition
+tags:
+  - transition
+  - workflow
+---
 Transition
 ==========================
 

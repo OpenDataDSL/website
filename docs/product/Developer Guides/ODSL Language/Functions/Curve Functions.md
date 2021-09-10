@@ -1,3 +1,9 @@
+---
+slug: /odsl/function/curve
+tags:
+  - function
+  - curve
+---
 import AsMonths from './all/_asMonths.md';
 import BootstrapCurve from './all/_bootstrapCurve.md';
 import ExtendCurve from './all/_extendCurve.md';

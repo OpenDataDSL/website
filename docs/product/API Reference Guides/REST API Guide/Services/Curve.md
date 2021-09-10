@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/curve
+tags:
+  - curve
+---
 Curve Service
 =============
 

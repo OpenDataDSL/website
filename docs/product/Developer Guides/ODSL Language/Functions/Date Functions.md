@@ -1,3 +1,9 @@
+---
+slug: /odsl/function/date
+tags:
+  - function
+  - date
+---
 import Format from './all/_format.md';
 import Parse from './all/_parse.md';
 

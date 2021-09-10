@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/curve
+tags:
+  - curve
+---
 Curve
 =====
 
@@ -7,8 +12,8 @@ A curve is a structure that represents a set of values with a time index sometim
 
 A curve is a very flexible and dynamic way of expressing point-in-time based future values, both real and forecasted. A simple curve comprises:
 
-*   [CurveDate](CurveDate) - This is the date for when this curve is valid and all the data contained in the curve is relative to this date. The [CurveDate](CurveDate) also contains an [expiry calendar](/Expiry+Calendar) which is used to calculate the relative future date/time of the curve contracts    
-*   [Contracts](Contracts) - This is a set of [Contract](Contract) objects that contain a [period code](Period+Code) which determines the relative future period that this contract covers, a value and any other properties you want to add
+*   [CurveDate](CurveDate) - This is the date for when this curve is valid and all the data contained in the curve is relative to this date. The [CurveDate](CurveDate) also contains an [expiry calendar](ExpiryCalendar) which is used to calculate the relative future date/time of the curve contracts    
+*   [Contracts](Contracts) - This is a set of [Contract](Contract) objects that contain a [period code](/docs/odsl/calendar/period-code) which determines the relative future period that this contract covers, a value and any other properties you want to add
 *   Currency - An optional currency code
 *   Units - An optional units code
 *   User properties - Any other properties you want to add onto the curve

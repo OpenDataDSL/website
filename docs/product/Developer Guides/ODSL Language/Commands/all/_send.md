@@ -6,7 +6,7 @@ send variable (to queue)? (size INT)? (-noevent)?
 ```
 ## Description
 
-The send command sends a [batch](/docs/product/Developer%20Guides/ODSL%20Language/Variables/Batch) variable to a [message queue](/docs/product/Developer%20Guides/Message-Queues) in order to be processed by either the data loader or an external application.
+The send command sends a [batch](/docs/odsl/variable/batch) variable to a [message queue](/docs/odsl/dm/queues) in order to be processed by either the data loader or an external application.
 
 If no queue name is specified, the batch is sent to your default queue.
 

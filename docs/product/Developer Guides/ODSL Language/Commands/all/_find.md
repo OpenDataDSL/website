@@ -65,7 +65,7 @@ location within Sphere(\[ 51.72961, 0.47612 \], 20 / 3963.2)
 
 ## Description
 
-The find command is a powerful way of searching a resource for the data you require. It returns a [virtual list](VirtualList_7340216.html) of items that match the specified conditions.
+The find command is a powerful way of searching a resource for the data you require. It returns a [virtual list](/docs/odsl/variable/virtuallist) of items that match the specified conditions.
 
 ## Examples
 

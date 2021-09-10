@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/cell
+tags:
+  - spreadsheet
+  - table
+---
 Cell
 ====
 

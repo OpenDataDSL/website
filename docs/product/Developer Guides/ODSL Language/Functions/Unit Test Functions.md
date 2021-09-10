@@ -1,3 +1,9 @@
+---
+slug: /odsl/function/test
+tags:
+  - function
+  - test
+---
 import AssertEquals from './all/_assertEquals.md';
 import AssertFalse from './all/_assertFalse.md';
 import AssertHasProperty from './all/_assertHasProperty.md';

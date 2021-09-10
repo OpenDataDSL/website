@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/table
+tags:
+  - table
+---
 Table
 =====================
 

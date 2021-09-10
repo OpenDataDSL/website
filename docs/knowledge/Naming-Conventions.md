@@ -1,3 +1,8 @@
+---
+slug: /kb/naming
+tags:
+  - naming
+---
 Naming Conventions
 ==================
 

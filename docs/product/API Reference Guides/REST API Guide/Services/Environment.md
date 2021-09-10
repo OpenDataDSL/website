@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/environment
+tags:
+  - environment
+---
 Environment
 ===================================================
 

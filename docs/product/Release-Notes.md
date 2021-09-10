@@ -26,7 +26,7 @@ Designing the screens that will get you started
 
 #### Added support for real-time events
 
-We completed the first stage of the [real-time API](Realtime-Services) allowing for a more responsive experience in the GUI and the more collaboration opportunities in other applications
+We completed the first stage of the [real-time API](/docs/api/realtime) allowing for a more responsive experience in the GUI and the more collaboration opportunities in other applications
 </details>
 
 <details>
@@ -213,7 +213,7 @@ Add ability for users to create custom database indexes to improve query perform
 
 #### Queues
 
-Add ability for users to create and manage their own queues. Each queue can either be consumed by the loader process or can be left open to be consumed on-premises - see more [here](Message-Queues)
+Add ability for users to create and manage their own queues. Each queue can either be consumed by the loader process or can be left open to be consumed on-premises - see more [here](/docs/odsl/dm/queues)
 
 </details>
 <details>
@@ -221,7 +221,7 @@ Add ability for users to create and manage their own queues. Each queue can eith
 
 #### Geospatial queries
 
-Add ability to add geometric shapes as a data property on objects and support geospatial queries on data, such as finding all objects within a radius of a point or within a polygon - see more [here](Geospatial-Data-and-Queries)
+Add ability to add geometric shapes as a data property on objects and support geospatial queries on data, such as finding all objects within a radius of a point or within a polygon - see more [here](/docs/odsl/dm/geospatial)
 
 #### Versioning
 

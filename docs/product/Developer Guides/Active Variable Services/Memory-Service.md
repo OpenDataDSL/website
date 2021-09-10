@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/memory
+tags:
+  - service
+  - memory
+---
 Memory Service
 ==============================
 

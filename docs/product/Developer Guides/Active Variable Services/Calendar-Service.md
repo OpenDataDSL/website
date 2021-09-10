@@ -1,7 +1,13 @@
+---
+slug: /odsl/service/calendar
+tags:
+  - service
+  - calendar
+---
 Calendar Service
 =================
 
-The calendar service allows you to create and use all the [calendars](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2818153/Calendars) in the system
+The calendar service allows you to create and use all the [calendars](/docs/odsl/calendar/calendars) in the system
 
 ## Introduction
 
@@ -26,7 +32,7 @@ Example:
 // Get the public England and Wales holiday calendar
 enghols = ${calendar:"#eng"}
 ```
-This returns a new [Calendar](/docs/product/Developer%20Guides/Calendars/Calendars) variable with the England and Wales holiday rules configured.
+This returns a new [Calendar](/docs/odsl/calendar/Calendars) variable with the England and Wales holiday rules configured.
 
 ## Saving a calendar
 

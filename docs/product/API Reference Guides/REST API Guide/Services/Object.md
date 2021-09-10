@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/object
+tags:
+  - object
+---
 Object
 ==============================================
 

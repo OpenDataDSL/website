@@ -1,3 +1,10 @@
+---
+slug: /odsl/service/azfile
+tags:
+  - service
+  - azure
+  - azfile
+---
 Azure File Service (azfile)
 ===========================================
 

@@ -1,3 +1,9 @@
+---
+slug: /odsl/function/udf
+tags:
+  - function
+  - udf
+---
 User Defined Functions
 ======================
 
@@ -5,7 +11,7 @@ Create your own functions in OpenDataDSL
 
 ## Introduction
 
-You can create your own user defined functions and use them in your code, you can also create a library of functions in a script and [import](365330614.html) that script into other scripts to use those functions.
+You can create your own user defined functions and use them in your code, you can also create a library of functions in a script and import that script into other scripts to use those functions.
 
 ### Syntax
 

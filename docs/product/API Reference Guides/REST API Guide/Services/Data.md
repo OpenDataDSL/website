@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/data
+tags:
+  - data
+---
 Data
 ====
 
@@ -92,7 +97,7 @@ Here are the properties of a curve
 |-|-|-|
 |_id|Unique id for the curve (or object id if this is not the latest version)|String|
 |_type|The type of the entity - always VarCurve|String|
-|ondate|An object representing a [CurveDate](CurveDate)|CurveDate|
+|ondate|An object representing a [CurveDate](/docs/odsl/variable/curvedate)|CurveDate|
 |currency|The currency code|String|
 |units|The units code|String|
 |properties|An object containing custom dynamic properties|Object|
@@ -112,17 +117,17 @@ Here are the properties of a curve
 The contract entity represents a single tenor or contract on a forward curve
 
 |**Name**|**Description**|**Type**|
-|tenor|The tenor [period code](Period-Code)|String|
+|tenor|The tenor [period code](/docs/odsl/calendar/period-code)|String|
 |value|The value of this tenor|Numeric|
 |status|The status object|Status|
-|ondate|An object representing a [CurveDate](CurveDate)|CurveDate|
+|ondate|An object representing a [CurveDate](/docs/odsl/variable/curvedate)|CurveDate|
 |properties|An object containing some standard properties and any custom dynamic properties|Object|
 
 
 The standard properties on a Contract are:
 
-*   absolute - The absolute [period code](Period-Code_2818227.html) of the tenor    
-*   relative - The relative [period code](Period-Code_2818227.html) of the tenor    
+*   absolute - The absolute [period code](/docs/odsl/calendar/period-code) of the tenor    
+*   relative - The relative [period code](/docs/odsl/calendar/period-code) of the tenor    
 *   expiry - The expiry or last trading date of the tenor    
 *   start - The start of delivery if it is a delivered commodity    
 *   end - The end of delivery if it is a delivered commodity

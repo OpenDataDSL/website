@@ -1,3 +1,6 @@
+---
+slug: /odsl/variable/void
+---
 Void
 ====================
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: /api/rest/rest
 ---
 REST Services
 =========================================
@@ -7,44 +8,44 @@ REST Services
 The REST API services are a set of resource based CRUD REST services which can be used with any programming language that supports HTTPS REST calls.
 
 Further information can be found in the below links:
-* [REST Standards](Standards-and-Conventions)
-* [Searching](Searching-and-Filtering)
-* [Aggregation](Aggregation)
+* [REST Standards](./standards)
+* [Searching](./searching)
+* [Aggregation](./aggregation)
 
 ## Services
 
-### [Action Service](./Services/Action)
+### [Action Service](./service/Action)
 The action resource contains all the standard public and your own proprietary workflow actions
 
-### [Audit Service](./Services/Audit)
+### [Audit Service](./Service/Audit)
 The audit resource allows you to keep track of changes that have been made to other resources
 
-### [Calendar Service](./Services/Calendar)
+### [Calendar Service](./Service/Calendar)
 The calendar resource contains all the public and private calendars
 
-### [Currency Service](./Services/Currency)
+### [Currency Service](./Service/Currency)
 A read-only service to find and retrieve public and private currencies
 
-### [Curve Service](./Services/Curve)
+### [Curve Service](./Service/Curve)
 The curve resource contains all your proprietary forward curve configurations
 
-### [Data Service](/.Services/Data)
+### [Data Service](./Service/Data)
 The data resource contains all the complex data types like TimeSeries and Curve
 
-### [Environment Service](./Services/Environment)
+### [Environment Service](./Service/Environment)
 Contains information about your data environments
 
-### [Expiry Calendar Service](./Services/Expiry-Calendar)
+### [Expiry Calendar Service](./Service/expiry)
 Contains all the public and private expiry calendars
 
-### [Object Service](./Services/Object)
+### [Object Service](./Service/Object)
 The object resource contains all the reference and meta-data for all the public and private data in OpenDataDSL
 
-### [Process Execution Service](./Services/Process-Execution)
+### [Process Execution Service](./Service/Process-Execution)
 The resource for monitoring all your processes
 
-### [Tenant Service](./Services/Tenant)
+### [Tenant Service](./Service/Tenant)
 The tenant resource is a service to view and record your company information and tenancy configuration
 
-### [User Service](./Services/User)
+### [User Service](./Service/User)
 The tenant resource is a service to view and record your user information

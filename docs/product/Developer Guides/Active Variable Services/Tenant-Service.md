@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/tenant
+tags:
+  - service
+  - tenant
+---
 Tenant Service
 ==============
 

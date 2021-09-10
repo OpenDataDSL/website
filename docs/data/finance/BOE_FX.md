@@ -1,7 +1,16 @@
+---
+slug: /dataset/BOE_FX
+tags:
+  - BOE
+  - FX
+  - EXCHANGE_RATES
+  - ENGLAND
+  - GBP
+---
 BOE FX
 ======
 
-#### Bank of England Daily Spot Exchange Rates
+Bank of England Daily Spot Exchange Rates
 
 ## File Collection
 
@@ -45,13 +54,4 @@ BOE FX
 |Commodity*|Exchange Rates|
 |Location*|United Kingdom|
 |Quote Calendar|HENG|
-
-### Tags
-
-* BOE
-* FX
-* EXCHANGE_RATES
-* ENGLAND
-* GBP
-* USD
 

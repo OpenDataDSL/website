@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+slug: /data/fx
 ---
 Foreign Exchange Rates
 ======================================
@@ -8,27 +9,27 @@ Foreign Exchange Rates
 
 Averaging over $5 trillion per day, the foreign exchange (FX) market is where currencies are bought, sold and exchanged. There are many ways to pursue opportunities of the worlds’ largest market, but FX futures offer many advantages over trading spot or over-the-counter FX. Discover the liquidity, nearly 24-hour access and security of trading standardized FX futures on a regulated exchange
 
-### Data Sets
+## Data Sets
 
-###### [ECB FX - ECB Euro Foreign Exchange Reference Rates](ECB-FX---ECB-Euro-Foreign-Exchange-Reference-Rates_216367189.html)
+### [ECB FX - ECB Euro Foreign Exchange Reference Rates](/docs/dataset/ECB_FX)
 
-###### [BNM FX - Bank Negara Malaysia Exchange Rates](BNM-FX---Bank-Negara-Malaysia-Exchange-Rates_216367219.html)
+### [BNM FX - Bank Negara Malaysia Exchange Rates](/docs/dataset/BNM_FX)
 
-###### [RBI-FX Reserve Bank of India Reference Rates](RBI-FX-Reserve-Bank-of-India-Reference-Rates_216367236.html)
+### [RBI-FX Reserve Bank of India Reference Rates](/docs/dataset/RBI_FX)
 
-###### [BOC FX - Bank of Canada Exchange Rates](BOC-FX---Bank-of-Canada-Exchange-Rates_216367259.html)
+### [BOC FX - Bank of Canada Exchange Rates](/docs/dataset/BOC_FX)
 
-###### [BOE FX - Bank of England Daily Spot Exchange Rates](BOE-FX)
+### [BOE FX - Bank of England Daily Spot Exchange Rates](/docs/dataset/BOE_FX)
 
-###### [BOCH FX - Bank of China Exchange Rates](BOCH-FX---Bank-of-China-Exchange-Rates_216367291.html)
+### [BOCH FX - Bank of China Exchange Rates](/docs/dataset/BOCH_FX)
 
-###### [SBP FX - State Bank of Pakistan Exchange Rates](SBP-FX---State-Bank-of-Pakistan-Exchange-Rates_216367314.html)
+### [SBP FX - State Bank of Pakistan Exchange Rates](/docs/dataset/SBP_FX)
 
-###### [SARB FX - South African Reserve Bank Exchange Rates](SARB-FX---South-African-Reserve-Bank-Exchange-Rates_216367329.html)
+### [SARB FX - South African Reserve Bank Exchange Rates](/docs/dataset/SARP_FX)
 
-###### [BNZ FX - Bank of New Zealand Exchange Rates](BNZ-FX---Bank-of-New-Zealand-Exchange-Rates_216367356.html)
+### [BNZ FX - Bank of New Zealand Exchange Rates](/docs/dataset/BNZ_FX)
 
-### Introduction to FX Market
+## Introduction to FX Market
 
 The world is becoming more interconnected every day. Businesses and individuals around the globe are increasingly conducting transactions that involve payments of one currency to another.
 
@@ -36,19 +37,17 @@ This is the foreign exchange market, sometimes referred to as the currency marke
 
 The growth in exchange-traded and cleared FX products is due to the highly transparent nature of exchange-traded products and also the safety that is derived from central clearing and post-trade risk collateralization, which reduces counterparty risk. 
 
-### Size of the FX Marketplace
+## Size of the FX Marketplace
 
 The FX market is the largest and deepest capital market in world. It trades virtually around the clock, worldwide, every day.
 
-### Identifying Currencies 
+## Identifying Currencies 
 
 Currencies are identified using ISO 4217 Currency Codes. By 1973, the International Organization for Standardization (ISO) established the three-letter codes for currencies we use today. 
 
 ![](/attachments/216367150/216367178.png)
 
-The detailed list of currency code can be found in [Currency Code and Description](Currency-Code-and-Description_47808726.html)
-
-### Identifying Currencies
+The detailed list of currency code can be found in [Currency Code and Description](/docs/kb/currency)
 
 Ever wonder what it means when you see currency quotations like these?
 
@@ -58,7 +57,7 @@ The first currency in the quotation – in this case the euro – is represented
 
 The second currency – in this case the U.S. dollar, shown by its three-letter symbol, USD – is known as the terms or quote currency.
 
-### American and European Terms
+## American and European Terms
 
 Currency pairs versus U.S. dollars tend to be quoted in one of two ways; in either American or European terms.
 

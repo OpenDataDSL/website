@@ -9,7 +9,7 @@
         "region": "Netherlands",
         "start": "2020",
         "frequency": "WEEKLY",
-        "link": "./aggs/ZuivelNL-Dairy-Prices",
+        "link": "/docs/dataset/ZUIVELNL_DR_PR",
         "tags": ["Agriculture", "Dairy Products"]
     },
     {
@@ -22,7 +22,7 @@
         "region": "UK/Global",
         "start": "2011",
         "frequency": "DAILY",
-        "link": "./finance/BOE_FX",
+        "link": "/docs/dataset/BOE_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -35,7 +35,7 @@
         "region": "Europe/Global",
         "start": "2011",
         "frequency": "DAILY",
-        "link":"./fx/ECB_FX",
+        "link":"/docs/dataset/ECB_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -48,7 +48,7 @@
         "region": "Europe/Global",
         "start": "2011",
         "frequency": "DAILY",
-        "link":"./fx/ECB_INTEREST",
+        "link":"/docs/dataset/ECB_INTEREST",
         "tags": ["Financial", "Interest Rates"]
     },
     {
@@ -61,7 +61,7 @@
         "region": "Europe",
         "start": "2011",
         "frequency": "DAILY",
-        "link":"./fx/PLATTS",
+        "link":"/docs/dataset/PLATTS_EB",
         "tags": ["Commodity", "Oil"]
     }
 ]

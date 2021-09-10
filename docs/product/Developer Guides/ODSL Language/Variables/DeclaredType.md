@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/declaredtype
+tags:
+  - type
+---
 DeclaredType
 ============================
 

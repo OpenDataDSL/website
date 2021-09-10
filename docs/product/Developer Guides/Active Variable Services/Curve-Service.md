@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/curve
+tags:
+  - service
+  - curve
+---
 Curve Service
 =============
 

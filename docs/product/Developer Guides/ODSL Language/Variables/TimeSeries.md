@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/timeseries
+tags:
+  - timeseries
+  - curve
+---
 TimeSeries
 ==========
 
@@ -5,7 +11,7 @@ A timeseries is a list of values which are indexed by dates. A timeseries could 
 
 ## Introduction
 
-A TimeSeries represents a list of observations or metrics where each observed value is indexed by a point in time. Every TimeSeries has a [calendar](Calendar_2719938.html) which helps align the observations and make working with TimeSeries much easier.
+A TimeSeries represents a list of observations or metrics where each observed value is indexed by a point in time. Every TimeSeries has a [calendar](calendar) which helps align the observations and make working with TimeSeries much easier.
 
 ## Construction
 

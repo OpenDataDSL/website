@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: /api/rest/searching
 ---
 Searching and Filtering
 =======================
@@ -20,7 +21,7 @@ https://api.opendatadsl.com/service/object/v1/public?_search=poultry&location=Be
 
 ### Field Projection
 
-By default, except for the [object service](Object-Resource-Remote-Service), all fields are returned from a search query. If you want to restrict the returned fields, you use the _project query parameter, e.g.
+By default, except for the [object service](./service/Object), all fields are returned from a search query. If you want to restrict the returned fields, you use the _project query parameter, e.g.
 ```json
 https://api.opendatadsl.com/service/audit/v1/public?\_search=ECB&\_project=timestamp,user,id
 ```

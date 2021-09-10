@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/audit
+tags:
+  - audit
+---
 Audit Service
 ==============
 
@@ -53,7 +58,7 @@ You can use the _search query parameter to pass in a search query string, it sea
 *   description    
 *   reason    
 
-NOTE: All searches are case-insensitive - for more information see [Searching and Filtering](../Searching-and-Filtering)
+NOTE: All searches are case-insensitive - for more information see [Searching and Filtering](/docs/api/rest/searching)
 
 ### Filtering audit entries
 

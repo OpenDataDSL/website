@@ -1,5 +1,8 @@
 ---
 sidebar_position: 5
+slug: /odsl/calendar/intraday
+tags:
+  - calendar
 ---
 Intraday Calendar
 =================
@@ -10,8 +13,8 @@ An intraday calendar represents all regular calendars that have time intervals o
 
 The intraday calendar is used for medium frequency data (between 1 second and 12 hour intervals) and has the following features:
 
-*   Observations are stored at regular intervals between 1 seconds and 12 hours using a [Duration](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2719896/Duration)    
-*   A [Holiday Calendar](Holiday+Calendar) can be applied which determines the days when observations are recorded    
+*   Observations are stored at regular intervals between 1 seconds and 12 hours using a [Duration](/docs/odsl/variable/Duration)    
+*   A [Holiday Calendar](holiday) can be applied which determines the days when observations are recorded    
 *   You can exclude specific hours of the day, essentially limiting the range of intraday observations
     
 

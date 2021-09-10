@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/object
+tags:
+  - service
+  - object
+---
 Object Service
 ==============
 
@@ -5,7 +11,7 @@ The object service allows you to manage, browse, search for and use stored objec
 
 ## Creating Objects
 
-All objects have a [type](397803531.html) - this is a structure that defines the properties that you would expect on an object. Individual objects can also have dynamic properties that are not included in the type structure. If you create an object without specifying a type, ODSL will add a #Object type to it.
+All objects have a [type](/docs/odsl/variable/declaredtype) - this is a structure that defines the properties that you would expect on an object. Individual objects can also have dynamic properties that are not included in the type structure. If you create an object without specifying a type, ODSL will add a #Object type to it.
 
 ### Creating a basic object
 
@@ -50,7 +56,7 @@ This will save a private object called myobject of type #Object to the database.
 
 ## Reading Objects
 
-You can find objects using the [find](387743950.html) command and searching for objects is covered in this [article](Searching-using-the-find-command_36831476.html). If you know the id of the object you want, you can directly read the object using the active variable, e.g.
+You can find objects using the [find](/docs/odsl/command/find) command and searching for objects is covered in this [article](/docs/tutorials/searching). If you know the id of the object you want, you can directly read the object using the active variable, e.g.
 ```js
 myobject = ${object:"myobject"}
 ```
@@ -61,7 +67,7 @@ To delete an object from the database, you use the delete command.
 ```js
 delete ${object:"myobject"}
 ```
-If [versioning](Data-Versioning_36831400.html) is enabled on the object type you are deleting, then the delete command performs a roll back. To completely delete a versioned object, add a * version modifier to the delete command, e.g.
+If [versioning](/docs/odsl/dm/versioning) is enabled on the object type you are deleting, then the delete command performs a roll back. To completely delete a versioned object, add a * version modifier to the delete command, e.g.
 
 ```js
 delete ${object:"myobject":*}

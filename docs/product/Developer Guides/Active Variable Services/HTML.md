@@ -1,4 +1,10 @@
+---
+slug: /odsl/service/html
+tags:
+  - service
+  - html
+---
 HTML
 ====================
 
-A service to read a HTML page as an [object](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2719912/Object) variable
+A service to read a HTML page as an [object](/docs/odsl/variable/object) variable

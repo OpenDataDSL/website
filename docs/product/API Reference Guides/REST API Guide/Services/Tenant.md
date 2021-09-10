@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/tenant
+tags:
+  - tenant
+---
 Tenant
 ==============================================
 

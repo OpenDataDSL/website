@@ -1,5 +1,8 @@
 ---
 sidebar_position: 9
+slug: /odsl/calendar/examples
+tags:
+  - calendar
 ---
 Custom Calendar Examples
 ========================

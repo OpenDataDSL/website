@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/scalar
+tags:
+  - scalar
+---
 Scalar
 ======================
 

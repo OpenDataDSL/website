@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: /api/rest/aggregation
 ---
 Aggregation
 ===========

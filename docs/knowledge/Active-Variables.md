@@ -1,3 +1,8 @@
+---
+slug: /kb/av
+tags:
+  - av
+---
 Active Variables
 ================================
 

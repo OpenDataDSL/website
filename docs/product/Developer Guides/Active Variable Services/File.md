@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/file
+tags:
+  - service
+  - file
+---
 File
 =====
 

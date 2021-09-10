@@ -1,3 +1,9 @@
+---
+slug: /odsl/function/general
+tags:
+  - function
+  - general
+---
 import Clone from './all/_clone.md';
 import Evaluate from './all/_evaluate.md';
 import Random from './all/_random.md';

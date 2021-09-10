@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+slug: /odsl/command/conditions
+---
 Conditions
 ==========================
 
@@ -20,11 +24,11 @@ Conditions can be used at various places within the OpenDataDSL language as show
 
 |**Command**|**Description**|
 |-|-|
-|Aggregate|Used in a match directive in an [aggregate](399114362.html) command|
-|Find|Used as a condition in a [find](387743950.html) command, searching for something|
-|Transform|Used within a [transformer](397869117.html) in both ‘if’ statements and ‘ignore’ directives|
-|If|Used in the [if](387743880.html) control statement|
-|While|Used in the [while](387711154.html) control statement|
+|Aggregate|Used in a match directive in an [aggregate](/docs/odsl/command/aggregate) command|
+|Find|Used as a condition in a [find](/docs/odsl/command/find) command, searching for something|
+|Transform|Used within a [transform command](/docs/odsl/command/transform) in both ‘if’ statements and ‘ignore’ directives|
+|If|Used in the [if](/docs/odsl/command/if) control statement|
+|While|Used in the [while](/docs/odsl/command/while) control statement|
 
 ## Examples
 

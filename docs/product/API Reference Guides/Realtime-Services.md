@@ -1,3 +1,6 @@
+---
+slug: /api/realtime
+---
 Realtime Services
 =================
 

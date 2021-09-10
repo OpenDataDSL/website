@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/state
+tags:
+  - state
+  - workflow
+---
 State
 =====================
 

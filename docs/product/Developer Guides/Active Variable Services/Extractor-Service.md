@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/extractor
+tags:
+  - service
+  - extractor
+---
 Extractor Service
 ==================
 

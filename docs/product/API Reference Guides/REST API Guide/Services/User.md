@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/user
+tags:
+  - user
+---
 User
 ====
 

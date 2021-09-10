@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/date
+tags:
+  - date
+---
 Date
 ====================
 

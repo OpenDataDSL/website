@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /data/catalog
 ---
 import DataCatalog from '/src/components/DataCatalog'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

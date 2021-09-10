@@ -1,7 +1,13 @@
+---
+slug: /odsl/variable/contract
+tags:
+  - contract
+  - curve
+---
 Contract
 ========
 
-A contract is a single future period in time that represents a tradable future contract or a forecasted value on a [curve](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/7405672/Curve)
+A contract is a single future period in time that represents a tradable future contract or a forecasted value on a [curve](curve)
 
 ## Introduction
 
@@ -16,7 +22,7 @@ contract = Contract(CurveDate, PeriodCode, value)
 The 3 parameters are as follows:
 
 *   CurveDate - this is the [CurveDate](CurveDate) for this contract, it usually is the same as the [curve](Curve) that this contract is attached to, but can be different if you want to calculate expiry dates differently 
-*   PeriodCode - this is a string representation of the delivery [period code](Period+Code), in either absolute or relative format.
+*   PeriodCode - this is a string representation of the delivery [period code](/docs/odsl/calendar/period-code), in either absolute or relative format.
 *   Value - This is the price/value for the contract
     
 

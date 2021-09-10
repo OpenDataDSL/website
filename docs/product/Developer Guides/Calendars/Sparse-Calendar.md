@@ -1,5 +1,8 @@
 ---
 sidebar_position: 6
+slug: /odsl/calendar/sparse
+tags:
+  - calendar
 ---
 Sparse Calendar
 ===============

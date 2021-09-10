@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/script
+tags:
+  - service
+  - script
+---
 Script Service
 ==============
 

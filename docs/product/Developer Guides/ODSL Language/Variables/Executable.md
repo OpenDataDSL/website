@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/executable
+tags:
+  - executable
+  - type
+---
 Executable
 ==========================
 

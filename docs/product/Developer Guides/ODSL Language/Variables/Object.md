@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/object
+tags:
+  - object
+---
 Object
 ======================
 

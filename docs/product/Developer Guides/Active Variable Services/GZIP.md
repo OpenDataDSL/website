@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/gzip
+tags:
+  - service
+  - gzip
+---
 GZIP
 ===========
 

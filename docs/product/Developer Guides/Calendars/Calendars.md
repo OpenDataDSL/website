@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+slug: /odsl/calendar/calendars
+tags:
+  - calendar
 ---
 
 Calendars
@@ -13,26 +16,26 @@ The calendars in OpenDataDSL are one of the fundamental components necessary for
 
 ## Contents
 
-### [Daily Calendar](Daily-Calendar)
+### [Daily Calendar](daily)
 A daily calendar is a simple calendar that represents every calendar day
 
-### [Holiday Calendar](Holiday-Calendar)
-A holiday or trading calendar is a [daily calendar](Daily-Calendar) with rules that determine which days are non-working or holiday days
+### [Holiday Calendar](holiday)
+A holiday or trading calendar is a [daily calendar](daily) with rules that determine which days are non-working or holiday days
 
-### [Business Calendar](Business-Calendar)
-A business calendar is a basic [holiday calendar](Holiday-Calendar) that represents a standard working week with every day from Monday to Friday
+### [Business Calendar](business)
+A business calendar is a basic [holiday calendar](holiday) that represents a standard working week with every day from Monday to Friday
 
-### [Intraday Calendar](Intraday-Calendar)
+### [Intraday Calendar](intraday)
 An intraday calendar represents all regular calendars that have time intervals of less than a whole day, e.g. Hourly
 
-### [Sparse Calendar](Sparse-Calendar)
+### [Sparse Calendar](sparse)
 A sparse calendar is used when there is no pre-defined period between intervals, each index can represent any point in time
 
-### [Expiry Calendar](Expiry-Calendar)
+### [Expiry Calendar](expiry)
 An expiry calendar is used to calculate the last trading date and the conversion of absolute and relative futures contracts
 
-### [Period Code](Period-Code)
+### [Period Code](period-code)
 A period code represents an absolute or relative delivery period for some commodity or financial future
 
-### [Custom Calendar Examples](Custom-Calendar-Examples)
+### [Custom Calendar Examples](examples)
 A set of examples that showcase the flexibility of the calendars in OpenDataDSL

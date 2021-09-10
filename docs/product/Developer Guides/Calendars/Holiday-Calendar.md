@@ -1,14 +1,17 @@
 ---
 sidebar_position: 3
+slug: /odsl/calendar/holiday
+tags:
+  - calendar
 ---
 Holiday Calendar
 ================
 
-A holiday or trading calendar is a [daily calendar](Daily-Calendar) with rules that determine which days are non-working or holiday days
+A holiday or trading calendar is a [daily calendar](daily) with rules that determine which days are non-working or holiday days
 
 ## Introduction
 
-The holiday calendar is a [daily calendar](Daily-Calendar) with holiday rules.
+The holiday calendar is a [daily calendar](daily) with holiday rules.
 
 ## Holiday Rules
 

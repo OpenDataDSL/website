@@ -1,3 +1,9 @@
+---
+slug: /odsl/function/introspection
+tags:
+  - function
+  - introspection
+---
 import Method from './all/_methods.md';
 import Properties from './all/_properties.md';
 import TypeOf from './all/_typeOf.md';

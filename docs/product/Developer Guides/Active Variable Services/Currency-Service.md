@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/currency
+tags:
+  - service
+  - currency
+---
 Currency Service
 =================
 

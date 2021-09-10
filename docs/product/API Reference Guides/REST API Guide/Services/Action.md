@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/action
+tags:
+  - action
+---
 Action Service
 ==============================
 

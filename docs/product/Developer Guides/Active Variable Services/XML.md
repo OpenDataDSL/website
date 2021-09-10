@@ -1,7 +1,13 @@
+---
+slug: /odsl/service/xml
+tags:
+  - service
+  - xml
+---
 XML
 ===================
 
-A service to read XML format files as an [object](Object_2719912.html) or [list](List_2785465.html) variable
+A service to read XML format files as an [object](/docs/odsl/variable/object) or [list](/docs/odsl/variable/list) variable
 
 This service is used to convert XML files into variables to be used within an OpenDataDSL script.
 
@@ -18,7 +24,7 @@ The following options affect the way that the XML data is processed into the var
 
 |**Option**|**Description**|**Example**|
 |-|-|-|
-|selector|This is an XML selector which allows you to filter the xml data. It is a CSS-like element selector, that finds elements matching a query. If a selector is used, the output variable is a [list](List_2785465.html)|selector=\[type=”test”\]|
+|selector|This is an XML selector which allows you to filter the xml data. It is a CSS-like element selector, that finds elements matching a query. If a selector is used, the output variable is a [list](/docs/odsl/variable/list)|```selector=[type=”test”]```|
 |ignoreContentType|Set this to true if the document content type is causing exceptions|ignoreContentType=true|
 
 ## Example

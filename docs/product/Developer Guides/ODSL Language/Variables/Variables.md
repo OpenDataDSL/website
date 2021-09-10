@@ -1,4 +1,5 @@
 ---
+slug: /odsl/variable/variables
 sidebar_position: 1
 ---
 
@@ -51,9 +52,9 @@ An object is a very versatile variable type that allows you to add any other var
 A secret is a scalar whose value cannot be printed or logged, it only really is useful when used with the Secret Service where secrets can be stored and then retrieved by scripts or workflows. Usually secrets are used to store passwords and database connection information etc.
 
 ### [Calendar](Calendar)
-A calendar variable type represents an [ODSL Calendar](/docs/product/Developer%20Guides/Calendars/Calendars). It is used with [timeseries](TimeSeries), curves and other time-bound resources
+A calendar variable type represents an [ODSL Calendar](/docs/odsl/calendar/calendars). It is used with [timeseries](TimeSeries), curves and other time-bound resources
 
-### [Expiry Calendar Variable](Expiry-Calendar)
+### [Expiry Calendar Variable](ExpiryCalendar)
 An expiry calendar variable type represents an Expiry Calendar which is a special type of calendar that uses rules to calculate when trading stops for a future price for a particular commodity
 
 ### [Transformer](Transformer)
@@ -103,7 +104,7 @@ A TimeValue represents a single observed value in a [timeseries](TimeSeries)
 A curve is a structure that represents a set of values with a time index sometime in the future. It can be used for commodity and financial forward curves, yield curves and forecasts (weather, prices etc.)
 
 ### [CurveDate](CurveDate)
-A CurveDate is used as the valuation [date](Date) of a curve. It is a date with an [expiry calendar](Expiry+Calendar)
+A CurveDate is used as the valuation [date](Date) of a curve. It is a date with an [expiry calendar](ExpiryCalendar)
     
 ### [Contracts](Contracts)
 Contracts are used on a [curve](Curve) as a set of contract objects that represent the future periods and values

@@ -1,3 +1,8 @@
+---
+slug: /kb/country
+tags:
+  - country
+---
 Country Codes
 =============
 

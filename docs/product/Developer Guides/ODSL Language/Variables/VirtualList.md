@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/virtuallist
+tags:
+  - list
+---
 VirtualList
 ===========================
 

@@ -48,10 +48,10 @@ Application roles determine the degree of access your users have when using vari
 |setting|Allows full CRUD access to the Setting Service|
 |subscription|Allows full CRUD access to the Subscription Service|
 |tenant|Allows full CRUD access to the Tenant Service|
-|transformer|Allows full CRUD access to the [Transformer Service](Transformer-Service_7405855.html)|
-|type|Allows full CRUD access to the [Type Service](Type-Service_7373142.html)|
+|transformer|Allows full CRUD access to the Transformer Service|
+|type|Allows full CRUD access to the Type Service|
 |user|Allows full CRUD access to the User Service|
-|workflow|Allows full CRUD access to the [Workflow Service](Workflow-Service_7405862.html)|
+|workflow|Allows full CRUD access to the Workflow Service|
 
 ### Data roles
 

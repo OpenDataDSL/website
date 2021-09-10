@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/list
+tags:
+  - list
+---
 List
 ====================
 

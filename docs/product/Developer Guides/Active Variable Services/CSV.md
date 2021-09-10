@@ -1,7 +1,13 @@
+---
+slug: /odsl/service/csv
+tags:
+  - service
+  - csv
+---
 CSV
 ====
 
-A service to read CSV files as a [list](List_2785465.html) of [row](Row_2719928.html) variables or as a [table](Table_7405746.html) variable
+A service to read CSV files as a [list](/docs/odsl/variable/list) of [row](/docs/odsl/variable/row) variables or as a [table](/docs/odsl/variable/table) variable
 
 This service is used to convert CSV files into variables to be used within an OpenDataDSL script.
 
@@ -21,7 +27,7 @@ The following options affect the way that the CSV data is processed into the var
 |separator|The character or regex which is used to separate the columns in the CSV file. The default separator is a comma|separator= +|
 |headerpos|The line which contains the header information where the column names are extracted from. The default is 1, if there are no headers, use 0|headerpos=0|
 |datapos|The number of lines to skip from the header position to where the data starts. The default is 0|datapos=1|
-|output|The output variable type, if it is set as **table** then the variable is of type [table](Table_7405746.html), anything else it is a list of [row](Row_2719928.html) variables|output=table|
+|output|The output variable type, if it is set as **table** then the variable is of type [table](/docs/odsl/variable/table), anything else it is a list of [row](/docs/odsl/variable/row) variables|output=table|
 
 ## Example
 

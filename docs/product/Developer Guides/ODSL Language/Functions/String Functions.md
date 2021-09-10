@@ -1,3 +1,9 @@
+---
+slug: /odsl/function/string
+tags:
+  - function
+  - string
+---
 import Clean from './all/_clean.md';
 import Compare from './all/_compare.md';
 import Concatenate from './all/_concatenate.md';

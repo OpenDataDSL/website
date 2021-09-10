@@ -1,5 +1,8 @@
 ---
 sidebar_position: 8
+slug: /odsl/calendar/period-code
+tags:
+  - calendar
 ---
 Period Code
 ===========
@@ -14,7 +17,7 @@ Here is a list of the standard naming portions of period codes:
 |-|-|-|
 |ABS_YEAR|yyyy|2020|
 |ABS_DAY|ABS_YEAR D MONTH DAY|2020D1022|
-|PERIOD|[0-9]([0-9])*|01|
+|PERIOD|```[0-9]([0-9])*```|01|
 |MONTHNAME|3 char English month name|JAN|
 
 Here is a list of the syntax for valid period codes

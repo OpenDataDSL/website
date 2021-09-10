@@ -1,4 +1,10 @@
+---
+slug: /odsl/service/pdf
+tags:
+  - service
+  - pdf
+---
 PDF
 ===================
 
-A service to read a PDF format file as an [object](https://opendatadsl.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2719912/Object) variable
+A service to read a PDF format file as an [object](/docs/odsl/variable/object) variable

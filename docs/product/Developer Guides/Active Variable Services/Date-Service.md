@@ -1,7 +1,13 @@
+---
+slug: /odsl/service/date
+tags:
+  - service
+  - date
+---
 Date Service
 =============
 
-Create and utilise dates
+Create and utilise [dates](/docs/odsl/variable/date)
 
 ## Assignment - creating a date
 

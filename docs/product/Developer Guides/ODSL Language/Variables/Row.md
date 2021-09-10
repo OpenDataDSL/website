@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/row
+tags:
+  - row
+---
 Row
 ===================
 

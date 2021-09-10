@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /api/rest/standards
 ---
 Standards and Conventions
 =========================

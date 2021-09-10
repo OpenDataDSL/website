@@ -1,3 +1,9 @@
+---
+slug: /odsl/function/list
+tags:
+  - function
+  - list
+---
 import Max from './all/_max.md';
 import Mean from './all/_mean.md';
 import Min from './all/_min.md';

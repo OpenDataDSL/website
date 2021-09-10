@@ -1,7 +1,13 @@
+---
+slug: /odsl/service/expiry
+tags:
+  - service
+  - expiry
+---
 Expiry Calendar Service
 =======================
 
-The expiry calendar service allows you to manage and use [expiry calendars](/docs/product/Developer%20Guides/Calendars/Expiry-Calendar) in your scripts
+The expiry calendar service allows you to manage and use [expiry calendars](/docs/odsl/calendar/expiry) in your scripts
 
 ## Introduction
 
@@ -26,7 +32,7 @@ Example:
 // Get the end of month expiry calendar with business frequency trading calendar
 eombus = ${expiry:"#EOMBUSINESS"}
 ```
-This returns a new [expiry calendar](/docs/product/Developer%20Guides/Calendars/Expiry-Calendar) with the expiry rules configured.
+This returns a new [expiry calendar](/docs/odsl/calendar/expiry) with the expiry rules configured.
 
 ## Saving an expiry calendar
 

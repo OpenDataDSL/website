@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/secret
+tags:
+  - secret
+  - scalar
+---
 Secret
 ======================
 

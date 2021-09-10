@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/workflow
+tags:
+  - workflow
+---
 Workflow
 ========================
 

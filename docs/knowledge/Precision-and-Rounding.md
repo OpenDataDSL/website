@@ -1,3 +1,9 @@
+---
+slug: /kb/precision
+tags:
+  - precision
+  - rounding
+---
 Precision and Rounding
 ======================================
 

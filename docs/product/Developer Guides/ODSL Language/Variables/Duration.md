@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/duration
+tags:
+  - duration
+  - date
+---
 Duration
 ========================
 

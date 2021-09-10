@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/script
+tags:
+  - script
+---
 Script
 ======================
 

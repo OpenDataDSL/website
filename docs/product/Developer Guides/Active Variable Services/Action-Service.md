@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/action
+tags:
+  - service
+  - action
+---
 Action Service
 ==============
 

@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/process
+tags:
+  - process
+---
 Process
 =======================
 
@@ -26,7 +31,7 @@ Below is a table with all the properties of a process:
 |workflow/script|String|test_wf|The name of the workflow or script|
 |settings|Object|factor=12|A list of variables that are set before the process is run|
 |input|Object|date=”2021-05-17”|An object used as input to the process which can be overridden if manually running the process. In the case of a workflow, this can be used in the actions|
-|cron|String|25 12 ? * MON-FRI *|[CRON Expression](/docs/)
+|cron|String|25 12 ? * MON-FRI *|[CRON Expression](/docs/kb/cron)
 |properties|Object|process.properties.vendor = "European Central Bank"|User definable meta-data about the process|
 
 Example process definition:

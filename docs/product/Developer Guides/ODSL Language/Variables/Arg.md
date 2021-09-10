@@ -1,3 +1,8 @@
+---
+slug: /odsl/variable/arg
+tags:
+  - action
+---
 Arg
 ===================
 

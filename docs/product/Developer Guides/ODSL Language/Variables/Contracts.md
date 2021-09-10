@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/contracts
+tags:
+  - contract
+  - curve
+---
 Contracts
 =========
 

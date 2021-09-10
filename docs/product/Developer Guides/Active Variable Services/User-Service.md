@@ -1,3 +1,9 @@
+---
+slug: /odsl/service/user
+tags:
+  - service
+  - user
+---
 User Service
 =============
 

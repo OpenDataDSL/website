@@ -1,3 +1,8 @@
+---
+slug: /api/rest/service/calendar
+tags:
+  - calendar
+---
 Calendar Service
 ================
 
@@ -5,7 +10,7 @@ The calendar resource contains all the public and private calendars
 
 ## Calendar REST API
 
-The Calendar REST API is a full CRUD API allowing you to search and filter [calendars](/docs/product/Developer%20Guides/Calendars/Calendars) as well as update, version and delete them. It is accessed through the following URL:
+The Calendar REST API is a full CRUD API allowing you to search and filter [calendars](/docs/odsl/calendar/calendars) as well as update, version and delete them. It is accessed through the following URL:
 ```json
 https://api.opendatadsl.com/service/calendar
 ```
@@ -34,7 +39,7 @@ The calendar entity contains the following information:
 |-|-|-|
 |_id|Unique id for the calendar (or object id if this is not the latest version of the calendar)|String|
 |_type|The type of the entity - always VarCalendar|String|
-|calendar|The definition of the calendar|[Calendar](/docs/product/Developer%20Guides/Calendars/Calendars)|
+|calendar|The definition of the calendar|[Calendar](/docs/odsl/calendar/calendars)|
 |_oid|The id of the calendar - will match _id if this is the latest version of the calendar|String|
 |_timestamp|Timestamp of when this calendar version was created|String(DateTime)|
 |_user|The user id (email) of the user that created this calendar verision|String|
@@ -107,7 +112,7 @@ Defining the nth specific named day or a specific month
 
 ### HolidayRule - Named
 
-There are also certain fixed named holidays - see [Holiday Calendar](/docs/product/Developer%20Guides/Calendars/Holiday-Calendar)
+There are also certain fixed named holidays - see [Holiday Calendar](/docs/odsl/calendar/holiday)
 
 ### Options
 

@@ -1,3 +1,9 @@
+---
+slug: /odsl/variable/spreadsheet
+tags:
+  - spreadsheet
+  - table
+---
 Spreadsheet
 ===========================
 

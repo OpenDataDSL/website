@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'A real-world solution for getting your DATA and PROCESSES in the CLOUD',
   url: 'https://www.opendatadsl.com',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'OpenDataDSL', // Usually your GitHub org/user name.
@@ -44,7 +44,11 @@ module.exports = {
             },
             {
               label: 'Tutorials',
-              to: '/docs/product/Tutorials/Tutorials',
+              to: '/docs/tutorials/tutorials',
+            },
+            {
+              label: 'Data Catalog',
+              to: '/docs/data/catalog',
             },
           ],
         },
