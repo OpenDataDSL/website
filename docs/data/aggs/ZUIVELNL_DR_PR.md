@@ -1,10 +1,10 @@
 ---
 slug: /dataset/ZUIVELNL_DR_PR
 tags:
-  - ZUIVELNL
-  - AGGS
-  - DAIRY
-  - NETHERLANDS
+  - zuivelnl
+  - agriculture
+  - dairy
+  - netherlands
 ---
 ZUIVELNL_DR_PR
 ============================================================

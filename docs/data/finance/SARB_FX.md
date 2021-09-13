@@ -1,17 +1,23 @@
 ---
-slug: /dataset/SARP_FX
+slug: /dataset/SARB_FX
 tags:
-  - SARP
-  - FX
-  - EXCHANGE_RATES
-  - SOUTH_AFICA
-  - ZAR
+  - sarp
+  - fx
+  - exchange_rates
+  - south_africa
+  - zar
 ---
 
-RBI_FX
+SARB_FX
 ============================================================
 
 South African Reserve Bank Exchange Rates  
+
+## Overview
+
+![](/img/data/sarb.png)
+
+All the rates are based on the South African Rand (SAR) - click [here](/docs/data/fx) for more information on the Foreign Exchange markets.
 
 ## File Collection
 
@@ -33,9 +39,11 @@ Another set of indicators , [India: Rupee per Rand](https://wwwrs.resbank.co.za/
 
 ## Type
 
-The SARP FX Rates are stored under the type  #ForeignExchange
+The SARB FX Rates are stored under the type #ForeignExchange
 
-### Data Id and Name
+### Data ID and Name
+
+Example data id and name
 
 |Data Id|Name|
 |-|-|
@@ -45,21 +53,23 @@ The SARP FX Rates are stored under the type  #ForeignExchange
 
 |Name|Value|
 |-|-|
-|Source*|SARB|
-|Source Name*|South African Reserve Bank|
-|Id*|#SARB_FX.USDZAR|
-|Name*|South African Reserve Bank Daily Exchange Rates US Dollar Per South African Rand|
+|Source|SARB|
+|Source Name|South African Reserve Bank|
+|Name|South African Reserve Bank Daily Exchange Rates US Dollar Per South African Rand|
 |Description|South African Reserve Bank Daily Exchange Rates US Dollar Per South African Rand|
-|Dataset*|SARB_FX|
-|Dataset Name*|South African Reserve Bank Foreign Exchange Rates|
+|Dataset|SARB_FX|
+|Dataset Name|South African Reserve Bank Foreign Exchange Rates|
 |Dataset Type|Spot|
-|Period*|SPOT|
-|Base|USD|
-|Base Name|US Dollar|
-|Currency|ZAR|
-|Currency Name|South African Rand|
-|Frequency|Business|
-|Market*|Financial Market|
-|Commodity*|Exchange Rates|
-|Location*|South Africa|
+|Market|Financial Market|
+|Commodity|Exchange Rates|
+|Location|South Africa|
 |Quote Calendar|HZA|
+
+### Validation
+
+Data is validated for missing data points using the South African holiday calendar for expected absences.
+
+### Licensing
+
+Data is freely available from the SARB website and can be used by clients without permissions
+

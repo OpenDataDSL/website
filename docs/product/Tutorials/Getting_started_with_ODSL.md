@@ -7,7 +7,7 @@ tags:
 Getting started with ODSL
 =========================
 
-Ease your way into programming with ODSL with a simple tutorial that walks through the language basics
+Ease your way into programming in ODSL with a simple tutorial that walks through the language basics
 
 ## Pre-requisites
 

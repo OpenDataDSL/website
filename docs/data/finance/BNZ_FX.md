@@ -1,36 +1,47 @@
 ---
 slug: /dataset/BNZ_FX
 tags:
-  - BNZ
-  - FX
-  - EXCHANGE_RATES
-  - NEWZEALAND
-  - NZD
+  - bnz
+  - fx
+  - exchange_rates
+  - new_zealand
+  - nzd
 ---
 BNZ_FX
 ============================================================
 
 Bank of New Zealand Exchange Rates
 
+## Overview
+
+![](/img/data/bnz.png)
+
+The Bank of New Zealand was founded in 1861.
+
+All the rates are based on the New Zealand Dollar (NZD) - click [here](/docs/data/fx) for more information on the Foreign Exchange markets.
+
 ## File Collection
 
 URL to extract Bank of New Zealand Exchange Rates is [https://www.bnz.co.nz/support/rates-and-fees/essentials/currencyselect-exchange-rates](https://www.bnz.co.nz/support/rates-and-fees/essentials/currencyselect-exchange-rates)
+
+### Schedule
+
+Process is scheduled at 05:00AM UTC ( 18:00 NZDT)
+
+### Sample File
 
 Rates under ‘YOU SEND INTL PAYMENT’ column is loaded.
 
 ![](/attachments/216367356/216367373.png)
 
-### Process Schedule
-
-In the bank website, we can see, “ Indicative Foreign Exchange Rates as at: 16:39PM (New Zealand local time), 07 January 2021
-
-Process will be scheduled to 05:00AM UTC ( 18:00 NZDT)
 
 ## Type
 
-The BNZ FX Rates are stored under the type  #ForeignExchange
+The BNZ FX Rates are stored under the type #ForeignExchange
 
-### Data Id and Name
+### Data ID and Name
+
+Example data id and name
 
 |Data Id|Name|
 |-|-|
@@ -40,22 +51,23 @@ The BNZ FX Rates are stored under the type  #ForeignExchange
 
 |Name|Value|
 |-|-|
-|Source*|BNZ|
-|Source Name*|Bank of New Zealand|
-|Id*|#BNZ_FX.NZDINR|
-|Name*|Bank of New Zealand Spot FX Exchange Rate New Zealand Dollar Per India Rupee|
+|Source|BNZ|
+|Source Name|Bank of New Zealand|
+|Name|Bank of New Zealand Spot FX Exchange Rate New Zealand Dollar Per India Rupee|
 |Description|Bank of New Zealand Spot FX Exchange Rate New Zealand Dollar Per India Rupee|
-|Dataset*|BNZ_FX|
-|Dataset Name*|Bank of New Zealand Foreign Exchange Rates|
+|Dataset|BNZ_FX|
+|Dataset Name|Bank of New Zealand Foreign Exchange Rates|
 |Dataset Type|Spot|
-|Period*|SPOT|
-|Base|NZD|
-|Base Name|New Zealand Dollar|
-|Currency|INR|
-|Currency Name|Indian Rupee|
-|Frequency|Business|
-|Market*|Financial Market|
-|Commodity*|Exchange Rates|
-|Location*|New Zealand|
+|Market|Financial Market|
+|Commodity|Exchange Rates|
+|Location|New Zealand|
 |Quote Calendar|HNZ|
+
+### Validation
+
+Data is validated for missing data points.
+
+### Licensing
+
+Data is freely available from the BNZ website and can be used by clients without permissions
 

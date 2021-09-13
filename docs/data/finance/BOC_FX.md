@@ -1,17 +1,23 @@
 ---
 slug: /dataset/BOC_FX
 tags:
-  - BOC
-  - FX
-  - EXCHANGE_RATES
-  - CANADA
-  - CAD
+  - boc
+  - fx
+  - exchange_rates
+  - canada
+  - cad
 ---
 
 BOC_FX
 ============================================================
 
 Bank of Canada Exchange Rates
+
+## Overview
+
+![](/img/data/boc.png)
+
+All the rates are based on the Canadian Dollar (CAD) - click [here](/docs/data/fx) for more information on the Foreign Exchange markets.
 
 ## File Collection
 
@@ -27,9 +33,11 @@ Schedule to collect file at 23:30 AM UTC on business days.
 
 ## Type
 
-The BOC FX Rates are stored under the type  #ForeignExchange
+The BOC FX Rates are stored under the type #ForeignExchange
 
-### Data Id and Name
+### Data ID and Name
+
+Example data id and name
 
 |Data Id|Name|
 |-|-|
@@ -39,22 +47,23 @@ The BOC FX Rates are stored under the type  #ForeignExchange
 
 |Name|Value|
 |-|-|
-|Source*|BOC|
-|Source Name*|Bank of Canada|
-|Id*|#BOC\_FX\_FXEURCAD|
-|Name*|Bank of Canada Spot Exchange Rates Euro Per Canadian Dollar|
+|Source|BOC|
+|Source Name|Bank of Canada|
+|Name|Bank of Canada Spot Exchange Rates Euro Per Canadian Dollar|
 |Description|Bank of Canada Spot Exchange Rates Euro Per Canadian Dollar|
-|Dataset*|BOC_FX|
-|Dataset Name*|Bank of Canada Foreign Exchange Rates|
+|Dataset|BOC_FX|
+|Dataset Name|Bank of Canada Foreign Exchange Rates|
 |Dataset Type|Spot|
-|Period*|SPOT|
-|Base|EUR|
-|Base Name|Euro|
-|Currency|CAD|
-|Currency Name|Canadian Dollar|
-|Frequency|Business|
-|Market*|Financial Market|
-|Commodity*|Exchange Rates|
-|Location*|Canada|
+|Market|Financial Market|
+|Commodity|Exchange Rates|
+|Location|Canada|
 |Quote Calendar|HCA|
+
+### Validation
+
+Data is validated for missing data points.
+
+### Licensing
+
+Data is freely available from the BOC website and can be used by clients without permissions
 

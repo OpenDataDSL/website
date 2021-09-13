@@ -1,10 +1,10 @@
 ---
 slug: /dataset/ENTSOE_GN_GENUNIT
 tags:
-  - ENTSOE
-  - POWER
-  - FUNDAMENTALS
-  - EUROPE
+  - entsoe
+  - power
+  - fundamentals
+  - europe
 ---
 ENTSOE_GN_GENUNIT
 ============================================================

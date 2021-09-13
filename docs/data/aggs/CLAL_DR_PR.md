@@ -1,12 +1,12 @@
 ---
 slug: /dataset/CLAL_DR_PR
 tags:
-  - CLALIT
-  - AGGS
-  - DAIRY
-  - AMF
-  - ANHYDROUS_KILK_FAT
-  - ITALY
+  - clalit
+  - agriculture
+  - dairy
+  - amf
+  - anhydrous_milk_fat
+  - italy
 ---
 CLAL_DR_PR
 ============================================================

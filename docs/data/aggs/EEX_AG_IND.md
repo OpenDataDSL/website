@@ -1,10 +1,13 @@
 ---
 slug: /dataset/EEX_AG_IND
 tags:
-  - EEX
-  - AGGS
-  - INDEX
-  - EUROPE
+  - eex
+  - agriculture
+  - index
+  - europe
+  - butter
+  - smp
+  - skimmed_milk_powder
 ---
 EEX_AG_IND
 ============================================================

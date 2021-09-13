@@ -1,33 +1,38 @@
 ---
 slug: /dataset/ECB_FX
 tags:
-  - ECB
-  - FX
-  - EXCHANGE_RATES
-  - EUROPE
-  - EUR
+  - ecb
+  - fx
+  - exchange_rates
+  - europe
+  - eur
 ---
 
 ECB_FX
-============================================================
+======
 
-Euroepan Central Bank Reference Exchange Rates
+European Central Bank Reference Exchange Rates
 
 ## Overview
 
-The European Central Bank (ECB) is the central bank for the euro and administers monetary policy of the Eurozone, which consists of 19 EU member states and is one of the largest currency areas in the world. It is one of the world's most important central banks and is one of the seven institutions of the European Union (EU) listed in the Treaty on European Union (TEU).
+![](/img/data/ecb.png)
 
-The FX rates that would be loaded are the ECB Reference rates. 
+The European Central Bank (ECB) is the central bank for the euro and administers monetary policy of the Eurozone, 
+which consists of 19 EU member states and is one of the largest currency areas in the world. 
+It is one of the world's most important central banks and is one of the seven institutions of the European Union (EU) 
+listed in the Treaty on European Union (TEU).
+
+The FX rates that are loaded are the ECB Reference rates. 
+
+All the rates are based on the EURO - click [here](/docs/data/fx) for more information on the Foreign Exchange markets.
 
 ## File Collection
 
-*   The file is retrieved from the ECB website at [http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml](http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml)
-    
+The file is retrieved from the ECB website at [http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml](http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml)  
 
 ### Schedule
 
-*   Schedule at 16:30 CET business days
-    
+The data is collected at 16:30 CET business days
 
 ### Sample File
 
@@ -37,9 +42,11 @@ Below is the excerpts of the source file for 13th November 2020:
 
 ## Type
 
-The ECX FX Rates are stored under the type  #ForeignExchange
+The ECX FX Rates are stored under the type **#ForeignExchange**
 
-### Data Id and Name
+### Data ID and Name
+
+Example data id and name
 
 |**Data Id**|**Name**|
 |-|-|
@@ -50,23 +57,16 @@ The ECX FX Rates are stored under the type  #ForeignExchange
 
 |Name|Value|
 |-|-|
-|Source*|ECB|
-|Source Name*|European Central Bank|
-|Id*|#ECB_FX.EURUSD|
-|Name*|Euro Foreign Exchange Reference Rates Euro Per US Dollar|
+|Source|ECB|
+|Source Name|European Central Bank|
+|Name|Euro Foreign Exchange Reference Rates Euro Per US Dollar|
 |Description|Euro Foreign Exchange Reference Rates Euro Per US Dollar|
-|Dataset*|ECB_FX|
-|Dataset Name*|European Central Bank Reference Rates|
+|Dataset|ECB_FX|
+|Dataset Name|European Central Bank Reference Rates|
 |Dataset Type|Spot|
-|Period*|SPOT|
-|Base|EUR|
-|Base Name|Euro|
-|Currency|USD|
-|Currency Name|US Dollar|
-|Frequency|Business|
-|Market*|Financial Market|
-|Commodity*|Exchange Rates|
-|Location*|Europe|
+|Market|Financial Market|
+|Commodity|Exchange Rates|
+|Location|Europe|
 |Quote Calendar|HTR|
 
 ### Validation

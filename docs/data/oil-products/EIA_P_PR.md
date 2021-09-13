@@ -1,11 +1,11 @@
 ---
 slug: /dataset/EIA_P_PR
 tags:
-  - EIA
-  - OIL
-  - PRODUCTS
-  - FUNDAMENTALS
-  - USD
+  - eia
+  - oil
+  - products
+  - fundamentals
+  - usd
 ---
 EIA_P_PR
 ============================================================

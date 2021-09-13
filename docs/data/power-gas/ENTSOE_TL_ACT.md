@@ -1,11 +1,11 @@
 ---
 slug: /dataset/ENTSOE_TL_ACT
 tags:
-  - ENTSOE
-  - POWER
-  - FUNDAMENTALS
-  - EUROPE
-  - ACTUAL
+  - entsoe
+  - power
+  - fundamentals
+  - europe
+  - actual
 ---
 ENTSOE_TL_ACT
 ============================================================

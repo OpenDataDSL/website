@@ -1,10 +1,10 @@
 ---
 slug: /dataset/HUPX_EL_DAM
 tags:
-  - HUPX
-  - POWER
-  - DAYAHEAD
-  - HUNGARY
+  - hupx
+  - power
+  - day_ahead
+  - hungary
 ---
 HUPX_EL_DAM
 ============================================================

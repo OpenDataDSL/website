@@ -1,17 +1,23 @@
 ---
 slug: /dataset/SBP_FX
 tags:
-  - SBP
-  - FX
-  - EXCHANGE_RATES
-  - PAKISTAN
-  - PKR
+  - sbp
+  - fx
+  - exchange_rates
+  - pakistan
+  - pkr
 ---
 
 SBP_FX
 ============================================================
 
 State Bank of Pakistan Exchange Rates  
+
+## Overview
+
+![](/img/data/sbp.png)
+
+All the rates are based on the Pakistan Rupee (PKR) - click [here](/docs/data/fx) for more information on the Foreign Exchange markets.
 
 ## File Collection
 
@@ -27,9 +33,11 @@ Process is scheduled to run at 14:15 UTC
 
 ## Type
 
-The SBP FX Rates are stored under the type  #ForeignExchange
+The SBP FX Rates are stored under the type #ForeignExchange
 
-### Data Id and Name
+### Data ID and Name
+
+Example data id and name
 
 |Data Id|Name|
 |-|-|
@@ -39,21 +47,23 @@ The SBP FX Rates are stored under the type  #ForeignExchange
 
 |Name|Value|
 |-|-|
-|Source*|SBP|
-|Source Name*|State Bank of Pakistan|
-|Id*|#SBP_FX.USDPKR|
-|Name*|State Bank of Pakistan Weighted Average Customer Exchange Rates US Dollar Per Pakistan Rupee|
+|Source|SBP|
+|Source Name|State Bank of Pakistan|
+|Name|State Bank of Pakistan Weighted Average Customer Exchange Rates US Dollar Per Pakistan Rupee|
 |Description|State Bank of Pakistan Weighted Average Customer Exchange Rates US Dollar Per Pakistan Rupee|
-|Dataset*|SBP_FX|
-|Dataset Name*|State Bank of Pakistan Foreign Exchange Rates|
+|Dataset|SBP_FX|
+|Dataset Name|State Bank of Pakistan Foreign Exchange Rates|
 |Dataset Type|Spot|
-|Period*|SPOT|
-|Base|USD|
-|Base Name|US Dollar|
-|Currency|PKR|
-|Currency Name|Pakistan Rupee|
-|Frequency|Business|
-|Market*|Financial Market|
-|Commodity*|Exchange Rates|
-|Location*|Pakistan|
+|Market|Financial Market|
+|Commodity|Exchange Rates|
+|Location|Pakistan|
 |Quote Calendar|HPK|
+
+### Validation
+
+Data is validated for missing data points using the Pakistan Bank holiday calendar for expected absences.
+
+### Licensing
+
+Data is freely available from the SBP website and can be used by clients without permissions
+

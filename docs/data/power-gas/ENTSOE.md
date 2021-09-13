@@ -1,10 +1,10 @@
 ---
 slug: /company/ENTSOE
 tags:
-  - ENTSOE
-  - POWER
-  - FUNDAMENTALS
-  - EUROPE
+  - entsoe
+  - power
+  - fundamentals
+  - europe
 ---
 ENTSOE
 =========

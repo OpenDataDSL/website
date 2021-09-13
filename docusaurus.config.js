@@ -50,6 +50,10 @@ module.exports = {
               label: 'Data Catalog',
               to: '/docs/data/catalog',
             },
+            {
+              label: 'Tags',
+              to: '/docs/tags',
+            },
           ],
         },
         {

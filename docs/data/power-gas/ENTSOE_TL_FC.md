@@ -1,11 +1,11 @@
 ---
 slug: /dataset/ENTSOE_TL_FC
 tags:
-  - ENTSOE
-  - POWER
-  - FUNDAMENTALS
-  - EUROPE
-  - FORECAST
+  - entsoe
+  - power
+  - fundamentals
+  - europe
+  - forecast
 ---
 ENTSOE_TL_FC
 ============================================================

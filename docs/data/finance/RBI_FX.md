@@ -1,11 +1,11 @@
 ---
 slug: /dataset/RBI_FX
 tags:
-  - RBI
-  - FX
-  - EXCHANGE_RATES
-  - INDIA
-  - INR
+  - rbi
+  - fx
+  - exchange_rates
+  - india
+  - inr
 ---
 
 RBI_FX
@@ -15,13 +15,22 @@ Reserve Bank of India Reference Rates
 
 ## Overview
 
+![](/img/data/rbi.png)
+
 ([https://www.rbi.org.in/HOME.ASPX](https://www.rbi.org.in/HOME.ASPX))
 
-The Reserve Bank of India (RBI) is India's central bank, responsible for the issue and supply of the Indian rupee and the regulation of the Indian banking system. It also manages the country's main payment systems and works to promote its economic development.
+The Reserve Bank of India (RBI) is India's central bank, responsible for the issue and supply of the Indian rupee and 
+the regulation of the Indian banking system. 
+It also manages the country's main payment systems and works to promote its economic development.
+
+All the rates are based on the Indian Rupee (INR) - click [here](/docs/data/fx) for more information on the Foreign Exchange markets.
 
 ## File Collection
 
-*   Since July 10, 2018 Computation and Dissemination has been taken up by FBIL (Financial Benchmarks India Ltd.). Click on the following link to collect data: [www.fbil.org.in](http://www.fbil.org.in)
+![](/img/data/fbil.jpg)
+
+Since July 10, 2018 Computation and Dissemination has been taken up by FBIL (Financial Benchmarks India Ltd.). 
+Click on the following link to collect data: [www.fbil.org.in](http://www.fbil.org.in)
     
 
 ### Schedule
@@ -45,9 +54,11 @@ If factor is other than 1, multiply 1/factor to Rate to get FX Rate.
 
 ## Type
 
-The RBI FX Rates are stored under the type  #ForeignExchange
+The RBI FX Rates are stored under the type #ForeignExchange
 
-### Data Id and Name
+### Data ID and Name
+
+Example data id and name
 
 |Data Id|Name|
 |#RBI_FX.USDINR|Reserve Bank of India Foreign Exchange Reference Rates US Dollar Per Indian Rupee|
@@ -56,23 +67,16 @@ The RBI FX Rates are stored under the type  #ForeignExchange
 
 |Name|Value|
 |-|-|
-|Source*|RBI|
-|Source Name*|Reserve Bank of India|
-|Id*|#RBI_FX.USDINR|
-|Name*|Reserve Bank of India Foreign Exchange Reference Rates US Dollar Per Indian Rupee|
+|Source|RBI|
+|Source Name|Reserve Bank of India|
+|Name|Reserve Bank of India Foreign Exchange Reference Rates US Dollar Per Indian Rupee|
 |Description|Reserve Bank of India Foreign Exchange Reference Rates US Dollar Per Indian Rupee|
-|Dataset*|RBI_FX|
-|Dataset Name*|Reserve Bank of India Reference Rates|
+|Dataset|RBI_FX|
+|Dataset Name|Reserve Bank of India Reference Rates|
 |Dataset Type|Spot|
-|Period*|SPOT|
-|Base|USD|
-|Base Name|US Dollar|
-|Currency|INR|
-|Currency Name|Indian Rupee|
-|Frequency|Business|
-|Market*|Financial Market|
-|Commodity*|Exchange Rates|
-|Location*|India|
+|Market|Financial Market|
+|Commodity|Exchange Rates|
+|Location|India|
 |Quote Calendar|HIN|
 
 ### Validation

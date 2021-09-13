@@ -1,11 +1,11 @@
 ---
 slug: /dataset/OMIP_EL_FUT
 tags:
-  - OMIP
-  - POWER
-  - FUTURES
-  - SPAIN
-  - PORTUGAL
+  - omip
+  - power
+  - futures
+  - spain
+  - portugal
 ---
 OMIP_EL_FUT
 ============================================================

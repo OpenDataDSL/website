@@ -1,10 +1,14 @@
 ---
 slug: /dataset/MATBAROFEX_AG_FUT
 tags:
-  - MATBA
-  - AGGS
-  - FUTURES
-  - ARGENTINA
+  - matba
+  - agriculture
+  - futures
+  - argentina
+  - south_america
+  - wheat
+  - soybean
+  - corn
 ---
 MATBAROFEX_AG_FUT
 ============================================================

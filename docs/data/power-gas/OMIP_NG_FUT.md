@@ -1,10 +1,10 @@
 ---
 slug: /dataset/OMIP_NG_FUT
 tags:
-  - OMIP
-  - GAS
-  - FUTURES
-  - SPAIN
+  - omip
+  - gas
+  - futures
+  - spain
 ---
 OMIP_NG_FUT
 ============================================================
@@ -28,7 +28,7 @@ The supplier and dataset details of OMIP Gas Futures are given below:
 ||**Code**|**Name**|**Type**|
 |-|-|-|-|
 |Supplier|OMIP|The Iberian Energy Derivatives Exchange|Exchange|
-|Dataset|OMIP\_NG\_FUT|The Iberian Energy Derivatives Exchange Natural Gas Futures|Natural Gas Futures|
+|Dataset|OMIP_NG_FUT|The Iberian Energy Derivatives Exchange Natural Gas Futures|Natural Gas Futures|
 
 ## Type
 

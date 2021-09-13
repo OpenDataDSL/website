@@ -11,25 +11,17 @@ Averaging over $5 trillion per day, the foreign exchange (FX) market is where cu
 
 ## Data Sets
 
-### [ECB FX - ECB Euro Foreign Exchange Reference Rates](/docs/dataset/ECB_FX)
+* [BNM FX - Bank Negara Malaysia Exchange Rates](/docs/dataset/BNM_FX)
+* [BNZ FX - Bank of New Zealand Exchange Rates](/docs/dataset/BNZ_FX)
+* [BOC FX - Bank of Canada Exchange Rates](/docs/dataset/BOC_FX)
+* [BOCH FX - Bank of China Exchange Rates](/docs/dataset/BOCH_FX)
+* [BOE FX - Bank of England Daily Spot Exchange Rates](/docs/dataset/BOE_FX)
+* [ECB FX - ECB Euro Foreign Exchange Reference Rates](/docs/dataset/ECB_FX)
+* [RBI-FX - Reserve Bank of India Reference Rates](/docs/dataset/RBI_FX)
+* [SARB FX - South African Reserve Bank Exchange Rates](/docs/dataset/SARB_FX)
+* [SBP FX - State Bank of Pakistan Exchange Rates](/docs/dataset/SBP_FX)
 
-### [BNM FX - Bank Negara Malaysia Exchange Rates](/docs/dataset/BNM_FX)
-
-### [RBI-FX Reserve Bank of India Reference Rates](/docs/dataset/RBI_FX)
-
-### [BOC FX - Bank of Canada Exchange Rates](/docs/dataset/BOC_FX)
-
-### [BOE FX - Bank of England Daily Spot Exchange Rates](/docs/dataset/BOE_FX)
-
-### [BOCH FX - Bank of China Exchange Rates](/docs/dataset/BOCH_FX)
-
-### [SBP FX - State Bank of Pakistan Exchange Rates](/docs/dataset/SBP_FX)
-
-### [SARB FX - South African Reserve Bank Exchange Rates](/docs/dataset/SARP_FX)
-
-### [BNZ FX - Bank of New Zealand Exchange Rates](/docs/dataset/BNZ_FX)
-
-## Introduction to FX Market
+## Introduction
 
 The world is becoming more interconnected every day. Businesses and individuals around the globe are increasingly conducting transactions that involve payments of one currency to another.
 
