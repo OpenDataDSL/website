@@ -13,6 +13,7 @@ EIA_P_PR
 EIA Petroleum and Other Liquids Prices  
 
 ## Overview
+![](/img/data/eia.jfif)
 
 The **U.S. Energy Information Administration** (**EIA**) is a principal agency of the [U.S. Federal Statistical System](https://en.wikipedia.org/wiki/Federal_Statistical_System_of_the_United_States) responsible for collecting, analyzing, and disseminating [energy](https://en.wikipedia.org/wiki/Energy) information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA programs cover data on [coal](https://en.wikipedia.org/wiki/Coal), [petroleum](https://en.wikipedia.org/wiki/Petroleum), [natural gas](https://en.wikipedia.org/wiki/Natural_gas), [electric](https://en.wikipedia.org/wiki/Electric_power), [renewable](https://en.wikipedia.org/wiki/Renewable_energy) and [nuclear](https://en.wikipedia.org/wiki/Nuclear_power) energy. EIA is part of the [U.S. Department of Energy](https://en.wikipedia.org/wiki/United_States_Department_of_Energy).
 

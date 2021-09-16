@@ -5,6 +5,9 @@ tags:
   - agriculture
   - dairy
   - netherlands
+  - butter
+  - wmp
+  - smp
 ---
 ZUIVELNL_DR_PR
 ============================================================
@@ -12,6 +15,8 @@ ZUIVELNL_DR_PR
 ZuivelNL Dairy Prices
 
 ## Overview
+
+![](/img/data/zuivelnl.jpg)
 
 ZuivelNL was founded on 7 January 2014 by LTO Nederland (LTO) and the Dutch Dairy Organization (NZO), as a chain organization of the dairy sector.
 
@@ -21,11 +26,17 @@ The chain organization is the neutral point of contact for the dairy sector for 
 
 website: [http://www.ZuivelNL.org](http://www.zuivelnl.org/)
 
+## File Collection
+
+### Schedule
+
+A weekly file that is updated every Wednesday on the vendor site.
+
 ## Type
 
 The Zuivelnl Dairy Prices are stored in type: #Agriculture
 
-## Dataset details
+### Dataset details
 
 **Dataset** ZUIVELNL_DR_PR
 
@@ -74,10 +85,6 @@ The content of the units and currency is based on the information provided by th
 
 The spot and average prices are expressed in EUR by the provider. The quantities, which the prices refer to, are expressed in 100KG.
 
-### Scheduling
-
-It is a weekly file updated every Wednesday in vendor site.
-
 ### Attributes
 
 Below profiles and properties belong to Zuivelnl object:
@@ -86,22 +93,10 @@ Below profiles and properties belong to Zuivelnl object:
 |-|-|
 |Source|ZuivelNL|
 |Source Name|ZuivelNL|
-|Id|ZUIVELNL.BTR.QPR.W|
-|Name|ZuivelNL Fresh Butter Quotation Price Weekly|
-|Description|ZuivelNL Fresh Butter Quotation Price Weekly|
-|AVG|$data:"#ZUIVELNL.BUTTER.QPR.W:AVG"|
-|PRICE|${data:"#ZUIVELNL.BUTTER.QPR.W:PRICE"|
 |Dataset|ZUIVELNL_DR_PR|
 |Dataset Name|ZuivelNL Dairy Prices|
 |Dataset Type|Quotation Price|
-|Period|SPOT|
-|Period Name|Spot|
-|Currency|EUR|
-|Currency Name|Euro|
-|Unit|100KG|
-|Unit Name|100 Kilogram|
-|Frequency|Weekly|
 |Market|Agriculture|
 |Commodity|Dairy|
-|Product|Fresh Milk|
+|Product|Various|
 |Location|The Netherlands|
