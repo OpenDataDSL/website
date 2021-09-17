@@ -3,7 +3,7 @@ slug: /dataset/HUPX_EL_DAM
 tags:
   - hupx
   - power
-  - day_ahead
+  - day-ahead
   - hungary
 ---
 HUPX_EL_DAM

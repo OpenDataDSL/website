@@ -3,7 +3,7 @@ slug: /dataset/SBP_FX
 tags:
   - sbp
   - fx
-  - exchange_rates
+  - exchange-rates
   - pakistan
   - pkr
 ---

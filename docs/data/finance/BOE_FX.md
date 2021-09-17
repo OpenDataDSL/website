@@ -3,7 +3,7 @@ slug: /dataset/BOE_FX
 tags:
   - boe
   - fx
-  - exchange_rates
+  - exchange-rates
   - england
   - gbp
 ---

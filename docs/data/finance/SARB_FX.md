@@ -3,8 +3,8 @@ slug: /dataset/SARB_FX
 tags:
   - sarp
   - fx
-  - exchange_rates
-  - south_africa
+  - exchange-rates
+  - south-africa
   - zar
 ---
 

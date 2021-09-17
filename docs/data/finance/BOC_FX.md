@@ -3,7 +3,7 @@ slug: /dataset/BOC_FX
 tags:
   - boc
   - fx
-  - exchange_rates
+  - exchange-rates
   - canada
   - cad
 ---

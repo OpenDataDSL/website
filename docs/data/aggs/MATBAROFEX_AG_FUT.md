@@ -5,7 +5,7 @@ tags:
   - agriculture
   - futures
   - argentina
-  - south_america
+  - south-america
   - wheat
   - soybean
   - corn

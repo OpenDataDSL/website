@@ -3,8 +3,8 @@ slug: /dataset/BNZ_FX
 tags:
   - bnz
   - fx
-  - exchange_rates
-  - new_zealand
+  - exchange-rates
+  - new-zealand
   - nzd
 ---
 BNZ_FX

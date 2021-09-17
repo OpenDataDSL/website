@@ -3,7 +3,7 @@ slug: /dataset/GDT_DR_FUT
 tags:
   - gdt
   - agriculture
-  - new_zealand
+  - new-zealand
   - dairy
   - cheese
   - butter

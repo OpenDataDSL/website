@@ -3,7 +3,7 @@ slug: /dataset/ECB_FX
 tags:
   - ecb
   - fx
-  - exchange_rates
+  - exchange-rates
   - europe
   - eur
 ---

@@ -3,7 +3,7 @@ slug: /dataset/RBI_FX
 tags:
   - rbi
   - fx
-  - exchange_rates
+  - exchange-rates
   - india
   - inr
 ---

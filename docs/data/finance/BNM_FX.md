@@ -3,7 +3,7 @@ slug: /dataset/BNM_FX
 tags: 
   - bnm
   - fx
-  - exchange_rates
+  - exchange-rates
   - malaysia
   - myr
 ---

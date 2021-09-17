@@ -3,7 +3,7 @@ slug: /dataset/BOCH_FX
 tags:
   - boch
   - fx
-  - exchange_rates
+  - exchange-rates
   - china
   - cny
 ---
