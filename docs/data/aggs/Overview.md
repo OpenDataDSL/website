@@ -1,5 +1,28 @@
 ---
 sidebar_position: 1
+tags:
+  - rice
+  - seeds
+  - sugar
+  - raw_sugar
+  - white_sugar
+  - hfcs
+  - sugar_beet
+  - sugar_cane
+  - molasses
+  - meat
+  - beef
+  - pig
+  - poultry
+  - sheep
+  - eggs
+  - biofuel
+  - ethanol
+  - biodiesel
+  - fish
+  - cotton
+  - roots
+  - pulses
 ---
 Overview
 ================
@@ -35,7 +58,7 @@ The **OECD** categorises agriculture using the following category and sub-catego
 * [Sugar](/docs/tags/sugar)
   * [Sugar](/docs/tags/sugar)
   * [Raw sugar](/docs/tags/raw_sugar)
-  * [White sugar](white_sugar)
+  * [White sugar](/docs/tags/white_sugar)
   * [High fructose corn syrup](/docs/tags/hfcs)
   * [Sugar beet](/docs/tags/sugar_beet)
   * [Sugar cane](/docs/tags/sugar_cane)
