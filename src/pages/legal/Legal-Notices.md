@@ -28,3 +28,6 @@ Data protection requirements with respect to the processing of Customer Personal
 
 Our practices towards the use of personal data that you provide to us
 
+### [Cookie Policy](Cookie-Policy)
+
+What cookies are and how we use them
