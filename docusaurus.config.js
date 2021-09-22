@@ -13,6 +13,7 @@ module.exports = {
   organizationName: 'OpenDataDSL', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
   themeConfig: {
+    colorMode: { disableSwitch: true},
     navbar: {
       title: 'OpenDataDSL',
       logo: {
@@ -20,12 +21,7 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'product/intro',
-          position: 'left',
-          label: 'Documentation'
-        },
+        {type: 'doc', docId: 'product/intro',position: 'left',label: 'Documentation'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/pricing', label: 'Pricing', position: 'left'},
         {to: '/support', label: 'Support', position: 'left'},
@@ -73,6 +69,10 @@ module.exports = {
           title: 'More',
           items: [
             {
+              label: 'About Us',
+              to: '/AboutUs',
+            },
+            {
               label: 'Blog',
               to: '/blog',
             },
@@ -88,6 +88,21 @@ module.exports = {
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+    },
+    algolia: {
+      apiKey: 'YOUR_API_KEY',
+      indexName: 'YOUR_INDEX_NAME',
+
+      // Optional: see doc section below
+      contextualSearch: false,
+
+      // Optional: see doc section below
+//      appId: 'YOUR_APP_ID',
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
     },
   },
   presets: [

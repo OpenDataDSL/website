@@ -23,7 +23,7 @@ const AboutList = [
     )
   },
   {
-    title: 'Technology',
+    title: 'Our Technology',
     description: (
       <>
         As a cloud SAAS company, we leverage elastic scaling and serverless technology 
@@ -46,6 +46,27 @@ const FeatureList = [
     link: "easy-to-use"
   },
   {
+    title: 'Make It Yours',
+    jpg: require('../../static/img/customise.jpg').default,
+    description: (
+      <>
+        Build applications using our APIs and customise the portal with your own domain, logo and colours to
+        make it your own.
+      </>
+    ),
+    link: "make-it-yours"
+  },
+  {
+    title: 'Big Savings',
+    jpg: require('../../static/img/save_money.jpg').default,
+    description: (
+      <>
+        In OpenDataDSL you only pay for what you use with a generous FREE monthly allowance.
+      </>
+    ),
+    link: "big-savings"
+  },
+  {
     title: 'Focus on What Matters',
     jpg: require('../../static/img/focus.jpg').default,
     description: (
@@ -54,15 +75,7 @@ const FeatureList = [
         of the chores.
       </>
     ),
-  },
-  {
-    title: 'Big Savings',
-    jpg: require('../../static/img/save_money.jpg').default,
-    description: (
-      <>
-        In OpenDataDSL you only pay for what you use.
-      </>
-    ),
+    link: "focus-on-what-matters"
   },
   {
     title: 'Any Data Anywhere',
@@ -73,6 +86,7 @@ const FeatureList = [
         machine-learning to enrich and automate your data.
       </>
     ),
+    link: "any-data-anywhere"
   },
   {
     title: 'Secure',
@@ -83,16 +97,7 @@ const FeatureList = [
         secure your data.
       </>
     ),
-  },
-  {
-    title: 'Make It Yours',
-    jpg: require('../../static/img/customise.jpg').default,
-    description: (
-      <>
-        Build applications using our APIs and customise the portal with your own domain, logo and colours to
-        make it your own.
-      </>
-    ),
+    link: "secure"
   },
 ];
 
