@@ -1,3 +1,6 @@
+---
+slug: support
+---
 import SupportBlock from '/src/components/Support'
 import styles from '/src/components/Support.module.css';
 import { Container } from 'react-bootstrap';
