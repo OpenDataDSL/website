@@ -113,7 +113,10 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js')
         },
         blog: {
-          showReadingTime: true
+          postsPerPage: 'ALL',
+          showReadingTime: true,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

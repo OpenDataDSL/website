@@ -23,3 +23,8 @@ into our payment partner site so that you can continue using our services.
 * [Pricing Information](pricing)
 * [Legal Information](legal/Legal-Notices)
 * [Company Information](AboutUs)
+
+### Newsletters
+Sign up to receive our [newsletters](https://cdn.forms-content.sg-form.com/e54e36ad-1c51-11ec-872a-6677fa1e7091)
+
+

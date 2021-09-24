@@ -5,27 +5,26 @@ authors: [chartley]
 tags: [data management, odsl]
 ---
 
-## Starting a Data Management project?
-
-
-
 <div class="row">
-  <div class="column25">
-    <img src="/img/decisions-2314120_640.jpg"/>
+  <div class="column">
+    <img src="./2021-04-06-building-a-data-management-system/header.jpg"/>
   </div>
-  <div class="column75">
-  At the start of a project to build a data management system, or simply getting a data feed to feed into an internal system, there are generally 2 considerations to make:
-    <ol>
-        <li><h2>Do we out-source the whole project to a company that has readily available software?</h2></li>
-        <li><h2>Do we build something from scratch?</h2></li>
-    </ol>
-    Both options have their pros and cons, but now there is a 3rd option that contains the best of both options!
+  <div class="column">
+  <h2>Starting a Data Management project?</h2>
+  Buy or build? Maybe there is a better way?
   </div>
 </div>
 
 <!--truncate-->
 
 <hr/>
+
+At the start of a project to build a data management system, or simply getting a data feed to feed into an internal system, there are generally 2 considerations to make:
+
+* Do we out-source the whole project to a company that has readily available software?
+* Do we build something from scratch?
+   
+Both options have their pros and cons, but now there is a 3rd option that contains the best of both options!
 
 :::tip Best of both worlds!
 ## Utilise pre-built components to rapidly build a data management system, whilst giving your users a professional user experience
