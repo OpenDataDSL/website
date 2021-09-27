@@ -7,7 +7,7 @@ tags: [model, type, object, odsl]
 
 <div class="row">
   <div class="column">
-    <img src="./2021-08-06-defining-your-data-model/header.jpg"/>
+    <img src="/img/blog/data-model.jpg"/>
   </div>
   <div class="column">
   <h2>Defining Your Data Model</h2>  

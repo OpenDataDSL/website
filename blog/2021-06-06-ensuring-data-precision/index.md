@@ -7,7 +7,7 @@ tags: [data, quality, odsl]
 
 <div class="row">
   <div class="column">
-    <img src="./2021-06-06-ensuring-data-precision/header.jpg"/>
+    <img src="/img/blog/data-precision.jpg"/>
   </div>
   <div class="column">
   <h2>Ensuring Data Precision</h2>  

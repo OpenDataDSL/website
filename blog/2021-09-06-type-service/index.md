@@ -7,7 +7,7 @@ tags: [model, type, object, odsl]
 
 <div class="row">
   <div class="column">
-    <img src="./2021-09-06-type-service/header.png"/>
+    <img src="/img/blog/type-service.png"/>
   </div>
   <div class="column">
   <h2>Data Modelling: Types and Type Service</h2>

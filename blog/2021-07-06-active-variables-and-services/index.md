@@ -7,7 +7,7 @@ tags: [data, services, odsl]
 
 <div class="row">
   <div class="column">
-    <img src="./2021-07-06-active-variables-and-services/header.png" />
+    <img src="/img/blog/services.png" />
   </div>
   <div class="column">
   <h2>Active Variables</h2>  

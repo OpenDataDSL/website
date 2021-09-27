@@ -7,7 +7,7 @@ tags: [data management, odsl]
 
 <div class="row">
   <div class="column">
-    <img src="./2021-04-06-building-a-data-management-system/header.jpg"/>
+    <img src="/img/blog/decision.jpg"/>
   </div>
   <div class="column">
   <h2>Starting a Data Management project?</h2>

@@ -7,7 +7,7 @@ tags: [etl, extractor, transformer, odsl]
 
 <div class="row">
   <div class="column">
-    <img src="./2021-05-06-building-an-etl-process/header.jpg"/>
+    <img src="/img/blog/etl.jpg"/>
   </div>
   <div class="column">
   <h2>Extract, Transform and Load</h2>
