@@ -60,7 +60,7 @@ We offer 4 support levels which you are free to choose based on your specific ne
 
 | **Cover** | **Basic** | **Bronze** | **Silver** | **Gold** | 
 |-|-|-|-|-|
-| **Price** | Free | £25/month | £100/month | £1000/month | 
+| **Price** | Free | £25/month | £100/month | £ call us | 
 | **Issue Logging** | Web Only | Web Only | Web Only | Web and dedicated account manager |
 | **Response Times** |
 | **1 - Blocker**  | 24 hours | 8 hours | 2 hours | 30 minutes |

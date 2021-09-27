@@ -1,6 +1,6 @@
 ---
 slug: building-a-data-management-system
-title: Build or Buy?
+title: Buy or Build?
 authors: [chartley]
 tags: [data management, odsl]
 ---
@@ -11,7 +11,9 @@ tags: [data management, odsl]
   </div>
   <div class="column">
   <h2>Starting a Data Management project?</h2>
-  Buy or build? Maybe there is a better way?
+  Do you decide to buy from a software vendor or build from scratch?
+  <br /><br /> 
+  <em>Maybe there is a better way?</em>
   </div>
 </div>
 
@@ -24,29 +26,68 @@ At the start of a project to build a data management system, or simply getting a
 * Do we out-source the whole project to a company that has readily available software?
 * Do we build something from scratch?
    
-Both options have their pros and cons, but now there is a 3rd option that contains the best of both options!
+Both options have their pros and cons - let's examine them:
+
+|Feature|Buy|Build|
+|-|-|-|
+|**Time to rollout**|3-6 months|>12 months|
+|**Cost**|+++++|+++|
+|**Flexibility**|Low|High|
+|**User Experience**|High|Low/Non-existent|
+|**Developer and API access**|Medium|Low|
+|**Documentation**|High|Low/Non-existent|
+|**Upgrades**|3 monthly/annually|Intially Monthly then likely rarely|
+
+## 3rd Option
+There is a 3rd option that contains the best of both worlds!
 
 :::tip Best of both worlds!
 ## Utilise pre-built components to rapidly build a data management system, whilst giving your users a professional user experience
 :::
 
+### The OpenDataDSL Way
+OpenDataDSL is THE Data Management Programming Language specifically built for collecting, managing, using and reporting data.
 
-## What do you get?
+Our vision is to give companies the tools required to build a world-scale data management system which you can 'white-label' to make it your own.
 
-* Data management specific language to rapidly build your own components and interaction
+You can combine the flexibility and cost savings of building your own with the quality, durability and greater user 
+experience of buying off-the-shelf.
+
+### What do you get?
+
+* [Data management specific language](easy-to-use) to rapidly build your own components and interaction
 * All data and processes reside in the cloud, so no on-site costs
-* Define your own data model or extend ours to suit your own unique data
+* Define your own [data model](/any-data-anywhere) or extend ours to suit your own unique data
 * Create powerful, user-friendly workflows to map out your business processes
 * Schedule processes to automate tasks such as collecting and loading data or running complex algorithms
 * Define events that trigger processes enabling smooth synchronous automation of tasks
-* Free use of the web-portal, Excel Add-in and VSCode extension for a professional and constantly revised user experience
-* Secure user authentication and access control using either our IDP or your own Active Directory
+* Free use of ALL our software and tools - that includes:
+    * Web-portal/Dashboard - (Web/Desktop/Mobile)
+    * Excel Add-in
+    * [VSCode extension](/docs/user/vscode)
+* Customise the domain and user experience of all tools to [make it your own](/make-it-yours)
+* Fully supported and documented [REST API](/docs/api/rest/standards) 
+* Secure user authentication and access control using your own [Azure Active Directory](/secure)
 
-## What are the benefits?
+### What are the benefits?
 
-* Quick initial set-up, simply sign-up for a free account and start building!
-* Low cost, only pay for what you use and a free tier enabling you to try-out services with zero cost
+* [Quick initial set-up](/focus-on-what-matters), simply sign-up for a free account and start building!
+* Low cost, [only pay for what you use](/big-savings) and a free tier enabling you to try-out services with zero cost
 * Flexible, smart and relevant - utilising robust cloud technology
-* Secure and scalable user directory with enterprise federation
-* Customisable - utilise your own security and database or use ours, it is your choice
+* Customisable - utilise your [own database](/docs/product/IT%20Guides/Database-information) or use ours, it is your choice
 * Highly scalable utilising serverless technology
+* Multiple data environments - create your own test environment, independent of your production environment
+
+## How does it compare?
+
+|Feature|Buy|Build|OpenDataDSL|
+|-|-|-|-|
+|**Time to rollout**|3-6 months|>12 months|1-3 months|
+|**Cost**|+++++|+++|+|
+|**Flexibility**|Low|High|High|
+|**User Experience**|High|Low/Non-existent|High|
+|**Developer and API access**|Medium|Low|High|
+|**Documentation**|High|Low/Non-existent|High|
+|**Upgrades**|3 monthly/annually|Intially Monthly then likely rarely|Monthly|
+
+[Sign Up](/SignUp) today and become part of the OpenDataDSL community!
