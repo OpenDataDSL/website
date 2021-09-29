@@ -24,6 +24,8 @@ on any data you own or subscribe to using the same tools and user experience.
 
 ## Discover OpenDataDSL
 
+#### Follow these Quick Discovery Guides to familiarise yourself with OpenDataDSL
+
 <Container className={styles.datablock}>
     <Card style={{width:"18rem"}}>
         <Card.Header><a href="/docs/discovery/getting-started"><FontAwesomeIcon icon={faPlug} /><b> Getting Started</b></a></Card.Header>
