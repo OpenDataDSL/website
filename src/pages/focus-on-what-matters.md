@@ -26,4 +26,4 @@ Build workflows and run them in the cloud to perform a variety of tasks like:
 Why spend time on tasks that can be easily automated in the cloud.
 Moving your data management to OpenDataDSL allows you to focus on adding more important things that add value to your business.
 
-<MoreInfo href="/docs/discovery/running-processes" />
+<MoreInfo href="/docs/discovery/automation" />
