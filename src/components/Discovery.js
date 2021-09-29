@@ -19,3 +19,10 @@ export function InDepth(props) {
         <a href={props.href} className="btn btn-outline-primary">In-Depth Information</a>
     );
 }
+
+export function MoreInfo(props) {
+    return (
+        <a href={props.href} className="btn btn-outline-primary">More Information</a>
+    );
+}
+

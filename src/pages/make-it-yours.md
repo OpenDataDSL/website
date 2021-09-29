@@ -4,6 +4,7 @@ slug: make-it-yours
 
 Customise OpenDataDSL to make it your own
 ==========================
+import {MoreInfo} from '/src/components/Discovery.js';
 
 ![](/img/customise.jpg)
 
@@ -23,3 +24,4 @@ that will help to identify the Portal as your own.
 ### Custom Colour Scheme
 Why not skin the Portal using your companies corporate colour scheme too?
 
+<MoreInfo href="/docs/discovery/personalisation" />

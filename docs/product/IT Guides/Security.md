@@ -1,3 +1,11 @@
+---
+slug: /it/security
+sidebar_position: 1
+tags:
+  - security
+  - authorization
+  - authentication
+---
 Security
 ========
 

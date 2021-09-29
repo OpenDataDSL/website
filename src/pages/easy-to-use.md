@@ -4,6 +4,7 @@ slug: easy-to-use
 
 OpenDataDSL is easy to use
 ==========================
+import {MoreInfo} from '/src/components/Discovery.js';
 
 ![](/img/easy_to_use.jpg)
 
@@ -21,3 +22,4 @@ Work through our [tutorials](/docs/tutorials/tutorials) to familiarise yourself 
 ### Data Management Language
 Learn about our extensive [data management programming language](/docs/tutorials/gettingstartedodsl) that will make working with data so mush easier
 
+<MoreInfo href="/docs/discovery/getting-started" />

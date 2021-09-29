@@ -74,7 +74,7 @@ experience of buying off-the-shelf.
 * [Quick initial set-up](/focus-on-what-matters), simply sign-up for a free account and start building!
 * Low cost, [only pay for what you use](/big-savings) and a free tier enabling you to try-out services with zero cost
 * Flexible, smart and relevant - utilising robust cloud technology
-* Customisable - utilise your [own database](/docs/product/IT%20Guides/Database-information) or use ours, it is your choice
+* Customisable - utilise your [own database](/docs/it/database) or use ours, it is your choice
 * Highly scalable utilising serverless technology
 * Multiple data environments - create your own test environment, independent of your production environment
 

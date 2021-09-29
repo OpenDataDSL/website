@@ -4,6 +4,7 @@ slug: big-savings
 
 Sign Up To Make Big Savings!
 ==========================
+import {MoreInfo} from '/src/components/Discovery.js';
 
 ![](/img/save_money.jpg)
 
@@ -26,3 +27,5 @@ You can use it in the Cloud Portal, Excel Add-in, API or download it and store i
 
 ### Free Service Quota
 Every month we give you a [free quota of Service Usage](pricing), if you never go above that quota you will never need to pay anything!
+
+<MoreInfo href="/pricing" />

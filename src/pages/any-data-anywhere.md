@@ -4,6 +4,7 @@ slug: any-data-anywhere
 
 Any Data Anywhere!
 ==========================
+import {MoreInfo} from '/src/components/Discovery.js';
 
 ![](/img/any_data.jpg)
 
@@ -21,3 +22,5 @@ allow you to utilise [Geo-Spatial queries](/docs/odsl/dm/geospatial) and mapping
 ### Machine Learning
 Categorising data, looking for patterns and forecasting are all vital to adding value on top of your data. 
 Utilise our Machine Learning capabilities to train and automate models to enrich your data.
+
+<MoreInfo href="/docs/discovery/uploading-data" />

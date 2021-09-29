@@ -1,3 +1,10 @@
+---
+slug: /it/database
+sidebar_position: 2
+tags:
+  - database
+  - environment
+---
 Database Information
 ====================
 
