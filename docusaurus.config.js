@@ -21,7 +21,7 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        {type: 'doc', docId: 'product/intro',position: 'left',label: 'Documentation'},
+        {type: 'doc', docId: 'home',position: 'left',label: 'Documentation'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/pricing', label: 'Pricing', position: 'left'},
         {to: '/support', label: 'Support', position: 'left'},

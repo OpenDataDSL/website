@@ -41,6 +41,36 @@ gb = ${object:"#LOC_GBR"}
 
 A type in ODSL is a structure of properties, expressions and methods which are shared amongst any objects that are created from it.
 
+### Root type
+Certain properties are present on all types - these properties are defined on the root type known as #Object and are as follows:
+
+```json
+{
+  "name": "String",
+  "description": "String",
+  "classification": "String",
+  "geolocation": "Geometry" 
+}
+```
+
+### Property types
+As you can see from the root type, each property has a type, properties can be:
+* A primary type:
+    * String
+    * Date
+    * Boolean
+    * Number
+* A special type:
+    * Dimension - a special string which can be used for filtering data 
+    * Geometry - used to define a point or shape for [geo-spatial](./Geospatial-Data-and-Queries) mapping
+    * Duration - a duration of time
+    * list - a list of array of other types
+    * object - a generic object 
+* A data type:
+    * TimeSeries - a list of values mapped against date/times
+    * Curve - a forward curve used for contract deliveries and forecasts
+* Any other defined type
+
 ### Creating types
 
 A type can represent any real or virtual thing, but for our example throughout this guide, I will use things around a business that we might want to make a record of, such as companies, offices, employees, computers and other assets that we would like to track.

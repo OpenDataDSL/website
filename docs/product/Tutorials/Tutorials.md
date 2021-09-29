@@ -31,4 +31,6 @@ This tutorial takes a detailed look at subscribing to some data in OpenDataDSL w
 #### [Working with TimeSeries in OpenDataDSL](/docs/tutorials/workingtimeseries)
 This tutorial explores a few aspects of TimeSeries in the OpenDataDSL language
 
+#### [Working with Data Environments](/docs/tutorials/workingenvironments)
+This tutorial teaches you about data environments and how to use them
 
