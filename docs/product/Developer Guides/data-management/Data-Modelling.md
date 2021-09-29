@@ -62,7 +62,7 @@ As you can see from the root type, each property has a type, properties can be:
     * Number
 * A special type:
     * Dimension - a special string which can be used for filtering data 
-    * Geometry - used to define a point or shape for [geo-spatial](/odsl/dm/geospatial) mapping
+    * Geometry - used to define a point or shape for [geo-spatial](/docs/odsl/dm/geospatial) mapping
     * Duration - a duration of time
     * list - a list of array of other types
     * object - a generic object 
