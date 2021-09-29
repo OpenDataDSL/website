@@ -72,13 +72,13 @@ on any data you own or subscribe to using the same tools and user experience.
             </Card.Body>
     </Card>
     <Card style={{width:"18rem"}}>
-        <Card.Header><a href="/docs/discovery/going-to-production"><FontAwesomeIcon icon={faGlobe} /><b> Going to Production</b></a></Card.Header>
+        <Card.Header><a href="/docs/discovery/automation"><FontAwesomeIcon icon={faGlobe} /><b> Automation</b></a></Card.Header>
             <Card.Body>
-              <Card.Text>Make sure you're on the right track and didn't forget anything before moving your data and processes to production.</Card.Text>
+              <Card.Text>Discover how you can build scripts and workflows to automate tasks and use processes to configure and trigger them.</Card.Text>
               <ul>
-                  <li><a href="/docs/discovery/going-to-production#preparation">Preparation</a></li>
-                  <li><a href="/docs/discovery/going-to-production#creating-a-check-list">Creating a Check-List</a></li>
-                  <li><a href="/docs/discovery/going-to-production#automate-rollout">Automate Rollout</a></li>
+                  <li><a href="/docs/discovery/automation#scripts">Scripts</a></li>
+                  <li><a href="/docs/discovery/automation#workflows">Workflows</a></li>
+                  <li><a href="/docs/discovery/automation#processes">Processes</a></li>
               </ul>
             </Card.Body>
     </Card>
