@@ -49,7 +49,7 @@ export default function Home() {
                             <p class={clsx("lead mb-4", styles.tagline)}>A real-world solution for getting your DATA and PROCESSES in the CLOUD. Get started today with a free account using your corporate log-in</p>
                             <div class="d-flex flex-column flex-md-row">
                                 <a href="/SignUp" className={clsx("btn btn-lg mb-3 me-md-3",styles.button)} onclick="ga('send', 'event', 'Jumbotron actions', 'Sign Up', 'Sign Up');">Sign Up</a>
-                                <a href="/docs/product/intro" class="btn btn-lg btn-outline-secondary mb-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Information', 'More Info');">More Information</a>
+                                <a href="/docs/discovery/getting-started" class="btn btn-lg btn-outline-secondary mb-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Information', 'More Info');">More Information</a>
                             </div>
                         </div>
                     </div>
