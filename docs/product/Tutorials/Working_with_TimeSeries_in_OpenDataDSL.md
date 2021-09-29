@@ -22,7 +22,7 @@ This tutorial assumes some familiarity with writing code as we will be doing som
 
 You will need to have the following:
 
-*   An account with OpenDataDSL    
+*   An account with [OpenDataDSL](/SignUp)    
 *   Microsoft VS Code with the [OpenDataDSL extension](/docs/user/vscode)
     
 
