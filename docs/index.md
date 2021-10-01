@@ -85,7 +85,7 @@ on any data you own or subscribe to using the same tools and user experience.
     <Card style={{width:"18rem"}}>
         <Card.Header><a href="/docs/discovery/performance-and-scaling"><FontAwesomeIcon icon={faUser} /><b> Performance and Scaling</b></a></Card.Header>
             <Card.Body>
-              <Card.Text>Discover the infrastructure that powers OpenDataDSL and learn how to optimise your processes for maximum performance.</Card.Text>
+              <Card.Text>Discover the infrastructure that powers OpenDataDSL and the options available for you to optimise performance.</Card.Text>
               <ul>
                   <li><a href="/docs/discovery/performance-and-scaling#technical-overview">Technical Overview</a></li>
                   <li><a href="/docs/discovery/performance-and-scaling#improving-data-performance">Improving Data Performance</a></li>
@@ -118,7 +118,7 @@ on any data you own or subscribe to using the same tools and user experience.
     <Card style={{width:"18rem"}}>
         <Card.Header><a href="/docs/discovery/machine-learning-and-rules"><FontAwesomeIcon icon={faBrain} /><b> Machine Learning and Rules</b></a></Card.Header>
             <Card.Body>
-              <Card.Text>Learn how you can use our machine learning features to categorise and forecast data or apply business rules for event-driven automation of tasks.</Card.Text>
+              <Card.Text>An overview of how you can use our machine learning features to categorise and forecast data or apply business rules for event-driven automation of tasks.</Card.Text>
               <ul>
                   <li><a href="/docs/discovery/machine-learning-and-rules#machine-learning-overview">Machine Learning Overview</a></li>
                   <li><a href="/docs/discovery/machine-learning-and-rules#business-rules">Business Rules</a></li>

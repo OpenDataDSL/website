@@ -13,7 +13,7 @@ import {Discovery, InDepth} from '/src/components/Discovery.js';
 <Discovery text="This discovery guide gives information on how to integrate both the public data and your proprietary data into other cloud systems or your local database infrastructure." />
 
 ## Introduction to Queues
-OpenDataDSL queues are used to move data between between applications in an robust and orderly fashion.
+OpenDataDSL queues are used to move data between between applications in a robust and orderly fashion.
 You send data as a message on a queue that can then be read by a 'handler' application.
 This handler can be the OpenDataDSL data loader which expects batches of objects or can be an external application either in the cloud or on your internal infrastructure.
 
