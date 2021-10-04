@@ -6,12 +6,9 @@ tags:
   - odsl
   - quickstart
 ---
-import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faTable, faCubes, faUser, faGlobe, faLock, faWrench, faBrain } from '@fortawesome/free-solid-svg-icons'
-import styles from '/src/components/StartBuilding.module.css';
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
+import QuickStart from '/docs/product/Tutorials/_quickstart.md';
 
 <Discovery text="This discovery guide gives a technical and non-technical introduction to the features and ecosystem of OpenDataDSL and finishes off with some tutorial tracks you can follow." />
 
@@ -44,31 +41,9 @@ You get started with OpenDataDSL by logging into the [Portal](https://portal.ope
 credentials and entering some information about you and your company - see [SignUp](/SignUp).
 
 ## Quick Start
-Choose from one of the following quick start tracks to get you started:
+Choose from one of the following quick start tracks to get you started or continue reading the [discovery guides](/docs/discovery/uploading-data):
 
-<Container className={styles.datablock}>
-    <Card style={{width:"18rem"}}>
-        <Card.Header><FontAwesomeIcon icon={faCode} /><b> OpenDataDSL Developer</b></Card.Header>
-            <Card.Body>
-              <Card.Text>Take this track to learn how to code in the OpenDataDSL programming language.</Card.Text>
-              <Button>Get Started</Button>
-            </Card.Body>
-    </Card>    
-    <Card style={{width:"18rem"}}>
-        <Card.Header><FontAwesomeIcon icon={faTable} /><b> Data Modeller</b></Card.Header>
-            <Card.Body>
-              <Card.Text>Take this track to learn how to model and store data in OpenDataDSL.</Card.Text>
-              <Button>Get Started</Button>
-            </Card.Body>
-    </Card>
-    <Card style={{width:"18rem"}}>
-        <Card.Header><FontAwesomeIcon icon={faCubes} /><b> API Developer</b></Card.Header>
-            <Card.Body>
-              <Card.Text>Take this track to learn the OpenDataDSL API's and build your own applications.</Card.Text>
-              <Button>Get Started</Button>
-            </Card.Body>
-    </Card>
-</Container>
+<QuickStart />
 
 ---
 

@@ -1,18 +1,21 @@
 ---
-slug: /tutorials/searching
+title: Searching
+sidebar_position: 6
+slug: /tutorials/qs/developer/searching
 tags:
-  - tutorial
+  - quickstart
   - odsl
+  - developer
   - searching
 ---
-Searching using the find command
-================================
+import {QuickStartModule} from '/src/components/Discovery.js';
+import {MoreInfo, InDepth, Tutorial} from '/src/components/Discovery.js';
 
-This guide details the syntax of the find command and shows many examples of using it
+<QuickStartModule text="This quickstart module gives an a comprehensive overview on finding and filtering data including geo-spatial queries." />
 
 ## Syntax
 
-The syntax of the find command is as follows:
+The syntax of the [find](/docs/odsl/command/data-management#find) command is as follows:
 ```js
 // Minimal syntax
 result = find ${service}
@@ -96,7 +99,6 @@ fx = find ${object:"#ForeignExchange"} where currency = curr
 ```
 
 ### Getting a unique (distinct) list of values for a specific field
-
 Sometimes, you need to know what all the possible values are for a specific field within an object. You can use the **unique** command to do this, e.g.
 
 ```js
@@ -106,13 +108,32 @@ print currencies
 ```
 
 ### Getting data using an object query
-
 If you want to return all the e.g. time series instead of the objects using a query, you can use the **profile** command to do this, e.g.
 
 ```js
 // Fetch all data for all ECB_FX currencies
 data = find profile SPOT from ${currency:public} where source == "ECB_FX"
 ```
+
+### Geospatial queries
+If your data includes geometry, you can utilise special geometric additions to the find command, here are some examples:
+
+```js
+// Find a list of items that are within a 20 mile radius of a point
+items = find ${object:"TestGeometry"} where location within Sphere([ 51.72961, 0.47612 ], 20 / 3963.2)
+
+// Find items that are within a defined polygon
+items = find ${object:"TestGeometry"} where location within Polygon([[ 50, -1 ], [52, -1], [52, 1], [50, 1], [ 50, -1 ]])
+
+// Pre-define a polygon, then find items that are within that polygon
+london = Polygon([[51.5386, -0.4956],[51.6445, -0.0753],[51.5205, 0.1753],[51.3479, -0.1163],[51.5386, -0.4956]])
+items = find ${object:"TestGeometry"} where location within london
+
+// Find items that intersect with a polygon
+items = find ${object:"TestGeometry"} where location intersects london
+```
+
+<MoreInfo href="/docs/odsl/dm/geospatial" />
 
 ## Find Examples
 
@@ -144,3 +165,4 @@ Find all public calendars
 ```js
 pcalendars = find ${calendar:public}
 ```
+

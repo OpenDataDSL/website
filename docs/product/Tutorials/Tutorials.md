@@ -2,6 +2,7 @@
 sidebar_position: 1
 slug: /tutorials/tutorials
 ---
+import QuickStart from '/docs/product/Tutorials/_quickstart.md';
 
 Tutorials
 =========
@@ -9,6 +10,10 @@ Tutorials
 Subject based tutorials and getting started guides
 
 ## Contents
+
+### QuickStart Guides
+
+<QuickStart />
 
 ### Coding with ODSL
 

@@ -14,10 +14,7 @@ A secret is a scalar whose value cannot be printed or logged, it only really is 
 You can construct a secret using one of the constructor functions:
 ```js
 // Create a new secret
-sec = Secret("password", "password!")
-
-// Create a new secret with a description
-sec = Secret("password", "password!", "The password to the system")
+sec = Secret("password!")
 ```
 If you try to print a secret, you just see the following:
 ```js

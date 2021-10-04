@@ -20,27 +20,31 @@ When you first sign up to OpenDataDSL, you are given a single `production` envir
 <InDepth href="/docs/tutorials/workingenvironments" />
 
 ## Create Your Data Model
-
 All the data that is stored in OpenDataDSL is dynamic but we impose a pseudo-structure using Types. 
-Types allow you to define the properties that you expect to be available on a specific object that is defined as that type.
+Types allow you to define the properties that you expect to be available on a specific object and is completely customisable and extensible.
 
-One important aspect of creating types in OpenDataDSL is that you don't need to add every property you may want to store on your objects.
-OpenDataDSL is dynamic, so you can add any properties onto an object without it being a property on the object type,
-but by defining a type you create a structure with specific named properties of a certain type.  
+OpenDataDSL data links allow you to create relationships between any data in the system which improves navigation and the overall user experience.     
 
 <InDepth href="/docs/odsl/dm/modelling#types-and-objects" />
 
-### Prepare Your Data
-OpenDataDSL gives you a number of options for pushing your data into the cloud database:
+## Data Loading
+The OpenDataDSL language has been written to simplify the entire ETL (Extract, Transform, Load) process. 
 
-|Method|Data Locations|Data Preparation|
-|-|-|-|
-|Excel Upload|Excel Spreadsheet|Use data upload template|
+Here are a few of the built-in ETL features:
+* **Extract**
+    * Support for all the major file formats
+    * Pull in most data from the internet with 1 line of code
+    * For more complex extractions, create an extractor to automate web page navigation
+* **Transform**
+    * Create a [transformer](/docs/odsl/dm/transformation) to map input data to output objects
+    * Use an optional XSLT to transform XML data
+    * Use the ODSL language for more complex transformations
+* **Load**
+    * Add all your objects to a batch as a secure, robust, transactional loading process
+    * Create a [workflow](/docs/odsl/dm/workflow) that breaks the ETL process down into phases with managed retries and re-schedules
+    * Create a time-triggered process for automation and monitoring 
 
-
-## Automating Data Loads
-
-
+<InDepth href="/docs/odsl/dm/workflow" />
 
 ---
 
