@@ -8,6 +8,7 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
+import DiscoveryPages from './_discovery.md';
 
 <Discovery text="This discovery guide is an overview on how you can build scripts and workflows to automate tasks and use processes to configure and trigger them." />
 
@@ -36,6 +37,10 @@ Processes are usually triggered using a cron schedule and consist of some data t
 You can monitor your processes in the Web Portal and you can also subscribe to a real-time feed of process execution information in order to use an external process monitoring tool. 
 
 <InDepth href="/docs/odsl/dm/workflow" />
+
+## Discover More
+
+<DiscoveryPages />
 
 ---
 

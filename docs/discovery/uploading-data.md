@@ -9,6 +9,7 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
+import DiscoveryPages from './_discovery.md';
 
 <Discovery text="This discovery guide gives an overview on how to prepare, send, and update your data, along with guidance on how to automate data loading and data environments." />
 
@@ -45,6 +46,10 @@ Here are a few of the built-in ETL features:
     * Create a time-triggered process for automation and monitoring 
 
 <InDepth href="/docs/odsl/dm/workflow" />
+
+## Discover More
+
+<DiscoveryPages />
 
 ---
 

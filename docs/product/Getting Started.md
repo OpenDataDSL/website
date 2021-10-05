@@ -93,13 +93,9 @@ If you have other internal systems like risk systems or SAP that require any pub
 
 ## Next steps
 
-You can follow any of the links above to set you on your way to creating the perfect data management system or check out some of the interesting links below:
+Check out some of the interesting links below:
 
-*   [Take your first steps with the OpenDataDSL language](/docs/tutorials/gettingstartedodsl)
-    
-*   [Take a look at our data guides](/docs/data/catalog)
-    
-*   [Check out the REST API](/docs/api/rest/rest)
-    
-*   [Read the user guides for our GUI and extensions](/docs/user/vscode)
-    
+* [Take a **Discovery Tour** for an overview of the product features](/docs/discovery/getting-started)
+* [Get started quickly with one of our **QuickStart Tracks**](/docs/discovery/quick-start)
+* [Browse through the **Data Catalog** to see what data is available](/docs/data/catalog)
+* [Check out our **Tutorials** section](/docs/tutorials/tutorials)    

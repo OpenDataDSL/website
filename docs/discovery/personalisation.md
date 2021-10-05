@@ -10,6 +10,7 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
+import DiscoveryPages from './_discovery.md';
 
 <Discovery text="This discovery guide gives you an overview about how you can personalize your users' experience with a custom domain, company logo and colour scheme." />
 
@@ -32,6 +33,10 @@ They can navigate to a more memorable name which is a sub-domain of your compani
 Another important personalisation you can do is to set the logo on all the applications to your own company logo.
 
 And finally, you can set the colour scheme of the applications and documentation to match your own corporate colours.
+
+## Discover More
+
+<DiscoveryPages />
 
 ---
 

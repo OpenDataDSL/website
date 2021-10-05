@@ -10,6 +10,7 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth, MoreInfo} from '/src/components/Discovery.js';
+import DiscoveryPages from './_discovery.md';
 
 <Discovery text="This discovery guide gives an overview of how you can use our machine learning features to categorise and forecast data or apply business rules for event-driven automation of tasks." />
 
@@ -37,6 +38,10 @@ We are continually working on adding more smart features to our existing applica
 As most of the value in our data is within TimeSeries and Forward Curves, we are currently building some insights that will help you:
 * Detect anomolies and alert you in real-time
 * Analyse trends to give you a head start on potential up-coming events
+
+## Discover More
+
+<DiscoveryPages />
 
 ---
 

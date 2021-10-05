@@ -9,6 +9,7 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
+import DiscoveryPages from './_discovery.md';
 
 <Discovery text="This discovery guide gives information on how to integrate both the public data and your proprietary data into other cloud systems or your local database infrastructure." />
 
@@ -49,6 +50,10 @@ Some example integrations:
 * Feed a BI Reporting Tool - such as SAP Business Objects, QlikSense or Tableau etc.
 
 <InDepth href="/docs/tutorials/gettingstarted1" />
+
+## Discover More
+
+<DiscoveryPages />
 
 ---
 

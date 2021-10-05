@@ -9,6 +9,7 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth, MoreInfo} from '/src/components/Discovery.js';
+import DiscoveryPages from './_discovery.md';
 
 <Discovery text="This discovery guide gives an overview of the infrastructure that powers OpenDataDSL and the options available for you to optimise performance." />
 
@@ -40,6 +41,10 @@ Workflows offer various smart features that help with adapting to the standard o
 * Providing re-schedules to handle 3rd-party system downtimes and optimise the process running time  
 
 <InDepth href="/docs/odsl/dm/workflow" />
+
+## Discover More
+
+<DiscoveryPages />
 
 ---
 

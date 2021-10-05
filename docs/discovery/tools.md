@@ -8,6 +8,7 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
+import DiscoveryPages from './_discovery.md';
 
 <Discovery text="This discovery guide gives an overview of the applications that OpenDataDSL has to offer including some OpenSource tools that could help you find the inspiration for your data management experience." />
 
@@ -47,6 +48,10 @@ As well as providing our off-the-shelf applications, we also have a number of Op
 Example repositories include:
 * Source code for a c# application to load subscriptions in a SQL Server database - [Tutorial](/docs/tutorials/localsqlserver)
 * ODSL source code examples
+
+## Discover More
+
+<DiscoveryPages />
 
 ---
 

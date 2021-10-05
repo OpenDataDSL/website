@@ -9,8 +9,9 @@ tags:
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
 import QuickStart from '/docs/product/Tutorials/_quickstart.md';
+import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide gives a technical and non-technical introduction to the features and ecosystem of OpenDataDSL and finishes off with some tutorial tracks you can follow." />
+<Discovery text="This discovery guide gives a technical and non-technical introduction to the features and ecosystem of OpenDataDSL." />
 
 ## What is OpenDataDSL
 
@@ -40,10 +41,9 @@ see [pricing](/pricing) for more information.
 You get started with OpenDataDSL by logging into the [Portal](https://portal.opendatadsl.com) using your corporate
 credentials and entering some information about you and your company - see [SignUp](/SignUp).
 
-## Quick Start
-Choose from one of the following quick start tracks to get you started or continue reading the [discovery guides](/docs/discovery/uploading-data):
+## Discover More
 
-<QuickStart />
+<DiscoveryPages />
 
 ---
 
