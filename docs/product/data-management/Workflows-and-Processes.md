@@ -289,10 +289,10 @@ Here are a few examples of creating a process:
 ```js
 process = Process()
 process.service = "ETL"
-process.name = "ECB\_FX\_WORKFLOW"
+process.name = "ECB_FX_WORKFLOW"
 process.description = "ETL Process for ECB_FX"
 process.enabled = true
-process.workflow = "#xml\_data\_loader"
+process.workflow = "#xml_data_loader"
 process.input.url = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
 process.input.tx = "ECB_FX"
 process.cron = "0 17 ? * MON,TUE,WED,THU,FRI *"

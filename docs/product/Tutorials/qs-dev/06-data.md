@@ -16,7 +16,7 @@ import {MoreInfo, InDepth, Tutorial} from '/src/components/Discovery.js';
 ## TimeSeries
 A TimeSeries is an array of values where each one is aligned to a point in time.
 Generally TimeSeries are used to record an event or observation at a particular timestamp.
-Examples of TimeSeries:
+Example usage of TimeSeries:
 * The price of a particular commodity
 * The amount or volume of a product sold
 * A computer hardware metric such as memory or CPU usage
@@ -137,3 +137,109 @@ Reloading the data chart in the Web Portal shows the new value added
 ![Data chart in the Web Portal](/img/tutorial/qs-dev/06-data-03.png)
 
 ### Changing TimeSeries Values
+If configured, changing a TimeSeries value can trigger a new version of the TimeSeries to be written thereby preserving changes to all values.
+This is not covered in this QuickStart, but follow the link below to find out more.
+
+<InDepth href="/docs/odsl/dm/versioning" /> 
+
+### TimeSeries Value Status
+As well as values, you can also set a status per observation to record value metadata, such as:
+* Quality
+* Source
+* Reliability
+
+Example of setting the status of a value when adding it:
+
+```js
+// Setting the status when the value is added
+ts1 = TimeSeries("BUSINESS")
+ts1.add("2021-10-15", 15.5, ["Valid", "Calculated"])
+```
+
+<InDepth href="/docs/tutorials/workingtimeseries#setting-value-statuses" />
+
+## Curves
+A Curve is a structure containing an array of contracts which each define a period of time in the future from the perspective of the curve.
+Example usage of Curves: 
+* Prices for the future delivery of a commodity, e.g. Oil or Wheat
+* Forecast of power consumption for a country or region
+* Weather forecasts
+
+### Creating a Curve
+In order to create a curve, you need to create a CurveDate that defines the valuation or ondate of the curve.
+
+The following code shows how to create a curve using a CurveDate of 1st October 2021 and an expiry calendar with the ID #REOMB.
+
+```js
+// Create a valuation date
+ondate = CurveDate("2021-10-01", "#REOMB")
+// Create a curve
+curve = Curve(ondate)
+```
+
+### Adding Contracts
+A [Contract](/docs/odsl/variable/contract) consists of a [Period Code](/docs/odsl/calendar/period-code) which defines the future referenced period and a value.
+
+An example of adding a contract to our curve:
+
+```js
+curve.add(Contract(ondate, "2021M11", 25.75))
+```
+
+This can be interpreted as: *A price on 1st October 2021 of 25.75 for the delivery month November 2021*
+
+When a contract is created, a few calculations are performed about that contract, such as:
+* The relative period code - M01
+* The start of delivery - 2021-11-01
+* The end of delivery - 2021-11-30
+* The last trading date or expiry date - 2021-10-31
+
+```js
+ondate = CurveDate("2021-10-01", "#REOMB")
+c1 = Contract(ondate, "2021M11", 25.75)
+print c1.relative
+print c1.start
+print c1.end
+print c1.expiry
+```
+
+### Saving a curve
+Saving a curve is similar to saving a TimeSeries, we need to add it to an object and save the object.
+
+We will use our existing object and add a curve to it, here is the code to do that:
+
+```js
+QS01 = Object()
+QS01.CURVE = curve
+save ${object:QS01}
+```
+
+If you look at our QS01 Object in the Web Portal, you can now see that it has a CURVE added to it:
+
+#### Object explorer in the Web Portal
+![Object explorer in the Web Portal](/img/tutorial/qs-dev/06-data-04.png)
+
+We only have 1 contract added to the curve, so that chart only shows a single point, so let's add some more with the following code:
+
+```js
+// Create a valuation date
+ondate = CurveDate("2021-10-01", "#REOMB")
+// Create a curve
+curve = Curve(ondate)
+
+curve.add(Contract(ondate, "2021M11", 25.75))
+curve.add(Contract(ondate, "2021M12", 25.85))
+curve.add(Contract(ondate, "2022M01", 25.90))
+curve.add(Contract(ondate, "2022M02", 25.92))
+curve.add(Contract(ondate, "2022M03", 25.93))
+QS01 = Object()
+QS01.CURVE = curve
+save ${object:QS01}
+```
+
+A Curve differs from a TimeSeries in that you need to send the whole curve every time as it is a complete valuation.
+New curves for the same date are saved as a new version.
+
+#### Curve in the Web Portal
+![Curve in the Web Portal](/img/tutorial/qs-dev/06-data-05.png)
+
