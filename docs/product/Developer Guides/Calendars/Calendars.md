@@ -12,7 +12,9 @@ A detailed explanation of all the supported calendars in OpenDataDSL
 
 ## Introduction
 
-The calendars in OpenDataDSL are one of the fundamental components necessary for a smart data management platform. They provide time-based intelligence for understanding when things should happen and enable you to highlight issues when things don’t happen. The key to the way calendars work in ODSL is in the flexibility and ease of use, this section describes all the built-in calendar types and how you can customise them to suit your needs.
+The calendars in OpenDataDSL are one of the fundamental components necessary for a smart data management platform. 
+They provide time-based intelligence for understanding when things should happen and enable you to highlight issues when things don’t happen. 
+The key to the way calendars work in ODSL is in the flexibility and ease of use, this section describes all the built-in calendar types and how you can customise them to suit your needs.
 
 ## Contents
 
