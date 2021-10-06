@@ -13,6 +13,7 @@ module.exports = {
   organizationName: 'OpenDataDSL', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
   themeConfig: {
+    gtag: {trackingID: 'G-5D17T7Y69V'},
     colorMode: { disableSwitch: true},
     navbar: {
       title: 'OpenDataDSL',
@@ -131,4 +132,5 @@ module.exports = {
     crossorigin: "anonymous"
     }
   ],
+  plugins: ['@docusaurus/plugin-google-gtag']
 };
