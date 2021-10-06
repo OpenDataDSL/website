@@ -7,7 +7,7 @@ tags:
 Action Service
 ==============
 
-Workflow actions allow you to personalise your processes with snippets of code to perform a specialised action within a workflow.
+[Workflow actions](/docs/odsl/variable/action) allow you to personalise your processes with snippets of code to perform a specialised action within a workflow.
 
 ## Creating and saving actions
 

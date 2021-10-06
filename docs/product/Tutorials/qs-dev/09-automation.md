@@ -16,23 +16,23 @@ import {MoreInfo, InDepth, Tutorial} from '/src/components/Discovery.js';
 <QuickStartModule text="This quickstart module is an overview of automation using workflows and processes." />
 
 ## Automation Introduction
-The final part of this developer track shows you how you can create a workflow to simplify tasks and use processes to trigger those workflows.
+The final part of this developer track shows how to create a workflow to simplify tasks and use processes to trigger those workflows.
 
 ## Workflow
 A workflow is a flow-diagram that consists of a start node, 1 or more actions leading to 1 or more exit points.
 
 There are a few pieces of terminology used with workflows, so the following table helps decipher them:
 
-|Terminology|Description|
-|-|-|
-|Action|A unit of work within a workflow that runs some code to perform a part of the workflow|
-|Event|A state within the workflow that causes the workflow to stop or pause|
-|Gateway|A special type of action used for making a decision about routing|
-|Phase|A virtual section of a workflow that can be individually monitored, retried and re-scheduled|
-|Start|The virtual start node of a workflow|
-|Step|Either an action, gateway or event|
-|Transition|A link between steps of a workflow|
-|Workflow|The entire flow encapsulating the phases, transitions and actions|
+|Term|BPMN Term|Description|
+|-|-|-|
+|Action|Activity|A unit of work within a workflow that runs some code to perform a part of the workflow|
+|Event|Event|A state within the workflow, they can be start, end or intermediate|
+|Gateway|Gateway|A special type of action used for making a decision about routing|
+|Phase|Swim Lane|A virtual section of a workflow that can be individually monitored, retried and re-scheduled|
+|Start|Start Event|The virtual start node of a workflow|
+|Step|Step|Either an action, gateway or event|
+|Transition|Connector|A connector between steps of a workflow|
+|Workflow|Workflow|The entire flow encapsulating the phases, transitions and actions|
 
 ### Creating a workflow
 To create a workflow in OpenDataDSL we create a workflow structure, the simplest workflow is shown below:
@@ -51,7 +51,12 @@ end
 This workflow simply has a start node and an end node, but doesn't perform any actions.
 
 ### Creating an action
-Let's create an action to create a hello message:
+Let's create an action called **hello_message** to create a greeting to the user where the input will be the property **user**, who we will say hello to.
+The output will be the property **message** which will be the greeting string.
+We configure a single transition out of our action called **ok** which we return from the action.
+
+The first 3 lines of the action configure the **in** variable(s), the **out** variable(s) and the **exit** transition(s).
+The rest of the action is the code we want to run and we always return the name of the exit transition that the workflow should follow.
 
 ```js
 hello_message = action in "general"
@@ -64,12 +69,15 @@ hello_message = action in "general"
 end
 ```
 
-This action expects an input argument called user and creates an output called message.
-It has 1 transition called 'ok'
+<InDepth href="/docs/odsl/variable/action" />
 
 ### Adding our action to the workflow
+In order to add actions to the workflow, we need to introduce a **phase**.
+A phase breaks the workflow down into manageable sections.
 
-Let's add a phase and our action to the simple workflow:
+We then need to reference our action within a **WF_ACTION** structure, in here we configure the action by mapping input data to it and routing the exit transitions from the action within our workflow.
+
+In the code below we add the phase and configure our action in the simple workflow.
 
 ```js
 wf_hello = workflow in "test"

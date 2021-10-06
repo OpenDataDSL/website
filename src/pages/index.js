@@ -8,31 +8,6 @@ import {HomepageFeatures, HomepageAbout} from '../components/HomepageFeatures';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('', styles.headBanner)}>
-      <Container className={clsx('bd-masthead mb-3', styles.datablock)}>
-        <div className={clsx('col-8 mx-auto col-md-4 order-md-2 col-lg-5')}>
-          <img src="/img/ss20210909.svg" className={clsx('img-fluid',styles.logo)} />
-        </div>
-        <div className={clsx('col-md-8 order-md-1 col-lg-7 text-center text-md-start')}>
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className={clsx('hero__subtitle')}>{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Button className="btn btn-primary btn-lg" href="/docs/product/intro">OpenDataDSL Introduction - 5min ⏱️</Button>
-            {/* <Link
-              className={styles.button}
-              to="/docs/product/Tutorials/Getting-started-with-ODSL">
-              OpenDataDSL Tutorial - 5min ⏱️
-            </Link> */}
-          </div>
-        </div>
-      </Container>
-    </header>
-  );
-}
-
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (

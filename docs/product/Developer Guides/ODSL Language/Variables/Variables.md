@@ -141,10 +141,6 @@ An arg variable is a configuration of an input or output argument of a workflow 
 ### [Transition](Transition)
 A transition variable is the definition of a transition that is used in a [workflow](Workflow)
     
-### [State](State)
-A state variable is the definition of a state element that can be used in a [workflow](Workflow)
-    
-
 ### [Process](Process)
 ---------------------------------------
 

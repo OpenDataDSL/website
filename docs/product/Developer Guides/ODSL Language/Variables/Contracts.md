@@ -14,7 +14,6 @@ Contracts are used on a [curve](Curve) as a set of contract objects that represe
 The contracts on a [curve](Curve) are simple a map indexed by the relative tenor of each individual [contract](Contract).
 
 ## Methods
-=======
 
 Contracts has the following methods:
 
@@ -22,7 +21,9 @@ Contracts has the following methods:
 |-|-|-|
 |filter(PeriodCodeType)|Creates a new set of contracts that only has the contracts matching the supplied period code type|Contracts|
 
-Example of contracts methods:
+## Using Contracts
+An example of filtering a list of contracts to return only months
+
 ```js
 eombus = ExpiryCalendar(BusinessCalendar())
 eombus.addRule("go to the end of the previous month")
