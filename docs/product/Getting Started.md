@@ -6,6 +6,7 @@ tags:
   - introduction
   - odsl
 ---
+import Language from './_language.md';
 
 Getting Started
 ===============================
@@ -13,12 +14,12 @@ Getting Started
 An introduction to what OpenDataDSL is and what it can do for you
 
 ## What is OpenDataDSL?
-
-OpenDataDSL has at its core, a simple programming language with data management as its specialist capability. It has specific constructs allowing you to:
+OpenDataDSL has at its core, a simple programming language with data management as its specialist capability. 
+It has specific constructs allowing you to:
 
 *   Create data models that mimic the real world    
 *   Create relationships between your data objects    
-*   Easily work with complex data types such as time-series, forward curves and matrices
+*   Easily work with complex data types such as time-series and forward curves
 *   Collect data from anywhere on the internet
 *   Create transform maps to easily convert from one format to another
 *   Create workflows to automate data processing and delivery
@@ -28,17 +29,42 @@ OpenDataDSL has at its core, a simple programming language with data management 
     *   Forecasting
 *   Build your own custom actions or extend ours to create your own personalised library
 
+### Why a dedicated programming language?
+OpenDataDSL is no ordinary language, it has been built from scratch to simplify all aspects of data management.
+When deciding to buy or build a data management system, you only have 2 choices for interaction with it:
+* A User Interface (Web/Excel/Desktop/Mobile)
+* An API (REST/Web Services/Proprietary)
+
+A dedicated programming language provides a 3rd option whose features rank between a GUI and an API:
+
+<Language />
+
+As you can see, it fills the gap in flexibility that user interfaces have and because it requires minimal programming skills and has a small learning curve,
+it makes it easier to use than a regular programming language.
+
+### What other feature are there?
 As well as the above, here are a selection of additional features:
 
+#### APIs and SDKs
 *   Use Python, .NET, R, MatLab, Java or NodeJS client SDK to interact with the Cloud Services and Data
+
+#### User Interfaces
 *   Free Excel Add-in to read/write your data
 *   Free Web Portal to manage your account and visualise your data
 *   Free VSCode ODSL language extension for editing scripts
-*   Integrate with many popular OpenSource and paid-for applications
+
+#### Big Savings
 *   Unlimited users
-*   Utilise multiple environments in the cloud, e.g. DEV, TEST etc.
-*   Use your own IDP for authorization and access control (Azure AD)
 *   Only pay for what you use - simple pricing structure helps you start small and grow when you need it
+
+#### Easy to integrate
+*   Integrate with many popular OpenSource and paid-for applications
+
+#### Secure
+*   Use your own IDP for authorization and access control (Azure AD)
+
+#### Flexible, scalable and performant 
+*   Utilise multiple environments in the cloud, e.g. DEV, TEST etc.
 *   Cloud scale infrastructure
     
 

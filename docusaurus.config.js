@@ -91,14 +91,14 @@ module.exports = {
       darkTheme: darkCodeTheme,
     },
     algolia: {
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'YOUR_INDEX_NAME',
+      apiKey: 'b5d68b377e45d1475f649b9be78c760a',
+      indexName: 'website',
 
       // Optional: see doc section below
       contextualSearch: false,
 
       // Optional: see doc section below
-//      appId: 'YOUR_APP_ID',
+      appId: '4FAWMMLHR2',
 
       // Optional: Algolia search parameters
       searchParameters: {},
