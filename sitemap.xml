@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://develop.opendatadsl.com/</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/product/intro</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/blog</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/pricing</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/easy-to-use</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tutorials/tutorials</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/catalog</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/legal/Legal-Notices</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/product/Release-Notes</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tutorials/gettingstartedodsl</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/rest</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/user/vscode</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/introduction</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/odsl</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/blog/welcome</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/blog/building-a-data-management-system</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/blog/tags/hello</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/blog/tags/odsl</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/blog/tags/data-management</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tutorials/forwardcurveodsl</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tutorials/searching</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tutorials/localsqlserver</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tutorials/workingtimeseries</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/roadmap</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/ZUIVELNL_DR_PR</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/BOE_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/ECB_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/action</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/actual</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/aggregate</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/agriculture</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/ahdb</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/argentina</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/audit</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/auditing</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/av</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/azfile</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/azure</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/batch</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/beef</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/biodiesel</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/biofuel</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/bnm</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/bnz</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/boc</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/boch</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/boe</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/butter</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/cad</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/calendar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/canada</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/casein</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/cheese</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/china</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/clalit</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/cny</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/command</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/contract</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/corn</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/cotton</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/country</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/cron</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/csv</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/currency</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/curve</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/dairy</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/data</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/data-management</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/date</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/day-ahead</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/dhtml</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/duration</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/ecb</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/eex</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/eggs</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/eia</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/england</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/entsoe</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/environment</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/ethanol</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/etl</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/eur</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/europe</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/exchange-rates</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/executable</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/expiry</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/extractor</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/file</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/find</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/fish</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/forecast</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/ftp</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/function</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/fundamentals</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/futures</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/fx</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/gas</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/gbp</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/gdt</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/general</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/geospatial</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/gzip</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/hfcs</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/html</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/hungary</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/hupx</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/if</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/index</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/india</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/inr</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/introspection</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/italy</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/json</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/link</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/list</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/loader</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/malaysia</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/matba</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/meat</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/memory</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/messaging</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/milk</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/missing</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/modelling</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/molasses</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/myr</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/naming</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/netherlands</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/new-zealand</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/nzd</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/object</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/ods</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/oil</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/omip</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/pakistan</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/pdf</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/pig</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/pkr</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/portugal</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/poultry</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/power</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/precision</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/process</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/process-execution</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/products</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/pulses</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/queue</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/raw-sugar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/rbi</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/rename</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/rice</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/roots</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/rounding</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/row</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/s-3</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/sarp</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/sbp</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/scalar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/script</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/searching</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/secret</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/seeds</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/service</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/sheep</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/smp</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/south-africa</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/south-america</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/soybean</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/spain</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/spreadsheet</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/sql</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/state</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/statistics</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/status</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/string</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/sugar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/sugar-beet</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/sugar-cane</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/table</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/tenant</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/test</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/timeseries</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/timevalue</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/transform</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/transformer</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/transition</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/tutorial</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/type</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/udf</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/uk</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/usa</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/usd</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/user</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/versioning</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/wheat</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/whey</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/while</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/white-sugar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/wmp</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/workflow</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/xls</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/xml</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/zar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/tags/zuivelnl</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/legal/Cloud-Terms-Of-Service</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/legal/Cloud-Service-Service-Level-Agreement</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/legal/Cloud-Service-Support-Policy</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/legal/Technical-and-Organizational-Security-Measures</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/legal/Cloud-Service-Subprocessors</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/legal/Cloud-Data-Processing-Agreement</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/legal/Privacy-Policy</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/realtime</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/dm/queues</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/dm/geospatial</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/product/IT%20Guides/Security</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/standards</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/searching</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/aggregation</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/action</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/product/Developer%20Guides/Developer-Guides</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/blog/tags</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/services</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/dm/auditing</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/holiday</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/statistics</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/aggs/Overview</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/AHDB_DR_PR</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/CLAL_DR_PR</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/EEX_AG_IND</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/GDT_DR_FUT</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/MATBAROFEX_AG_FUT</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/fx</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/ir</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/BNM_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/BNZ_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/BOCH_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/BOC_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/RBI_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/SARB_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/SBP_FX</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/action</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/action</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/arg</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/ENTSOE_TL_ACT</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/aggregate</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/audit</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/av</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/azfile</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/batch</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/business</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/calendar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/calendar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/calendar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/calendars</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/examples</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/daily</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/expiry</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/expiry</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/expirycalendar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/intraday</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/period-code</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/calendar/sparse</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/find</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/if</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/rename</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/transform</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/while</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/contract</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/contracts</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/country</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/cron</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/csv</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/currency</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/currency</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/currency</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/curve</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/curve</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/curve</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/curve</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/CurveDate</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/timeseries</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/data</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/dm/modelling</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/dm/transformation</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/dm/versioning</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/dm/workflow</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/date</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/date</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/date</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/duration</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/HUPX_EL_DAM</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/dhtml</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/EIA_P_PR</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/company/ENTSOE</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/ENTSOE_GN_GENFC</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/ENTSOE_GN_GENUNIT</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/ENTSOE_TL_FC</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/environment</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/environment</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/extractor</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/transformer</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/executable</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/expiry</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/extractor</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/file</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/ftp</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/functions</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/general</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/introspection</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/list</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/string</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/timeseries</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/test</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/function/udf</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/OMIP_EL_FUT</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/dataset/OMIP_NG_FUT</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/gzip</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/html</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/json</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/link</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/list</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/virtuallist</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/memory</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/missing</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/naming</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/object</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/object</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/object</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/ods</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/pdf</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/precision</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/process</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/process-execution</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/process</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/row</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/s3</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/scalar</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/secret</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/script</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/script</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/tenant</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/transformer</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/type</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/user</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/workflow</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/xls</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/service/xml</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/cell</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/spreadsheet</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/state</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/status</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/table</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/tenant</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/missingvalue</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/timevalue</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/transition</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/declaredtype</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/kb/usa</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/api/rest/service/user</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/workflow</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/product/IT%20Guides/Database-information</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/glossary</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/variables</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/null</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/variable/void</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/power-gas/HUPX-Power-Day-Ahead-Blocks-Hours</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/power-gas/HUPX-Power-Day-Ahead-Hourly</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/power-gas/OMIE-Day-Ahead-Market-Data</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/power-gas/PXE-Natural-Gas-Day-Ahead-Market-Data</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/power-gas/PXE-Natural-Gas-Futures</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/data/power-gas/PXE-Power-Futures</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/commands</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/statements</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/control</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/data-management</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/structured</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/expressions</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://develop.opendatadsl.com/docs/odsl/command/conditions</loc>
+  <lastmod>2021-09-17T09:24:29+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
