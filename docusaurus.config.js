@@ -91,7 +91,7 @@ module.exports = {
       darkTheme: darkCodeTheme,
     },
     algolia: {
-      apiKey: 'b5d68b377e45d1475f649b9be78c760a',
+      apiKey: '22e30f81853673340b6078461a17c0e2',
       indexName: 'website',
 
       // Optional: see doc section below
