@@ -48,11 +48,11 @@ A workflow has some input, output and exit configuration at the start - just lik
 All workflows have building blocks in them:
 
 *   WF_START - There must be exactly 1 of these, which indicates the start point and it only contains a transition which is the first workflow element that is called    
-*   WF_ACTION - This is a block which configures a workflow [action](399736839.html). You can:    
+*   WF_ACTION - This is a block which configures a workflow [action](/docs/odsl/variable/action). You can:    
     *   define the action transition routing, i.e. the route to take given the transition information when the action completes        
     *   assign the action input variables from the workflow input or any previous action outputs        
     *   run the action using the input variables        
-*   WF_GATEWAY - This block configures a workflow [gateway](399736839.html). It is configured in the same way as an action block and is generally used to route workflows according to an expression    
+*   WF_GATEWAY - This block configures a workflow gateway. It is configured in the same way as an action block and is generally used to route workflows according to an expression    
 *   WF_WORKFLOW - This block configured a sub-workflow, it is configured in the same way as an action - NOTE than any workflow can be used as a sub-workflow    
 *   WF_EVENT - This is generally used as an end point of a workflow and is used to return the transition information back to the calling application.
     
@@ -100,18 +100,18 @@ end
 
 As a line-by-line breakdown of this workflow
 
-1 . Define a workflow called wf_xml_extract in the category data-loaders
-2 . Set a description for this workflow
-3 . Define an input variable called url which is a [Scalar](Scalar)
-4 . Define exit transitions for the workflow as success and failed
-6 . Define the workflow start point
-7 . Transition to the action named act\_extract\_xml (the transition name is ignored)
-10 . Define a workflow phase called EXTRACT
-11 . Define an action block called act\_extract\_xml with an input variable called ai
-12 . Route the “ok” transition to stopok
-13 . Route the “failed” transition to stopfailed
-14 . Set the url on the action input to be the input url (passed in by the [process](Workflows-and-Processes))
-15 . Run the #extract_xml action passing in the ai variable and the global output variable
-19 . Define the stopok event as a success transition for the whole workflow
-22 . Define the stopfailed event as a failed transition for the whole workflow
+1. Define a workflow called wf_xml_extract in the category data-loaders
+2. Set a description for this workflow
+3. Define an input variable called url which is a [Scalar](/docs/odsl/variable/scalar)
+4. Define exit transitions for the workflow as success and failed
+6. Define the workflow start point
+7. Transition to the action named act\_extract\_xml (the transition name is ignored)
+10. Define a workflow phase called EXTRACT
+11. Define an action block called act\_extract\_xml with an input variable called ai
+12. Route the “ok” transition to stopok
+13. Route the “failed” transition to stopfailed
+14. Set the url on the action input to be the input url (passed in by the [process](/docs/odsl/dm/workflow))
+15. Run the #extract_xml action passing in the ai variable and the global output variable
+19. Define the stopok event as a success transition for the whole workflow
+22. Define the stopfailed event as a failed transition for the whole workflow
 

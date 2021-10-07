@@ -48,7 +48,7 @@ An explanation of the syntax:
 
 ##### Versioning
 
-If you specify the **versioned** option when defining the type, then all objects of this type will be versioned. This means any updates to that object where a value of a property has changed will cause a new version to be created and the existing version is archived. More details about data versioning can be found [here](Data-Versioning).
+If you specify the **versioned** option when defining the type, then all objects of this type will be versioned. This means any updates to that object where a value of a property has changed will cause a new version to be created and the existing version is archived. More details about data versioning can be found [here](/docs/odsl/dm/versioning).
 
 ##### Extending
 
@@ -70,7 +70,7 @@ The diagram below shows a simple type hierarchy, starting with #Object we create
 
 With this type hierarchy, we can add Student objects and Professor objects, but we can also list all Person objects showing all students and professors, so if I knew someones email address and seached in Person, it would find the person irrespective of whether they are a student or a professor.
 
-For more examples and in-depth descriptions, see the section [Data Modelling](Data-Modelling_2752902.html).
+For more examples and in-depth descriptions, see the section [Data Modelling](/docs/odsl/dm/modelling).
 
 #### Examples
 

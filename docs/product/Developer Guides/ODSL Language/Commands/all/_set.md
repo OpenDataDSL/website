@@ -49,5 +49,5 @@ You can set the CRS to either:
 *   planar
     
 
-This affects the way [geospatial data](/docs/product/Geospatial-Data-and-Queries) is handled
+This affects the way [geospatial data](/docs/odsl/dm/geospatial) is handled
 

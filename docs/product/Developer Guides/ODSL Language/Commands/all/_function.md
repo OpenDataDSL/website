@@ -9,7 +9,7 @@ end
 ```
 #### Description
 
-The function command allows you to create a custom function which can be used in your OpenDataDSL scripts - either in the same script or you can write functions in a script which can then be [imported](365330614.html) into a script.
+The function command allows you to create a custom function which can be used in your OpenDataDSL scripts - either in the same script or you can write functions in a script which can then be [imported](Import) into a script.
 
 The function is called using the name of the function and the parameters passed in the same order as declared.
 
