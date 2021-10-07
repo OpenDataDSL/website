@@ -36,7 +36,7 @@ This returns a new [Calendar](/docs/odsl/calendar/Calendars) variable with the E
 
 ## Saving a calendar
 
-If you create a new calendar or edit an existing one, you can save the calendar back to the service using the **save** command.
+If you create a new calendar or edit an existing one, you can save the calendar back to the service using the [save](/docs/odsl/command/save) command.
 
 Example:
 ```js
@@ -51,11 +51,13 @@ save ${calendar:ukpeak}
 ```
 ## Listing Calendars
 
-To get a list of available calendars, you can use the **find** command with the calendar service.
+To get a list of available calendars, you can use the [find](/docs/odsl/command/find) command with the calendar service.
 
 Example:
 ```js
-calendars = find ${calendar:public/""}
-print calendars
+calendars = find ${calendar:public}
+for cal in calendars
+    print cal.code
+next
 ```
-This gets a list of all the public calendars and prints them to the console
+This gets a list of all the public calendars and prints their code to the console

@@ -1,10 +1,10 @@
 Used to delete items from the database
 
-## Syntax
+#### Syntax
 ```js
 delete activevar (log string)?
 ```
-## Description
+#### Description
 
 Deletes an item from the database, the activevar item can be one of:
 
@@ -27,7 +27,7 @@ Deletes an item from the database, the activevar item can be one of:
 
 The optional **log** option allows you to specify a reason for the deletion which is added to the audit log
 
-## Example
+#### Example
 ```js
 delete ${object:"TEST"}
 
