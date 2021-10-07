@@ -11,7 +11,7 @@ import {Discovery, InDepth} from '/src/components/Discovery.js';
 import QuickStart from '/docs/product/Tutorials/_quickstart.md';
 import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide gives a technical and non-technical introduction to the features and ecosystem of OpenDataDSL." />
+<Discovery text="This discovery guide is a brief introduction to the features and ecosystem of OpenDataDSL." />
 
 ## What is OpenDataDSL
 
@@ -40,6 +40,14 @@ see [pricing](/pricing) for more information.
 
 You get started with OpenDataDSL by logging into the [Portal](https://portal.opendatadsl.com) using your corporate
 credentials and entering some information about you and your company - see [SignUp](/SignUp).
+
+## Why Choose OpenDataDSL
+Here are the top 5 reasons to choose OpenDataDSL
+* Lower cost to market than the competition
+* Easy to get started
+* Secure - using your own IDP
+* High performance and scalability
+* DSL which simplifies data management
 
 ## Discover More
 

@@ -47,10 +47,6 @@ Here are a few of the built-in ETL features:
 
 <InDepth href="/docs/odsl/dm/workflow" />
 
-## Discover More
-
-<DiscoveryPages />
-
 ---
 
 <StartBuilding />

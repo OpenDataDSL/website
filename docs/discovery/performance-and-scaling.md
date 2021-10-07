@@ -42,10 +42,6 @@ Workflows offer various smart features that help with adapting to the standard o
 
 <InDepth href="/docs/odsl/dm/workflow" />
 
-## Discover More
-
-<DiscoveryPages />
-
 ---
 
 <StartBuilding />

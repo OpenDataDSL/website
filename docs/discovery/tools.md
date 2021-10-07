@@ -49,10 +49,6 @@ Example repositories include:
 * Source code for a c# application to load subscriptions in a SQL Server database - [Tutorial](/docs/tutorials/localsqlserver)
 * ODSL source code examples
 
-## Discover More
-
-<DiscoveryPages />
-
 ---
 
 <StartBuilding />

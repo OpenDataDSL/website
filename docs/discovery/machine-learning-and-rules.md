@@ -39,10 +39,6 @@ As most of the value in our data is within TimeSeries and Forward Curves, we are
 * Detect anomolies and alert you in real-time
 * Analyse trends to give you a head start on potential up-coming events
 
-## Discover More
-
-<DiscoveryPages />
-
 ---
 
 <StartBuilding />

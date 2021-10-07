@@ -34,10 +34,6 @@ Another important personalisation you can do is to set the logo on all the appli
 
 And finally, you can set the colour scheme of the applications and documentation to match your own corporate colours.
 
-## Discover More
-
-<DiscoveryPages />
-
 ---
 
 <StartBuilding />

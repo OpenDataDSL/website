@@ -38,10 +38,6 @@ You can monitor your processes in the Web Portal and you can also subscribe to a
 
 <InDepth href="/docs/odsl/dm/workflow" />
 
-## Discover More
-
-<DiscoveryPages />
-
 ---
 
 <StartBuilding />

@@ -51,10 +51,6 @@ Some example integrations:
 
 <InDepth href="/docs/tutorials/gettingstarted1" />
 
-## Discover More
-
-<DiscoveryPages />
-
 ---
 
 <StartBuilding />
