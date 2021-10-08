@@ -70,7 +70,7 @@ function Block(props) {
                  (
                  <Accordion.Item eventKey={key}>
                     <Accordion.Header>{key}</Accordion.Header>
-                    <Accordion.Body>
+                    <Accordion.Body className="w-100">
                         <table>
                             <tbody>
                                 {entries[key].map((props, idx) => (
