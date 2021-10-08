@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './DataCatalog.module.css';
 var Data = require('/data/catalog.json');
-import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
+import { Card, Container, Button, Col } from 'react-bootstrap';
+import Accordion from 'react-bootstrap/Accordion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faCalendarDay, faGlobe, faMoneyBill } from '@fortawesome/free-solid-svg-icons'
 
@@ -13,23 +14,22 @@ function Logo(logo) {
     <Card.Img variant="top" src={src} className={styles.logo} />
   )
 }
-
-function Block({type, tags, provider, providerType, logo, dataset, text, start, frequency, region, link}) {
+function Block(props) {
     return (
       <Card style={{ width: '18rem' }}>
-        <Logo logo={logo} />
-        <Card.Header>{provider}</Card.Header>
+        <Logo logo={props.logo} />
+        <Card.Header>{props.provider}</Card.Header>
         <Card.Body>
-          <Card.Title><a href={link}>{dataset}</a></Card.Title>          
-          <Card.Text>{text}</Card.Text>
-          <i>{providerType}</i><br />
-          <FontAwesomeIcon icon={faPlay} />&nbsp;{start}&nbsp;
-          <FontAwesomeIcon icon={faCalendarDay} />&nbsp;{frequency}&nbsp;
-          <FontAwesomeIcon icon={faMoneyBill} />&nbsp;{type}
+          <Card.Title><a href={props.link}>{props.dataset}</a></Card.Title>
+          <Card.Text>{props.text}</Card.Text>
+          <i>{props.providerType}</i><br />
+          <FontAwesomeIcon icon={faPlay} />&nbsp;{props.start}&nbsp;
+          <FontAwesomeIcon icon={faCalendarDay} />&nbsp;{props.frequency}&nbsp;
+          <FontAwesomeIcon icon={faMoneyBill} />&nbsp;{props.type}
           <br />
-          <FontAwesomeIcon icon={faGlobe} />&nbsp;{region}
+          <FontAwesomeIcon icon={faGlobe} />&nbsp;{props.region}
           <hr />
-          {tags.map((item) => (
+          {props.tags.map((item) => (
             <Button key={item}>{item}</Button>
           ))}
         </Card.Body>
@@ -37,43 +37,75 @@ function Block({type, tags, provider, providerType, logo, dataset, text, start, 
     );
   }
 
-  function FilterItem(item) {
-    console.log(item);
-    return item;
-  }
-
-  function FilterFilter(item) {
-    var list = filters[item.item];
-    return (
-      <div><h4>{item.item}</h4>
-      {list.forEach((item) => <FilterItem key={item} item={item} />)}
-      </div>
-    )
-  }
-
-  function FilterList() {
-    if (Object.keys(filters).length == 0) {
-      return "none";
-    } else {
-      return (
-        <div>
-        {Object.keys(filters).map((item) => <FilterFilter key={item} item={item} />)}
-        </div>
-      )
-    }
-  }
-  
-  export default function DataCatalog() {
+  export function DataCatalog() {
     return (
         <div>
-          <h3>Filters</h3>
-          <FilterList />
-          <hr />
           <Container className={styles.datablock}>
-            {Data.map((props, idx) => (            
+            {Data.map((props, idx) => (
               <Block key={idx} {...props} />
             ))}
           </Container>
         </div>
     );
   }
+
+    export function DataCatalog2() {
+        // Categorise by tags
+        var entries = {};
+
+        for (var e of Data) {
+            for (var t of e.tags) {
+                var en = entries[t];
+                if (!en) {
+                    en = [];
+                    entries[t] = en;
+                }
+                en.push(e);
+            }
+        }
+
+      return (
+        <Accordion>
+              {Object.keys(entries).map((key, index) =>
+                 (
+                 <Accordion.Item eventKey={key}>
+                    <Accordion.Header>{key}</Accordion.Header>
+                    <Accordion.Body>
+                        <table>
+                            <tbody>
+                                {entries[key].map((props, idx) => (
+                                    <TableRow key={idx} props={props} />
+                                ))}
+                            </tbody>
+                        </table>
+                    </Accordion.Body>
+                 </Accordion.Item>
+                 )
+              )}
+        </Accordion>
+      );
+    }
+
+function TableRow(props) {
+  return (
+    <tr>
+        <td>
+            <a href={props.props.link}><b>{props.props.provider}</b></a><br />
+            <sub>{props.props.text}</sub><br />
+            <FontAwesomeIcon icon={faGlobe} /> {props.props.region}
+        </td>
+        <td>
+            <i>{props.props.providerType}</i><br />
+            {props.props.dataset}
+        </td>
+        <td>
+          <FontAwesomeIcon icon={faPlay} /> {props.props.start}<br />
+          <FontAwesomeIcon icon={faCalendarDay} /> {props.props.frequency}<br />
+          <FontAwesomeIcon icon={faMoneyBill} /> {props.props.type}
+        </td>
+        <td>
+            <Logo logo={props.props.logo} />
+        </td>
+    </tr>
+  )
+}

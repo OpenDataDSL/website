@@ -28,7 +28,7 @@ The diagram below explains the areas that this tutorial covers.
 
 We are going to feed the data file to your choice of 3 different consumers:
 * A C# application which will feed the data into a local SQL Server Database
-* A [Camel](https://camel.apache.org/) Enterprise Integration Pattern (EIP) which will feed into a local service bus
+* A Java application that uses [Camel](https://camel.apache.org/) Enterprise Integration Pattern (EIP) which will feed into a local service bus
 * A Cloud BI Reporting tool
 
 :::info
@@ -82,7 +82,7 @@ Authorization: Bearer {{token}}
 
 ### Subscribe to data
 
-We now need to create a subscription that will feed FX TimeSeries into our newly created queue.
+We now need to create a subscription that will feed some FX TimeSeries into our newly created queue.
 
 <Tabs groupId="tool">
 <TabItem value="portal" label="Web Portal" default>
@@ -92,8 +92,8 @@ We now need to create a subscription that will feed FX TimeSeries into our newly
 * Give the subscription the name **sub_ecb_fx**
 * Click on the **Add Data** button
 * Add a **Filter** by clicking the + button and select **Dataset**
-* Find **#ECB_FX** in the list
-* Click the check-box at the top to select all the data items
+* Find **ECB_FX** in the list
+* Click the check-box next to a few of the data items
 * Click **OK**
 * Click on the **Add Target** button
 * Select **Queue Target** from the dropdown and then select the **tutorial** queue that we created in the previous step
@@ -157,6 +157,95 @@ Authorization: Bearer {{token}}
 
 </TabItem>
 </Tabs>
+
+### Trigger the subscription
+We now need to trigger the subscription to feed some data into the queue so that we can test.
+You can do this as many times as you need when you are testing our subscription consumer.
+
+<Tabs groupId="tool">
+<TabItem value="portal" label="Web Portal" default>
+
+* Select **Subscriptions**
+* Click on the **sub_ecb_fx** subscription.
+* Click the trigger item
+* Select a date that you know there is some data (e.g. 4th October 2021) for and click **ok**
+
+</TabItem>
+<TabItem value="odsl" label="OpenDataDSL">
+
+```js
+trigger sub_ecb_fx for 2021-10-04
+```
+
+</TabItem>
+<TabItem value="rest" label="REST API">
+
+```js
+POST https://api.opendatadsl.com/subscriptionrecord/v1
+Authorization: Bearer {{token}}
+
+{
+  "name": "sub_ecb_fx",
+  "date": "2021-10-04"
+}
+```
+
+</TabItem>
+</Tabs>
+
+This will send a subscription record to the queue, which will look something like this:
+
+```json
+{
+  "subscription": "61602bc1b5a8223b48998ce6",
+  "name": "sub_ecb_fx",
+  "date": "Mon, 04 Oct 2021 00:00:00 GMT",
+  "status": {
+    "GBP": {
+      "_type": "#Delta",
+      "id": "#ECB_FX.EURGBP:SPOT",
+      "action": "create",
+      "time": "Mon, 04 Oct 2021 00:00:00 GMT",
+      "tenors": [
+        {
+          "_type": "#DeltaTenor",
+          "time": "2021-10-04T00:00:00.000Z",
+          "tenor": "SPOT",
+          "value": 0.8553
+        }
+      ]
+    },
+    "JPY": {
+      "_type": "#Delta",
+      "id": "#ECB_FX.EURJPY:SPOT",
+      "action": "create",
+      "time": "Mon, 04 Oct 2021 00:00:00 GMT",
+      "tenors": [
+        {
+          "_type": "#DeltaTenor",
+          "time": "2021-10-04T00:00:00.000Z",
+          "tenor": "SPOT",
+          "value": 129.21
+        }
+      ]
+    },
+    "USD": {
+      "_type": "#Delta",
+      "id": "#ECB_FX.EURUSD:SPOT",
+      "action": "create",
+      "time": "Mon, 04 Oct 2021 00:00:00 GMT",
+      "tenors": [
+        {
+          "_type": "#DeltaTenor",
+          "time": "2021-10-04T00:00:00.000Z",
+          "tenor": "SPOT",
+          "value": 1.1636
+        }
+      ]
+    }
+  }
+}
+```
 
 ## Step 2 - Create our consumer
 

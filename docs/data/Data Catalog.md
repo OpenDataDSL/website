@@ -2,7 +2,7 @@
 sidebar_position: 1
 slug: /data/catalog
 ---
-import DataCatalog from '/src/components/DataCatalog'
+import { DataCatalog2 } from '/src/components/DataCatalog'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faCalendarDay, faGlobe, faMoneyBill } from '@fortawesome/free-solid-svg-icons'
 
@@ -36,7 +36,7 @@ If you cannot find what you are looking for:
 * Check the current Data [Roadmap](RoadMap)
 * Log a data loader request
 
-<DataCatalog />
+<DataCatalog2 />
 
 
 
