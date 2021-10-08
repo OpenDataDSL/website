@@ -12,7 +12,7 @@ tags:
 AHDB_DR_PR
 ============================================================
 
-AHDB Agriculture and Horticulture Development Board United Kingdom Wholesale Monthly Prices  
+AHDB Agriculture and Horticulture Development Board United Kingdom Wholesale Monthly Price
 
 ## Overview
 
