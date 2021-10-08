@@ -28,10 +28,32 @@ The information published by ENTSO-E is collected from data providers such as TS
 Example: Physical cross-border flows in Germany
 
 ## Datasets
+import GnGenfc from './_ENTSOE_GN_GENFC.md';
+import GnGenunit from './_ENTSOE_GN_GENUNIT.md';
+import TlAct from './_ENTSOE_TL_ACT.md';
+import TlFc from './_ENTSOE_TL_FC.md';
 
-|Code|Name|
-|-|-|
-|[ENTSOE_GN_GENFC](/docs/dataset/ENTSOE_GN_GENFC)|Generation Forecast - Day Ahead|
-|[ENTSOE_GN_GENUNIT](/docs/dataset/ENTSOE_GN_GENUNIT)|Actual Generation per Generation Unit|
-|[ENTSOE_TL_ACT](/docs/dataset/ENTSOE_TL_ACT)|Actual Generation per Production Type|
-|[ENTSOE_TL_FC](/docs/dataset/ENTSOE_TL_FC)|Day-ahead Forecast of the Total Load|
+### ENTSOE_GN_GENFC
+<details>
+<summary>Generation Forecast - Day Ahead</summary>
+<GnGenfc />
+</details>
+
+### ENTSOE_GN_GENUNIT
+<details>
+<summary>Actual Generation per Generation Unit</summary>
+<GnGenunit />
+</details>
+
+### ENTSOE_TL_ACT
+<details>
+<summary>Actual Generation per Production Type</summary>
+<TlAct />
+</details>
+
+### ENTSOE_TL_FC
+<details>
+<summary>Day-ahead Forecast of the Total Load</summary>
+<TlFc />
+</details>
+
