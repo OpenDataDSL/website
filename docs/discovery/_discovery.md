@@ -23,7 +23,7 @@ import styles from '/src/components/StartBuilding.module.css';
               <ul>
                   <li><a href="/docs/discovery/uploading-data#data-environments">Data Environments</a></li>
                   <li><a href="/docs/discovery/uploading-data#create-your-data-model">Create your data model</a></li>
-                  <li><a href="/docs/discovery/uploading-data#automating-data-loads">Automating data uploads</a></li>
+                  <li><a href="/docs/discovery/uploading-data#data-loading">Automating data uploads</a></li>
               </ul>
             </Card.Body>
     </Card>
@@ -89,7 +89,7 @@ import styles from '/src/components/StartBuilding.module.css';
               <ul>
                   <li><a href="/docs/discovery/tools#portal-overview">Portal Overview</a></li>
                   <li><a href="/docs/discovery/tools#excel-add-in">Excel Add-in</a></li>
-                  <li><a href="/docs/discovery/tools#miscellaneous-free-tools">Miscellaneous FREE Tools</a></li>
+                  <li><a href="/docs/discovery/tools#miscellaneous-opensource-tools">Miscellaneous FREE Tools</a></li>
               </ul>
             </Card.Body>
     </Card>
@@ -100,14 +100,14 @@ import styles from '/src/components/StartBuilding.module.css';
               <ul>
                   <li><a href="/docs/discovery/machine-learning-and-rules#machine-learning-overview">Machine Learning Overview</a></li>
                   <li><a href="/docs/discovery/machine-learning-and-rules#business-rules">Business Rules</a></li>
-                  <li><a href="/docs/discovery/machine-learning-and-rules#real-world-examples">Real-world examples</a></li>
+                  <li><a href="/docs/discovery/machine-learning-and-rules#other-insights">Other Insights</a></li>
               </ul>
             </Card.Body>
     </Card>
     <Card style={{width:"100%"}}>
         <Card.Header><a href="/docs/discovery/quick-start"><FontAwesomeIcon icon={faChevronCircleRight} /><b> QuickStart Tracks</b></a></Card.Header>
             <Card.Body>
-              <Card.Text>Choose a QuickStart Track to gain some practical, real-world experience of using OpenDataDSL.</Card.Text>
+              <Card.Text>Choose one of our QuickStart Tracks to gain some practical, real-world experience of using OpenDataDSL.</Card.Text>
             </Card.Body>
     </Card>
 </Container>

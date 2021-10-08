@@ -38,6 +38,8 @@ OpenDataDSL subscriptions define a list of objects or data that you are interest
 Subscriptions get fulfilled whenever an object is updated (thereby making it event-driven) and you can choose whether to wait until all or some objects are updated before sending to the targets.
 The target generally is a queue, but can also be other special targets, e.g. a forward curve build configuration.
 
+<InDepth href="/docs/odsl/dm/subscriptions" />
+
 ## Integration Examples
 The main reason for subscribing to data is to feed that data into an application or database.
 The subscription remains the same no matter what the downstream target is.

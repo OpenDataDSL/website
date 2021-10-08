@@ -5,8 +5,12 @@ tags:
   - subscription
   - getting-started
 ---
-Getting started: Subscribing to Data-Feeds
+Subscribing to Data-Feeds
 ==========================================
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 
 A "Getting Started" guide to OpenDataDSL - subscribe to our **FREE** public data feeds.
 
@@ -41,18 +45,48 @@ The dataset code is [ECB_FX](/docs/dataset/ECB_FX), there are 32 exchange rates 
 
 In this step we will create a queue that will be used with the subscription that we create.
 
-In the portal:
+<Tabs groupId="tool">
+<TabItem value="portal" label="Web Portal" default>
+
 * Select **Queues**
 * Click the **New** button to open up the queue creation screen.
 * Give the queue the name **tutorial**
 * Ignore the handler as we are going to handle the queue consumption ourself
 * After creation, you will see the queue details on the screen, copy the **connection** string, you will need this for later on
 
+
+</TabItem>
+<TabItem value="odsl" label="OpenDataDSL">
+
+```js
+tutorial = object as #QUEUE
+     queue = "tutorial"
+end
+save ${queue:tutorial}
+```
+
+</TabItem>
+<TabItem value="rest" label="REST API">
+
+```js
+POST https://api.opendatadsl.com/queue/v1
+Authorization: Bearer {{token}}
+
+{
+  "queue": "tutorial"
+}
+```
+
+</TabItem>
+</Tabs>
+
 ### Subscribe to data
 
 We now need to create a subscription that will feed FX TimeSeries into our newly created queue.
 
-In the portal:
+<Tabs groupId="tool">
+<TabItem value="portal" label="Web Portal" default>
+
 * Select **Subscriptions**
 * Click the **New** button to open up the subscription creation screen
 * Give the subscription the name **sub_ecb_fx**
@@ -64,6 +98,65 @@ In the portal:
 * Click on the **Add Target** button
 * Select **Queue Target** from the dropdown and then select the **tutorial** queue that we created in the previous step
 * Click **OK** to save our subscription
+
+
+</TabItem>
+<TabItem value="odsl" label="OpenDataDSL">
+
+```js
+// Create the subscription
+sub_ecb_fx = object as #Subscription
+    name = "sub_ecb_fx"
+    enabled = true
+    objects[0] = object as #SubscriptionObject
+        key = "GBP"
+        id = "#ECB_FX.EURGBP:SPOT"
+    end
+    objects[1] = object as #SubscriptionObject
+        key = "JPY"
+        id = "#ECB_FX.EURJPY:SPOT"
+    end
+    objects[2] = object as #SubscriptionObject
+        key = "USD"
+        id = "#ECB_FX.EURUSD:SPOT"
+    end
+    targets[0] = object as #SubscriptionTarget
+        name = "QueueTarget"
+        queue = "tutorial"
+    end
+end
+
+save ${subscription:sub_ecb_fx}
+```
+
+</TabItem>
+<TabItem value="rest" label="REST API">
+
+```js
+POST https://api.opendatadsl.com/subscription/v1
+Authorization: Bearer {{token}}
+
+{
+    "name": "sub_ecb_fx",
+    "objects": [{
+        "key": "GBP",
+        "id": "#ECB_FX.EURGBP:SPOT"
+    },{
+        "key": "JPY",
+        "id": "#ECB_FX.EURJPY:SPOT"
+    },{
+        "key": "USD",
+        "id": "#ECB_FX.EURUSD:SPOT"
+    }],
+    "targets":[{
+      "name": "QueueTarget",
+      "queue": "tutorial"
+    }]
+}
+```
+
+</TabItem>
+</Tabs>
 
 ## Step 2 - Create our consumer
 

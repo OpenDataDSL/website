@@ -2,6 +2,9 @@
 sidebar_position: 2
 slug: /odsl/command/statements
 ---
+General Statements
+==================
+
 import Imp from './all/_import.md';
 import Log from './all/_log.md';
 import Logout from './all/_logout.md';
@@ -14,8 +17,6 @@ import Set from './all/_set.md';
 import Trigger from './all/_trigger.md';
 import Use from './all/_use.md';
 
-General Statements
-==================
 
 All the general OpenDataDSL statement commands
 
