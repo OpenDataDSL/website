@@ -9,7 +9,10 @@ tags:
   - butter
   - smp
   - whey
+  - potato
+  - milk
 ---
+
 EEX_AG_IND
 ============================================================
 
@@ -30,36 +33,27 @@ EEX European Butter, European Skimmed Milk Powder and European Whey Powder Indic
 website = [http://www.eex.com](http://www.eex.com)
 
 ## File Collection
+Weekly updates are collected from EEX website: https://www.eex.com/en/market-data/agricultural-markets/agricultural-indices
 
 ### Schedule
 
-Weekly update file comes every Wednesday.
+Weekly update file is processed around 19:00 GMT every Wednesday.
 
-### Daylight Savings Treatment
+### Sample File
 
-As the data is daily frequency, no Daylight Savings logic is applicable.
+Sample file for FABT: [sample file](./FABT_Index_DE.xls)
 
-### History
+Sample file for FALM: [sample file](./FALM_Index_DE.xls)
 
-History is available from the vendor from year 2021.
+Sample file for FAPP: [sample file](./FAPP_Index_DE.xls)
 
-### Derivations
+Sample file for FASM: [sample file](./FASM_Index_DE.xls)
 
-No derivations are provided by OpenDataDSL since the updates are weekly data.
-
-
+Sample file for FAWH: [sample file](./FAWH_Index_DE.xls)
 
 ## Type
 
 The EEX Agricultural data is stored in type: #Agriculture
-
-### Dataset
-
-The dataset details of ZuivelNL Dairy Quotation Weekly Prices is given below:
-
-|**Code**|**Name**|**Type**|
-|-|-|-|
-|EEX_AG_IND|European Energy Exchange Agricultural Indices|Dairy Spot Indices|
 
 ### Data Id and name
 
@@ -86,21 +80,6 @@ Examples of data Id and names:
 |EEX.AG.FALM.DE.PR.IND.M|European Energy Exchange Germany Liquid Milk Index Price Monthly|
 |EEX.AG.FABT.DE.PR.IND.M|European Energy Exchange Germany Butter Index Price Monthly|
 
-### Profiles
-
-The table below outlines all possible profiles that may be provided by the vendor and the unit, currency, quotecal and expiry codes associated with it.
-
-|Profile|Profile Name|Type|Frequency|Currency|Unit|Quote Cal|Expiry Cal|
-|-|-|-|-|-|-|-|-|
-|PRICE|Quotation Price|Price TS|Weekly|EUR|MT|Daily|Na|
-|WEEK|Reference Week|Numeric TS|Weekly|Na|Na|Daily|Na|
-
-### Unit of measure
-
-The content of the units and currency is based on the information provided by the vendor.
-
-The agricultural prices Indices are expressed in EUR (Euro) by the EEX . The quantities, which the prices refer to, are expressed in MT (Metric Tonne).
-
 ### Attributes
 
 |Name|Value|
@@ -110,14 +89,20 @@ The agricultural prices Indices are expressed in EUR (Euro) by the EEX . The qua
 |Dataset|EEX_AG_IND|
 |Dataset Name|European Energy Exchange Agricultural Indices|
 |Dataset Type|Spot Indices|
-|Commodity|Agriculture|
-|Product|Various|
-|Location|Europe|
-|ProductCode|FABT|
+|Frequency|Weekly,Monthly|
+|Currency|USD|
+|Unit|MT|
+|Commodity|Agriculture,Dairy|
+|Product|Butter,Potato,SMP,Whey,Milk|
+|Location|Germany,The Netherlands,France,Denmark|
+|Region|Europe|
+|Quote Calendar|Sparse|
+
 
 ### Validation
 
-Missing:
+Data is validated for missing data points using EEX holiday calendar for expected absences.
 
 ### Licensing
 
+Data is freely available from the vendor website and can be used by clients without permissions.
