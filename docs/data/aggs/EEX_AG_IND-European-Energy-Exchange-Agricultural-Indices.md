@@ -41,15 +41,15 @@ Weekly update file is processed around 19:00 GMT every Wednesday.
 
 ### Sample File
 
-Sample file for FABT: [sample file](./FABT_Index_DE.xls)
+[Sample file for FABT](pathname://../../static/file-samples/FABT_Index_DE.xls)
 
-Sample file for FALM: [sample file](./FALM_Index_DE.xls)
+[Sample file for FALM](pathname://../../static/file-samples/FALM_Index_DE.xls)
 
-Sample file for FAPP: [sample file](./FAPP_Index_DE.xls)
+[Sample file for FAPP](pathname://../../static/file-samples/FAPP_Index_DE.xls)
 
-Sample file for FASM: [sample file](./FASM_Index_DE.xls)
+[Sample file for FASM](pathname://../../static/file-samples/FASM_Index_DE.xls)
 
-Sample file for FAWH: [sample file](./FAWH_Index_DE.xls)
+[Sample file for FAWH](pathname://../../static/file-samples/FAWH_Index_DE.xls)
 
 ## Type
 

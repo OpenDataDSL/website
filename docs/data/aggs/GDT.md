@@ -31,4 +31,4 @@ website:https://www.globaldairytrade.info/
 
 |Code|Name|
 |-|-|
-|[GDT_DR_FUT](/docs/dataset/GDT_DR_FUT-Global-Dairy-Trade-Bimonthly-Price-Futures)|GDT Global Dairy Trade Bimonthly Price Futures|
+|[GDT_DR_FUT](/docs/dataset/GDT_DR_FUT)|GDT Global Dairy Trade Bimonthly Price Futures|

@@ -37,7 +37,7 @@ The schedule to process monthly file is on 25th day of every month.
 
 ### Sample File
 
-Sample file [sample file](./UK wholesale prices-1.xlsx)
+[Sample file](pathname://../../static/file-samples/UK%20wholesale%20prices-1.xlsx)
 
 ## Type
 

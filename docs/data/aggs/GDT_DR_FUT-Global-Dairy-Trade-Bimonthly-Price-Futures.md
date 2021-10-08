@@ -41,7 +41,7 @@ File is processed at 12:30 GMT first and third Tuesdays of month.
 
 ### Sample File
 
-Sample file [sample file](./Butter.json)
+[Sample file](pathname://../../static/file-samples/GDT_Butter.json)
 
 ## Type
 
