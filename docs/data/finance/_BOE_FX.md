@@ -3,7 +3,7 @@ slug: /dataset/BOE_FX
 tags:
   - boe
   - fx
-  - exchange-rates
+  - exchange_rates
   - england
   - gbp
 ---
@@ -24,7 +24,7 @@ All the rates are based on the Great British Pound (GBP) - click [here](/docs/da
 
 ### Schedule
 
-10.00 AM UTC for previous business day
+Daily FX rates are processed around 10.00 GMT the following England business day.
 
 ### Sample File
 
@@ -36,7 +36,7 @@ The BOE FX Rates are stored under the type #ForeignExchange
 
 ### Data ID and Name
 
-Example data id and name
+Example data id and name:
 
 |Data Id|Name|
 |-|-|
@@ -64,5 +64,5 @@ Data is validated for missing data points.
 
 ### Licensing
 
-Data is freely available from the BOE website and can be used by clients without permissions
+Data is freely available from the BOE website and can be used by clients without permissions.
 

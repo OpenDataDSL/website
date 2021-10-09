@@ -7,19 +7,7 @@ Foreign Exchange Rates
 
 ## Overview
 
-Averaging over $5 trillion per day, the foreign exchange (FX) market is where currencies are bought, sold and exchanged. There are many ways to pursue opportunities of the worlds’ largest market, but FX futures offer many advantages over trading spot or over-the-counter FX. Discover the liquidity, nearly 24-hour access and security of trading standardized FX futures on a regulated exchange
-
-## Data Sets
-
-* [BNM FX - Bank Negara Malaysia Exchange Rates](/docs/dataset/BNM_FX)
-* [BNZ FX - Bank of New Zealand Exchange Rates](/docs/dataset/BNZ_FX)
-* [BOC FX - Bank of Canada Exchange Rates](/docs/dataset/BOC_FX)
-* [BOCH FX - Bank of China Exchange Rates](/docs/dataset/BOCH_FX)
-* [BOE FX - Bank of England Daily Spot Exchange Rates](/docs/dataset/BOE_FX)
-* [ECB FX - ECB Euro Foreign Exchange Reference Rates](/docs/dataset/ECB_FX)
-* [RBI-FX - Reserve Bank of India Reference Rates](/docs/dataset/RBI_FX)
-* [SARB FX - South African Reserve Bank Exchange Rates](/docs/dataset/SARB_FX)
-* [SBP FX - State Bank of Pakistan Exchange Rates](/docs/dataset/SBP_FX)
+Averaging over $5 trillion per day, the foreign exchange (FX) market is where currencies are bought, sold and exchanged. There are many ways to pursue opportunities of the worlds’ largest market, but FX futures offer many advantages over trading spot or over-the-counter FX. Discover the liquidity, nearly 24-hour access and security of trading standardized FX futures on a regulated exchange.
 
 ## Introduction
 
@@ -61,3 +49,60 @@ American terms are currency pairs where the quote convention places the USD in t
 
 For example, the British pound trades in American terms in the futures market and is shown as GBP/USD. GBP is the three-letter symbol for the British pound.
 
+## Datasets
+import BnmFx from './_BNM_FX.md';
+import BocFx from './_BOC_FX.md';
+import BochFx from './_BOCH_FX.md';
+import BoeFx from './_BOE_FX.md';
+import EcbFx from './_ECB_FX.md';
+import RbiFx from './_RBI_FX.md';
+import SarbFx from './_SARB_FX.md';
+import SbpFx from './_SBP_FX.md';
+
+### BNM_FX
+<details>
+<summary>The Central Bank of Malaysia Daily Spot Exchange Rates</summary>
+<BnmFx />
+</details>
+
+### BOC_FX
+<details>
+<summary>Bank of Canada Exchange Rates</summary>
+<BocFx />
+</details>
+
+### BOCH_FX
+<details>
+<summary>Bank of China Exchange Rates</summary>
+<BochFx />
+</details>
+
+### BOE_FX
+<details>
+<summary>Bank of England Daily Spot Exchange Rates</summary>
+<BoeFx />
+</details>
+
+### ECB_FX
+<details>
+<summary>European Central Bank Reference Exchange Rates</summary>
+<EcbFx />
+</details>
+
+### RBI_FX
+<details>
+<summary>Reserve Bank of India Reference Rates</summary>
+<RbiFx />
+</details>
+
+### SARB_FX
+<details>
+<summary>South African Reserve Bank Exchange Rates</summary>
+<SarbFx />
+</details>
+
+### SBP_FX
+<details>
+<summary>State Bank of Pakistan Exchange Rates</summary>
+<SbpFx />
+</details>

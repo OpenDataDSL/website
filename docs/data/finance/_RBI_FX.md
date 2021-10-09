@@ -3,7 +3,7 @@ slug: /dataset/RBI_FX
 tags:
   - rbi
   - fx
-  - exchange-rates
+  - exchange_rates
   - india
   - inr
 ---
@@ -37,7 +37,7 @@ Click on the following link to collect data: [www.fbil.org.in](http://www.fbil.o
 
 *   The FBIL Reference Rates will be published at around 13.30 Hours on all business days, i.e., excluding Saturday, Sunday and bank holidays in Mumbai
     
-*   Schedule at 08:30AM UTC (14 IST) business days
+*   Schedule to process the updates at 11:00AM GMT on India business days.
     
 
 ### Sample File
@@ -58,7 +58,7 @@ The RBI FX Rates are stored under the type #ForeignExchange
 
 ### Data ID and Name
 
-Example data id and name
+Example data id and name:
 
 |Data Id|Name|
 |#RBI_FX.USDINR|Reserve Bank of India Foreign Exchange Reference Rates US Dollar Per Indian Rupee|
@@ -85,5 +85,5 @@ Data is validated for missing data points using Reserve Bank of India holiday ca
 
 ### Licensing
 
-Data is freely available from the RBI website and can be used by clients without permissions
+Data is freely available from the RBI website and can be used by clients without permissions.
 

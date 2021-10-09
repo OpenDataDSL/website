@@ -3,7 +3,7 @@ slug: /dataset/BOC_FX
 tags:
   - boc
   - fx
-  - exchange-rates
+  - exchange_rates
   - canada
   - cad
 ---
@@ -25,7 +25,7 @@ Daily FX rates are collected from [https://www.bankofcanada.ca/rates/exchange/da
 
 ### Schedule
 
-Schedule to collect file at 23:30 AM UTC on business days.
+Schedule to process the updates at 23:30 GMT on Canada business days.
 
 ### Sample File
 
@@ -37,7 +37,7 @@ The BOC FX Rates are stored under the type #ForeignExchange
 
 ### Data ID and Name
 
-Example data id and name
+Example data id and name:
 
 |Data Id|Name|
 |-|-|
@@ -65,5 +65,5 @@ Data is validated for missing data points.
 
 ### Licensing
 
-Data is freely available from the BOC website and can be used by clients without permissions
+Data is freely available from the BOC website and can be used by clients without permissions.
 

@@ -3,8 +3,8 @@ slug: /dataset/BNZ_FX
 tags:
   - bnz
   - fx
-  - exchange-rates
-  - new-zealand
+  - exchange_rates
+  - new_zealand
   - nzd
 ---
 BNZ_FX
@@ -26,7 +26,7 @@ URL to extract Bank of New Zealand Exchange Rates is [https://www.bnz.co.nz/supp
 
 ### Schedule
 
-Process is scheduled at 05:00AM UTC ( 18:00 NZDT)
+Process is scheduled at 05:00AM GMT on business days.
 
 ### Sample File
 
@@ -41,7 +41,7 @@ The BNZ FX Rates are stored under the type #ForeignExchange
 
 ### Data ID and Name
 
-Example data id and name
+Example data id and name:
 
 |Data Id|Name|
 |-|-|
@@ -69,5 +69,5 @@ Data is validated for missing data points.
 
 ### Licensing
 
-Data is freely available from the BNZ website and can be used by clients without permissions
+Data is freely available from the BNZ website and can be used by clients without permissions.
 

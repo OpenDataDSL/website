@@ -1,9 +1,9 @@
 ---
 slug: /dataset/SARB_FX
 tags:
-  - sarp
+  - sarb
   - fx
-  - exchange-rates
+  - exchange_rates
   - south-africa
   - zar
 ---
@@ -25,7 +25,7 @@ Collect South African Reserve Bank Daily Exchange Rates from [Selected Historica
 
 ### Schedule
 
-Process is scheduled to collect data at 14:00 hours UTC
+Process is scheduled to collect data at 14:00 GMT on business days.
 
 ### Sample File
 
@@ -43,7 +43,7 @@ The SARB FX Rates are stored under the type #ForeignExchange
 
 ### Data ID and Name
 
-Example data id and name
+Example data id and name:
 
 |Data Id|Name|
 |-|-|
@@ -71,5 +71,5 @@ Data is validated for missing data points using the South African holiday calend
 
 ### Licensing
 
-Data is freely available from the SARB website and can be used by clients without permissions
+Data is freely available from the SARB website and can be used by clients without permissions.
 

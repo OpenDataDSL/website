@@ -3,7 +3,7 @@ slug: /dataset/BOCH_FX
 tags:
   - boch
   - fx
-  - exchange-rates
+  - exchange_rates
   - china
   - cny
 ---
@@ -25,9 +25,7 @@ Bank of China (BOCH) file is downloaded from [https://www.bankofchina.com/source
 
 ### Schedule
 
-Data is updated in the website around 17:30 CST ( 09:30AM UTC) on Business days.
-
-Process is scheduled to collect the file at 10:00 AM UTC
+Updates are processed at 10:00 GMT on China business days.
 
 ### Sample File
 
@@ -41,7 +39,7 @@ The BOCH FX Rates are stored under the type #ForeignExchange
 
 ### Data ID and Name
 
-Example data id and name
+Example data id and name:
 
 |Data Id|Name|
 |-|-|
@@ -69,5 +67,5 @@ Data is validated for missing data points.
 
 ### Licensing
 
-Data is freely available from the BOCH website and can be used by clients without permissions
+Data is freely available from the BOCH website and can be used by clients without permissions.
 

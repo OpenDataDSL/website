@@ -12,7 +12,7 @@ BNM_FX
 
 The Central Bank of Malaysia Daily Spot Exchange Rates
 
-## Overview
+### Overview
 
 ![](/img/data/bnm.gif)
 
@@ -25,7 +25,7 @@ Rates from the Interbank Foreign Exchange Market in Kuala Lumpur as at 0900, 120
 
 All the rates are based on the Malaysian Ringgit (MYR) - click [here](/docs/data/fx) for more information on the Foreign Exchange markets.
 
-## File Collection
+### File Collection
 
 The file is retrieved from the Bank Negara Malaysia website:  [http://www.bnm.gov.my](http://www.bnm.gov.my)
 
@@ -33,7 +33,7 @@ The file is retrieved from the Bank Negara Malaysia website:  [http://www.bnm.go
 
 Schedule the process as below:
 
-|Process|Schedule in UTC|
+|Process|Schedule in GMT|
 |-|-|
 |BNM_FX_0900|03:00AM,B|
 |BNM_FX_1200|05:00AM,B|
@@ -78,7 +78,7 @@ Below is an example CSV file:
 13 Sep 2021,0.0182,0.1013,2.9523,0.2418,5.6344,112.9821,2.4666,3.5214,0.2637
 ```
 
-## Type
+### Type
 
 The BNM FX Rates are stored under the type #ForeignExchange
 

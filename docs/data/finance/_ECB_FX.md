@@ -3,7 +3,7 @@ slug: /dataset/ECB_FX
 tags:
   - ecb
   - fx
-  - exchange-rates
+  - exchange_rates
   - europe
   - eur
 ---
@@ -13,7 +13,7 @@ ECB_FX
 
 European Central Bank Reference Exchange Rates
 
-## Overview
+### Overview
 
 ![](/img/data/ecb.png)
 
@@ -26,13 +26,13 @@ The FX rates that are loaded are the ECB Reference rates. 
 
 All the rates are based on the EURO - click [here](/docs/data/fx) for more information on the Foreign Exchange markets.
 
-## File Collection
+### File Collection
 
 The file is retrieved from the ECB website at [http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml](http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml)  
 
 ### Schedule
 
-The data is collected at 16:30 CET business days
+Updates are processed at 16:30 CET on Target business days.
 
 ### Sample File
 
@@ -40,13 +40,13 @@ Below is the excerpts of the source file for 13th November 2020:
 
 ![](/attachments/216367189/216367209.png)
 
-## Type
+### Type
 
 The ECX FX Rates are stored under the type **#ForeignExchange**
 
 ### Data ID and Name
 
-Example data id and name
+Example data id and name:
 
 |**Data Id**|**Name**|
 |-|-|
@@ -75,5 +75,5 @@ Data is validated for missing data points using Target holiday calendar for expe
 
 ### Licensing
 
-Data is freely available from the ECB website and can be used by clients without permissions
+Data is freely available from the ECB website and can be used by clients without permissions.
 

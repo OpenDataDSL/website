@@ -3,7 +3,7 @@ slug: /dataset/SBP_FX
 tags:
   - sbp
   - fx
-  - exchange-rates
+  - exchange_rates
   - pakistan
   - pkr
 ---
@@ -25,7 +25,7 @@ State Bank of Pakistan Weighted Average Customer Exchange Rates from [https://ww
 
 ### Schedule
 
-Process is scheduled to run at 14:15 UTC
+Process is scheduled to run at 14:15 GMT on business days.
 
 ### Sample File
 
@@ -37,7 +37,7 @@ The SBP FX Rates are stored under the type #ForeignExchange
 
 ### Data ID and Name
 
-Example data id and name
+Example data id and name:
 
 |Data Id|Name|
 |-|-|
@@ -65,5 +65,5 @@ Data is validated for missing data points using the Pakistan Bank holiday calend
 
 ### Licensing
 
-Data is freely available from the SBP website and can be used by clients without permissions
+Data is freely available from the SBP website and can be used by clients without permissions.
 
