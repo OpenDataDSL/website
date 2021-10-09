@@ -1,15 +1,3 @@
----
-slug: /dataset/BOE_FX
-tags:
-  - boe
-  - fx
-  - exchange_rates
-  - england
-  - gbp
----
-BOE FX
-======
-
 Bank of England Daily Spot Exchange Rates
 
 ## Overview

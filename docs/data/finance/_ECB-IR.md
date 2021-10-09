@@ -1,16 +1,3 @@
----
-slug: /dataset/ECB_IR
-tags:
-  - ecb
-  - interest-rates
-  - europe
-  - eur
-  - refinancing
----
-
-ECB_IR
-============================================================
-
 European Central Bank Refinancing Rate
 
 ## Overview
@@ -31,7 +18,7 @@ File collection is between 7:00 AM and 8:00 GMT the following target2 business d
 
 ### Sample File
 
-Sample file [sample file](./ecb_ir_inputfile.xml)
+Sample file [sample file](pathname://../../static/file-samples/ecb_ir_inputfile.xml)
 
 ## Type
 

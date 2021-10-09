@@ -6,6 +6,14 @@ import { DataCatalog2 } from '/src/components/DataCatalog'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faCalendarDay, faGlobe, faMoneyBill } from '@fortawesome/free-solid-svg-icons'
 
+## Complete Data List
+The following table represents the data and loaders we have available now.
+If you cannot find what you are looking for:
+* Check the current Data [Roadmap](RoadMap)
+* Log a data loader request in the [Portal](https://portal.opendatadsl.com)
+
+<DataCatalog2 />
+
 ## Data List Notation
 
 ### <FontAwesomeIcon icon={faMoneyBill} />  Distribution
@@ -29,20 +37,4 @@ For public data, this is the start year of the data history we have stored
 ### <FontAwesomeIcon icon={faCalendarDay} /> Frequency
 
 This is the publish frequency of the data
-
-## Complete Data List
-The following table represents the data and loaders we have available now.
-If you cannot find what you are looking for:
-* Check the current Data [Roadmap](RoadMap)
-* Log a data loader request
-
-<DataCatalog2 />
-
-
-
-
-
-
-
-
 

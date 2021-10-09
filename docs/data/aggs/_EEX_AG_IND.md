@@ -1,21 +1,3 @@
----
-slug: /dataset/EEX_AG_IND
-tags:
-  - eex
-  - agriculture
-  - index
-  - europe
-  - dairy
-  - butter
-  - smp
-  - whey
-  - potato
-  - milk
----
-
-EEX_AG_IND
-============================================================
-
 EEX European Energy Exchange Agricultural Indices  
 
 ## Overview

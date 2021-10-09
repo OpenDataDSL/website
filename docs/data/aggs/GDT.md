@@ -5,6 +5,10 @@ tags:
   - agriculture
   - new_zealand
   - dairy
+  - cheese
+  - butter
+  - smp
+  - whey
 ---
 
 GDT

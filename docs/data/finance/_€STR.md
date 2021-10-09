@@ -1,16 +1,3 @@
----
-slug: /dataset/€STR
-tags:
-  - estr
-  - ecb
-  - interest-rates
-  - europe
-  - eur
----
-
-€STR
-============================================================
-
 Euro Short Term Rate
 
 ## Overview

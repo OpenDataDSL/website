@@ -1,15 +1,3 @@
----
-slug: /dataset/BNM_FX
-tags: 
-  - bnm
-  - fx
-  - exchange-rates
-  - malaysia
-  - myr
----
-BNM_FX
-============================================================
-
 The Central Bank of Malaysia Daily Spot Exchange Rates
 
 ### Overview
