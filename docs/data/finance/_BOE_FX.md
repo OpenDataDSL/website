@@ -24,7 +24,7 @@ All the rates are based on the Great British Pound (GBP) - click [here](/docs/da
 
 ### Schedule
 
-Daily FX rates are processed around 10.00 GMT the following England business day.
+Daily FX rates are processed around 10.00 GMT the following London business day.
 
 ### Sample File
 
