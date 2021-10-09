@@ -1,5 +1,5 @@
 ---
-slug: /dataset/GDT
+slug: /company/GDT
 tags:
   - gdt
   - agriculture

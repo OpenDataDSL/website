@@ -1,5 +1,5 @@
 ---
-slug: /dataset/EEX
+slug: /company/EEX
 tags:
   - eex
   - agriculture
