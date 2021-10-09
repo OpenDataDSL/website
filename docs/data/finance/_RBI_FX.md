@@ -1,16 +1,3 @@
----
-slug: /dataset/RBI_FX
-tags:
-  - rbi
-  - fx
-  - exchange_rates
-  - india
-  - inr
----
-
-RBI_FX
-============================================================
-
 Reserve Bank of India Reference Rates  
 
 ## Overview

@@ -1,16 +1,3 @@
----
-slug: /dataset/SARB_FX
-tags:
-  - sarb
-  - fx
-  - exchange_rates
-  - south-africa
-  - zar
----
-
-SARB_FX
-============================================================
-
 South African Reserve Bank Exchange Rates  
 
 ## Overview

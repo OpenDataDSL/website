@@ -1,16 +1,3 @@
----
-slug: /dataset/ECB_IR
-tags:
-  - ecb
-  - interest-rates
-  - europe
-  - eur
-  - refinancing
----
-
-ECB_IR
-============================================================
-
 European Central Bank Refinancing Rate
 
 ## Overview

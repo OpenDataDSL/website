@@ -1,17 +1,3 @@
----
-slug: /dataset/SONIA
-tags:
-  - sonia
-  - boe
-  - interest-rates
-  - england
-  - europe
-  - gbp
----
-
-SONIA
-============================================================
-
 Sterling Over Night Interbank Average Rate
 
 ## Overview

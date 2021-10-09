@@ -1,16 +1,3 @@
----
-slug: /dataset/ECB_FX
-tags:
-  - ecb
-  - fx
-  - exchange_rates
-  - europe
-  - eur
----
-
-ECB_FX
-======
-
 European Central Bank Reference Exchange Rates
 
 ### Overview

@@ -1,16 +1,3 @@
----
-slug: /dataset/SBP_FX
-tags:
-  - sbp
-  - fx
-  - exchange_rates
-  - pakistan
-  - pkr
----
-
-SBP_FX
-============================================================
-
 State Bank of Pakistan Exchange Rates  
 
 ## Overview

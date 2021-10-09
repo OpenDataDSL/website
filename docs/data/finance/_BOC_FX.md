@@ -1,16 +1,3 @@
----
-slug: /dataset/BOC_FX
-tags:
-  - boc
-  - fx
-  - exchange_rates
-  - canada
-  - cad
----
-
-BOC_FX
-============================================================
-
 Bank of Canada Exchange Rates
 
 ## Overview

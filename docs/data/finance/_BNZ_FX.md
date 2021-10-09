@@ -1,15 +1,3 @@
----
-slug: /dataset/BNZ_FX
-tags:
-  - bnz
-  - fx
-  - exchange_rates
-  - new_zealand
-  - nzd
----
-BNZ_FX
-============================================================
-
 Bank of New Zealand Exchange Rates
 
 ## Overview

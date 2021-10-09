@@ -1,17 +1,3 @@
----
-slug: /dataset/EFFR
-tags:
-  - effr
-  - frb
-  - interest-rates
-  - usa
-  - america
-  - usd
----
-
-EFFR
-============================================================
-
 Effective Federal Funds Rate
 
 ## Overview
