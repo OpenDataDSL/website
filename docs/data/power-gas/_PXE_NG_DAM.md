@@ -1,6 +1,6 @@
-PXE Natural Gas Day Ahead Market Data
+PXE_NG_DAM
 =====================================================
-
+PXE Natural Gas Day Ahead Market Data
 
 ### Overview
 
