@@ -92,6 +92,7 @@ Examples of data Id and names:
 |Frequency|Weekly,Monthly|
 |Currency|USD|
 |Unit|MT|
+|Market|Agriculture|
 |Commodity|Agriculture,Dairy|
 |Product|Butter,Potato,SMP,Whey,Milk|
 |Location|Germany,The Netherlands,France,Denmark|

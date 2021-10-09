@@ -10,7 +10,7 @@ tags:
 GDT
 ============================================================
 
-GDT Global Dairy Trade Dairy Prices
+Global Dairy Trade Dairy
 
 ## Overview
 
@@ -27,8 +27,11 @@ The dataset consists of price updates of Anhydrous Milk Fat,Butter,Butter Milk P
 
 website:https://www.globaldairytrade.info/
 
-### Dataset
+## Datasets
+import GdtDrFut from './_GDT_DR_FUT.md';
 
-|Code|Name|
-|-|-|
-|[GDT_DR_FUT](/docs/dataset/GDT_DR_FUT)|GDT Global Dairy Trade Bimonthly Price Futures|
+### GDT_DR_FUT
+<details>
+<summary>Global Dairy Trade Bimonthly Price Futures</summary>
+<GdtDrFut />
+</details>

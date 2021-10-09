@@ -14,7 +14,7 @@ tags:
 GDT_DR_FUT
 ============================================================
 
-GDT Global Dairy Trade Bimonthly Price Futures
+Global Dairy Trade Bimonthly Price Futures
 
 ## Overview
 
@@ -37,7 +37,7 @@ The data provider sends file to OpendataDSL.
 
 ### Schedule
 
-File is processed at 12:30 GMT first and third Tuesdays of month.
+File is processed at 12:30 GMT on every first and third Tuesdays of month.
 
 ### Sample File
 
@@ -78,4 +78,6 @@ Data is validated for missing data points.
 
 ### Licensing
 
-This data requires agreement with GDT before it can be supplied.
+This data requires agreement with GDT before it can be supplied. 
+
+https://www.globaldairytrade.info/en/terms-and-conditions/insight
