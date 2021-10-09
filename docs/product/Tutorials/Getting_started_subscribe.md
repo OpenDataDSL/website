@@ -39,7 +39,7 @@ implementing a specific consumer for a subscription.
 ## Step 1 - Subscribing to a data feed
 
 In this tutorial, we are going to subscribe to a daily feed of FX rates as provided by the European Central Bank. 
-The dataset code is [ECB_FX](/docs/dataset/ECB_FX), there are 32 exchange rates against the Euro from various other currencies.
+The dataset code is [ECB_FX](/docs/data/fx#ecb_fx), there are 32 exchange rates against the Euro from various other currencies.
 
 ### Create a queue
 

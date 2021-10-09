@@ -32,15 +32,6 @@ The agricultural industry (soft commodities/softs) are commodities such as coffe
 The term generally refers to commodities that are grown, rather than mined.
 Soft commodities are sometimes referred to as tropical commodities or food and fiber commodities.
 
-## Data Sets
-
-* [**AHDB** United Kingdom Wholesale Monthly Prices](/docs/dataset/AHDB_DR_PR)
-* [**CLAL.IT** Global Daily Trade Average Auction Price](/docs/dataset/CLAL_DR_PR)
-* [**EEX** European Energy Exchange Agricultural Indices](/docs/dataset/EEX_AG_IND)
-* [**GDT** Global Dairy Trade Bimonthly Price Futures](/docs/dataset/GDT_DR_FUT)
-* [**MATba ROFEX** Agricultural Data](/docs/dataset/MATBAROFEX_AG_FUT)
-* [**ZuivelNL** Dairy Prices](/docs/dataset/ZUIVELNL_DR_PR)
-
 ## Soft Commodity Categories
 The **OECD** categorises agriculture using the following category and sub-category:
  

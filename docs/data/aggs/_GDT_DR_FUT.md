@@ -1,19 +1,3 @@
----
-slug: /dataset/GDT_DR_FUT
-tags:
-  - gdt
-  - agriculture
-  - new_zealand
-  - dairy
-  - cheese
-  - butter
-  - smp
-  - whey
----
-
-GDT_DR_FUT
-============================================================
-
 Global Dairy Trade Bimonthly Price Futures
 
 ## Overview
