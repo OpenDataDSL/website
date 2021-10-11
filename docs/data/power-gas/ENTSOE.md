@@ -8,8 +8,10 @@ tags:
 ---
 ENTSOE
 =========
-
 The European Network of Transmission System Operators for Electricity
+
+![](/img/data/entsoe.svg)
+
 
 ENTSO-E, the European Network of Transmission System Operators for Electricity ([https://www.entsoe.eu/](https://www.entsoe.eu/)), represents 42 electricity transmission system operators (TSOs) from 35 countries across Europe. ENTSO-E was established and given legal mandates by the EU’s Third Legislative Package for the Internal Energy Market in 2009, which aims at further liberalizing the gas and electricity markets in the EU.
 
