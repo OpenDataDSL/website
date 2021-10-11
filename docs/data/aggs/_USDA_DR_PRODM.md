@@ -10,7 +10,7 @@ The weekl update file is collected at 07:30GMT every 5th day of the month.
 
 ### Sample File
 
-[Sample file for USDA Dairy Monthly Report](pathname://../../static/file-samples/dary0121.zip)
+[Sample file for USDA Dairy Monthly Report](pathname:///file-samples/dary0121.zip)
 
 ## Type
 

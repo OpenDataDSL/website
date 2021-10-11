@@ -10,7 +10,7 @@ The schedule for collecting the file is 20:00GMT on Hungarian business days.
 
 ### Sample File
 
-[Sample file for CEEGEX gas day-ahead](pathname://../../static/file-samples/daily_market_data_export.xlsx)
+[Sample file for CEEGEX gas day-ahead](pathname:///file-samples/daily_market_data_export.xlsx)
 
 ## Type
 

@@ -10,7 +10,7 @@ The schedule for collecting the files is between 22:00 and 23:00 GMT on Argentin
 
 ### Sample File
 
-[Sample file for MATba Spot](pathname://../../static/file-samples/ajustes_20_07_2021.xm)
+[Sample file for MATba Spot](pathname:///file-samples/ajustes_20_07_2021.xml)
 
 ## Type
 

@@ -15,9 +15,9 @@ End of day file is retrieved daily between 19:00GMT and 20:00GMT
 
 ### Sample File
 
-[Sample file for auction price](pathname://../../static/file-samples/20210901MGPGASASTASintesiScambio.xml)
+[Sample file for auction price](pathname:///file-samples/20210901MGPGASASTASintesiScambio.xml)
 
-[Sample file for continuous price](pathname://../../static/file-samples/20210901MGPGASSintesiScambio.xml)
+[Sample file for continuous price](pathname:///file-samples/20210901MGPGASSintesiScambio.xml)
 
 ## Type
 

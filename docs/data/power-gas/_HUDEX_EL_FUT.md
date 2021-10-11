@@ -10,7 +10,7 @@ The schedule for collecting the file is 20:00GMT on Hungarian business days.
 
 ### Sample File
 
-[Sample file for HUDEX Power Futures](pathname://../../static/file-samples/power_daily_data_export_19-07-2021.xlsx)
+[Sample file for HUDEX Power Futures](pathname:///file-samples/power_daily_data_export_19-07-2021.xlsx)
 
 ## Type
 

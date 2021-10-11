@@ -10,7 +10,7 @@ Monthly updates are processed on 25th day of every month.
 
 ### Sample File
 
-[Sample file: uk-wholesale-prices.xls](pathname://../../static/file-samples/UK%20wholesale%20prices-1.xlsx)
+[Sample file: uk-wholesale-prices.xls](pathname:///file-samples/UK%20wholesale%20prices-1.xlsx)
 
 ## Type
 

@@ -16,10 +16,6 @@ The end of day updates are collected from TGE website:https://tge.pl/gas-idm
 
 The schedule for collecting the file is around 22:00GMT daily.
 
-### Sample File
-
-Sample file
-
 ## Type
 
 The dataset is stored as #NaturalGas

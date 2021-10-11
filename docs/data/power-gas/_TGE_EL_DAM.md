@@ -17,10 +17,6 @@ The update file is collected from TGE website: https://tge.pl/electricity-dam
 
 The schedule for collecting the file is around 22:00GMT
 
-### Sample File
-
-Sample file
-
 ## Type
 
 The data is stored as #Electricity

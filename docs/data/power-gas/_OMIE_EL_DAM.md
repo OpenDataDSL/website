@@ -10,7 +10,7 @@ The end of day file is retrieved around 14:00 GMT daily.
 
 ### Sample File
 
-[Sample file for OMIE Power Day Ahead Updates](pathname://../../static/file-samples/INT_PBC_EV_H_1_26_06_2021_26_06_2021.XLS) 
+[Sample file for OMIE Power Day Ahead Updates](pathname:///file-samples/INT_PBC_EV_H_1_26_06_2021_26_06_2021.XLS) 
 
 ### Type
 

@@ -15,9 +15,11 @@ End of day file is retrieved daily between 19:00GMT and 20:00GMT daily
 
 ### Sample File
 
-[Sample file for MPEG Price Conventional](pathname://../../static/file-samples/20210922MGPPrezziConvenzionali.xml)
-[Sample file for Price](pathname://../../static/file-samples/20210830MGPPrezzi.xml)
-[Sample file for Volume](pathname://../../static/file-samples/20210902MGPQuantita.xml)
+[Sample file for MPEG Price Conventional](pathname:///file-samples/20210922MGPPrezziConvenzionali.xml)
+
+[Sample file for Price](pathname:///file-samples/20210830MGPPrezzi.xml)
+
+[Sample file for Volume](pathname:///file-samples/20210902MGPQuantita.xml)
 
 ## Type
 

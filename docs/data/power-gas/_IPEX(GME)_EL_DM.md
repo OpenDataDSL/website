@@ -10,7 +10,7 @@ End of day file is retrieved between 19:00GMT and 20:00GMT on business days.
 
 ### Sample File
 
-[Sample file for MPEG Daily Market](pathname://../../static/file-samples/20210901MPEGSintesiScambio.xml)
+[Sample file for MPEG Daily Market](pathname:///file-samples/20210901MPEGSintesiScambio.xml)
 
 ## Type
 

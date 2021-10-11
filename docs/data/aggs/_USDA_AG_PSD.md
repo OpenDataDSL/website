@@ -10,7 +10,7 @@ The schedule for collecting the file
 
 ### Sample File
 
-[Sample file for PSD Coffee](pathname://../../static/file-samples/psd-coffee.xlsx)
+[Sample file for PSD Coffee](pathname:///file-samples/psd-coffee.xlsx)
 
 ## Type
 

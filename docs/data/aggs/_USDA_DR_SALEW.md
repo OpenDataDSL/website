@@ -10,7 +10,7 @@ The weekl update file is collected every Thursday at 07:30 GMT
 
 ### Sample File
 
-[Sample file for USDA Dairy Weekly Report](pathname://../../static/file-samples/DYWDAIRYPRODUCTSSALES.PDF)
+[Sample file for USDA Dairy Weekly Report](pathname:///file-samples/DYWDAIRYPRODUCTSSALES.PDF)
 
 ## Type
 

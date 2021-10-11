@@ -14,7 +14,7 @@ The absolute agricultural price statistics are usually published by Eurostat at 
 
 ### Sample File
 
- [Sample file for Poultry Farming - Hatcheries Hens:](pathname://../../static/file-samples/apro_ec_strhen.tsv)
+ [Sample file for Poultry Farming - Hatcheries Hens:](pathname:///file-samples/apro_ec_strhen.tsv)
 
 ## Type
 
