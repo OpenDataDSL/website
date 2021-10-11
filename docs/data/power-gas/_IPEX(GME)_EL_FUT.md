@@ -10,7 +10,7 @@ End of day file is retrieved between 19:00GMT and 20:00GMT on business days.
 
 ### Sample File
 
-[Sample file for MTE](pathname://../../static/file-samples/20210830MTEWebTabella.xml)
+[Sample file for MTE](pathname://static/file-samples/20210830MTEWebTabella.xml)
 
 ## Type
 
