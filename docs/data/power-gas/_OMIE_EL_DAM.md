@@ -3,7 +3,7 @@ slug: /dataset/OMIE_EL_DA
 tags:
   - omie
   - power
-  - day-ahead
+  - day_ahead
   - spain
 ---
 OMIE_EL_DAM
@@ -63,4 +63,4 @@ Data is validated for missing data points.
 
 ### Licensing
 
-This data requires agreement with OMIP before it can be supplied.
+This data requires agreement with OMIPE before it can be supplied.

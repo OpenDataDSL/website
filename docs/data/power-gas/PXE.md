@@ -2,10 +2,11 @@
 slug: /company/PXE
   - omip
   - power
-  - futures
+  - gas
+  - czech
   - spain
   - portugal
----
+--- 
 PXE
 ============================================================
 Power Exchange Central Europe
