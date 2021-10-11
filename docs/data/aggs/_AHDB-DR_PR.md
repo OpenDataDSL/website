@@ -1,19 +1,3 @@
----
-slug: /dataset/AHDB_DR_PR
-tags:
-  - ahdb
-  - agriculture
-  - uk
-  - united_kingdom
-  - dairy
-  - cheese
-  - butter
-  - smp
----
-
-AHDB_DR_PR
-============================================================
-
 Agriculture and Horticulture Development Board United Kingdom Wholesale Monthly Prices  
 
 ## File Collection

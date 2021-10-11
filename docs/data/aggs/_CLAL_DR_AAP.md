@@ -1,21 +1,3 @@
----
-slug: /dataset/CLAL_DR_AAP
-tags:
-  - clalit
-  - agriculture
-  - italy
-  - dairy
-  - cheese
-  - butter
-  - smp
-  - wmp
-  - whey
-  - milk
-  - casein
----
-CLAL_DR_AAP
-============================================================
-
 CLAL.it Dairy Average Auction Bimonthly Spot Prices
 
 ## File Collection

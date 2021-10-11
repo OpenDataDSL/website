@@ -1,14 +1,3 @@
----
-slug: /dataset/TGE_NG_IDM
-tags:
-  - tge
-  - gas
-  - intra_day
-  - poland
----
-TGE_NG_IDM
-============================================================
-
 Polish Power Exchange Natural Gas Intra Day Market Price
 
 ## Overview

@@ -1,21 +1,3 @@
----
-slug: /dataset/CLAL_DR_AAP_PRVOLCURVE
-tags:
-  - clalit
-  - agriculture
-  - italy
-  - dairy
-  - cheese
-  - butter
-  - smp
-  - wmp
-  - whey
-  - milk
-  - casein
----
-CLAL_DR_AAP_PRVOLCURVE
-============================================================
-
 CLAL.it Dairy Weighted Average Winning Price and Volume Bimonthly Curve
 
 ## File Collection

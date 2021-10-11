@@ -1,21 +1,3 @@
----
-slug: /dataset/USDA_AG_PSD
-tags:
-  - usda
-  - agriculture
-  - psd
-  - global
-  - coffee
-  - cotton
-  - sugar
-  - production
-  - sales
-  - distribution
----
-
-USDA_AG_PSD
-============================================================
-
 United States Department of Agriculture Production Supply Distribution Annual Data
 
 ## File Collection

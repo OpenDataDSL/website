@@ -1,13 +1,3 @@
----
-slug: /dataset/OMIE_EL_DA
-tags:
-  - omie
-  - power
-  - day_ahead
-  - spain
----
-OMIE_EL_DAM
-============================================================
 OMI-Polo Spanish SA Power Day Ahead Market Price
 
 ## File Collection

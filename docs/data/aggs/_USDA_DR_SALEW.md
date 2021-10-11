@@ -1,16 +1,3 @@
----
-slug: /dataset/USDA_DR_SALEW
-tags:
-  - usda
-  - agriculture
-  - dairy
-  - global
-  - sales
----
-
-USDA_DR_SALEW
-============================================================
-
 The United States Department of Agriculture,National Dairy Products Sales Report Weekly
 
 ## File Collection

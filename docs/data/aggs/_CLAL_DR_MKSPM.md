@@ -1,21 +1,3 @@
----
-slug: /dataset/CLAL_DR_MKSPM
-tags:
-  - clalit
-  - agriculture
-  - italy
-  - dairy
-  - cheese
-  - butter
-  - smp
-  - wmp
-  - whey
-  - milk
-  - casein
----
-CLAL_DR_MKSPM
-============================================================
-
 CLAL.it Dairy Raw Milk National Monthly Spot Price
 
 ## File Collection

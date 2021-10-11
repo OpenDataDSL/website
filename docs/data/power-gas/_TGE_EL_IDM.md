@@ -1,15 +1,3 @@
----
-slug: /dataset/TGE_EL_IDM
-tags:
-  - tge
-  - power
-  - intra_day
-  - poland
----
-
-TGE_EL_IDM
-============================================================
-
 Polish Power Exchange Power Intra Day Market Price
 
 ## Overview

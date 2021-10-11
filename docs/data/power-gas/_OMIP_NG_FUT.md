@@ -1,14 +1,3 @@
----
-slug: /dataset/OMIP_NG_FUT
-tags:
-  - omip
-  - gas
-  - futures
-  - spain
-  - physical_delivery
----
-OMIP_NG_FUT
-============================================================
 The Iberian Energy Derivatives Exchange Natural Gas Physical Futures 
 
 ## File Collection

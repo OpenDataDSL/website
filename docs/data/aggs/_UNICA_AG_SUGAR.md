@@ -1,17 +1,3 @@
----
-slug: /dataset/UNICA_AG_SUGAR
-tags:
-  - unica
-  - agriculture
-  - sugar
-  - brazil
-  - fundamentals
-  - statistical
----
-
-UNICA_AG_SUGAR
-============================================================
-
 Brazilian Sugarcane Industry Association Sugarcane Harvest Update
 
 ## File Collection

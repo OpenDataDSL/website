@@ -1,14 +1,3 @@
----
-slug: /dataset/PXE_EL_FUT
-tags:
-  - pxe
-  - power
-  - futures
-  - czechia
----
-
-PXE_EL_FUT
-============================================================
 Power Exchange Central Europe Power Financial Futures
 
 ## File Collection
@@ -21,7 +10,7 @@ The end of day file is retrieved between 08:00 and 09:00 GMT on following Czech 
 
 ### Sample File
 
-Sample file [sample file](./20210716_PXE_Results.csv)
+Sample file [sample file](pathname://static/file-samples/20210716_PXE_Results.csv)
 
 ### Type
 

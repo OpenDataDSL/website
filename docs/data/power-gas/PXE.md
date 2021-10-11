@@ -1,5 +1,6 @@
 ---
 slug: /company/PXE
+tags:
   - omip
   - power
   - gas

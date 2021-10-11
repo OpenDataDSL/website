@@ -1,19 +1,3 @@
----
-slug: /dataset/EUROSTAT_AG_PRICE
-tags:
-  - eurostat
-  - agriculture
-  - dairy
-  - europe
-  - price
-  - absolute
-  - fundamentals
-  - statistics
----
-
-EUROSTAT_AG_PRICE
-============================================================
-
 Eurostat Selling Prices of Agricultural Products (Absolute Price)
 
 ## Overview

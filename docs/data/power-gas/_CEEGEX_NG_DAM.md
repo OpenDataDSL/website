@@ -1,15 +1,3 @@
----
-slug: /dataset/CEEGEX_NG_DAM
-tags:
-  - ceegex
-  - gas
-  - day_ahead
-  - hungary
----
-
-CEEGEX_NG_DAM
-============================================================
-
 Central Eastern European Gas Exchange Hungary Natural Gas Day Ahead Price
 
 ## File Collection

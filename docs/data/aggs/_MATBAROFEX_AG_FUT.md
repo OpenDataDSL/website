@@ -1,17 +1,3 @@
----
-slug: /dataset/MATBAROFEX_AG_FUT
-tags:
-  - matba
-  - agriculture
-  - futures
-  - argentina
-  - wheat
-  - soybean
-  - corn
----
-MATBAROFEX_AG_FUT
-============================================================
-
 MATba ROFEX Agriculture Futures
 
 ## File Collection

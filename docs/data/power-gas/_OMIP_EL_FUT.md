@@ -1,15 +1,3 @@
----
-slug: /dataset/OMIP_EL_FUT
-tags:
-  - omip
-  - power
-  - futures
-  - spain
-  - portugal
-  - cash_delivery
----
-OMIP_EL_FUT
-============================================================
 The Iberian Energy Derivatives Exchange Power Futures  
 
 ## Overview

@@ -1,18 +1,3 @@
----
-slug: /dataset/EURONEXT_AG_FUT
-tags:
-  - euronext
-  - agriculture
-  - futures
-  - paris
-  - milling_wheat
-  - rapeseed
-  - corn
----
-
-EURONEXT_AG_FUT
-============================================================
-
 Euronext Agricultural Futures
 
 ## File Collection

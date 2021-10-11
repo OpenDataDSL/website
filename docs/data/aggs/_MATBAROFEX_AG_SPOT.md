@@ -1,17 +1,3 @@
----
-slug: /dataset/MATBAROFEX_AG_SPOT
-tags:
-  - matba
-  - agriculture
-  - spot
-  - argentina
-  - wheat
-  - soybean
-  - corn
----
-MATBAROFEX_AG_SPOT
-============================================================
-
 MATba ROFEX Agriculture Spot
 
 ## File Collection

@@ -1,17 +1,3 @@
----
-slug: /dataset/ZUIVELNL_DR_PR
-tags:
-  - zuivelnl
-  - agriculture
-  - dairy
-  - netherlands
-  - butter
-  - wmp
-  - smp
----
-ZUIVELNL_DR_PR
-============================================================
-
 ZuivelNL Dairy Price
 
 ## File Collection

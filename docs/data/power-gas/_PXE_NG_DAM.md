@@ -1,14 +1,3 @@
----
-slug: /dataset/PXE_NG_DAM
-tags:
-  - pxe
-  - natural_gas
-  - day_ahead
-  - czechia
----
-
-PXE_NG_DAM
-=====================================================
 Power Exchange Central Europe Natural Gas Day Ahead Market Price
 
 ### Overview
@@ -25,7 +14,7 @@ The updates are collected around 23:00GMT daily.
 
 ### Sample File
 
-Sample file [sample file](./CZ_Day_Ahead_20210813.csv)
+Sample file [sample file](pathname://static/file-samples/CZ_Day_Ahead_20210813.csv)
 
 ### Type
 

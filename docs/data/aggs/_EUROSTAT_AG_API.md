@@ -1,19 +1,3 @@
----
-slug: /dataset/EUROSTAT_AG_PRICE_IND
-tags:
-  - eurostat
-  - agriculture
-  - dairy
-  - europe
-  - price
-  - absolute
-  - fundamentals
-  - statistics
----
-
-EUROSTAT_AG_PRICE_IND
-============================================================
-
 Eurostat Price Indices of Agricultural Products Annual
 
 ## File Collection
@@ -26,7 +10,7 @@ The absolute agricultural price statistics are usually published by Eurostat at 
 
 ### Sample File
 
-Sample file for Selling Prices of Crop Products (absolute prices): [sample file](./apri_ap_crpouta.tsv)
+Sample file for Selling Prices of Crop Products (absolute prices): [sample file](pathname://static/file-samples/apri_ap_crpouta.tsv)
 
 ## Type
 

@@ -1,15 +1,3 @@
----
-slug: /dataset/HUPX_EL_DAM
-tags:
-  - hupx
-  - power
-  - day_ahead
-  - hungary
----
-
-HUPX_EL_DAM
-============================================================
-
 Hungarian Power Exchange Power Day Ahead Market Price
 
 ## Overview
@@ -27,7 +15,7 @@ The schedule for collecting the file is 16:00 GMT on Hungarian business days.
 
 ### Sample File
 
-Sample file [sample file](./dam_weekly_data_export_HUPX_26-07-2021.xlsx)
+Sample file [sample file](pathname://static/file-samples/dam_weekly_data_export_HUPX_26-07-2021.xlsx)
 
 ## Type
 

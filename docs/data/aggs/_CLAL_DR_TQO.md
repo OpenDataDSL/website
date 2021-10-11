@@ -1,21 +1,3 @@
----
-slug: /dataset/CLAL_DR_TQO
-tags:
-  - clalit
-  - agriculture
-  - italy
-  - dairy
-  - cheese
-  - butter
-  - smp
-  - wmp
-  - whey
-  - milk
-  - casein
----
-CLAL_DR_TQO
-============================================================
-
 CLAL.it Dairy Global Total Quantity Offered Bimonthly Spot Volume
 
 ## File Collection

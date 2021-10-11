@@ -1,15 +1,3 @@
----
-slug: /dataset/TGE_EL_DAM
-tags:
-  - tge
-  - power
-  - day_ahead
-  - poland
----
-
-TGE_EL_DAM
-============================================================
-
 Polish Power Exchange Power Day Ahead Market Price
 
 ## Overview

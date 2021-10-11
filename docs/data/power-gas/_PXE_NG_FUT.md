@@ -1,14 +1,3 @@
----
-slug: /dataset/PXE_NG_FUT
-tags:
-  - pxe
-  - natural_gas
-  - futures
-  - czechia
----
-
-PXE_NG_FUT
-============================================================
 Power Exchange Central Europe Natural Gas Futures
 
 ## File Collection
@@ -21,7 +10,7 @@ The end of day file is retrieved between 08:00 and 09:00 GMT on following Czech 
 
 ### Sample File
 
-Sample file  [sample file](./20210716_PXE_Results.csv)
+Sample file  [sample file](pathname://static/file-samples/20210716_PXE_Results.csv)
 
 ### Type
 

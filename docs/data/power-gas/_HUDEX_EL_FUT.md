@@ -1,15 +1,3 @@
----
-slug: /dataset/HUDEX_EL_FUT
-tags:
-  - hudex
-  - power
-  - futures
-  - hungary
----
-
-HUDEX_EL_FUT
-============================================================
-
 Hungarian Derivative Energy Exchange Power Financial Futures
 
 ## File Collection

@@ -1,15 +1,3 @@
----
-slug: /dataset/TGE_NG_DAM
-tags:
-  - tge
-  - gas
-  - day_ahead
-  - poland
----
-
-TGE_NG_DAM
-============================================================
-
 Polish Power Exchange Natural Gas Day Ahead Market Price
 
 ## Overview

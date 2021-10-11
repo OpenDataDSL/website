@@ -1,18 +1,3 @@
----
-slug: /dataset/EUROSTAT_AG_PROD
-tags:
-  - eurostat
-  - agriculture
-  - dairy
-  - europe
-  - production
-  - fundamentals
-  - statistics
----
-
-EUROSTAT_AG_PROD
-============================================================
-
 Eurostat Agricultural Production
 
 ## Overview

@@ -1,15 +1,3 @@
----
-slug: /dataset/USDA_DR_PRODM
-tags:
-  - usda
-  - agriculture
-  - dairy
-  - United_States
----
-
-USDA_DR_PRODM
-============================================================
-
 The United States Department of Agriculture Production, Dairy Products Summary Monthly
 
 ## File Collection
