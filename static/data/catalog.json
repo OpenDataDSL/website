@@ -9,7 +9,7 @@
         "region": "UK/Global",
         "start": "2011",
         "frequency": "DAILY",
-        "link": "/docs/dataset/BOE_FX",
+        "link": "/docs/data/fx#BOE_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -22,7 +22,7 @@
         "region": "Europe/Global",
         "start": "2011",
         "frequency": "DAILY",
-        "link":"/docs/dataset/ECB_FX",
+        "link":"/docs/data/fx#ECB_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -35,7 +35,7 @@
         "region": "Malaysia",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/BNM_FX",
+        "link":"/docs/data/fx#BNM_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -48,7 +48,7 @@
         "region": "New Zealand",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/BNZ_FX",
+        "link":"/docs/data/fx#BNZ_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -61,7 +61,7 @@
         "region": "Canada",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/BOC_FX",
+        "link":"/docs/data/fx#BOC_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -74,7 +74,7 @@
         "region": "China",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/BOCH_FX",
+        "link":"/docs/data/fx#BOCH_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -87,7 +87,7 @@
         "region": "South Africa",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/SARB_FX",
+        "link":"/docs/data/fx#SARB_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -100,7 +100,7 @@
         "region": "India",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/RBI_FX",
+        "link":"/docs/data/fx#RBI_FX",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -113,7 +113,7 @@
         "region": "Pakistan",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/SBP_FX",
+        "link":"/docs/data/fx#sbp_fx",
         "tags": ["Financial", "Foreign Exchange"]
     },
     {
@@ -126,7 +126,7 @@
         "region": "Europe/Global",
         "start": "2011",
         "frequency": "DAILY",
-        "link":"/docs/dataset/ECB_INTEREST",
+        "link":"/docs/data/ir#str",
         "tags": ["Financial", "Interest Rates"]
     },
     {
@@ -139,7 +139,7 @@
         "region": "USA",
         "start": "2021",
         "frequency": "BUSINESS",
-        "link":"/docs/dataset/EFFR",
+        "link":"/docs/data/ir#effr",
         "tags": ["Financial",  "Interest Rates"]
     },
     {
@@ -152,7 +152,7 @@
         "region": "United Kingdom",
         "start": "2021",
         "frequency": "BUSINESS",
-        "link":"/docs/dataset/SONIA",
+        "link":"/docs/data/ir#sonia",
         "tags": ["Financial",  "Interest Rates"]
     },
     {
@@ -165,7 +165,7 @@
         "region": "Europe",
         "start": "2021",
         "frequency": "BUSINESS",
-        "link":"/docs/dataset/EMMI",
+        "link":"/docs/data/ir#ecb_ir",
         "tags": ["Financial",  "Interest Rates"]
     },
     {
@@ -178,7 +178,7 @@
         "region": "Europe",
         "start": "2021",
         "frequency": "BUSINESS",
-        "link":"/docs/dataset/EONIA",
+        "link":"/docs/data/ir#ecb_ir",
         "tags": ["Financial",  "Interest Rates"]
     },
     {
@@ -191,7 +191,7 @@
         "region": "Netherlands",
         "start": "2020",
         "frequency": "WEEKLY",
-        "link": "/docs/dataset/ZUIVELNL_DR_PR",
+        "link": "/docs/company/ZUIVELNL",
         "tags": ["Agriculture", "Dairy Products"]
     },
     {
@@ -204,7 +204,7 @@
         "region": "United Kingdom",
         "start": "2000",
         "frequency": "MONTHLY",
-        "link":"/docs/dataset/AHDB",
+        "link":"/docs/company/AHDB",
         "tags": ["Commodity", "Dairy Products"]
     },
     {
@@ -217,7 +217,7 @@
         "region": "New Zealand",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/CLAL_DR_PR",
+        "link":"/docs/company/CLAL",
         "tags": ["Commodity", "Dairy Products"]
     },
     {
@@ -230,7 +230,7 @@
         "region": "China",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/DCE_AG_FUT",
+        "link":"/docs/company/DCE",
         "tags": ["Commodity", "Agriculture"]
     },
     {
@@ -243,7 +243,7 @@
         "region": "Europe",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/EEX_AG_INDW",
+        "link":"/docs/company/EEX",
         "tags": ["Commodity", "Agriculture"]
     },
     {
@@ -256,7 +256,7 @@
         "region": "Europe",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/EURONEXT",
+        "link":"/docs/company/EURONEXT",
         "tags": ["Commodity", "Agriculture"]
     },
     {
@@ -269,7 +269,7 @@
         "region": "Argentina",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/MATBA",
+        "link":"/docs/company/MATBA",
         "tags": ["Commodity", "Agriculture"]
     },
     {
@@ -282,7 +282,7 @@
         "region": "Europe",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/EUROSTAT",
+        "link":"/docs/company/EUROSTAT",
         "tags": ["Commodity", "Agriculture"]
     },
     {
@@ -295,7 +295,7 @@
         "region": "Brazil",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/UNICA",
+        "link":"/docs/company/UNICA",
         "tags": ["Commodity", "Agriculture"]
     },
     {
@@ -308,7 +308,7 @@
         "region": "USA",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/USDA",
+        "link":"/docs/company/USDA",
         "tags": ["Commodity", "Agriculture"]
     },
     {
@@ -321,7 +321,7 @@
         "region": "Hungary",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/CEEGEX_NG_DAM",
+        "link":"/docs/company/CEEGEX",
         "tags": ["Commodity", "Natural Gas"]
     },
     {
@@ -334,7 +334,7 @@
         "region": "USA",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/EIA_NG_PR",
+        "link":"/docs/company/EIA",
         "tags": ["Commodity", "Natural Gas"]
     },
     {
@@ -347,7 +347,7 @@
         "region": "Hungary",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/HUDEX",
+        "link":"/docs/company/HUDEX",
         "tags": ["Commodity", "Natural Gas"]
     },
     {
@@ -360,7 +360,7 @@
         "region": "Hungary",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/HUPX",
+        "link":"/docs/company/HUPX",
         "tags": ["Commodity", "Power"]
     },
     {
@@ -373,7 +373,7 @@
         "region": "Italy",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/IPEX",
+        "link":"/docs/company/IPEX",
         "tags": ["Commodity", "Power"]
     },
     {
@@ -386,7 +386,7 @@
         "region": "Portugal",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/OMIP",
+        "link":"/docs/company/OMIP",
         "tags": ["Commodity", "Power"]
     },
     {
@@ -399,7 +399,7 @@
         "region": "Spain",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/OMIP",
+        "link":"/docs/company/OMIP",
         "tags": ["Commodity", "Natural Gas"]
     },
     {
@@ -412,7 +412,7 @@
         "region": "Europe",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/PXE",
+        "link":"/docs/company/PXE",
         "tags": ["Commodity", "Power"]
     },
     {
@@ -425,7 +425,7 @@
         "region": "Europe",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/PXE",
+        "link":"/docs/company/PXE",
         "tags": ["Commodity", "Natural Gas"]
     },
     {
@@ -438,7 +438,7 @@
         "region": "Poland",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/TGE",
+        "link":"/docs/company/TGE",
         "tags": ["Commodity", "Power"]
     },
     {
@@ -451,7 +451,7 @@
         "region": "Poland",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/TGE",
+        "link":"/docs/company/TGE",
         "tags": ["Commodity", "Natural Gas"]
     },
     {
@@ -464,7 +464,7 @@
         "region": "Italy",
         "start": "2021",
         "frequency": "DAILY",
-        "link":"/docs/dataset/GME",
+        "link":"/docs/company/GME",
         "tags": ["Commodity", "Natural Gas"]
     },
     {
@@ -490,7 +490,7 @@
         "region": "Europe",
         "start": "2011",
         "frequency": "DAILY",
-        "link":"/docs/dataset/PLATTS_EB",
+        "link":"/docs/company/PLATTS",
         "tags": ["Commodity", "Oil"]
     }
 ]
