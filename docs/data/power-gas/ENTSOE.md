@@ -33,6 +33,14 @@ import GnGenunit from './_ENTSOE_GN_GENUNIT.md';
 import TlAct from './_ENTSOE_TL_ACT.md';
 import TlFc from './_ENTSOE_TL_FC.md';
 
+## Load
+### ENTSOE_TL_FC
+<details>
+<summary>Day-ahead Forecast of the Total Load</summary>
+<TlFc />
+</details>
+
+## Generation
 ### ENTSOE_GN_GENFC
 <details>
 <summary>Generation Forecast - Day Ahead</summary>
@@ -51,9 +59,8 @@ import TlFc from './_ENTSOE_TL_FC.md';
 <TlAct />
 </details>
 
-### ENTSOE_TL_FC
-<details>
-<summary>Day-ahead Forecast of the Total Load</summary>
-<TlFc />
-</details>
+## Transmission
 
+## Balancing
+
+## Outages
