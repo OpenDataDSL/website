@@ -15,7 +15,7 @@ The schedule for collecting the file is 16:00 GMT on Hungarian business days.
 
 ### Sample File
 
-Sample file [sample file](pathname://static/file-samples/dam_weekly_data_export_HUPX_26-07-2021.xlsx)
+[sample file for HUPEX Power Day-ahead](pathname://../../static/file-samples/dam_weekly_data_export_HUPX_26-07-2021.xlsx)
 
 ## Type
 

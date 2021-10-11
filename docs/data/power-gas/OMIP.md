@@ -8,7 +8,7 @@ slug: /company/OMIP
 ---
 OMIP
 ============================================================
-OMIP 
+Iberian Electricity Market 
 
 ## Overview
 

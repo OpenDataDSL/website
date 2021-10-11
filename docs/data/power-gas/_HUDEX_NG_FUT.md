@@ -10,9 +10,7 @@ The schedule for collecting the file is 20:00GMT on Hungarian business days.
 
 ### Sample File
 
-Sample file [sample file](pathname://static/file-samples/gas_daily_data_export_22_07_2021.xlsx)
-
-[Sample file for HUDEX Gas Futures](pathname://static/file-samples/daily_market_data_export.xlsx)
+[Sample file for HUDEX Gas Futures](pathname://../../static/file-samples/gas_daily_data_export_22_07_2021.xlsx)
 
 ## Type
 

@@ -10,7 +10,7 @@ The end of day file is retrieved between 08:00 and 09:00 GMT on following Czech 
 
 ### Sample File
 
-Sample file [sample file](pathname://static/file-samples/20210716_PXE_Results.csv)
+[sample file for PXE power futures](pathname://../../static/file-samples/20210716_PXE_Results.csv) 
 
 ### Type
 

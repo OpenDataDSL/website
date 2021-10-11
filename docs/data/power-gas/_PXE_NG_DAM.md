@@ -14,7 +14,7 @@ The updates are collected around 23:00GMT daily.
 
 ### Sample File
 
-Sample file [sample file](pathname://static/file-samples/CZ_Day_Ahead_20210813.csv)
+[sample file for PXE CZ Gas Day-ahead](pathname://../../static/file-samples/CZ_Day_Ahead_20210813.csv)
 
 ### Type
 

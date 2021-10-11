@@ -1,7 +1,7 @@
 ---
 slug: /company/PXE
 tags:
-  - omip
+  - pxe
   - power
   - gas
   - czech
@@ -20,7 +20,7 @@ Power Exchange Central Europe (PXE) is the Prague-based centre of competence for
 
 PXE was established on 8 January 2007 as Energetická burza Praha and, since then, offered services on the electricity markets, namely providing anonymous trading in and settlement of standardised power products.
 
-In 2016, PXE became part of [EEX Grou](http://www.eex-group.com/)p, The power derivatives operated by PXE are run on the EEX trading system. Thus, the EEX trading participants are able to trade Czech, Hungarian, Slovakian, Romanian and Polish power futures.
+In 2016, PXE became part of [EEX Group](http://www.eex-group.com/), The power derivatives operated by PXE are run on the EEX trading system. Thus, the EEX trading participants are able to trade Czech, Hungarian, Slovakian, Romanian and Polish power futures.
 alongside with contracts for 11 power markets in Central Western Europe.
 
 website: https://www.pxe.cz/
