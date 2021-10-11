@@ -1,59 +1,45 @@
-### Detailed description
+## File Collection
 
-Day-ahead forecast of the total load per market time unit.
-
-A day-ahead forecast of the total load per market time unit per bidding zone at the latest two hours before the gate closure time of the day-ahead market in the bidding zone or at D-1, 12:00 in local time zone of the bidding zone at the latest when gate closure time does not apply. The day-ahead forecast has to be updated, if there are major changes.
+The update file is collected from ENTSO-E website: https://transparency.entsoe.eu/api?securityToken=64e75f6a-4e07-4c88-b4ef-be8d2162a09b&documentType=A65&processType=A01&outBiddingZone_Domain=10YNL----------L&periodStart=202011182300&periodEnd=202011192300 
 
 ### Schedule
 
-The vendor update file is collected and processed at 23:45 hours UTC on daily basis.
+The schedule for collecting the file is between 23:00 and 01:00 GMT daily.
 
-### Dataset Details
+### Sample File
 
-The dataset details for this feed is given below:
+[Sample file](pathname:///file-samples/ENTSOE_EL_TL_DA.xml)
 
-|||
+## Type
+
+The dataset is stored as #Electricity
+
+### Data ID and Name
+
+Example data id and name:
+
+|**Data Id**|**Name**|
 |-|-|
-|Dataset Code|ENTSOE_TL|
-|Dataset Name|ENTSO Power Total Load|
-|Dataset Type|Energy Fundamentals|
-
-### Data Id, Name and Profiles
-
-The Data Id, Name Profile convention used by OpenDataDSL for Day-ahead forecast of the total load is outlined below:
-
-|**Data ID**|**Data Id Name**|**Profile**|**Frequency**|**Unit**|
-|-|-|-|-|-|
-|ENTSO_EL.A65.A01.10YNL_L.PT15M|ENTSO Electricity System Total Load Day Ahead Netherlands, TenneT NL BZ / CA/ MBA 15Minutely|VOL|15Minutely|MW|
-|ENTSO_EL.A65.A16.10YNL_L.PT15M|ENTSO Electricity System Total Load Realised Netherlands, TenneT NL BZ / CA/ MBA 15Minutely|VOL|15Minutely|MW|
-
-### Holiday Calendar
-
-The data doesn’t follow any holiday calendar and it is expected to load on daily basis.
-
-### Timezone
-
-The data is extracted in UTC and loaded to the server in UTC. The DayLight Saving treatment is not required in this case.
+|ENTSO_EL.A65.A01.10YNL_L.PT15M|ENTSO Electricity System Total Load Day Ahead Netherlands, TenneT NL BZ / CA/ MBA 15Minutely|
 
 ### Attributes
 
-The attributes hold below values values for this dataset:
-
-|**Name**|**Sample Values**|
+|Name|Value|
 |-|-|
-|Source|ENTSO-E|
-|SourceName|European Network of Transmission System Operators for Electricity|
-|Id|ENTSO\_EL.A65.A01.10YNL\_L.PT15M|
-|Name|ENTSO Electricity System Total Load Day Ahead Netherlands,TenneT NL BZ / CA/ MBA 15Minutely|
-|Description|ENTSO Electricity System Total Load Day Ahead Netherlands,TenneT NL BZ / CA/ MBA 15Minutely|
-|Dataset|ENTSOE_TL|
-|Dataset Name|ENTSO Power Total Load|
+|Source|ENTSOE|
+|Source Name|European Network of Transmission System Operators for Electricity|
+|Dataset|ENTSOE_TL_FC_DA|
+|Dataset Name|European Network of Transmission System Operators - Total Load Actual and Forecast - Day Ahead|
 |Dataset Type|Energy Fundamentals|
-|class|Day Ahead|
+|Currency|EUR|
 |Unit|MW|
-|UnitName|Megawatt|
-|Market|European Electricity|
-|Product|System Total Load Day Ahead|
-|Location|Netherlands TenneT|
-|Frequency|15Minutely|
-|Timezone|UTC|
+|Market|Power|
+|Commodity|Fundametals|
+|Location|various|
+|Product|Power Load|
+|Region|Europe|
+|Quote Calendar|QuarterHourly|
+
+### Licensing
+
+Data is freely available in the vendor website and can be used by clients without permissions.
