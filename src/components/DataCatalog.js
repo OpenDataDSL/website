@@ -66,14 +66,14 @@ function Block(props) {
 
       return (
         <Accordion>
-              {Object.keys(entries).map((key, index) =>
+              {Object.keys(entries).sort().map((key, index) =>
                  (
                  <Accordion.Item eventKey={key}>
                     <Accordion.Header>{key}</Accordion.Header>
                     <Accordion.Body className="w-100">
                         <table>
                             <tbody>
-                                {entries[key].map((props, idx) => (
+                                {entries[key].sort((a,b) => (a.provider > b.provider) ? 1 : ((b.provider > a.provider) ? -1 : 0)).map((props, idx) => (
                                     <TableRow key={idx} props={props} />
                                 ))}
                             </tbody>
@@ -103,7 +103,7 @@ function TableRow(props) {
           <FontAwesomeIcon icon={faCalendarDay} /> {props.props.frequency}<br />
           <FontAwesomeIcon icon={faMoneyBill} /> {props.props.type}
         </td>
-        <td>
+        <td style={{backgroundColor: "White"}}>
             <Logo logo={props.props.logo} />
         </td>
     </tr>
