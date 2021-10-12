@@ -251,11 +251,9 @@ This will send a subscription record to the queue, which will look something lik
 
 Here we can decide which consumer(s) we want to create for our subscription
 
-* [Feed SQL Server Database](#feed-sql-server-database)
+* [Feed SQL Server Database](/docs/tutorials/gettingstarted1sql)
 * [Feed ServiceBus](#feed-servicebus)
 * [Feed BI Reporting Tool](#feed-bi-reporting-tool)
-
-### Feed SQL Server Database
 
 ### Feed ServiceBus
 
