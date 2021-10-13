@@ -28,12 +28,12 @@ The diagram below explains the areas that this tutorial covers.
 
 We are going to feed the data file to your choice of 3 different consumers:
 * A C# application which will feed the data into a local SQL Server Database
-* A Java application that uses [Camel](https://camel.apache.org/) Enterprise Integration Pattern (EIP) which will feed into a local service bus
+* A Java application that uses [Camel](https://camel.apache.org/) Enterprise Integration Pattern (EIP) which will feed into a local Kafka topic
 * A Cloud BI Reporting tool
 
 :::info
-In our tutorial, only one consumer will work at a time. You could do this, however this tutorial is focussed on 
-implementing a specific consumer for a subscription.  
+In our tutorial, only one consumer will work at a time. 
+You can implement all the consumers if you like by configuring addition queue targets to send the subscriptions to.  
 ::: 
 
 ## Step 1 - Subscribing to a data feed
@@ -249,12 +249,10 @@ This will send a subscription record to the queue, which will look something lik
 
 ## Step 2 - Create our consumer
 
-Here we can decide which consumer(s) we want to create for our subscription
+Here we need to decide which consumer(s) we want to create for our subscription
 
 * [Feed SQL Server Database](/docs/tutorials/gettingstarted1sql)
-* [Feed ServiceBus](#feed-servicebus)
+* [Feed ServiceBus](/docs/tutorials/gettingstarted1camel)
 * [Feed BI Reporting Tool](#feed-bi-reporting-tool)
-
-### Feed ServiceBus
 
 ### Feed BI Reporting Tool

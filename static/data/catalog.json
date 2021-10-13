@@ -481,16 +481,16 @@
         "tags": ["Commodity", "Power"]
     },
     {
-        "type": "BYOL",
-        "provider": "Platts",
-        "providerType":"3rd Party Provider",
-        "logo": "platts.png",
-        "dataset": "European Bulk (EB)",
-        "text": "S&P Global/Platts",
-        "region": "Europe",
-        "start": "2011",
-        "frequency": "DAILY",
-        "link":"/docs/company/PLATTS",
-        "tags": ["Commodity", "Oil"]
+        "type": "FREE",
+        "provider": "DataHub.io",
+        "providerType":"Data Aggregator",
+        "logo": "datahubio.svg",
+        "dataset": "GeoJSON Country Polygons",
+        "text": "Geojson polygons for all the world’s countries",
+        "region": "Global",
+        "start": "2018",
+        "frequency": "N/A",
+        "link":"/docs/company/DATAHUBIO",
+        "tags": ["Geospatial"]
     }
 ]
