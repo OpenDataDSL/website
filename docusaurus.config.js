@@ -64,6 +64,22 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/opendatadsl',
             },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/opendatadsl'
+            },
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/OpenDataDSL'
+            },
+            {
+              label: 'Pinterest',
+              href: 'https://www.pinterest.co.uk/OpenDataDSL'
+            },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/opendatadsl'
+            }
           ],
         },
         {
