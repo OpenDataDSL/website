@@ -6,7 +6,7 @@ Focus On What Matters!
 ==========================
 import {MoreInfo} from '/src/components/Discovery.js';
 
-![](/img/focus.jpg)
+![](/img/home/focus-on-data.png)
 
 ## What Is Important?
 In our world, timely accurate data is everything. Our processes ensure that data is collected and checked as soon as

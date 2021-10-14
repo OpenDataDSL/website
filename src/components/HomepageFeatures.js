@@ -5,6 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const AboutList = [
   {
     title: 'Our Story',
+    jpg: require('../../static/img/home/our-story.png').default,
     description: (
       <>
         After many years of building and using data management systems, 
@@ -15,6 +16,7 @@ const AboutList = [
   },
   {
     title: 'Our Vision',
+    jpg: require('../../static/img/home/our-vision.png').default,
     description: (
       <>
         Our vision is to make high quality, flexible and low cost data modelling, 
@@ -24,6 +26,7 @@ const AboutList = [
   },
   {
     title: 'Our Technology',
+    jpg: require('../../static/img/home/our-technology.png').default,
     description: (
       <>
         As a cloud SAAS company, we leverage elastic scaling and serverless technology 
@@ -36,7 +39,7 @@ const AboutList = [
 const FeatureList = [
   {
     title: 'Easy to Use',
-    jpg: require('../../static/img/easy_to_use.jpg').default,
+    jpg: require('../../static/img/home/easy-to-use.png').default,
     description: (
       <>
         OpenDataDSL was designed from the ground up to be a Software As A Service (SAAS) 
@@ -47,7 +50,7 @@ const FeatureList = [
   },
   {
     title: 'Make It Yours',
-    jpg: require('../../static/img/customise.jpg').default,
+    jpg: require('../../static/img/home/make-it-yours.png').default,
     description: (
       <>
         Build applications using our APIs and customise the portal with your own domain, logo and colours to
@@ -58,7 +61,7 @@ const FeatureList = [
   },
   {
     title: 'Big Savings',
-    jpg: require('../../static/img/save_money.jpg').default,
+    jpg: require('../../static/img/home/big-savings.png').default,
     description: (
       <>
         In OpenDataDSL you only pay for what you use with a generous FREE monthly allowance.
@@ -68,7 +71,7 @@ const FeatureList = [
   },
   {
     title: 'Focus on What Matters',
-    jpg: require('../../static/img/focus.jpg').default,
+    jpg: require('../../static/img/home/focus-on-data.png').default,
     description: (
       <>
         OpenDataDSL lets you focus on your data whilst we take care
@@ -79,7 +82,7 @@ const FeatureList = [
   },
   {
     title: 'Any Data Anywhere',
-    jpg: require('../../static/img/any_data.jpg').default,
+    jpg: require('../../static/img/home/data-anywhere.png').default,
     description: (
       <>
         Create 'real-world' data structures, add geo-tagging and use
@@ -90,7 +93,7 @@ const FeatureList = [
   },
   {
     title: 'Secure',
-    jpg: require('../../static/img/secure.jpg').default,
+    jpg: require('../../static/img/home/secure.png').default,
     description: (
       <>
         Use your own Azure Active Directory to authenticate your users and

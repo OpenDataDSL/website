@@ -3,3 +3,16 @@
     flex-flow: row wrap;
     justify-content: space-around;
  }
+
+.s_block {
+    width: 16.5rem;
+    border-color: #199fda;
+}
+
+.s_header {
+    border-color: #199fda;
+    background: #199fda;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}

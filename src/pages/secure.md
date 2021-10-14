@@ -6,7 +6,7 @@ Secure!
 ==========================
 import {MoreInfo} from '/src/components/Discovery.js';
 
-![](/img/secure.jpg)
+![](/img/home/secure.png)
 
 ## Security You Already Use
 OpenDataDSL is secured using Azure Active Directory - the gold standard for identity management, authentication and access control.

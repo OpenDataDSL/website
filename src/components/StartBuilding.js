@@ -8,7 +8,7 @@ export default function StartBuilding(props) {
             <a href="/SignUp">
                 <Card style={{width:"18rem"}}>
                         <Card.Body>
-                          <img src="/img/building-blocks.jpg" />
+                          <img src="/img/home/enhancements.png" />
                           <Card.Title>Start building for FREE today</Card.Title>
                           <Card.Text>No credit card required</Card.Text>
                         </Card.Body>

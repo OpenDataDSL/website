@@ -6,7 +6,7 @@ Customise OpenDataDSL to make it your own
 ==========================
 import {MoreInfo} from '/src/components/Discovery.js';
 
-![](/img/customise.jpg)
+![](/img/home/make-it-yours.png)
 
 ## Customise
 We want you to be as passionate about our software as we are, so we have incorporated features that will help you to 
