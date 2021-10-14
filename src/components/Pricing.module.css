@@ -1,0 +1,105 @@
+thead {
+    background: #99c5f1;
+    border-color: #99c5f1;
+    border-width: 2px
+}
+
+tbody {
+    border-color: #99c5f1;
+    border-width: 2px
+}
+
+table th {
+    border-color: #99c5f1;
+}
+
+table td {
+    border-color: white;
+}
+
+.blue {
+    color: #046fb7;
+    font-weight: bold;
+}
+
+.price {
+    color: #046fb7;
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr:nth-child(even) {background-color: white;}
+
+.thincell {
+    padding: 1px 1px 1px 16px;
+    font-family: 'Courier New', monospace;
+    font-size: 80%;
+}
+
+thead.BASIC {
+    background: #046fb7;
+    border-color: #046fb7;
+    border-width: 2px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+    color: white;
+}
+table th.BASIC {
+    border-color: #046fb7;
+}
+tbody.BASIC {
+    border-color: #046fb7;
+    border-width: 2px
+}
+
+thead.BRONZE {
+    background: #896614;
+    border-color: #896614;
+    border-width: 2px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+    color: white;
+}
+table th.BRONZE {
+    border-color: #896614;
+}
+tbody.BRONZE {
+    border-color: #896614;
+    border-width: 2px
+}
+
+thead.SILVER {
+    background: #99aab1;
+    border-color: #99aab1;
+    border-width: 2px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+    color: white;
+}
+table th.SILVER {
+    border-color: #99aab1;
+}
+tbody.SILVER {
+    border-color: #99aab1;
+    border-width: 2px
+}
+
+thead.GOLD {
+    background: #dedd23;
+    border-color: #dedd23;
+    border-width: 2px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+    color: white;
+}
+table th.GOLD {
+    border-color: #dedd23;
+}
+tbody.GOLD {
+    border-color: #dedd23;
+    border-width: 2px
+}

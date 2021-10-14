@@ -1,3 +1,5 @@
+import { BasicPricingTable, SupportLevels } from '/src/components/Pricing.js';
+
 Pricing Information
 ===================
 
@@ -24,7 +26,7 @@ Basic Pricing Table
 
 The following table represents the pricing structure of the fundamental pricing items at the current date of 1st July 2021, all prices are in GBP and represent the price per unit or part thereof:
 
-![](/img/basic-pricing-table.jpg)
+<BasicPricingTable />
 
 ## Detailed Pricing Information
 
@@ -52,7 +54,7 @@ This metric represents every fulfilled subscription.
 
 We offer 4 support levels which you are free to choose based on your specific needs.
 
-![](/img/support-pricing-table.jpg)
+<SupportLevels />
 
 ## Additional Service Pricing
 
