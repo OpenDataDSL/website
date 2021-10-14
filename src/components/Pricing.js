@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Pricing.module.css';
+import { Button } from 'react-bootstrap';
 
 var prices = [
     { name: "Storage", units: "GB/Hour", free: "0.25", price: 0.01 },
@@ -10,10 +11,10 @@ var prices = [
 ];
 
 var levels = [
-    { name: "BASIC", price: "FREE", issues: "Web Only", l1: "24 hours", l2: "24 hours", l3: "48 hours", l4: "72 hours", hours: "M-F 8am to 6pm UK time"},
-    { name: "BRONZE", price: "£25/month", issues: "Web Only", l1: "8 hours", l2: "10 hours", l3: "12 hours", l4: "24 hours", hours: "M-F 8am to 6pm UK time"},
-    { name: "SILVER", price: "£100/month", issues: "Web Only", l1: "2 hours", l2: "4 hours", l3: "8 hours", l4: "24 hours", hours: "M-F 8am to 6pm UK time"},
-    { name: "GOLD", price: "£ call", issues: "Web/account manager", l1: "30 mins", l2: "1 hour", l3: "4 hours", l4: "24 hours", hours: "24 hours weekdays UK time"}
+    { name: "BASIC", price: "FREE", issues: "Web Only", l1: "24 hours", l2: "24 hours", l3: "48 hours", l4: "72 hours", hours: "M-F 8am to 6pm UK"},
+    { name: "BRONZE", price: "£25/month", issues: "Web Only", l1: "8 hours", l2: "10 hours", l3: "12 hours", l4: "24 hours", hours: "M-F 8am to 6pm UK"},
+    { name: "SILVER", price: "£100/month", issues: "Web Only", l1: "2 hours", l2: "4 hours", l3: "8 hours", l4: "24 hours", hours: "M-F 8am to 6pm UK"},
+    { name: "GOLD", price: "£ request", issues: "Web/account manager", l1: "30 mins", l2: "1 hour", l3: "4 hours", l4: "24 hours", hours: "24 x 5 UK"}
 ];
 
 export function BasicPricingTable() {
@@ -53,15 +54,16 @@ export function SupportLevels() {
                         </thead>
                         <tbody className={styles[props.name]}>
                             <tr><td className={styles.price}>{props.price}</td></tr>
-                            <tr><td><b>Issue Logging:</b></td></tr>
-                            <tr><td className={styles.thincell}><span className={styles.blue}>{props.issues}</span></td></tr>
-                            <tr><td><b>Response times:</b></td></tr>
+                            <tr><td className={styles.section_header}><b>Issue Logging</b></td></tr>
+                            <tr><td className={styles.thincell_c}><span className={styles.blue}>{props.issues}</span></td></tr>
+                            <tr><td className={styles.section_header}><b>Response times</b></td></tr>
                             <tr><td className={styles.thincell}>Blocker&nbsp; - <span className={styles.blue}>{props.l1}</span></td></tr>
                             <tr><td className={styles.thincell}>Critical - <span className={styles.blue}>{props.l2}</span></td></tr>
                             <tr><td className={styles.thincell}>Major&nbsp;&nbsp;&nbsp; - <span className={styles.blue}>{props.l3}</span></td></tr>
                             <tr><td className={styles.thincell}>Minor&nbsp;&nbsp;&nbsp; - <span className={styles.blue}>{props.l4}</span></td></tr>
-                            <tr><td className={styles.blue}><b>Support Hours</b></td></tr>
-                            <tr><td className={styles.thincell}>{props.hours}</td></tr>
+                            <tr><td className={styles.section_header}><b>Support Hours</b></td></tr>
+                            <tr><td className={styles.thincell_c}>{props.hours}</td></tr>
+                            <tr><td className={styles.section_header}><Button className={styles.signupbutton} href="/SignUp">Sign Up</Button></td></tr>
                         </tbody>
                     </table>
               ))}
