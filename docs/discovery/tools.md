@@ -1,5 +1,6 @@
 ---
 title: Tools
+hide_title: true
 sidebar_position: 8
 tags:
   - discovery
@@ -10,7 +11,7 @@ import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
 import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide gives an overview of the applications that OpenDataDSL has to offer including some OpenSource tools that could help you find the inspiration for your data management experience." />
+<Discovery title="Tools" text="This discovery guide gives an overview of the applications that OpenDataDSL has to offer including some OpenSource tools that could help you find the inspiration for your data management experience." />
 
 ## Portal Overview
 The OpenDataDSL [Web Portal](https://portal.opendatadsl.com) is the place to visit to create and manage your account and offers an ever-expanding wealth of functionality such as:

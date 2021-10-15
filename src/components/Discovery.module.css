@@ -30,28 +30,3 @@
         padding-bottom: 10px;
     }
 }
-
-.sectionskip2 {
-  padding: 1rem 0;
-}
-.nomargin {
-}
-
-.rowheader {
-    background: #046fb7;
-    border-color: #046fb7;
-    border-width: 2px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 150%;
-    color: white;
-}
-.rowinfo {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 100%;
-    color: black;
-}
-.rowimage {
-    text-align: center;
-}

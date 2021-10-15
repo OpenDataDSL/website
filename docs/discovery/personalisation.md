@@ -1,5 +1,6 @@
 ---
 title: Personalisation
+hide_title: true
 sidebar_position: 4
 tags:
   - discovery
@@ -12,7 +13,7 @@ import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
 import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide gives you an overview about how you can personalize your users' experience with a custom domain, company logo and colour scheme." />
+<Discovery title="Personalisation" text="This discovery guide gives you an overview about how you can personalize your users' experience with a custom domain, company logo and colour scheme." />
 
 ## What is Personalisation
 OpenDataDSL is designed from the ground up to allow you to `white label` all the user applications, tools and documentation in order that you can present them to your own enterprise users as your own product.

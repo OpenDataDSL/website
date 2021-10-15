@@ -1,5 +1,6 @@
 ---
 title: Subscribing To Data
+hide_title: true
 sidebar_position: 3
 tags:
   - discovery
@@ -11,7 +12,7 @@ import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
 import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide gives information on how to integrate both the public data and your proprietary data into other cloud systems or your local database infrastructure." />
+<Discovery title="Subscribing to Data" text="This discovery guide gives information on how to integrate both the public data and your proprietary data into other cloud systems or your local database infrastructure." />
 
 ## Introduction to Queues
 OpenDataDSL queues are used to move data between between applications in a robust and orderly fashion.

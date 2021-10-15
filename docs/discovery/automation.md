@@ -1,5 +1,6 @@
 ---
 title: Automation
+hide_title: true
 sidebar_position: 5
 tags:
   - discovery
@@ -10,7 +11,7 @@ import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
 import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide is an overview on how you can build scripts and workflows to automate tasks and use processes to configure and trigger them." />
+<Discovery title="Automation" text="This discovery guide is an overview on how you can build scripts and workflows to automate tasks and use processes to configure and trigger them." />
 
 ## Scripts
 Scripts are blocks of OpenDataDSL code that are stored in the cloud and can be run either locally or in the cloud.

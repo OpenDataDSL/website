@@ -70,3 +70,16 @@ export function SupportLevels() {
         </div>
     );
 }
+
+export function PricingHeader(props) {
+    return (
+        <div className={styles.header}>
+            <div className={styles.textheader}>
+                <span className={styles.titleline}><span className={styles.bluetitle}>Pricing</span> Information</span>
+                <br />
+                <span className={styles.tagline}>Everything you need to know about how OpenDataDSL is priced</span>
+            </div>
+            <div className={styles.sectionskip} />
+        </div>
+    );
+}

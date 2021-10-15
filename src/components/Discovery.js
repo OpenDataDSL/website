@@ -1,18 +1,5 @@
 import React from 'react';
-
-export function Support(props) {
-    return (
-        <div className="absolute flex top-0 w-full p-2 h-416 md:h-400 lg:h-424 xl:h-352 mt-136 bg-no-repeat bg-right-bottom bg-height-fit sm:opacity-100 opacity-80 z-10"
-            style={{backgroundImage:'url(/img/page-background.jpg)'}}>
-            <div className="absolute flex top-0 col-sm-5 p-2 h-416 md:h-400 lg:h-424 xl:h-352 mt-136 bg-no-repeat bg-right-bottom bg-height-fit sm:opacity-100 opacity-100 z-10">
-                <p style={{color:'yellow', fontSize:'200%', fontWeight: 'bolder'}}><span style={{color: '#199fda'}}>Support</span> Information</p>
-            </div>
-            <div className="absolute flex top-0 col-sm-5 p-2 h-416 md:h-400 lg:h-424 xl:h-352 mt-136 bg-no-repeat bg-right-bottom bg-height-fit sm:opacity-100 opacity-100 z-10">
-                <p style={{color:'white'}}>Do you have a question, found an issue or have an idea how we can make OpenDataDSL even better?</p>
-            </div>
-        </div>
-    );
-}
+import styles from './Discovery.module.css';
 
 export function FeatureInfo(props) {
     return (
@@ -29,6 +16,19 @@ export function FeatureInfo(props) {
 }
 
 export function Discovery(props) {
+    return (
+        <div className={styles.header}>
+            <div className={styles.textheader}>
+                <span className={styles.titleline}><span className={styles.bluetitle}>Discovery Guides</span> - {props.title}</span>
+                <br />
+                <span className={styles.tagline}>{props.text}</span>
+            </div>
+            <div className={styles.sectionskip} />
+        </div>
+    );
+}
+
+export function Discovery2(props) {
     return (
         <div className="absolute flex top-0 w-full p-2 h-416 md:h-400 lg:h-424 xl:h-352 mt-136 bg-no-repeat bg-right-bottom bg-height-fit sm:opacity-100 opacity-80 z-10"
             style={{backgroundImage:'url(/img/network.jpg)'}}>

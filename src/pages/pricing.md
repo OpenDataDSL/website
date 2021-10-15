@@ -1,9 +1,6 @@
-import { BasicPricingTable, SupportLevels } from '/src/components/Pricing.js';
+import { BasicPricingTable, SupportLevels, PricingHeader } from '/src/components/Pricing.js';
 
-Pricing Information
-===================
-
-Everything you need to know about how OpenDataDSL is priced
+<PricingHeader />
 
 ## Overview
 

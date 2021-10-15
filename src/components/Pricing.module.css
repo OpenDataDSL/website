@@ -1,3 +1,38 @@
+.header {
+    background-image: url(/img/page-background.jpg);
+    background-size: contain;
+}
+.textheader {
+    background: black;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.titleline {
+    color: white;
+    font-size: 250%;
+    font-weight: bolder;
+}
+.tagline {
+    color: white;
+    font-size: 100%;
+    font-weight: bolder;
+}
+.bluetitle {
+    color: #1d9bd7;
+}
+.sectionskip {
+  padding: 3rem 0;
+}
+.sectionskip2 {
+  padding: 1rem 0;
+}
+@media only screen and (max-width: 800px) {
+    .textheader {
+        background: black;
+        padding-left: 5px;
+        padding-bottom: 10px;
+    }
+}
 thead {
     background: #99c5f1;
     border-color: #99c5f1;
