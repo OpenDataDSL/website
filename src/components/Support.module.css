@@ -61,6 +61,7 @@ ul li::marker {
 .item {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 240px);
+  border: 1px solid #046fb7;
 }
 
 .container {
