@@ -33,24 +33,79 @@ The method you use to generate the token is determined by how the application or
 ### Unattended Login
 For an unattended login, you will need to create an application in Azure AD and generate a secret.
 The 3 pieces of information required are:
-* You company tenant id - {{tenantId}}
-* The id of the application in Azure AD - {{appId}}
-* The generated secret - {{secret}}
+* You company tenant id - {{tid}}
+* The id of the application in Azure AD - {{aid}}
+* The generated secret - {{sid}}
 
 <Tabs groupId="language">
 <TabItem value="rest" label="REST" default>
 
 ```yaml
-GET /{{tenantId}}/oauth2/v2.0/token
+GET /{{tid}}/oauth2/v2.0/token
 Host: login.microsoftonline.com
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=client_credentials&
-client_id={{appId}}&
-client_secret={{secret}}&
+client_id={{aid}}&
+client_secret={{sid}}&
 scope=api://opendatadsl/.default
 ```
 
 </TabItem>
+<TabItem value="python" label="Python">
+
+```python
+import requests
+
+tid = "enter your tenant id"
+aid = "enter your app id"
+sid = "enter your secret"
+
+url = "https://login.microsoftonline.com/{}/oauth2/v2.0/token".format(tid)
+payload = {
+    'grant_type':'client_credentials',
+    'client_id':'{}'.format(aid),
+    'client_secret':'{}'.format(sid),
+    'scope':'api://opendatadsl/.default'
+}
+headers = {'Content-Type':'application/x-www-form-urlencoded'}
+response = requests.get(url, data=payload, headers=headers)
+token = response.json()['access_token']
+```
+
+</TabItem>
 </Tabs>
+
+### Using the token
+Once you have the token, you need to add it into an Authorization header with the prefix Bearer:
+
+```js
+Authorization: Bearer {{token}}
+```
+
+#### Example request using the token
+This example request gets information about the Object service.
+
+<Tabs groupId="language">
+<TabItem value="rest" label="REST" default>
+
+```yaml
+GET https://api.opendatadsl.com/service/object
+Authorization: Bearer {{token}}
+```
+
+</TabItem>
+<TabItem value="python" label="Python">
+
+```python
+headers = {'Authorization': 'Bearer {}'.format(token)}
+response = requests.get('https://api.opendatadsl.com/service/object', headers=headers)
+print(response.json())
+```
+
+</TabItem>
+</Tabs>
+
+### Token expiry
+The token has a lifetime of around an hour, which means if you are running an application and making service requests which go beyond the token expiry time, you will need to request a new token.
 
