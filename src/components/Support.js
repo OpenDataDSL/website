@@ -18,6 +18,46 @@ export function SupportHeader(props) {
 
 export function SupportBody(props) {
 return (
+    <div className={styles.container}>
+        <div className={styles.item}>
+            <div className={styles.rowheader}>QUESTIONS</div>
+            <div className={styles.rowinfo}>I have a question about</div>
+            <div className={styles.rowimage}><img src="/img/home/questions.png" /></div>
+            <ul>
+                <li><a href="https://stackoverflow.com/questions/tagged/odsl" target="_blank" rel="noopener noreferrer">ODSL language</a></li>
+                <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Company information</a></li>
+                <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Pricing</a></li>
+                <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Invoices and payments</a></li>
+            </ul>
+        </div>
+        <div className={styles.item}>
+            <div className={styles.rowheader}>ISSUES</div>
+            <div className={styles.rowinfo}>I have found an issue with</div>
+            <div className={styles.rowimage}><img src="/img/home/issues.png" /></div>
+            <ul>
+                <li><a href="https://stackoverflow.com/questions/tagged/odsl" target="_blank" rel="noopener noreferrer">ODSL language and services</a></li>
+                <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Data</a></li>
+                <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Integration</a></li>
+                <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Documentation</a></li>
+            </ul>
+        </div>
+        <div className={styles.item}>
+            <div className={styles.rowheader}>ENHANCEMENTS</div>
+            <div className={styles.rowinfo}>I would like</div>
+            <div className={styles.rowimage}><img src="/img/home/enhancements.png" /></div>
+                <ul>
+                    <li><a href="https://stackoverflow.com/questions/tagged/odsl" target="_blank" rel="noopener noreferrer">A new product feature</a></li>
+                    <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Some specific data</a></li>
+                    <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">A new integration</a></li>
+                    <li><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Some training</a></li>
+                </ul>
+        </div>
+    </div>
+    );
+}
+
+export function SupportBody1(props) {
+return (
     <div className="container-fluid">
         <div className={styles.sectionskip2} />
         <div className="row">

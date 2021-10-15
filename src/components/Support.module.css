@@ -34,8 +34,6 @@
 .sectionskip2 {
   padding: 1rem 0;
 }
-.nomargin {
-}
 
 .rowheader {
     background: #046fb7;
@@ -55,3 +53,19 @@
 .rowimage {
     text-align: center;
 }
+ul li::marker {
+  font-size: 150%;
+  color: #046fb7;
+}
+
+.item {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 240px);
+}
+
+.container {
+    display: grid;
+    column-gap: 4px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
