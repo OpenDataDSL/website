@@ -35,7 +35,17 @@ We use Workflows extensively for our ETL processes to load all the public data.
 Processes are a configuration that you define in order to execute a workflow or script.
 
 Processes are usually triggered using a cron schedule and consist of some data that is used to configure the workflow or script that you want to run.
+
+### Process Execution Dashboard
 You can monitor your processes in the Web Portal and you can also subscribe to a real-time feed of process execution information in order to use an external process monitoring tool. 
+
+![](/videos/OpenDataDSL-Process.gif)
+
+### Process Timeline
+Using the **Process Timeline** functionality in the Web Portal, you can see see when processes are going to run according the schedules that have been set.
+You can also view your processes running in real-time.
+
+![](/videos/OpenDataDSL-ProcessTimeline.gif)
 
 <InDepth href="/docs/odsl/dm/workflow" />
 
