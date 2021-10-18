@@ -2,6 +2,7 @@
 id: home
 title: Documentation Home
 sidebar_position: 1
+hide_title: true
 tags:
   - product
   - home
@@ -12,6 +13,9 @@ import { faPlug, faUpload, faDownload, faUser, faGlobe, faLock, faWrench, faBrai
 import styles from '/src/components/DataCatalog.module.css';
 import StartBuilding from '/src/components/StartBuilding.js';
 import DiscoveryPages from '/docs/discovery/_discovery.md';
+import {Introduction} from '/src/components/Discovery.js';
+
+<Introduction text="Start your OpenDataDSL discovery here" />
 
 
 ## What is OpenDataDSL?

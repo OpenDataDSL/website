@@ -1,13 +1,16 @@
 ---
 sidebar_position: 1
 slug: /data/catalog
+hide_title: true
 ---
 import { DataCatalog2 } from '/src/components/DataCatalog'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay, faCalendarDay, faGlobe, faMoneyBill } from '@fortawesome/free-solid-svg-icons'
+import {DataCatalog} from '/src/components/Discovery.js';
+
+<DataCatalog text="This page contains a list of the data and loaders we have available now" />
 
 ## Complete Data List
-The following table represents the data and loaders we have available now.
 If you cannot find what you are looking for:
 * Check the current Data [Roadmap](RoadMap)
 * Log a data loader request in the [Portal](https://portal.opendatadsl.com)

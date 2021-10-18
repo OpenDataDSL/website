@@ -28,6 +28,45 @@ export function Discovery(props) {
     );
 }
 
+export function Introduction(props) {
+    return (
+        <div className={styles.header}>
+            <div className={styles.textheader}>
+                <span className={styles.titleline}><span className={styles.bluetitle}>Documentation</span></span>
+                <br />
+                <span className={styles.tagline}>{props.text}</span>
+            </div>
+            <div className={styles.sectionskip} />
+        </div>
+    );
+}
+
+export function TutorialRoot(props) {
+    return (
+        <div className={styles.header}>
+            <div className={styles.textheader}>
+                <span className={styles.titleline}><span className={styles.bluetitle}>Tutorials</span></span>
+                <br />
+                <span className={styles.tagline}>{props.text}</span>
+            </div>
+            <div className={styles.sectionskip} />
+        </div>
+    );
+}
+
+export function DataCatalog(props) {
+    return (
+        <div className={styles.header}>
+            <div className={styles.textheader}>
+                <span className={styles.titleline}><span className={styles.bluetitle}>Data Catalog</span></span>
+                <br />
+                <span className={styles.tagline}>{props.text}</span>
+            </div>
+            <div className={styles.sectionskip} />
+        </div>
+    );
+}
+
 export function Discovery2(props) {
     return (
         <div className="absolute flex top-0 w-full p-2 h-416 md:h-400 lg:h-424 xl:h-352 mt-136 bg-no-repeat bg-right-bottom bg-height-fit sm:opacity-100 opacity-80 z-10"
