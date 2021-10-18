@@ -31,7 +31,7 @@ It has specific constructs allowing you to:
 
 ### Why a dedicated programming language?
 OpenDataDSL is no ordinary language, it has been built from scratch to simplify all aspects of data management.
-When deciding to buy or build a data management system, you only have 2 choices for interaction with it:
+When deciding to buy or build a data management system, you generally only have 2 choices for interaction with it:
 * A User Interface (Web/Excel/Desktop/Mobile)
 * An API (REST/Web Services/Proprietary)
 
@@ -42,7 +42,7 @@ A dedicated programming language provides a 3rd option whose features rank betwe
 As you can see, it fills the gap in flexibility that user interfaces have and because it requires minimal programming skills and has a small learning curve,
 it makes it easier to use than a regular programming language.
 
-### What other feature are there?
+### What other features are there?
 As well as the above, here are a selection of additional features:
 
 #### APIs and SDKs
@@ -77,9 +77,9 @@ This section will introduce some scenarios and give you links in the documentati
 
 ### Subscribe to standard data feeds
 
-If you simply want to take advantage of our world-class data feeds to pull data into your own database, start by reading about subscriptions and the on-premise ODSL Feed Service.
+If you simply want to take advantage of our world-class data feeds to pull data into your own database, start by [reading about subscriptions](/docs/tutorials/gettingstarted1) and the on-premise ODSL Feed Service.
 
-![](/attachments/8978718/8913193.png)
+[![](/attachments/8978718/8913193.png)](/docs/tutorials/gettingstarted1)
 
 ### Add custom data feeds
 
@@ -93,7 +93,7 @@ If you want to regularly read some data into Excel or other applications, but do
 
 ![](/attachments/8978718/8945906.png)
 
-### Reading and writing data from/to ODSL Services
+### Reading and writing data
 
 If you want to also create your own proprietary database with your own generated data, you can start writing data via the API Services to your own private database (and multiple environments)
 
@@ -105,13 +105,13 @@ If you want to collect and store data from the internet in your own proprietary 
 
 ![](/attachments/8978718/8913213.png)
 
-### Adding custom scheduled and event-driven workflows
+### Adding custom  workflows
 
 If you want to create derived data, such as forward curves or machine-learning models, you can create workflows and either schedule them or trigger them from watchlists of data.
 
 ![](/attachments/8978718/8913225.png)
 
-### Feeding internal systems via message queues
+### Feeding internal systems using queues
 
 If you have other internal systems like risk systems or SAP that require any public of private data you have created, you can push this data to message queues which can then feed your internal systems.
 

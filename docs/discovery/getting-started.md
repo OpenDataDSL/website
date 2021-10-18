@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+hide_title: true
 sidebar_position: 1
 tags:
   - discovery
@@ -8,10 +9,8 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
-import QuickStart from '/docs/product/Tutorials/_quickstart.md';
-import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide is a brief introduction to the features and ecosystem of OpenDataDSL." />
+<Discovery title="Getting Started" text="This discovery guide is a brief introduction to the features and ecosystem of OpenDataDSL." />
 
 ## What is OpenDataDSL
 
@@ -48,10 +47,6 @@ Here are the top 5 reasons to choose OpenDataDSL
 * Secure - using your own IDP
 * High performance and scalability
 * DSL which simplifies data management
-
-## Discover More
-
-<DiscoveryPages />
 
 ---
 

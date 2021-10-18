@@ -6,7 +6,7 @@ Sign Up To Make Big Savings!
 ==========================
 import {MoreInfo} from '/src/components/Discovery.js';
 
-![](/img/save_money.jpg)
+![](/img/home/big-savings.png)
 
 ## How Does It Work?
 All the software that we provide is FREE to use, the only costs you will incur is when you use the Cloud Services, 

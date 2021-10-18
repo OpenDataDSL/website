@@ -1,5 +1,6 @@
 ---
 title: Performance and Scaling
+hide_title: true
 sidebar_position: 6
 tags:
   - discovery
@@ -11,7 +12,7 @@ import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth, MoreInfo} from '/src/components/Discovery.js';
 import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide gives an overview of the infrastructure that powers OpenDataDSL and the options available for you to optimise performance." />
+<Discovery title="Performance and Scaling" text="This discovery guide gives an overview of the infrastructure that powers OpenDataDSL and the options available for you to optimise performance." />
 
 ## Technical Overview
 All the OpenDataDSL services that you use run in the Microsoft Azure Cloud and are continually monitored and automatically optimised and scaled according to usage.

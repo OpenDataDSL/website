@@ -1,5 +1,6 @@
 ---
 title: Machine Learning and Rules
+hide_title: true
 sidebar_position: 9
 tags:
   - discovery
@@ -12,7 +13,7 @@ import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth, MoreInfo} from '/src/components/Discovery.js';
 import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide gives an overview of how you can use our machine learning features to categorise and forecast data or apply business rules for event-driven automation of tasks." />
+<Discovery title="Machine Learning and Rules" text="This discovery guide gives an overview of how you can use our machine learning features to categorise and forecast data or apply business rules for event-driven automation of tasks." />
 
 ## Machine Learning Overview 
 The machine learning module within OpenDataDSL makes it easy for you to create, teach, test and use models to categorise, discover and forecast your own data.

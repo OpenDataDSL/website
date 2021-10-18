@@ -8,7 +8,7 @@ use environmentname
 
 You can create multiple environments such as dev and test which are separate from your production environment, this command instructs OpenDataDSL that from this point it should use that named environment for the rest of the running script.
 
-NOTE: For more information on environments - see [here](Environment-Service)
+NOTE: For more information on environments - see [here](/docs/odsl/service/environment)
 
 #### Example
 

@@ -1,5 +1,6 @@
 ---
 title: Security
+hide_title: true
 sidebar_position: 7
 tags:
   - discovery
@@ -11,7 +12,7 @@ import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
 import DiscoveryPages from './_discovery.md';
 
-<Discovery text="This discovery guide gives an overview of how security (authentication and authorisation) is handled with information about security basics and recommendations, including system users, roles and other best practices." />
+<Discovery title="Security" text="This discovery guide gives an overview of how security (authentication and authorisation) is handled with information about security basics and recommendations, including system users, roles and other best practices." />
 
 ## Security Basics
 In order to use our applications and services you need to authenticate yourself using your own Azure Active Directory.

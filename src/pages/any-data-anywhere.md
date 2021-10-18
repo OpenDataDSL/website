@@ -6,7 +6,7 @@ Any Data Anywhere!
 ==========================
 import {MoreInfo} from '/src/components/Discovery.js';
 
-![](/img/any_data.jpg)
+![](/img/home/data-anywhere.png)
 
 ## Flexible Data Management
 Create 'real-world' data structures, add geo-tagging and use machine-learning to enrich and automate your data.

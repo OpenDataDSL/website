@@ -6,7 +6,7 @@ OpenDataDSL is easy to use
 ==========================
 import {MoreInfo} from '/src/components/Discovery.js';
 
-![](/img/easy_to_use.jpg)
+![](/img/home/easy-to-use.png)
 
 
 ## SAAS Platform

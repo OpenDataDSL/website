@@ -1,7 +1,6 @@
-Pricing Information
-===================
+import { BasicPricingTable, SupportLevels, PricingHeader } from '/src/components/Pricing.js';
 
-Everything you need to know about how OpenDataDSL is priced
+<PricingHeader />
 
 ## Overview
 
@@ -24,13 +23,7 @@ Basic Pricing Table
 
 The following table represents the pricing structure of the fundamental pricing items at the current date of 1st July 2021, all prices are in GBP and represent the price per unit or part thereof:
 
-| **Item** | **Units** | **Free Usage** | **Price** |
-|-|-|-|-|
-| Storage | GB/Hour | 0.25 | 0.01 |
-| API requests | Million Requests | 0.02 (20,000) | 0.01 |
-| Messages | Message | 1000 | 0.01 |
-| Process | Hours | 0.25 (15 Minutes) | 2.00 |
-| Subscription | Fulfilled Subscription | 25 | 0.05 |
+<BasicPricingTable />
 
 ## Detailed Pricing Information
 
@@ -58,16 +51,7 @@ This metric represents every fulfilled subscription.
 
 We offer 4 support levels which you are free to choose based on your specific needs.
 
-| **Cover** | **Basic** | **Bronze** | **Silver** | **Gold** | 
-|-|-|-|-|-|
-| **Price** | Free | £25/month | £100/month | £ call us | 
-| **Issue Logging** | Web Only | Web Only | Web Only | Web and dedicated account manager |
-| **Response Times** |
-| **1 - Blocker**  | 24 hours | 8 hours | 2 hours | 30 minutes |
-| **2 - Critical** | 24 hours | 10 hours | 4 hours | 1 hour |
-| **3 - Major** | 48 hours | 12 hours | 8 hours | 4 hours |
-| **4 - Minor** | 72 hours | 24 hours | 24 hours | 24 hours |
-| **Support Hours** | M-F 8am to 6pm UK time | M-F 8am to 6pm UK time | M-F 8am to 6pm UK time | 24 x 5 UK time |
+<SupportLevels />
 
 ## Additional Service Pricing
 
