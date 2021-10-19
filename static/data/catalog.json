@@ -439,7 +439,7 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/TGE",
-        "tags": ["Commodity", "Power"]
+        "tags": ["Commodity", "Power", " NEW"]
     },
     {
         "type": "FREE",
@@ -452,7 +452,7 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/TGE",
-        "tags": ["Commodity", "Natural Gas"]
+        "tags": ["Commodity", "Natural Gas", " NEW"]
     },
     {
         "type": "FREE",
@@ -465,7 +465,7 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/GME",
-        "tags": ["Commodity", "Natural Gas"]
+        "tags": ["Commodity", "Natural Gas", " NEW"]
     },
     {
         "type": "FREE",
@@ -491,6 +491,6 @@
         "start": "2018",
         "frequency": "N/A",
         "link":"/docs/company/DATAHUBIO",
-        "tags": ["Geospatial"]
+        "tags": ["Geospatial", " NEW"]
     }
 ]
