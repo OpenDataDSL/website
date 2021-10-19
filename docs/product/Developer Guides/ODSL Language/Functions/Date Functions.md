@@ -6,6 +6,7 @@ tags:
 ---
 import Format from './all/_format.md';
 import Parse from './all/_parse.md';
+import DaylightSavings from './all/_daylightSavings.md';
 
 A set of functions that help you deal with dates
 
@@ -14,3 +15,6 @@ A set of functions that help you deal with dates
 
 ## parse
 <Parse  />
+
+## daylightSavings
+<DaylightSavings />

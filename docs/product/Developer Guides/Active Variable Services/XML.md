@@ -26,6 +26,7 @@ The following options affect the way that the XML data is processed into the var
 |-|-|-|
 |selector|This is an XML selector which allows you to filter the xml data. It is a CSS-like element selector, that finds elements matching a query. If a selector is used, the output variable is a [list](/docs/odsl/variable/list)|```selector=[type=”test”]```|
 |ignoreContentType|Set this to true if the document content type is causing exceptions|ignoreContentType=true|
+|xslt|Transforms the input XML data using the supplied XSLT transformer|"xslt="+xslt|
 
 ## Example
 
@@ -78,6 +79,9 @@ This example uses the following XML format file of FX Rates from the European Ce
 	</Cube>
 </gesmes:Envelope>
 ```
+
+### Retrieving the XML
+
 Running the following code:
 ```js
 xmldata=${xml:"https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"}
@@ -127,6 +131,8 @@ Produces an object looking something like this:
   }
 }
 ```
+
+### Using a selector
 If you use a selector to only select nodes that have a currency attribute:
 ```js
 xmldata=${xml:"https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml", "selector=\[currency\]"}
@@ -149,4 +155,29 @@ You get a list of objects containing only the currencies and rates like this:
 ...
 
 ]
+```
+
+### Using an XSLT
+
+You can create an XSLT that transforms the XML, see the example below:
+
+```js
+xslt=`<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="xml" encoding="utf-8" indent="no"/>
+
+<xsl:template match="/">
+<xsl:variable name="time" select="//@time"/>
+<currencies time="{$time}">
+<xsl:for-each select="//@currency">
+<currency code="{.}" rate="{../@rate}" />
+</xsl:for-each>
+</currencies>
+</xsl:template>
+
+</xsl:stylesheet>
+`
+
+xmldata=${xml:"https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml","xslt="+xslt}
+
+print json(xmldata)
 ```

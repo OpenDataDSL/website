@@ -8,10 +8,41 @@ Release Notes
 
 Check here for details of our releases (both historic and upcoming)
 
-#### Upcoming Release in September 2021
+#### Upcoming Release in November 2021
 
-Launch of the new website and documentation portal
+#### New account management option in the Portal
+This is the place to go to manage your OpenDataDSL account:
+* Edit your personal details and upload an image
+* Edit your company details and configuration settings
+* Accounting information such as cost analysis, invoices and payments
+* Support - raise a support ticket, data or enhancement request
 
+<details>
+<summary>October 2021</summary>
+
+#### Improvement to calendar holiday rules
+Added support for options on the following rule types:
+* [Every](/docs/odsl/calendar/holiday#every-rule)
+* All [Named](/docs/odsl/calendar/holiday#named-rule) rules
+
+</details>
+<details>
+<summary>September 2021</summary>
+
+#### Added support for using XSLTs in the [XML](/docs/odsl/service/xml#using-an-xslt) Service
+You can now use an XSLT transformer when reading XML data, e.g.
+
+```js
+xdata = ${xml:xml,"xslt="+xslt}
+```
+
+#### Added new email target for queues
+You can now emails using a subscription - see [here](/docs/odsl/dm/subscriptions#emailtarget) for more information
+
+A few minor enhancements
+* Added [daylightSavings](/docs/odsl/function/date#daylightsavings) function to test if the passed in date is a DST changeover day
+
+</details>
 <details>
 <summary>August 2021</summary>
 

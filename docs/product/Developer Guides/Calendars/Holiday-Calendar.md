@@ -50,7 +50,7 @@ The **every** rule represents every named day line every Saturday
 
 #### Syntax
 ```
-every DOW
+every DOW (OPTION)*
 ```
 #### Examples
 ```js
@@ -73,6 +73,10 @@ first monday in may named 'Early May' to 2019
 ### Named Rule
 
 The **named** rule represents a set of hard coded holidays such as Easter
+
+:::note
+Options are also supported on named rules
+::: 
 
 #### Syntax
 ```
