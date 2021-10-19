@@ -7,7 +7,7 @@ OpenDataDSL[^1] is the data management programming language.
 ## Meet The Company
 
 ### Our Story
-After many years of building and using data management systems, we condensed all this knowledge into a domain specific 
+After many years of building and using data management systems, we condensed all this knowledge and expertise into a domain specific 
 language which encapsulates all aspects of data management in a simple and intuitive way. 
 
 We are passionate about all aspects of data management and continue to build and improve our platform. 
@@ -29,7 +29,7 @@ We make it easier for clients to move their data and processes into the cloud.
 ###### Founder and CEO
 
 Colin has been building data management systems since the 1990's and has worked for various prestigious companies
-such as B.P. and Deutsche Bank. Colin was one of the founders of DataGenic in 2002 who specialised in Energy and Commodity data 
+such as B.P. and Deutsche Bank. Colin was the founder of DataGenic in 2002 who specialised in Energy and Commodity data 
 aggregation and data management systems. Colin designed and built their award-winning software and was CTO until the
 company was sold to Enverus in 2017.
 
@@ -38,6 +38,11 @@ commodity companies, Colin has designed and built OpenDataDSL - the data managem
 
 ### Kodandaramu Rangaiah
 ###### Founder and COO
+
+Kodandaramu (Ram) Rangaiah has been working in IT Industry for the last 20 years based in Bangalore. 
+Ram started DataGenic India in 2006 and was responsible for the management of all operations in the Bangalore office and was the primary developer for the DataGenic data management systems.
+
+Ram worked previously in Sonata Software, Deutsche Bank and Lehman Brothers which provided exposure to the latest technologies and business domain knowledge.
 
 ### Sunil Ramesh
 ###### Head of User Experience
