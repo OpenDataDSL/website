@@ -10,7 +10,6 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
-import DiscoveryPages from './_discovery.md';
 
 <Discovery title="Subscribing to Data" text="This discovery guide gives information on how to integrate both the public data and your proprietary data into other cloud systems or your local database infrastructure." />
 

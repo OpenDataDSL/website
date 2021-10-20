@@ -10,7 +10,6 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
-import DiscoveryPages from './_discovery.md';
 
 <Discovery title="Security" text="This discovery guide gives an overview of how security (authentication and authorisation) is handled with information about security basics and recommendations, including system users, roles and other best practices." />
 
