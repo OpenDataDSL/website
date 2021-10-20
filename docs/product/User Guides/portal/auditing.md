@@ -1,9 +1,14 @@
 ---
 title: Auditing
+description: Auditing dashboard in the web portal
 sidebar_position: 6
 slug: /user/portal/auditing
+tags:
+  - portal
+  - dashboard
+  - audit
 ---
-The auditing dashboard allows you to drill-down into specific events that have happened by specific users or on specific entities.
+The auditing dashboard in the Web Portal allows you to drill-down into specific events that have happened by specific users or on specific entities.
 
 ## Layout
 The auditing dashboard is a paged, filterable list of audit records in reverse time-order.

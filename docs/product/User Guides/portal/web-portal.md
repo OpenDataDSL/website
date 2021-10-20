@@ -1,7 +1,10 @@
 ---
 title: Web Portal
+description: Web portal information
 sidebar_position: 1
 slug: /user/portal
+tags:
+  - portal
 ---
 import {InDepth} from '/src/components/Discovery.js';
 

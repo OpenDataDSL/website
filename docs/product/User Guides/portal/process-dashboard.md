@@ -1,7 +1,12 @@
 ---
 title: Process Dashboard
+description: Process dashboard in the web portal
 sidebar_position: 4
 slug: /user/portal/process
+tags:
+  - portal
+  - dashboard
+  - process
 ---
 The process dashboard is similar to the execution dashboard, but is focussed on the processes rather than the process executions.
 It gives you vital summary information about the executions of a specific process.

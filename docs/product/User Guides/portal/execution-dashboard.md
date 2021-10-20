@@ -1,7 +1,13 @@
 ---
 title: Execution Dashboard
+description: Process execution dashboard in the web portal
 sidebar_position: 3
 slug: /user/portal/executions
+tags:
+  - portal
+  - dashboard
+  - process
+  - execution
 ---
 The execution dashboard is used to monitor process executions in real-time.
 You can also drill-down into specific executions to check the correct flow and understand why and where they failed.

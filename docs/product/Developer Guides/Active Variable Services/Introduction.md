@@ -79,6 +79,9 @@ This is a list of active variable services that interact with the OpenDataDSL re
 
 ### [Action Service](./action)
 Workflow actions allow you to personalise your processes with snippets of code to perform a specialised action within a workflow
+
+### [Audit Service](./audit)
+The audit service allows you to view all the changes that have happened in your environment
     
 ### [Calendar Service](./calendar)
 The calendar service allows you to create and use all the [calendars](/docs/odsl/calendar/calendars) in the system

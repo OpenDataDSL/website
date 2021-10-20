@@ -1,7 +1,11 @@
 ---
 title: Home Screen
+description: Home screen in the web portal
 sidebar_position: 2
 slug: /user/portal/home
+tags:
+  - portal
+  - home
 ---
 The home screen of the portal contains an up-to-date summary of all your vital statistics.
 

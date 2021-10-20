@@ -1,7 +1,13 @@
 ---
 title: Process Timeline
+description: Process timeline dashboard in the web portal
 sidebar_position: 5
 slug: /user/portal/timeline
+tags:
+  - portal
+  - dashboard
+  - process
+  - timeline
 ---
 The process timeline gives you a 24 hour snapshot of processes that have run and are going to run.
 It also provides a real-time view of running processes.
