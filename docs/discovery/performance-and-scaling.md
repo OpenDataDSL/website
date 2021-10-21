@@ -10,7 +10,6 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth, MoreInfo} from '/src/components/Discovery.js';
-import DiscoveryPages from './_discovery.md';
 
 <Discovery title="Performance and Scaling" text="This discovery guide gives an overview of the infrastructure that powers OpenDataDSL and the options available for you to optimise performance." />
 

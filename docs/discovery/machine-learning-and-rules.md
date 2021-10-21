@@ -11,7 +11,6 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth, MoreInfo} from '/src/components/Discovery.js';
-import DiscoveryPages from './_discovery.md';
 
 <Discovery title="Machine Learning and Rules" text="This discovery guide gives an overview of how you can use our machine learning features to categorise and forecast data or apply business rules for event-driven automation of tasks." />
 

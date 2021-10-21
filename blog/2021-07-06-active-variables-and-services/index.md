@@ -5,11 +5,11 @@ authors: [chartley]
 tags: [data, services, odsl]
 ---
 
-<div class="row">
-  <div class="column">
+<div className="row">
+  <div className="column">
     <img src="/img/blog/services.png" />
   </div>
-  <div class="column">
+  <div className="column">
   <h2>Active Variables</h2>  
   ActiveVariables are a powerful part of the OpenDataDSL language - see how to use them
   </div>

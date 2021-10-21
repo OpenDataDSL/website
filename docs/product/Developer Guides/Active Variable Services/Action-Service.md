@@ -1,11 +1,11 @@
 ---
+title: Action Service
+description: The action service in the ODSL language
 slug: /odsl/service/action
 tags:
   - service
   - action
 ---
-Action Service
-==============
 
 [Workflow actions](/docs/odsl/variable/action) allow you to personalise your processes with snippets of code to perform a specialised action within a workflow.
 

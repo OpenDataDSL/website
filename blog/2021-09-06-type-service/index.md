@@ -5,11 +5,11 @@ authors: [chartley]
 tags: [model, type, object, odsl]
 ---
 
-<div class="row">
-  <div class="column">
+<div className="row">
+  <div className="column">
     <img src="/img/blog/type-service.png"/>
   </div>
-  <div class="column">
+  <div className="column">
   <h2>Data Modelling: Types and Type Service</h2>
   Definition In OpenDataDSL, a type is a definition of how a particular type of data is structured
   </div>

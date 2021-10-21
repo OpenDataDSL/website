@@ -11,7 +11,6 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
-import DiscoveryPages from './_discovery.md';
 
 <Discovery title="Personalisation" text="This discovery guide gives you an overview about how you can personalize your users' experience with a custom domain, company logo and colour scheme." />
 

@@ -53,7 +53,7 @@
 .rowimage {
     text-align: center;
 }
-ul li::marker {
+ul.support li.support::marker {
   font-size: 150%;
   color: #046fb7;
 }

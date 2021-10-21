@@ -10,7 +10,6 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {Discovery, InDepth} from '/src/components/Discovery.js';
-import DiscoveryPages from './_discovery.md';
 
 <Discovery title="Uploading Data" text="This discovery guide gives an overview on how to prepare, send, and update your data, along with guidance on how to automate data loading and data environments." />
 

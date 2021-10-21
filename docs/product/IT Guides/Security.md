@@ -1,4 +1,6 @@
 ---
+title: Security
+description: IT guide for security
 slug: /it/security
 sidebar_position: 1
 tags:
@@ -6,9 +8,6 @@ tags:
   - authorization
   - authentication
 ---
-Security
-========
-
 Detailed technical information on user authorization and access control
 
 ## Authorization
