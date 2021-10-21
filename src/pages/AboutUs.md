@@ -47,6 +47,15 @@ Ram worked previously in Sonata Software, Deutsche Bank and Lehman Brothers whic
 ### Sunil Ramesh
 ###### Head of User Experience
 
+Sunil has been working in the IT industry for the last 20 years for companies such as Walter & Walter Intl. (Mauritius), DataGenic and Enverus. 
+Sunil primarily works on front-end UI/UX development and has years of experience developing full-fledged products and e-commerce sites.
+
+Sunil has developed products such as i-TexLite (textile industry software), Tax-i (taxation software for Mauritius govt.) and has worked on various e-commerce sites for French and German clients. 
+For DataGenic he built the entire Genic DataManager front-end, exposing a powerful extensibility framework for clients to integrate custom extensions and plugins.
+
+Sunil now heads up the UX team working on the front-ends for the web, excel and mobile platforms for OpenDataDSL.
+
+
 ### Shubha Swaroop
 ###### Head of Data Operations
 
