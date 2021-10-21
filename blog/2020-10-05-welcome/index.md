@@ -5,11 +5,11 @@ authors: [chartley]
 tags: [hello, odsl]
 ---
 
-<div class="row">
-  <div class="column">
+<div className="row">
+  <div className="column">
     <img src="/img/blog/etl.jpg"/>
   </div>
-  <div class="column">
+  <div className="column">
   <h2>Welcome to the OpenDataDSL Blog</h2>  
   </div>
 </div>

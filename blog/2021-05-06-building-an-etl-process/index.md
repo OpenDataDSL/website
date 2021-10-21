@@ -5,11 +5,11 @@ authors: [chartley]
 tags: [etl, extractor, transformer, odsl]
 ---
 
-<div class="row">
-  <div class="column">
+<div className="row">
+  <div className="column">
     <img src="/img/blog/etl.jpg"/>
   </div>
-  <div class="column">
+  <div className="column">
   <h2>Extract, Transform and Load</h2>
   This post shows you how easy it is to create an end-to-end ETL process in OpenDataDSL
   </div>

@@ -5,11 +5,11 @@ authors: [chartley]
 tags: [data, quality, odsl]
 ---
 
-<div class="row">
-  <div class="column">
+<div className="row">
+  <div className="column">
     <img src="/img/blog/data-precision.jpg"/>
   </div>
-  <div class="column">
+  <div className="column">
   <h2>Ensuring Data Precision</h2>  
   Documentation on how OpenDataDSL handles precision and rounding
   </div>

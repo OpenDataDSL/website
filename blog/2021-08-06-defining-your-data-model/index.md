@@ -5,11 +5,11 @@ authors: [chartley]
 tags: [model, type, object, odsl]
 ---
 
-<div class="row">
-  <div class="column">
+<div className="row">
+  <div className="column">
     <img src="/img/blog/data-model.jpg"/>
   </div>
-  <div class="column">
+  <div className="column">
   <h2>Defining Your Data Model</h2>  
   Whether you are defining a data model from scratch or extending one of ours, this essential blog post helps guide 
   </div>
