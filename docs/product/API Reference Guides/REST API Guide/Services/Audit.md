@@ -1,8 +1,10 @@
 ---
-slug: /api/rest/service/audit
 title: Audit Service
-description: The audit REST API resource
+description: REST API for the audit service
+slug: /api/rest/service/audit
 tags:
+  - api
+  - service
   - audit
 ---
 The audit resource allows you to keep track of changes that have been made to other resources

@@ -1,11 +1,12 @@
 ---
+title: Currency Service
+description: REST API for the currency service
 slug: /api/rest/service/currency
 tags:
+  - api
+  - service
   - currency
 ---
-Currency Service
-================
-
 A read-only service to find and retrieve public and private currencies
 
 ## Currency REST API

@@ -1,11 +1,12 @@
 ---
+title: Calendar Service
+description: REST API for the calendar service
 slug: /api/rest/service/calendar
 tags:
+  - api
+  - service
   - calendar
 ---
-Calendar Service
-================
-
 The calendar resource contains all the public and private calendars
 
 ## Calendar REST API

@@ -59,5 +59,11 @@ Sunil now heads up the UX team working on the front-ends for the web, excel and 
 ### Shubha Swaroop
 ###### Head of Data Operations
 
+Shubha is a hands-on Finance, Energy and Commodity data specialist, experienced in data solutions and client services for over 13 years. 
+Her journey started in DataGenic where she worked with data vendors and built out the DataGenic DataHub and the operational data support team. 
+
+Her expertise is in data quality compliance, data analysis and converting business requirements into functional specifications.
+
+Shubha now heads up the Data Operations team building out the OpenDataDSL public data repository and helping clients to build their proprietary data repository.
    
 [^1]: OpenDataDSL is the trading name of Walkfares Ltd. Registered in the UK no: 11489767

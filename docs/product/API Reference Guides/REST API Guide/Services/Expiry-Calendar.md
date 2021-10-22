@@ -1,12 +1,13 @@
 ---
+title: Expiry Calendar Service
+description: REST API for the expiry calendar service
 slug: /api/rest/service/expiry
 tags:
+  - api
+  - service
   - expiry
   - calendar
 ---
-Expiry Calendar
-=======================================================
-
 Contains all the public and private expiry calendars
 
 ## Expiry Calendar REST API

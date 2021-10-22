@@ -1,11 +1,12 @@
 ---
+title: Action Service
+description: REST API for the action service
 slug: /api/rest/service/action
 tags:
+  - api
+  - service
   - action
 ---
-Action Service
-==============================
-
 The action resource contains all the standard public and your own proprietary workflow actions
 
 ## Action REST API
@@ -48,7 +49,7 @@ The action entity contains the following information:
 |exits|The output transition names|String[]|
 |_oid|The id of the action - will match _id if this is the latest version of the action|String|
 |_timestamp|Timestamp of when this action version was created|String(DateTime)|
-|_user|The user id (email) of the user that created this action verision|String|
+|_user|The user id (email) of the user that created this action version|String|
 |_tag|A list of version tag names for this action version|String[]|
 |_version|The version number of this action version|int|
 

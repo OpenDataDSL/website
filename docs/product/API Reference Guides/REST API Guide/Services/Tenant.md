@@ -1,11 +1,12 @@
 ---
+title: Tenant Service
+description: REST API for the tenant service
 slug: /api/rest/service/tenant
 tags:
+  - api
+  - service
   - tenant
 ---
-Tenant
-==============================================
-
 The tenant resource is a service to view and record your company information and tenancy configuration
 
 ## Tenant REST API

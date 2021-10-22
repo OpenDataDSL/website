@@ -1,11 +1,12 @@
 ---
+title: Curve Service
+description: REST API for the curve service
 slug: /api/rest/service/curve
 tags:
+  - api
+  - service
   - curve
 ---
-Curve Service
-=============
-
 The curve resource contains all your proprietary forward curve configurations
 
 ## Curve REST API

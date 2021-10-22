@@ -1,11 +1,12 @@
 ---
+title: Data Service
+description: REST API for the data service
 slug: /api/rest/service/data
 tags:
+  - api
+  - service
   - data
 ---
-Data
-====
-
 The data resource contains all the complex data types like TimeSeries and Curve
 
 ## Data REST API

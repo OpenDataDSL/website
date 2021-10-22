@@ -1,11 +1,12 @@
 ---
+title: Object Service
+description: REST API for the object service
 slug: /api/rest/service/object
 tags:
+  - api
+  - service
   - object
 ---
-Object
-==============================================
-
 The object resource contains all the reference and meta-data for all the public and private data in OpenDataDSL
 
 ## Object REST API

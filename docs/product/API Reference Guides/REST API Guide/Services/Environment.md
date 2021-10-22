@@ -1,11 +1,12 @@
 ---
+title: Environment Service
+description: REST API for the environment service
 slug: /api/rest/service/environment
 tags:
+  - api
+  - service
   - environment
 ---
-Environment
-===================================================
-
 Contains information about your data environments
 
 ## Environment REST API
@@ -31,6 +32,7 @@ The API consists of the following calls:
 The environment entity contains the following properties
 
 |**Name**|**Description**|**Type**|
+|-|-|-|
 |_id|Unique id for the data environment|String|
 |description|The name/description of the data environment|String|
 |_createdby|The user id (email) of the user that created the environment|String|

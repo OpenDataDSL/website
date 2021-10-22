@@ -1,5 +1,6 @@
 ---
-title: ODSL Security
+title: Security
+description: QuickStart for API developers - Authentication
 sidebar_position: 2
 slug: /tutorials/qs/api/security
 tags:
@@ -7,12 +8,13 @@ tags:
   - api
   - developer
   - coding
+  - security
 ---
 import {QuickStartModule} from '/src/components/Discovery.js';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<QuickStartModule text="This quickstart module ..." />
+<QuickStartModule text="This quickstart module shows you how to perform authentication and use security tokens" />
 
 ## Authentication
 In order to use the API in any programming language, you need to be able to generate an ID Token to identify yourself to the services.

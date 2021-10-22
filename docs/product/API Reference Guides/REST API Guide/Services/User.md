@@ -1,11 +1,12 @@
 ---
+title: User Service
+description: REST API for the user service
 slug: /api/rest/service/user
 tags:
+  - api
+  - service
   - user
 ---
-User
-====
-
 The user resource is a service to view and record your user information
 
 ## User REST API

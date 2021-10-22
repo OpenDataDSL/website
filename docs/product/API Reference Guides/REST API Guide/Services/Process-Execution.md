@@ -1,12 +1,13 @@
 ---
+title: Process Execution Service
+description: REST API for the process execution service
 slug: /api/rest/service/process-execution
 tags:
+  - api
+  - service
   - process
-  - process-execution
+  - execution
 ---
-Process Execution
-=========================================================
-
 The resource for monitoring all your processes
 
 ## Process Execution REST API

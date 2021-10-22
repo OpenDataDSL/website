@@ -1,5 +1,6 @@
 ---
 title: API Developer
+description: Home page of the QuickStart for API developers
 sidebar_position: 1
 slug: /tutorials/qs/api
 tags:
@@ -15,32 +16,54 @@ import TabItem from '@theme/TabItem';
 <QuickStart text="This quickstart track will help you learn the OpenDataDSL API's and build your own applications." />
 
 ---
+## Introduction
+#### Welcome to the OpenDataDSL API developer quickstart track!
 
-# Coming Soon
-#### Call back later!
+Here you will start with the fundamentals of using the OpenDataDSL services including security.
+We will then do a deep-dive into some of the services, following up with running processes and using the real-time services to follow their progress.
+We will end with subscribing to data updates using message queues.
 
+In each module, we will give examples in various languages and all the code for these examples are available in our GitHub repositories as shown below:
 
-## Language Specific Configuration
+|Language|GitHub Repository Link|
+|-|-|
+|Python|-|
+|Java|-|     
+|C#|-|
+|NodeJS|-|
+
+## Preparation
+This quickstart track requires some preparation in order to follow along with the content.
+
+### OpenDataDSL Account
+If you haven't already created a FREE OpenDataDSL account, [sign up for one here](/SignUp)
+
+### Language specific preparation
 <Tabs groupId="language">
 <TabItem value="rest" label="REST" default>
 
-```yaml
-GET /{{tid}}/oauth2/v2.0/token
-Host: login.microsoftonline.com
-Content-Type: application/x-www-form-urlencoded
+Although not a language, the REST tabs in this series give you a good idea of the raw requests that the other examples are making.
+It is also great for testing requests and evaluating the responses.
 
-grant_type=client_credentials&
-client_id={{aid}}&
-client_secret={{sid}}&
-scope=api://opendatadsl/.default
-```
+For submitting REST requests, it is a good idea to use one of the many great tools - below are a few of our favourites:
+* VS Code with the [REST Client](https://github.com/Huachao/vscode-restclient) extension
+* [Postman](https://www.postman.com/product/what-is-postman/)
 
 </TabItem>
 <TabItem value="python" label="Python">
+
+For Python, you can use your own favourite IDE, but you will need to install some libraries as shown below:
+* [Requests](https://docs.python-requests.org/en/latest/) library for making HTTP requests
+```
+pip install requests
+```
+
 </TabItem>
 <TabItem value="java" label="Java">
 
-Example `pom.xml` to create your java project
+For Java, you can use your own favourite IDE and we have used Maven as our software management tool.
+
+The maven `pom.xml` to create your java project
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
