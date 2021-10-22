@@ -95,6 +95,15 @@ var services = [
         ver: false
     },
     {
+        name: "Metric",
+        link: "/docs/api/rest/service/metric",
+        text: "The metric resource contains all of your usage metrics we gather for billing purposes",
+        rw: false,
+        pub: false,
+        pri: true,
+        ver: false
+    },
+    {
         name: "Object",
         link: "/docs/api/rest/service/object",
         text: "The object resource contains all the reference and meta-data for all data in OpenDataDSL",
