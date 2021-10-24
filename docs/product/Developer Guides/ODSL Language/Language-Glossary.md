@@ -406,6 +406,14 @@ Used in a [workflow](#workflow), [workflow action](#action) and a [gateway](#gat
 
 Used in an [extactor](#extract)
 
+### pause
+
+Pause execution of a script
+
+```js
+pause 10 seconds
+```
+
 ### phase
 
 Used to split a [workflow](#workflow) into meaningful functional sections for individual monitoring - see [Workflows and Processes](/docs/odsl/dm/workflow)

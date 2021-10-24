@@ -9,6 +9,7 @@ import Imp from './all/_import.md';
 import Log from './all/_log.md';
 import Logout from './all/_logout.md';
 import Onerror from './all/_onerror.md';
+import Pause from './all/_pause.md'
 import Print from './all/_print.md';
 import Return from './all/_return.md';
 import Run from './all/_run.md';
@@ -31,6 +32,9 @@ All the general OpenDataDSL statement commands
 
 ## onerror
 <Onerror />
+
+## pause
+<Pause />
 
 ## print
 <Print />

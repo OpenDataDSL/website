@@ -25,6 +25,14 @@ Added support for options on the following rule types:
 * [Every](/docs/odsl/calendar/holiday#every-rule)
 * All [Named](/docs/odsl/calendar/holiday#named-rule) rules
 
+#### New pause command
+Add added a new command `pause` allowing you to pause execution of a script.
+
+Syntax:
+```js
+pause number ('second'|'seconds'|'minute'|'minutes'|'hour'|'hours')
+```
+
 </details>
 <details>
 <summary>September 2021</summary>
