@@ -108,14 +108,14 @@ module.exports = {
       additionalLanguages: ['java'],
     },
     algolia: {
-      apiKey: '22e30f81853673340b6078461a17c0e2',
+      apiKey: 'a8b0e275e6e4c02b53e5dffadd88e2c7',
       indexName: 'website',
 
       // Optional: see doc section below
       contextualSearch: false,
 
       // Optional: see doc section below
-      appId: '4FAWMMLHR2',
+      appId: 'GNGE5W5WZ3',
 
       // Optional: Algolia search parameters
       searchParameters: {},
