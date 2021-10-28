@@ -79,6 +79,10 @@ module.exports = {
             {
               label: 'Instagram',
               href: 'https://www.instagram.com/opendatadsl'
+            },
+            {
+              label: 'Vimeo',
+              href: 'https://vimeo.com/user155861440'
             }
           ],
         },
