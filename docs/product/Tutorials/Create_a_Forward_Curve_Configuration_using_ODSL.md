@@ -67,6 +67,15 @@ Create a new ODSL file called **curvetutorial.odsl** \- this will be used to bui
 
 ![](/attachments/305857002/312672273.png)
 
+:::warning
+The name of the script MUST be the same as the buildScript setting in your CurveConfig, e.g.
+
+```js
+buildScript = "curvetutorial"
+```
+
+:::
+
 ### Create the first output curve
 
 The first curve we are going to create will simply add a small premium value onto our input curve, the configuration for this is done by creating an object of type #CurveConfigOutput, this is added inside the configuration of the curve:
