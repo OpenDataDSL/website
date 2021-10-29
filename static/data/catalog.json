@@ -492,5 +492,31 @@
         "frequency": "N/A",
         "link":"/docs/company/DATAHUBIO",
         "tags": ["Geospatial", " NEW"]
+    },
+    {
+        "type": "BYOL",
+        "provider": "S&P Global Platts",
+        "providerType":"Public Company",
+        "logo": "platts.png",
+        "dataset": "Oil",
+        "text": "Oil Derivatives",
+        "region": "Global",
+        "start": "2021",
+        "frequency": "Various",
+        "link":"/docs/company/PLATTS",
+        "tags": ["Commodity", "Oil"," NEW"]
+    },
+    {
+        "type": "BYOL",
+        "provider": "S&P Global Platts",
+        "providerType":"Public Company",
+        "logo": "platts.png",
+        "dataset": "Natural Gas",
+        "text": "Natural Gas",
+        "region": "Global",
+        "start": "2021",
+        "frequency": "Various",
+        "link":"/docs/company/PLATTS",
+        "tags": ["Commodity", "Natural Gas"," NEW"]
     }
 ]
