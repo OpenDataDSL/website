@@ -49,7 +49,7 @@ To configure the input data we need to create an object of type #CurveConfigInpu
 ```js
 TUTORIAL_ODSL_CURVE = object as #CurveConfig
   ...
-  inputs\[0\] = object as #CurveConfigInput
+  inputs[0] = object as #CurveConfigInput
     key = "PRIMARY"
     id = "#CLALIT.BUTTER_82.AVGAUC.WP:CURVE"
     required = true
@@ -67,6 +67,15 @@ Create a new ODSL file called **curvetutorial.odsl** \- this will be used to bui
 
 ![](/attachments/305857002/312672273.png)
 
+:::warning
+The name of the script MUST be the same as the buildScript setting in your CurveConfig, e.g.
+
+```js
+buildScript = "curvetutorial"
+```
+
+:::
+
 ### Create the first output curve
 
 The first curve we are going to create will simply add a small premium value onto our input curve, the configuration for this is done by creating an object of type #CurveConfigOutput, this is added inside the configuration of the curve:
@@ -74,7 +83,7 @@ The first curve we are going to create will simply add a small premium value ont
 ```js
 TUTORIAL_ODSL_CURVE = object as #CurveConfig
   ...
-    outputs\[0\] = object as #CurveConfigOutput
+    outputs[0] = object as #CurveConfigOutput
         name = "PREMIUM"
         code = "PRIMARY + 0.2"
     end
@@ -101,18 +110,18 @@ TUTORIAL_ODSL_CURVE = object as #CurveConfig
     country = "Italy"
     expiryCalendar = "#REOMB"
     buildScript = "curvetutorial"
-    inputs\[0\] = object as #CurveConfigInput
+    inputs[0] = object as #CurveConfigInput
         key = "PRIMARY"
         id = "#CLALIT.BUTTER_82.AVGAUC.WP:CURVE"
         required = true
     end
-    outputs\[0\] = object as #CurveConfigOutput
+    outputs[0] = object as #CurveConfigOutput
         name = "PREMIUM"
         code = "PRIMARY + 0.2"
     end
 end
 
-save ${curve:TUTORIAL\_ODSL\_CURVE}
+save ${curve:TUTORIAL_ODSL_CURVE}
 ```
 
 ### Running the curve
@@ -124,7 +133,7 @@ To run the curve, we need to specify the date that we want to run it for and run
 ```js
 ondate = Object()
 ondate.date = "2021-05-18"
-print run TUTORIAL\_ODSL\_CURVE with ondate
+print run TUTORIAL_ODSL_CURVE with ondate
 ```
 
 ### Visualising the curve
@@ -200,9 +209,9 @@ code = "addPercentage(PRIMARY, 5)"
 Or we could add a property on the output curve and use this, so our output curve configuration would look like this:
 
 ```js
-TUTORIAL\_ODSL\_CURVE = object as #CurveConfig
+TUTORIAL_ODSL_CURVE = object as #CurveConfig
   ...
-    outputs\[0\] = object as #CurveConfigOutput
+    outputs[0] = object as #CurveConfigOutput
         name = "PREMIUM"
         factor = 5
         code = "addPercentage(PRIMARY, factor)"
@@ -219,7 +228,7 @@ In our second curve, we are going to use a built in curve function to extend the
 ```js
 TUTORIAL_ODSL_CURVE = object as #CurveConfig
   ...
-    outputs\[1\] = object as #CurveConfigOutput
+    outputs[1] = object as #CurveConfigOutput
         name = "EXTENDED"
         code = "extendCurve(PREMIUM, 3)"
     end
