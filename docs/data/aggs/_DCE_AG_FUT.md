@@ -8,6 +8,10 @@ The end of day updates are collected from DCE website: http://www.dce.com.cn/DCE
 
 The end of day updates are processed at 17:30 GMT on DCE business days.
 
+### Sample File
+
+[Sample file for DCE Futures](pathname:///file-samples/DCE_20211028_1635487856657_Daily.txt)
+
 ## Type
 
 The data is stored as #Agriculture.
