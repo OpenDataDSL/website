@@ -43,7 +43,7 @@ const FeatureList = [
     description: (
       <>
         OpenDataDSL was designed from the ground up to be a Software As A Service (SAAS) 
-        product, no more out-of-date, hard-to-install software.
+        product, always up-to-date and easy-to-install software.
       </>
     ),
     link: "easy-to-use"
@@ -74,8 +74,7 @@ const FeatureList = [
     jpg: require('../../static/img/home/focus-on-data.png').default,
     description: (
       <>
-        OpenDataDSL lets you focus on your data whilst we take care
-        of the chores.
+        Moving your data management to OpenDataDSL allows you to focus on the important things that add value to your business.
       </>
     ),
     link: "focus-on-what-matters"
