@@ -55,6 +55,13 @@ export default function Home() {
         <main>
             <Video />
             <HomepageFeatures />
+
+                  <div style={{height:450}}>
+                    <div className="row h-100">
+                      <iframe className="h-100" src="https://cdn.forms-content.sg-form.com/e54e36ad-1c51-11ec-872a-6677fa1e7091"/>
+                    </div>
+                  </div>
+
             <div className={styles.section}>
                 <HomepageAbout />
             </div>
