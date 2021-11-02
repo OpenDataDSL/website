@@ -101,3 +101,9 @@ Here is a list of the syntax for valid period codes
 |Financial month|PERIOD “M”|1M|
 |Financial year|PERIOD “Y”|1Y|
 
+### Hybrid periods
+
+|**Name**|**Definition**|**Example**|
+|-|-|-|
+|Absolute spread|period “-” period|2021Y-2022Y|
+|Relative spread|period “-” period|M01-M02|
