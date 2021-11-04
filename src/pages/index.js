@@ -56,11 +56,20 @@ export default function Home() {
             <Video />
             <HomepageFeatures />
 
-                  <div style={{height:450}}>
-                    <div className="row h-100">
-                      <iframe className="h-100" src="https://cdn.forms-content.sg-form.com/e54e36ad-1c51-11ec-872a-6677fa1e7091"/>
-                    </div>
-                  </div>
+            <section className={styles.stayintouch}>
+            <h1>Stay In Touch</h1>
+            <div className="row">
+                <div className="float-right column" style={{height:450}}>
+                    <a href="https://twitter.com/opendatadsl" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Twitter.png" /></a>
+                    <a href="https://www.linkedin.com/company/opendatadsl" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/LinkedIn.png" /></a>
+                    <a href="https://www.facebook.com/OpenDataDSL" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Facebook.png" /></a>
+                    <a href="https://www.pinterest.co.uk/OpenDataDSL" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Pinterest.png" /></a>
+                    <a href="https://www.instagram.com/opendatadsl" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Instagram.png" /></a>
+                    <a href="https://vimeo.com/user155861440" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Vimeo.png" /></a>
+                    <iframe className="h-100 w-100" src="https://cdn.forms-content.sg-form.com/e54e36ad-1c51-11ec-872a-6677fa1e7091"/>
+                </div>
+            </div>
+            </section>
 
             <div className={styles.section}>
                 <HomepageAbout />
