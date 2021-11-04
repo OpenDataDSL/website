@@ -9,7 +9,7 @@ tags:
 ---
 import StartBuilding from '/src/components/StartBuilding.js';
 import {QuickStart} from '/src/components/Discovery.js';
-import Track from '/docs/product/Tutorials/qs-dev/_track.md'
+import Track from '/docs/Tutorials/qs-dev/_track.md'
 
 <QuickStart text="This quickstart track will help you learn how to code in the OpenDataDSL programming language." />
 

@@ -13,7 +13,7 @@ module.exports = {
   organizationName: 'OpenDataDSL', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
   themeConfig: {
-    gtag: {trackingID: 'G-5D17T7Y69V'},
+    gtag: {trackingID: 'UA-211987172-1'},
     colorMode: { disableSwitch: true},
     navbar: {
       title: 'OpenDataDSL',

@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /tutorials/tutorials
 hide_title: true
 ---
-import QuickStart from '/docs/product/Tutorials/_quickstart.md';
+import QuickStart from '/docs/Tutorials/_quickstart.md';
 import {TutorialRoot} from '/src/components/Discovery.js';
 
 <TutorialRoot text="Subject based tutorials and getting started guides" />
