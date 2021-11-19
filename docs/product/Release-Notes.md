@@ -8,7 +8,18 @@ Release Notes
 
 Check here for details of our releases (both historic and upcoming)
 
-#### Upcoming Release in November 2021
+#### Upcoming Release in December 2021
+
+#### Excel Add-in
+Initial release of the Excel Add-in which will allow you to:
+* Retrieve and update Objects
+* Retrieve and update TimeSeries and Curves
+
+#### Command Line Interface
+Initial release of the CLI which will allow you to run scripts locally and initiate interactive sessions
+
+<details>
+<summary>November 2021</summary>
 
 #### New account management option in the Portal
 This is the place to go to manage your OpenDataDSL account:
@@ -17,6 +28,11 @@ This is the place to go to manage your OpenDataDSL account:
 * Accounting information such as cost analysis, invoices and payments
 * Support - raise a support ticket, data or enhancement request
 
+#### TimeSeries Scaling
+Added support for rescaling TimeSeries for both aggregation to a lower frequency and distribution to a higher frequency.
+See the documentation [here](/docs/odsl/calendar/scaling)
+
+</details>
 <details>
 <summary>October 2021</summary>
 
