@@ -58,9 +58,9 @@ Their cost calculation:
 |-|-|-|-|-|-|
 |Subscription|30|25|5|0.05|0.25|
 |Message|1200|1000|200|0.01|2.00|
-|API|50,000|20,000|30,000|1.00|0.03|
+|API|50,000|2,000|48,000|0.01|0.48|
 
-**Total cost for the month £ 2.26**
+**Total cost for the month £ 2.73**
 
 #### Company B
 Company B has processes to load data into their private storage.
@@ -73,11 +73,11 @@ Their cost calculation:
 |-|-|-|-|-|-|
 |Subscription|50|25|25|0.05|1.25|
 |Message|2500|1000|1500|0.01|15.00|
-|API|1,000,000|20,000|980,000|1.00|0.98|
+|API|1,000,000|2,000|998,000|0.01|9.98|
 |Storage|0.1 Gb|0.005|0.095 x 24 hours x 31 days = 70.68|0.1|7.07|
 |Process|20 Hours|0.25|19.75|2.00|39.5|
 
-**Total cost for the month: £ 63.80**
+**Total cost for the month: £ 72.80**
 
 ## Support Levels and Pricing
 
