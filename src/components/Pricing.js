@@ -3,8 +3,8 @@ import styles from './Pricing.module.css';
 import { Button } from 'react-bootstrap';
 
 var prices = [
-    { name: "Storage", units: "GB/Hour", free: "0.25", price: 0.01 },
-    { name: "API request", units: "Million Requests", free: "0.02 (20,000)", price: 0.01 },
+    { name: "Storage", units: "GB/Hour", free: "0.005 (5Mb)", price: 0.1 },
+    { name: "API request", units: "Million Requests", free: "0.02 (20,000)", price: 1.00 },
     { name: "Message", units: "Message", free: "1000", price: 0.01 },
     { name: "Process", units: "Hours", free: "0.25 (15 Minutes)", price: 2.00 },
     { name: "Subscription", units: "Fulfilled Subscription", free: "25", price: 0.05 }

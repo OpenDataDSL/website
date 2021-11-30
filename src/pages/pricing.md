@@ -47,6 +47,38 @@ Every process that runs has a process execution log that records and stores a me
 
 This metric represents every fulfilled subscription.
 
+## Pricing Examples
+#### Company A
+Company A uses OpenDataDSL to retrieve free pricing data and feed it into their own database and they have 5 users that regularly use the Excel Add-in and Web Portal.
+They have created 30 subscriptions which produce 1200 messages and make around 50,000 API requests a month.
+
+Their cost calculation:
+
+|Type|Consumed|Free|Billable|Rate|Cost|
+|-|-|-|-|-|-|
+|Subscription|30|25|5|0.05|0.25|
+|Message|1200|1000|200|0.01|2.00|
+|API|50,000|20,000|30,000|1.00|0.03|
+
+**Total cost for the month £ 2.26**
+
+#### Company B
+Company B has processes to load data into their private storage.
+The processes run for 1 hour per day every business day, the storage used is averaged at 100Mb over the month.
+They have 50 subscriptions producing 2500 message per month and their users make 1 million API calls per month.
+
+Their cost calculation:
+
+|Type|Consumed|Free|Billable|Rate|Cost|
+|-|-|-|-|-|-|
+|Subscription|50|25|25|0.05|1.25|
+|Message|2500|1000|1500|0.01|15.00|
+|API|1,000,000|20,000|980,000|1.00|0.98|
+|Storage|0.1 Gb|0.005|0.095 x 24 hours x 31 days = 70.68|0.1|7.07|
+|Process|20 Hours|0.25|19.75|2.00|39.5|
+
+**Total cost for the month: £ 63.80**
+
 ## Support Levels and Pricing
 
 We offer 4 support levels which you are free to choose based on your specific needs.
