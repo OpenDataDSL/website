@@ -41,3 +41,6 @@ A period code represents an absolute or relative delivery period for some commod
 
 ### [Custom Calendar Examples](examples)
 A set of examples that showcase the flexibility of the calendars in OpenDataDSL
+
+### [Time Series Scaling](scaling)
+In-depth information about how to rescale TimeSeries

@@ -17,7 +17,7 @@ save ${memory:location/"name"}
 ```
 For example, to save to a local file named session.json in the /temp directory:
 ```js
-save ${file/"/temp/session.json"}
+save ${memory:"/temp/session.json"}
 ```
 
 ## Loading a saved session
@@ -28,7 +28,7 @@ var=${memory:location/"name"}
 ```
 The returned var is ignored and the entire memory is replaced with the saved session
 
-For example, to retrieve the session.json memory fro the /temp directory:
+For example, to retrieve the session.json memory from the /temp directory:
 ```js
-x=${memory:file/"/temp/session.json"}
+x=${memory:"/temp/session.json"}
 ```
