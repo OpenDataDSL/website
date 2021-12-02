@@ -3,11 +3,11 @@ import styles from './Pricing.module.css';
 import { Button } from 'react-bootstrap';
 
 var prices = [
-    { name: "Storage", units: "GB/Hour", free: "0.005 (5Mb)", price: 0.1 },
-    { name: "API request", units: "Thousand Requests", free: "2 (2,000)", price: 0.01 },
-    { name: "Message", units: "Message", free: "1000", price: 0.01 },
-    { name: "Process", units: "Hours", free: "0.25 (15 Minutes)", price: 2.00 },
-    { name: "Subscription", units: "Fulfilled Subscription", free: "25", price: 0.05 }
+    { name: "Storage", units: "GB/Hour", free: "0.005 (5Mb)", price: "£ 0.10" },
+    { name: "API request", units: "Thousand Requests", free: "2 (2,000)", price: "£ 0.01" },
+    { name: "Message", units: "Message", free: "1000", price: "£ 0.01" },
+    { name: "Process", units: "Hours", free: "0.25 (15 Minutes)", price: "£ 2.00" },
+    { name: "Subscription", units: "Fulfilled Subscription", free: "25", price: "£ 0.05" }
 ];
 
 var levels = [
@@ -25,7 +25,7 @@ export function BasicPricingTable() {
                     <th><strong>Item</strong></th>
                     <th><strong>Units</strong></th>
                     <th><strong>FREE Usage</strong></th>
-                    <th><strong>Price</strong></th>
+                    <th><strong>Rate</strong></th>
                 </tr>
             </thead>
             <tbody>

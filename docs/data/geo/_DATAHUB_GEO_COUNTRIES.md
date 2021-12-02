@@ -1,3 +1,7 @@
+import {DataSet} from '/src/components/Schema'
+
+<DataSet name="DataHubIO Geo Countries" creator="DataHubIO" license="http://opendatacommons.org/licenses/pddl/1.0" description="Geojson polygons for all the world’s countries from DataHubIO" />
+
 Geojson polygons for all the world’s countries
 
 ## File Collection
@@ -11,7 +15,7 @@ Updated whenever it changes
 
 ## Type
 
-The EIA Crude Oil and Petroleum Products Spot updates are stored under the type #Location
+The GeoJSON countries are stored under the type #Location
 
 ## Data Id and Name
 

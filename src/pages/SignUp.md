@@ -1,3 +1,7 @@
+---
+title: SignUp
+description: How to sign up to OpenDataDSL
+---
 How to sign up to OpenDataDSL
 =======
 

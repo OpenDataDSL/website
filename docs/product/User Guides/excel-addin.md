@@ -4,4 +4,7 @@ slug: /user/excel
 ---
 Excel Add-in
 ===========================
+import {Excel} from '/src/components/Schema'
+
+<Excel />
 

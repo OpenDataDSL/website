@@ -1,8 +1,11 @@
-About Us
-=====
+---
+title: About
+description: About Us
+---
+# About Us
 
 ![](/img/logo128.png)
-OpenDataDSL[^1] is the data management programming language.
+OpenDataDSL is the data management programming language.
 
 ## Meet The Company
 
@@ -66,4 +69,6 @@ Her expertise is in data quality compliance, data analysis and converting busine
 
 Shubha now heads up the Data Operations team building out the OpenDataDSL public data repository and helping clients to build their proprietary data repository.
    
-[^1]: OpenDataDSL is the trading name of Walkfares Ltd. Registered in the UK no: 11489767
+<hr />
+
+*OpenDataDSL is the trading name of Walkfares Ltd. Registered in the UK no: 11489767*

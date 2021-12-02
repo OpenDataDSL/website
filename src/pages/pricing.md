@@ -1,3 +1,7 @@
+---
+title: Pricing
+description: Pricing information
+---
 import { BasicPricingTable, SupportLevels, PricingHeader } from '/src/components/Pricing.js';
 
 <PricingHeader />
@@ -56,28 +60,28 @@ Their cost calculation:
 
 |Type|Consumed|Free|Billable|Rate|Cost|
 |-|-|-|-|-|-|
-|Subscription|30|25|5|0.05|0.25|
-|Message|1200|1000|200|0.01|2.00|
-|API|50,000|2,000|48,000|0.01|0.48|
+|Subscription|30|25|5|£ 0.05|£ 0.25|
+|Message|1200|1000|200|£ 0.01|£ 2.00|
+|API|50,000|2,000|48,000|£ 0.01|£ 0.48|
 
 **Total cost for the month £ 2.73**
 
 #### Company B
 Company B has processes to load data into their private storage.
-The processes run for 1 hour per day every business day, the storage used is averaged at 100Mb over the month.
+The processes run for 30 minutes per day every business day, the storage used is averaged at 100Mb over the month.
 They have 50 subscriptions producing 2500 message per month and their users make 1 million API calls per month.
 
 Their cost calculation:
 
 |Type|Consumed|Free|Billable|Rate|Cost|
 |-|-|-|-|-|-|
-|Subscription|50|25|25|0.05|1.25|
-|Message|2500|1000|1500|0.01|15.00|
-|API|1,000,000|2,000|998,000|0.01|9.98|
-|Storage|0.1 Gb|0.005|0.095 x 24 hours x 31 days = 70.68|0.1|7.07|
-|Process|20 Hours|0.25|19.75|2.00|39.5|
+|Subscription|50|25|25|£ 0.05|£ 1.25|
+|Message|2500|1000|1500|£ 0.01|£ 15.00|
+|API|1,000,000|2,000|998,000|£ 0.01|£ 9.98|
+|Storage|0.1 Gb|0.005|0.095 x 24 hours x 31 days = 70.68|£ 0.10|£ 7.07|
+|Process|10 Hours|0.25|9.75|£ 2.00|£ 19.50|
 
-**Total cost for the month: £ 72.80**
+**Total cost for the month: £ 52.80**
 
 ## Support Levels and Pricing
 
