@@ -36,7 +36,7 @@ Here is a list of the syntax for valid period codes
 |Day|ABS_DAY|2020D1022|
 |Relative day|“D” PERIOD|D01|
 |Day Ahead|ABS_DAYAHEAD|2020DA1022|
-|Relative Day Ahead|“DA“ PERIOS|DA01|
+|Relative Day Ahead|“DA“ PERIOD|DA01|
 
 ### Standard periods
 
