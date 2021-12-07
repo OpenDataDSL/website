@@ -8,10 +8,8 @@ tags:
   - countries
   - mapping
 ---
-
 DataHub GeoJSON
 ============================================================
-DataHub
 
 ## Overview
 

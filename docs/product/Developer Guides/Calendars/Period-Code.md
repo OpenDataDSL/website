@@ -17,6 +17,7 @@ Here is a list of the standard naming portions of period codes:
 |-|-|-|
 |ABS_YEAR|yyyy|2020|
 |ABS_DAY|ABS_YEAR D MONTH DAY|2020D1022|
+|ABS_DAYAHEAD|ABS_YEAR DA MONTH DAY|2020DA1022|
 |PERIOD|```[0-9]([0-9])*```|01|
 |MONTHNAME|3 char English month name|JAN|
 
@@ -34,6 +35,8 @@ Here is a list of the syntax for valid period codes
 |Relative hour|“H” PERIOD|H01|
 |Day|ABS_DAY|2020D1022|
 |Relative day|“D” PERIOD|D01|
+|Day Ahead|ABS_DAYAHEAD|2020DA1022|
+|Relative Day Ahead|“DA“ PERIOD|DA01|
 
 ### Standard periods
 

@@ -67,6 +67,10 @@ As well as the above, here are a selection of additional features:
 *   Utilise multiple environments in the cloud, e.g. DEV, TEST etc.
 *   Cloud scale infrastructure
     
+## Proprietary Data
+Below is a graphic showing how proprietary data and components are used within the OpenDataDSL architecture.
+All the red shaded items are owned and only accessible to a single client.
+![](/img/capability.png)
 
 ## What can it do for me?
 

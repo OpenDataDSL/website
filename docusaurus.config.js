@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Smart SAAS data management',
+  title: 'OpenDataDSL - Smart SAAS Data Management',
   tagline: 'A real-world solution for getting your DATA and PROCESSES in the CLOUD',
   url: 'https://www.opendatadsl.com',
   baseUrl: '/',
@@ -147,6 +147,10 @@ module.exports = {
         }
       },
     ],
+  ],
+  scripts: [
+    'https://ipmeta.io/plugin.js',
+    '/js/ipmeta.js'
   ],
   stylesheets: [{
     rel: "stylesheet",

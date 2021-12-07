@@ -200,3 +200,18 @@
     position:relative
 }
 
+.mc_div {
+  margin: auto;
+  margin-top: 15px;
+  width: 30%;
+  border: 1px solid green;
+  padding: 10px;
+}
+.mc_hidden {
+    position: absolute;
+    left: -5000px;
+}
+
+.hidden {
+    height: 0px;
+}

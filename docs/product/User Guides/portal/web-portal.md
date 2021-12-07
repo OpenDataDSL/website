@@ -7,6 +7,9 @@ tags:
   - portal
 ---
 import {InDepth} from '/src/components/Discovery.js';
+import {Portal} from '/src/components/Schema'
+
+<Portal />
 
 ## Accessing The Portal
 You can access the web portal from the `Portal` link on this web site or by clicking [here](https://portal.opendatadsl.com/).

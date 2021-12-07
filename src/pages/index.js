@@ -66,7 +66,21 @@ export default function Home() {
                     <a href="https://www.pinterest.co.uk/OpenDataDSL" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Pinterest.png" /></a>
                     <a href="https://www.instagram.com/opendatadsl" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Instagram.png" /></a>
                     <a href="https://vimeo.com/user155861440" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Vimeo.png" /></a>
-                    <iframe className="h-100 w-100" src="https://cdn.forms-content.sg-form.com/e54e36ad-1c51-11ec-872a-6677fa1e7091"/>
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
+                    <div className={styles.mc_div} id="mc_embed_signup">
+                        <form action="https://opendatadsl.us20.list-manage.com/subscribe/post?u=94ab649e417c079356b26adc3&amp;id=582c506efa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+                            <div id="mc_embed_signup_scroll">
+                            <label htmlFor="mce-EMAIL">Subscribe</label>
+                            <input type="email" defaultValue="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
+                            <div className={styles.mc_hidden} aria-hidden="true">
+                                <input type="text" name="b_94ab649e417c079356b26adc3_582c506efa" tabIndex="-1" defaultValue="" />
+                            </div>
+                            <div className="clear">
+                                <input type="submit" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
+                            </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
             </section>
@@ -74,6 +88,16 @@ export default function Home() {
             <div className={styles.section}>
                 <HomepageAbout />
             </div>
+
+            <div className={styles.hidden} itemscope itemtype="https://schema.org/WebSite">
+              <meta itemprop="url" content="https://www.opendatadsl.com/"/>
+              <form itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+                <meta itemprop="target" content="https://www.opendatadsl.com/search?q={search_term_string}"/>
+                <input itemprop="query-input" type="text" name="search_term_string" required/>
+                <input type="submit"/>
+              </form>
+            </div>
+
         </main>
     </Layout>
   );
