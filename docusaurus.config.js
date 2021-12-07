@@ -150,7 +150,7 @@ module.exports = {
   ],
   scripts: [
     'https://ipmeta.io/plugin.js',
-    './src/components/ipmeta.js'
+    '/js/ipmeta.js'
   ],
   stylesheets: [{
     rel: "stylesheet",
