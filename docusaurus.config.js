@@ -101,6 +101,10 @@ module.exports = {
               label: 'Legal Notices',
               to: '/legal/Legal-Notices',
             },
+            {
+              label: 'Register for our NewsLetter',
+              to: '/register',
+            },
           ],
         },
       ],
