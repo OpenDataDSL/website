@@ -89,11 +89,11 @@ export default function Home() {
                 <HomepageAbout />
             </div>
 
-            <div className={styles.hidden} itemscope itemtype="https://schema.org/WebSite">
-              <meta itemprop="url" content="https://www.opendatadsl.com/"/>
-              <form itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
-                <meta itemprop="target" content="https://www.opendatadsl.com/search?q={search_term_string}"/>
-                <input itemprop="query-input" type="text" name="search_term_string" required/>
+            <div className={styles.hidden} itemScope itemType="https://schema.org/WebSite">
+              <meta itemProp="url" content="https://www.opendatadsl.com/"/>
+              <form itemProp="potentialAction" itemScope itemType="https://schema.org/SearchAction">
+                <meta itemProp="target" content="https://www.opendatadsl.com/search?q={search_term_string}"/>
+                <input itemProp="query-input" type="text" name="search_term_string" required/>
                 <input type="submit"/>
               </form>
             </div>
