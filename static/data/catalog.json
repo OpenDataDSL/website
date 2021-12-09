@@ -312,7 +312,7 @@
         "tags": ["Commodity", "Agriculture"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Central Eastern European Gas Exchange",
         "providerType":"3rd Party Provider",
         "logo": "ceegex.svg",
@@ -338,7 +338,7 @@
         "tags": ["Commodity", "Natural Gas"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Hungarian Derivative Energy Exchange",
         "providerType":"3rd Party Provider",
         "logo": "hudex.svg",
@@ -351,7 +351,7 @@
         "tags": ["Commodity", "Natural Gas"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Hungarian Power Exchange",
         "providerType":"3rd Party Provider",
         "logo": "hupx.svg",
