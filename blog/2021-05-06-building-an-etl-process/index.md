@@ -28,12 +28,10 @@ We are going to create a simple type to store our FX data as follows:
 ForeignExchange = type
     // All foreign exchange (FX) data
     category as String()
+    source as String()
     product as String()
-    provider as String()
-    model as String()
     base as String()
     currency as String()
-    description as String() notfilter
 end
 save ${type:ForeignExchange}
 ```
@@ -59,9 +57,7 @@ ECB_FX = transform xml into ForeignExchange as fx
  SPOT = TimeSeries(xml.Cube.Cube.time, "BUSINESS", fx.rate)
  category = "Foreign Exchange"
  product = "ECB_FX"
- provider = "European Central Bank"
- model = "EUR" + fx.currency
- description = "ECB Euro FX reference rates EUR/" + fx.currency
+ source = "European Central Bank"
  base = "EUR"
  currency = fx.currency
 end
