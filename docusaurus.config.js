@@ -13,7 +13,6 @@ module.exports = {
   organizationName: 'OpenDataDSL', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
   themeConfig: {
-    gtag: {trackingID: 'UA-211987172-1'},
     colorMode: { disableSwitch: true},
     navbar: {
       title: 'OpenDataDSL',
@@ -135,6 +134,7 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        gtag: {trackingID: 'UA-211987172-1'},
         docs: {
           sidebarPath: require.resolve('./sidebars.js')
         },
@@ -153,8 +153,6 @@ module.exports = {
     ],
   ],
   scripts: [
-    'https://ipmeta.io/plugin.js',
-    '/js/ipmeta.js'
   ],
   stylesheets: [{
     rel: "stylesheet",
