@@ -66,7 +66,7 @@ import styles from '/src/components/StartBuilding.module.css';
     <Card className="bg-danger text-white" style={{width:"9rem"}}>
         <Card.Header ><b> Advanced</b></Card.Header>
             <Card.Body>
-              <Card.Text>Interacting with remote services.</Card.Text>
+              <Card.Text>Loading data, analytics and automation.</Card.Text>
               <br />
               <FontAwesomeIcon icon={faCertificate} />
               <FontAwesomeIcon icon={faCertificate} />
