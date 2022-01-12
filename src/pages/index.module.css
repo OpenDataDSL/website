@@ -69,6 +69,10 @@
   font-weight: 400;
 }
 
+.smallsectionskip {
+  background-color: #222;
+  padding: 0.2rem 0;
+}
 .sectionskip {
   padding: 3rem 0;
 }
