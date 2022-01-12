@@ -282,6 +282,14 @@ Used as part of an option to ignore errors
 ```js
 on error ignore
 ```
+### import
+
+Used at the beginning of a script to import the user defined functions from another script.
+
+```js
+import ${script:"#CurveScript"}
+```
+
 ### in
 
 Used in a for statement when iterating through a [list](/docs/odsl/variable/list)

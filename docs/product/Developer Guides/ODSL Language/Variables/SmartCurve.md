@@ -42,6 +42,9 @@ You construct a Smart Curve using one of the following constructors:
 // Default constructor
 sc = SmartCurve()
 
+// Specify base curve id and expression
+sc = SmartCurve("CORN:CURVE", "interpolate(BASE,'BACKWARD')")
+
 // Specify base curve and expression
 sc = SmartCurve(${data:"CORN:CURVE"}, "interpolate(BASE,'BACKWARD')")
 
@@ -55,7 +58,7 @@ A SmartCurve has the following properties:
 
 |**Name**|**Description**|**Type**|
 |-|-|-|
-|baseCurve|The curve that this Smart Curve uses for CurveDates|Curve or Reference|
+|baseCurve|The curve that this Smart Curve uses for CurveDates|ID String, Curve or Reference|
 |expression|The expression used to generate the curves|String|
 |script|Optional custom script name used with the expression|String|
 |currency|Optional currency of the curves, defaults to base curve currency|String|
@@ -68,7 +71,7 @@ If a currency and/or units are set, the base curve and any other curves added to
 A SmartCurve also supports adding dynamic properties, e.g.
 
 ```js
-sc = SmartCurve(ref(${data:"SMART_TEST:CURVE"}), "BASE*1.02")
+sc = SmartCurve("SMART_TEST:CURVE", "BASE*1.02")
 sc.product = "CORN"
 ```
 
@@ -78,13 +81,13 @@ Here are some examples of using properties within the Smart Curve expression:
 ```js
 // Example using another curve
 sc1 = SmartCurve()
-sc1.baseCurve=ref(${data:"#DCE.AG.CN.A.NO1_SOYBEAN.FUT:HIGH"})
+sc1.baseCurve="#DCE.AG.CN.A.NO1_SOYBEAN.FUT:HIGH"
 sc1.LOW=ref(${data:"#DCE.AG.CN.A.NO1_SOYBEAN.FUT:LOW"})
 sc1.expression="(BASE+LOW)/2"
 
 // Example using a numeric factor
 sc2 = SmartCurve()
-sc2.baseCurve=ref(${data:"#DCE.AG.CN.A.NO1_SOYBEAN.FUT:HIGH"})
+sc2.baseCurve="#DCE.AG.CN.A.NO1_SOYBEAN.FUT:HIGH"
 sc2.factor=1.2
 sc2.expression="BASE*factor"
 ```
@@ -101,7 +104,7 @@ Below is an example of creating a Smart Curve and building a curve for a specifi
 
 ```js
 sc1 = SmartCurve()
-sc1.baseCurve=ref(${data:"#DCE.AG.CN.A.NO1_SOYBEAN.FUT:HIGH"})
+sc1.baseCurve="#DCE.AG.CN.A.NO1_SOYBEAN.FUT:HIGH"
 sc1.factor=1.2
 sc1.expression="BASE*factor"
 
@@ -116,9 +119,7 @@ A SmartCurve needs to be added to an object in order to save it to the database,
 CORN_TEST = Object()
 CORN_TEST.category = "TEST"
 
-cf = SmartCurve()
-cf.baseCurve=ref(${data:"#MATBAROFEX.ROS.CORN.FUT:CLOSE"})
-cf.expression="interpolate(bootstrapCurve(BASE),'BACKWARD')"
+cf = SmartCurve("#MATBAROFEX.ROS.CORN.FUT:CLOSE", "interpolate(bootstrapCurve(BASE),'BACKWARD')")
 CORN_TEST.CURVE = cf
 
 save ${object: CORN_TEST}
@@ -147,7 +148,7 @@ Define our curve using this custom script:
 
 ```js
 SOYBEAN = Object()
-SOYBEAN.CURVE = SmartCurve(${data:"#DCE.AG.CN.A.NO1_SOYBEAN.FUT:CLOSE"}, "agricultural(BASE)")
+SOYBEAN.CURVE = SmartCurve("#DCE.AG.CN.A.NO1_SOYBEAN.FUT:CLOSE", "agricultural(BASE)")
 SOYBEAN.CURVE.script = "SmartCurveCustomScript"
 ```
 
