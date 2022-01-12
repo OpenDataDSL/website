@@ -30,7 +30,7 @@ import Shape from '/docs/product/developer/odsl/Functions/all/_shape.md';
 <Shape  />
 
 ## SmartCurve Functions
-```#CurveScript``` is the default script used for expressions in [Smart Curves](/doc/odsl/variable/smartcurve).
+```#CurveScript``` is the default script used for expressions in [Smart Curves](/docs/odsl/variable/smartcurve).
 
 ### bootstrap
 bootstrap is a shortcut version of [bootstrapCurve](#bootstrapcurve) which creates an arbitrage-free monthly curve from an input curve containing any number of:

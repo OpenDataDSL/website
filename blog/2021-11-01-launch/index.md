@@ -7,7 +7,7 @@ tags: [data, product, odsl]
 
 <div className="row">
   <div className="column">
-    <iframe src="https://player.vimeo.com/video/639847187" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/639847187" width="640" height="564" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
   </div>
   <div className="column">
   <h2>New Website Launch</h2>
