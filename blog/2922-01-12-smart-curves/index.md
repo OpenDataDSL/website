@@ -35,10 +35,14 @@ A basic Smart Curve consists of:
 
 ## What is the SMART Part?
 The base curve provides the dates for which the Smart Curve exists. 
+
 When a Smart Curve Date is requested for the first time, the expression is evaluated and a Forward Curve is built.
 Each subsequent call to the same date of the Smart Curve returns the cached Forward Curve.
 
-## More Complex Calculations?
+Any changes to the input data for a specific date clears the cached copy of the Smart Curve for that date.
+Any changes to the Smart Curve configuration clears the entire cache for that Smart Curve. 
+
+## More Complex Calculations
 Even though you simply use an expression to generate the curve, you can write some complex code behind the expression to create any type of Forward Curve.
 
 More complex Smart Curves can include:
@@ -73,7 +77,7 @@ SOYBEAN.CURVE.script = "SmartCurveCustomScript"
 save ${object:SOYBEAN}
 ```
 
-### Additional Curve Inputs?
+### Additional Curve Inputs
 You can add references to other Scalar, TimeSeries, Forward Curves or Smart Curves directly on the Smart Curve and reference them in the expression.
 
 ```js
@@ -115,3 +119,6 @@ c1 = cf.build("2022-01-07")
 print c1.contracts
 ```
 
+## Further Reading
+* [Smart Curve Variable](/docs/odsl/variable/smartcurve)
+* [Standard Curve Building Functions](/docs/public/scripts/curve-building)
