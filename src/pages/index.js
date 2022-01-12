@@ -51,7 +51,11 @@ function Video() {
 function SmartCurves() {
     return (
         <div className="row">
-            <img src="/img/home/SmartCurvesBanner.png" />
+            <picture>
+                  <source media="(max-width: 640px)" srcset="/img/home/SmartCurvesBanner-mobile.png" />
+                  <source media="(min-width: 641px)" srcset="/img/home/SmartCurvesBanner.png" />
+                  <img src="/img/home/SmartCurvesBanner.png" />
+            </picture>
         </div>
     );
 }
