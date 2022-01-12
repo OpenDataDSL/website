@@ -6,11 +6,11 @@ tags:
   - curve
   - odsl
 ---
-import AsMonths from '/docs/product/developer guides/odsl language/functions/all/_asMonths.md';
-import BootstrapCurve from '/docs/product/developer guides/odsl language/functions/all/_bootstrapCurve.md';
-import ExtendCurve from '/docs/product/developer guides/odsl language/functions/all/_extendCurve.md';
-import ForwardFillCurve from '/docs/product/developer guides/odsl language/functions/all/_forwardFillCurve.md';
-import Shape from '/docs/product/developer guides/odsl language/functions/all/_shape.md';
+import AsMonths from '/docs/product/developer/odsl/Functions/all/_asMonths.md';
+import BootstrapCurve from '/docs/product/developer/odsl/functions/all/_bootstrapCurve.md';
+import ExtendCurve from '/docs/product/developer/odsl/functions/all/_extendCurve.md';
+import ForwardFillCurve from '/docs/product/developer/odsl/functions/all/_forwardFillCurve.md';
+import Shape from '/docs/product/developer/odsl/functions/all/_shape.md';
 
 ## Built-In Functions
 
