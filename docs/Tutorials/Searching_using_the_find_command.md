@@ -130,7 +130,7 @@ pactions = find ${action:public} where category = "extractors"
 
 Finding all changes to a specific entity in a service that have happened today
 ```js
-records = find ${audit} where service="action" and id="test\_send\_batch" and timestamp > ${date:"today"} and timestamp < ${date:"tomorrow"}
+records = find ${audit} where service="action" and id="test_send_batch" and timestamp > ${date:"today"} and timestamp < ${date:"tomorrow"}
 ```
 Finding all changes after a point in time
 ```js
