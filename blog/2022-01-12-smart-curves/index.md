@@ -29,7 +29,7 @@ Smart Curves are the easiest way to create Energy and Commodity Forward Curves.
 A basic Smart Curve consists of:
 
 * A base curve which can be a curve or another Smart Curve
-* An expression which is used to generate the curve
+* An expression which is used to generate a Forward Curve for every date
 
 ![](/img/blog/BasePlusExpression.png)
 
