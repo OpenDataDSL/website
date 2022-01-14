@@ -50,7 +50,7 @@ More complex Smart Curves can include:
 * An optional custom script name containing user definable functions
 * Optional references to other curves or data used in the expression
 
-You write the custom functions in ODSL Scripts and upload them to the database.
+You write the custom functions in [ODSL Scripts](/docs/odsl) and upload them to the database.
 Simple coding like:
 
 ```js
@@ -107,12 +107,10 @@ sc1.units = "MT"
 ```
 
 ## Testing Smart Curves
-You can create and test Smart Curves directly using ODSL code in the VSCode development environment:
+You can create and test Smart Curves directly using ODSL code in the [VSCode development environment](/docs/user/vscode):
 
 ```js
-cf = SmartCurve()
-cf.baseCurve=ref("#MATBAROFEX.ROS.CORN.FUT:CLOSE")
-cf.expression="interpolate(bootstrapCurve(BASE),'BACKWARD')"
+cf = SmartCurve("#MATBAROFEX.ROS.CORN.FUT:CLOSE", "interpolate(bootstrapCurve(BASE),'BACKWARD')")
 
 // Build a curve dynamically for a date
 c1 = cf.build("2022-01-07")
@@ -120,5 +118,8 @@ print c1.contracts
 ```
 
 ## Further Reading
+* [Smart Curve Tutorial](/docs/tutorials/smart-curves)
 * [Smart Curve Variable](/docs/odsl/variable/smartcurve)
 * [Standard Curve Building Functions](/docs/public/scripts/curve-building)
+* [VSCode extension](/docs/user/vscode)
+* [Coding in ODSL](/docs/odsl)

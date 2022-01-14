@@ -30,6 +30,9 @@ This tutorial takes a detailed look at subscribing to some data in OpenDataDSL w
 
 ## Working with
 
+#### [Working with Smart Curves in OpenDataDSL](/docs/tutorials/smart-curves)
+This tutorial explores a using SmartCurves in the OpenDataDSL language, REST API and the Web Portal
+
 #### [Working with TimeSeries in OpenDataDSL](/docs/tutorials/workingtimeseries)
 This tutorial explores a few aspects of TimeSeries in the OpenDataDSL language
 
