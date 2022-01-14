@@ -25,13 +25,25 @@ Smart Curves are the easiest way to create Energy and Commodity Forward Curves.
 ## Smart Curves are built on demand and cached for future requests.
 :::
 
-## Creating Smart Curves
-A basic Smart Curve consists of:
-
-* A base curve which can be a curve or another Smart Curve
-* An expression which is used to generate a Forward Curve for every date
+### What are Smart Curves?
+Smart Curves are simply a Forward Curve with an expression applied to it.
 
 ![](/img/blog/BasePlusExpression.png)
+
+This may seem too simple - but the power of what you can do in the expression makes this suitable for the generation of any type of Forward Curve.
+
+### Advantages
+
+|Feature|Details|
+|-|-|
+|**Simple**|A simple configuration to create Smart Curves from any Forward Curve|
+|**Configurable**|Utilise any other data (Curves/TimeSeries/Scalars)|
+|**Powerful**|Expressions can be curve operations, built-in functions or your own custom functions|
+|**Scalable**|Smart Curves are extremely lightweight and built on demand so are infinitely scalable|
+|**Fast**|Smart Curves are ready as soon as the input data is updated|
+|**Low Cost**|No costly processes to run to build curves - curves are built on-demand|
+|**Customizable**|Create you own algorithms|
+|**Hierarchical**|Smart Curves can be based on other Smart Curves|
 
 ## What is the SMART Part?
 The base curve provides the dates for which the Smart Curve exists. 
