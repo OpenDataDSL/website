@@ -23,7 +23,7 @@ Once Smart Curves are available in the [Web Portal](/docs/user/portal) and the [
 :::
 
 ## Creating Basic Smart Curves
-A Smart Curve can be created independently in ODSL code, but in order to save it to the database, you must add it to an [Object](/docs/odsl/variables/object).
+A Smart Curve can be created independently in ODSL code, but in order to save it to the database, you must add it to an [Object](/docs/odsl/variable/object).
 
 The object can be a basic object or an object created from a [Type](/docs/odsl/dm/modelling#types-and-objects)
 
