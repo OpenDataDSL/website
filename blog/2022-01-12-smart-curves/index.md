@@ -3,6 +3,7 @@ slug: smartcurves
 title: SmartCurves
 authors: [chartley]
 tags: [smartcurve, curve]
+image: /img/blog/SmartCurves.png
 ---
 
 <div className="row">
