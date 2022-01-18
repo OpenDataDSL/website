@@ -8,16 +8,24 @@ Release Notes
 
 Check here for details of our releases (both historic and upcoming)
 
-#### Upcoming Release in December 2021
+#### Upcoming Release in January 2022
+
+#### Smart Curves
+The exciting introduction of [Smart Curves](/docs/odsl/variable/smartcurve) allowing you to create on-demand curves without using a Curve Builder.
 
 #### Excel Add-in
 Initial release of the Excel Add-in which will allow you to:
-* Retrieve and update Objects
-* Retrieve and update TimeSeries and Curves
+* Retrieve and update [Objects](/docs/odsl/variable/object)
+* Retrieve and update [TimeSeries](/docs/odsl/variable/timeseries), [Curves](/docs/odsl/variable/curve) and [SmartCurves](/docs/odsl/variable/smartcurve)
+
+
+<details>
+<summary>December 2021</summary>
 
 #### Command Line Interface
 Initial release of the CLI which will allow you to run scripts locally and initiate interactive sessions
 
+</details>
 <details>
 <summary>November 2021</summary>
 

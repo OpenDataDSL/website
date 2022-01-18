@@ -7,7 +7,7 @@ tags:
 Expiry Calendar
 ===============
 
-An expiry calendar is used to calculate the last trading date and the conversion of absolute and relative futures contracts
+An expiry calendar is used to calculate the last trading date, delivery dates and the conversion of absolute and relative futures contracts
 
 ## Introduction
 
@@ -139,6 +139,20 @@ e.g.
 
 ```js
 ... except if the first day of the month is a Monday then ...
+```
+
+## Delivery Rules
+You can override the logic for calculating the start and end of delivery for specific period codes using the delivery rule syntax:
+
+```js
+delivery (starts|ends) (on)? (at)? (the)? moveperiod (align)? (for periodcode)? (timelimit)?;
+
+moveperiod: ("beginning"|"end"|date suffix) "of the" ("previous"|"current"|"next")? TIME
+```
+
+An example for ICE Low Sulphur Gasoil Futures where the start of delivery is always the 16th of the delivery month:
+```js
+delivery starts on the 16th of the current month
 ```
 
 ## Creating an expiry calendar

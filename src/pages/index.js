@@ -48,13 +48,31 @@ function Video() {
 );
 }
 
+function SmartCurves() {
+    return (
+        <div className="row">
+            <a href="/blog/smartcurves">
+                <picture>
+                      <source media="(max-width: 640px)" srcset="/img/home/SmartCurvesBanner-mobile.png" />
+                      <source media="(min-width: 641px)" srcset="/img/home/SmartCurvesBanner.png" />
+                      <img src="/img/home/SmartCurvesBanner.png" />
+                </picture>
+            </a>
+        </div>
+    );
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
             <Video />
+            <div className={styles.smallsectionskip} />
             <HomepageFeatures />
+            <div className={styles.smallsectionskip} />
+            <SmartCurves />
+            <div className={styles.smallsectionskip} />
 
             <section className={styles.stayintouch}>
             <h1>Stay In Touch</h1>
@@ -85,10 +103,12 @@ export default function Home() {
             </div>
             </section>
 
+            <div className={styles.smallsectionskip} />
             <div className={styles.section}>
                 <HomepageAbout />
             </div>
 
+            <div className={styles.smallsectionskip} />
             <div className={styles.hidden} itemScope itemType="https://schema.org/WebSite">
               <meta itemProp="url" content="https://www.opendatadsl.com/"/>
               <form itemProp="potentialAction" itemScope itemType="https://schema.org/SearchAction">
