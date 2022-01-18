@@ -116,6 +116,7 @@ sc1.LOW = ref("data", "#DCE.AG.CN.A.NO1_SOYBEAN.FUT:LOW")
 // Convert to EUR/MT
 sc1.currency = "EUR"
 sc1.units = "MT"
+sc1.density = 720
 ```
 
 ## Testing Smart Curves
