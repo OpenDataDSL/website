@@ -28,6 +28,7 @@ module.exports = {
         {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'left'}
       ],
     },
+    metadata: [{name: 'keywords', content: 'smart, smart curves, forward curves, market data, commodity, energy, timeseries, data management, blog'}],
     footer: {
       style: 'dark',
       links: [
