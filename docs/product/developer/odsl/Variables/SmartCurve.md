@@ -29,10 +29,10 @@ The expression is also mandatory and is a string formula used to build the curve
 ### Script
 The script is an optional saved custom script with user defined functions. 
 These functions can then be used in the expression.
-The function script can also import the default #CurveScript, so your functions can use those too.
+The function script can also `import` the default #CurveScript, so your functions can use those too.
 
-### References to other curves
-You can optionally add references to other curves or Smart Curves that can also be used in your expression
+### References to other data
+You can optionally add references to other curves, Smart Curves or TimeSeries that can also be used in your expression
 
 ## Construction
 
@@ -75,7 +75,7 @@ sc = SmartCurve("SMART_TEST:CURVE", "BASE*1.02")
 sc.product = "CORN"
 ```
 
-Any dynamic properties added to a SmartCurve can be used in the expression including references to other curves.
+Any dynamic properties added to a SmartCurve can be used in the expression including references to other curves and TimeSeries.
 Here are some examples of using properties within the Smart Curve expression:
 
 ```js
