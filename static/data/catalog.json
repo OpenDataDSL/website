@@ -518,5 +518,31 @@
         "frequency": "Various",
         "link":"/docs/company/PLATTS",
         "tags": ["Commodity", "Natural Gas"," NEW"]
+    },
+    {
+        "type": "BYOL",
+        "provider": "Argus",
+        "providerType":"Public Company",
+        "logo": "argus.png",
+        "dataset": "Natural Gas",
+        "text": "Natural Gas",
+        "region": "Global",
+        "start": "2021",
+        "frequency": "Various",
+        "link":"/docs/company/ARGUS",
+        "tags": ["Commodity", "Natural Gas"," NEW"]
+    },
+    {
+        "type": "BYOL",
+        "provider": "Argus",
+        "providerType":"Public Company",
+        "logo": "argus.png",
+        "dataset": "Power",
+        "text": "Power",
+        "region": "Global",
+        "start": "2021",
+        "frequency": "Various",
+        "link":"/docs/company/ARGUS",
+        "tags": ["Commodity", "Power"," NEW"]
     }
 ]
