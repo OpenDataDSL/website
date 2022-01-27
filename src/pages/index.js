@@ -68,7 +68,7 @@ export default function Home() {
   return (
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
-            <CookieConsent overlay>We use cookies to personalise content and to analyse our traffic, continuing to use this site confirms your consent. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
+            <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
             <Video />
             <div className={styles.smallsectionskip} />
             <HomepageFeatures />
