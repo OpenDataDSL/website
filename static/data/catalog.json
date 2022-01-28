@@ -2,7 +2,7 @@
     {
         "type": "FREE",
         "provider": "Bank of England",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "boe.jpg",
         "dataset": "FX Rates",
         "text": "Bank of England FX Rates against GBP",
@@ -15,7 +15,7 @@
     {
         "type": "FREE",
         "provider": "European Central Bank",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "ecb.png",
         "dataset": "FX Reference Rates",
         "text": "ECB Reference rates against the Euro",
@@ -28,7 +28,7 @@
     {
         "type": "FREE",
         "provider": "Bank Negara Malaysia",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "bnm.gif",
         "dataset": "FX Rates",
         "text": "Central Bank of Malaysia FX Rates against MYR",
@@ -41,7 +41,7 @@
     {
         "type": "FREE",
         "provider": "Bank of New Zealand",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "bnz.png",
         "dataset": "FX Rates",
         "text": "Bank of New Zealand Spot Exchange Rates against NZD",
@@ -54,7 +54,7 @@
     {
         "type": "FREE",
         "provider": "Bank of Canada",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "boc.png",
         "dataset": "FX Rates",
         "text": "Bank of Canada Daily Exchange Rates against CAD",
@@ -67,7 +67,7 @@
     {
         "type": "FREE",
         "provider": "Bank of China",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "boch.png",
         "dataset": "FX Rates",
         "text": "Bank of China Daily Exchange Rates against CNY",
@@ -80,7 +80,7 @@
     {
         "type": "FREE",
         "provider": "Bank of South Africa",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "sarb.png",
         "dataset": "FX Rates",
         "text": "South African Reserve Bank Daily Exchange Rates against ZAR",
@@ -93,7 +93,7 @@
     {
         "type": "FREE",
         "provider": "Reserve Bank Of India",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "rbi.png",
         "dataset": "FX Rates",
         "text": "Reserve Bank Of India Daily Exchange Rates against INR",
@@ -106,7 +106,7 @@
     {
         "type": "FREE",
         "provider": "State Bank of Pakistan",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "sbp.png",
         "dataset": "FX Rates",
         "text": "State Bank of Pakistan Daily Exchange Rates against PKR",
@@ -119,7 +119,7 @@
     {
         "type": "FREE",
         "provider": "European Central Bank",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "ecb.png",
         "dataset": "Interest Rates",
         "text": "ECB Euro interest rates",
@@ -132,7 +132,7 @@
     {
         "type": "FREE",
         "provider": "Federal Reserve Board",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "effr.svg",
         "dataset": "Interest Rates",
         "text": "Effective Federal Funds Rate Over Night by the Federal Reserve Board",
@@ -145,7 +145,7 @@
     {
         "type": "FREE",
         "provider": "Bank of England",
-        "providerType":"Public Agency",
+        "providerType":"Financial Institutions",
         "logo": "boe.jpg",
         "dataset": "Interest Rates",
         "text": "Sterling Overnight Interbank Average Rate Daily",
@@ -157,21 +157,8 @@
     },
     {
         "type": "FREE",
-        "provider": "The European Money Markets Institute",
-        "providerType":"EURIBOR/EONIA",
-        "logo": "emmi.svg",
-        "dataset": "Interest Rates",
-        "text": "Market reference rates",
-        "region": "Europe",
-        "start": "2021",
-        "frequency": "BUSINESS",
-        "link":"/docs/data/ir#ecb_ir",
-        "tags": ["Financial",  "Interest Rates"]
-    },
-    {
-        "type": "FREE",
         "provider": "European Central Bank",
-        "providerType":"European Central Bank",
+        "providerType":"Financial Institutions",
         "logo": "ecb.png",
         "dataset": "Interest Rates",
         "text": "European overnight lending reference rates",
@@ -184,7 +171,7 @@
     {
         "type": "FREE",
         "provider": "ZuivelNL",
-        "providerType":"Trade Association",
+        "providerType":"Producers",
         "logo": "zuivelnl.jpg",
         "dataset": "Dairy Prices",
         "text": "Dutch dairy supply-chain quotations",
@@ -197,7 +184,7 @@
     {
         "type": "FREE",
         "provider": "Agriculture and Horticulture Development Board",
-        "providerType":"3rd Party Provider",
+        "providerType":"Public Agency",
         "logo": "ahdb.png",
         "dataset": "Dairy Prices",
         "text": "United Kingdom Wholesale Monthly Prices",
@@ -210,7 +197,7 @@
     {
         "type": "FREE",
         "provider": "CLAL.it Global Dairy Trade",
-        "providerType":"3rd Party Provider",
+        "providerType":"Publisher",
         "logo": "clalit.png",
         "dataset": "Dairy Prices",
         "text": "New Zealand Fonterra Coop Market Prices",
@@ -221,9 +208,9 @@
         "tags": ["Commodity", "Dairy Products"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Dalian Commodity Exchange",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "dce.jpg",
         "dataset": "Agriculture Futures",
         "text": "Dalian Commodity Exchange Agriculture Futures",
@@ -236,7 +223,7 @@
     {
         "type": "FREE",
         "provider": "European Energy Exchange AG",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "eex.png",
         "dataset": "Agricultural Indices",
         "text": "European Energy Exchange Agricultural Indices",
@@ -247,9 +234,9 @@
         "tags": ["Commodity", "Agriculture"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Euronext",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "euronext.svg",
         "dataset": "Agricultural Futures",
         "text": "Euronext Agricultural Futures",
@@ -261,8 +248,8 @@
     },
     {
         "type": "FREE",
-        "provider": "Matba Rofex",
-        "providerType":"3rd Party Provider",
+        "provider": "Matba Rofex SA",
+        "providerType":"Exchange",
         "logo": "matbarofex.png",
         "dataset": "Agricultural Futures",
         "text": "Mercado a Term de Buenos Aires SA Rosario Board of Trade Agricultural Futures",
@@ -275,7 +262,7 @@
     {
         "type": "FREE",
         "provider": "Eurostat",
-        "providerType":"3rd Party Provider",
+        "providerType":"Public Agency",
         "logo": "eurostat.svg",
         "dataset": "Agricultural",
         "text": "Eurostat Selling Prices of Agricultural Products",
@@ -288,7 +275,7 @@
     {
         "type": "FREE",
         "provider": "Brazilian Sugarcane Industry Association",
-        "providerType":"3rd Party Provider",
+        "providerType":"Producers",
         "logo": "unica.png",
         "dataset": "Agricultural",
         "text": "Brazilian Sugarcane industry production reports",
@@ -301,7 +288,7 @@
     {
         "type": "FREE",
         "provider": "The United States Department of Agriculture",
-        "providerType":"3rd Party Provider",
+        "providerType":"Public Agency",
         "logo": "usda.svg",
         "dataset": "Agricultural",
         "text": "The United States Department of Agriculture Production, Dairy Products Summary Monthly",
@@ -314,7 +301,7 @@
     {
         "type": "BYOL",
         "provider": "Central Eastern European Gas Exchange",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "ceegex.svg",
         "dataset": "Natural Gas",
         "text": "Hungary Natural Gas Prices",
@@ -327,7 +314,7 @@
     {
         "type": "FREE",
         "provider": "US Energy Information Administration",
-        "providerType":"3rd Party Provider",
+        "providerType":"Public Agency",
         "logo": "eia.jfif",
         "dataset": "Natural Gas",
         "text": "US Energy Information Administration Natural Gas Prices",
@@ -340,7 +327,7 @@
     {
         "type": "BYOL",
         "provider": "Hungarian Derivative Energy Exchange",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "hudex.svg",
         "dataset": "Natural Gas",
         "text": "Hungarian Derivative Energy Exchange Power Natural Gas Futures",
@@ -353,7 +340,7 @@
     {
         "type": "BYOL",
         "provider": "Hungarian Power Exchange",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "hupx.svg",
         "dataset": "Power",
         "text": "Hungarian Power Exchange Power Hourly Day Ahead Market",
@@ -366,7 +353,7 @@
     {
         "type": "FREE",
         "provider": "Italian Power Exchange (GME)",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "ipex_gme.gif",
         "dataset": "Power",
         "text": "Italian Power Exchange (GME) Power Futures",
@@ -377,9 +364,9 @@
         "tags": ["Commodity", "Power"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "The Iberian Energy Derivatives Exchange",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "omip.jpg",
         "dataset": "Power",
         "text": "The Iberian Energy Derivatives Exchange Power Futures",
@@ -390,9 +377,9 @@
         "tags": ["Commodity", "Power"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "The Iberian Energy Derivatives Exchange",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "omip.jpg",
         "dataset": "Natural Gas",
         "text": "The Iberian Energy Derivatives Exchange Natural Gas Futures",
@@ -403,9 +390,9 @@
         "tags": ["Commodity", "Natural Gas"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Power Exchange Central Europe",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "pxe.png",
         "dataset": "Power",
         "text": "Power Exchange Central Europe Power Futures",
@@ -416,9 +403,9 @@
         "tags": ["Commodity", "Power"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Power Exchange Central Europe",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "pxe.png",
         "dataset": "Natural Gas",
         "text": "Power Exchange Central Europe Natural Gas Futures",
@@ -429,9 +416,9 @@
         "tags": ["Commodity", "Natural Gas"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Polish Power Exchange",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "tge.png",
         "dataset": "Power",
         "text": "Polish Power Exchange Power Futures",
@@ -439,12 +426,12 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/TGE",
-        "tags": ["Commodity", "Power", " NEW"]
+        "tags": ["Commodity", "Power"]
     },
     {
-        "type": "FREE",
+        "type": "BYOL",
         "provider": "Polish Power Exchange",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "tge.png",
         "dataset": "Natural Gas",
         "text": "Polish Power Exchange Natural Gas Futures",
@@ -452,12 +439,12 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/TGE",
-        "tags": ["Commodity", "Natural Gas", " NEW"]
+        "tags": ["Commodity", "Natural Gas"]
     },
     {
         "type": "FREE",
         "provider": "Gestore Mercati Energetici",
-        "providerType":"3rd Party Provider",
+        "providerType":"Exchange",
         "logo": "ipex_gme.gif",
         "dataset": "Natural Gas",
         "text": "Gestore Mercati Energetici Italy Natural Gas DayAhead Prices",
@@ -465,7 +452,7 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/GME",
-        "tags": ["Commodity", "Natural Gas", " NEW"]
+        "tags": ["Commodity", "Natural Gas"]
     },
     {
         "type": "FREE",
@@ -496,7 +483,7 @@
     {
         "type": "BYOL",
         "provider": "S&P Global Platts",
-        "providerType":"Public Company",
+        "providerType":"Price Reporting Agency",
         "logo": "platts.png",
         "dataset": "Oil",
         "text": "Oil Derivatives",
@@ -509,7 +496,7 @@
     {
         "type": "BYOL",
         "provider": "S&P Global Platts",
-        "providerType":"Public Company",
+        "providerType":"Price Reporting Agency",
         "logo": "platts.png",
         "dataset": "Natural Gas",
         "text": "Natural Gas",
@@ -522,7 +509,7 @@
     {
         "type": "BYOL",
         "provider": "Argus",
-        "providerType":"Public Company",
+        "providerType":"Price Reporting Agency",
         "logo": "argus.png",
         "dataset": "Natural Gas",
         "text": "Natural Gas",
@@ -535,7 +522,7 @@
     {
         "type": "BYOL",
         "provider": "Argus",
-        "providerType":"Public Company",
+        "providerType":"Price Reporting Agency",
         "logo": "argus.png",
         "dataset": "Power",
         "text": "Power",
