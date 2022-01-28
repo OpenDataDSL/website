@@ -5,11 +5,13 @@ tags:
   - oil
   - energy
   - global
-  - natural_gas
+  - power
+  - gas
   - products
+  - crude
 ---
 
-PLATTS
+Platts
 ============================================================
 
 S&P Global Platts

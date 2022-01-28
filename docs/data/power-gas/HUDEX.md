@@ -3,7 +3,7 @@ slug: /company/HUDEX
 tags:
   - hudex
   - power
-  - natural_gas
+  - gas
   - hungary
   - futures
 ---

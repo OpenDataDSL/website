@@ -1,11 +1,13 @@
 ---
 slug: /company/OMIP
+tags:
   - omip
   - power
   - futures
   - spain
   - portugal
 ---
+
 OMIP
 ============================================================
 Iberian Electricity Market 
