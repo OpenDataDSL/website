@@ -601,13 +601,13 @@
         "type": "FREE",
         "provider": "The International Monetary Fund",
         "providerType":"Financial Institutions",
-        "logo": "imf.svg",
+        "logo": "imf.png",
         "dataset": "Agriculture",
         "text": "The International Monetary Fund Agriculture Spot and Index Price",
         "region": "United States",
         "start": "2021",
         "frequency": "BUSINESS",
-        "link":"/docs/company/imf",
+        "link":"/docs/company/IMF",
         "tags": ["Commodity", "Agriculture"," NEW"]
     }
 ]
