@@ -503,7 +503,7 @@
         "region": "Global",
         "start": "2021",
         "frequency": "Various",
-        "link":"/docs/company/PLATTS",
+        "link":"/docs/company/Platts",
         "tags": ["Commodity", "Oil"," NEW"]
     },
     {
@@ -516,7 +516,7 @@
         "region": "Global",
         "start": "2021",
         "frequency": "Various",
-        "link":"/docs/company/PLATTS",
+        "link":"/docs/company/Platts",
         "tags": ["Commodity", "Natural Gas"," NEW"]
     },
     {
@@ -529,7 +529,7 @@
         "region": "Global",
         "start": "2021",
         "frequency": "Various",
-        "link":"/docs/company/ARGUS",
+        "link":"/docs/company/Argus",
         "tags": ["Commodity", "Natural Gas"," NEW"]
     },
     {
@@ -542,7 +542,7 @@
         "region": "Global",
         "start": "2021",
         "frequency": "Various",
-        "link":"/docs/company/ARGUS",
+        "link":"/docs/company/Argus",
         "tags": ["Commodity", "Power"," NEW"]
     },
     {
