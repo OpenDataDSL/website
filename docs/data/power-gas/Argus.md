@@ -29,3 +29,12 @@ Prices assessed by Argus for energy, fertilizer, metals, petrochemicals and agri
 
 
 For more information, visit https://www.argusmedia.com
+
+## Datasets
+|Code|Name|
+|-|-|
+|ARGUS_DNG|Argus European Natural Gas|
+|ARGUS_DMC|Argus Asia & Midday European Crude|
+|ARGUS_DEL|Argus European Electricity|
+|ARGUS_DPG|Argus International LPG|
+|ARGUS_FCE|Argus North American Electricity Forward Curves|

@@ -25,3 +25,10 @@ A division of S&P Global, S&P Global Platts is headquartered in London and emplo
 From an original focus on petroleum, they now cover oil, natural gas, LNG, electric power, coal, shipping, petrochemicals, metals, agriculture, and energy transition. Each day we publish news, commentary, fundamental market data and analytics, and thousands of daily price assessments that are widely used as benchmarks in the physical and futures markets.
 
 For more information, visit https://www.spglobal.com/platts/en
+
+## Datasets
+|Code|Name|
+|-|-|
+|PLATTS_EB|Platts Oil Products: European Bulk|
+|PLATTS_DR|Platts Derivatives: Petroleum EMEA|
+|PLATTS_GDC|Platts M2MS: 120-month Gas forward curves US Gulf Coast|
