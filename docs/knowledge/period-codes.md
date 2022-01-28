@@ -113,3 +113,13 @@ Here is a list of the syntax for valid period codes
 |-|-|-|
 |Absolute spread|period “-” period|2021Y-2022Y|
 |Relative spread|period “-” period|M01-M02|
+
+### Custom
+You can create `custom` period codes where you can specify the following:
+* Relative code
+* Absolute code
+* Start of delivery
+* End of delivery
+* Expiry/Last trade date
+
+These custom codes can be used for one-off strange periods or in the case that the required period isn't supported in the list above.

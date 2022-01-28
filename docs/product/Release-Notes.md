@@ -8,16 +8,35 @@ Release Notes
 
 Check here for details of our releases (both historic and upcoming)
 
-#### Upcoming Release in January 2022
+## Upcoming Release in February 2022
 
-#### Smart Curves
-The exciting introduction of [Smart Curves](/docs/odsl/variable/smartcurve) allowing you to create on-demand curves without using a Curve Builder.
+#### Smart TimeSeries
+The exciting introduction of Smart TimeSeries allowing you to create on-demand TimeSeries using a formula/expression.
+
+#### Portal Smart Curves and TimeSeries
+A new `Smart Data` section in the portal to 'play around' with Smart Curves and TimeSeries and save them to the Database.
 
 #### Excel Add-in
 Initial release of the Excel Add-in which will allow you to:
 * Retrieve and update [Objects](/docs/odsl/variable/object)
-* Retrieve and update [TimeSeries](/docs/odsl/variable/timeseries), [Curves](/docs/odsl/variable/curve) and [SmartCurves](/docs/odsl/variable/smartcurve)
+* Retrieve and update [TimeSeries](/docs/odsl/variable/timeseries), [Curves](/docs/odsl/variable/curve), [Smart Curves](/docs/odsl/variable/smartcurve) and Smart TimeSeries
 
+#### Gas Days
+A new calendar supporting Gas Day hourly data aggregation and reporting.
+
+## Release History
+
+<details>
+<summary>January 2022</summary>
+
+#### Smart Curves
+The exciting introduction of [Smart Curves](/docs/odsl/variable/smartcurve) allowing you to create on-demand curves without using a Curve Builder.
+
+#### Custom Period Codes
+Support for custom, one-off and special period codes for use on contracts on Curves.
+See [documentation](/docs/kb/pc#custom)
+
+</details>
 
 <details>
 <summary>December 2021</summary>

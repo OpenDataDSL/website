@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import {HomepageFeatures, HomepageAbout} from '../components/HomepageFeatures';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
+import CookieConsent from "react-cookie-consent";
 
 function Video() {
     return (
@@ -67,6 +68,7 @@ export default function Home() {
   return (
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
+            <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
             <Video />
             <div className={styles.smallsectionskip} />
             <HomepageFeatures />
@@ -117,6 +119,7 @@ export default function Home() {
                 <input type="submit"/>
               </form>
             </div>
+
 
         </main>
     </Layout>

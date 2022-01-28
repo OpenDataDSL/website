@@ -95,6 +95,10 @@ A VirtualList is a list that is paged to improve performance and is used with th
 ---------------------------------------
 A timeseries is a list of values which are indexed by dates. A timeseries could be the price of a particular stock recorded at a certain time of each day (say the time that the stock exchange closes)
 
+### [Smart TimeSeries](smarttimeseries)
+A Smart TimeSeries is an expression that is used to build TimeSeries on demand
+
+
 ### [TimeValue](TimeValue)
 A TimeValue represents a single observed value in a [timeseries](TimeSeries)
     
@@ -102,6 +106,9 @@ A TimeValue represents a single observed value in a [timeseries](TimeSeries)
 ### [Curve](Curve)
 ---------------------------------------
 A curve is a structure that represents a set of values with a time index sometime in the future. It can be used for commodity and financial forward curves, yield curves and forecasts (weather, prices etc.)
+
+### [SmartCurve](SmartCurve)
+A Smart Curve is an expression that is used to build curves on demand
 
 ### [CurveDate](CurveDate)
 A CurveDate is used as the valuation [date](Date) of a curve. It is a date with an [expiry calendar](ExpiryCalendar)
