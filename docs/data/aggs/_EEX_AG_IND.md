@@ -75,8 +75,8 @@ Examples of data Id and names:
 |Currency|USD|
 |Unit|MT|
 |Market|Agriculture|
-|Commodity|Agriculture,Dairy|
-|Product|Butter,Potato,SMP,Whey,Milk|
+|Commodity|Agriculture|
+|Product|Dairy|
 |Location|Germany,The Netherlands,France,Denmark|
 |Region|Europe|
 |Quote Calendar|Sparse|
