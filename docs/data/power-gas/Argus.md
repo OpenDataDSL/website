@@ -9,6 +9,7 @@ tags:
   - gas
   - products
   - coal
+  - freight
   - forward_curves
 ---
 
@@ -31,10 +32,101 @@ Prices assessed by Argus for energy, fertilizer, metals, petrochemicals and agri
 For more information, visit https://www.argusmedia.com
 
 ## Datasets
-|Code|Name|
-|-|-|
-|ARGUS_DNG|Argus European Natural Gas|
-|ARGUS_DMC|Argus Asia & Midday European Crude|
-|ARGUS_DEL|Argus European Electricity|
-|ARGUS_DPG|Argus International LPG|
-|ARGUS_FCE|Argus North American Electricity Forward Curves|
+import ArgusDng from './_ARGUS_DNG.md';
+import ArgusDel from './_ARGUS_DEL.md';
+import ArgusDpg from './_ARGUS_DPG.md';
+import ArgusDlng from './_ARGUS_DLNG.md';
+import ArgusFce from './_ARGUS_FCE.md';
+import ArgusDmc from '../oil-products/_ARGUS_DMC.md';
+import ArgusDamgio from '../oil-products/_ARGUS_DAMGIO.md';
+import ArgusDhc from '../oil-products/_ARGUS_DHC.md';
+import ArgusDhp from '../oil-products/_ARGUS_DHP.md';
+import ArgusDlc from '../oil-products/_ARGUS_DLC.md';
+import ArgusDamcoal from '../coal-emission/_ARGUS_DAMCOAL.md';
+import ArgusDci from '../coal-emission/_ARGUS_DCI.md';
+import ArgusDeem from '../coal-emission/_ARGUS_DEEM.md';
+import ArgusDfr from '../freight/_ARGUS_DFR.md';
+
+### ARGUS_DNG
+<details>
+<summary>Argus European Natural Gas</summary>
+<ArgusDng />
+</details>
+
+### ARGUS_DEL
+<details>
+<summary>Argus European Electricity</summary>
+<ArgusDel />
+</details>
+
+### ARGUS_DPG
+<details>
+<summary>Argus International LPG</summary>
+<ArgusDpg />
+</details>
+
+### ARGUS_DLNG
+<details>
+<summary>Argus Global LNG</summary>
+<ArgusDlng />
+</details>
+
+### ARGUS_FCE
+<details>
+<summary>Argus North American Electricity Forward Curves</summary>
+<ArgusFce />
+</details>
+
+### ARGUS_DMC
+<details>
+<summary>Argus Asia & Midday European Crude</summary>
+<ArgusDmc />
+</details>
+
+### ARGUS_DAMGIO
+<details>
+<summary>Argus Mideast Gulf and Indian Ocean Products</summary>
+<ArgusDamgio />
+</details>
+
+### ARGUS_DHC
+<details>
+<summary>Argus US Crude</summary>
+<ArgusDhc />
+</details>
+
+### ARGUS_DHP
+<details>
+<summary>Argus US Products</summary>
+<ArgusDhp />
+</details>
+
+### ARGUS_DLC
+<details>
+<summary>Argus European Crude</summary>
+<ArgusDlc />
+</details>
+
+### ARGUS_DAMCOAL
+<details>
+<summary>Argus McCloskey Coal</summary>
+<ArgusDAMCOAL />
+</details>
+
+### ARGUS_DCI
+<details>
+<summary>Argus Coal Daily International</summary>
+<ArgusDci />
+</details>
+
+### ARGUS_DEEM
+<details>
+<summary>Argus European Emissions</summary>
+<ArgusDeem />
+</details>
+
+### ARGUS_DFR
+<details>
+<summary>Argus Freight</summary>
+<ArgusDfr />
+</details>
