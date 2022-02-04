@@ -16,7 +16,7 @@ Current Data RoadMap
 |IBEX Independent Bulgarian Energy Market|Bulgaria|Power|
 |ENEX Energy Exchange Group|Greece|Power|
 |AEMO Australian Energy Market Operator|Australia|Power&Gas|
-|Enerdata|France|Oil&Gas|
+|Enerdata|Canada|Oil&Gas|
 |Zhengzhou Commodity Exchange|China|Agriculture,Metals|
 |Shanghai Futures Exchange |China|Agriculture,Metals|
 |ELIA Belgium Electricity|Belgium|Power|
