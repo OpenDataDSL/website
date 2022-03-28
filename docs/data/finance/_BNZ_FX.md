@@ -1,5 +1,3 @@
-Bank of New Zealand Exchange Rates
-
 ## Overview
 
 ![](/img/data/bnz.png)
@@ -45,9 +43,9 @@ Example data id and name:
 |Description|Bank of New Zealand Spot FX Exchange Rate New Zealand Dollar Per India Rupee|
 |Dataset|BNZ_FX|
 |Dataset Name|Bank of New Zealand Foreign Exchange Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|New Zealand|
 |Quote Calendar|HNZ|
 

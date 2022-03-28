@@ -1,5 +1,3 @@
-State Bank of Pakistan Exchange Rates  
-
 ## Overview
 
 ![](/img/data/sbp.png)
@@ -40,10 +38,11 @@ Example data id and name:
 |Description|State Bank of Pakistan Weighted Average Customer Exchange Rates US Dollar Per Pakistan Rupee|
 |Dataset|SBP_FX|
 |Dataset Name|State Bank of Pakistan Foreign Exchange Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|Pakistan|
+|Region|Asia|
 |Quote Calendar|HPK|
 
 ### Validation

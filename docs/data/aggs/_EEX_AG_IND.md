@@ -70,13 +70,12 @@ Examples of data Id and names:
 |Source Name|European Energy Exchange|
 |Dataset|EEX_AG_IND|
 |Dataset Name|European Energy Exchange Agricultural Indices|
-|Dataset Type|Spot Indices|
 |Frequency|Weekly,Monthly|
 |Currency|USD|
 |Unit|MT|
-|Market|Agriculture|
+|Market|Spot|
 |Commodity|Agriculture|
-|Product|Dairy|
+|Product|Dairy Index|
 |Location|Germany,The Netherlands,France,Denmark|
 |Region|Europe|
 |Quote Calendar|Sparse|

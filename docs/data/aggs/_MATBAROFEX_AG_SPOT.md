@@ -48,13 +48,13 @@ Example data id and name
 |Source|MATBAROFEX|
 |Source Name|Mercado a Term de Buenos Aires SA Rosario Board of Trade|
 |Dataset|MATBAROFEX_AG_FUT|
-|Dataset Name|MATba Agricultural Futures|
-|Dataset Type|Agriculture spot and futures|
+|Dataset Name|MATba Agricultural Spot|
 |Frequency|Business|
 |Currency|USD|
 |Unit|MT|
-|Market|Agriculture|
+|Market|Spot|
 |Commodity|Agriculture|
+|Product|Grains Spot|
 |Location|Argentina|
 |Region|South America|
 |Quote Calendar|HAR|

@@ -1,5 +1,3 @@
-Brazilian Sugarcane Industry Association Sugarcane Harvest Update
-
 ## File Collection
 
 The update file is collected from UNICA website, https://observatoriodacana.com.br/listagem.php?idMn=63&idioma=2
@@ -16,13 +14,13 @@ The updates are available fortnightly. Schedule is set up to process the data in
 
 The data is storaed as #Agriculture
 
-### Dataset, Data ID and Name
+### SubDataset, Data ID and Name
 
-Data subsets are created for every report in vendor update file. The main dataset UNICA_AG_SUGAR is further classified into nine more datasets.
+Subdatasets are created for every report in vendor update file. The main dataset UNICA_AG_SUGAR is further classified into nine more datasets.
 
 Example data id and name:
 
-|**Report**|**Data Subset**||**Data Subset Name**|**Data Id**|**Name**|
+|**Report**|** Subdataset **||**Subdataset Name**|**Data Id**|**Name**|
 |-|-|-|-|
 |Report 1|UNICA_HARVEST_PROD_ACC|Brazilian Sugarcane Industry Association Harvest Season Accumulated Production|UNICA.BR_OS.ANHYD_ETH.HS_BW_PROD|Brazilian Sugarcane Industry Association Other States Anhydrous Ethanol Harvest Season Accumulated Production|
 |Report 2|UNICA_HARVEST_PROD_ACCBW|Brazilian Sugarcane Industry Association Harvest season: Bi-weekly values |UNICA.BR_OS.KG_SUGAR_TON_SUGARCANE.HS_BW_PROD|Brazilian Sugarcane Industry Association Other States Kg of sugar/ ton of sugarcane Harvest Season Accumulated Production|
@@ -42,11 +40,11 @@ Example data id and name:
 |Source Name|Brazilian Sugarcane Industry Association|
 |Dataset|UNICA_AG_SUGAR|
 |Dataset Name|Brazilian Sugarcane Industry Association Sugarcane Harvest Update|
-|Dataset Type|Agriculture Statistics|
-|Frequency|Bimonthly|
+|Frequency|Biweekly|
 |Unit|M3|
-|Market|Agriculture,Statistics|
-|Commodity|Sugar|
+|Market|Statistics|
+|Commodity|Agriculture|
+|Product|Sugar Production|
 |Location|Brazil|
 |Region|South America|
 |Quote Calendar|Sparse|

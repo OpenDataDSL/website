@@ -35,12 +35,12 @@ Example data id and name
 |Source Name|International Monetary Fund|
 |Dataset|IMF_AG_SPOT|
 |Dataset Name|International Monetary Fund Agriculture Spot and Index Price|
-|Dataset Type|Barely Monthly Spot Price|
 |Frequency|Monthly|
 |Currency|USD|
 |Unit|MT|
-|Market|Agriculture|
+|Market|Spot|
 |Commodity|Agriculture|
+|Product|Grains Spot|
 |Location|United States|
 |Region|United States|
 |Quote Calendar|Monthly|

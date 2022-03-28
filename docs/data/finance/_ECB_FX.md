@@ -1,5 +1,3 @@
-European Central Bank Reference Exchange Rates
-
 ### Overview
 
 ![](/img/data/ecb.png)
@@ -50,10 +48,11 @@ Example data id and name:
 |Description|Euro Foreign Exchange Reference Rates Euro Per US Dollar|
 |Dataset|ECB_FX|
 |Dataset Name|European Central Bank Reference Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|Europe|
+|Region|Europe|
 |Quote Calendar|HTR|
 
 ### Validation

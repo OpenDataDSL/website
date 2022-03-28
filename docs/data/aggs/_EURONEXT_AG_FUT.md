@@ -40,11 +40,11 @@ Below set of expiry calendars are used in calculating rolling forward data. The 
 |Source Name|Euronext|
 |Dataset|EURONEXT_AG_FUT|
 |Dataset Name|Euronext Agricultural Futures|
-|Dataset Type|Futures|
 |Currency|EUR|
 |Unit|MT|
-|Market|Agriculture,Futures|
+|Market|Futures|
 |Commodity|Agriculture|
+|Product|Grains Futures|
 |Location|Paris|
 |Region|Europe|
 |Quote Calendar|HEURONEXT|

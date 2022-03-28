@@ -1,5 +1,3 @@
-European Central Bank Refinancing Rate
-
 ## Overview
 
 ![](/img/data/ecb.png)
@@ -41,10 +39,11 @@ Example data id and name
 |Source Name|European Central Bank|
 |Dataset|ECB_IR|
 |Dataset Name|European Central Bank Refinancing Rates|
-|Dataset Type|Interest rate|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Interest Rates|
+|Product|IR Spot|
 |Location|Europe|
+|Region|Europe|
 |Quote Calendar|Daily||
 
 ### Validation

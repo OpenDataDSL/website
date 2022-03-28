@@ -1,5 +1,3 @@
-Effective Federal Funds Rate
-
 ## Overview
 
 ![](pathname://../../static/img/data/FRB-Logo.png)
@@ -45,10 +43,11 @@ Example data id and name
 |Source Name|Federal Reserve Board|
 |Dataset|EFFR|
 |Dataset Name|Effective Federal Funds Rate|
-|Dataset Type|Overnight interest rate|
-|Market|Financial Market|
-|Commodity|Interest Rates|
+|Market|Financial|
+|Commodity|Forward Interest Rates|
+|Product|IR Forwards|
 |Location|United States|
+|Region|America|
 |Quote Calendar|HUSA||
 
 ### Validation

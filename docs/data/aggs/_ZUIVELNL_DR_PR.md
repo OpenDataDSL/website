@@ -1,5 +1,3 @@
-ZuivelNL Dairy Price
-
 ## File Collection
 
 The update file is collected from Zuivelwebsite: https://www.zuivelnl.org/marktinformatie/zuivelnoteringen
@@ -32,11 +30,10 @@ Data Id naming convention examples:
 |Source Name|ZuivelNL|
 |Dataset|ZUIVELNL_DR_PR|
 |Dataset Name|ZuivelNL Dairy Prices|
-|Dataset Type|Quotation Price|
 |Frequency|Weekly|
-|Market|Agriculture|
-|Commodity|Dairy|
-|Product|Various|
+|Market|Spot|
+|Commodity|Agriculture|
+|Product|Dairy Quote price|
 |Location|The Netherlands|
 |Region|Europe|
 

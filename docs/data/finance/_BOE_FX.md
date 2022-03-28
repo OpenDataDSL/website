@@ -1,5 +1,3 @@
-Bank of England Daily Spot Exchange Rates
-
 ## Overview
 
 ![](/img/data/boe.png)
@@ -40,10 +38,11 @@ Example data id and name:
 |Description|Bank of England Spot Exchange Rates Pound Sterling Per Euro|
 |Dataset|BOE_FX|
 |Dataset Name|Bank of England Foreign Exchange Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|United Kingdom|
+|Region|Europe|
 |Quote Calendar|HENG|
 
 ### Validation

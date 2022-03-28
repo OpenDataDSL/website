@@ -1,5 +1,3 @@
-Euro Short Term Rate
-
 ## Overview
 
 ![](/img/data/ecb.png)
@@ -40,10 +38,11 @@ Example data id and name:
 |Source Name|European Central Bank|
 |Dataset|ESTR|
 |Dataset Name|Euro Short Term Rate|
-|Dataset Type|Overnight interest rate|
-|Market|Financial Market|
-|Commodity|Interest Rates|
+|Market|Financial|
+|Commodity|Forward Interest Rates|
+|Product|IR Forwards|
 |Location|United Kingdom|
+|Region|Europe|
 |Quote Calendar|HTR||
 
 ### Validation

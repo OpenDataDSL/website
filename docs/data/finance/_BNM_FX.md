@@ -1,5 +1,3 @@
-The Central Bank of Malaysia Daily Spot Exchange Rates
-
 ### Overview
 
 ![](/img/data/bnm.gif)
@@ -90,10 +88,11 @@ Example data id and name
 |Description|Bank Negara Malaysia Exchange Rates Euro Per  Malaysian Ringgit 0900|
 |Dataset|BNM_FX|
 |Dataset Name|Bank Negara Malaysia Foreign Exchange Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|Malaysia|
+|Region|Asia|
 |Quote Calendar|HMY|
 
 ### Validation
