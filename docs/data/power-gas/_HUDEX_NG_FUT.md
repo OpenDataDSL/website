@@ -1,9 +1,3 @@
-Hungarian Derivative Energy Exchange Power Natural Gas Futures
-
-## File Collection
-
-The end of day data is collected from HUDEX website:https://hudex.hu/en/market-data/natural-gas/daily-data?  
-
 ### Schedule
 
 The schedule for collecting the file is 20:00GMT on Hungarian business days.
@@ -28,13 +22,6 @@ Example data id and name
 
 Below set of expiry calendars are used in calculating rolling forward data. The expiry and rollover calendars remain same.
 
-|**contract**|**Expiry Calendar**|
-|-|-|
-|Month|RHUDEXNGFM|
-|Quarter|RHUDEXENGFQSY|
-|Season|RHUDEXENGFQSY|
-|Year|RHUDEXENGFQSY|
-
 ### Attributes
 
 |Name|Value|
@@ -43,11 +30,10 @@ Below set of expiry calendars are used in calculating rolling forward data. The 
 |Source Name|Hungarian Derivative Energy Exchange|
 |Dataset|HUDEX_NG_FUT|
 |Dataset Name|Hungarian Derivative Energy Exchange Power Natural Gas Futures|
-|Dataset Type|Natural Gas Futures|
 |Frequency|Business|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Natural Gas,Futures|
+|Market|Futures|
 |Commodity|Natural Gas|
 |Location|Hungary|
 |Region|Europe|

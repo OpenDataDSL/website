@@ -28,13 +28,12 @@ Example data id and name
 |-|-|
 |Source|ENTSOE|
 |Source Name|European Network of Transmission System Operators for Electricity|
-|Dataset|ENTSOE_TR_CRSBRD_PHYSFLOW|
+|Dataset|ENTSOE_EL_TR_CRSBRD_PHYSFLOW|
 |Dataset Name|European Network of Transmission System Operators - Cross-Border Physical Flow Spot|
-|Dataset Type|Power Flow|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Power|
-|Commodity|Fundamentals|
+|Market|Statistics/Fundamentals|
+|Commodity|Power|
 |Product|Power Transfer Capacities Forecast|
 |Location|various|
 |Region|Europe|

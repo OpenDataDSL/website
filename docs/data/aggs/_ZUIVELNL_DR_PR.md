@@ -1,10 +1,10 @@
-## File Collection
-
-The update file is collected from Zuivelwebsite: https://www.zuivelnl.org/marktinformatie/zuivelnoteringen
-
 ### Schedule
 
 A weekly file that is updated every Wednesday on the vendor site.
+
+### Sample File
+
+[Sample fil for Zuivenl](pathname:///file-samples/Noteringen-week-5-2021.pdf)
 
 ## Type
 

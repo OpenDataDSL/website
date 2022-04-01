@@ -1,9 +1,3 @@
-MATba ROFEX Agriculture Futures
-
-## File Collection
-
-End of day updates for spot and futures are collected from http://datacenter.matba.com.ar/ajustesdc.aspx  
-
 ### Schedule
 
 The schedule for collecting the futures files is between 22:00 and 23:00 GMT on Argentina business days.

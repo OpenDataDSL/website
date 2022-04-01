@@ -1,13 +1,3 @@
-Power Exchange Central Europe Natural Gas Day Ahead Market Price
-
-### Overview
-
-As of December 8, 2017 the gas spot reference price previously calculated by PXE replaced by the PEGAS European Gas Spot Index (EGSI). EGSI is determined by the Powernext. The natural gas with the place of delivery at CZ VTP is traded on the PEGAS platform under Powernext licence as of  December  8, 2017. EGSI is calculated for day-ahead and weekend contracts. It reflects the real market situation and may be used as a reference for pricing of the retail contracts. It is not a settlement price. 
-
-## File Collection
-
-The end of day updates are collected from https://www.cegh.at/en/exchange-market/market-data/  
-
 ### Schedule
 
 The updates are collected around 23:00GMT daily.
@@ -43,13 +33,12 @@ Below set of expiry calendars are used in calculating rolling forward data. The 
 |-|-|
 |Source|PXE|
 |Source Name|Power Exchange Central Europe|
-|Dataset|PXE_NG_DAM|
+|Dataset|PXE_NG_DA|
 |Dataset Name|Power Exchange Central Europe Natural Gas Day Ahead Market Price|
-|Dataset Type|Natural Gas day ahead daily|
 |Frequency|Daily|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Natural Gas,Spot|
+|Market|Day Ahead|
 |Commodity|Natural Gas|
 |Location|Czechia|
 |Region|Europe|

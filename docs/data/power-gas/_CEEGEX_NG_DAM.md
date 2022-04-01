@@ -1,9 +1,3 @@
-Central Eastern European Gas Exchange Hungary Natural Gas Day Ahead Price
-
-## File Collection
-
-The end of day data is collected from CEEGEX website:https://ceegex.hu/en/market-data/daily-data  
-
 ### Schedule
 
 The schedule for collecting the file is 20:00GMT on Hungarian business days.
@@ -30,13 +24,12 @@ Example data id and name
 |-|-|
 |Source|CEEGEX|
 |Source Name|Central Eastern European Gas Exchange|
-|Dataset|CEEGEX_NG_DAM|
+|Dataset|CEEGEX_NG_DA|
 |Dataset Name|Central Eastern European Gas Exchange Day Ahead Market Price|
-|Dataset Type|Natural Gas Day Ahead Price|
 |Frequency|Daily|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Natural Gas,Spot|
+|Market|Spot|
 |Commodity|Natural Gas|
 |Location|Hungary|
 |Region|Europe|

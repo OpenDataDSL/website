@@ -1,14 +1,3 @@
-IPEX (GME) Power Day-Ahead Market Data, MGP
-
-## File Collection
-
-IPEX power day-ahead price updates are made available by provider in yyyyMMddMGPPrezzi.xml file in the following link: https://www.mercatoelettrico.org/En/download/DownloadDati.aspx?val=MGP_Prezzi
-
-IPEX power day-ahead conventional updates are made available by provider in MGPPrezziConvenzionali.xml file in the following link: https://www.mercatoelettrico.org/En/download/DownloadDati.aspx?val=MGP_PrezziConvenzionali
-
-IPEX power day-ahead conventional updates are made available by provider in MGPQuantita.xml file in the following link: https://www.mercatoelettrico.org/En/download/DownloadDati.aspx?val=MGP_Quantita
-
-
 ### Schedule
 
 End of day file is retrieved daily between 19:00GMT and 20:00GMT daily
@@ -40,15 +29,12 @@ Example data id and name
 |-|-|
 |Source|IPEX|
 |Source Name|Italian Power Exchange (GME)|
-|Name|Italian Power Exchange (GME) Baseload Power Forward Physical Market Data Curve|
-|Description|Italian Power Exchange (GME) Baseload Power Forward Physical Market Data Curve|
-|Dataset|IPEX_EL_DAM|
+|Dataset|IPEX_EL_DA|
 |Dataset Name|Italian Power Exchange (GME) AUST Austria Power Day-Ahead Market MGP Price|
-|Dataset Type|Day Ahead|
 |Frequency|Hourly|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Power,Spot|
+|Market|Day Ahead|
 |Commodity|Power|
 |Location|Italy|
 |Quote Calendar|HOURLY|

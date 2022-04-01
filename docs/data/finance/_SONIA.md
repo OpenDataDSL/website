@@ -55,5 +55,5 @@ Data is validated for missing data points using HENG calendar for expected absen
 
 ### Licensing
 
-Data is freely available from the BOE website and can be used by clients without permissions.
+Data is freely available from the BOE website and can be used by customers without permissions.
 

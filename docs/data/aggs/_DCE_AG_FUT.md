@@ -1,12 +1,6 @@
-Dalian Commodity Exchange Agriculture Futures
-
-## File Collection
-
-The end of day updates are collected from DCE website: http://www.dce.com.cn/DCE/Market_Data/Market%20Statistics/index.html
-
 ### Schedule
 
-The end of day updates are processed at 17:30 GMT on DCE business days.
+The end of day updates are processed at 17:30 BST/GMT on DCE business days.
 
 ### Sample File
 
@@ -44,11 +38,11 @@ Below set of expiry calendars are used in calculating rolling forward data. The 
 |Source Name|Dalian Commodity Exchange|
 |Dataset|DCE_AG_FUT|
 |Dataset Name|Dalian Commodity Exchange Agriculture Futures|
-|Dataset Type|Futures|
 |Currency|CNY|
 |Unit|MT|
-|Market|Agriculture,Futures|
+|Market|Futures|
 |Commodity|Agriculture|
+|Product|Grains Futures|
 |Location|China|
 |Region|Asia|
 |Quote Calendar|HDCE|

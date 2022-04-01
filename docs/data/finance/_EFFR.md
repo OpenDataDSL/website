@@ -11,9 +11,6 @@ The Effective Federal Funds Rate (EFFR) is calculated as the effective median in
 
 website: 
 
-## File Collection
-
-Daily update file is collected from FRB website: https://www.federalreserve.gov/datadownload/Download.aspx?rel=H15&series=c5025f4bbbed155a6f17c587772ed69e&filetype=sdmx&label=include&layout=seriescolumn&lastObs=100
 
 ### Schedule
 

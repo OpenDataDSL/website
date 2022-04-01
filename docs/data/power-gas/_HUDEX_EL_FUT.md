@@ -1,9 +1,3 @@
-Hungarian Derivative Energy Exchange Power Financial Futures
-
-## File Collection
-
-End of day update is collected from HUDEX website: https://hudex.hu/en/market-data/power/daily-data 
-
 ### Schedule
 
 The schedule for collecting the file is 20:00GMT on Hungarian business days.
@@ -45,11 +39,10 @@ Below set of expiry calendars are used in calculating rolling forward data. The 
 |Source Name|Hungarian Derivative Energy Exchange|
 |Dataset|HUDEX_EL_FUT|
 |Dataset Name|Hungarian Derivative Energy Exchange Power Financial Futures|
-|Dataset Type|Power Futures|
 |Frequency|Business|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Power,Futures|
+|Market|Futures|
 |Commodity|Power|
 |Location|Hungary|
 |Region|Europe|

@@ -1,12 +1,3 @@
-United States Department of Agriculture Production Supply Distribution Annual Data
-
-## File Collection
-
-Data is downloaded from USDA website, https://apps.fas.usda.gov/psdonline/app/index.html#/app/downloads
-
-### Schedule
-
-The schedule for collecting the file
 
 ### Sample File
 
@@ -22,7 +13,7 @@ Datasets are created for every commodity available in PSD report. The main datas
 
 Example data id and name
 
-|Data Subset|Data Subset Name|Data Id|Name|
+|Subdataset|Subdataset Name|Data Id|Name|
 |-|-|-|-|
 |USDA_PSD_COFFEE|The United States Department of Agriculture Production, Supply and Distribution of Agricultural Products Coffee Annual|USDA.PSD.0711100.1.ES.A|United States Department of Agriculture PSD Data Coffee, Green Area Planted El Salvador Annual|
 |USDA_PSD_COTTON|The United States Department of Agriculture Production, Supply and Distribution of Agricultural Products Cotton Annual|USDA.PSD.2631000.88.US.A|United States Department of Agriculture PSD Data Cotton Exports United States Annual|

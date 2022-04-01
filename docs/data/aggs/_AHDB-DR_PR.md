@@ -1,7 +1,3 @@
-## File Collection
-
-The file UK wholesale prices-1.xlsx is collected from https://ahdb.org.uk/dairy/uk-wholesale-prices.
-
 ### Schedule
 
 Monthly updates are processed on 25th day of every month.

@@ -1,21 +1,3 @@
-The Iberian Energy Derivatives Exchange Power Futures  
-
-## Overview
-
-The Iberian Electricity Market (MIBEL) is a joint initiative of the Portuguese and Spanish government with a view to the construction of a regional electricity market. With MIBEL coming into force, every consumer in the Iberian Peninsula was able to obtain electricity, under free competition, from any producer or seller operating in both Portugal and Spain.
-
-Thus, the MIBEL wholesale market currently comprises:
-
-*   A derivatives market (OMIP), where future electricity production and buying commitments are established. This market allows for a physical settlement (energy if delivered) or a financial settlement (compensation of monetary values underlying the trade). OMIP was established on 16 June 2003 and its creation was part of a common bilateral agreement  between the governments of Portugal and Spain. OMIP (Operador do Mercado Ibérico de Energia – Pólo Português, S.G.M.R., S.A.) is the MIBEL derivatives exchange
-    
-*   A spot market (OMEL), with a daily trading componenet (day-ahead market) and an intraday adjustment component (intraday market), in which electricity selling (production) and buying schedules are established for the day following the trade
-
-This dataset consists of Baseload and Peakload Power futures of Spain and Portugal.
-   
-## File Collection
-
-The end of day updates are collected from OMIP website: https://www.omip.pt/en/dados-mercado?date=2021-07-26&product=EL&zone=ES&instrument=FTB 
-
 ### Schedule
 
 The schedule for collecting the file is around 20:00 GMT on Spain business days.
@@ -72,11 +54,10 @@ Attributes with example values:
 |Source Name|The Iberian Energy Derivatives Exchange|
 |Dataset|OMIP_EL_FUT|
 |Dataset Name|The Iberian Energy Derivatives Exchange Power Futures|
-|Dataset Type|Power futures|
 |Base|EUR|
 |Unit|MWH|
 |Frequency|Business|
-|Market|Power,Futures|
+|Market|Futures|
 |Commodity|Power|
 |Location|Spain|
 |Quote Calendar|HOMIP|

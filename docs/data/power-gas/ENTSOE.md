@@ -30,11 +30,12 @@ The information published by ENTSO-E is collected from data providers such as TS
 Example: Physical cross-border flows in Germany
 
 ## Datasets
-import TlAct from './_ENTSOE_TL_ACT.md';
-import TlFc from './_ENTSOE_TL_FC.md';
+import TlActFc from './_ENTSOE_TL_ACTFC.md';
 
 import GnGenfc from './_ENTSOE_GN_GENFC.md';
 import GnGenunit from './_ENTSOE_GN_GENUNIT.md';
+import GnProdType from './_ENTSOE_GN_PRODTYPE.md';
+import GnFcws from './_ENTSOE_GN_FCWS.md';
 
 import EntsoeBlImbpr from './_ENTSOE_BL_IMBPR.md';
 import EntsoeBlImbvol from './_ENTSOE_BL_IMBVOL.md';
@@ -50,98 +51,97 @@ import OtGen from './_ENTSOE_OT_GEN.md';
 import OtProd from './_ENTSOE_OT_PROD.md';
 
 ## Load
-### ENTSOE_TL_FC
+### ENTSOE_EL_TL_ACTCF
 <details>
-<summary>Total Load Forecast - Day Ahead</summary>
-<TlFc />
+<summary>Total Load Actual and Forecast - Actual and Day Ahead</summary>
+<TlActFc/>
 </details>
-
-### ENTSOE_TL_ACT
-<details>
-<summary>Total Load - Day Ahead/ Actual</summary>
-<TlFc />
-</details>
-
 
 ## Generation
-### ENTSOE_GN_GENFC
+### ENTSOE_EL_GN_GENFC
 <details>
-<summary>Generation Forecast - Day Ahead</summary>
+<summary>Generation Forecast - Day ahead</summary>
 <GnGenfc />
 </details>
 
-### ENTSOE_GN_GENUNIT
+### ENTSOE_EL_GN_GENUNIT
 <details>
 <summary>Actual Generation per Generation Unit</summary>
 <GnGenunit />
 </details>
 
-### ENTSOE_TL_ACT
+### ENTSOE_EL_GN_CONS_PRODTYPE
 <details>
-<summary>Actual Generation per Production Type</summary>
-<TlAct />
+<summary>Actual Consumption per Production Type</summary>
+<GnProdType />
+</details>
+
+### ENTSOE_EL_GN_FCWS
+<details>
+<summary>Generation Forecasts for Wind and Solar - Day ahead</summary>
+<GnFcws />
 </details>
 
 ## Transmission
-### ENTSOE_TR_CAPFC
+### ENTSOE_EL_TR_CAPFC
 <details>
 <summary>Transmission - Transfer Capacities Forecast Day Ahead</summary>
 <EntsoeTrCapfx />
 </details>
 
-### ENTSOE_TR_CRSBRD_FLOW
+### ENTSOE_EL_TR_CRSBRD_FLOW
 <details>
-<summary>Transmission - Cross-Border Physical Flow Spot</summary>
+<summary>Transmission - Cross-Border Physical Flow</summary>
 <EntsoeTrCrsbrd />
 </details>
 
 ## Balancing
-### ENTSOE_BL_IMBPR
+### ENTSOE_EL_BL_IMBPR
 <details>
-<summary>Balancing - Imbalance Prices Spot</summary>
+<summary>Balancing - Imbalance Prices</summary>
 <EntsoeBlImbpr />
 </details>
 
-### ENTSOE_BL_IMVOL
+### ENTSOE_EL_BL_IMVOL
 <details>
-<summary>Balancing - Total Imbalance Volumes Spot</summary>
+<summary>Balancing - Total Imbalance Volumes</summary>
 <EntsoeBlImbvol />
 </details>
 
-### ENTSOE_BL_CRSBRD
+### ENTSOE_EL_BL_CRSBRD
 <details>
-<summary>Balancing - Cross-Border Balancing Spot</summary>
+<summary>Balancing - Cross-Border Balancing</summary>
 <EntsoeBlCrsbrd />
 </details>
 
 ## Outages
 
-### ENTSOE_OT_CONS
+### ENTSOE_EL_OT_CONS
 <details>
-<summary>Outages - Aggregated Unavailability of Consumption Units Spot</summary>
+<summary>Outages - Aggregated Unavailability of Consumption Units</summary>
 <OtCons />
 </details>
 
-### ENTSOE_OT_TRANS
+### ENTSOE_EL_OT_TRANS
 <details>
-<summary>Outages - Unavailability in Transmission Grid Spot</summary>
+<summary>Outages - Unavailability in Transmission Grid</summary>
 <OtTrans />
 </details>
 
-### ENTSOE_OT_OFFSHR
+### ENTSOE_EL_OT_OFFSHR
 <details>
-<summary>Outages - Unavailability of Offshore Grid Spot</summary>
+<summary>Outages - Unavailability of Offshore Grid</summary>
 <OtOffShr />
 </details>
 
-### ENTSOE_OT_GEN
+### ENTSOE_EL_OT_GEN
 <details>
-<summary>Outages - Unavailability of Generation Units Spot</summary>
+<summary>Outages - Unavailability of Generation Units</summary>
 <OtGen />
 </details>
 
-### ENTSOE_OT_PROD
+### ENTSOE_EL_OT_PROD
 <details>
-<summary>Outages - Aggregated Unavailability of Production Units Spot</summary>
+<summary>Outages - Aggregated Unavailability of Production Units</summary>
 <OtProd />
 </details>

@@ -1,9 +1,3 @@
-IPEX (GME) Power Forward Physical Market Data, MTE
-
-## File Collection
-
-IPEX Power Forward data is available in yyyyMMddMTEWebTabella.xml which is collected from following link: GME - Gestore dei Mercati Energetici SpA 
-
 ### Schedule
 
 End of day file is retrieved between 19:00GMT and 20:00GMT on business days.
@@ -31,15 +25,12 @@ Example data id and name
 |-|-|
 |Source|IPEX|
 |Source Name|Italian Power Exchange (GME)|
-|Name|Italian Power Exchange (GME) Baseload Power Forward Physical Market Data Curve|
-|Description|Italian Power Exchange (GME) Baseload Power Forward Physical Market Data Curve|
 |Dataset|IPEX_EL_FUT|
 |Dataset Name|Italian Power Exchange (GME) Power Physical Forward Market Price|
-|Dataset Type|Futures|
 |Frequency|Business|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Power,Futures|
+|Market|Futures|
 |Commodity|Power|
 |Location|Italy|
 |Quote Calendar|HIPEX|

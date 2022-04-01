@@ -13,7 +13,7 @@ tags:
   - forward_curves
 ---
 
-Argus
+ARGUS
 ============================================================
 
 Argus Media

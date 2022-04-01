@@ -28,12 +28,11 @@ Example data id and name
 |-|-|
 |Source|ENTSOE|
 |Source Name|European Network of Transmission System Operators for Electricity|
-|Dataset|ENTSOE_BL_CRSBRD|
+|Dataset|ENTSOE_EL_BL_CRSBRD|
 |Dataset Name|European Network of Transmission System Operators - Cross-Border Balancing Spot|
-|Dataset Type|Power Cross-Border Balancing Spot|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Power,Fundamentals|
+|Market|Statistics/Fundamentals|
 |Commodity|Power|
 |Location|various|
 |Region|Europe|

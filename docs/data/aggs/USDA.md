@@ -3,8 +3,8 @@ slug: /company/USDA
 tags:
   - usda
   - agriculture
-  - dairy
   - united_states
+  - dairy
   - statistics
   - fundamentals
 ---

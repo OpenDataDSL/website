@@ -1,14 +1,3 @@
-Gestore Mercati Energetici Natural Gas Day Ahead Market Price, MGPGAS
-
-## Overview
-
-This dataset cosists of GME natural gas day ahead auction and continuous price updates.
-
-## File Collection
-
-GME gas continuous updates are made available by provider in yyyyMMddMGPGASSintesiScambio.xml file in the following link: https://www.mercatoelettrico.org/En/download/DownloadDati.aspx?val=MGPGAS_SintesiScambio
-GME gas auction updates are made available by provider in yyyyMMMddMGPGASASTASintesiScambio.xml file in the following link:https://www.mercatoelettrico.org/En/download/DownloadDati.aspx?val=MGPGASASTA_SintesiScambio
-
 ### Schedule
 
 End of day file is retrieved daily between 19:00GMT and 20:00GMT
@@ -38,13 +27,12 @@ Example data id and name
 |-|-|
 |Sourec|GME|
 |Source Name|Gestore Mercati Energetici|
-|Dataset|GME_NG_DAM|
+|Dataset|GME_NG_DA|
 |Dataset Name|Gestore Mercati Energetici Natural Gas Day Ahead Market Price,MGPGAS|
-|Dataset Type|Day Ahead|
 |Frquency|Hourly|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Natural Gas,Spot|
+|Market|Spot|
 |Commodity|Natural Gas|
 |Location|Italy|
 |Quote Calendar|Hourly|

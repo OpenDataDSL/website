@@ -1,7 +1,3 @@
-## File Collection
-
-The update file is collected from UNICA website, https://observatoriodacana.com.br/listagem.php?idMn=63&idioma=2
-
 ### Schedule
 
 The updates are available fortnightly. Schedule is set up to process the data in the middle and end of every month.

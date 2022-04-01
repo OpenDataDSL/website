@@ -30,11 +30,10 @@ Example data id and name
 |Source Name|European Network of Transmission System Operators for Electricity|
 |Dataset|ENTSOE_OT_PROD|
 |Dataset Name|European Network of Transmission System Operators - Aggregated Unavailability of Production Units Spot|
-|Dataset Type|Power Production Outage|
 |Currency||
 |Unit|MW|
-|Market|Power|
-|Commodity|Fundamentals|
+|Market|Statistics/Fundamentals|
+|Commodity|Power|
 |Location|various|
 |Region|Europe|
 |Quote Calendar|Hourly|

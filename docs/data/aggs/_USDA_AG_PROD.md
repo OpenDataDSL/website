@@ -1,10 +1,3 @@
-The United States Department of Agriculture Production, Dairy Products Production Summary Report Weekly and Monthly Report
-
-## File Collection
-
-Monthly data is downloaded from USDA website, https://usda.library.cornell.edu/concern/publications/m326m1757 
-
-Weekly data is downloaded from USDA website, https://usda.library.cornell.edu/concern/publications/zs25x847n?locale=en
 
 ### Schedule
 

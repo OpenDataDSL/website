@@ -6,10 +6,6 @@ Euro short-term rate (€STR) is a reference rate for the currency euro. It  ref
 
 website: https://www.ecb.europa.eu/
 
-## File Collection
-
-Daily update file is collected from ECB website:https://sdw.ecb.europa.eu/browseSelection.do?node=9698302   
-
 ### Schedule
 
 File is processed between 7:00 AM and 8:00 GMT the following target2 business day.

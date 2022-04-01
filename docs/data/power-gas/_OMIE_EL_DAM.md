@@ -1,9 +1,3 @@
-OMI-Polo Spanish SA Power Day Ahead Market Price
-
-## File Collection
-
-The file is collected from OMIE website: https://www.omie.es/en/spot-hoy
-
 ### Schedule
 
 The end of day file is retrieved around 14:00 GMT daily.
@@ -34,14 +28,13 @@ During the change to Winter time OMIE delivers 25 hourly updates. These are adju
 |Name|Value|
 |-|-|
 |Source|OMIE|
-|Source OMI-Polo Español S.A.||
-|Dataset|OMIE_EL_DAM|
+|Source Name|OMI-Polo Español S.A.|
+|Dataset|OMIE_EL_DA|
 |Dataset Name|OMI-Polo Spanish SA Power Day Ahead Market Price|
-|Dataset Type|Power day ahead hourly price and volume|
-|Base|EUR|
+|Currency|EUR|
 |Unit|MWH|
 |Frequency|Hourly|
-|Market|Power,Spot|
+|Market|Day Ahead|
 |Commodity|Power|
 |Location|Spain|
 |Quote Calendar|Hourly|

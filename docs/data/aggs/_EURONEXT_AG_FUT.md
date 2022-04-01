@@ -1,12 +1,6 @@
-Euronext Agricultural Futures
-
-## File Collection
-
-The end of day updates are collected from Euronext website: https://live.euronext.com/en/product/commodities-futures/EMA-DPAR/settlement-prices
-
 ### Schedule
 
-The end of day updates are processed at 20:00 GMT on business days.
+The end of day updates are processed at 20:00 BST/GMT on business days.
 
 ## Type
 

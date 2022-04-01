@@ -28,13 +28,12 @@ Example data id and name:
 |-|-|
 |Source|ENTSOE|
 |Source Name|European Network of Transmission System Operators for Electricity|
-|Dataset|ENTSOE_TL_FC_DA|
+|Dataset|ENTSOE_EL_EL_TL_FC_DA|
 |Dataset Name|European Network of Transmission System Operators - Total Load Actual and Forecast - Day Ahead|
-|Dataset Type|Energy Fundamentals|
 |Currency|EUR|
 |Unit|MW|
-|Market|Power|
-|Commodity|Fundametals|
+|Market|Statistics/Fundamentals|
+|Commodity|Power|
 |Location|various|
 |Product|Power Load|
 |Region|Europe|

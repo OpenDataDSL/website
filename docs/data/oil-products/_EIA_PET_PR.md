@@ -35,12 +35,10 @@ Example data id and name:
 |SourceName|US Energy Information Administration|
 |Dataset|EIA_PET_PR|
 |Dataset Name|US Energy Information Administration Petroleum and Other Liquids Prices|
-|Dataset Type|Fundamentals|
 |Currency|USD|
 |Unit|BBL|
 |Frequency|Business|
-|Market|Crudes,Refined Products|
-|Period|Spot|
+|Market|Statistics|
 |Commodity|Refined Products|
 |Country|Global|
 |Quote Calendar|HUSA|
