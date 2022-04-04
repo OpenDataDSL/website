@@ -24,8 +24,3 @@ All of the data in the OpenDataDSL `public source` is freely available data in t
 we collect and make available to you for FREE.
 
 You can use it in the Cloud Portal, Excel Add-in, API or download it and store it in your own database.
-
-### Free Service Quota
-Every month we give you a [free quota of Service Usage](pricing), if you never go above that quota you will never need to pay anything!
-
-<MoreInfo href="/pricing" />

@@ -24,7 +24,6 @@ into our payment partner site so that you can continue using our services.
 
 ### More information
 
-* [Pricing Information](pricing)
 * [Legal Information](legal/Legal-Notices)
 * [Company Information](AboutUs)
 
