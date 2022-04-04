@@ -18,7 +18,7 @@ That's it!
 If your company doesn't use Azure Active Directory you can simply sign up for a free Azure AD [here](https://docs.microsoft.com/en-us/windows/client-management/mdm/register-your-free-azure-active-directory-subscription)
 
 ## What now?
-Now you have signed up, you can freely explore the OpenDataDSL Portal using your [free monthly allowance](pricing). When you are 
+Now you have signed up, you can freely explore the OpenDataDSL Portal using your free monthly allowance. When you are 
 getting close to the end of your free allowance, we will let you know and request that you enter some payment details
 into our payment partner site so that you can continue using our services.
 
