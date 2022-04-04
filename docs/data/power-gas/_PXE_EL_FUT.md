@@ -1,9 +1,3 @@
-Power Exchange Central Europe Power Financial Futures
-
-## File Collection
-
-The end of day data file is collected from PXE website: https://www.pxe.cz/Download/
-
 ### Schedule
 
 The end of day file is retrieved between 08:00 and 09:00 GMT on following Czech business days.
@@ -45,18 +39,6 @@ Some of the contract identifiers from PXE are given below. These are used in obj
 |PXE.EL.CZ.PL.FXP.FUT|Power Exchange Central Europe Czech Peakload Power Futures|
 |PXE.EL.CZ.BL.FXB.FUT|Power Exchange Central Europe Czech Baseload Power Futures|
 
-### Expiry Calendar
-
-Below set of expiry calendars are used in calculating rolling forward data. The expiry and rollover calendars remain same.
-
-|**Contract**|**Expiry Calendar**|
-|-|-|
-|Baseload Month|RPXEELFBLM|
-|Baseload Quarter|RPXEELFQ
-|Baseload Year|RPXEELFY
-|Peakload Month|RPXEELFPLM
-|Peakload Quarter|RPXEELFQ
-|Peakload Year|RPXEELFY
 
 ### Attributes
 
@@ -66,11 +48,10 @@ Below set of expiry calendars are used in calculating rolling forward data. The 
 |Source Name|Power Exchange Central Europe|
 |Dataset|PXE_EL_FUT|
 |Dataset Name|Power Exchange Central Europe Power Financial Futures|
-|Dataset Type|Power Futures|
 |Frequency|Business|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Power,Futures|
+|Market|Futures|
 |Commodity|Power|
 |Location|Czechia|
 |Region|Europe|

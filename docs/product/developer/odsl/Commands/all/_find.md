@@ -3,6 +3,7 @@ Used to search the database
 #### Syntax
 ```js
 varname = find 
+  (top n)?
   (unique field from | profile profilename (for range)? from)?
   (activevar|avservice)
   (where (condition)+)?
@@ -24,6 +25,15 @@ end
 ```
 
 ##### Options
+
+###### top
+
+The top option allows you to find a smaller sample of data, e.g.
+
+```js
+// Retrieve the first 15 objects
+objects = find top 15 ${object} where dataset="ARGUS_DEL"
+```
 
 ###### unique
 

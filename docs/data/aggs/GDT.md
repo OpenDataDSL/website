@@ -36,6 +36,6 @@ import GdtDrFut from './_GDT_DR_FUT.md';
 
 ### GDT_DR_FUT
 <details>
-<summary>Global Dairy Trade Bimonthly Price Futures</summary>
+<summary>Global Dairy Trade Biweekly Price Futures</summary>
 <GdtDrFut />
 </details>

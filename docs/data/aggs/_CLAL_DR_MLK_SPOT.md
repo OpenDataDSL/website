@@ -1,4 +1,3 @@
-CLAL.it Dairy Raw Milk National Monthly Spot Price
 
 ## File Collection
 
@@ -6,7 +5,7 @@ The Milk Prices are collected from CLAL website: https://www.clal.it/index.php?s
 
 ### Schedule
 
-File is processed on every first and third Tuesdays of month.
+File is processed on every first and third Tuesdays of the month.
 
 ## Type
 
@@ -28,15 +27,14 @@ Example data id and name
 |-|-|
 |Source|CLAL|
 |Source Name|CLAL.it|
-|Dataset|CLAL_DR_MKSPM|
-|Dataset Name|CLAL.it Dairy Raw Milk National Monthly Spot Price|
-|Dataset Type|Spot Auction|
-|Frequency||
+|Dataset|CLAL_DR_MLK_SPOT|
+|Dataset Name|CLAL.it Italy Verona Dairy Raw Milk National Weekly and Monthly Spot Prices|
+|Frequency|Weekly,Monthly|
 |Unit|USD|
 |Unit|MT|
-|Market|Agriculture|
-|Commodity|Dairy|
-|Product|Various|
+|Market|Spot|
+|Commodity|Agriculture|
+|Product|Milk Spot Price|
 |Location|Italy|
 |Region|Europe|
 |Quote Calendar|Weekly,Monthly|

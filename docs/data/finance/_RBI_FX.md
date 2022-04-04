@@ -1,5 +1,3 @@
-Reserve Bank of India Reference Rates  
-
 ## Overview
 
 ![](/img/data/rbi.png)
@@ -60,10 +58,11 @@ Example data id and name:
 |Description|Reserve Bank of India Foreign Exchange Reference Rates US Dollar Per Indian Rupee|
 |Dataset|RBI_FX|
 |Dataset Name|Reserve Bank of India Reference Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|India|
+|Region|Asia|
 |Quote Calendar|HIN|
 
 ### Validation

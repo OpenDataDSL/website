@@ -24,13 +24,12 @@ Example data id and name
 |-|-|
 |Source|ENTSOE|
 |Source Name|European Network of Transmission System Operators for Electricity|
-|Dataset|ENTSOE_OT_OFFSHR|
+|Dataset|ENTSOE_EL_OT_OFFSHR|
 |Dataset Name|European Network of Transmission System Operators - Unavailability of Offshore Grid Spot|
-|Dataset Type|Power Offshore Outage|
 |Currency||
 |Unit|MW|
-|Market|Power|
-|Commodity|Fundamentals|
+|Market|Statistics/Fundamentals|
+|Commodity|Power|
 |Location|various|
 |Region|Europe|
 |Quote Calendar|Hourly|

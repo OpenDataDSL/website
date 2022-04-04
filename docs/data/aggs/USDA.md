@@ -3,8 +3,8 @@ slug: /company/USDA
 tags:
   - usda
   - agriculture
-  - dairy
   - united_states
+  - dairy
   - statistics
   - fundamentals
 ---
@@ -21,20 +21,13 @@ The United States Department of Agriculture Production
 USDA (United States Department of Agriculture) provide leadership on food, agriculture, natural resources, rural development, nutrition, and related issues based on public policy, the best available science, and effective management. https://www.usda.gov/
 
 ## Datasets
-import UsdaDrProdM from './_USDA_DR_PRODM.md';
-import UsdaDrSaleW from './_USDA_DR_SALEW.md';
+import UsdaDrProdM from './_USDA_AG_PROD.md';
 import UsdaAgPsd from './_USDA_AG_PSD.md';
 
-### USDA_DR_PRODM
+### USDA_AG_PROD
 <details>
-<summary>The United States Department of Agriculture Production, Dairy Products Summary Monthly</summary>
+<summary>The United States Department of Agriculture Production, Dairy Products Production Summary Report Weekly and Monthly</summary>
 <UsdaDrProdM />
-</details>
-
-### USDA_DR_SALEW
-<details>
-<summary>The United States Department of Agriculture,National Dairy Products Sales Report Weekly</summary>
-<UsdaDrSaleW />
 </details>
 
 ### USDA_AG_PSD

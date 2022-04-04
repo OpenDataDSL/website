@@ -1,5 +1,3 @@
-Effective Federal Funds Rate
-
 ## Overview
 
 ![](pathname://../../static/img/data/FRB-Logo.png)
@@ -13,9 +11,6 @@ The Effective Federal Funds Rate (EFFR) is calculated as the effective median in
 
 website: 
 
-## File Collection
-
-Daily update file is collected from FRB website: https://www.federalreserve.gov/datadownload/Download.aspx?rel=H15&series=c5025f4bbbed155a6f17c587772ed69e&filetype=sdmx&label=include&layout=seriescolumn&lastObs=100
 
 ### Schedule
 
@@ -45,10 +40,11 @@ Example data id and name
 |Source Name|Federal Reserve Board|
 |Dataset|EFFR|
 |Dataset Name|Effective Federal Funds Rate|
-|Dataset Type|Overnight interest rate|
-|Market|Financial Market|
-|Commodity|Interest Rates|
+|Market|Financial|
+|Commodity|Forward Interest Rates|
+|Product|IR Forwards|
 |Location|United States|
+|Region|America|
 |Quote Calendar|HUSA||
 
 ### Validation

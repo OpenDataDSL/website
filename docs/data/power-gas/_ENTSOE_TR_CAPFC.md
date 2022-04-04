@@ -28,13 +28,12 @@ Example data id and name
 |-|-|
 |Source|ENTSOE|
 |Source Name|European Network of Transmission System Operators for Electricity|
-|Dataset|ENTSOE_TR_CAPFC|
+|Dataset|ENTSOE_EL_TR_CAPFC|
 |Dataset Name|European Network of Transmission System Operators - Transfer Capacities Forecast Day Ahead|
-|Dataset Type|Power Transmission Capacity Volume|
 |Currency||
 |Unit|MWH|
-|Market|Power|
-|Commodity|Fundamentals|
+|Market|Statistics/Fundamentals|
+|Commodity|Power|
 |Product|Power Transfer Capacities Forecast|
 |Location|various|
 |Region|Europe|

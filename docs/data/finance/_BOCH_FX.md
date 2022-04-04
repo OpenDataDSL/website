@@ -1,5 +1,3 @@
-Bank of China Exchange Rates
-
 ## Overview
 
 ![](/img/data/boch.png)
@@ -42,10 +40,11 @@ Example data id and name:
 |Description|Bank of China Exchange Rates US Dollar per Chinese Yuan Renminbi|
 |Dataset|BOCH_FX|
 |Dataset Name|Bank of China Foreign Exchange Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|China|
+|Region|Asia|
 |Quote Calendar|HCN|
 
 ### Validation

@@ -1,9 +1,3 @@
-International Monetary Fund Agriculture Spot and Index Price
-
-## File Collection
-
-The files, Primary_Commodity_Price_System_PCPS_USD.xlsx and  Primary_Commodity_Price_System_PCPS_Index.xlsx are collected from https://data.imf.org/?sk=471DDDF8-D8A7-499A-81BA-5B332C01F8B9&sId=1547558078595
-
 ### Schedule
 
 Monthly updates are processed on first Wednesday of every month.
@@ -35,12 +29,12 @@ Example data id and name
 |Source Name|International Monetary Fund|
 |Dataset|IMF_AG_SPOT|
 |Dataset Name|International Monetary Fund Agriculture Spot and Index Price|
-|Dataset Type|Barely Monthly Spot Price|
 |Frequency|Monthly|
 |Currency|USD|
 |Unit|MT|
-|Market|Agriculture|
+|Market|Spot|
 |Commodity|Agriculture|
+|Product|Grains Spot|
 |Location|United States|
 |Region|United States|
 |Quote Calendar|Monthly|

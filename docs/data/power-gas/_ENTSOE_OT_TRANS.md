@@ -29,12 +29,11 @@ Example data id and name
 |Source|ENTSOE|
 |Source Name|European Network of Transmission System Operators for Electricity|
 |Dataset|ENTSOE_OT_TRANS|
-|Dataset Name|European Network of Transmission System Operators - Unavailability of Generation Units Spot|
-|Dataset Type|Power Transmission Outage|
+|Dataset Name|European Network of Transmission System Operators - Unavailability in Transmission Grid|
 |Currency||
 |Unit|MW|
-|Market|Power|
-|Commodity|Fundamentals|
+|Market|Statistics/Fundamentals|
+|Commodity|Power|
 |Location|various|
 |Region|Europe|
 |Quote Calendar|Hourly|

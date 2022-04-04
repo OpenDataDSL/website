@@ -1,5 +1,3 @@
-South African Reserve Bank Exchange Rates  
-
 ## Overview
 
 ![](/img/data/sarb.png)
@@ -46,9 +44,9 @@ Example data id and name:
 |Description|South African Reserve Bank Daily Exchange Rates US Dollar Per South African Rand|
 |Dataset|SARB_FX|
 |Dataset Name|South African Reserve Bank Foreign Exchange Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|South Africa|
 |Quote Calendar|HZA|
 

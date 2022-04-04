@@ -40,10 +40,11 @@ Example data id and name:
 |Description|Bank of Canada Spot Exchange Rates Euro Per Canadian Dollar|
 |Dataset|BOC_FX|
 |Dataset Name|Bank of Canada Foreign Exchange Rates|
-|Dataset Type|Spot|
-|Market|Financial Market|
+|Market|Financial|
 |Commodity|Exchange Rates|
+|Product|FX Spot|
 |Location|Canada|
+|Region|America|
 |Quote Calendar|HCA|
 
 ### Validation

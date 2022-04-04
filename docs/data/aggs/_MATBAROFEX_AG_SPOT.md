@@ -1,12 +1,6 @@
-MATba ROFEX Agriculture Spot
-
-## File Collection
-
-End of day updates for spot and futures are collected from http://datacenter.matba.com.ar/ajustesdc.aspx  
-
 ### Schedule
 
-The schedule for collecting the files is between 22:00 and 23:00 GMT on Argentina business days.
+The schedule for collecting the files is between 22:00 and 23:00 BST/GMT on Argentina business days.
 
 ### Sample File
 
@@ -48,13 +42,13 @@ Example data id and name
 |Source|MATBAROFEX|
 |Source Name|Mercado a Term de Buenos Aires SA Rosario Board of Trade|
 |Dataset|MATBAROFEX_AG_FUT|
-|Dataset Name|MATba Agricultural Futures|
-|Dataset Type|Agriculture spot and futures|
+|Dataset Name|MATba Agricultural Spot|
 |Frequency|Business|
 |Currency|USD|
 |Unit|MT|
-|Market|Agriculture|
+|Market|Spot|
 |Commodity|Agriculture|
+|Product|Grains Spot|
 |Location|Argentina|
 |Region|South America|
 |Quote Calendar|HAR|

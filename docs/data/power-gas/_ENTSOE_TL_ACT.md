@@ -29,9 +29,8 @@ Example data id and name:
 |SourceName|European Network of Transmission System Operators for Electricity|
 |Dataset|ENTSOE_TL|
 |Dataset Name|ENTSO Power Generation|
-|Dataset Type|Energy Fundamentals|
 |Unit|MW|
-|Market|Power,Statistics|
+|Market|Statistics/Fundamentals|
 |Commodity|Power|
 |Frequency|15Minutely|
 

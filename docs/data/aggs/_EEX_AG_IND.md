@@ -1,25 +1,6 @@
-EEX European Energy Exchange Agricultural Indices  
-
-## Overview
-
-![](/img/data/eex.png)
-
-European Energy Exchange (EEX) is the leading energy exchange in Europe founded in 2002.
-
-The European Energy Exchange (EEX) is the leading energy exchange in Europe which develops, operates and connects secure, liquid and transparent markets for energy and related products. As part of EEX Group, a group of companies serving international commodity markets, EEX offers contracts on Power and Emission Allowances as well as Freight and Agricultural Products. EEX is part of Deutsche Börse Group.
-
-EEX is the leading derivatives market for potatoes and dairy products in Europe. All products are settled financially upon maturity (cash settlement). In this process, reference prices adequately reflecting the value of the traded products are used. These price indices increase market transparency – also in the futures contracts.
-
-EEX European Butter, European Skimmed Milk Powder and European Whey Powder Indices.
-
-website = [http://www.eex.com](http://www.eex.com)
-
-## File Collection
-Weekly updates are collected from EEX website: https://www.eex.com/en/market-data/agricultural-markets/agricultural-indices
-
 ### Schedule
 
-Weekly update file is processed around 19:00 GMT every Wednesday.
+Weekly update file is processed around 19:00 BST/GMT every Wednesday.
 
 ### Sample File
 
@@ -70,13 +51,12 @@ Examples of data Id and names:
 |Source Name|European Energy Exchange|
 |Dataset|EEX_AG_IND|
 |Dataset Name|European Energy Exchange Agricultural Indices|
-|Dataset Type|Spot Indices|
 |Frequency|Weekly,Monthly|
 |Currency|USD|
 |Unit|MT|
-|Market|Agriculture|
+|Market|Spot|
 |Commodity|Agriculture|
-|Product|Dairy|
+|Product|Dairy Index|
 |Location|Germany,The Netherlands,France,Denmark|
 |Region|Europe|
 |Quote Calendar|Sparse|

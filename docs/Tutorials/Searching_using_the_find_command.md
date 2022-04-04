@@ -17,6 +17,9 @@ The syntax of the find command is as follows:
 // Minimal syntax
 result = find ${service}
 
+// Return a small sample of data using the 'top' option
+result = find top n ${service}
+
 // Specifying source (public/private)
 result = find ${service:source}
 
@@ -143,4 +146,11 @@ For more examples of searching for audit records, go to [Data Auditing](/docs/od
 Find all public calendars
 ```js
 pcalendars = find ${calendar:public}
+```
+
+### Object Service
+
+Find the first 15 objects that belong to a specific dataset
+```js
+objects = find top 15 ${object} where dataset = "DS"
 ```

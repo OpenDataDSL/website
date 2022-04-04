@@ -40,33 +40,21 @@ They offer a wide database regarding import and export flows in the main dairy c
 *   Whey Powder ( SWP - Sweet Whey Powder)    
 
 ## Datasets
-import ClalDrAapCurve from './_CLAL_DR_AAP_PRVOLCURVE.md';
-import ClalDrAap from './_CLAL_DR_AAP.md';
-import ClalDrTqm from './_CLAL_DR_TQO.md';
-import ClalDrMkspm from './_CLAL_DR_MKSPM.md';
 
-### CLAL_DR_AAP_PRVOLCURVE
+import ClalDrAuc from './_CLAL_DR_AUC.md';
+import ClalDrMlkSpot from './_CLAL_DR_MLK_SPOT.md';
+
+
+### CLAL_DR_AUC
 <details>
-<summary>CLAL.it Dairy Weighted Average Winning Price and Volume Bimonthly Curve</summary>
-<ClalDrAapCurve />
+<summary>CLAL.it Dairy Average Auction Biweekly Spot Prices</summary>
+<ClalDrAuc />
 </details>
 
-### CLAL_DR_AAP
+### CLAL_DR_MLK_SPOT
 <details>
-<summary>CLAL.it Dairy Average Auction Bimonthly Spot Prices</summary>
-<ClalDrAap />
-</details>
-
-### CLAL_DR_TQO
-<details>
-<summary>CLAL.it Dairy Global Total Quantity Offered Bimonthly Spot Volume</summary>
-<ClalDrTqm />
-</details>
-
-### CLAL_DR_MKSPM
-<details>
-<summary>CLAL.it Dairy Raw Milk National Monthly Spot Price</summary>
-<ClalDrMkspm />
+<summary>CLAL.it Italy Verona Dairy Raw Milk National Weekly and Monthly Spot Prices</summary>
+<ClalDrMlkSpot />
 </details>
 
 

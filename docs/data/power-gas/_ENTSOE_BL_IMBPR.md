@@ -28,13 +28,12 @@ Example data id and name
 |-|-|
 |Source|ENTSOE|
 |Source Name|European Network of Transmission System Operators for Electricity|
-|Dataset|ENTSOE_BL_IMBPR|
+|Dataset|ENTSOE_EL_BL_IMBPR|
 |Dataset Name|European Network of Transmission System Operators - Imbalance Prices Spot|
-|Dataset Type|Power Imbalance Price|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Power|
-|Commodity|Fundamentals|
+|Market|Statistics/Fundamentals|
+|Commodity|Power|
 |Location|various|
 |Region|Europe|
 |Quote Calendar|QuarterHourly|

@@ -1,12 +1,6 @@
-IPEX (GME) Power Daily Market Price, MPEG
-
-## File Collection
-
-IPEX power day-ahead price updates are made available by provider in yyyyMMddMPEGSintesiScambio.xml file in the following link: https://www.mercatoelettrico.org/En/download/DownloadDati.aspx?val=MPEG_Prezzi
-
 ### Schedule
 
-End of day file is retrieved between 19:00GMT and 20:00GMT on business days.
+End of day file is retrieved between 19:00 and 20:00 GMT on business days.
 
 ### Sample File
 
@@ -31,15 +25,12 @@ Example data id and name
 |-|-|
 |Source|IPEX|
 |Source Name|Italian Power Exchange (GME)|
-|Name|Italian Power Exchange (GME) Baseload Power Forward Physical Continous Market MPEG Price Curve|
-|Description|Italian Power Exchange (GME) Baseload Power Forward Physical Continous Market MPEG Price Curve|
 |Dataset|IPEX_EL_DM|
 |Dataset Name|Italian Power Exchange(GME) Power Daily Market Price|
-|Dataset Type|Daily Price|
 |Frequency|Business|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Power|
+|Market|Daily|
 |Commodity|Power|
 |Location|Italy|
 |Quote Calendar|HOURLY|

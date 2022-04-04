@@ -1,9 +1,3 @@
-Power Exchange Central Europe Natural Gas Futures
-
-## File Collection
-
-The end of day data file is collected from PXE website: https://www.pxe.cz/Download/  
-
 ### Schedule
 
 The end of day file is retrieved between 08:00 and 09:00 GMT on following Czech business days.
@@ -24,17 +18,6 @@ Example data id and name
 |-|-|
 |PXE.NG.CZ.BL.G1B.FUT|Power Exchange Central Europe Czech Baseload Natural Gas Futures|
 
-### Expiry Calendar
-
-Below set of expiry calendars are used in calculating rolling forward data. The expiry and rollover calendars remain same.
-
-|**Contract**|**Expiry Calendar**|
-|-|-|
-|Month|RPXENGFM
-|Quarter|RPXENGFQ
-|Season|RPXENGFS
-|Year|RPXENGFY|
-
 ### Attributes
 
 |Name|Value|
@@ -43,11 +26,10 @@ Below set of expiry calendars are used in calculating rolling forward data. The 
 |Source Name|Power Exchange Central Europe|
 |Dataset|PXE_NG_FUT|
 |Dataset Name|Power Exchange Central Europe Natural Gas Futures|
-|Dataset Type|Gas Futures|
 |Frequency|Business|
 |Currency|EUR|
 |Unit|MWH|
-|Market|Natural Gas,Futures|
+|Market|Futures|
 |Commodity|Natural Gas|
 |Location|Czechia|
 |Region|Europe|

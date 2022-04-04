@@ -1,9 +1,3 @@
-Agriculture and Horticulture Development Board United Kingdom Wholesale Monthly Prices  
-
-## File Collection
-
-The file UK wholesale prices-1.xlsx is collected from https://ahdb.org.uk/dairy/uk-wholesale-prices.
-
 ### Schedule
 
 Monthly updates are processed on 25th day of every month.
@@ -32,12 +26,12 @@ Example data id and name
 |Source Name|The Agriculture and Horticulture Development Board|
 |Dataset|AHDB_DR_PR|
 |Dataset Name|Agriculture and Horticulture Development Board United Kingdom Wholesale Monthly Prices|
-|Dataset Type|Dairy Wholesale Monthly Spot Price|
 |Frequency|Monthly|
 |Currency|GBP|
 |Unit|MT|
-|Market|Agriculture|
-|Commodity|Agriculture,Dairy|
+|Market|Spot|
+|Commodity|Agriculture|
+|Product|Dairy Wholesale Prices|
 |Location|United Kingdom|
 |Region|Europe|
 |Quote Calendar|Monthly|

@@ -28,13 +28,12 @@ Example data id and name
 |-|-|
 |Source|ENTSOE|
 |Source Name|European Network of Transmission System Operators for Electricity|
-|Dataset|ENTSOE_OT_CONS|
+|Dataset|ENTSOE_EL_OT_CONS|
 |Dataset Name|European Network of Transmission System Operators - Aggregated Unavailability of Consumption Units Spot|
-|Dataset Type|Power Cnsumption Outage|
 |Currency||
 |Unit|MW|
-|Market|Power|
-|Commodity|Fundamentals|
+|Market|Statistics/Fundamentals|
+|Commodity|Power|
 |Location|various|
 |Region|Europe|
 |Quote Calendar|Hourly|

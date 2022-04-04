@@ -1,5 +1,3 @@
-Sterling Over Night Interbank Average Rate
-
 ## Overview
 
 ![](/img/data/boe.png)
@@ -44,10 +42,11 @@ Example data id and name
 |Source Name|Bank of England|
 |Dataset|SONIA|
 |Dataset Name|Sterling Overnight Interbank Average Rate|
-|Dataset Type|Overnight interest rate|
-|Market|Financial Market|
-|Commodity|Interest Rates|
+|Market|Financial|
+|Commodity|Forward Interest Rates|
+|Product|IR Forwards|
 |Location|United Kingdom|
+|Region|Europe|
 |Quote Calendar|HENG||
 
 ### Validation
@@ -56,5 +55,5 @@ Data is validated for missing data points using HENG calendar for expected absen
 
 ### Licensing
 
-Data is freely available from the BOE website and can be used by clients without permissions.
+Data is freely available from the BOE website and can be used by customers without permissions.
 

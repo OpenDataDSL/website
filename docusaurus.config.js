@@ -23,7 +23,6 @@ module.exports = {
       items: [
         {type: 'doc', docId: 'home',position: 'left',label: 'Documentation'},
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/pricing', label: 'Pricing', position: 'left'},
         {to: '/support', label: 'Support', position: 'left'},
         {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'left'}
       ],

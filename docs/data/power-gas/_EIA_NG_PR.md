@@ -32,11 +32,10 @@ Example data id and name:
 |Source Name|The U.S. Energy Information Administration|
 |Dataset|EIA_NG_PR|
 |Dataset Name|US Energy Information Administration Natural Gas Prices|
-|Dataset Type|Monthly Price of natural gas|
 |Frequency|monthly|
 |Currency|USD|
 |Unit|MCF|
-|Market|Natural Gas|
+|Market|Statistics|
 |Commodity|Natural Gas|
 |Location|Gloal|
 |Quote Calendar|HUSA|

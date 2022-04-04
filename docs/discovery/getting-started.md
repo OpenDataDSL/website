@@ -34,9 +34,6 @@ OpenDataDSL is comprised of the following:
 ### All the OpenDataDSL user software is FREE to use for any number of users
 :::
 
-You only pay to use the services, fulfilled subscriptions, sending messages, running processes and data storage, 
-see [pricing](/pricing) for more information.
-
 You get started with OpenDataDSL by logging into the [Portal](https://portal.opendatadsl.com) using your corporate
 credentials and entering some information about you and your company - see [SignUp](/SignUp).
 
