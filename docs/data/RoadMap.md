@@ -7,15 +7,17 @@ Current Data RoadMap
 
 |**Provider**|**Country**|**Commodity**|
 |-|-|-|
-|BSP SouthPool Energy Exchange|Slovenia|Power|
 |CROPEX Croatian Power Exchange Ltd|Croatia|Power|
-|OTE Czech electricity and gas market operator|Czech|Power&Gas|
-|IBEX Independent Bulgarian Energy Market|Bulgaria|Power|
-|ENEX Energy Exchange Group|Greece|Power|
 |AEMO Australian Energy Market Operator|Australia|Power&Gas|
-|Zhengzhou Commodity Exchange|China|Agriculture,Metals|
-|Shanghai Futures Exchange |China|Agriculture,Metals|
-|ELIA Belgium Electricity|Belgium|Power|
 |EEX Transperancy|Europe|Power&Gas|
-|Dubai Mercantile Exchange Limited|Middle East|Oil|
-|LBMA Precious Metal Prices|London|Metals|
+|BAFA Federal Office of Economics and Export Control|Germany|Oil|
+|PAJ Petroleum Association of Japan|Japan|Statistics|
+|ONS Office of National Statistics|United Kingdom|Statistics|
+|THE Trading Hub Europe|Europe|Gas|
+|ABN Amro|Netherlands|FX|
+|GIE Gas Infrastructure Europe|Europe|Gas|
+|MiBGas |Europe|Gas|
+|Elexon Power Flow |United Kingdom|Power|
+|HEnEx Hellenic Energy Exchange|Greece|Power|
+|SEEPEX|Serbia|Power|
+|HEnEx S.A. Hellenic Energy Exchange S.A|Greece|Power|

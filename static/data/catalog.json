@@ -491,7 +491,7 @@
         "start": "2021",
         "frequency": "Various",
         "link":"/docs/company/Platts",
-        "tags": ["Commodity", "Oil"," NEW"]
+        "tags": ["Commodity", "Oil"]
     },
     {
         "type": "BYOL",
@@ -504,7 +504,7 @@
         "start": "2021",
         "frequency": "Various",
         "link":"/docs/company/Platts",
-        "tags": ["Commodity", "Natural Gas"," NEW"]
+        "tags": ["Commodity", "Natural Gas"]
     },
     {
         "type": "BYOL",
@@ -517,7 +517,7 @@
         "start": "2021",
         "frequency": "Various",
         "link":"/docs/company/Argus",
-        "tags": ["Commodity", "Natural Gas"," NEW"]
+        "tags": ["Commodity", "Natural Gas"]
     },
     {
         "type": "BYOL",
@@ -530,7 +530,7 @@
         "start": "2021",
         "frequency": "Various",
         "link":"/docs/company/Argus",
-        "tags": ["Commodity", "Power"," NEW"]
+        "tags": ["Commodity", "Power"]
     },
     {
         "type": "BYOL",
@@ -543,7 +543,7 @@
         "start": "2021",
         "frequency": "Various",
         "link":"/docs/company/NCDEX",
-        "tags": ["Commodity", "Agriculture"," NEW"]
+        "tags": ["Commodity", "Agriculture"]
     },
     {
         "type": "BYOL",
@@ -556,7 +556,7 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/EEX",
-        "tags": ["Commodity", "Power"," NEW"]
+        "tags": ["Commodity", "Power"]
     },
     {
         "type": "BYOL",
@@ -569,7 +569,7 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/EEX",
-        "tags": ["Commodity", "Natural Gas"," NEW"]
+        "tags": ["Commodity", "Natural Gas"]
     },
     {
         "type": "BYOL",
@@ -582,7 +582,7 @@
         "start": "2021",
         "frequency": "DAILY",
         "link":"/docs/company/EEX",
-        "tags": ["Commodity", "Emission"," NEW"]
+        "tags": ["Commodity", "Emission"]
     },
     {
         "type": "FREE",
@@ -595,6 +595,58 @@
         "start": "2021",
         "frequency": "BUSINESS",
         "link":"/docs/company/IMF",
+        "tags": ["Commodity", "Agriculture"]
+    },
+    {
+        "type": "FREE",
+        "provider": "OTE Czech Electricity and Gas Market Operator",
+        "providerType":"TSO",
+        "logo": "ote.png",
+        "dataset": "Power",
+        "text": "OTE Czech Electricity and Gas Market Operator Czech Power Day Ahead Prices",
+        "region": "Czech",
+        "start": "2021",
+        "frequency": "DAILY",
+        "link":"/docs/company/OTE",
+        "tags": ["Commodity", "Power"," NEW"]
+    },
+    {
+        "type": "FREE",
+        "provider": "Independent Bulgarian Energy Exchange",
+        "providerType":"Exchange",
+        "logo": "ibex.jpg",
+        "dataset": "Power",
+        "text": "Independent Bulgarian Energy Exchange Power Day Ahead Prices",
+        "region": "Bulgaria",
+        "start": "2021",
+        "frequency": "DAILY",
+        "link":"/docs/company/IBEX",
+        "tags": ["Commodity", "Power"," NEW"]
+    },
+    {
+        "type": "BYOL",
+        "provider": "Dubai Mercantile Exchange Limited",
+        "providerType":"Exchange",
+        "logo": "dme.png",
+        "dataset": "Oil",
+        "text": "Crudes Futures",
+        "region": "Middle East",
+        "start": "2021",
+        "frequency": "BUSINESS",
+        "link":"/docs/company/DME",
+        "tags": ["Commodity", "Oil"," NEW"]
+    },
+    {
+        "type": "BYOL",
+        "provider": "Minneapolis Grain Exchange",
+        "providerType":"Exchange",
+        "logo": "mgex.png",
+        "dataset": "Agriculture",
+        "text": "Minneapolis Grain Exchange Agriculture Futures",
+        "region": "United States",
+        "start": "2021",
+        "frequency": "BUSINESS",
+        "link":"/docs/company/MGEX",
         "tags": ["Commodity", "Agriculture"," NEW"]
     }
 ]
