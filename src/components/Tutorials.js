@@ -15,8 +15,8 @@ export default function Tutorials(props) {
 <a href="/docs/tutorials/gettingstartedodsl">Getting started with ODSL</a>
 <p>Ease your way into programming with ODSL with a simple tutorial that walks through the language basics</p>
 
-<a href="/docs/tutorials/forwardcurveodsl">Create a Forward Curve Configuration using ODSL</a>
-<p>This tutorial walks you through creating a new forward curve configuration in the OpenDataDSL language, testing and running the curve and visualising it in the web portal</p>
+<a href="/docs/tutorials/smart-curves">Create a Smart Curve</a>
+<p>This tutorial introduces you to Smart Curves and walks you through creating curves in ODSL or REST API calls</p>
 
 <a href="/docs/tutorials/searching">Searching using the find command</a>
 <p>This guide details the syntax of the find command and shows many examples of using it</p>

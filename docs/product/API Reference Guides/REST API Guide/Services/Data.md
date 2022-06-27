@@ -40,6 +40,10 @@ Below is a table of the query parameters that are usable with the data REST API
 |_range from|TimeSeries|_range=from(2021-03-01)|Returns all observations from the specified date|
 |_range between|TimeSeries|_range=between(2021-03-01,2021-03-31)|Returns only the observation within the specified range|
 |_id|Any|_id=MYCURVE:2021-03-01|Used when retrieving multiple data entities from anywhere (use all as source)|
+|currency|Any|currency=USD|Converts the TimeSeries or Curve to the supplied currency|
+|units|Any|units=MT|Converts the TimeSeries or Curve to the supplied units|
+|__density|Any|__density=980|When used in conjunction with unit conversion, this overrides the default density of the product being converted|
+
 
 ## Entities
 

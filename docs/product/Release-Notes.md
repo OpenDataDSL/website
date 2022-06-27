@@ -8,7 +8,72 @@ Release Notes
 
 Check here for details of our releases (both historic and upcoming)
 
-## Upcoming Release in February 2022
+## Upcoming Release in July 2022
+
+#### Data Packages
+Data packages are pre-defined processes that users can deploy to their own environment to load data from providers into their private database.
+These data providers do not provide data that we can freely distribute, therefore the client has to load the data into their own private environment.
+
+#### Events
+Events are a thing that has happened at a point in time, similar to an observation in a TimeSeries only with a lot more information.
+Example events are:
+* An order placed with a broker, exchange etc.
+* A trade made with a broker, exchange etc.
+* A planned or unplanned outage (REMIT Urgent Market Message)
+
+## Release History
+
+<details>
+<summary>June 2022</summary>
+
+#### Curve Change Values
+Added a 'change' value to show the absolute change of all tenors in a curve from the previous built curve
+
+#### Region support in ODSL code
+Allow users to create regions in ODSL code to break a script up into smaller sections.
+These regions can be folded and run/debugged independently
+
+
+</details>
+
+<details>
+<summary>May 2022</summary>
+
+#### Date Rule Grammar
+Added support for using dynamic dates such as T-1W (go back 1 week)
+
+#### Support for unit conversion custom factors
+You can now add properties on TimeSeries or Curves to provide absolute conversion factors to a specified unit
+
+</details>
+
+<details>
+<summary>April 2022</summary>
+
+#### Smart Curve Caching Improvements
+Added support for caching options, you can now choose from:
+* Never cache
+* Cache on demand
+* Cache when any dependencies are updated
+* Cache based on a cron schedule
+
+</details>
+
+<details>
+<summary>March 2022</summary>
+
+#### Curve Calendar Enhancements
+Various minor improvements
+* Use of holiday calendars for absolute movement of expiry calendars
+* Add support for timezone offsets when using hourly period codes
+
+#### Add support for TOP in FIND command
+Allows you to return a small sample of items when using the find command in ODSL
+
+</details>
+
+<details>
+<summary>February 2022</summary>
 
 #### Smart TimeSeries
 The exciting introduction of Smart TimeSeries allowing you to create on-demand TimeSeries using a formula/expression.
@@ -24,7 +89,7 @@ Initial release of the Excel Add-in which will allow you to:
 #### Gas Days
 A new calendar supporting Gas Day hourly data aggregation and reporting.
 
-## Release History
+</details>
 
 <details>
 <summary>January 2022</summary>
