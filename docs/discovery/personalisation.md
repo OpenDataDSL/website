@@ -27,7 +27,7 @@ So, instead of your users navigating to
 
 They can navigate to a more memorable name which is a sub-domain of your companies own website, e.g.
 
-`portal.mycomany.com`
+`portal.mycompany.com`
 
 ## Logo and Scheme
 Another important personalisation you can do is to set the logo on all the applications to your own company logo.
