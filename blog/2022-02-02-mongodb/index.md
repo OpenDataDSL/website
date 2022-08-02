@@ -53,7 +53,7 @@ Create 'links' to other documents which improve your users' navigation ability.
 ![relationships](relationships.png)
 
 ### Geo-spatial data
-Include geo-spatial information points, polygons and lines) in your documents to build a filterable map.
+Include geo-spatial information (points, polygons and lines) in your documents to build a filterable map using Google Maps.
 ![geo-spatial](geo-spatial.png)
 
 ### Document versioning
