@@ -14,10 +14,10 @@ Current Data RoadMap
 |PAJ Petroleum Association of Japan|Japan|Statistics|
 |ONS Office of National Statistics|United Kingdom|Statistics|
 |THE Trading Hub Europe|Europe|Gas|
-|ABN Amro|Netherlands|FX|
 |GIE Gas Infrastructure Europe|Europe|Gas|
 |MiBGas |Europe|Gas|
 |Elexon Power Flow |United Kingdom|Power|
 |HEnEx Hellenic Energy Exchange|Greece|Power|
 |SEEPEX|Serbia|Power|
-|HEnEx S.A. Hellenic Energy Exchange S.A|Greece|Power|
+|CEPEA Wheat Price|South America|Agriculture|
+|FAO FPMA Food Price Monitoring and Analysis Agricultural Statistics|Global|Agriculture|
