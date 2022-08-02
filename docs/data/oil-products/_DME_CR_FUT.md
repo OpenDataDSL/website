@@ -42,4 +42,8 @@ Data is validated for missing data points using HUSA calendar for expected absen
 
 ### Licensing
 
-Data is freely available in the vendor website and can be used by clients without permissions from LBMA.
+This data requires agreement with DME before it can be supplied.
+
+https://www.dubaimerc.com/DME-Data-Fees2
+
+https://www.dubaimerc.com/subscription-center

@@ -50,6 +50,12 @@
     font-size: 100%;
     color: black;
 }
+.bodyinfo {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 100%;
+    color: #1d9bd7;
+}
 .rowimage {
     text-align: center;
 }

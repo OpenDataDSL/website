@@ -17,9 +17,6 @@ import {TutorialRoot} from '/src/components/Discovery.js';
 #### [Getting started with ODSL](/docs/tutorials/gettingstartedodsl)
 Ease your way into programming with ODSL with a simple tutorial that walks through the language basics
 
-#### [Create a Forward Curve Configuration using ODSL](/docs/tutorials/forwardcurveodsl)
-This tutorial walks you through creating a new forward curve configuration in the OpenDataDSL language, testing and running the curve and visualising it in the web portal.
-
 #### [Searching using the find command](/docs/tutorials/searching)
 This guide details the syntax of the find command and shows many examples of using it
 

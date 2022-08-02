@@ -21,35 +21,50 @@ return (
     <div className={styles.container}>
         <div className={styles.item}>
             <div className={styles.rowheader}>QUESTIONS</div>
-            <div className={styles.rowinfo}>I have a question about</div>
+            <div className={styles.rowinfo}>I have a question</div>
             <div className={styles.rowimage}><img src="/img/home/questions.png" /></div>
             <ul className={styles.support}>
-                <li className={styles.support}><a href="https://stackoverflow.com/questions/tagged/odsl" target="_blank" rel="noopener noreferrer">ODSL language</a></li>
-                <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Company information</a></li>
-                <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Pricing</a></li>
-                <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Invoices and payments</a></li>
+                <li className={styles.support}>
+                    <div className={styles.bodyinfo}>You can ask technical or data questions into stackoverflow using the tag <a href="https://stackoverflow.com/questions/tagged/odsl" target="_blank" rel="noopener noreferrer">ODSL</a></div>
+                </li>
+                <li className={styles.support}>
+                    <div className={styles.bodyinfo}>Alternatively please email <a href="mailto:support@opendatadsl.com" target="_blank" rel="noopener noreferrer">support@opendatadsl.com</a></div>
+                </li>
+                <li className={styles.support}>
+                    <div className={styles.bodyinfo}>For all other questions, please email <a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">info@opendatadsl.com</a></div>
+                </li>
             </ul>
         </div>
         <div className={styles.item}>
             <div className={styles.rowheader}>ISSUES</div>
-            <div className={styles.rowinfo}>I have found an issue with</div>
+            <div className={styles.rowinfo}>I have found an issue</div>
             <div className={styles.rowimage}><img src="/img/home/issues.png" /></div>
             <ul className={styles.support}>
-                <li className={styles.support}><a href="https://stackoverflow.com/questions/tagged/odsl" target="_blank" rel="noopener noreferrer">ODSL language and services</a></li>
-                <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Data</a></li>
-                <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Integration</a></li>
-                <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Documentation</a></li>
+                <li className={styles.support}>
+                    <div className={styles.bodyinfo}>Log an issue in the <a href="https://portal.opendatadsl.com" target="_blank" rel="noopener noreferrer">PORTAL</a>. Go to Manage Account and select the Support tab</div>
+                </li>
+                <li className={styles.support}>
+                    <div className={styles.bodyinfo}>Alternatively please email <a href="mailto:support@opendatadsl.com" target="_blank" rel="noopener noreferrer">support@opendatadsl.com</a></div>
+                </li>
+                <li className={styles.support}>
+                    <div className={styles.bodyinfo}>For data issues, email <a href="mailto:data@opendatadsl.com" target="_blank" rel="noopener noreferrer">data@opendatadsl.com</a></div>
+                </li>
             </ul>
         </div>
         <div className={styles.item}>
             <div className={styles.rowheader}>ENHANCEMENTS</div>
-            <div className={styles.rowinfo}>I would like</div>
+            <div className={styles.rowinfo}>I would like something new</div>
             <div className={styles.rowimage}><img src="/img/home/enhancements.png" /></div>
                 <ul className={styles.support}>
-                    <li className={styles.support}><a href="https://stackoverflow.com/questions/tagged/odsl" target="_blank" rel="noopener noreferrer">A new product feature</a></li>
-                    <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Some specific data</a></li>
-                    <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">A new integration</a></li>
-                    <li className={styles.support}><a href="mailto:info@opendatadsl.com" target="_blank" rel="noopener noreferrer">Some training</a></li>
+                    <li className={styles.support}>
+                        <div className={styles.bodyinfo}>Log an enhancement in the <a href="https://portal.opendatadsl.com" target="_blank" rel="noopener noreferrer">PORTAL</a>. Go to Manage Account and select the Support tab</div>
+                    </li>
+                    <li className={styles.support}>
+                        <div className={styles.bodyinfo}>Alternatively please email <a href="mailto:support@opendatadsl.com" target="_blank" rel="noopener noreferrer">support@opendatadsl.com</a></div>
+                    </li>
+                    <li className={styles.support}>
+                        <div className={styles.bodyinfo}>For data additions, email <a href="mailto:data@opendatadsl.com" target="_blank" rel="noopener noreferrer">data@opendatadsl.com</a></div>
+                    </li>
                 </ul>
         </div>
     </div>
