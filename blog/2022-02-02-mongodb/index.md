@@ -32,7 +32,7 @@ take a look at how OpenDataDSL can accelerate your time-to-market by providing m
 
 ### User Interfaces
 * A user-friendly web portal which you can whitelabel to make it your own.
-* An Excel Add-In to read and write MongoDB data using Excel.
+* An Excel Add-In to read and write MongoDB data using Excel (Desktop and Web).
 * Development environment in Microsoft VSCode for easy coding using our DSL (4GL language) 
 
 ### Data management programming language
@@ -58,37 +58,81 @@ Include geo-spatial information points, polygons and lines) in your documents to
 
 ### Document versioning
 Never lose any data with built-in, automatic versioning of documents, data and entities.
+Older versions of documents are stored in archive collections with full tagging and rollback capabilities.
 
 ### Automatic filtering
 Define which fields in your documents are 'dimensions' that you want to filter on in the Web Portal
+![filtering](filtering.png)
 
 ### Comprehensive ETL
 Use our world-class ETL components to extract data from anywhere, transform it into your data model and load it into MongoDB.
+
+An example using the ODSL language, creating a transformer to convert an input XML file into documents to be loaded into MongoDB.
+```js
+print "> Creating tx"
+tx = transform xml into #ForeignExchange as fx
+    // Transform ECB daily FX rates to type #ForeignCurrency
+    create with Cube
+    unique id = "ECB_FX_EUR" + fx.currency
+    SPOT = TimeSeries(xml.Cube.Cube.time, "BUSINESS", fx.rate)
+    category = "Foreign Exchange"
+    product = "ECB_FX"
+    provider = "European Central Bank"
+    model = "EUR" + fx.currency
+    description = "European Central Bank reference rates EUR/" + fx.currency
+    base = "EUR"
+    currency = fx.currency
+end
+
+XML=${xml:"https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"}
+
+result = tx.run(XML)
+print result
+```
 
 ### Built-in Timeseries, Curves and Events
 Robust management of Timeseries, Curve and Event data.
 Convert discrete events into Timeseries and curves.
 
-### Smart Data
+#### Smart Data
 Create formulas and expressions that dynamically enhance your 'raw' Timeseries, Curves and Events
 
-### Built-in conversions
+#### Conversions
 Easily convert values to different currencies and units on-the-fly with the built-in conversion intelligence. 
+
+![data](data.png)
 
 ### Workflows, actions and processes
 Build comprehensive workflows with your own custom actions to load or process data.
 Run scheduled or event-driven processes 
 
+Monitor your processes from your mobile device or the web. 
+![workflow](workflow.png)
+
 ### Multiple environments
 Get access to multiple data environments for feature development, data previewing etc.
 Improve data releases by pre-staging data and 'merging' to production when ready. 
 
+Each environment is a separate MongoDB database, so you can be certain of complete data partitioning.
+![environment](environment.png)
+
+### Use your own MongoDB Atlas connection
+You can supply a connection string to your own MongoDB Atlas so you can remain in control of your data and your costs.
+![database](database.png)
+
 ### Message queues
 Integrate your MongoDB data with your internal systems using message queues.
 Subscribe to data changes and push data to queues to be consumed by your internal systems.
+![queues](/attachments/8978718/9011498.png)
 
 ### Auditing
 Comprehensive audit logs to identify changes and user activity 
+![auditing](auditing.png)
+
+## More information or free trial?
+Tell us about your project, and we can let you know how we can help.
+
+Contact us at [info@opendatadsl.com](mailto:info@opendatadsl.com)
 
 ## Further Reading
 * [What is OpenDataDSL?](/docs/product/intro)
