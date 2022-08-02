@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 slug: /user/vscode
 ---
 Microsoft VS Code Extension
