@@ -63,7 +63,7 @@ More complex Smart Curves can include:
 * An optional custom script name containing user definable functions
 * Optional references to other curves or data used in the expression
 
-You write the custom functions in [ODSL Scripts](/docs/odsl) and upload them to the database.
+You write the custom functions in [ODSL Scripts](https://doc.opendatadsl.com/docs/odsl) and upload them to the database.
 Simple coding like:
 
 ```js
@@ -121,7 +121,7 @@ sc1.density = 720
 ```
 
 ## Testing Smart Curves
-You can create and test Smart Curves directly using ODSL code in the [VSCode development environment](/docs/user/vscode):
+You can create and test Smart Curves directly using ODSL code in the [VSCode development environment](https://doc.opendatadsl.com/docs/user/vscode):
 
 ```js
 cf = SmartCurve("#MATBAROFEX.ROS.CORN.FUT:CLOSE", "interpolate(bootstrapCurve(BASE),'BACKWARD')")
@@ -132,8 +132,8 @@ print c1.contracts
 ```
 
 ## Further Reading
-* [Smart Curve Tutorial](/docs/tutorials/smart-curves)
-* [Smart Curve Variable](/docs/odsl/variable/smartcurve)
-* [Standard Curve Building Functions](/docs/public/scripts/curve-building)
-* [VSCode extension](/docs/user/vscode)
-* [Coding in ODSL](/docs/odsl)
+* [Smart Curve Tutorial](https://doc.opendatadsl.com/docs/tutorials/smart-curves)
+* [Smart Curve Variable](https://doc.opendatadsl.com/docs/odsl/variable/smartcurve)
+* [Standard Curve Building Functions](https://doc.opendatadsl.com/docs/public/scripts/curve-building)
+* [VSCode extension](https://doc.opendatadsl.com/docs/user/vscode)
+* [Coding in ODSL](https://doc.opendatadsl.com/docs/odsl)

@@ -21,9 +21,9 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        {type: 'doc', docId: 'home',position: 'left',label: 'Documentation'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/support', label: 'Support', position: 'left'},
+        {href: 'https://doc.opendatadsl.com', label: 'Documentation', position: 'left'},
         {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'left'}
       ],
     },
@@ -36,19 +36,19 @@ module.exports = {
           items: [
             {
               label: 'Home',
-              to: '/docs/home',
+              href: 'https://doc.opendatadsl.com',
             },
             {
               label: 'Tutorials',
-              to: '/docs/tutorials/tutorials',
+              href: 'https://doc.opendatadsl.com/docs/Tutorials',
             },
             {
               label: 'Data Catalog',
-              to: '/docs/data/catalog',
+              href: 'https://doc.opendatadsl.com/docs/data/catalog',
             },
             {
               label: 'Tags',
-              to: '/docs/tags',
+              href: 'https://doc.opendatadsl.com/docs/tags',
             },
           ],
         },
@@ -135,9 +135,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         gtag: {trackingID: 'UA-211987172-1'},
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js')
-        },
+        docs: false,
         blog: {
           postsPerPage: 'ALL',
           showReadingTime: true,

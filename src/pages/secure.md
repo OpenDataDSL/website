@@ -20,10 +20,10 @@ users in OpenDataDSL along with all the features implemented by your own securit
 * System users and secrets
 
 ### Application Access
-Your own company security team can configure user access to all OpenDataDSL services using [Application Roles](/docs/it/security#application-roles)
+Your own company security team can configure user access to all OpenDataDSL services using [Application Roles](https://doc.opendatadsl.com/docs/it/security#application-roles)
 
 ### Data Access
-All public source data is open available to everyone in your company, but your proprietary data can be secured with [Data Roles](/docs/it/security#data-roles)
+All public source data is open available to everyone in your company, but your proprietary data can be secured with [Data Roles](https://doc.opendatadsl.com/docs/it/security#data-roles)
 using Azure Active Directory Security Groups.
 
 <MoreInfo href="/docs/discovery/security" />
