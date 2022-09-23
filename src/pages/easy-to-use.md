@@ -17,9 +17,9 @@ hard-to-install software.
 You can be up-and-running within [2 minutes](SignUp) using your own corporate Azure Active Directory login account.
 
 ### Tutorials
-Work through our [tutorials](/docs/tutorials/tutorials) to familiarise yourself with how to get things done
+Work through our [tutorials](https://doc.opendatadsl.com/docs/Tutorials) to familiarise yourself with how to get things done
 
 ### Data Management Language
-Learn about our extensive [data management programming language](/docs/tutorials/gettingstartedodsl) that will make working with data so much easier
+Learn about our extensive [data management programming language](https://doc.opendatadsl.com/docs/tutorials/gettingstartedodsl) that will make working with data so much easier
 
 <MoreInfo href="/docs/discovery/getting-started" />

@@ -17,10 +17,10 @@ Eradicate the need to adapt your processes and reports to deal with rigid constr
 
 ### Geo-Tagging
 Most of the data in our world of Energy and Commodities has some location attributes which, when added to the data,
-allow you to utilise [Geo-Spatial queries](/docs/odsl/dm/geospatial) and mapping capabilities.
+allow you to utilise [Geo-Spatial queries](https://doc.opendatadsl.com/docs/odsl/dm/geospatial) and mapping capabilities.
 
 ### Machine Learning
 Categorising data, looking for patterns and forecasting are all vital to adding value on top of your data. 
 Utilise our Machine Learning capabilities to train and automate models to enrich your data.
 
-<MoreInfo href="/docs/discovery/uploading-data" />
+<MoreInfo href="https://doc.opendatadsl.com/docs/discovery/uploading-data" />

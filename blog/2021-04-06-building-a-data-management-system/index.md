@@ -64,9 +64,9 @@ experience of buying off-the-shelf.
 * Free use of ALL our software and tools - that includes:
     * Web-portal/Dashboard - (Web/Desktop/Mobile)
     * Excel Add-in
-    * [VSCode extension](/docs/user/vscode)
+    * [VSCode extension](https://doc.opendatadsl.com/docs/user/vscode)
 * Customise the domain and user experience of all tools to [make it your own](/make-it-yours)
-* Fully supported and documented [REST API](/docs/api/rest/standards) 
+* Fully supported and documented [REST API](https://doc.opendatadsl.com/docs/api/rest/standards) 
 * Secure user authentication and access control using your own [Azure Active Directory](/secure)
 
 ### What are the benefits?
@@ -74,7 +74,7 @@ experience of buying off-the-shelf.
 * [Quick initial set-up](/focus-on-what-matters), simply sign-up for a free account and start building!
 * Low cost, [only pay for what you use](/big-savings) and a free tier enabling you to try-out services with zero cost
 * Flexible, smart and relevant - utilising robust cloud technology
-* Customisable - utilise your [own database](/docs/it/database) or use ours, it is your choice
+* Customisable - utilise your [own database](https://doc.opendatadsl.com/docs/it/database) or use ours, it is your choice
 * Highly scalable utilising serverless technology
 * Multiple data environments - create your own test environment, independent of your production environment
 

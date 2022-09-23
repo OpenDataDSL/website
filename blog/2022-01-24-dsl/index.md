@@ -104,6 +104,6 @@ As you can see from the practical example, a DSL simplifies working in a domain 
 
 
 ## Further Reading
-* [What is OpenDataDSL?](/docs/product/intro)
-* [VSCode extension](/docs/user/vscode)
-* [Coding in ODSL](/docs/odsl)
+* [What is OpenDataDSL?](https://doc.opendatadsl.com/docs/product/intro)
+* [VSCode extension](https://doc.opendatadsl.com/docs/user/vscode)
+* [Coding in ODSL](https://doc.opendatadsl.com/docs/odsl)

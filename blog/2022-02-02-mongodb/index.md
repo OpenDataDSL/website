@@ -135,6 +135,6 @@ Tell us about your project, and we can let you know how we can help.
 Contact us at [info@opendatadsl.com](mailto:info@opendatadsl.com)
 
 ## Further Reading
-* [What is OpenDataDSL?](/docs/product/intro)
-* [VSCode extension](/docs/user/vscode)
-* [Coding in ODSL](/docs/odsl)
+* [What is OpenDataDSL?](https://doc.opendatadsl.com/docs/product/intro)
+* [VSCode extension](https://doc.opendatadsl.com/docs/user/vscode)
+* [Coding in ODSL](https://doc.opendatadsl.com/docs/odsl)

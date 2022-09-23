@@ -23,5 +23,5 @@ We are proud to launch our new website
 Today (1st November 2021) we have proudly launched our new web site at [OpenDataDSL](https://www.opendataldsl.com).
 
 You will find lots of information about our products and data and more importantly, a good insight into what makes us special - 
-The Data Management programming language [ODSL](/docs/odsl). 
+The Data Management programming language [ODSL](https://doc.opendatadsl.com/docs/odsl). 
 
