@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'OpenDataDSL - Smart SAAS Data Management',
-  tagline: 'A real-world solution for getting your DATA and PROCESSES in the CLOUD',
+  tagline: 'Data Management for MongoDB',
   url: 'https://www.opendatadsl.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -23,11 +23,12 @@ module.exports = {
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/support', label: 'Support', position: 'left'},
+        {to: '/plans', label: 'Pricing', position: 'left'},
         {href: 'https://doc.opendatadsl.com', label: 'Documentation', position: 'left'},
         {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'left'}
       ],
     },
-    metadata: [{name: 'keywords', content: 'smart, smart curves, forward curves, market data, commodity, energy, timeseries, data management, blog'}],
+    metadata: [{name: 'keywords', content: 'mongodb, smart, smart curves, forward curves, market data, commodity, energy, timeseries, data management, blog'}],
     footer: {
       style: 'dark',
       links: [

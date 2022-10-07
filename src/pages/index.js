@@ -32,7 +32,7 @@ function Video() {
             </div>
             <div className={styles.h_text_minor}>
                 <div className={styles.h_text_inner}>
-                    <span>A real-world solution for getting your DATA and PROCESSES in the CLOUD
+                    <span>Data Management for MongoDB
                     <br />
                     Get started today with a <span className={styles.h_text_highlight}>FREE ACCOUNT</span>
                     </span>
@@ -41,7 +41,7 @@ function Video() {
             <div className={styles.h_text_minor}>
                 <div className={styles.h_text_inner}>
                     <Button className={styles.signupbutton} href="/SignUp">Sign Up</Button>
-                    <Button className={styles.infobutton} href="/docs/discovery/getting-started">More Info</Button>
+                    <Button className={styles.infobutton} href="https://doc.opendatadsl.com/docs">More Info</Button>
                 </div>
             </div>
         </div>

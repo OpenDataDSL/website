@@ -24,4 +24,4 @@ that will help to identify the Portal as your own.
 ### Custom Colour Scheme
 Why not skin the Portal using your companies corporate colour scheme too?
 
-<MoreInfo href="/docs/discovery/personalisation" />
+<MoreInfo href="https://doc.opendatadsl.com/docs/discovery/personalisation" />
