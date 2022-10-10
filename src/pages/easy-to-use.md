@@ -22,4 +22,4 @@ Work through our [tutorials](https://doc.opendatadsl.com/docs/Tutorials) to fami
 ### Data Management Language
 Learn about our extensive [data management programming language](https://doc.opendatadsl.com/docs/tutorials/gettingstartedodsl) that will make working with data so much easier
 
-<MoreInfo href="/docs/discovery/getting-started" />
+<MoreInfo href="https://doc.opendatadsl.com/docs" />

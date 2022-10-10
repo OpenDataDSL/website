@@ -26,4 +26,4 @@ Your own company security team can configure user access to all OpenDataDSL serv
 All public source data is open available to everyone in your company, but your proprietary data can be secured with [Data Roles](https://doc.opendatadsl.com/docs/it/security#data-roles)
 using Azure Active Directory Security Groups.
 
-<MoreInfo href="/docs/discovery/security" />
+<MoreInfo href="https://doc.opendatadsl.com/docs/discovery/security" />
