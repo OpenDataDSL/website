@@ -7,7 +7,7 @@ How to sign up to OpenDataDSL
 
 ## Signing up to OpenDataDSL is 3 easy steps...
 
-1. Head over to the [Portal](https://dev-portal.opendatadsl.com/authentication/login) and log-in using your Azure Active 
+1. Head over to the [Portal](https://portal.opendatadsl.com/authentication/login) and log-in using your Azure Active 
 Directory corporate credentials.
 2. Fill in the name of your company
 3. Fill in some details about yourself
