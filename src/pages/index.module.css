@@ -65,8 +65,8 @@
 }
 
 .tagline {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 120%;
 }
 
 .smallsectionskip {
@@ -80,13 +80,13 @@
 .sectionBanner {
   font-size: 3rem;
   padding: 1rem 3rem;
-  text-align: left;
+  text-align: center;
   position: relative;
   overflow: hidden;
 }
 
 .stayintouch {
-  padding: 4rem 0;
+  padding: 1rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -99,6 +99,37 @@
   position: relative;
   overflow: hidden;
   background: #99c5f1;
+}
+
+.productBanner {
+  font-size: 3rem;
+  padding: 1rem 1rem 2rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.products {
+  padding: 1rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  background: #ebedf0;
+}
+
+@media only screen and (min-width: 800px) {
+    .product_screenshot {
+        display: block;
+        width: 1200px;
+        height: auto;
+        border: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .product_screenshot {
+        display: hidden;
+    }
 }
 
 .datablock {
@@ -117,18 +148,18 @@
 
 .datavideo {
     margin: 0px;
-    width: 1903px;
+    width: 100%;
     height: 1070.44px;
     max-width: none;
     box-sizing: border-box;
+    object-fit: fill;
 }
 
 .videoplayer {
-    width: 1903px;
+    width: 100%;
     height: 1070.44px;
     min-width: 0px;
-    margin: 0px 0px 0px -951.5px;
-    left: 50%;
+    margin: 0px 0px 0px 0px;
     position: absolute;
     max-width: none;
 }

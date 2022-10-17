@@ -20,7 +20,7 @@ const AboutList = [
     description: (
       <>
         Our vision is to make high quality, flexible and low cost data modelling, 
-        management and reporting for all sizes of businesses and all types of markets.
+        management and reporting tools for MongoDB for all sizes of businesses and all types of markets.
       </>
     )
   },
@@ -38,69 +38,35 @@ const AboutList = [
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    jpg: require('../../static/img/home/easy-to-use.png').default,
+    title: 'Excel Add-in',
+    jpg: require('../../static/img/home/focus-on-data.png').default,
     description: (
       <>
-        OpenDataDSL was designed from the ground up to be a Software As A Service (SAAS) 
-        product, always up-to-date and easy-to-install software.
+        Find, read and write MongoDB data directly in Excel
       </>
     ),
     link: "easy-to-use"
   },
   {
-    title: 'Make It Yours',
-    jpg: require('../../static/img/home/make-it-yours.png').default,
+    title: 'Web Portal',
+    jpg: require('../../static/img/home/data-anywhere.png').default,
     description: (
       <>
-        Build applications using our APIs and customise the portal with your own domain, logo and colours to
-        make it your own.
+        Visualise MongoDB documents and TimeSeries.
       </>
     ),
     link: "make-it-yours"
   },
   {
-    title: 'Big Savings',
+    title: '4GL Language',
     jpg: require('../../static/img/home/big-savings.png').default,
     description: (
       <>
-        In OpenDataDSL you only pay for what you use with a generous FREE monthly allowance.
+        An easy scripting language to improve working with MongoDB.
       </>
     ),
     link: "big-savings"
-  },
-  {
-    title: 'Focus on What Matters',
-    jpg: require('../../static/img/home/focus-on-data.png').default,
-    description: (
-      <>
-        Moving your data management to OpenDataDSL allows you to focus on the important things that add value to your business.
-      </>
-    ),
-    link: "focus-on-what-matters"
-  },
-  {
-    title: 'Any Data Anywhere',
-    jpg: require('../../static/img/home/data-anywhere.png').default,
-    description: (
-      <>
-        Create 'real-world' data structures, add geo-tagging and use
-        machine-learning to enrich and automate your data.
-      </>
-    ),
-    link: "any-data-anywhere"
-  },
-  {
-    title: 'Secure',
-    jpg: require('../../static/img/home/secure.png').default,
-    description: (
-      <>
-        Use your own Azure Active Directory to authenticate your users and
-        secure your data.
-      </>
-    ),
-    link: "secure"
-  },
+  }
 ];
 
 function Feature({jpg, title, description, link}) {

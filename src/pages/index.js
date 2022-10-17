@@ -27,21 +27,20 @@ function Video() {
         <div className={styles.h_text_block}>
             <div className={styles.h_text_major}>
                 <div className={styles.h_text_inner}>
-                    <span>Smart <span className={styles.h_text_highlight}>SAAS</span> Data Management</span>
+                    <span>TurboCharge your <span className={styles.h_text_highlight}>MongoDB</span> Project</span>
                 </div>
             </div>
             <div className={styles.h_text_minor}>
                 <div className={styles.h_text_inner}>
-                    <span>Data Management for MongoDB
+                    <div className={styles.tagline}>All the tools you need to make the most of your MongoDB database</div>
                     <br />
-                    Get started today with a <span className={styles.h_text_highlight}>FREE ACCOUNT</span>
-                    </span>
+                    <span>Get started today with a <span className={styles.h_text_highlight}>14 Day FREE Trial</span></span>
                 </div>
             </div>
             <div className={styles.h_text_minor}>
                 <div className={styles.h_text_inner}>
                     <Button className={styles.signupbutton} href="/SignUp">Sign Up</Button>
-                    <Button className={styles.infobutton} href="https://doc.opendatadsl.com/docs">More Info</Button>
+                    <Button className={styles.infobutton} href="https://doc.opendatadsl.com">More Info</Button>
                 </div>
             </div>
         </div>
@@ -63,6 +62,143 @@ function SmartCurves() {
     );
 }
 
+function Products() {
+    return (
+    <div className={styles.products}>
+        <div className={styles.productBanner}>Discover the tools that will transform your business</div>
+        <div className="row padding-vert--md">
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+            <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <div className="row">
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <h2>Excel Add-in</h2>
+                        </div>
+                        <div>
+                            <h3>Read/Write MongoDB In Excel</h3>
+                        </div>
+                        <div>
+                            <p>Create, read and update all your data in MongoDB Atlas directly from within your own Excel spreadsheets</p>
+                            <p>Available for both desktop and web Excel</p>
+                        </div>
+                    </div>
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div className="image_container">
+                            <img className={styles.product_screenshot} src="/img/home/excel-addin.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+        </div>
+
+        <div className="row padding-vert--md">
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+            <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <div className="row">
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div className="image_container">
+                            <img className={styles.product_screenshot} src="/img/home/document-visualization.png"/>
+                        </div>
+                    </div>
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <h2>Web Portal - Visualisation</h2>
+                        </div>
+                        <div>
+                            <h3>Make the most of your MongoDB data</h3>
+                        </div>
+                        <div>
+                            <p>Create data models that help you navigate your MongoDB Atlas data like never before - search, browse and visualise documents and timeseries</p>
+                            <p>Get a complete view of every document and make it easy for your business to fully exploit them</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+        </div>
+
+        <div className="row padding-vert--md">
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+            <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <div className="row">
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <h2>Web Portal - Geo Tagging</h2>
+                        </div>
+                        <div>
+                            <h3>Geo-Tag any data!</h3>
+                        </div>
+                        <div>
+                            <p>Take your data visualisation to the next level by geo-tagging your documents; filter on any properties and drill down to data-mine any linked information</p>
+                            <p>Bring your data to life and make locational data easy to use</p>
+                        </div>
+                    </div>
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div className="image_container">
+                            <img className={styles.product_screenshot} src="/img/home/geo-mapping.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+        </div>
+
+        <div className="row padding-vert--md">
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+            <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <div className="row">
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div className="image_container">
+                            <img className={styles.product_screenshot} src="/img/home/process-monitoring.png"/>
+                        </div>
+                    </div>
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <h2>Web Portal - Monitoring</h2>
+                        </div>
+                        <div>
+                            <h3>Monitor your processes in real-time</h3>
+                        </div>
+                        <div>
+                            <p>Create scheduled or data-driven workflows and scripts to capture, transform and load data into MongoDB</p>
+                            <p>Realtime visualization of process timelines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+        </div>
+
+        <div className="row padding-vert--md">
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+            <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <div className="row">
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div>
+                            <h2>Easy 4GL Language</h2>
+                        </div>
+                        <div>
+                            <h3>Powerful scripting language</h3>
+                        </div>
+                        <div>
+                            <p>Let your creativity shine with our easy yet powerful scripting language. VS Code extension to make coding easy with intellsense, syntax highlighting, code snippets, breakpoints and debugging</p>
+                            <p>Perform aggregations like this one with ease!</p>
+                        </div>
+                    </div>
+                    <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div className="image_container">
+                            <img className={styles.product_screenshot} src="/img/home/odsl-aggregation.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
+        </div>
+    </div>
+    );
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -71,46 +207,30 @@ export default function Home() {
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
             <Video />
             <div className={styles.smallsectionskip} />
-            <HomepageFeatures />
-            <div className={styles.smallsectionskip} />
-            <SmartCurves />
+            <Products />
             <div className={styles.smallsectionskip} />
 
+            <div className={styles.section}>
+                <HomepageAbout />
+            </div>
+
+            <div className={styles.smallsectionskip} />
             <section className={styles.stayintouch}>
             <h1>Stay In Touch</h1>
             <div className="row">
-                <div className="float-right column" style={{height:450}}>
+                <div className="float-right column" style={{height:50}}>
                     <a href="https://twitter.com/opendatadsl" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Twitter.png" /></a>
                     <a href="https://www.linkedin.com/company/opendatadsl" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/LinkedIn.png" /></a>
                     <a href="https://www.facebook.com/OpenDataDSL" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Facebook.png" /></a>
                     <a href="https://www.pinterest.co.uk/OpenDataDSL" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Pinterest.png" /></a>
                     <a href="https://www.instagram.com/opendatadsl" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Instagram.png" /></a>
                     <a href="https://vimeo.com/user155861440" target="_blank" rel="noopener noreferrer" className="m-1"><img src="/img/social/Vimeo.png" /></a>
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
-                    <div className={styles.mc_div} id="mc_embed_signup">
-                        <form action="https://opendatadsl.us20.list-manage.com/subscribe/post?u=94ab649e417c079356b26adc3&amp;id=582c506efa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
-                            <div id="mc_embed_signup_scroll">
-                            <label htmlFor="mce-EMAIL">Subscribe</label>
-                            <input type="email" defaultValue="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
-                            <div className={styles.mc_hidden} aria-hidden="true">
-                                <input type="text" name="b_94ab649e417c079356b26adc3_582c506efa" tabIndex="-1" defaultValue="" />
-                            </div>
-                            <div className="clear">
-                                <input type="submit" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
-                            </div>
-                            </div>
-                        </form>
-                    </div>
                 </div>
             </div>
             </section>
 
             <div className={styles.smallsectionskip} />
-            <div className={styles.section}>
-                <HomepageAbout />
-            </div>
 
-            <div className={styles.smallsectionskip} />
             <div className={styles.hidden} itemScope itemType="https://schema.org/WebSite">
               <meta itemProp="url" content="https://www.opendatadsl.com/"/>
               <form itemProp="potentialAction" itemScope itemType="https://schema.org/SearchAction">
