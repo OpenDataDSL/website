@@ -34,12 +34,12 @@ function Video() {
                 <div className={styles.h_text_inner}>
                     <div className={styles.tagline}>All the tools you need to make the most of your MongoDB database</div>
                     <br />
-                    <span>Get started today with a <span className={styles.h_text_highlight}>14 Day FREE Trial</span></span>
+                    <span>Get started today with a <span className={styles.h_text_highlight}>14 Day </span><span>FREE Trial</span></span>
                 </div>
             </div>
             <div className={styles.h_text_minor}>
                 <div className={styles.h_text_inner}>
-                    <Button className={styles.signupbutton} href="/SignUp">Sign Up</Button>
+                    <Button className={styles.signupbutton} href="/SignUp">Get Started</Button>
                     <Button className={styles.infobutton} href="https://doc.opendatadsl.com">More Info</Button>
                 </div>
             </div>
@@ -75,7 +75,7 @@ function Products() {
                             <h2>Excel Add-in</h2>
                         </div>
                         <div>
-                            <h3>Read/Write MongoDB In Excel</h3>
+                            <h3>Read/Write MongoDB data In Excel</h3>
                         </div>
                         <div>
                             <p>Create, read and update all your data in MongoDB Atlas directly from within your own Excel spreadsheets</p>
@@ -182,13 +182,14 @@ function Products() {
                             <h3>Powerful scripting language</h3>
                         </div>
                         <div>
-                            <p>Let your creativity shine with our easy yet powerful scripting language. VS Code extension to make coding easy with intellsense, syntax highlighting, code snippets, breakpoints and debugging</p>
+                            <p>Let your creativity shine with our easy yet powerful scripting language. Use our VS Code extension to make coding easy with intellsense, syntax highlighting, code snippets, breakpoints and debugging</p>
                             <p>Perform aggregations like this one with ease!</p>
+                            <Button className={styles.signupbutton} href="https://doc.opendatadsl.com/docs/tutorials/qs/mongodb">Get Started</Button>
                         </div>
                     </div>
                     <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div className="image_container">
-                            <img className={styles.product_screenshot} src="/img/home/odsl-aggregation.png"/>
+                            <img className={styles.product_screenshot} src="/img/home/odsl-code.png"/>
                         </div>
                     </div>
                 </div>
@@ -239,7 +240,6 @@ export default function Home() {
                 <input type="submit"/>
               </form>
             </div>
-
 
         </main>
     </Layout>
