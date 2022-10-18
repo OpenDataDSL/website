@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OpenDataDSL - Smart SAAS Data Management',
+  title: 'OpenDataDSL - Smart SAAS Data Management for MongoDB',
   tagline: 'Data Management for MongoDB',
   url: 'https://www.opendatadsl.com',
   baseUrl: '/',
@@ -129,8 +129,10 @@ module.exports = {
       searchParameters: {},
 
       //... other Algolia params
-    },
+    }
   },
+  plugins: [
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',

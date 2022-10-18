@@ -125,16 +125,26 @@ h2 {
 
 @media only screen and (min-width: 800px) {
     .product_screenshot {
-        display: block;
-        width: 1200px;
-        height: auto;
-        border: 0;
+        visibility: visible;
+        cursor: zoom-in;
+        transition-property: width, height, top, left;
+        transition-duration: 1s;
+        transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1) !important;
+        transition-delay: 0s !important;
+    }
+    .product_screenshot:hover {
+        position: relative;
+        max-width: 180%;
+        width: 180%;
+        left: -50%;
+        top: -50%;
     }
 }
 
 @media only screen and (max-width: 800px) {
     .product_screenshot {
-        display: hidden;
+        visibility: hidden;
+        height: 0px;
     }
 }
 
