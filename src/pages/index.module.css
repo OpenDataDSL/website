@@ -127,13 +127,12 @@ h2 {
     .product_screenshot {
         visibility: visible;
         cursor: zoom-in;
-        transition-property: width, height, top, left;
-        transition-duration: 1s;
-        transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1) !important;
-        transition-delay: 0s !important;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.1s;
     }
     .product_screenshot:hover {
-        position: relative;
+        position: sticky;
         max-width: 180%;
         width: 180%;
         left: -50%;

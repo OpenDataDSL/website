@@ -68,7 +68,18 @@ Her journey started in DataGenic where she worked with data vendors and built ou
 Her expertise is in data quality compliance, data analysis and converting business requirements into functional specifications.
 
 Shubha now heads up the Data Operations team building out the OpenDataDSL public data repository and helping clients to build their proprietary data repository.
-   
+
+### Anja Vinzelberg
+##### Head of Data Analytics and Product Management
+Anja enriches the team with many years of industry experience as a data consumer.
+
+After studying mathematics and economics she worked for Reuters risk management solutions working with customers in the financial banking industry. This was followed by working
+in the risk management team of a family-owned oil company and more recently working in the data management team from DataGenic.
+
+At DataGenic she utilised her business knowledge and became the SME for forward curves for any commodity class within customer projects in Europe and the United States.
+
+Anja now utilises her almost 20 years of in-depth expertise in data management solutions and data science and is successfully bridging the technical team with the business users.
+
 <hr />
 
 *OpenDataDSL is the trading name of Walkfares Ltd. Registered in the UK no: 11489767*
