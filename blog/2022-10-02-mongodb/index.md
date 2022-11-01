@@ -35,6 +35,18 @@ take a look at how OpenDataDSL can accelerate your time-to-market by providing m
 * An Excel Add-In to read and write MongoDB data using Excel (Desktop and Web).
 * Development environment in Microsoft VSCode for easy coding using our DSL (4GL language) 
 
+### An Excel Add-in
+Read and write MongoDB Atlas data from Excel!
+
+* Search and filter your MongoDB collections
+* Pull data into Excel
+* Change and write it back to MongoDB (If you have the rights)
+    * Write a partial document to merge with an existing document 
+    * Add data validation to ensure data quality
+    * Add default values for missing data - even lookup from other documents!
+
+![](/img/home/excel-addin.png)
+
 ### Data management programming language
 A simple basic-like language with data management specific syntax.
 
