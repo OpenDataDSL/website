@@ -35,18 +35,18 @@ https://www.cmegroup.com/markets/metals/precious/gold.margins.html
 
 ## Logic and configuration
 
-### Automate the calculation process with smart timeseries
+### Automate the calculation process with smart time series
 For the logic create an ODSL script (here we call it margin-functions.odsl) in Microsoft VSCode 
 for easy coding using our DSL (4GL language) to calculate 
 * daily MTM, 
 * cumulated daily MTM, 
 * margin account and 
 * variation margin 
-stored as smart timeseries. 
+stored as smart time series. 
 
-:::Smart timeseries
-Why smart timeseries? Because an input feed (BASE input) triggers the 
-calculation of the dependend timeseries. We think this is smart.
+:::info Smart time series
+Why smart time series? Because an input feed (BASE input) triggers the 
+calculation of the dependend time series. We think this is smart.
 :::
 
 An example for the margin account function using the data management specific syntax
@@ -71,7 +71,7 @@ function marginAccount(price, initialMargin, maintenanceMargin, ncontracts, cont
 end
 ```
 
-### Easily configure the smart timeseries directly in the WebPortal
+### Easily configure the smart time series directly in the WebPortal
 Input price data from any datasource - we chose CME data for this example - trigger the calculation process for daily MTM, margin account, variation margin. 
 Moreover as soon as daily MTM got calculated it triggers the cumulated daily MTM - simply smart.
 
@@ -84,11 +84,11 @@ Run a test already and save the configuration with just a click.
 Put all data next to each other.
 ![](data.png)
 
-The object collects all static data as well as the timeseries data.
+The object collects all static data as well as the time series data.
 ![](object.png)
 
 ### ...or load them into an Excel Sheet
-Pull the static trade and the timeseries data
+Pull the static trade and the time series data
 ![](excel-odsl.png)
 
 The ODSL Excel Addin provides powerful features to load and upload your data
