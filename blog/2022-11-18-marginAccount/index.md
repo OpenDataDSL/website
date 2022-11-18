@@ -1,6 +1,6 @@
 ---
 slug: margin
-title: Margin Account calculations and configurations in ODSL
+title: Margin Account calculations in ODSL
 authors: [avinzelberg]
 tags: [business case, smartdata, odsl]
 image: /img/blog/mongodb.svg
@@ -12,31 +12,33 @@ image: /img/blog/mongodb.svg
   </div>
   <div className="column">
   <h2>Margin Account calculations and configurations in ODSL?</h2>  
-    Explore for a Gold futures deal the margin acount, what the inputs are, 
+    Explore for a Gold futures deal margin acount, what the inputs are, 
 	what calculations are required and which data are stored and where?
   </div>
 </div>
 
 <!--truncate-->
 
-## Gold futures deal and the margin acount - inputs
+## Gold futures deal margin acount 
+
+### Inputs
 If you run the calculation in Excel, your sheet might look similar as the following with the daily marking-to-market for your position of 200 troy ounces Gold futures Nov-22.
-At the top you find the trade information and underneath the calculations and output.
+At the top you find the trade information and at the bottom the calculations and output.
 
 ![](excel.png)
 
 Besides specific trade information, an updating price series needs to be defined to run the daily marking-to-market of the trade.
-For this example we use Gold future settlements from CME website (https://www.cmegroup.com/markets/metals/precious/gold.settlements.html), 
+For this example we use [Gold future settlements from CME website] (https://www.cmegroup.com/markets/metals/precious/gold.settlements.html), 
 where usually 5 historical days are listed. We loaded the data for testing purpose using the ODSL Excel Addin. 
 
-The CME website provides some spec as well as Margins information:
+The CME website provides some spec as well as margins information:
 https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.html
 https://www.cmegroup.com/markets/metals/precious/gold.margins.html
 
-## Logic and configuration
+## Business logic and configuration
 
 ### Automate the calculation process with smart time series
-For the logic create an ODSL script (here we call it margin-functions.odsl) in Microsoft VSCode 
+For the business logic create an ODSL script (here we call it margin-functions.odsl) in Microsoft VSCode 
 for easy coding using our DSL (4GL language) to calculate 
 * daily MTM, 
 * cumulated daily MTM, 
@@ -72,15 +74,15 @@ end
 ```
 
 ### Easily configure the smart time series directly in the WebPortal
-Input price data from any datasource - we chose CME data for this example - trigger the calculation process for daily MTM, margin account, variation margin. 
+Input price data from any datasource - we chose CME data for this example - trigger the calculation process for (cumulated) daily MTM, margin account, variation margin. 
 Moreover as soon as daily MTM got calculated it triggers the cumulated daily MTM - simply smart.
 
 Select the appropriate script margin-functions[.odsl] from the list, call the functions with specific input data according to the Excel sheet.
-Run a test already and save the configuration with just a click.
+Run a test and save the configuration with just a click.
 
 ![](smartConfig.png)
 
-### Analyse the output of the data in the WebPortal
+### Analyse the output in the WebPortal
 Put all data next to each other.
 ![](data.png)
 
