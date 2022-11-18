@@ -115,21 +115,22 @@ module.exports = {
       darkTheme: darkCodeTheme,
       additionalLanguages: ['java'],
     },
-    algolia: {
-      apiKey: 'a8b0e275e6e4c02b53e5dffadd88e2c7',
-      indexName: 'website',
-
-      // Optional: see doc section below
-      contextualSearch: false,
-
-      // Optional: see doc section below
-      appId: 'GNGE5W5WZ3',
-
-      // Optional: Algolia search parameters
-      searchParameters: {},
-
-      //... other Algolia params
-    }
+//    algolia: {
+//        enabled: false,
+//      apiKey: 'a8b0e275e6e4c02b53e5dffadd88e2c7',
+//      indexName: 'website',
+//
+//      // Optional: see doc section below
+//      contextualSearch: false,
+//
+//      // Optional: see doc section below
+//      appId: 'GNGE5W5WZ3',
+//
+//      // Optional: Algolia search parameters
+//      searchParameters: {},
+//
+//      //... other Algolia params
+//    }
   },
   plugins: [
   ],
