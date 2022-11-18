@@ -11,8 +11,8 @@ image: /img/blog/mongodb.svg
     <img src="/img/blog/data-model.jpg"/>
   </div>
   <div className="column">
-  <h2>Margin Account calculations and configurations in ODSL?</h2>  
-    Explore for a Gold futures deal margin acount, what the inputs are, 
+  <h2>Margin Account calculations in ODSL?</h2>  
+    Explore for a Gold futures deal margin acount what the inputs are, 
 	what calculations are required and which data are stored and where?
   </div>
 </div>
@@ -28,7 +28,7 @@ At the top you find the trade information and at the bottom the calculations and
 ![](excel.png)
 
 Besides specific trade information, an updating price series needs to be defined to run the daily marking-to-market of the trade.
-For this example we use [Gold future settlements from CME website] (https://www.cmegroup.com/markets/metals/precious/gold.settlements.html), 
+For this example we use [Gold future settlements from CME website](https://www.cmegroup.com/markets/metals/precious/gold.settlements.html), 
 where usually 5 historical days are listed. We loaded the data for testing purpose using the ODSL Excel Addin. 
 
 The CME website provides some spec as well as margins information:
