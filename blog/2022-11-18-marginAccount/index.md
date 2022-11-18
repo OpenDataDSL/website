@@ -23,7 +23,7 @@ image: /img/blog/mongodb.svg
 If you run the calculation in Excel, your sheet might look similar as the following with the daily marking-to-market for your position of 200 troy ounces Gold futures Nov-22.
 At the top you find the trade information and underneath the calculations and output.
 
-![](/img/home/excel.png)
+![](excel.png)
 
 Besides specific trade information, an updating price series needs to be defined to run the daily marking-to-market of the trade.
 For this example we use Gold future settlements from CME website (https://www.cmegroup.com/markets/metals/precious/gold.settlements.html), 
@@ -78,21 +78,21 @@ Moreover as soon as daily MTM got calculated it triggers the cumulated daily MTM
 Select the appropriate script margin-functions[.odsl] from the list, call the functions with specific input data according to the Excel sheet.
 Run a test already and save the configuration with just a click.
 
-![](/img/home/smartConfig.png)
+![](smartConfig.png)
 
 ### Analyse the output of the data in the WebPortal
 Put all data next to each other.
-![](/img/home/data.png)
+![](data.png)
 
 The object collects all static data as well as the timeseries data.
-![](/img/home/object.png)
+![](object.png)
 
 ### ...or load them into an Excel Sheet
 Pull the static trade and the timeseries data
-![](/img/home/excel-odsl.png)
+![](excel-odsl.png)
 
 The ODSL Excel Addin provides powerful features to load and upload your data
-![](/img/home/excel-odsl-config.png)
+![](excel-odsl-config.png)
 
 
 ## More information or free trial?
