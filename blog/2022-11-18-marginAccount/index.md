@@ -28,7 +28,7 @@ At the top you find the trade information and at the bottom the calculations and
 ![](excel.png)
 
 Besides specific trade information, an updating price series needs to be defined to run the daily marking-to-market of the trade.
-For this example we use [Gold futures settlements from CME website](https://www.cmegroup.com/markets/metals/precious/gold.settlements.html), 
+For this example we use [Gold futures settlements](https://www.cmegroup.com/markets/metals/precious/gold.settlements.html) from CME website, 
 where usually settlement prices of the last 5 business days are listed. We loaded the data for testing purpose using the ODSL Excel Addin. 
 
 The CME website provides some [spec](https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.html) 
@@ -47,7 +47,7 @@ stored as smart time series.
 
 :::info Smart time series
 Why smart time series? Because an input feed (BASE input) triggers the 
-calculation of the dependend time series. We think this is smart.
+calculation and inherits the calendar information (business with specific holidays) to the dependend time series. We think this is smart.
 :::
 
 An example for the margin account function using the data management specific syntax:
