@@ -29,7 +29,7 @@ At the top you find the trade information and at the bottom the calculations and
 
 Besides specific trade information, an updating price series needs to be defined to run the daily marking-to-market of the trade.
 For this example we use [Gold futures settlements from CME website](https://www.cmegroup.com/markets/metals/precious/gold.settlements.html), 
-where usually 5 historical days are listed. We loaded the data for testing purpose using the ODSL Excel Addin. 
+where usually settlement prices of the last 5 business days are listed. We loaded the data for testing purpose using the ODSL Excel Addin. 
 
 The CME website provides some [spec](https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.html) 
 as well as [margins](https://www.cmegroup.com/markets/metals/precious/gold.margins.html) information.
