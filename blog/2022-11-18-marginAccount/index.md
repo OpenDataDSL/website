@@ -8,7 +8,7 @@ image: /img/blog/mongodb.svg
 
 <div className="row">
   <div className="column">
-    <img src="gold.jpg"/>
+    <img src="/img/blog/gold.jpg"/>
   </div>
   <div className="column">
   <h2>Margin account calculations in ODSL?</h2>  
