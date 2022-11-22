@@ -56,13 +56,12 @@ An example for the margin account function using the data management specific sy
 //define a function with specific input parameters
 function marginAccount(price, initialMargin, maintenanceMargin, ncontracts, contract)
 	/*
-	mtm             >> the daily marking-to-market 
-					     ODSL function diff is called to get daily price change
-	start           >> the start for the time series
-	result          >> the time series storing the margin account 
-						 with its initial value = initial margin for contracts and size 
-	margin          >> the total initial margin
-	variationMargin >> the initial Value of the variation margin
+	mtm: daily marking-to-market; ODSL function diff is called to get daily price change
+	start: start for the time series
+	result: time series storing the margin account with: 
+		initial value = initial margin for contracts and size 
+	margin: total initial margin
+	variationMargin: initial value of the variation margin
 	*/
     mtm = diff(price)*ncontracts*contract
     start = mtm.calendar.previous(mtm.start)
@@ -71,11 +70,9 @@ function marginAccount(price, initialMargin, maintenanceMargin, ncontracts, cont
     variationMargin = 0
 	/*
 	Calculating the values for day-to-day margin account and variation margin:
-	margin account on day t is:
-		daily MtM from day t + (margin account value + variation margin) from t-1
-	variation margin is: 
-		-> positive when the value of the margin account is below the maintenance margin 
-		   and filled up to the initial margin
+	margin account on day t is: daily MtM from day t + (margin account value + variation margin) from t-1
+	variation margin is: positive when the value of the margin account is below the maintenance margin 
+	and filled up to the initial margin
 	*/
     for tv in mtm.values
         margin = margin + tv.value + variationMargin
