@@ -5,6 +5,7 @@ authors: [avinzelberg]
 tags: [business case, smartdata, odsl]
 image: /img/blog/mongodb.svg
 ---
+import styles from './index.module.css';
 
 <div className="row">
   <div className="column">
@@ -25,7 +26,7 @@ image: /img/blog/mongodb.svg
 If you run the calculation in Excel, your sheet might look similar as the following with the daily marking-to-market for your position of 200 troy ounces Gold futures Nov-22.
 At the top you find the trade information and at the bottom the calculations and output.
 
-![](excel.png)
+<img className={styles.product_screenshot} src="/img/blog/margin/excel.png" />
 
 Besides specific trade information, an updating price series needs to be defined to run the daily marking-to-market of the trade.
 For this example we use [Gold futures settlements](https://www.cmegroup.com/markets/metals/precious/gold.settlements.html) from CME website, 
