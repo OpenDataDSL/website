@@ -69,8 +69,8 @@ Her expertise is in data quality compliance, data analysis and converting busine
 
 Shubha now heads up the Data Operations team building out the OpenDataDSL public data repository and helping clients to build their proprietary data repository.
 
-### Anja Vinzelberg
-##### Head of Data Analytics and Product Management
+### Dr. Anja Vinzelberg
+##### Head of Data Analytics
 Anja enriches the team with many years of industry experience as a data consumer.
 
 After studying mathematics and economics she worked for Reuters risk management solutions working with customers in the financial banking industry. This was followed by working
