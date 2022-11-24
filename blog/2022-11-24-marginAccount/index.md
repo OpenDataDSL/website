@@ -14,7 +14,7 @@ import styles from './index.module.css';
   </div>
   <div className="column">
   <h2>Margin account calculations in ODSL?</h2>  
-    Explore for a Gold futures deal margin acount what the inputs are, 
+    Explore for a Gold futures deal margin account what the inputs are, 
 	what calculations are required and which data are stored and where.
   </div>
 </div>
@@ -24,14 +24,14 @@ import styles from './index.module.css';
 ## Gold futures deal margin acount 
 
 ### Inputs
-If you run the calculation in Excel, your sheet might look similar as the following with the daily marking-to-market for your position of 200 troy ounces gold futures November contract.
+If you run the calculation in Excel, your sheet might look similar to the following with the daily marking-to-market for your position of 200 troy ounces gold futures November contract.
 At the top you find the trade information and at the bottom the margin account calculations.
 
 <img className={styles.product_screenshot} src="/img/blog/margin/excel.png" />
 
 
 Besides specific trade information, an updating price series needs to be defined to run the daily marking to market of the gold futures trade.
-For this example we use [gold futures settlements](https://www.cmegroup.com/markets/metals/precious/gold.settlements.html) from CME website, 
+For this example we use [gold futures settlements](https://www.cmegroup.com/markets/metals/precious/gold.settlements.html) from the CME website, 
 where usually settlement prices of the last 5 business days are listed. We loaded the data for testing purpose using the ODSL Excel Addin. 
 
 The CME website provides some [spec](https://www.cmegroup.com/education/courses/introduction-to-futures/margin-know-what-is-needed.html) 
@@ -39,10 +39,10 @@ as well as [margins](https://www.cmegroup.com/markets/metals/precious/gold.margi
 
 ### Margin calculations
 
-The initial margin is the amount that must be deposited when the contract is entered, here we have 6.500 USD per contract or 13.000 USD in total.
+The initial margin is the amount that must be deposited when the contract is entered, here we have 6,500 USD per contract or 13,000 USD in total.
 At the end of each trading day the margin account is updated to reflect the gain or loss - basically the daily marking to market.
 
-A maintenance margin is set to make sure the margin account balance never becomes negative, here we use 5.700 USD per contract or 11.400 USD in total.
+A maintenance margin is set to make sure the margin account balance never becomes negative, here we use 5,700 USD per contract or 11,400 USD in total.
 In case the balance of the margin account is below the maintenance margin, a margin call is triggered. 
 The variation margin is the amount to be placed to the margin account up to the target of the initial margin.
 
@@ -62,7 +62,7 @@ stored as smart time series.
 
 :::info Smart time series
 Why smart time series? Because an input feed (BASE input) triggers the 
-calculation and inherits the calendar information (business with specific holidays) to the dependend time series. We think this is smart.
+calculation and inherits the calendar information (business with specific holidays) to the dependent time series. We think this is smart.
 :::
 
 An example for the margin account function using the data management specific syntax:
@@ -116,12 +116,12 @@ end
 
 ### Easily configure the smart time series directly in the WebPortal
 Input price data from any datasource - we chose CME data for this example - trigger the calculation process for (cumulated) daily MTM, margin account, variation margin and excess margin. 
-Moreover as soon as the daily MTM got calculated it triggers the cumulated daily MTM - simply smart.
+Moreover, as soon as the daily MTM got calculated, it triggers the cumulated daily MTM - simply smart.
 
 Select the appropriate script margin-functions[.odsl] from the list, call the functions with specific input data according to the Excel sheet.
 
-In this example it is marginAccount(BASE, 6.500, 5.700, 2, 100) wheras BASE is the price input for daily marking-to-market, 
-the initial margin is 6.500 USD per contract per contract size, the maintenance margin is 5.700 USD per contract per contract size, having a contract size of 100 and 2 contracts in total.
+In this example, it is marginAccount(BASE, 6,500, 5,700, 2, 100) whereas BASE is the price input for daily marking-to-market. 
+The initial margin is 6,500 USD per contract x contract size, the maintenance margin is 5,700 USD per contract x contract size, having a contract size of 100 and 2 contracts in total.
 
 
 Run a test and save the configuration with just a click.
