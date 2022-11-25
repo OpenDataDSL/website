@@ -21,7 +21,7 @@ import styles from './index.module.css';
 
 <!--truncate-->
 
-## Gold futures deal margin acount 
+## Gold futures deal margin account 
 
 ### Inputs
 If you run the calculation in Excel, your sheet might look similar to the following with the daily marking-to-market for your position of 200 troy ounces gold futures November contract.
