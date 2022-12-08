@@ -61,6 +61,10 @@ module.exports = {
               href: 'https://stackoverflow.com/questions/tagged/odsl',
             },
             {
+              label: 'Discord',
+              href: 'https://discord.gg/U2bBfsnR9c',
+            },
+            {
               label: 'Twitter',
               href: 'https://twitter.com/opendatadsl',
             },

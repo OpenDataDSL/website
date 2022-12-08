@@ -1,0 +1,12 @@
+.mc_div {
+  margin-top: 15px;
+  width: 100%;
+}
+.mc_hidden {
+    position: absolute;
+    left: -5000px;
+}
+
+.mc_email {
+    width: 100%;
+}

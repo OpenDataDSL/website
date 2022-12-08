@@ -2,6 +2,9 @@
 title: SignUp
 description: How to sign up to OpenDataDSL
 ---
+import styles from './SignUp.module.css';
+
+
 How to sign up to OpenDataDSL
 =======
 
@@ -15,12 +18,15 @@ Directory corporate credentials.
 That's it!
 
 ## No Azure AD? No Problem!
-If your company doesn't use Azure Active Directory you can simply sign up for a free Azure AD [here](https://docs.microsoft.com/en-us/windows/client-management/mdm/register-your-free-azure-active-directory-subscription)
+If your company doesn't use Azure Active Directory you can sign up for a free Azure AD [here](https://docs.microsoft.com/en-us/windows/client-management/mdm/register-your-free-azure-active-directory-subscription)
+
+If you don't or can't sign up for an Azure Active Directory, let us know by emailing **webmaster@opendatadsl.com** and we will figure something out for you
 
 ## What now?
-Now you have signed up, you can freely explore the OpenDataDSL Portal using your free monthly allowance. When you are 
-getting close to the end of your free allowance, we will let you know and request that you enter some payment details
-into our payment partner site so that you can continue using our services.
+Now you have signed up, you can freely explore the [OpenDataDSL Portal](https://doc.opendatadsl.com/docs/user/portal) 
+and download the [Excel Add-in](https://doc.opendatadsl.com/docs/user/excel).
+
+Check out the [documentation site](https://doc.opendatadsl.com/) to get started using the tools and the OpenDataDSL language
 
 ### More information
 
@@ -28,6 +34,19 @@ into our payment partner site so that you can continue using our services.
 * [Company Information](AboutUs)
 
 ### Newsletters
-Sign up to receive our [newsletters](https://cdn.forms-content.sg-form.com/e54e36ad-1c51-11ec-872a-6677fa1e7091)
+Sign up to receive our newsletters
 
-
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
+<div className={styles.mc_div} id="mc_embed_signup">
+    <form action="https://opendatadsl.us20.list-manage.com/subscribe/post?u=94ab649e417c079356b26adc3&amp;id=582c506efa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+        <div id="mc_embed_signup_scroll">
+        <input className={styles.mc_email} type="email" defaultValue="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
+        <div className={styles.mc_hidden} aria-hidden="true">
+            <input type="text" name="b_94ab649e417c079356b26adc3_582c506efa" tabIndex="-1" defaultValue="" />
+        </div>
+        <div className="clear">
+            <input type="submit" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
+        </div>
+        </div>
+    </form>
+</div>
