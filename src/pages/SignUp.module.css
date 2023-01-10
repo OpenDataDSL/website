@@ -10,3 +10,9 @@
 .mc_email {
     width: 100%;
 }
+
+.mc_none {
+    display: none;
+}
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
