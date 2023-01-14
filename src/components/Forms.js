@@ -16,7 +16,7 @@ export function Sales(props) {
             </div>
         </div>
         <div className={styles.formpage}>
-            <form method="POST" action="http://localhost:7071/api/form/sales">
+            <form method="POST" action="https://odsl.azurewebsites.net/api/form/sales">
                 <div class="row">
                    <div class="col">
                       <div class="mb-3">
