@@ -39,6 +39,7 @@ function Video() {
             </div>
             <div className={styles.h_text_minor}>
                 <div className={styles.h_text_inner}>
+                    <Button className={styles.signupbutton} href="/contact-sales">Contact Sales</Button>
                     <Button className={styles.signupbutton} href="/SignUp">Get Started</Button>
                     <Button className={styles.infobutton} href="https://doc.opendatadsl.com">More Info</Button>
                 </div>
