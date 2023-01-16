@@ -82,6 +82,9 @@ function Products() {
                             <p>Create, read and update all your data in MongoDB Atlas directly from within your own Excel spreadsheets</p>
                             <p>Available for both desktop and web Excel</p>
                         </div>
+                        <div>
+                            <a href="/excel"><button className="btn btn-primary"  >Find out more</button></a>
+                        </div>
                     </div>
                     <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div className="image_container">
