@@ -159,8 +159,6 @@ module.exports = {
     ],
   ],
   scripts: [
-    'https://ipmeta.io/plugin.js',
-    '/js/ipmeta.js',
     '/js/mc.js'
   ],
   stylesheets: [{
