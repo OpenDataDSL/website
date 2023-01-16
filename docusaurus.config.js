@@ -159,7 +159,6 @@ module.exports = {
     ],
   ],
   scripts: [
-    '/js/mc.js'
   ],
   stylesheets: [{
     rel: "stylesheet",

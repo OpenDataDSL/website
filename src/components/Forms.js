@@ -49,7 +49,7 @@ export function Sales(props) {
               <div className="mb-3">
                 <label htmlFor="message" className="form-label">Message</label>
                 <textarea name="message" className="form-control" id="message" rows="6" aria-describedby="messageHelp" />
-                <div id="messageHelp" className="form-text">Enter information about your area of interest to discuss with the sales team.</div>
+                <div id="messageHelp" className="form-text">Enter information about your area of interest to discuss with the sales team, include your telephone number if you would like us to call you.</div>
               </div>
               <button type="submit" className="btn btn-primary">Submit</button>
             </form>
