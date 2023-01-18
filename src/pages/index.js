@@ -34,7 +34,7 @@ function Video() {
                 <div className={styles.h_text_inner}>
                     <div className={styles.tagline}>All the tools you need to make the most of your MongoDB database</div>
                     <br />
-                    <span>Get started today with a <span className={styles.h_text_highlight}>14 Day </span><span>FREE Trial</span></span>
+                    <span>Get started today with a <span className={styles.h_text_highlight}>30 Day </span><span>FREE Trial</span></span>
                 </div>
             </div>
             <div className={styles.h_text_minor}>
