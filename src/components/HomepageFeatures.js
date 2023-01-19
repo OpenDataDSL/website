@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import {ContactForm} from '/src/components/Forms.js';
 
 const AboutList = [
   {
@@ -114,8 +115,11 @@ export function HomepageFeatures() {
 
 export function HomepageAbout() {
   return (
-    <section className={styles.features}>
+    <section className={styles.features, styles.section}>
       <div className="container">
+        <div className="row">
+            <p className={styles.sectionheader}>Who are we?</p>
+        </div>
         <div className="row">
           {AboutList.map((props, idx) => (
             <Feature key={idx} {...props} />
@@ -124,5 +128,18 @@ export function HomepageAbout() {
       </div>
     </section>
   );
+}
+
+export function HomepageNextSteps() {
+    return (
+        <section className={styles.features}>
+          <div className="container">
+            <div className={styles.section}>
+                <p className={styles.sectionheader}>Next Steps</p>
+            </div>
+            <ContactForm />
+          </div>
+        </section>
+    );
 }
 

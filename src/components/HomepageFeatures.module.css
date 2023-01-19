@@ -9,3 +9,32 @@
   height: 200px;
   width: 200px;
 }
+
+@media only screen and (min-width: 800px) {
+    .section {
+      padding: 2rem 0 4rem 0;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      background: #99c5f1;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .section {
+      padding: 0;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      background: #99c5f1;
+    }
+}
+
+.sectionheader {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}

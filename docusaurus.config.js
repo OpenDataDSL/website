@@ -21,11 +21,19 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
+        {type:'dropdown', label: 'Company', position: 'left', items:[
+            {to: '/AboutUs', label: 'About Us'},
+            {to: '/contact', label: 'Contact Us'},
+            {to: '/support', label: 'Support'},
+            {to: '/plans', label: 'Pricing'}
+        ]},
+        {type:'dropdown', label: 'Industry', position: 'left', items:[
+            {to: '/energy', label: 'Energy and Oil'},
+            {to: '/agriculture', label: 'Agriculture'}
+        ]},
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/support', label: 'Support', position: 'left'},
-        {to: '/plans', label: 'Pricing', position: 'left'},
-        {href: 'https://doc.opendatadsl.com', label: 'Documentation', position: 'left'},
-        {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'left'}
+        {href: 'https://doc.opendatadsl.com', label: 'Documentation', position: 'right'},
+        {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'right'}
       ],
     },
     metadata: [{name: 'keywords', content: 'mongodb, smart, smart curves, forward curves, market data, commodity, energy, timeseries, data management, blog'}],
@@ -111,7 +119,7 @@ module.exports = {
             },
             {
               label: 'Register for our NewsLetter',
-              to: '/register',
+              href: 'http://eepurl.com/ih0lVr',
             },
           ],
         },
