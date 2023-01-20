@@ -29,7 +29,7 @@ module.exports = {
         ]},
         {type:'dropdown', label: 'Solutions', position: 'left', items:[
             {to: '/energy', label: 'Energy and Oil Industry'},
-            {to: '/agriculture', label: 'AgriculturL Industry'},
+            {to: '/agriculture', label: 'Agricultural Industry'},
             {to: '/mongodb', label: 'MongoDB Users'}
         ]},
         {to: '/blog', label: 'Blog', position: 'left'},
