@@ -180,6 +180,9 @@
 }
 
 .row {
+    box-shadow: rgb(0 32 37 / 32%) 0px 16px 48px -16px;
+    padding: 10px 8px 10px 8px;
+    background: light-grey;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -188,10 +191,10 @@
 
 .rowborder {
     box-shadow: rgb(0 32 37 / 32%) 0px 16px 48px -16px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 8px 10px 8px;
+    background: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
-    background: white;
 }

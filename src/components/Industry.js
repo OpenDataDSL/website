@@ -1,18 +1,24 @@
 import React from 'react';
 import styles from './Industry.module.css';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
+import { useMediaQuery } from 'react-responsive';
 
 export function Product(props) {
+    var isMobile = useMediaQuery({ query: `(max-width: 760px)` });
     var border = false;
     if (props.border && props.border == "true")
         border = true;
-    if (props.left == "true") {
+    var fixed = false;
+    if (isMobile || (props.zoomimage && props.zoomimage == "false"))
+        fixed = true;
+
+    if (props.left == "true" || isMobile) {
         return (
                 <div className="row padding-vert--md">
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
                     <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
                         <div className={border?styles.rowborder:styles.row}>
-                            {ShowImage(props.image, props.zoomimage, props.buttonurl)}
+                            {ShowImage(props.image, fixed, props.buttonurl)}
                             {ShowText(props.title, props.subtitle, props.text1, props.text2, props.buttontext, props.buttonurl)}
                         </div>
                     </div>
@@ -26,7 +32,7 @@ export function Product(props) {
                     <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
                         <div className={border?styles.rowborder:styles.row}>
                             {ShowText(props.title, props.subtitle, props.text1, props.text2, props.buttontext, props.buttonurl)}
-                            {ShowImage(props.image, props.zoomimage, props.buttonurl)}
+                            {ShowImage(props.image, fixed, props.buttonurl)}
                         </div>
                     </div>
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
@@ -61,10 +67,7 @@ function ShowButton(props) {
     }
 }
 
-function ShowImage(image, zoomimage, buttonurl) {
-    var fixed = false;
-    if (zoomimage && zoomimage == "false")
-        fixed = true;
+function ShowImage(image, fixed, buttonurl) {
     if (fixed && buttonurl)
         return ShowLinkImage(image, buttonurl);
     return (

@@ -90,6 +90,7 @@ function Products() {
             title="Data Catalog"
             subtitle="Market and Fundamental Data"
             image="/img/home/data-catalog.png"
+            zoomimage="false"
             text1="We collect any freely available and distributable data from around the world and make it free for you to download and use"
             text2="We help you collect all licensed or restricted data by providing a pre-built loader for you to store the data privately"
             buttontext="Browse Data Catalog"
