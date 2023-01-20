@@ -15,8 +15,8 @@ export default function Home() {
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
-            <VideoBanner video="/img/home/data-video.mov" text="All the tools you need to make the most of your MongoDB database">
-                <span>Turbocharge your <span className={styles.h_text_highlight}>MongoDB</span> Project</span>
+            <VideoBanner video="/img/home/data-video.mov" text="All the tools you need to manage your data in the cloud" hltext={styles.h_text_highlight_green}>
+                <span>Modern Smart <span className={styles.h_text_highlight_green}>Data</span> Management</span>
             </VideoBanner>
             <div className={styles.smallsectionskip} />
             <Products />
@@ -37,55 +37,56 @@ function Products() {
     <div className={styles.products}>
         <div className={styles.productBanner}>Discover the tools that will transform your business</div>
 
+        <div className={styles.chatter}>
+            <p>
+                We specialise in creating smart tools that work for you in delivering good quality data to your downstream systems.
+                We extract unstructured data from around the world and make it easily accessible through our intuitive tools
+                and easy 4GL language.
+            </p>
+        </div>
+
         <Product
             left="false"
-            title="Excel Add-in"
-            subtitle="Read/Write MongoDB data  In Excel"
-            image="/img/home/excel-addin.png"
-            text1="Create, read and update all your data in MongoDB Atlas directly from within your own Excel spreadsheets"
-            text2="Available for both desktop and web Excel"
+            border="true"
+            title="Energy and Oil Industry"
+            subtitle="Smart tools and reliable data"
+            image="/img/home/energy.jpg"
+            zoomimage="false"
+            text1="Market and fundamental data from around the world combined with easy-to-use, smart software"
+            text2="Timeseries, Forward Curves and Options"
             buttontext="Find out more"
-            buttonurl="/excel"
+            buttonurl="/energy"
         />
 
         <Product
             left="true"
-            title="Web Portal - Visualisation"
-            subtitle="Make the most of your MongoDB data"
-            image="/img/home/document-visualization.png"
-            text1="Create data models that help you navigate your MongoDB Atlas data like never before - search, browse and visualise documents, timeseries and forward curves"
-            text2="Get a complete view of every document and make it easy for your business to fully exploit them"
+            border="true"
+            title="Agriculture"
+            subtitle="Delivering market pricing to your desktop"
+            image="/img/home/agriculture.jpg"
+            zoomimage="false"
+            text1="Stay informed with commodity pricing data from around the world geo-tagged to enhance the smart capabilities of our software"
+            text2="Build smart forward curves and manage your prices and transactions with our Excel Add-in and Web Portal"
+            buttontext="Find out more"
+            buttonurl="/agriculture"
         />
 
         <Product
             left="false"
-            title="Web Portal - Geo Tagging"
-            subtitle="Geo-Tag any data!"
-            image="/img/home/geo-mapping.png"
-            text1="Take your data visualisation to the next level by geo-tagging your documents; filter on any properties and drill down to data-mine any linked information"
-            text2="Bring your data to life and make locational data easy to use"
+            border="true"
+            title="MongoDB Atlas"
+            subtitle="Tools to make using MongoDB easier"
+            image="/img/mongodb.png"
+            zoomimage="false"
+            text1="Get started with our easy ETL tools to transform and load any data into your MongoDB Atlas cluster"
+            text2="Use our Excel Add-in and Web Portal to model, create, edit and visualise your data"
+            buttontext="Find out more"
+            buttonurl="/mongodb"
         />
 
         <Product
             left="true"
-            title="Web Portal - Monitoring"
-            subtitle="Monitor your processes in real-time"
-            image="/img/home/process-monitoring.png"
-            text1="Create scheduled or data-driven workflows and scripts to capture, transform and load data"
-            text2="Realtime visualization of process timelines"
-        />
-
-        <Product
-            left="false"
-            title="Easy 4GL Language"
-            subtitle="Powerful scripting language"
-            image="/img/home/odsl-code.png"
-            text1="Let your creativity shine with our easy yet powerful scripting language. Use our VS Code extension to make coding easy with intellsense, syntax highlighting, code snippets, breakpoints and debugging"
-            text2="Perform aggregations like this one with ease!"
-        />
-
-        <Product
-            left="true"
+            border="true"
             title="Data Catalog"
             subtitle="Market and Fundamental Data"
             image="/img/home/data-catalog.png"

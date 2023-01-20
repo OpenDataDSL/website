@@ -27,9 +27,10 @@ module.exports = {
             {to: '/support', label: 'Support'},
             {to: '/plans', label: 'Pricing'}
         ]},
-        {type:'dropdown', label: 'Industry', position: 'left', items:[
-            {to: '/energy', label: 'Energy and Oil'},
-            {to: '/agriculture', label: 'Agriculture'}
+        {type:'dropdown', label: 'Solutions', position: 'left', items:[
+            {to: '/energy', label: 'Energy and Oil Industry'},
+            {to: '/agriculture', label: 'AgriculturL Industry'},
+            {to: '/mongodb', label: 'MongoDB Users'}
         ]},
         {to: '/blog', label: 'Blog', position: 'left'},
         {href: 'https://doc.opendatadsl.com', label: 'Documentation', position: 'right'},

@@ -3,28 +3,30 @@ import styles from './Industry.module.css';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 
 export function Product(props) {
+    var border = false;
+    if (props.border && props.border == "true")
+        border = true;
     if (props.left == "true") {
         return (
                 <div className="row padding-vert--md">
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
                     <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
-                        <div className="row">
-                            {ShowImage(props.image)}
+                        <div className={border?styles.rowborder:styles.row}>
+                            {ShowImage(props.image, props.zoomimage, props.buttonurl)}
                             {ShowText(props.title, props.subtitle, props.text1, props.text2, props.buttontext, props.buttonurl)}
                         </div>
                     </div>
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
                 </div>
-
         );
     } else {
         return (
                 <div className="row padding-vert--md">
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
                     <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
-                        <div className="row">
+                        <div className={border?styles.rowborder:styles.row}>
                             {ShowText(props.title, props.subtitle, props.text1, props.text2, props.buttontext, props.buttonurl)}
-                            {ShowImage(props.image)}
+                            {ShowImage(props.image, props.zoomimage, props.buttonurl)}
                         </div>
                     </div>
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
@@ -59,12 +61,29 @@ function ShowButton(props) {
     }
 }
 
-function ShowImage(image) {
+function ShowImage(image, zoomimage, buttonurl) {
+    var fixed = false;
+    if (zoomimage && zoomimage == "false")
+        fixed = true;
+    if (fixed && buttonurl)
+        return ShowLinkImage(image, buttonurl);
     return (
         <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div className="image_container">
-                <img className={styles.product_screenshot} src={image}/>
+                <img className={fixed?styles.product_screenshot_fixed:styles.product_screenshot} src={image}/>
             </div>
+        </div>
+    );
+}
+
+function ShowLinkImage(image, buttonurl) {
+    return (
+        <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <a href={buttonurl}>
+                <div className="image_container">
+                    <img className={styles.product_screenshot_fixed} src={image}/>
+                </div>
+            </a>
         </div>
     );
 }
@@ -95,7 +114,7 @@ export function VideoBanner(props) {
                 <div className={styles.h_text_inner}>
                     <div className={styles.tagline}>{props.text}</div>
                     <br />
-                    <span>Get started today with a <span className={styles.h_text_highlight}>30 Day </span><span>FREE Trial</span></span>
+                    <span>Get started today with a <span className={props.hltext}>30 Day </span><span>FREE Trial</span></span>
                 </div>
             </div>
             <div className={styles.h_text_minor}>

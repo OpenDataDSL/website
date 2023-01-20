@@ -15,7 +15,7 @@ export default function Home() {
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
-            <VideoBanner video="/img/home/splash.mp4" text="We have all the data and tools you will ever need">
+            <VideoBanner video="/img/home/splash.mp4" text="We have all the data and tools you will ever need" hltext={styles.h_text_highlight}>
                 <span>Energy and Oil <span className={styles.h_text_highlight}>Market Data</span> Management</span>
             </VideoBanner>
             <div className={styles.smallsectionskip} />

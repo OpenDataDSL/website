@@ -274,6 +274,10 @@ h2 {
 .h_text_highlight_green {
     color: #19da9f;
 }
+.h_text_highlight_shadow {
+    color: #29afea;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
 .h_text_inner {
     position:relative
 }
