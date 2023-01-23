@@ -7,7 +7,7 @@ import styles from './index.module.css';
 import {HomepageFeatures, HomepageAbout, HomepageNextSteps } from '../components/HomepageFeatures';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import CookieConsent from "react-cookie-consent";
-import { Product, VideoBanner, SocialMedia } from '../components/Industry';
+import { UseCase, Product, VideoBanner, SocialMedia } from '../components/Industry';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -16,7 +16,7 @@ export default function Home() {
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
             <VideoBanner video="/img/home/splash.mp4" text="We have all the data and tools you will ever need" hltext={styles.h_text_highlight}>
-                <span>Energy and Oil <span className={styles.h_text_highlight}>Market Data</span> Management</span>
+                <span>Energy <span className={styles.h_text_highlight}>Market Data</span> Management</span>
             </VideoBanner>
             <div className={styles.smallsectionskip} />
             <Products />
@@ -45,6 +45,34 @@ function Products() {
             industry from collection to building custom Forward Curves and integrating with your ETRM system.
             </p>
         </div>
+
+        <UseCase
+            left="false"
+            title="Commodity Trading Company"
+            image="/img/energy/trading.jpg"
+            ft1="Smart Curves"
+            fx1="Smart curves simplify the process of building custom forward curves"
+            ft2="Excel Add-in"
+            fx2="Using Excel, traders can update their own marks which can be used as inputs to Smart Curves"
+            ft3="Integrate"
+            fx3="Use event-driven subscriptions to push the curves to a queue to feed into a CTRM/ETRM system"
+            ft4="Market Data"
+            fx4="Access all publicily available data and privately loaded broker and licensed data"
+            checks="Smart Curves,Calendars,Market Data,Integration"
+            text1="A commodity trading company using the futures market creates 100s of forward curves to deal with all the products they trade, the location of the commodity and other factors. Using Excel for creating these curves is not efficient enough"
+            text2="Using OpenDataDSL, the company can create all their curves using Smart Curves which are dynamically calculated in the cloud and automatically pushed into the company’s Commodity Trading and Risk Management system (CTRM/ETRM)"
+        />
+
+        <Product
+            left="false"
+            title="Smart Curves"
+            subtitle="Forward Curves on demand"
+            image="/img/energy/SmartCurve.png"
+            text1="Smart Curves are a revolutionary new way to create your own Forward Curves. Simple, smart, intuitive - anyone can create a Smart Curve!"
+            text2="See the product screenshot for an example of creating a MID Smart Curve from LOW and HIGH price curves"
+            buttontext="Read the blog"
+            buttonurl="/blog/smartcurves"
+        />
 
         <Product
             left="true"

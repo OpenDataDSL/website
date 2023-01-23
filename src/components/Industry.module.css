@@ -15,6 +15,9 @@
     .product_screenshot_fixed {
         visibility: visible;
     }
+    .uc_image {
+        visibility: visible;
+    }
     .product_screenshot {
         visibility: visible;
         cursor: zoom-in;
@@ -33,6 +36,10 @@
 
 @media only screen and (max-width: 800px) {
     .product_screenshot {
+        visibility: hidden;
+        height: 0px;
+    }
+    .uc_image {
         visibility: hidden;
         height: 0px;
     }
@@ -177,6 +184,22 @@
   position: relative;
   overflow: hidden;
   background: #99c5f1;
+}
+
+.featureblock {
+  background: #21225F;
+  color: white;
+  padding: 10px 40px 10px 40px;
+}
+
+.feature {
+  padding: 5px 15px 0px 15px;
+}
+.featuretitle {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.featuretext {
 }
 
 .row {

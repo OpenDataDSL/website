@@ -3,6 +3,22 @@ import styles from './Industry.module.css';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import { useMediaQuery } from 'react-responsive';
 
+export function UseCase(props) {
+    return (
+        <div className="row padding-vert--md">
+            <div className="text-left col-lg-2"> </div>
+            <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <div className={styles.rowborder}>
+                    {ShowUCImage(props.image, true, props.buttonurl)}
+                    {ShowUseCase(props.title, props.checks, props.text1, props.text2)}
+                    {ShowFeatures(props)}
+                </div>
+            </div>
+            <div className="text-left col-lg-2"> </div>
+        </div>
+    );
+}
+
 export function Product(props) {
     var isMobile = useMediaQuery({ query: `(max-width: 760px)` });
     var border = false;
@@ -41,6 +57,54 @@ export function Product(props) {
     }
 }
 
+function ShowUseCase(title, checks, text1, text2) {
+    var ch = checks.split(",");
+    return (
+        <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div>
+                <h2>USE <span className={styles.h_text_highlight}>CASE</span></h2>
+                <ul>
+                    {ch.map((text, idx) => (
+                      <li>{text}</li>
+                    ))}
+                </ul>
+            </div>
+            <div>
+                <h3>{title}</h3>
+            </div>
+            <div>
+                <p>{text1}</p>
+                <p>{text2}</p>
+            </div>
+        </div>
+    );
+}
+
+function ShowFeatures(props) {
+    return (
+        <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div className={styles.featureblock}>
+                    <p className={styles.feature}>
+                        <span className={styles.featuretitle}>{props.ft1}</span><br/>
+                        <span className={styles.featuretext}>{props.fx1}</span>
+                    </p>
+                    <p className={styles.feature}>
+                        <span className={styles.featuretitle}>{props.ft2}</span><br/>
+                        <span className={styles.featuretext}>{props.fx2}</span>
+                    </p>
+                    <p className={styles.feature}>
+                        <span className={styles.featuretitle}>{props.ft3}</span><br/>
+                        <span className={styles.featuretext}>{props.fx3}</span>
+                    </p>
+                    <p className={styles.feature}>
+                        <span className={styles.featuretitle}>{props.ft4}</span><br/>
+                        <span className={styles.featuretext}>{props.fx4}</span>
+                    </p>
+            </div>
+        </div>
+    );
+}
+
 function ShowText(title, subtitle, text1, text2, buttontext, buttonurl) {
     return (
         <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -65,6 +129,16 @@ function ShowButton(props) {
     } else {
         return <span />
     }
+}
+
+function ShowUCImage(image) {
+    return (
+        <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div className="image_container">
+                <img className={styles.uc_image} src={image}/>
+            </div>
+        </div>
+    );
 }
 
 function ShowImage(image, fixed, buttonurl) {
