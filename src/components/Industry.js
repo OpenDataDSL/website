@@ -8,8 +8,8 @@ export function UseCase(props) {
         <div className="row padding-vert--md">
             <div className="text-left col-lg-2"> </div>
             <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
-                <div className={styles.rowborder}>
-                    {ShowUCImage(props.image, true, props.buttonurl)}
+                <div className={styles.uc_rowborder}>
+                    {ShowUCImage(props.image)}
                     {ShowUseCase(props.title, props.checks, props.text1, props.text2)}
                     {ShowFeatures(props)}
                 </div>
@@ -62,7 +62,7 @@ function ShowUseCase(title, checks, text1, text2) {
     return (
         <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div>
-                <h2>USE <span className={styles.h_text_highlight}>CASE</span></h2>
+                <span className={styles.h_text_usecase} >USE <span className={styles.feature_hl}>CASE</span></span>
                 <ul>
                     {ch.map((text, idx) => (
                       <li>{text}</li>
@@ -84,19 +84,23 @@ function ShowFeatures(props) {
     return (
         <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div className={styles.featureblock}>
-                    <p className={styles.feature}>
+                    <div className={styles.feature}>
+                        <img className={styles.featureicon} src={props.fi1} />
                         <span className={styles.featuretitle}>{props.ft1}</span><br/>
                         <span className={styles.featuretext}>{props.fx1}</span>
-                    </p>
+                    </div>
                     <p className={styles.feature}>
+                        <img className={styles.featureicon} src={props.fi2} />
                         <span className={styles.featuretitle}>{props.ft2}</span><br/>
                         <span className={styles.featuretext}>{props.fx2}</span>
                     </p>
                     <p className={styles.feature}>
+                        <img className={styles.featureicon} src={props.fi3} />
                         <span className={styles.featuretitle}>{props.ft3}</span><br/>
                         <span className={styles.featuretext}>{props.fx3}</span>
                     </p>
                     <p className={styles.feature}>
+                        <img className={styles.featureicon} src={props.fi4} />
                         <span className={styles.featuretitle}>{props.ft4}</span><br/>
                         <span className={styles.featuretext}>{props.fx4}</span>
                     </p>
@@ -132,6 +136,11 @@ function ShowButton(props) {
 }
 
 function ShowUCImage(image) {
+    var isMobile = useMediaQuery({ query: `(max-width: 1428px)` });
+    if (isMobile) {
+        return <div />;
+    }
+
     return (
         <div className="col  text-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div className="image_container">

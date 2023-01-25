@@ -15,9 +15,6 @@
     .product_screenshot_fixed {
         visibility: visible;
     }
-    .uc_image {
-        visibility: visible;
-    }
     .product_screenshot {
         visibility: visible;
         cursor: zoom-in;
@@ -36,10 +33,6 @@
 
 @media only screen and (max-width: 800px) {
     .product_screenshot {
-        visibility: hidden;
-        height: 0px;
-    }
-    .uc_image {
         visibility: hidden;
         height: 0px;
     }
@@ -189,17 +182,80 @@
 .featureblock {
   background: #21225F;
   color: white;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 40px 0px 40px;
 }
 
 .feature {
-  padding: 5px 15px 0px 15px;
+    padding: 5px 15px 0px 15px;
+    margin: 0px;
 }
 .featuretitle {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    position: relative;
+    left: -50px;
+    top: -20px;
 }
 .featuretext {
+    position: relative;
+    left: 15px;
+    top: -40px;
+}
+.featureicon {
+    position: relative;
+}
+.feature_hl {
+    color: #fe812a;
+}
+.uc_rowborder {
+    box-shadow: rgb(254 129 42 / 32%) 0px 16px 48px -16px;
+    padding: 10px 8px 10px 8px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
+}
+@media only screen and (min-width: 1420px) {
+    .h_text_usecase {
+        font-weight: bold;
+        font-size: 4.5em;
+        position: relative;
+        left: -10px;
+    }
+    .featureicon {
+        left: -85px;
+    }
+    .featuretitle {
+        left: -50px;
+    }
+    .featuretext {
+        left: 15px;
+    }
+    .uc_image {
+        visibility: visible;
+        width: 345px;
+        height: 574px;
+    }
+}
+@media only screen and (max-width: 1420px) {
+    .h_text_usecase {
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    .featureicon {
+        left: -45px;
+    }
+    .featuretitle {
+        left: -35px;
+    }
+    .featuretext {
+        left: 30px;
+    }
+    .uc_image {
+        visibility: hidden;
+        height: 0px;
+    }
 }
 
 .row {
@@ -212,12 +268,4 @@
     margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
 }
 
-.rowborder {
-    box-shadow: rgb(0 32 37 / 32%) 0px 16px 48px -16px;
-    padding: 10px 8px 10px 8px;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
-}
+
