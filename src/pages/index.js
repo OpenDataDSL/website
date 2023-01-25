@@ -61,6 +61,19 @@ function Products() {
         <Product
             left="true"
             border="true"
+            title="Utilities"
+            subtitle="Stay focussed with real-time, smart alerts"
+            image="/img/home/utility.jpg"
+            zoomimage="false"
+            text1="Never miss an outage or spike in usage with our event management tools and real-time alerts"
+            text2="Real-time capture and storage of all your metrics"
+            buttontext="Find out more"
+            buttonurl="/utility"
+        />
+
+        <Product
+            left="false"
+            border="true"
             title="Agriculture"
             subtitle="Delivering market pricing to your desktop"
             image="/img/home/agriculture.jpg"
@@ -72,7 +85,7 @@ function Products() {
         />
 
         <Product
-            left="false"
+            left="true"
             border="true"
             title="MongoDB Atlas"
             subtitle="Tools to make using MongoDB easier"
@@ -85,7 +98,7 @@ function Products() {
         />
 
         <Product
-            left="true"
+            left="false"
             border="true"
             title="Data Catalog"
             subtitle="Market and Fundamental Data"

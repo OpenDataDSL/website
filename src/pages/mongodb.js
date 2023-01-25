@@ -7,7 +7,7 @@ import styles from './index.module.css';
 import {HomepageFeatures, HomepageAbout, HomepageNextSteps} from '../components/HomepageFeatures';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import CookieConsent from "react-cookie-consent";
-import { Product, VideoBanner, SocialMedia } from '../components/Industry';
+import { Product, VideoBanner, SocialMedia, UseCase } from '../components/Industry';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -15,7 +15,7 @@ export default function Home() {
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
-            <VideoBanner video="/img/home/database.mp4" text="All the tools you need to make the most of your MongoDB database" hltext={styles.h_text_highlight_green}>
+            <VideoBanner video="/img/home/mongodb.mp4" text="All the tools you need to make the most of your MongoDB database" hltext={styles.h_text_highlight_green}>
                 <span>Turbocharge your <span className={styles.h_text_highlight_green}>MongoDB</span> Project</span>
             </VideoBanner>
             <div className={styles.smallsectionskip} />
@@ -36,6 +36,22 @@ function Products() {
     return (
     <div className={styles.products}>
         <div className={styles.productBanner}>Discover the tools that will transform your business</div>
+
+        <UseCase
+            title="MongoDB Customer"
+            image="/img/mongodb/user.jpg"
+            ft1="Global Access"
+            fx1="Improve access from anywhere using cloud-based web and mobile applications"
+            ft2="Data Modelling"
+            fx2="Define the key facets of your data to help end users to find and navigate through the data"
+            ft3="Automate"
+            fx3="Use workflows and processes to automate and improve repetitive tasks"
+            ft4="Off-the-shelf"
+            fx4="Your end users get immediate access to commercial-grade applications to access your data"
+            checks="MongoDB,Web Portal,Excel Add-in,Data Modelling"
+            text1="An existing MongoDB Atlas customer has a few collections containing important sales information. They generate reports on a monthly basis to present in board meetings, but end-users have no access to this valuable data"
+            text2="Using OpenDataDSL, the customer can now automate the report generation to produce them daily. End-users can now easily find, browse and aggregate data in user-friendly web, mobile, desktop tools and Excel spreadsheets"
+        />
 
         <Product
             left="false"

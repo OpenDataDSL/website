@@ -166,6 +166,7 @@ function ShowLinkImage(image, buttonurl) {
 }
 
 export function VideoBanner(props) {
+
     return (
     <div className={styles.videocontainer}>
         <span className={styles.videobg} data-ratio="2">
@@ -189,9 +190,9 @@ export function VideoBanner(props) {
             </div>
             <div className={styles.h_text_minor}>
                 <div className={styles.h_text_inner}>
-                    <div className={styles.tagline}>{props.text}</div>
+                    <div className={styles.tagline}><span className={props.textcolor}>{props.text}</span></div>
                     <br />
-                    <span>Get started today with a <span className={props.hltext}>30 Day </span><span>FREE Trial</span></span>
+                    <span className={props.textcolor}>Get started today with a <span className={props.hltext}>30 Day </span><span>FREE Trial</span></span>
                 </div>
             </div>
             <div className={styles.h_text_minor}>

@@ -48,7 +48,7 @@
 .datavideo {
     margin: 0px;
     width: 100%;
-    height: 1070.44px;
+    height: 420px;
     max-width: none;
     box-sizing: border-box;
     object-fit: fill;
@@ -56,7 +56,7 @@
 
 .videoplayer {
     width: 100%;
-    height: 1070.44px;
+    height: 4204px;
     min-width: 0px;
     margin: 0px 0px 0px 0px;
     position: absolute;
