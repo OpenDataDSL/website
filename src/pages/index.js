@@ -47,7 +47,6 @@ function Products() {
 
         <Product
             left="false"
-            border="true"
             title="Energy and Oil Industry"
             subtitle="Smart tools and reliable data"
             image="/img/home/energy.jpg"
@@ -60,7 +59,6 @@ function Products() {
 
         <Product
             left="true"
-            border="true"
             title="Utilities"
             subtitle="Stay focussed with real-time, smart alerts"
             image="/img/home/utility.jpg"
@@ -73,7 +71,6 @@ function Products() {
 
         <Product
             left="false"
-            border="true"
             title="Agriculture"
             subtitle="Delivering market pricing to your desktop"
             image="/img/home/agriculture.jpg"
@@ -86,7 +83,6 @@ function Products() {
 
         <Product
             left="true"
-            border="true"
             title="MongoDB Atlas"
             subtitle="Tools to make using MongoDB easier"
             image="/img/mongodb.png"
@@ -99,7 +95,6 @@ function Products() {
 
         <Product
             left="false"
-            border="true"
             title="Data Catalog"
             subtitle="Market and Fundamental Data"
             image="/img/home/data-catalog.png"
