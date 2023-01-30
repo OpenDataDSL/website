@@ -55,15 +55,22 @@ experience of buying off-the-shelf.
 
 ### What do you get?
 
-* [Data management specific language](easy-to-use) to rapidly build your own components and interaction
-* All data and processes reside in the cloud, so no on-site costs
+* A [Data Catalog](https://doc.opendatadsl.com/docs/data/catalog) with public, freely-distributable data and pre-built data loaders for paid-for data 
+* [Data management specific language](/easy-to-use) to rapidly build your own components and interaction
+* All data and processes reside in the **CLOUD**, so there are zero on-site costs
+* In-built handling of
+    * Timeseries
+    * Forward Curves
+    * [Smart Curves](https://doc.opendatadsl.com/docs/tutorials/smart-curves) (Your proprietary curves)
+    * Matrices (Options/Correlation/Covariance etc.)
+    * Events (IOT/Market Messages etc.)
 * Define your own [data model](/any-data-anywhere) or extend ours to suit your own unique data
 * Create powerful, user-friendly workflows to map out your business processes
 * Schedule processes to automate tasks such as collecting and loading data or running complex algorithms
 * Define events that trigger processes enabling smooth synchronous automation of tasks
 * Free use of ALL our software and tools - that includes:
-    * Web-portal/Dashboard - (Web/Desktop/Mobile)
-    * Excel Add-in
+    * [Web-portal/Dashboard](https://doc.opendatadsl.com/docs/user/portal) - (Web/Desktop/Mobile)
+    * [Excel Add-in](https://doc.opendatadsl.com/docs/user/excel)
     * [VSCode extension](https://doc.opendatadsl.com/docs/user/vscode)
 * Customise the domain and user experience of all tools to [make it your own](/make-it-yours)
 * Fully supported and documented [REST API](https://doc.opendatadsl.com/docs/api/rest/standards) 
@@ -71,8 +78,8 @@ experience of buying off-the-shelf.
 
 ### What are the benefits?
 
-* [Quick initial set-up](/focus-on-what-matters), simply sign-up for a free account and start building!
-* Low cost, [only pay for what you use](/big-savings) and a free tier enabling you to try-out services with zero cost
+* Quick initial set-up, simply sign-up for a free account and start building!
+* Low cost, [only pay for what you use](/big-savings) and a free trial enabling you to try-out our services with zero cost
 * Flexible, smart and relevant - utilising robust cloud technology
 * Customisable - utilise your [own database](https://doc.opendatadsl.com/docs/it/database) or use ours, it is your choice
 * Highly scalable utilising serverless technology
