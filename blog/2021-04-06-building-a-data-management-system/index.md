@@ -23,10 +23,20 @@ tags: [data management, odsl]
 
 At the start of a project to build a data management system, or simply getting a data feed to feed into an internal system, there are generally 2 considerations to make:
 
-* Do we out-source the whole project to a company that has readily available software?
-* Do we build something from scratch?
+1. Do we **buy** readily available software?
+2. Do we **build** something from scratch?
+
+The decision of whether to buy or build a data management solution for your project depends on several factors, including:
+
+* **Requirements:** Determine what specific features and capabilities you need and if they are readily available in existing solutions.
+* **Budget:** Consider the cost of purchasing a commercial solution versus the time and resources needed to develop your own solution.
+* **Time to Rollout:** Evaluate if you can afford the time and resources required to build your own solution, or if you need a solution that is up and running quickly.
+* **In-house Expertise:** Assess the expertise of your team to develop and maintain the solution, and the availability of external resources if required.
+* **Integration:** Consider how the solution will integrate with other systems and tools in your technology stack.
+
+Ultimately, the decision to buy or build will depend on the specific needs of your project, budget, and organizational constraints. 
    
-Both options have their pros and cons - let's examine them:
+Both options have their pros and cons, the table below shows a comparison for a typical small to medium data management project:
 
 |Feature|Buy|Build|
 |-|-|-|
