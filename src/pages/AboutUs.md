@@ -7,25 +7,43 @@ description: About Us
 ![](/img/logo128.png)
 OpenDataDSL is the data management programming language.
 
+## What we do
+
+### Data Aggregation
+We are a data aggregator that collects data from multiple sources and combines it into a single, organized database. 
+The aim is to provide a comprehensive and centralized source of information, which can be used for various purposes such as market research, business intelligence, data analytics, portfolio pricing etc. 
+
+### Data Management and Governance Tools
+Data governance refers to the overall management of the availability, usability, integrity, and security of the data employed in an organization. 
+It involves establishing policies, procedures, standards, and guidelines for collecting, storing, using, and disposing of data. 
+The goal of data governance is to ensure that data is trustworthy and supports the objectives of the organization while protecting it from risk. 
+Data governance involves collaboration among stakeholders from various departments, including IT, legal, and business, to ensure that data is managed in a consistent, efficient, and effective manner.
+
+### Automation
+Through the use of our workflow tools, you can automate repetitive, manual tasks associated with managing, processing, and analyzing data. 
+Our goal is to reduce the time and resources required to complete these tasks and to increase the accuracy and consistency of the data.
+Data automation can improve the speed, efficiency, and accuracy of data management processes, enabling organizations to make better-informed decisions, respond to changes more quickly, and increase the value of their data assets.
+
 ## Meet The Company
 
 ### Our Story
 After many years of building and using data management systems, we condensed all this knowledge and expertise into a domain specific 
-language which encapsulates all aspects of data management in a simple and intuitive way. 
+language (DSL) which encapsulates all aspects of data management in a simple and intuitive way. 
+The key advantage of using a DSL for data management is that it provides a specialized and efficient way to work with data, making it easier to perform complex data operations.
 
-We are passionate about all aspects of data management and continue to build and improve our platform. 
+> ##### We are passionate about all aspects of data management and continue to build and improve our platform. 
 
 ### Our Vision
 Our vision is to make high quality, flexible and low cost data modelling, management and reporting for all sizes of 
 businesses and all types of markets.
 
-We aim to make the world's freely available pricing and fundamental data more accessible. 
+> ##### We aim to make the world's freely available pricing and fundamental data more accessible. 
 
 ### Our Technology
 As a cloud SAAS company, we leverage elastic scaling and serverless technology to provide high quality, 
 high performance, world scale software and services.
 
-We make it easier for clients to move their data and processes into the cloud.
+> ##### We make it easier for clients to move their data and processes into the cloud.
 
 ## Meet The Team
 ### Colin Hartley
