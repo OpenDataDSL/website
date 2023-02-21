@@ -131,6 +131,7 @@ save ${object: MX_P17}
 
 #### Correlations between industries 
 
+
 The dependencies between the 17 industries can be calculated in a correlation matrix and visualized in a specific graph, a so called heatmap, where darkest color represent highest correlation and brightest color lowest correlation.
 
 ##### Before covid:
