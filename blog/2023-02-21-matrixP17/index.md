@@ -10,7 +10,7 @@ import styles from './index.module.css';
 
 <div className="row">
   <div className="column">
-    <img src="/img/blog/matrix/matrix_holographic.jpg"/>
+    <img src="/img/blog/matrix/matrix_holographic.JPG"/>
   </div>
   <div className="column">
   <h2>Assured, no need to decide between the red or the blue pill...</h2>  
@@ -56,11 +56,11 @@ The analysis is done for two different time horizons, specifically for the 3 yea
 
 In the ODSL WebPortal the data can be checked. Exemplary the return time series for FOOD and CARS industries are shown for the entire time horizon.
 
-<img className={styles.product_screenshot} src="/img/blog/matrix/wp_TS_all.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/wp_TS_all.PNG" />
 
 In comparison to that setting a specific range to show up in the WebPortal, here years 2017-2022, which cover both time frames. Looking at the two lines (blue is FOOD and red is CARS), we already see a different behaviour of the two lines: In the first half the values are quite close and in the second half the values differ quite a lot. 
 
-<img className={styles.product_screenshot} src="/img/blog/matrix/wp_TS_6y.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/wp_TS_6y.PNG" />
 
 
 ### Usage of matrices in ODSL WebPortal
@@ -75,11 +75,11 @@ In the time frame before covid we have the lowest return for STEEL (-15.46%) fol
 
 For STEEL the highst risk (standard deviation 7.45%) followed by OIL (standard deviation 6.10%) is not accompanied by high returns but quite the opposite lowest returns (mean 0.24% for STEEL and -0.11% for OIL).
 
-<img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_bc_stat.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_bc_stat.PNG" />
 
 In an ExcelSheet, where the matrix can also be downloaded and formatted, the information looks like:
 
-<img className={styles.product_screenshot} src="/img/blog/matrix/m_bc_stat.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/m_bc_stat.PNG" />
 
 ##### During Covid
 
@@ -87,10 +87,10 @@ During covid period the lowest returns are noted for OIL (-34.69%) followed by C
 
 The highest risk for CARS (standard deviation 14.95%) is here accompanied by highest return (mean 2.72%).
 
-<img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_c_stat.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_c_stat.PNG" />
 
 Here, the formatted matrix in Excel shows up as:
-<img className={styles.product_screenshot} src="/img/blog/matrix/m_c_stat.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/m_c_stat.PNG" />
 
 ##### ODSL Code
 
@@ -135,16 +135,16 @@ save ${object: MX_P17}
 The dependencies between the 17 industries can be calculated in a correlation matrix and visualized in a specific graph, a so called heatmap, where darkest color represent highest correlation and brightest color lowest correlation.
 
 ##### Before covid:
-<img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_bc.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_bc.PNG" />
 
 After downloading and formatting the matrix in Excel, the heatmap looks like:
-<img className={styles.product_screenshot} src="/img/blog/matrix/m_bc.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/m_bc.PNG" />
 
 ##### During covid:
-<img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_c.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_c.PNG" />
 
 The heatmap in Excel for the time frame during covid looks like:
-<img className={styles.product_screenshot} src="/img/blog/matrix/m_c.png" />
+<img className={styles.product_screenshot} src="/img/blog/matrix/m_c.PNG" />
 
 ##### ODSL Code
 
@@ -158,11 +158,11 @@ mx = correlation(data)
 ### Usage of matrices in ODSL Excel-Addin
 The ODSL Excel Addin provides powerful features to download, upload or refresh your data.
 
-![/img/blog/matrix/excel-addin.png](/img/blog/matrix/excel-addin.png)
+![/img/blog/matrix/excel-addin.PNG](/img/blog/matrix/excel-addin.PNG)
 
 The Excel-Addin understands where the matrix is placed in the sheet and by (un-)ticking the box you can decide (not) to refresh the matrix data information. 
 
-![/img/blog/matrix/excel-addin_m.png](/img/blog/matrix/excel-addin_m.png)
+![/img/blog/matrix/excel-addin_m.PNG](/img/blog/matrix/excel-addin_m.PNG)
 
 
 ## More information or free trial?
