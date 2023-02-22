@@ -173,6 +173,7 @@ module.exports = {
     ],
   ],
   scripts: [
+    "https://www.google.com/recaptcha/api.js"
   ],
   stylesheets: [{
     rel: "stylesheet",

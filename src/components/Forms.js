@@ -63,6 +63,8 @@ export function ContactForm() {
                     <textarea name="message" className="form-control" id="message" rows="6" aria-describedby="messageHelp" />
                     <div id="messageHelp" className="form-text">Enter information about your area of interest, include your telephone number if you would like us to call you.</div>
                   </div>
+                  <div className="g-recaptcha" data-sitekey="6LeeU_USAAAAAAo_sqneMhD9Dl9wo1HrXgnwvRwF"></div>
+                  <br />
                   <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
             </div>
