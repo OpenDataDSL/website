@@ -28,7 +28,7 @@ export function ContactForm() {
     return (
             <div className={styles.formpage}>
                 <p className={styles.filldetails}>Fill out your details below and somebody will be in contact with you very shortly.</p>
-                <form method="POST" action="https://odsl.azurewebsites.net/api/form/sales">
+                <form method="POST" action="http://localhost:7071/api/form/sales">
                     <div className="row">
                        <div className="col">
                           <div className="mb-3">
@@ -63,9 +63,9 @@ export function ContactForm() {
                     <textarea name="message" className="form-control" id="message" rows="6" aria-describedby="messageHelp" />
                     <div id="messageHelp" className="form-text">Enter information about your area of interest, include your telephone number if you would like us to call you.</div>
                   </div>
-                  <div className="g-recaptcha" data-sitekey="6LeeU_USAAAAAAo_sqneMhD9Dl9wo1HrXgnwvRwF"></div>
+                  <div id="recaptcha" className="g-recaptcha" data-sitekey="6LczjqUkAAAAACuHIEJpp3qDNKGqZtAV0k2aRBmr"></div>
                   <br />
-                  <button type="submit" className="btn btn-primary">Submit</button>
+                  <button id="form_submit" type="submit" className="btn btn-primary" disabled>Submit</button>
                 </form>
             </div>
     );
