@@ -1,6 +1,6 @@
 ---
 slug: matrix
-title: Using a matrix object in ODSL
+title: Matrices in ODSL
 authors: [avinzelberg]
 tags: [business case, smartdata, matrix, odsl]
 image: /img/blog/mongodb.svg
@@ -10,12 +10,11 @@ import styles from './index.module.css';
 
 <div className="row">
   <div className="column">
-    <img src="/img/blog/matrix/matrix_holographic.JPG"/>
+    <img src="/img/blog/matrix/covid-19.jpg"/>
   </div>
   <div className="column">
-  <h2>Assured, no need to decide between the red or the blue pill...</h2>  
-    ...but explore how easy it is to use matrices in ODSL.
-    For this purpose we analyse 17 Industry Portfolios for two time frames.
+  <h2>Do you know how COVID-19 affected your industry?</h2>  
+    In this blog, I show you how to use OpenDataDSL matrices and Excel to analyse 17 Industry Portfolios for 2 time-frames: pre COVID-19 and during COVID-19.
   </div>
 </div>
 
@@ -46,25 +45,28 @@ The list of the 17 Industries:
 * **FINAN:** Banks, Insurance Companies, and Other Financials
 * **OTHER:** Other
 
-At the [website](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) of Kenneth R. French you get further information on the industry portfolio composition.
+On the [website](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) of Kenneth R. French you get further information on the industry portfolio composition.
 
 ### Time frames
-The analysis is done for two different time horizons, specifically for the 3 years of covid, namely 2020, 2021, 2022 and the 3 years before covid, 2017, 2018 and 2019. Consequently for both time frames we have a set of 36 observations.
+The analysis is done for two different time horizons, specifically for the 3 years of covid, namely 2020, 2021, 2022 and the 3 years before covid, 2017, 2018 and 2019. Consequently for both time frames we have a set of 36 monthly observations.
 
 
 ### Data visualisation
 
-In the ODSL WebPortal the data can be checked. Exemplary the return time series for FOOD and CARS industries are shown for the entire time horizon.
+In the ODSL WebPortal the data can be checked. The below chart shows the return time series for the FOOD and CARS industries for the entire time horizon.
 
 <img className={styles.product_screenshot} src="/img/blog/matrix/wp_TS_all.PNG" />
 
-In comparison to that setting a specific range to show up in the WebPortal, here years 2017-2022, which cover both time frames. Looking at the two lines (blue is FOOD and red is CARS), we already see a different behaviour of the two lines: In the first half the values are quite close and in the second half the values differ quite a lot. 
+In comparison to that, we can set a specific range to show up in the WebPortal, here years 2017-2022, which cover both time frames. 
+Looking at the two lines (blue is FOOD and red is CARS), we already see a different behaviour of the two lines: In the first half the values are quite close and in the second half the values differ quite a lot. 
 
 <img className={styles.product_screenshot} src="/img/blog/matrix/wp_TS_6y.PNG" />
 
 
 ### Usage of matrices in ODSL WebPortal
-A matrix with the main statistics and a correlation matrix can help to analyse the data and represent the dependencies for the 17 industries in a structured way.
+We are going to create 2 matrices to help us analyse the data:
+* A matrix with the main statistics (min, max, mean, stddev)
+* A correlation matrix which can help to analyse the data and represent the dependencies for the 17 industries in a structured way.
 
 #### Main Statistics
 As main statistics we consider minimum value, maximum value, mean and standard deviation that are calculated, stored and shown up for the two time frames. 
@@ -73,7 +75,7 @@ As main statistics we consider minimum value, maximum value, mean and standard d
 
 In the time frame before covid we have the lowest return for STEEL (-15.46%) followed by CNSTR (-13.96%) and CHEMS (-13.62%) and the highest for STEEL (17.11%) followed by MINES (14.03%) and DURBL (12.83%). 
 
-For STEEL the highst risk (standard deviation 7.45%) followed by OIL (standard deviation 6.10%) is not accompanied by high returns but quite the opposite lowest returns (mean 0.24% for STEEL and -0.11% for OIL).
+For STEEL the highest risk (standard deviation 7.45%) followed by OIL (standard deviation 6.10%) is not accompanied by high returns but quite the opposite, they have the lowest returns (mean 0.24% for STEEL and -0.11% for OIL).
 
 <img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_bc_stat.PNG" />
 
@@ -83,7 +85,7 @@ In an ExcelSheet, where the matrix can also be downloaded and formatted, the inf
 
 ##### During Covid
 
-During covid period the lowest returns are noted for OIL (-34.69%) followed by CARS (-25.35%) and TRANS (-22.65%) and the highest returns for CARS (38.72%) followed by OIL (32.87%) and STEEL (23.84%). 
+During the COVID-19 period the lowest returns are noted for OIL (-34.69%) followed by CARS (-25.35%) and TRANS (-22.65%) and the highest returns for CARS (38.72%) followed by OIL (32.87%) and STEEL (23.84%). 
 
 The highest risk for CARS (standard deviation 14.95%) is here accompanied by highest return (mean 2.72%).
 
@@ -132,7 +134,7 @@ save ${object: MX_P17}
 #### Correlations between industries 
 
 
-The dependencies between the 17 industries can be calculated in a correlation matrix and visualized in a specific graph, a so called heatmap, where darkest color represent highest correlation and brightest color lowest correlation.
+The dependencies between the 17 industries can be calculated in a correlation matrix and visualized in a heatmap, where the darkest color represent highest correlation and brightest color the lowest correlation.
 
 ##### Before covid:
 <img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_bc.PNG" />
