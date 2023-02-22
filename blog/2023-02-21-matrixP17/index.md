@@ -48,7 +48,7 @@ The list of the 17 Industries:
 On the [website](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) of Kenneth R. French you get further information on the industry portfolio composition.
 
 ### Time frames
-The analysis is done for two different time horizons, specifically for the 3 years of covid, namely 2020, 2021, 2022 and the 3 years before covid, 2017, 2018 and 2019. Consequently for both time frames we have a set of 36 monthly observations.
+The analysis is done for two different time horizons, specifically for the 3 years of COVID-19, namely 2020, 2021, 2022 and the 3 years before COVID-19, 2017, 2018 and 2019. Consequently for both time frames we have a set of 36 monthly observations.
 
 
 ### Data visualisation
@@ -71,9 +71,9 @@ We are going to create 2 matrices to help us analyse the data:
 #### Main Statistics
 As main statistics we consider minimum value, maximum value, mean and standard deviation that are calculated, stored and shown up for the two time frames. 
 
-##### Before Covid
+##### Pre COVID-19
 
-In the time frame before covid we have the lowest return for STEEL (-15.46%) followed by CNSTR (-13.96%) and CHEMS (-13.62%) and the highest for STEEL (17.11%) followed by MINES (14.03%) and DURBL (12.83%). 
+In the time frame before COVID-19 we have the lowest return for STEEL (-15.46%) followed by CNSTR (-13.96%) and CHEMS (-13.62%) and the highest for STEEL (17.11%) followed by MINES (14.03%) and DURBL (12.83%). 
 
 For STEEL the highest risk (standard deviation 7.45%) followed by OIL (standard deviation 6.10%) is not accompanied by high returns but quite the opposite, they have the lowest returns (mean 0.24% for STEEL and -0.11% for OIL).
 
@@ -83,7 +83,7 @@ In an ExcelSheet, where the matrix can also be downloaded and formatted, the inf
 
 <img className={styles.product_screenshot} src="/img/blog/matrix/m_bc_stat.PNG" />
 
-##### During Covid
+##### During COVID-19
 
 During the COVID-19 period the lowest returns are noted for OIL (-34.69%) followed by CARS (-25.35%) and TRANS (-22.65%) and the highest returns for CARS (38.72%) followed by OIL (32.87%) and STEEL (23.84%). 
 
@@ -136,16 +136,16 @@ save ${object: MX_P17}
 
 The dependencies between the 17 industries can be calculated in a correlation matrix and visualized in a heatmap, where the darkest color represent highest correlation and brightest color the lowest correlation.
 
-##### Before covid:
+##### Pre COVID-19:
 <img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_bc.PNG" />
 
 After downloading and formatting the matrix in Excel, the heatmap looks like:
 <img className={styles.product_screenshot} src="/img/blog/matrix/m_bc.PNG" />
 
-##### During covid:
+##### During COVID-19:
 <img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_c.PNG" />
 
-The heatmap in Excel for the time frame during covid looks like:
+The heatmap in Excel for the time frame during COVID-19 looks like:
 <img className={styles.product_screenshot} src="/img/blog/matrix/m_c.PNG" />
 
 ##### ODSL Code
@@ -166,6 +166,10 @@ The Excel-Addin understands where the matrix is placed in the sheet and by (un-)
 
 ![/img/blog/matrix/excel-addin_m.PNG](/img/blog/matrix/excel-addin_m.PNG)
 
+
+## Conclusion
+Data analysis is the way to get insights into your data. OpenDataDSL helps you with tools you need to manage and analyse your data.
+As one sample I have shown you how to use OpenDataDSL matrices and Excel with the ODSL Excel-Addin to analyse 17 Industry Portfolios for 2 time-frames: pre COVID-19 in comparison to during COVID-19. ODSL matrices are a good way of presenting key information - for once-off or recurrent reporting purposes.
 
 ## More information or free trial?
 Tell us about your project, and we can let you know how we can help.
