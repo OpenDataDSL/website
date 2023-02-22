@@ -14,7 +14,7 @@ import styles from './index.module.css';
   </div>
   <div className="column">
   <h2>Do you know how COVID-19 affected your industry?</h2>  
-    In this blog, I show you how to use OpenDataDSL matrices and Excel to analyse 17 Industry Portfolios for 2 time-frames: pre COVID-19 and during COVID-19.
+    In this blog, we show you how to use OpenDataDSL matrices and Excel to analyse 17 Industry Portfolios for 2 time-frames: pre COVID-19 and during COVID-19.
   </div>
 </div>
 
@@ -133,7 +133,6 @@ save ${object: MX_P17}
 
 #### Correlations between industries 
 
-
 The dependencies between the 17 industries can be calculated in a correlation matrix and visualized in a heatmap, where the darkest color represent highest correlation and brightest color the lowest correlation.
 
 ##### Pre COVID-19:
@@ -142,11 +141,19 @@ The dependencies between the 17 industries can be calculated in a correlation ma
 After downloading and formatting the matrix in Excel, the heatmap looks like:
 <img className={styles.product_screenshot} src="/img/blog/matrix/m_bc.PNG" />
 
+The lowest correlation we notice between UTILS and the other industries.
+
+
 ##### During COVID-19:
 <img className={styles.product_screenshot} src="/img/blog/matrix/wp_m_c.PNG" />
 
 The heatmap in Excel for the time frame during COVID-19 looks like:
 <img className={styles.product_screenshot} src="/img/blog/matrix/m_c.PNG" />
+
+For the time during COVID-19, the heatmap looks very different. In general the correlations are lower between all industries.
+OIL and CARS show lowest correlations to the other industries. The demand for oil was low and we all remember in April 2020, for the first time in history, the futures price for crude oil turned negative.
+
+But low correlations are not bad as such: Combining them in an investment portfolio holds diversification potential.
 
 ##### ODSL Code
 
@@ -168,8 +175,10 @@ The Excel-Addin understands where the matrix is placed in the sheet and by (un-)
 
 
 ## Conclusion
+We have shown you how to use OpenDataDSL matrices and Excel with the ODSL Excel-Addin to analyse 17 Industry Portfolios for 2 time-frames: pre COVID-19 in comparison to during COVID-19. A heatmap visualizes at a glance the dependencies between the industries and shows potential diversification potential for portfolio investment decisions.
+
 Data analysis is the way to get insights into your data. OpenDataDSL helps you with tools you need to manage and analyse your data.
-As one sample I have shown you how to use OpenDataDSL matrices and Excel with the ODSL Excel-Addin to analyse 17 Industry Portfolios for 2 time-frames: pre COVID-19 in comparison to during COVID-19. ODSL matrices are a good way of presenting key information - for once-off or recurrent reporting purposes.
+ODSL matrices are a good way of presenting key information - for once-off or recurrent reporting purposes.
 
 ## More information or free trial?
 Tell us about your project, and we can let you know how we can help.
