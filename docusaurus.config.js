@@ -173,7 +173,8 @@ module.exports = {
     ],
   ],
   scripts: [
-    "https://www.google.com/recaptcha/api.js"
+    '/js/captcha.js',
+    {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true}
   ],
   stylesheets: [{
     rel: "stylesheet",
