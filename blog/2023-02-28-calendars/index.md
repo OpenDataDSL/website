@@ -1,6 +1,6 @@
 ---
 slug: calendars
-title: Calendars in ODSL
+title: SMART Calendars
 authors: [chartley]
 tags: [calendar, peak, offpeak, timezone, odsl]
 image: /img/blog/hourglass-on-calendar.jpg
