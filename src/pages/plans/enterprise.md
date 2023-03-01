@@ -30,13 +30,9 @@ If you need an enhancement that is important to your business, we will prioritis
 ### Dedicated account manager
 You will have a dedicated account manager who will assist you in solving any questions and issues and giving you access you to technical experts.
 
-### Private managed storage
-You get 10Gb (per tenant) of MongoDB Atlas data storage included in your plan price.
-> Additional storage is chargeable at £250/10Gb/month
-
-### Process Executions
-You get 250 process executions/month included in your plan price.
-> Additional process executions are chargeable at £25/250 executions/month 
+### Single monthly cost
+We will provide you with a single monthly cost covering all the services you require with no limit to the amount of users.
+Additional or upgraded services can be added at any time.
 
 ## Getting Started
 To get started, click the ```Portal``` button in the title bar which will direct you to the web portal to sign up.

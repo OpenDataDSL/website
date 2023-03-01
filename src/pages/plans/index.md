@@ -34,7 +34,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
         </Card.Body>
     </Card>    
     <Card className={styles.card}>
-        <Card.Header className={styles.header}><a href="/plans/standard"><span className={styles.name}>Standard</span><br/><span className={styles.gbp}>£</span><span className={styles.price}>10</span><br/><span className={styles.info}>/user/month<br /><br /></span></a></Card.Header>
+        <Card.Header className={styles.header}><a href="/plans/standard"><span className={styles.name}>Standard</span><br/><span className={styles.gbp}>£</span><span className={styles.price}>25</span><br/><span className={styles.info}>/user/month<br /><br /></span></a></Card.Header>
         <Card.Body className={styles.body}>
             <span className={styles.bold}>Community features plus:</span>
             <br />
@@ -55,7 +55,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
         </Card.Body>
     </Card>
     <Card className={styles.card}>
-        <Card.Header className={styles.header}><a href="/plans/premium"><span className={styles.name}>Premium</span><br/><span className={styles.gbp}>£</span><span className={styles.price}>25</span><br/><span className={styles.info}>/user/month<br /><br /></span></a></Card.Header>
+        <Card.Header className={styles.header}><a href="/plans/premium"><span className={styles.name}>Premium</span><br/><span className={styles.gbp}>£</span><span className={styles.price}>50</span><br/><span className={styles.info}>/user/month<br /><br /></span></a></Card.Header>
         <Card.Body className={styles.body}>
             <span className={styles.bold}>Standard features plus:</span>
             <br />
@@ -75,7 +75,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
         </Card.Body>
     </Card>
     <Card className={styles.card}>
-        <Card.Header className={styles.header}><a href="/plans/enterprise"><span className={styles.name}>Enterprise</span><br/><span className={styles.gbp}>from £</span><span className={styles.price}>49</span><br/><span className={styles.info}>/user/month<br />minimum 25 users</span></a></Card.Header>
+        <Card.Header className={styles.header}><a href="/plans/enterprise"><span className={styles.name}>Enterprise</span><br/><span className={styles.price}>Call</span><br/><span className={styles.info}>custom plan for your enterprise</span><br/></a><br/></Card.Header>
         <Card.Body className={styles.body}>
             <span className={styles.bold}>Premium features plus:</span>
             <br />
