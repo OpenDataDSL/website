@@ -55,7 +55,7 @@ Using the ODSL Excel-Addin to retrieve the data for 21 December 2022:
 
 The specific MORNING power block, showing up electricity prices in INR/MWH for the hours 6:00 - 10:00 [UTC+5:30] on a 15 minutely granularity from the data source [IEX](https://www.iexindia.com/).
 
-The MORNING power block #IEX_BLOCKCALENDAR_MORNING with time zone Asia/Calcutta is defined as follows:
+Let's check how the MORNING power block #IEX_BLOCKCALENDAR_MORNING with time zone Asia/Calcutta is defined:
 
 ```js
 [
@@ -96,13 +96,15 @@ Using the ODSL Excel-Addin to retrieve the data for 21 December 2022:
 <img className={styles.product_screenshot} src="/img/blog/timezone/tz_australia.PNG" />
 
 
-### Output: Conversion to timezone=Europe/London [UTC]
-The electricity data from three different locations on three different granularities are converted to timezone=Europe/London [UTC] and downloaded into an ExcelSheet using our ODSL Excel-Addin.
+### Output: Conversion to timezone=Europe/London [UTC+0]
+The electricity data from three different locations on three different granularities are converted to timezone=Europe/London [UTC+0] and downloaded into an ExcelSheet using our ODSL Excel-Addin.
 
 <img className={styles.product_screenshot} src="/img/blog/timezone/tz_joined.PNG" />
 
 
+## Daylight saving time
 
+You miss information on daylight saving time? This is a topic for another blog.
 
 
 
