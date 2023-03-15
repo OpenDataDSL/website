@@ -52,7 +52,7 @@ The diagram below shows a typical multi-office collaborative configuration, we h
 * Other remote users requiring access to data on their mobile device
 * The OpenDataDSL cloud with market data, proprietary data and SMART curves
 
-<img className={styles.product_screenshot} src="/img/blog/collaboration.PNG" />
+<img className={styles.product_screenshot} src="/img/blog/collaboration.png" />
 
 As traders push their curves from Excel, all other users and systems receive those curves in real-time.
 When new market data arrives, that data is also pushed to any users and system listening for it.
