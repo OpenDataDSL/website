@@ -3,7 +3,7 @@ slug: excel-collaboration
 title: Excel Collaboration
 authors: [chartley]
 tags: [excel, collaboration, automation, odsl]
-image: /img/blog/hourglass-on-calendar.jpg
+image: /img/blog/excel-collaboration.jpg
 hide_table_of_contents: true
 ---
 import styles from './index.module.css';
