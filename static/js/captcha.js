@@ -1,8 +1,10 @@
 var _captchaTries = 0;
+
 function recaptchaOnload() {
     _captchaTries++;
-    if (_captchaTries > 9)
+    if (_captchaTries > 9) {
         return;
+    }
     try {
         grecaptcha.render("recaptcha", {
             sitekey: '6LczjqUkAAAAACuHIEJpp3qDNKGqZtAV0k2aRBmr',
@@ -13,4 +15,9 @@ function recaptchaOnload() {
         return;
     } catch (e) {}
     window.setTimeout(recaptchaOnload, 1000);
+}
+
+export function loadReCaptcha() {
+    _captchaTries = 0;
+    recaptchaOnload();
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Forms.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
+import { loadReCaptcha } from '/js/captcha.js'
 
 export function Sales(props) {
     return (
@@ -84,7 +85,7 @@ export function ContactForm() {
                     <textarea name="message" className="form-control" id="message" rows="6" aria-describedby="messageHelp" />
                     <div id="messageHelp" className="form-text">Enter information about your area of interest, include your telephone number if you would like us to call you.</div>
                   </div>
-                  <div id="recaptcha" className="g-recaptcha" data-sitekey="6LczjqUkAAAAACuHIEJpp3qDNKGqZtAV0k2aRBmr"></div>
+                  <div id="recaptcha" className="g-recaptcha" data-sitekey="6LczjqUkAAAAACuHIEJpp3qDNKGqZtAV0k2aRBmr" onLoad={loadReCaptcha()}></div>
                   <br />
                   <button id="form_submit" type="submit" className="btn btn-primary" disabled>Submit</button>
                 </form>
@@ -131,7 +132,7 @@ export function MiniContactForm() {
                     <textarea name="message" className="form-control" id="message" rows="6" aria-describedby="messageHelp" />
                     <div id="messageHelp" className="form-text">Enter information about your area of interest, include your telephone number if you would like us to call you.</div>
                   </div>
-                  <div id="recaptcha" className="g-recaptcha" data-sitekey="6LczjqUkAAAAACuHIEJpp3qDNKGqZtAV0k2aRBmr"></div>
+                  <div id="recaptcha" className="g-recaptcha" data-sitekey="6LczjqUkAAAAACuHIEJpp3qDNKGqZtAV0k2aRBmr" onLoad={loadReCaptcha()}></div>
                   <br />
                   <button id="form_submit" type="submit" className="btn btn-primary" disabled>Submit</button>
                 </form>
