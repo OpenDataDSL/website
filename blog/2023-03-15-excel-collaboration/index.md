@@ -33,14 +33,17 @@ It also reduces the need for back-and-forth communication, as team members can c
 
 In addition to the obvious benefits of people collaborating, OpenDataDSL can build SMART curves from that input data and contribute to the collaboration.
 
-### Listening for data changes
+:::info Real-time collaboration using Excel
 Using the OpenDataDSL Excel Add-in, you can *listen* for data changes made by other users, data loaders or SMART curve building.
+:::
 
 ### Contributing trader curves
-If you have traders contributing forward curves which ultimately serve as an input to your **Value At Risk** calculations, the easiest way would be for the traders to save the curves directly from Excel.
+If you have traders contributing forward curves which ultimately serve as an input to your **Profit and Loss** and **Value At Risk** calculations, the easiest way would be for the traders to save the curves directly from Excel.
 Other team members can listen for changes to these curves and collaborate effectively.
 
+:::info Real-time collaboration using SMART curves
 SMART curves can be built immediately and will be pushed to any team member listening for them - becoming part of a human->smart curve collaboration.
+:::
 
 ## Scenario
 A typical scenario requires many people and systems to have access to data, and the more 'real-time' the system is, the more responsive you can be to potential issues.
@@ -60,7 +63,7 @@ When new market data arrives, that data is also pushed to any users and system l
 Any SMART curves based on the traders curves, the market data or both will automatically be built and pushed to any users or systems listening for them.
 
 :::tip Data-On-Demand!
-A real-time collaborative system means there is no need to refresh or run data collection processes 
+A real-time collaborative system means there is no need to refresh or run data collection processes.
 :::
 
 ## Next steps
