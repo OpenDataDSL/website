@@ -28,7 +28,7 @@ export function Demo(props) {
     return (
     <div>
         <div className="row">
-            <div className={styles.formheader}>
+            <div className={styles.demoheader}>
                 <div className="col text-center">
                     <div className={styles.demoheadertext} itemScope itemType="https://schema.org/LocalBusiness">
                         <img src="/img/logo128.png" />

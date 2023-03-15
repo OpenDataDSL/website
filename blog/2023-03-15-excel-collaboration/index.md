@@ -63,6 +63,11 @@ Any SMART curves based on the traders curves, the market data or both will autom
 A real-time collaborative system means there is no need to refresh or run data collection processes 
 :::
 
+## Next steps
+Do you want to see this in action and see how you can benefit from real-time collaboration?
+
+Fill out the form below, we will contact you to arrange a personally tailored demo.
+
 <Demo />
 
 
