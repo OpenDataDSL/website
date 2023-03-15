@@ -17,6 +17,10 @@
         color: rgb(80, 40, 40);
         padding: 40px 300px 120px 300px;
     }
+    .demoheadertext {
+        color: rgb(80, 40, 40);
+        padding: 40px 40px 140px 40px;
+    }
 
     .formpage {
         border-top: 4px solid orange;
@@ -25,6 +29,15 @@
         background-color: rgb(255, 255, 255);
         padding: 20px 64px 64px 64px;
         margin: 80px;
+        top: -180px;
+    }
+    .minipage {
+        border-top: 4px solid orange;
+        box-shadow: rgb(0 32 37 / 32%) 0px 16px 48px -16px;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 64px 64px 64px;
+        margin: 80px 10px 60px 10px;
         top: -180px;
     }
 }

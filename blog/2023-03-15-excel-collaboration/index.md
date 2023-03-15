@@ -7,6 +7,7 @@ image: /img/blog/hourglass-on-calendar.jpg
 hide_table_of_contents: true
 ---
 import styles from './index.module.css';
+import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="column">
@@ -51,7 +52,7 @@ The diagram below shows a typical multi-office collaborative configuration, we h
 * Other remote users requiring access to data on their mobile device
 * The OpenDataDSL cloud with market data, proprietary data and SMART curves
 
-![img.png](diagram.png)
+<img className={styles.product_screenshot} src="/img/blog/collaboration.PNG" />
 
 As traders push their curves from Excel, all other users and systems receive those curves in real-time.
 When new market data arrives, that data is also pushed to any users and system listening for it.
@@ -61,6 +62,9 @@ Any SMART curves based on the traders curves, the market data or both will autom
 :::tip Data-On-Demand!
 A real-time collaborative system means there is no need to refresh or run data collection processes 
 :::
+
+<Demo />
+
 
 ## More information or free trial?
 Tell us about your project, and we can let you know how we can help.
