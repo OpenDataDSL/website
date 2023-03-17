@@ -117,7 +117,7 @@ The time zone for the data set is Europe/Madrid, which is **UTC+1**.
 
 For the changeover day in March, the file only contains 23 entries, representing the prices for the 23 hours that day only has.
 
-<img src="/img/blog/DST/March_2022.PNG"/>  
+<img src="/img/blog/DST/march_2022.PNG"/>  
 
 #### October
 
