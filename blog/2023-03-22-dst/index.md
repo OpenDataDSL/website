@@ -23,7 +23,7 @@ import {Demo} from '/src/components/Forms.js';
 <!--truncate-->
 ## Daylight saving time
  
-
+### i.
 
 <div className="row">
   <div className="column">
@@ -35,6 +35,7 @@ import {Demo} from '/src/components/Forms.js';
   </div>
 </div>
 
+### ii.
 
 A time zone that considers DST has - contrary to the usual 24 hours within a day - 23 hours at the last Sunday in March and 25 hours at the last Sunday in October. The time between last Sunday in October and last Sunday in March is called daylight saving time. In practice also the notation summer time and winter time is used. 
 
