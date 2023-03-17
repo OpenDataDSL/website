@@ -127,11 +127,11 @@ For the changeover day in October, the data raw file contains 25 entries for the
 <img src="/img/blog/DST/oct_2022.PNG"/>  
 
 ### Daylight saving time usage in ODSL 
-Looking at the created hourly forward curves for the changeover days.
+In the following we are looking at the created hourly forward curves for the changeover days.
 
 #### March
 
-The values are loaded from the input raw file. In ODSL - according to the followning screenshot - we notice the expected missing hour 2:00 - 2:59, (absolute tenor), whereas the relative tenors show up nicely without a gap.
+The values are loaded from the input raw file. In ODSL - according to the following screenshot - we notice the expected missing hour 2:00 - 2:59, (absolute tenor), whereas the relative tenors show up nicely without a gap.
 
 
 
@@ -139,7 +139,7 @@ The values are loaded from the input raw file. In ODSL - according to the follow
 
 #### October
 
-Again, the values are loaded from the input raw file in ODSL - according to the followning screenshot - we notice the expected doubled hour 2:00 - 2:59, (absolute tenor).
+Again, the values are loaded from the input raw file in ODSL - according to the following screenshot - we notice the expected doubled hour 2:00 - 2:59, (absolute tenor).
 
 
 <img src="/img/blog/DST/odsl_ts_oct_2022.PNG"/> 
