@@ -14,20 +14,32 @@ import {Demo} from '/src/components/Forms.js';
     <img src="/img/blog/DST/dst_spring.jpg"/>
   </div>
   <div className="column">
-  <h2>Smart daylight saving time handling in ODSL?</h2>  
-    In this blog we show you how to handle daylight saving time in OpenDataDSL.
+  <h2>Smart daylight savings time handling in ODSL?</h2>  
+    In this blog we show you how to handle daylight savings time in OpenDataDSL.
   </div>
 </div>
 
 
 <!--truncate-->
-## Daylight saving time
- 
-### i.
+## Introduction
+Is your data management system prepared to cope with the fact that Sunday will have only 23 hours due to the clocks going forward for most of us this weekend?
 
+Will you need to perform some manual data tasks to account for daylight savings time?
+
+:::tip Smart Data Management!
+OpenDataDSL handles DST automatically - work **smarter** globally! 
+:::
+
+
+## What is Daylight saving time (DST) ?
+ 
 <div className="row">
   <div className="column">
-   Various research papers have a focus on daylight saving time, whereas the topic itself is tackled from different angles. While some studies particularly focus on health impact like sleep or heart attacks others focus on the consequences to economic values. Likely, there are research papers for every country checking the impact of daylight saving time to electricity demand or consumption. Not to forget the variety of papers on pros and cons abolishing daylight saving time.  
+
+There are various research papers on daylight savings time, generally these focus on the health impact, like sleep or heart attacks, others focus on the consequences on the economy. 
+It is likely that there are research papers for every country checking the impact of daylight savings time on electricity demand or consumption. 
+
+Not to forget the variety of papers on the **pros** and **cons** of abolishing daylight saving time.  
 
   </div>
   <div className="column">
@@ -35,9 +47,11 @@ import {Demo} from '/src/components/Forms.js';
   </div>
 </div>
 
-### ii.
+### How many hours in a day?
 
-A time zone that considers DST has - contrary to the usual 24 hours within a day - 23 hours at the last Sunday in March and 25 hours at the last Sunday in October. The time between last Sunday in October and last Sunday in March is called daylight saving time. In practice also the notation summer time and winter time is used. 
+A time zone that observes DST has 23 hours on the last Sunday in March and 25 hours on the last Sunday in October. 
+The time between the last Sunday in October and the last Sunday in March is called daylight savings time. 
+In practice, also the notation summer-time and winter-time is used. 
 
 <img src="/img/blog/DST/232425.PNG"/>  
 
@@ -108,7 +122,7 @@ Our OpenDataDSL Data Team is constantly adding new data sources to our [Data Cat
 :::info Example: Daylight saving time in 2022
 In this example we use data from the data provider [OMIE](https://www.omie.es/en/spot-hoy), who is publishing electricity prices and volumes for Spain, Portugal and Iberia. 
 
-In particular we check the input raw file for the changeover days in 2022: **27th March** and **30th October**.
+In particular we check the input raw file for the changeover days in **2022**: **27th March** and **30th October**.
 The time zone for the data set is Europe/Madrid, which is **UTC+1**.
 :::
 
