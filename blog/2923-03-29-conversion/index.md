@@ -49,19 +49,29 @@ In most scenarios within OpenDataDSL, data is automatically converted to match t
 
 ### Currency and Units
 All data stored in OpenDataDSL should have a unit of measure applied and all pricing data should also have a currency.
-Converting currency and/or units helps for comparisons, for example, if you are trying to compare the cost of a product in two different countries, you need to convert the currencies to make an accurate comparison.
+Converting currency and/or units helps for comparisons, for example, if you are trying to compare the price of a product in two different countries, you need to convert the currencies to make an accurate comparison.
 
+We collect data from various [global fx currency rate providers](https://doc.opendatadsl.com/docs/data/fx) which can be used for currency conversions.
 
 ### Calendar/Frequency of Data
 Converting the frequency of data refers to the process of changing the time interval at which data is recorded or reported. For example, converting daily data to monthly or quarterly data.
-For example, if you want to compare sales data that is reported monthly with inventory data that is reported quarterly, you would need to convert one of the data sets to the same frequency as the other.
+
+You have various options on how to scale the data between different frequencies:
+* Summed - Sums the values in the period
+* Averaged - Averages the values in the period
+* End - Takes the last value in the period
+* Beginning - Takes the first value in the period
+* High - Takes the highest value in the period
+* Low - Takes the lowest value in the period
+* Delta - Takes the change of values between the periods
 
 ### Timezone
-It's important to have data in a specific timezone in order to accurately analyze it. For example, if you are analyzing sales data from a specific region, you may need to convert the timezone to accurately reflect the timing of sales in that region.
+It's important to have data in a specific timezone in order to accurately analyze it. For example, if you are analyzing pricing data from a specific region, you may need to convert the timezone to accurately reflect the timing of trades in that region.
 
 ### Precision
 Data precision is important because it determines the level of accuracy and reliability of the information being analyzed. Inaccurate or imprecise data can lead to flawed analysis and decision-making, which can have serious consequences for businesses, organizations, and individuals.
 
+You can read more about how OpenDataDSL handles data precision in my [previous blog](/blog/ensuring-data-precision). 
 
 ## Next steps
 Do you want to see this in action and see how you can benefit from OpenDataDSL?
