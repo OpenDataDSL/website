@@ -25,8 +25,7 @@ import {Demo} from '/src/components/Forms.js';
 Converting data is important for several reasons:
 
 * **Standardization**: Different countries and industries use different units of measure and currency. Converting units and currencies to a standard unit helps to facilitate communication and ensure consistency across different systems.
-* **Comparison**: 
-  Converting currency and units of data allows for easy comparison between different values and onverting the frequency of data can also facilitate comparison with other data that is reported at a different frequency.
+* **Comparison**: Converting currency and units of data allows for easy comparison between different values and onverting the frequency of data can also facilitate comparison with other data that is reported at a different frequency.
 * **Accuracy**: Converting currency and units of data ensures accuracy in calculations. If you are working with data that uses different units, it can be difficult to make accurate calculations without converting them to a common unit.
 * **Convenience**: Converting currency and units of data can also make it easier to work with data. For example, if you are working with a dataset that uses multiple units of measure, converting them to a common unit can make it easier to analyze the data and draw conclusions.
 * **Consistency**: When working with data from multiple sources, it's important to ensure that all data is standardized to the same timezone. This helps to ensure that analysis and comparisons are accurate and consistent. Converting the frequency of data can help ensure consistency in reporting and analysis. If different data sets are reported at different frequencies, it can be difficult to compare them or draw meaningful conclusions.
@@ -71,7 +70,19 @@ It's important to have data in a specific timezone in order to accurately analyz
 ### Precision
 Data precision is important because it determines the level of accuracy and reliability of the information being analyzed. Inaccurate or imprecise data can lead to flawed analysis and decision-making, which can have serious consequences for businesses, organizations, and individuals.
 
-You can read more about how OpenDataDSL handles data precision in my [previous blog](/blog/ensuring-data-precision). 
+:::info Accuracy built-in
+In OpenDataDSL, you can define the individual precision requirements for every timeseries, curve and matrix. 
+:::
+
+<div className="row">
+  <div className={styles.col30}>
+    <a href="/blog/ensuring-data-precision"><img src="/img/blog/data-precision.jpg"/></a>
+  </div>
+  <div className={styles.col70}>
+    <h2>Further information on data precision</h2>  
+    You can read more about how OpenDataDSL handles data precision in my <a href="/blog/ensuring-data-precision">previous blog</a>.
+  </div>
+</div>
 
 ## Next steps
 Do you want to see this in action and see how you can benefit from OpenDataDSL?

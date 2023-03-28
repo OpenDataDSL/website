@@ -21,3 +21,11 @@
         width: 100%;
     }
 }
+
+.col30 {
+    height: 40%;
+    width: 30%;
+}
+.col70 {
+    width: 70%;
+}
