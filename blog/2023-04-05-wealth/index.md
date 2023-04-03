@@ -131,13 +131,13 @@ If we just check the output for a last 5 years investment, the graphs look like:
 
 #### Gain if investing for 5 years starting 1927, 1972 or 2018
 
-<img className={styles.product_screenshot} src="/img/blog/wealth/5Y.PNG" />
+<img className={styles.product_screenshot} src="/img/blog/wealth/5Y.png" />
 
 
 
 #### Gain if investing for 50 years starting in 1927 or 1972
 
-<img className={styles.product_screenshot} src="/img/blog/wealth/50Y.PNG" />
+<img className={styles.product_screenshot} src="/img/blog/wealth/50Y.png" />
 
 
 #### Gain if investing forever
@@ -146,7 +146,7 @@ If we just check the output for a last 5 years investment, the graphs look like:
 *Our favorite holding period is forever.*
 -- <cite>[Warran Buffett] </cite> 
 
-<img className={styles.product_screenshot} src="/img/blog/wealth/Forever.PNG" />
+<img className={styles.product_screenshot} src="/img/blog/wealth/Forever.png" />
 
 
 
