@@ -34,8 +34,8 @@ To add logic to data, you can follow these steps:
 
 ### Business Requirement
 
-We demonstrate the cumulative gain from a particular investment over a given period. Assuming 1 EUR was invested at the beginning of a period, we
-compound the investment value, month by month, by 1 plus the return of the industry portfolio. We compare the investment of 1 EUR for different holding periods of 5 years or 50 years or even forever starting in 1927, 1972 and 2018.
+We demonstrate the cumulative gain from a particular investment over a given period. Assuming $1 was invested at the beginning of a period, we
+compound the investment value, month by month, by 1 plus the return of the industry portfolio. We compare the investment of $1 for different holding periods of 5 years or 50 years or even forever starting in 1927, 1972 and 2018.
 
 
 ### Data input source
@@ -57,7 +57,7 @@ On the [website](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_lib
 
 ODSL 4GL scripting language helps to add the data model logic in a smart way considering **calendars**, **frequencies**, **handling missing values**, any kind of **conversion** or other business challenges.
 
-The logic for the cumulative gain of putting 1 EUR into an investment is placed into a script to be available in the ODSL Web Portal:
+The logic for the cumulative gain of putting $1 into an investment is placed into a script to be available in the ODSL Web Portal:
 
 ```js
 /**
@@ -78,10 +78,10 @@ The function **cfunc** uses **3 input parameters**:
 
 * **series** is used for the return input series. 
 * **start** is the starting date for the calculation (we use 01-01-1927 or 01-01-1972 or 01-01-2018).
-* **sval** is the starting value for the investment (we use 1 EUR in our sample). 
+* **sval** is the starting value for the investment (we use $1 in our sample). 
 
 The output series utilises the calendar information of the input. In our case, the input series is a monthly series.
-Moreover we have the assumption, in the previous period of the overall investment period we have 1 EUR.
+Moreover we have the assumption, in the previous period of the overall investment period we have $1.
 
 
 :::tip Smart Time Series
@@ -95,7 +95,7 @@ The script is an optional saved custom script with user defined functions. These
 In the ODSL Web-Portal, the smart time series can be configured calling the script and configure the input and output data.
 The calculation can easily be tested by clicking on the Test Run button before saving the setup.
 
-Here in this sample we setup the smart time series for the industry portfolio OTHER and the cumulative gain is calculated starting 01-01-1927 investing 1 EUR.
+Here in this sample we setup the smart time series for the industry portfolio OTHER and the cumulative gain is calculated starting 01-01-1927 investing $1.
 
 
 
@@ -115,7 +115,7 @@ The base TimeSeries is mandatory and can be either a real TimeSeries or another 
 The outcome of our analysis can be visualized in the ODSL Web-Portal or in Excel downloading the information easily with the ODSL Excel-Addin and by utilizing the Excel functionalities.
 
 #### Cumulative gain since 1927
-Checking the progress of the cumulative gain of the investment of 1 EUR for each of the 5 industry portfolios over the investment period starting 01-01-1927.
+Checking the progress of the cumulative gain of the investment of $1 for each of the 5 industry portfolios over the investment period starting 01-01-1927.
 
 
 <img className={styles.product_screenshot} src="/img/blog/wealth/odsl_5P_wTS.PNG" />
