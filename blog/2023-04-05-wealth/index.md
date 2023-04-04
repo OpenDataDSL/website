@@ -1,6 +1,6 @@
 ---
 slug: Wealth
-title: Adding logic to data
+title: Creating Investment Insights
 authors: [avinzelberg]
 tags: [business case, smartdata, logic, odsl]
 image: /img/blog/DST/dst_spring.jpg
@@ -14,8 +14,8 @@ import {Demo} from '/src/components/Forms.js';
     <img src="/img/blog/wealth/data.jpg"/>
   </div>
   <div className="column">
-  <h2>Adding logic to time series data in ODSL?</h2>  
-    In this blog we show you how to easily add logic to your time series data in OpenDataDSL.
+  <h2>Create insights using SMART Timeseries</h2>  
+    In this blog we show you how to easily add logic to your time series data in OpenDataDSL to gain insights into which industries have made the greatest return on an investment.
   </div>
 </div>
 
@@ -62,11 +62,21 @@ The logic for the cumulative gain of putting $1 into an investment is placed int
 ```js
 /**
  * Cumulative product function
+ * @param series The raw returns timeseries
+ * @param start The start date of the calculation
+ * @param sval The starting value of the investment
  */
 function cfunc(series, start, sval)
+    // Get the previous index of the calendar as a starting point for our calc
     pindex = series.calendar.previous(start)
+    
+    // Create our timeseries using the starting value
     cfunc = TimeSeries(pindex, series.calendar, sval)
+    
+    // Create a temporary series using data from our start date
     s2 = series.from(start)
+    
+    // Iterate through the source values and perform the cumulative function
     for v in s2.values
         sval = sval * (1 + v.value/100)
         cfunc.addValue(sval)
@@ -81,7 +91,7 @@ The function **cfunc** uses **3 input parameters**:
 * **sval** is the starting value for the investment (we use $1 in our sample). 
 
 The output series utilises the calendar information of the input. In our case, the input series is a monthly series.
-Moreover we have the assumption, in the previous period of the overall investment period we have $1.
+We start the calculated cumulative timeseries from one period back with our initial investment of $1.
 
 
 :::tip Smart Time Series
@@ -101,6 +111,7 @@ Here in this sample we setup the smart time series for the industry portfolio OT
 
 <img className={styles.product_screenshot} src="/img/blog/wealth/odsl_smartSeries.PNG" />
 
+<hr/>
 
 :::tip Smart Time Series vs. Base Time Series
 Smart time series are an easy but powerful way of defining time series derivations.
@@ -128,29 +139,35 @@ If we just check the output for a last 5 years investment, the graphs look like:
 
 <img className={styles.product_screenshot} src="/img/blog/wealth/odsl_5P5Y_wTS.PNG" />
 
+### The final insights
+Here we create some charts in Excel showing the result of the cumulative investment in various industries over 5 years, 50 years and forever.
 
-#### Gain if investing for 5 years starting 1927, 1972 or 2018
+#### Gain - Investing for 5 years starting 1927, 1972 or 2018
 
 <img className={styles.product_screenshot} src="/img/blog/wealth/5Y.png" />
 
 
-
-#### Gain if investing for 50 years starting in 1927 or 1972
+#### Gain - Investing for 50 years starting in 1927 or 1972
 
 <img className={styles.product_screenshot} src="/img/blog/wealth/50Y.png" />
 
 
-#### Gain if investing forever
+#### Gain - Investing forever
 
 
-*Our favorite holding period is forever.*
--- <cite>[Warran Buffett] </cite> 
+> *Our favorite holding period is forever.*
+> -- <cite>[Warran Buffett] </cite> 
 
 <img className={styles.product_screenshot} src="/img/blog/wealth/Forever.png" />
 
+## Conclusion
+This blog shows the use of OpenDataDSL **SMART Timeseries** to create insights into your data.
 
+This is just one example of how OpenDataDSL can add value to your data.
 
-
+:::tip Weekly Newsletter
+Register for our weekly [Newsletter](http://eepurl.com/ih0lVr) to discover more about what OpenDataDSL can do for you.  
+:::
 
 ## Next steps
 Ready to see ODSL in action and give feedback? 
