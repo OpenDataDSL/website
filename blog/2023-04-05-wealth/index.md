@@ -3,7 +3,7 @@ slug: Wealth
 title: Creating Investment Insights
 authors: [avinzelberg]
 tags: [business case, smartdata, logic, odsl]
-image: /img/blog/DST/dst_spring.jpg
+image: /img/blog/wealth/data.jpg
 hide_table_of_contents: true
 ---
 import styles from './index.module.css';
