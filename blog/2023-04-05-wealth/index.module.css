@@ -17,7 +17,7 @@
 
 @media only screen and (max-width: 800px) {
     .product_screenshot {
-        visibility: hidden;
-        height: 0px;
+        visibility: visible;
+        width: 100%;
     }
 }
