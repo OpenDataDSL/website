@@ -47,10 +47,10 @@ This will create a JSON file with all the current variables saved
 Some services allow you to get a list of variables using the find command, here is an example using the object service:
 
 ```js
-fx = find ${object:public/"#ForeignExchange"} where currency="USD"
+fx = find ${object} where currency="USD"
 ```
 
-This gets a list of public objects of type #ForeignExchange that have a currency of USD
+This gets a list of objects that have a currency of USD
 
 
 ### Deleting
@@ -85,6 +85,8 @@ Active Variables can be broken into 3 specific flavours which allow you to:
 * Extractor
 * Object
 * Process
+* Report Configuration
+* Report
 * Scalar
 * Script
 * Secret
