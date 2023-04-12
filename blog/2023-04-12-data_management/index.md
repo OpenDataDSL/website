@@ -1,8 +1,8 @@
 ---
-slug: data_management
-title: Data Management
+slug: data_modelling_quality
+title: Data Modelling and Quality
 authors: [chartley]
-tags: [mongodb, management, data, quality, odsl]
+tags: [mongodb, modelling, data, quality, odsl]
 image: /img/blog/data-modelling.jpg
 hide_table_of_contents: true
 ---
@@ -104,5 +104,4 @@ Contact us at [info@opendatadsl.com](mailto:info@opendatadsl.com)
 
 ## Further Reading
 * [What is OpenDataDSL?](https://doc.opendatadsl.com/docs/product/intro)
-* [Excel Add-in](https://doc.opendatadsl.com/docs/user/excel)
-* [SMART Curves](https://www.opendatadsl.com/blog/smartcurves)
+* [Data Modelling Topic](https://doc.opendatadsl.com/docs/odsl/dm/modelling)
