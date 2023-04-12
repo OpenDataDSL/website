@@ -30,7 +30,7 @@ Data management is the process of collecting, storing, organizing, maintaining, 
 <img src="/img/blog/data_management.png" />
 
 ## What is Data Modelling?
-Data modelling is the process of creating a conceptual or logical representation of data structures and relationships between them. It is a technique used to define and organize data requirements needed to support business processes or applications. Data modeling involves analyzing and understanding the data requirements of an organization, identifying the entities, attributes, relationships, and constraints involved, and creating a visual representation of this information using a data model.
+Data modelling is the process of creating a conceptual or logical representation of data structures and relationships between them. It is a technique used to define and organize data requirements needed to support business processes or applications. Data modelling involves analyzing and understanding the data requirements of an organization, identifying the entities, attributes, relationships, and constraints involved, and creating a visual representation of this information using a data model.
 
 :::info Flexible Data Model
 Data modelling is an important aspect of data management and, like any business process, needs to be able to easily adapt to the changing needs and requirements of the business.
@@ -55,7 +55,7 @@ Default values allow you to fill in any missing data with a static value, or a v
 
 ##### Examples of default values
 
-Example showing the a static default value and a constraint that ensures that if a value is entered, it matches a value from the list.
+Example showing a static default value and a constraint that ensures that if a value is entered, it matches a value from the list.
 ```js
 checker = type
     hl as String() not null default "high"
