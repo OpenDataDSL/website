@@ -74,7 +74,7 @@ When analysing the Bravais-Pearson correlation coefficients in an Excel overview
 * There is a fairly low dependency between the Portugal sales volumes and the Iberian volumes (correlation coefficient between 0,35 and 0,43).
 * There is a high dependency between the Iberian volumes (correlation coefficient higher than 0,9).
 
-<img className={styles.product_screenshot} src="/img/blog/correlation/correlation_Excel.png" />
+<img className={styles.product_screenshot} src="/img/blog/correlation/correlation_Excel.PNG" />
 
 
 
@@ -89,7 +89,7 @@ Sure, this can easily be proven or rejected using Excel. But an ODSL smart time 
 
 Setting up such a smart time series and visualizing the spread (red line in the following graph) shows, the **prices are not always identical**.
 
-<img className={styles.product_screenshot} src="/img/blog/correlation/PT_and_spread.png" />
+<img className={styles.product_screenshot} src="/img/blog/correlation/PT_and_spread.PNG" />
 
 
 ## Conclusion
