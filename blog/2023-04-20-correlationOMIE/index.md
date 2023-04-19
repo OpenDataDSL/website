@@ -15,7 +15,7 @@ import {Demo} from '/src/components/Forms.js';
   </div>
   <div className="column">
   <h2>Data insights</h2>  
-    In this blog, we show you how to use OpenDataDSL matrices and Excel to get insights to your data.
+    In this blog, we show you how to use OpenDataDSL matrices and the ODSL Excel Add-in to gain valuable insights into your data.
   </div>
 </div>
 
@@ -40,14 +40,17 @@ Looking at the data - as an example looking at the first 24 hours of the year 20
 
 <img className={styles.product_screenshot} src="/img/blog/correlation/data_day1.PNG" />
 
-Info: We use (.) as a 1000 separator and (,) to separate the 2 digits.
+:::note Locale dependent
+NOTE: I use a German locale which is (.) as a 1000 separator and (,) as a decimal separator.
+:::
 
 The graphical visualization also helps to get a first impression of the data:
 
 <img className={styles.product_screenshot} src="/img/blog/correlation/graph_day1.png" />
 
 ### Our Assumptions
-Looking at this tiny range of data above, we came up with a few assumptions, which do not necessarily turned out to be true checking the data for the entire year 2022.
+Looking at this tiny range of data above, we came up with a few assumptions, which do not necessarily turn out to be true for the entire year of 2022.
+
 Our first assumptions:
 * There is a strong dependency between the prices and volumes.
 * The Iberian sales volume is the sum of the sales volumes from Spain and Portugal.
@@ -60,8 +63,9 @@ which we check in detail in the following sub-sections.
 
 A detailed correlation analysis helps to understand the data dependencies. 
 
-The correlation matrix can be calculated using an ODSL script in 4GL script language.
-This setup supports calculating the matrix on a regular basis, e.g.  monthly, quarterly, yearly.
+The correlation matrix can be calculated using an ODSL script (our 4GL script simple programming language).
+This setup supports calculating the matrix using different time horizons, e.g.  month, quarter, year.
+
 <img className={styles.product_screenshot} src="/img/blog/correlation/correlation.PNG" />
 
 When analysing the Bravais-Pearson correlation coefficients in an Excel overview using the ODSL Excel-Addin to download the data, we find out:
@@ -74,7 +78,7 @@ When analysing the Bravais-Pearson correlation coefficients in an Excel overview
 * There is a fairly low dependency between the Portugal sales volumes and the Iberian volumes (correlation coefficient between 0,35 and 0,43).
 * There is a high dependency between the Iberian volumes (correlation coefficient higher than 0,9).
 
-<img className={styles.product_screenshot} src="/img/blog/correlation/correlation_Excel.PNG" />
+<img className={styles.product_screenshot} src="/img/blog/correlation/correlation_excel.PNG" />
 
 
 
@@ -85,11 +89,11 @@ And the same works out for the purchase volumes.
 #### Are the prices for Spain and Portugal really identical?
 
 Calculating a spread between the prices for Spain and Portugal should always be 0 in this case.
-Sure, this can easily be proven or rejected using Excel. But an ODSL smart time series can be used as a basis for notifications in case the user wants to be informed when the spread between the prices for Spain and Portugal is not 0.
+Sure, this can easily be proven or rejected using Excel. But an **ODSL smart time series** can be used as a basis for notifications in case the user wants to be informed when the spread between the prices for Spain and Portugal is not 0.
 
-Setting up such a smart time series and visualizing the spread (red line in the following graph) shows, the **prices are not always identical**.
+Setting up the smart time series and visualizing the spread (red line in the following graph) shows, the **prices are not always identical**.
 
-<img className={styles.product_screenshot} src="/img/blog/correlation/PT_and_spread.PNG" />
+<img className={styles.product_screenshot} src="/img/blog/correlation/PT_and_Spread.PNG" />
 
 
 ## Conclusion
