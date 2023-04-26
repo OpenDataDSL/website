@@ -115,15 +115,15 @@ Notice how the 5 values we loaded align to the business (weekday) calendar such 
 :::
 
 #### Adding more values
-To add a new value for the 6th November 2022, we simply need to send the data for that date and OpenDataDSL **merges** that data into the timeseries, e.g.
+To add a new value for the 8th November 2022, we simply need to send the data for that date and OpenDataDSL **merges** that data into the timeseries, e.g.
 
 <Tabs groupId="tool">
 <TabItem value="odsl" label="OpenDataDSL" default>
 
 ```js
 // Add 1 value for the 6th November
-ts1 = TimeSeries("2022-11-06", "BUSINESS", 13)
-ts2 = TimeSeries("2022-11-06", "BUSINESS", 12.92)
+ts1 = TimeSeries("2022-11-08", "BUSINESS", 13)
+ts2 = TimeSeries("2022-11-08", "BUSINESS", 12.92)
 
 // Add to an object
 MYOBJ = Object()
@@ -147,13 +147,13 @@ Authorization: Bearer {{token}}
         "_id": "TS1",
         "_type":"VarTimeSeries",
         "calendar": "BUSINESS",
-        "start": "2022-11-01",
+        "start": "2022-11-08",
         "data":[ 13 ]
   },"TS2": {
         "_id": "TS2",
         "_type":"VarTimeSeries",
         "calendar": "BUSINESS",
-        "start": "2022-11-01",
+        "start": "2022-11-08",
         "data":[ 12.92 ]
   }
 }
