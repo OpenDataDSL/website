@@ -121,7 +121,7 @@ To add a new value for the 8th November 2022, we simply need to send the data fo
 <TabItem value="odsl" label="OpenDataDSL" default>
 
 ```js
-// Add 1 value for the 6th November
+// Add 1 value for the 8th November
 ts1 = TimeSeries("2022-11-08", "BUSINESS", 13)
 ts2 = TimeSeries("2022-11-08", "BUSINESS", 12.92)
 
