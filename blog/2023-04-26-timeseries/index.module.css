@@ -1,0 +1,31 @@
+@media only screen and (min-width: 800px) {
+    .product_screenshot {
+        visibility: visible;
+        cursor: zoom-in;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        transition-delay: 0.1s;
+    }
+    .product_screenshot:hover {
+        position: sticky;
+        max-width: 160%;
+        width: 160%;
+        left: -50%;
+        top: -50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .product_screenshot {
+        visibility: visible;
+        width: 100%;
+    }
+}
+
+.col30 {
+    height: 40%;
+    width: 30%;
+}
+.col70 {
+    width: 70%;
+}
