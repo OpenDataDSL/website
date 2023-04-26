@@ -58,7 +58,8 @@ We add an array of values which represent the values for the business days from 
 <TabItem value="odsl" label="OpenDataDSL" default>
 
 ```js
-// Create 2 regular timeseries starting on the 1st of November using a business (Mon-Fri) calendar
+// Create 2 regular timeseries starting on the 1st of November 
+// using a business (Mon-Fri) calendar
 ts1 = TimeSeries("2022-11-01", "BUSINESS", [12.5,12.6,12.7,12.8,12.9])
 ts2 = TimeSeries("2022-11-01", "BUSINESS", [12.3,12.45,12.62,12.72,12.81])
 
@@ -102,6 +103,65 @@ Authorization: Bearer {{token}}
 :::info Excel Addin
 NOTE: You can easily create the above timeseries using our Excel Add-in - [Working with timeseries](https://doc.opendatadsl.com/docs/user/excel/timeseries)
 :::
+
+#### Visualising the timeseries
+
+Below you can see a chart from the portal showing the 2 timeseries we have created
+
+<img className={styles.product_screenshot} src="/img/blog/timeseries/ts1_ts2.png" />
+
+:::note
+Notice how the 5 values we loaded align to the business (weekday) calendar such that the 5th value is stored against Monday 7th November 2022.
+:::
+
+#### Adding more values
+To add a new value for the 6th November 2022, we simply need to send the data for that date and OpenDataDSL **merges** that data into the timeseries, e.g.
+
+<Tabs groupId="tool">
+<TabItem value="odsl" label="OpenDataDSL" default>
+
+```js
+// Add 1 value for the 6th November
+ts1 = TimeSeries("2022-11-06", "BUSINESS", 13)
+ts2 = TimeSeries("2022-11-06", "BUSINESS", 12.92)
+
+// Add to an object
+MYOBJ = Object()
+MYOBJ.TS1 = ts1
+MYOBJ.TS2 = ts2
+
+// Save the object
+save MYOBJ
+```
+
+</TabItem>
+<TabItem value="rest" label="REST API">
+
+```json
+POST https://api.opendatadsl.com/api/object/v1
+Authorization: Bearer {{token}}
+
+{
+  "_id": "MYOBJ",
+  "TS1": {
+        "_id": "TS1",
+        "_type":"VarTimeSeries",
+        "calendar": "BUSINESS",
+        "start": "2022-11-01",
+        "data":[ 13 ]
+  },"TS2": {
+        "_id": "TS2",
+        "_type":"VarTimeSeries",
+        "calendar": "BUSINESS",
+        "start": "2022-11-01",
+        "data":[ 12.92 ]
+  }
+}
+```
+
+</TabItem>
+</Tabs>
+
 
 ### Smart timeseries
 A smart timeseries is a combination of one or more regular timeseries and an expression which is evaluated on the fly.
@@ -151,6 +211,12 @@ Authorization: Bearer {{token}}
 ```
 </TabItem>
 </Tabs>
+
+#### Visualising the spread smart timeseries
+
+Below you can see the generated smart timeseries in the web portal
+
+<img className={styles.product_screenshot} src="/img/blog/timeseries/spread.png" />
 
 ### Event timeseries
 An event timeseries is a timeseries that is constructed using a value from a set of documents called events.
