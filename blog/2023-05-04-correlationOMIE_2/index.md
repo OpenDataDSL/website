@@ -10,10 +10,10 @@ import styles from './index.module.css';
 import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
-  <div className="column">
+  <div className="col-md">
     <img src="/img/blog/correl/analysis-data.jpg"/>
   </div>
-  <div className="column">
+  <div className="col-md">
   <h2>Serial Correlation Analysis</h2>  
     In this blog, we show you how to convert OpenDataDSL timeseries into matrices and then perform a serial correlation to show how intra-timeseries correlations can help predict future price movements.
   </div>
