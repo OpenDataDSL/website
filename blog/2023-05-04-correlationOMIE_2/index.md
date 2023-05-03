@@ -3,7 +3,7 @@ slug: correlation1
 title: Technical Data Analysis
 authors: [avinzelberg]
 tags: [business case, smartdata, matrix, odsl]
-image: /img/blog/mongodb.svg
+image: /img/blog/correl/analysis-data.jpg
 hide_table_of_contents: true
 ---
 import styles from './index.module.css';
