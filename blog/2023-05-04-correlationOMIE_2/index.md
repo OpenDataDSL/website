@@ -1,6 +1,6 @@
 ---
 slug: correlation1
-title: Data Analysis
+title: Technical Data Analysis
 authors: [avinzelberg]
 tags: [business case, smartdata, matrix, odsl]
 image: /img/blog/mongodb.svg
@@ -14,28 +14,29 @@ import {Demo} from '/src/components/Forms.js';
     <img src="/img/blog/correl/analysis-data.jpg"/>
   </div>
   <div className="column">
-  <h2>Data insights</h2>  
-    In this blog, we show you how to use OpenDataDSL matrices and the ODSL Excel Add-in to gain valuable insights into your data. Here we show you the different facetts of analysing an hourly time series.
+  <h2>Serial Correlation Analysis</h2>  
+    In this blog, we show you how to convert OpenDataDSL timeseries into matrices and then perform a serial correlation to show how intra-timeseries correlations can help predict future price movements.
   </div>
 </div>
 
 <!--truncate-->
 
-## Data analysis
+## What is Technical Data Analysis?
 
-Data analysis refers to the process of systematically examining and interpreting data using various analytical and statistical techniques to derive insights and draw conclusions. Some common techniques used in data analysis include regression analysis, hypothesis testing, machine learning, data visualization, and data mining. Data analysis can involve several steps, including data collection, cleaning, transformation, modeling, and visualization. The goal is to extract meaningful information from raw data, identify patterns and trends, and use these insights to support the business.
+Technical Data analysis refers to the process of systematically examining and interpreting data using various analytical and statistical techniques to derive insights and draw conclusions. Some common techniques used in data analysis include regression analysis, hypothesis testing, machine learning, data visualization, and data mining. Data analysis can involve several steps, including data collection, cleaning, transformation, modeling, and visualization. The goal is to extract meaningful information from raw data, identify patterns and trends, and use these insights to support the business.
 
 ## Hourly Electricity Price Data
 
 As an example we use Iberian Electricity data published by [OMIE](https://www.omie.es/en/spot-hoy). Specifically we use electricity prices for Spain for the year 2022 on an hourly granularity.
 
-Visualizing the timeseries of the hourly price time series using ODSL-WebPortal
+### Timeseries visualisation
+Visualizing the timeseries of the hourly prices using the ODSL WebPortal
 
 <img className={styles.product_screenshot} src="/img/blog/correl/omie_es_ts.PNG" />
 
+This visualization of time series data is a common way to analyse trends, seasonality, and other patterns that occur over time.
 
-so we look at the prices as a collection of observations that are recorded over time, here an hourly granularity. This visualization of time series data is a common way to analyse trends, seasonality, and other patterns that occur over time.
-
+### Matrix visualisation
 Another way to get insights to the data is to convert this time series into a matrix, where columns represent the hours of the day 1-24 and rows represent the days of the year 1-365. This transformed view supports the task to analyse the same data input but per hour of the day over time. ODSL supports it with a function **toMatrix()**
 
 ```js
@@ -55,13 +56,22 @@ You can visualize the data view in ODSL Web-Portal:
 
 <img className={styles.product_screenshot} src="/img/blog/correl/omie_es_mat.PNG" />
 
-or using our ODSL Excel-Addin (here a graphs snipped for the days 1-31 of year 2022):
+### Excel Add-in
+You can use our ODSL Excel-Addin to easily view matrix data (here a graphs snipped for the days 1-31 of year 2022):
 
 <img className={styles.product_screenshot} src="/img/blog/correl/omie_es_mat_excel.PNG" />
 
 ### Correlation
 
-Referring to my latest blog [Data - Facts and Figures](https://www.opendatadsl.com/blog/correlation), we know that correlation analysis helps to identify dependencies in the data set. ODSL supports different input options calculating the Bravais-Pearson correlation coefficients. In the blog [Data - Facts and Figures](https://www.opendatadsl.com/blog/correlation) two time series are used. In this blog here, we use a matrix as an input,  where the correlation of each of the columns is calculated with all of the columns of the matrix. The result is again a matrix. Moreover the function supports a shift parameter to shrink the size of the inputs. 
+Referring to my latest blog [Data - Facts and Figures](https://www.opendatadsl.com/blog/correlation), we know that correlation analysis helps to identify dependencies in the data set. ODSL supports different input options calculating the Bravais-Pearson correlation coefficients. In the blog [Data - Facts and Figures](https://www.opendatadsl.com/blog/correlation) two time series are used. 
+
+In this blog, we use a matrix as an input,  where the correlation of each of the columns is calculated with all the columns of the matrix. The result is again a matrix. Moreover, the function supports a shift parameter to perform a serial correlation.
+
+### Serial correlation
+[Investopedia](https://www.investopedia.com/terms/s/serial-correlation.asp) describes serial correlation as:
+
+> Serial correlation occurs in a time series when a variable and a lagged version of itself (for instance a variable at times T and at T-1) are observed to be correlated with one another over periods of time. Repeating patterns often show serial correlation when the level of a variable affects its future level. In finance, this correlation is used by technical analysts to determine how well the past price of a security predicts the future price.
+
 
 ```js
 // set the precision to 4 for rounding
