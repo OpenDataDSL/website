@@ -53,7 +53,7 @@ In the newsletter, we show:
 * A forward curve which is calculated using our *secret algorithm*
 * Some commentary about the chart 
   
-> In this example, I used ChartGPT to generate some text for the newsletter
+> In this example, I used ChatGPT to generate some text for the newsletter
 
 Here is what the finished newsletter looks like in the clients inbox:
 
@@ -77,7 +77,7 @@ The newsletter will display a chart of a forward curve, here are some articles o
 
 
 :::info SMART curves use event-driven data flows
-Once the input data for our SMART curve is updated, the SMART curve will be build automatically using the **Build a forward curve** event. 
+Once the input data for our SMART curve is updated, the SMART curve will be built automatically using the **Build a forward curve** action. 
 :::
 
 #### Create the report that will define our newsletter
@@ -90,9 +90,9 @@ newsletter.expression = ""
 save newsletter
 ```
 
-The HTML email is created from a mustache template saved to OpenDataDSL as **newsletter.mustache**
+The HTML email is created from a mustache template saved to OpenDataDSL as ```newsletter.mustache```
 
-> Mustache is a logic-less template tool which we have incorporated into OpenDataDSL for embedding data into HTML files.
+> **Mustache** is a logic-less template tool which we have incorporated into OpenDataDSL for embedding data into HTML files.
 > 
 > [Mustache manual](http://mustache.github.io/mustache.5.html)
 
@@ -127,7 +127,7 @@ The mustache code to add a chart is shown below:
 ```
 
 ##### The commentary in the newsletter
-The commentary for the newletter is submitted to OpenDataDSL as a HTML snippet with a filename of the format *newletter-yyyy-MM-dd.html*
+The commentary for the newletter is submitted to OpenDataDSL as a HTML snippet with a filename of the format *newsletter-yyyy-MM-dd.html*
 
 So, in our newletter mustache template, we include it using the following code:
 
@@ -144,11 +144,15 @@ Note how you can use OpenDataDSL expressions with mustache includes
 We need to add an email flow to our report once it has been created, to do this in ODSL code:
 
 ```js
+// Create the subscription
 sub = Subscription()
 sub.name = "NEWSLETTER"
 sub.enabled = true
-sub.environment = "production"
+
+// Add the email target with the recipients and subject
 sub.addEmailTarget("recipients", "Market Analysis Newsletter", null)
+
+// Add the report as the trigger to send the email
 sub.addItem(ref("report", "newsletter"), "newsletter")
 save sub
 ```
@@ -199,7 +203,7 @@ save ${report:"newsletter", "_range=between(2023-05-05,2023-05-05)"}
 After the report is saved, it will automatically email our newsletter to the configured recipients. 
 
 ## Conclusion
-If you followed the example, you can see that with a small amount of initial configuration using event data flows, we can reduce the amount of time we spend on a daily basis.
+You can see from this example that with a small amount of initial configuration using event data flows, we can reduce the amount of time we spend on a daily basis.
 
 Event-driven data-flows make this possible by performing your custom actions automatically after an event happens thereby reducing time and manual errors. 
 
