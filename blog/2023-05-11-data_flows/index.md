@@ -118,7 +118,7 @@ In order to add the forward curve chart as a rendered image in our report, we ar
 
 > Quickchart is a simple, open API to render charts that can be added to emails and reports
 
-We have added a mustache function which allows you to generate an chart from a curve or timeseries id as an image tag to be inserted into a web page or, in our case, an email.
+We have added a mustache function which allows you to generate a chart from a curve or timeseries id as an image tag to be inserted into a web page or, in our case, an email.
 
 The mustache code to add a chart is shown below:
 
