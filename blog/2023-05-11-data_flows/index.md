@@ -1,5 +1,5 @@
 ---
-slug: data_flows
+slug: data_flows_part1
 title: Modelling Data Flows - Part 1
 authors: [chartley]
 tags: [data, workflow, odsl]
