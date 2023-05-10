@@ -14,7 +14,7 @@ import {Demo} from '/src/components/Forms.js';
     <img src="/img/blog/data_flow/data_flow.jpg"/>
   </div>
   <div className="col-md">
-  <h2>Real-world business cases</h2>  
+  <h2>Event-driven use case</h2>  
     <p>In this blog, we show you how you can model a real-world business use case using event-driven data flows in OpenDataDSL.</p>
     <p>Part 1 - Building a forward curve and sending an email newsletter</p>
   </div>
@@ -46,7 +46,12 @@ In OpenDataDSL, as of today, you can perform one of the following event-driven a
   > The possibilities are endless, maybe you want to perform some derivations based on the updated data
 
 ## Our business use case
-For our use case, we are taking on the role of a market analyst who has various clients that we send a daily analysis email newsletter to based on a specific market.
+
+### Objective
+The objective of this business case is to **reduce or remove** the time we spend on daily tasks.
+
+### Newsletter
+For our use case, we are taking on the role of a market analyst who sends a daily email newsletter to his subscribers.
 
 In the newsletter, we show:
 
@@ -66,6 +71,11 @@ Our use case is broken into 2 sections:
   > This is the initial actions needed to create the framework and data flows
 * **Daily work**
   > The work that is required to publish our newsletter on a daily basis
+
+
+:::tip Achieving the Objective
+In order to achieve our objective, we need to perform some one-time configuration which will **drastically reduce** the amount of time we spend on daily tasks.
+:::
 
 ### One-time configuration
 The following actions are done once in order to configure the parts and flows required to produce our daily newsletter.
@@ -129,14 +139,14 @@ The mustache code to add a chart is shown below:
 ##### The commentary in the newsletter
 The commentary for the newletter is submitted to OpenDataDSL as a HTML snippet with a filename of the format *newsletter-yyyy-MM-dd.html*
 
-So, in our newletter mustache template, we include it using the following code:
+So, in our newletter mustache template, we include it using a mustache include token:
 
 ```html
 {{> "newsletter-" + #START }}
 ```
 
 :::info
-Note how you can use OpenDataDSL expressions with mustache includes
+Note how you can use OpenDataDSL expressions with mustache include tokens
 :::
 
 #### Add the data flows
@@ -157,7 +167,7 @@ sub.addItem(ref("report", "newsletter"), "newsletter")
 save sub
 ```
 :::note
-The word recipients needs to be replaced with the email addresses of the users you want to send the test email to
+The word **recipients** needs to be replaced with the email addresses of the users you want to send the test email to
 :::
 
 ### Daily work
@@ -174,7 +184,7 @@ I did a small amount of HTML edits (adding ```<p>``` tags around each paragragh)
 
 <img className={styles.product_screenshot} src="/img/blog/data_flow/upload-script.png" />
 
-The name of the file must match the include in our template, so for the 5th May 2023, it needs to be ```newsletter-2023-05-05.html```
+The name of the file must match the name syntax we defined in our template, so for the 5th May 2023, it needs to be ```newsletter-2023-05-05.html```
 
 #### Proof-read the newsletter
 We can manually send a sample of the newletter to the people we want to proof-read the newsletter before it gets sent out to our clients by running the following bit of ODSL code:
@@ -185,7 +195,7 @@ sendmail report subject "Newsletter" to "recipients"
 ```
 
 :::note
-The word recipients needs to be replaced with the email addresses of the users you want to send the test email to
+The word **recipients** needs to be replaced with the email addresses of the users you want to send the test email to. Multiple email addresses can be separated with comma, space or semi-colon.
 :::
 
 #### Run the newsletter report to trigger the distribution
