@@ -48,7 +48,7 @@ Visualizing the timeseries of the day-head hourly prices for the time period **0
 
 <img className={styles.product_screenshot} src="/img/blog/DA/DAPrices.png" />
 
-The day-ahead prices are quite close for the chosen time horizon. Calculating the exact correlation using the appropriate ODSL function gives a value of unsurprisingly 99%.
+The day-ahead prices are quite close for the chosen time horizon. Calculating the exact correlations using the appropriate ODSL function gives back values of unsurprisingly 97-99%.
 
 The day-ahead hourly volumes do not show such a common pattern:
 
