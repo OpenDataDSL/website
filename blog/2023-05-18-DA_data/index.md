@@ -41,7 +41,7 @@ For electricity's day-ahead hourly time series we collect price and volume data 
   > OMI-Polo Spanish SA Power Day Ahead
 * **BSP** - Slovenia
   > BSP SouthPool Energy Exchange Slovenia Power
-* **HUPX** = Hungary
+* **HUPX** - Hungary
   > Hungarian Power Exchange Power Day Ahead Market Price
 * **IPEX** - Italy
   > Italian Power Exchange (GME)
@@ -50,7 +50,7 @@ For electricity's day-ahead hourly time series we collect price and volume data 
 * **PJM** - U.S.A. PJM Region
   > Pennsylvania-New Jersey-Maryland Interconnection
 
-Let's pick three from the list (OTE for Czech, BSP for Slovenia, HUPX for Hungary) to dive into some details.
+Let's pick three from the list (OTE, BSP, HUPX) to dive into some details.
 
 ### Visualisation as timeseries
 Visualizing the timeseries of the day-head hourly prices for the time period **06-13 May 2023** using the ODSL Excel-Addin
@@ -68,13 +68,13 @@ The day-ahead hourly volumes do not show such a common pattern:
 
 Visualizing the day-ahead prices as a red line for OTE (Czech) and as a blue line for BSP (Slovenia) as hourly forward curve tenors for the **15 May 2023** using the ODSL Web-Portal
 
-<img className={styles.product_screenshot} src="/img/blog/DA/Curve.png" />
+<img className={styles.product_screenshot} src="/img/blog/DA/Curve.PNG" />
 
 Whereas the prices match perfectly for the first hours of the day, they differ in the second half of the day.
 
 The day-ahead hourly volumes the forward curve looks like:
 
-<img className={styles.product_screenshot} src="/img/blog/DA/Volume.png" />
+<img className={styles.product_screenshot} src="/img/blog/DA/Volume.PNG" />
 
 
 
