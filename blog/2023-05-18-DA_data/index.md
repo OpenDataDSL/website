@@ -31,15 +31,24 @@ Our data team is constantly writing data loaders to add new data sources to our 
 For electricity's day-ahead hourly time series we collect price and volume data from all over the world. Here is a list of some of the data vendors we load the data for:
 
 
-*	OTE - Czech Electricity and Gas Market Operator
-*	IBEX - Bulgarian Energy Exchange Power
-*	HENEX - Hellenic Energy Exchange Greece Power
-*	OMIP - OMI-Polo Spanish SA Power Day Ahead
-*	BSP - BSP SouthPool Energy Exchange Slovenia Power
-*	HUPX - Hungarian Power Exchange Power Day Ahead Market Price
-*	IPEX - Italian Power Exchange (GME)
-*	IEX - India Energy Exchange
-*	PJM - Pennsylvania-New Jersey-Maryland Interconnection
+* **OTE** - Czechia
+  > Czech Electricity and Gas Market Operator
+* **IBEX** - Bulgaria
+  > Bulgarian Energy Exchange Power
+* **HENEX** - Greece
+  > Hellenic Energy Exchange Greece Power
+* **OMIP** - Spain
+  > OMI-Polo Spanish SA Power Day Ahead
+* **BSP** - Slovenia
+  > BSP SouthPool Energy Exchange Slovenia Power
+* **HUPX** = Hungary
+  > Hungarian Power Exchange Power Day Ahead Market Price
+* **IPEX** - Italy
+  > Italian Power Exchange (GME)
+* **IEX** - India
+  > India Energy Exchange
+* **PJM** - U.S.A. PJM Region
+  > Pennsylvania-New Jersey-Maryland Interconnection
 
 Let's pick three from the list (OTE for Czech, BSP for Slovenia, HUPX for Hungary) to dive into some details.
 
