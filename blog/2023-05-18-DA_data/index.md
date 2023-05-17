@@ -3,7 +3,7 @@ slug: da_data
 title: Day-ahead price sources
 authors: [avinzelberg]
 tags: [business case, smartdata,  odsl]
-image: /img/blog/correl/da_data.jpg
+image: /img/blog/DA/da_data.jpg
 hide_table_of_contents: true
 ---
 import styles from './index.module.css';
@@ -14,8 +14,8 @@ import {Demo} from '/src/components/Forms.js';
     <img src="/img/blog/DA/da_data.jpg"/>
   </div>
   <div className="col-md">
-  <h2>Data sources</h2>  
-    In this blog, we present some of our data sources for power day-ahead prices and volumes.
+  <h3>Use visualisation to spot patterns</h3>  
+    In this blog, we present some of our data sources for power day-ahead prices and volumes in our visualisation tools.
   </div>
 </div>
 
@@ -31,23 +31,25 @@ Our data team is constantly writing data loaders to add new data sources to our 
 For electricity's day-ahead hourly time series we collect price and volume data from all over the world. Here is a list of some of the data vendors we load the data for:
 
 
-* **OTE** - Czechia
+* [**OTE** - Czechia](https://doc.opendatadsl.com/docs/company/OTE)
   > Czech Electricity and Gas Market Operator
-* **IBEX** - Bulgaria
+* [**IBEX** - Bulgaria](https://doc.opendatadsl.com/docs/company/IBEX)
   > Bulgarian Energy Exchange Power
-* **HENEX** - Greece
+* [**HENEX** - Greece](https://doc.opendatadsl.com/docs/company/HENEX)
   > Hellenic Energy Exchange Greece Power
-* **OMIP** - Spain
+* [**OMIP** - Spain](https://doc.opendatadsl.com/docs/company/OMIP)
   > OMI-Polo Spanish SA Power Day Ahead
-* **BSP** - Slovenia
+* [**TGE** - Poland](https://doc.opendatadsl.com/docs/company/TGE)
+  > Poland Commodity Exchange
+* [**BSP** - Slovenia](https://doc.opendatadsl.com/docs/data/catalog)
   > BSP SouthPool Energy Exchange Slovenia Power
-* **HUPX** - Hungary
+* [**HUPX** - Hungary](https://doc.opendatadsl.com/docs/company/HUPX)
   > Hungarian Power Exchange Power Day Ahead Market Price
-* **IPEX** - Italy
+* [**IPEX** - Italy](https://doc.opendatadsl.com/docs/company/GME)
   > Italian Power Exchange (GME)
-* **IEX** - India
+* [**IEX** - India](https://doc.opendatadsl.com/docs/company/IEX)
   > India Energy Exchange
-* **PJM** - U.S.A. PJM Region
+* [**PJM** - U.S.A. PJM Region](https://doc.opendatadsl.com/docs/company/PJM)
   > Pennsylvania-New Jersey-Maryland Interconnection
 
 Let's pick three from the list (OTE, BSP, HUPX) to dive into some details.
