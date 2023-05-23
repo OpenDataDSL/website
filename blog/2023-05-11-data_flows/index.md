@@ -16,7 +16,7 @@ import {Demo} from '/src/components/Forms.js';
   <div className="col-md">
   <h2>Event-driven use case</h2>  
     <p>In this blog, we show you how you can model a real-world business use case using event-driven data flows in OpenDataDSL.</p>
-    <p>Part 1 - Building a forward curve and sending an email newsletter</p>
+    <p><b>Part 1</b> - Building a forward curve and sending an email newsletter</p>
   </div>
 </div>
 
