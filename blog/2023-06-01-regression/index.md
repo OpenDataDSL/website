@@ -1,6 +1,6 @@
 ---
 slug: regression_linear
-title: Simple linear regression
+title: Simple Linear Regression
 authors: [avinzelberg]
 tags: [business case, smartdata,  odsl]
 image: /img/blog/regression_linear/regression.jpg
@@ -21,7 +21,7 @@ import {Demo} from '/src/components/Forms.js';
 
 <!--truncate-->
 
-## Simple linear regression
+## Simple Linear Regression
 
 Simple linear regression is a statistical method used to model the relationship between two variables: a dependent variable (also called the response variable or outcome variable) and an independent variable (also called the predictor variable or explanatory variable). 
 
@@ -44,7 +44,7 @@ The goal of simple linear regression is to estimate the values of the intercept 
 
 ### Use case: Hedging
 
-The simple linera regression approach can be used for hedging strategies, where the optimal hedge ratio is the slope coefficient of the regression line, which can be calculated as slope = correl(x,y) * stddev(y)/stddev(x). How efficient the hedge is can be determined by calculating the coefficient of determination, RSquare.
+The simple linear regression approach can be used for hedging strategies, where the optimal hedge ratio is the slope coefficient of the regression line, which can be calculated as slope = correl(x,y) * stddev(y)/stddev(x). How efficient the hedge is can be determined by calculating the coefficient of determination, RSquare.
 
 ## Data
 
@@ -172,7 +172,15 @@ The lower correlation and also the visualization between the settlement price da
 
 ## Conclusion
 
-Simple linear regression is a powerful statistical method that can be used for hedging approaches. ODSL supports calculation the appropriate parameters for it.
+Simple linear regression is a powerful statistical method that can be used for hedging approaches. ODSL supports calculating the appropriate parameters like:
+
+```js
+  "R"
+  "RSquare"
+  "intercept"
+  "slope"
+
+```
 
 ## Next steps
 Do you want to see this in action and see how you can benefit from OpenDataDSL?
