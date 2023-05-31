@@ -27,7 +27,7 @@ Simple linear regression is a statistical method used to model the relationship 
 
 The dependent variable can be expressed as a straight-line function (regression line) of the independent variable and can be represented by the equation:
 
-```js
+```
 y = β₀ + β₁x + ε
 
 where:
