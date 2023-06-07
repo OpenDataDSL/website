@@ -88,13 +88,13 @@ It could also include valuable attributes such as:
   > 
   > Versioning is the *what, when, who and why* of changes made to master data are captured in versions and audit logs. 
   > Versions and audit logs should include meta-data that covers all those questions:
-  * **Change Details**
+  * **Change Details**:
     > The information about **what** was changed
-  * **Timestamp**
+  * **Timestamp**:
     > The time and date of **when** the change was made
-  * **User Id**
+  * **User Id**:
     > The user **who** made the change
-  * **Reason**
+  * **Reason**:
     > An audit entry specifying **why** the change was made
 
 ## What is Master Data Management?
@@ -108,7 +108,9 @@ It enables organisations to leverage their data as a strategic asset and support
 
 
 ### OpenDataDSL Master Data Management
-> The OpenDataDSL platform allows you to easily implement master data management in the cloud.
+:::info
+The OpenDataDSL platform allows you to easily implement **Master Data Management** in the **cloud**.
+:::
 
 The OpenDataDSL platform provides all the features of master data discussed above along with the ability to integrate with more complex data types, such as:
 
