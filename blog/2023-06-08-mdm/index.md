@@ -3,7 +3,7 @@ slug: master_data
 title: Master Data Management
 authors: [chartley]
 tags: [data, workflow, odsl]
-image: /img/blog/data_flow/trader.jpg
+image: /img/blog/mdm/mdm.jpg
 hide_table_of_contents: false
 ---
 import styles from './index.module.css';
@@ -11,11 +11,11 @@ import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="col-md">
-    <img src="/img/blog/data_flow/trader.jpg"/>
+    <img src="/img/blog/mdm/mdm.jpg"/>
   </div>
   <div className="col-md">
   <h2>Master Data Management (MDM)</h2>  
-    <p>In this blog, we talk about the importance of Master Data and the management of it using Master Data Management as a service (MDMaaS).</p>
+    <p>In this blog, we talk about the most important piece of the data jigsaw - <b>Master Data</b> and the management of it using the OpenDataDSL <b>Master Data Management Platform</b>.</p>
   </div>
 </div>
 
