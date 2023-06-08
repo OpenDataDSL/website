@@ -218,6 +218,12 @@ You can see from this example that with a small amount of initial configuration 
 Event-driven data-flows make this possible by performing your custom actions automatically after an event happens thereby reducing time and manual errors. 
 
 ## Next steps
+
+### Read Part 2
+[Part 2 - Validating and publishing trader curves to an ETRM system](/blog/data_flows_part2)
+
+### Demo
+
 Do you want to see this in action and see how you can benefit from OpenDataDSL?
 
 Fill out the form below, we will contact you to arrange a personally tailored demo.
