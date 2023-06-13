@@ -118,7 +118,7 @@ Cloud cover related:
 - Potential evapotranspiration within the last 24 hours
 - Surface pressure
 
-Precipitation related
+Precipitation related:
 - Duration of precipitation within the last hour
 - Probability of precipitation > n = {0.1mm, 0.2mm, 0.3mm, 0.5mm, 0.7mm, 1.0mm, 2.0mm, 3.0mm, 5.0mm, 10.0mm, 15mm, 25mm} during the last hour
 - Probability of precipitation > n = {0.0mm, 0.2mm, 1.0mm, 5.0mm} during the last m = {6, 12, 24} hours
