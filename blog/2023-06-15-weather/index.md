@@ -1,8 +1,8 @@
 ---
 slug: weather_data
-title: Weather Data
+title: Weather Data Management
 authors: [avinzelberg]
-tags: [business case, smartdata,  odsl]
+tags: [business case, weather, smartdata,  odsl]
 image: /img/blog/weather/weather.jpg
 hide_table_of_contents: true
 ---
@@ -14,8 +14,9 @@ import {Demo} from '/src/components/Forms.js';
     <img src="/img/blog/weather/weather.jpg"/>
   </div>
   <div className="col-md">
-  <h3>Weather isn't just sun or rain.</h3>  
-    In this blog, we present how we handle complex weather data in our data management software.
+  <h3>Weather isn't just sun and rain!</h3>  
+    <p>In this blog, we present how we handle massive amounts of complex weather data in our data management software.</p>
+    <p>We show you how we can deal with thousands of weather stations producing a wide variety of actual and forecasted metrics.</p>
   </div>
 </div>
 
@@ -27,7 +28,8 @@ import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="col-md">
-    Weather data information are valuable in various sectors and industries, for instance agriculture, energy and utilities, transportation and logistics, emergency management, tourisum, insurance, construction, retail, research, and many more. It enables informed decision-making and risk management based on current and predicted weather conditions. 
+    <p>Weather data information is valuable in various sectors and industries such as: energy and utilities, transportation and logistics, emergency management, tourism, insurance, construction, retail, research, and many more.</p> 
+    <p>It enables informed decision-making and risk management based on current and predicted weather conditions.</p> 
 
 
   </div>
@@ -40,37 +42,40 @@ import {Demo} from '/src/components/Forms.js';
 
 ## Weather data types
 
-To analyse the climate changes but also to make use of the various approaches for alternative energy sources it is substancial to store weather data in a proper way. And we will see in the following there are tons of weather data to store - from whichever direction the use case is coming from.
+To analyse the climate changes but also to make use of the various approaches for alternative energy sources it is important to store weather data properly. 
+And we will see in the following there are tons of weather data to store - from whichever direction the use case is coming from.
 Some of the common types of the variety of weather data that are stored are the following:
 
 
-- **Temperature:** This includes current temperature, maximum and minimum temperature, and temperature variations over time.
+- **Temperature:** 
+  > This includes current temperature, maximum and minimum temperature, and temperature variations over time.
+- **Precipitation:** 
+  > Information about rainfall, snowfall, sleet, and other forms of precipitation, including intensity, accumulation, and duration.
+- **Humidity:** 
+  > The amount of moisture present in the air, often expressed as relative humidity.
+- **Wind:** 
+  > Wind speed, direction, gusts, and patterns.
+- **Atmospheric Pressure:** 
+  > Air pressure at a given location, often measured in millibars or inches of mercury.
+- **Visibility:** 
+  > The extent to which objects are visible in the atmosphere, affected by factors such as fog, mist, or haze.
+- **Cloud Cover:** 
+  > The amount or percentage of the sky covered by clouds.
+- **Sunrise and Sunset Times:**
+  > The time when the sun rises and sets at a particular location.
+- **Weather Conditions:**
+  > Descriptions of the overall weather conditions, such as sunny, cloudy, rainy, snowy, etc.
+- **Weather Forecasts:**
+  > Predictions of future weather conditions based on various meteorological models and data.
 
-- **Precipitation:** Information about rainfall, snowfall, sleet, and other forms of precipitation, including intensity, accumulation, and duration.
-
-- **Humidity:** The amount of moisture present in the air, often expressed as relative humidity.
-
-- **Wind:** Wind speed, direction, gusts, and patterns.
-
-- **Atmospheric Pressure:** Air pressure at a given location, often measured in millibars or inches of mercury.
-
-- **Visibility:** The extent to which objects are visible in the atmosphere, affected by factors such as fog, mist, or haze.
-
-- **Cloud Cover:** The amount or percentage of the sky covered by clouds.
-
-- **Sunrise and Sunset Times:** The time when the sun rises and sets at a particular location.
-
-- **Weather Conditions:** Descriptions of the overall weather conditions, such as sunny, cloudy, rainy, snowy, etc.
-
-- **Weather Forecasts:** Predictions of future weather conditions based on various meteorological models and data.
-
-Additionally, weather data can include historical weather records, climate averages, severe weather alerts, air quality information, UV index, and more. These data are collected from weather stations, satellites, radar systems, and other meteorological instruments.
+Additionally, weather data can include historical weather records, climate averages, severe weather alerts, air quality information, UV index, and more. 
+These data are collected from weather stations, satellites, radar systems, and other meteorological instruments.
 
 ## Weather data in ODSL
 
 ### Example: DWD Data (Deutscher Wetter Dienst - German Weather Service)
 
-As an example we store weather data from [DWD](https://www.dwd.de/EN/Home/home_node.html) source and use the weather stations in Hamburg, a city in north Germany, in the following examples.
+As an example we store weather data from [DWD](https://www.dwd.de/EN/Home/home_node.html) and use the weather stations in Hamburg, a city in north Germany, in the following examples.
 
 
 ### Storing Geospatial Data
@@ -81,7 +86,7 @@ Storing and visualization of the geo data for the weather stations in Hamburg us
 
 
 ### Storing the information of weather stations
-For the different weather stattions in various locations we store the information in objects and their properties.
+For the different weather stations in various locations we store the information in objects and their properties.
 The following screenshot gives a view how it looks like in the ODSL Web-Portal.
 
 <img className={styles.product_screenshot} src="/img/blog/weather/Objects.PNG" />
@@ -172,7 +177,8 @@ Looking at the cloud cover data stored as a forward curve with hourly tenors - h
 
 ## Conclusion
 
-Storing weather data needs a proper data management tool and approach as there are tons of various data types to be stored that can be used for different use cases such as data analysis, weather derivatives, alternative energy sources management and many more.
+Storing weather data needs a proper data management tool and approach as there are vast amounts of various data types to be stored.
+This data can be used for different use cases such as data analysis, weather derivatives, alternative energy sources management and many more.
 
 
 ## Next steps
