@@ -98,9 +98,6 @@ Wind related:
 - Wind direction
 - Absolute error wind direction
 - Absolute error wind speed 10m above surface
-- Absolute error surface pressure
-- Absolute error dew point 2m above surface
-- Absolute error temperature 2m above surface
 - Wind speed
 - Maximum wind gust within the last n = {1, 3, 12} hour
 - Probability: Occurrence of gusts >= n = {25kn, 40kn, 55kn} within the last n = {6, 12} hours
@@ -116,7 +113,15 @@ Cloud cover related:
 - Cloud cover low and mid level clouds below 7000 m
 - Midlevel cloud cover (2-7 km)
 - Potential evapotranspiration within the last 24 hours
+- Probability for fog within the last n = {1, 6, 12, 24} hours
+
+Pressure related:
 - Surface pressure
+- Absolute error surface pressure
+
+Dew-point related
+- Dew-point 2m above surface
+- Absolute error dew-point 2m above surface
 
 Precipitation related:
 - Duration of precipitation within the last hour
@@ -126,7 +131,6 @@ Precipitation related:
 - Total liquid precipitation during the last hour consistent with significant weather
 - Probability: Occurrence of {convective, stratiform, solid, liquid} precipitation within the last n = {1, 6, 12} hours
 - Probability: Occurrence of freezing rain within the last n = {1, 6, 12} hours
-- Probability for fog within the last n = {1, 6, 12, 24} hours
 - Snow-Rain-Equivalent during the last n = {1, 3} hours
 
 Sunshine related:
@@ -139,23 +143,22 @@ Sunshine related:
 
 Temperature related:
 - Temperature 5cm above surface
-- Dewpoint 2m above surface
 - Minimum surface temperature at 5cm within the last 12 hours
 - Mean temperature during the last 24 hours
 - Minimum temperature - within the last 12 hours
 - Temperature 2m above surface
 - Maximum temperature - within the last 12 hours
+- Absolute error temperature 2m above surface
 
 Visibility related:
 - Visibility
 - Probability: Visibility below 1000m
-- Past weather during the last 6 hours
 
 Significant weather related:
 - Optional significant weather (highest priority) during the last n = {1, 3, 6, 12, 24} hours
 - Significant Weather
 - Significant Weather of the last 3 hours
-
+- Past weather during the last 6 hours
 ```
 
 The data can be used for visualization, further analysis as an input for ODSL smart curves, which means input for simple or complex calculations, such as weather derivatives.
