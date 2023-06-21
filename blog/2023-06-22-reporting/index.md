@@ -15,8 +15,8 @@ import {Demo} from '/src/components/Forms.js';
   </div>
   <div className="col-md">
   <h2>Smart Reporting</h2>  
-    <p>In this blog, we talk about <b>Smart Reports</b>, what they are and how to create them in OpenDataDSL</p>
-    <p>We also give an overview of the important aspects and benefits of data reporting in general</p>
+    <p>In this blog, we talk about <b>Smart Reports</b>, what they are and how to create them in OpenDataDSL.</p>
+    <p>We also give an overview of the important aspects and benefits of data reporting in general.</p>
   </div>
 </div>
 
@@ -32,21 +32,21 @@ The latest innovation from OpenDataDSL is the introduction of **Smart Reports**,
 Here are some facts about Smart Reports:
 
 * **A Smart Report is generated using an ODSL expression**
-  > This can be as simple as an arithmetic expression, find or aggregate command or a function call
+  > This can be as simple as an arithmetic expression, find or aggregate command or a function call.
 * **A Smart Report can include a script name**
-  > You can use functions from that script in the expression
+  > You can use functions from that script in the expression.
 * **A Smart Report can be styled**
-  > You can include a mustache template name in the report configuration to style the report
+  > You can include a mustache template name in the report configuration to style the report.
 * **Smart Reports can be manually created**
-  > You can manually upload data for a report rather than generating it using an expression
+  > You can manually upload data for a report rather than generating it using an expression.
 * **A stored Smart Report is dated**
-  > A report is run for a specific report date and can use a date range for the input data
+  > A report is run for a specific report date and can use a date range for the input data.
 * **Smart Reports are versioned**
-  > A Smart Report can be run multiple times/day and each run is stored and versioned and can also be tagged
+  > A Smart Report can be run multiple times/day and each run is stored and versioned and can also be tagged.
 * **A Smart Report can be dynamic**
-  > i.e. generated on-the-fly
+  > i.e. generated on-the-fly.
 * **Smart Reports can be scheduled**
-  > Each report can be configured with a CRON schedule
+  > Each report can be configured with a CRON schedule.
 
 ### Easy Reports
 In the simplest form, a Smart Report is an expression, for example a find command:
@@ -64,11 +64,11 @@ Smart Reports can also include more complex calculations and incorporate some ve
 
 Creating complex smart reports comprise of 3 essential elements which effectively split the reporting responsibility between developers, designers and end-users:
 * **Developers**
-  > Use the ODSL language to aggregate, derive and shape the data for the report
+  > Use the ODSL language to aggregate, derive and shape the data for the report.
 * **Designers**
-  > Use an enriched version of the mustache logic-less templates to design how the report looks 
+  > Use an enriched version of the mustache logic-less templates to design how the report looks.
 * **Users**
-  > End-users configure the report, selecting which data to use in it 
+  > End-users configure the report, selecting which data to use in it.
   
 :::info The SMART part - just add data
 The Smart part is that both the developer and the designer are simply creating **re-usable templates** that the end-user selects along with the data they want in the report.
@@ -84,20 +84,20 @@ The function we use for this is ```timeseriesComparison``` with the following sy
 
 ```timeseriesComparison(source, objectQuery, profile, descfield)```
 * **source**
-  > The source of the timeseries data (public / private etc)
+  > The source of the timeseries data (public / private etc).
 * **objectQuery**
-  > The query used to search for the objects containing the data
+  > The query used to search for the objects containing the data.
 * **profile**
-  > The name of the timeseries to use from the objects
+  > The name of the timeseries to use from the objects.
 * **descfield**
-  > A field in the object to use as the descriptor
+  > A field in the object to use as the descriptor.
 
 The function creates 2 matrices:
 
 * **Statistics**
-  > A matrix calculating the minimum, maximum and mean values and the standard deviation for the selected time period
+  > A matrix calculating the minimum, maximum and mean values and the standard deviation for the selected time period.
 * **Correlation**
-  > A correlation matrix show how closely correlated the timeseries are to each other
+  > A correlation matrix show how closely correlated the timeseries are to each other.
 
 ### Configuring the report
 We are going to use average monthly dairy prices from AHDB in the report as an example - it is configured as follows:
@@ -140,7 +140,7 @@ Here are some key purposes and benefits of Smart Reports:
 ## Conclusion
 
 Overall, Smart Reports empower users to transform raw data into actionable information. 
-It simplifies the data analysis process, enhances decision-making capabilities, and improves organizational performance by enabling effective communication and visualization of data.
+They simplify the data analysis process, enhance decision-making capabilities, and improve organizational performance by enabling effective communication and visualization of data.
 
 ## Next steps
 Do you want to see this in action and see how you can benefit from OpenDataDSL?
