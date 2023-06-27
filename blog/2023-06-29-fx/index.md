@@ -37,10 +37,7 @@ These currencies above have traditionally been considered the most dominant. How
 
 ### Currency Exchange Rates
 
-Exchange rates determine the value of one currency relative to another. They are influenced by various factors such as interest rates, inflation, economic indicators, political events, and market sentiment and they fluctuate continuously due to the dynamic nature of global currency markets.
-
-Exchange rate risk refers to the potential for fluctuations in exchange rates to negatively affect the value or cash flows associated with international transactions.
-Managing cash flow exposure needs means of currency hedging and dealing with cash flows in different currencies needs exchange rate involvement in the hedging approach.
+Exchange rates determine the value of one currency relative to another. They are influenced by various factors such as interest rates, inflation, economic indicators, political events, and market sentiment. That kind of exchange rate (fx) risk refers to the potential for movements in exchange rates that negatively affect the value or cash flows associated with financial transactions in the global market and needs hedging approaches for mitigation.
 
 ### Cross Currency Rates
 
