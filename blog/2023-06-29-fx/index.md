@@ -25,12 +25,12 @@ import {Demo} from '/src/components/Forms.js';
 
 ## Currencies
 
-> There are around 180 different currencies worldwide, but only a few of them play a major role in international trading, finance or central bank forign exchange reserves. Those currencies are often called dominat currencies [GOPINATH et. al](https://doi.org/10.1016/bs.hesint.2022.02.009).
-> The two most important dominant currencies are:
-> * **United States Dollar (USD)**: The US dollar has been the most dominant currency for many decades. It is widely accepted around the world and serves as the primary reserve currency. Many commodities, such as oil, are priced and traded in dollars. The global financial system is heavily dependent on the US dollar.
-> * **Euro (EUR)**: The Euro is the currency of the Eurozone. It is the second most traded currency in the world and has a significant presence in international trade and financial markets. The Euro is also used as a reserve currency by some central banks.
+There are around 180 different currencies worldwide, but only a few of them play a major role in international trading, finance or central bank forign exchange reserves. Those currencies are often called dominant currencies [GOPINATH et. al](https://doi.org/10.1016/bs.hesint.2022.02.009).
+The two most important dominant currencies are:
+* **United States Dollar (USD)**: The US dollar has been the most dominant currency for many decades. It is widely accepted around the world and serves as the primary reserve currency. Many commodities, such as oil, are priced and traded in dollars. The global financial system is heavily dependent on the US dollar.
+* **Euro (EUR)**: The Euro is the currency of the Eurozone. It is the second most traded currency in the world and has a significant presence in international trade and financial markets. The Euro is also used as a reserve currency by some central banks.
 
->> Gopinath, Gita, and Oleg Itskhoki. "Dominant currency paradigm: A review." Handbook of International Economics 6 (2022): 45-90.
+> Gopinath, Gita, and Oleg Itskhoki. "Dominant currency paradigm: A review." Handbook of International Economics 6 (2022): 45-90.
 
 These currencies above have traditionally been considered the most dominant. However, it's important to note that the dominance of currencies can change over time based on economic or geopolitical factors. Other currencies, such as the **Japanese Yen (JPY)**, the **British Pound Sterling (GBP)**, the **Swiss Franc (CHF)**, the **Canadian Dollar (CAD)**, the **Australian Dollar (AUD)**, and the **Chinese Renminbi (CNY)** also play important roles in specific regions or industries.
 
@@ -92,7 +92,7 @@ The main descriptive statistics like minimum, maximum, mean, and standard deviat
 
 #### Correlations
 
-The correlations are calculated in an ODSL script and shown up in a matrice. The highest correlations are: **0.8886 for EUR/CAD vs. EUR/CNY** followed by **0.7717 for EUR/USD vs. EUR/CHF** and **0.7625 for EUR/CAD vs. EUR/USD**. The exchange rates against EUR/JPY are negatively correlated.
+The correlations are calculated in an ODSL script and shown up in a matrix. The highest correlations are: **0.8886 for EUR/CAD vs. EUR/CNY** followed by **0.7717 for EUR/USD vs. EUR/CHF** and **0.7625 for EUR/CAD vs. EUR/USD**. The exchange rates against EUR/JPY are negatively correlated.
 
 
 <img className={styles.product_screenshot} src="/img/blog/fx/CORREL.PNG" />
