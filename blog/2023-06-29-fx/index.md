@@ -42,11 +42,9 @@ Exchange rates determine the value of one currency relative to another. They are
 Exchange rate risk refers to the potential for fluctuations in exchange rates to negatively affect the value or cash flows associated with international transactions.
 Managing cash flow exposure needs means of currency hedging and dealing with cash flows in different currencies needs exchange rate involvement in the hedging approach.
 
-### Currency Cross Rates
+### Cross Currency Rates
 
-Currency cross rates, also known as cross exchange rates or cross rates, are exchange rates between two currencies that are not the official currencies of the country in which the exchange rate is quoted. In other words, they represent the relative value of one currency in terms of another currency, bypassing the use of a common base currency like the U.S. dollar.
-
-To calculate a currency cross rate, you typically need to use the exchange rates of the two currencies involved, as well as the exchange rates of those currencies with a common base currency. 
+Cross currency rate is the exchange rate of two currencies, neither of which is the base currency in the pair. To calculate a currency cross rate, you typically need to use the exchange rates of the two currencies involved, as well as the exchange rates of those currencies with a common base currency. 
 
 Let's use the Euro (EUR) as the base currency and consider the cross rate between the British Pound Sterling (GBP) and the Japanese Yen (JPY).
 To calculate the cross rate between GBP and JPY using EUR as the common base currency, we'll need to use the exchange rates of GBP/EUR and JPY/EUR.
