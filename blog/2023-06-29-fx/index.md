@@ -64,14 +64,13 @@ Amongst other currency exchange rate providers we also store data from [European
 
 #### Calculation and Visualization of the Cross Currency Rate: JPY/GBP
 
-The calculation is executed with an ODSL script function and the cross currency rate is hold in a smart time series. 
+The calculation is executed with an ODSL script function and the cross currency rate is held in a smart time series. 
 
-```
+```js
 function crossRate(ts1, ts2)
-    ts2 = fill(ts, "forward")
+    ts2 = fill(ts2, "forward")
     crossRate = ts1/ts2
 end
-
 ```
 
 <img className={styles.product_screenshot} src="/img/blog/fx/JPYGBP.PNG" />
