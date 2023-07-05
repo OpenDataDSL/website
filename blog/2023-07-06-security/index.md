@@ -39,10 +39,9 @@ Below are 3 features that are a must-have for any data management application.
     > Multi-factor authentication is an authentication method that requires users to provide 2 or more different types of authentication in order to verify their identity.
   * **Single sign-on** 
     > Single sign-on means that the application federates the process of authenticating users to the organisations' identity provider.
-    > This ensures that the application is utilising the all the policies implemented by your own security team.
+    > This ensures that the application is utilising all the policies implemented by your own security team.
 * **Access Control**
-  > Access control
-  > The access control mechanisms must have the capability of configuring detailed, low-level authentication policies to define the exact data that a user can see or manage.
+  > The access control mechanisms must have the capability of configuring detailed, low-level authentication policies to define the exact data that a user can see or manage - and nothing more.
 * **Encryption**
   > Encryption is the process of converting data into an unreadable form using cryptographic algorithms.
   > Encryption should be done both when data is in-transit and at-rest.
@@ -50,7 +49,7 @@ Below are 3 features that are a must-have for any data management application.
 :::note
 There are other features which we are not going into detail about, such as:
 * Data Backup and Recovery
-* Auditing and Loggin
+* Auditing and Logging
 * Data Masking and Anonymisation
 * Firewall and Intrusion Detection/Prevention
 :::
@@ -65,9 +64,10 @@ This means that you log-in using your organisations identity provider, and it pr
 This will follow all your IT teams policies, e.g. multi-factor authentication, if it has been configured by them. 
 
 :::info
-The authentication is extremely secure, we never see any passwords, we only get a token containing the information your IT team has allowed us to see.
+The authentication is extremely secure, we never see any passwords, we only ever get a token containing the information that your IT team has allowed us to see.
 :::
 
+#### Authentication process
 The authentication process looks like this:
 
 <img src="/img/blog/security/login.png" />
@@ -79,6 +79,8 @@ The authentication process looks like this:
 ### Access Control
 Access control to all data is handled using security policies.
 
+#### Security policy
+
 A security policy consists of the following information:
 
 |Property|Type|Description|
@@ -89,11 +91,13 @@ A security policy consists of the following information:
 |service|String|The name of the service providing the data for this policy (can be * for all services)|
 |condition|String|An optional condition defining the subset of data that this policy covers|
 |actions|Array|A list of actions this policy covers (create, read, update, delete, run)|
-|members|Array|A list of user emails or security group id's that this policy is attributed to (Can be * for all members)|
+|members|Array|A list of user emails or security group id's that this policy is attributed to (can be * for all members)|
 |deny|Boolean|True if this is a denial policy, false for an allow policy|
 |enabled|Boolean|A flag indicating if this policy is to be used or not|
 
 Policies are used for every service and multiple policies can be used for a single service with different members, actions and conditions.
+
+#### An example policy
 
 An example policy restricting access to a specific source of master data:
 
