@@ -2,7 +2,7 @@
 slug: precious_metals
 title: Precious Metals
 authors: [avinzelberg]
-tags: [business case, precious metal, smartdata,  odsl]
+tags: [business case, precious metals, smartdata,  odsl]
 image: /img/blog/metals/metals.jpg
 hide_table_of_contents: true
 ---
