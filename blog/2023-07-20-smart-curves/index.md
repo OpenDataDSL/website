@@ -77,7 +77,9 @@ The following function creates a time spread curve:
 
 ```js
 /**
- * Create a curve with spreads created from the months in the input curve after bootstrapping
+ * Create a curve with spreads created from the months in the 
+ * input curve after bootstrapping
+ *
  * @param input The input curve
  */
 function timespread(input)
