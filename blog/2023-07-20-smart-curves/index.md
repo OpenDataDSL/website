@@ -9,13 +9,15 @@ import styles from './index.module.css';
 import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
-  <div className="column">
+  <div className="col-md">
     <img src="/img/blog/smartcurves/smartcurve.jpg"/>
   </div>
-  <div className="column">
-  <h2>What are Smart Curves?</h2>  
+  <div className="col-md">
+  <h3>What are Smart Curves?</h3>  
+    <p></p>
     Smart Curves are a revolutionary new way to create your own <b>Forward Curves</b>.
     <br /><br />Read on to find out how they work.
+    <p></p>
   </div>
 </div>
 
