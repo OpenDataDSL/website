@@ -39,21 +39,21 @@ Smart Curves are the *easiest* way to create Energy and Commodity Forward Curves
 ### Advantages
 
 * **Simple**
-  > A simple configuration to create Smart Curves from any Forward Curve|
+  > A simple configuration to create Smart Curves from any Forward Curve.
 * **Configurable**
-  > Utilise any other data (Curves/TimeSeries/Scalars)|
+  > Utilise any other data (Curves/TimeSeries/Scalars).
 * **Powerful**
-  > Expressions can be curve operations, built-in functions or your own custom functions|
+  > Expressions can be curve operations, built-in functions or your own custom functions.
 * **Scalable**
-  > Smart Curves are extremely lightweight and built on demand so are infinitely scalable|
+  > Smart Curves are extremely lightweight and built on demand so are infinitely scalable.
 * **Fast**
-  > Smart Curves are ready as soon as the input data is updated|
+  > Smart Curves are ready as soon as the input data is updated.
 * **Low Cost**
-  > No costly processes to run to build curves - curves are built on-demand|
+  > No costly processes to run to build curves - curves are built on-demand.
 * **Customizable**
-  > Create you own algorithms|
+  > Create you own algorithms.
 * **Hierarchical**
-  > Smart Curves can be based on other Smart Curves|
+  > Smart Curves can be based on other Smart Curves.
 
 ## What is the SMART Part?
 The base curve provides the dates for which the Smart Curve exists. 
@@ -110,7 +110,7 @@ You can then use this function in the OpenDataDSL portal, to create a time-sprea
 You can add references to other Scalar, TimeSeries, Forward Curves or Smart Curves directly on the Smart Curve and reference them in the expression.
 
 <img className={styles.product_screenshot} src="/img/blog/smartcurves/pjm_atc.png" />
-<span className={styles.product_screenshot_title}>Screenshot from the OpenDataDSL portal creating a smart curve</span>
+<span className={styles.product_screenshot_title}>Screenshot from the OpenDataDSL portal creating a smart curve with multiple inputs</span>
 
 
 #### Some example expressions
@@ -125,14 +125,15 @@ Currency and unit conversions happen automatically.
 If you specify a currency and/or units on the Smart Curve, any inputs will be converted to the destination currency and units before the expression is calculated.
 
 <img className={styles.product_screenshot} src="/img/blog/smartcurves/conversion.png" />
-<span className={styles.product_screenshot_title}>Screenshot from the OpenDataDSL portal</span>
+<span className={styles.product_screenshot_title}>Screenshot from the OpenDataDSL portal creating a smart curve specifying currency and units</span>
 
 
 ## Testing Smart Curves
 You can create and test Smart Curves directly using ODSL code in the [VSCode development environment](https://doc.opendatadsl.com/docs/user/vscode):
 
 ```js
-cf = SmartCurve("#MATBAROFEX.ROS.CORN.FUT:CLOSE", "interpolate(bootstrapCurve(BASE),'BACKWARD')")
+// Create a smart curve
+cf = SmartCurve("MYCURVE:CLOSE", "interpolate(bootstrapCurve(BASE),'BACKWARD')")
 
 // Build a curve dynamically for a date
 c1 = cf.build("2022-01-07")
