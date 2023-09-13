@@ -280,6 +280,51 @@ h2 {
 .h_text_inner {
     position:relative
 }
+.h_subtext {
+    display: block;
+    font-size: 50%;
+}
+
+
+.collect {
+    left: 0px;
+    font-size: 35%;
+    position: absolute;
+    animation: anim 12s linear -8s infinite;
+    color: transparent;
+}
+.manage {
+    left: 0px;
+    font-size: 35%;
+    position: absolute;
+    animation: anim 12s linear -4s infinite;
+    color: transparent;
+}
+.share {
+    left: 0px;
+    font-size: 35%;
+    position: absolute;
+    animation: anim 12s linear 0s infinite;
+    color: transparent;
+}
+
+.feature {
+    color: #21225F;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #19da9f;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@keyframes anim {
+  0% {color: transparent;}
+  65% {color: transparent;}
+  75% {color: #19da9f;}
+  95% {color: #19da9f;}
+}
 
 .mc_div {
   margin: auto;
@@ -316,4 +361,94 @@ h2 {
 
 .darkblue {
     color: #21225F;
+}
+
+div.slides {
+    background: white;
+}
+div.slideshow {
+    width: 100%;
+    height: 400px;
+}
+
+.slideshow {
+  list-style-type: none;
+  padding: 0;
+}
+
+/** SLIDESHOW **/
+.slideshow,
+.slideshow:after {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 0;
+}
+
+.slideshow li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.slideshow li span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 30s linear infinite 0s;
+}
+
+
+
+.slideshow li:nth-child(1) span {
+    background-image: url("/img/slideshow/s1.png");
+}
+.slideshow li:nth-child(2) span {
+    background-image: url("/img/slideshow/s2.png");
+    animation-delay: 6s;
+}
+.slideshow li:nth-child(3) span {
+    background-image: url("/img/slideshow/s3.png");
+    animation-delay: 12s;
+}
+.slideshow li:nth-child(4) span {
+    background-image: url("/img/slideshow/s4.png");
+    animation-delay: 18s;
+}
+.slideshow li:nth-child(5) span {
+    background-image: url("/img/slideshow/s5.png");
+    animation-delay: 24s;
+}
+
+
+
+@keyframes imageAnimation {
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation2 {
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+.no-cssanimations .cb-slideshow li span {
+	opacity: 1;
 }

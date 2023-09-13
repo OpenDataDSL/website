@@ -15,9 +15,17 @@ export default function Home() {
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
-            <VideoBanner video="/img/home/data-video.mov" text="All the tools you need to manage your data in the cloud" hltext={styles.h_text_highlight_green}>
-                <span>Modern Smart <span className={styles.h_text_highlight_green}>Data</span> Management</span>
+            <VideoBanner video="/img/home/data-video.mov" hltext={styles.h_text_highlight_green}>
+                <span>Create a <span className={styles.h_text_highlight_green}>SMART</span> data experience</span>
+                <span className={styles.h_subtext}>All the tools you need to enhance the value of your data</span>
+                <span className={styles.collect}>Collect - gather data from anywhere</span>
+                <span className={styles.manage}>Manage - quality check and augment</span>
+                <span className={styles.share}>Share - create stunning reports to share</span>
             </VideoBanner>
+            <div className={styles.smallsectionskip} />
+            <MainFeature />
+            <div className={styles.smallsectionskip} />
+            <Slideshow />
             <div className={styles.smallsectionskip} />
             <Products />
             <div className={styles.smallsectionskip} />
@@ -32,19 +40,47 @@ export default function Home() {
   );
 }
 
-function Products() {
+function MainFeature() {
     return (
     <div className={styles.products}>
         <div className={styles.productBanner}>Discover the tools that will transform your business</div>
 
         <div className={styles.chatter}>
-            <p>
-                We specialise in creating smart tools that work for you in delivering good quality data to your downstream systems.
-                We extract unstructured data from around the world and make it easily accessible through our intuitive tools
-                and easy 4GL language.
-            </p>
+            <span className={styles.feature}>Cloud platform </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Stunning charts </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Intuitive tools </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Excel Add-in </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Easy 4GL language</span>
         </div>
+    </div>
+   );
+}
 
+function Slideshow() {
+    return (
+    <div className={styles.slides}>
+        <div className={styles.productBanner}>Create Stunning Reports</div>
+        <div className={styles.slideshow}>
+            <ul className={styles.slideshow}>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+            </ul>
+        </div>
+    </div>
+   );
+}
+
+function Products() {
+    return (
+    <div className={styles.products}>
+        <div className={styles.productBanner}>Industries and Use Cases</div>
         <Product
             left="false"
             title="Energy and Oil Industry"
