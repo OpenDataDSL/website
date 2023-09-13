@@ -48,7 +48,7 @@ function MainFeature() {
         <div className={styles.chatter}>
             <span className={styles.feature}>Cloud platform </span>
             <span className={styles.dot} />
-            <span className={styles.feature}> Stunning charts </span>
+            <span className={styles.feature}> Stunning reports </span>
             <span className={styles.dot} />
             <span className={styles.feature}> Intuitive tools </span>
             <span className={styles.dot} />
