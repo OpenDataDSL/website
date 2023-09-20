@@ -70,7 +70,7 @@
 }
 
 .smallsectionskip {
-  background-color: #222;
+  background-color: #99ba9f;
   padding: 0.2rem 0;
 }
 .sectionskip {
@@ -290,21 +290,21 @@ h2 {
     left: 0px;
     font-size: 35%;
     position: absolute;
-    animation: anim 12s linear -8s infinite;
+    animation: anim 12s linear infinite 0s;
     color: transparent;
 }
 .manage {
     left: 0px;
     font-size: 35%;
     position: absolute;
-    animation: anim 12s linear -4s infinite;
+    animation: anim 12s linear infinite 4s;
     color: transparent;
 }
 .share {
     left: 0px;
     font-size: 35%;
     position: absolute;
-    animation: anim 12s linear 0s infinite;
+    animation: anim 12s linear infinite 8s;
     color: transparent;
 }
 
@@ -320,10 +320,10 @@ h2 {
 }
 
 @keyframes anim {
-  0% {color: transparent;}
-  65% {color: transparent;}
-  75% {color: #19da9f;}
-  95% {color: #19da9f;}
+  5% {color: #19da9f;}
+  30% {color: #19da9f;}
+  35% {color: transparent;}
+  95% {color: transparent;}
 }
 
 .mc_div {
