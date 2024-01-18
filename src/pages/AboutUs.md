@@ -100,4 +100,4 @@ Anja now utilises her almost 20 years of in-depth expertise in data management s
 
 <hr />
 
-*OpenDataDSL is the trading name of Walkfares Ltd. Registered in the UK no: 11489767*
+*OpenDataDSL Ltd. Registered in the UK no: 11489767*

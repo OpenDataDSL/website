@@ -15,7 +15,7 @@ export function Sales(props) {
                         <p className="h1">Contact Us</p>
                         <p className="h6">Our team is here to find the right solution for you, discuss various feature and pricing options, and connect you with the info you need.</p>
                         <p className={styles.contactinfo} itemProp="email"><FontAwesomeIcon icon={faEnvelopeOpen} /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></p>
-                        <p className={styles.contactinfo} itemProp="telephone"><FontAwesomeIcon icon={faPhone} /><a href="tel:+44 1245 958750"> +44 1245 958750</a></p>
+                        <p className={styles.contactinfo} itemProp="telephone"><FontAwesomeIcon icon={faPhone} /><a href="tel:+44 1245 555053"> +44 1245 555053</a></p>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ export function Demo(props) {
                         <p className="h1">How about a demo?</p>
                         <p className="h6">Our team is here to find the right solution for you, contact us to see this in action.</p>
                         <p className={styles.contactinfo} itemProp="email"><FontAwesomeIcon icon={faEnvelopeOpen} /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></p>
-                        <p className={styles.contactinfo} itemProp="telephone"><FontAwesomeIcon icon={faPhone} /><a href="tel:+44 1245 958750"> +44 1245 958750</a></p>
+                        <p className={styles.contactinfo} itemProp="telephone"><FontAwesomeIcon icon={faPhone} /><a href="tel:+44 1245 555053"> +44 1245 555053</a></p>
                     </div>
                 </div>
             </div>

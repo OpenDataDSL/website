@@ -35,7 +35,7 @@ This may seem too simple - but the power of what you can do in the expression ma
 Smart Curves are the *easiest* way to create Energy and Commodity Forward Curves.
 :::
 
-<img className={styles.product_screenshot} src="/img/blog/smartcurves/curve_screenshot.png" />
+<img src="/img/blog/smartcurves/curve_screenshot.png" />
 <span className={styles.product_screenshot_title}>Screenshot from the OpenDataDSL portal of an hourly forward curve</span>
 
 ### Advantages
