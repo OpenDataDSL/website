@@ -16,14 +16,16 @@ export default function Home() {
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
             <VideoBanner video="/img/home/data-video.mov" hltext={styles.h_text_highlight_green}>
-                <span>Create a <span className={styles.h_text_highlight_green}>SMART</span> data experience</span>
-                <span className={styles.h_subtext}>All the tools you need to enhance the value of your data</span>
+                <span>Go <span className={styles.h_text_highlight_green}>BEYOND</span> the basics</span>
+                <span className={styles.h_subtext}>More than a data feed and curve builder</span>
                 <span className={styles.collect}>Collect - gather data from anywhere</span>
                 <span className={styles.manage}>Manage - quality check and augment</span>
                 <span className={styles.share}>Share - create stunning reports to share</span>
             </VideoBanner>
             <div className={styles.smallsectionskip} />
             <MainFeature />
+            <div className={styles.smallsectionskip} />
+            <NewFeatures />
             <div className={styles.smallsectionskip} />
             <Slideshow />
             <div className={styles.smallsectionskip} />
@@ -55,6 +57,27 @@ function MainFeature() {
             <span className={styles.feature}> Excel Add-in </span>
             <span className={styles.dot} />
             <span className={styles.feature}> Easy 4GL language</span>
+        </div>
+    </div>
+   );
+}
+
+function NewFeatures() {
+    return (
+    <div className={styles.products}>
+        <div className={styles.productBanner}>Advanced Curve Management - <span className="badge bg-danger">New</span></div>
+        <img className={styles.center} src="/img/home/curve-management.png" />
+
+        <div className={styles.chatter}>
+            <span className={styles.feature}>Build curves in any language </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Substitute missing curves </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Add quality check rules </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Add 4-eye approvals </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Export curves with full traceability </span>
         </div>
     </div>
    );
