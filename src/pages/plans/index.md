@@ -82,12 +82,12 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
             <br />
             <ul>
                 <li>Dedicated services</li>
-                <li>Staging environment</li>
+                <li>Preview environment</li>
                 <li>Early access to new features</li>
                 <li>Priority enhancement requests</li>
                 <li>Account manager</li>
+                <li>Premium Services</li>
             </ul>
-            <br />
             <br />
             <ul>
                 <li>24x7 Support</li>

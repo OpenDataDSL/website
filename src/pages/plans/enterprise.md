@@ -10,19 +10,14 @@ With the OpenDataDSL enterprise plan, you get all the features of the [community
 ## Enterprise Plan Features
 
 ### Dedicated services
-We provide you with your own dedicated application servers, meaning you have your own hardware to run
-* OpenDataDSL REST services
-* Servers running processes and workflows
-* Message bus
-* Web Portal
-* Installer for the Excel Add-in
+You have the option of adding a dedicated compute cluster to run all your processes, curves and reports.
 
 This gives you the ultimate flexibility in terms of defining the size and scalability of your servers.
 
-### Staging environment and early access
-You get to decide when the latest software versions are made available to your users and you have the chance to test out the latest versions in a staging environment.
+### Preview environment and early access
+You have the chance to test out the latest versions in a preview environment.
 
-You get to decide when your users get to use the latest Web Portal and Excel Add-in.
+This gives you the opportunity to regression test your scripts, processes etc. before a major new release.
 
 ### Priority enhancement requests
 If you need an enhancement that is important to your business, we will prioritise this for faster release.
@@ -33,6 +28,9 @@ You will have a dedicated account manager who will assist you in solving any que
 ### Single monthly cost
 We will provide you with a single monthly cost covering all the services you require with no limit to the amount of users.
 Additional or upgraded services can be added at any time.
+
+### Much more
+Depending on the support package you choose, we can provide more personalised premium services.
 
 ## Getting Started
 To get started, click the ```Portal``` button in the title bar which will direct you to the web portal to sign up.
