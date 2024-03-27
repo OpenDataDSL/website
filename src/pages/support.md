@@ -13,6 +13,10 @@ import styles from './support.module.css';
 
 This page gives an overview of the method to use to ask questions or get technical and data support.
 
+<Button className="btn btn-success" href="https://opendatadsl.statuspage.io/" target="_blank">Current System Status</Button>
+
+<hr/>
+
 <Container className={styles.datablock}>
     <Card className={styles.card}>
         <Card.Header className={styles.header}><a href="/plans/community"><span className={styles.name}>Community Support</span><br/><span className={styles.info}>Community and Standard Plans</span></a></Card.Header>
@@ -43,25 +47,15 @@ This page gives an overview of the method to use to ask questions or get technic
             <br />
             <span>OR Ask it in the <a href="https://opendatadsl.atlassian.net/servicedesk/customer/portal/4" target="_blank" rel="noopener noreferrer">Service Desk</a></span>
             <br />
-            <span>OR Call us - (+44) 1245 555053</span>
-            <br />
             <br />
             <span className={styles.bold}>Application Issues:</span>
             <br />
             <span>Log an issue in the <a href="https://opendatadsl.atlassian.net/servicedesk/customer/portal/4/group/5" target="_blank" rel="noopener noreferrer">Service Desk</a></span>
             <br />
-            <span>OR Email <a href="mailto:support@opendatadsl.com" target="_blank" rel="noopener noreferrer">support@opendatadsl.com</a></span>
-            <br />
-            <span>OR Call us - (+44) 1245 555053</span>
-            <br />
             <br />
             <span className={styles.bold}>Data Issues:</span>
             <br />
             <span>Log an issue in the <a href="https://opendatadsl.atlassian.net/servicedesk/customer/portal/4/group/6" target="_blank" rel="noopener noreferrer">Service Desk</a></span>
-            <br />
-            <span>OR Email <a href="mailto:data@opendatadsl.com" target="_blank" rel="noopener noreferrer">data@opendatadsl.com</a></span>
-            <br />
-            <span>OR Call us - (+44) 1245 555053</span>
             <br />
             <br />
             <span className={styles.bold}>All other queries:</span>
@@ -78,8 +72,6 @@ This page gives an overview of the method to use to ask questions or get technic
             <br />
             <span>OR Ask it in the <a href="https://opendatadsl.atlassian.net/servicedesk/customer/portal/4" target="_blank" rel="noopener noreferrer">Service Desk</a></span>
             <br />
-            <span>OR Call us - (+44) 1245 555053</span>
-            <br />
             <span>OR Call your account manager</span>
             <br />
             <br />
@@ -87,20 +79,12 @@ This page gives an overview of the method to use to ask questions or get technic
             <br />
             <span>Log an issue in the <a href="https://opendatadsl.atlassian.net/servicedesk/customer/portal/4/group/5" target="_blank" rel="noopener noreferrer">Service Desk</a></span>
             <br />
-            <span>OR Email <a href="mailto:support@opendatadsl.com" target="_blank" rel="noopener noreferrer">support@opendatadsl.com</a></span>
-            <br />
-            <span>OR Call us - (+44) 1245 555053</span>
-            <br />
             <span>OR Call your account manager</span>
             <br />
             <br />
             <span className={styles.bold}>Data Issues:</span>
             <br />
             <span>Log an issue in the <a href="https://opendatadsl.atlassian.net/servicedesk/customer/portal/4/group/6" target="_blank" rel="noopener noreferrer">Service Desk</a></span>
-            <br />
-            <span>OR Email <a href="mailto:data@opendatadsl.com" target="_blank" rel="noopener noreferrer">data@opendatadsl.com</a></span>
-            <br />
-            <span>OR Call us - (+44) 1245 555053</span>
             <br />
             <span>OR Call your account manager</span>
             <br />

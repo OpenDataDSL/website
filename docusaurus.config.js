@@ -174,7 +174,8 @@ module.exports = {
   ],
   scripts: [
     '/js/captcha.js',
-    {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true}
+    {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true},
+    {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true}
   ],
   stylesheets: [{
     rel: "stylesheet",

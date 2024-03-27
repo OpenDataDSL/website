@@ -50,7 +50,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
             <br />
             <ul>
                 <li>Community Support</li>
-                <li>99.9% guaranteed uptime</li>
+                <li>99.5% guaranteed uptime</li>
             </ul> 
         </Card.Body>
     </Card>
@@ -70,7 +70,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
             </ul>
             <ul>
                 <li>London Hours Support</li>
-                <li>99.9% guaranteed uptime</li>
+                <li>99.5% guaranteed uptime</li>
             </ul> 
         </Card.Body>
     </Card>
@@ -90,8 +90,8 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
             <br />
             <br />
             <ul>
-                <li>24x5 Support</li>
-                <li>99.95% guaranteed uptime</li>
+                <li>24x7 Support</li>
+                <li>99.5% guaranteed uptime</li>
             </ul> 
         </Card.Body>
     </Card>
