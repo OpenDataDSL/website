@@ -28,6 +28,10 @@ Data protection requirements with respect to the processing of Customer Personal
 
 Our practices towards the use of personal data that you provide to us
 
+### [Third-party Libraries](Software-BOM)
+
+A list of all the third-party opensource libraries used in our software.
+
 ### [Cookie Policy](Cookie-Policy)
 
 What cookies are and how we use them
