@@ -98,6 +98,14 @@ At DataGenic she utilised her business knowledge and became the SME for forward 
 
 Anja now utilises her almost 20 years of in-depth expertise in data management solutions and data science and is successfully bridging the technical team with the business users.
 
+### Renato Vieira
+##### Business Development Manager
+Renato is a seasoned Sales Professional, with over 20 years of experience in the Energy Commodities Data Industry working at various software companies in the Energy Sector.
+
+His previous experience at DataGenic, along with his language skills made is tenure a success by adding logos to the client list and building client relationships all across Europe.
+
+He now joins OpenData DSL to promote the next generation of Market Data Management Software based on a true Saas Platform that goes beyond being simply a data feed and a curve builder.
+
 <hr />
 
 *OpenDataDSL Ltd. Registered in the UK no: 11489767*
