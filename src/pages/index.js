@@ -27,6 +27,8 @@ export default function Home() {
             <div className={styles.smallsectionskip} />
             <NewFeatures />
             <div className={styles.smallsectionskip} />
+            <CurveManagement />
+            <div className={styles.smallsectionskip} />
             <Slideshow />
             <div className={styles.smallsectionskip} />
             <Products />
@@ -65,7 +67,24 @@ function MainFeature() {
 function NewFeatures() {
     return (
     <div className={styles.products}>
-        <div className={styles.productBanner}>Advanced Curve Management - <span className="badge bg-danger">New</span></div>
+        <div className={styles.productBanner}>Insights - <span className="badge bg-danger">New</span></div>
+        <img className={styles.center} src="/img/home/corrections-insight-sm.png" />
+
+        <div className={styles.chatter}>
+            <span className={styles.feature}>Create your own intuitive insight reports </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Include interactive charts </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Use any data in the platform, including usage and auditing </span>
+        </div>
+    </div>
+   );
+}
+
+function CurveManagement() {
+    return (
+    <div className={styles.products}>
+        <div className={styles.productBanner}>Advanced Curve Management</div>
         <img className={styles.center} src="/img/home/curve-management.png" />
 
         <div className={styles.chatter}>
