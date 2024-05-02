@@ -6,7 +6,7 @@ slug: partners
 
 #### The OpenDataDSL Platform
 
-The OpenDataDSL Platform provides many touchpoints for technical and non-technical partnerships.
+The OpenDataDSL Platform provides many touch-points for technical and non-technical partnerships.
 
 We work closely with a network of partners to ensure our clients have a best-in-breed platform.  
 If you are interested in becoming a partner, email our partners team at partner@opendatadsl.com. 
