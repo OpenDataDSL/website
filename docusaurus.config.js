@@ -33,6 +33,7 @@ module.exports = {
             {to: '/utility', label: 'Utilities'},
             {to: '/mongodb', label: 'MongoDB Users'}
         ]},
+        {to: '/partners', label: 'Partners', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {href: 'https://doc.opendatadsl.com', label: 'Documentation', position: 'right'},
         {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'right'}
