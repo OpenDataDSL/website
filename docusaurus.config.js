@@ -174,15 +174,25 @@ module.exports = {
     ],
   ],
   scripts: [
-    '/js/captcha.js',
+    {src:'/js/captcha.js',module:true},
+    '/js/visitorqueue.js',
     {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true},
     {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true}
   ],
   stylesheets: [{
-    rel: "stylesheet",
-    href: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css",
-    integrity: "sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We",
-    crossorigin: "anonymous"
+        rel: "dns-prefetch",
+        href: "//t.visitorqueue.com",
+        style: 'display: none !important;'
+    },{
+        rel: "stylesheet",
+        href: "https://p.visitorqueue.com/styles/c49aef6c-24b7-4b77-809d-b7e13c691cc8.css",
+        type: 'text/css',
+        id: 'vq_flick_styles'
+    },{
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css",
+        integrity: "sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We",
+        crossorigin: "anonymous"
     }
   ]
 };
