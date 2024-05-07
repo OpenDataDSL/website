@@ -85,7 +85,7 @@ function CurveManagement() {
     return (
     <div className={styles.products}>
         <div className={styles.productBanner}>Advanced Curve Management</div>
-        <img className={styles.center} src="/img/home/curve-management.png" />
+        <iframe className={styles.center} width="560" height="500" src="https://www.youtube.com/embed/2kn9-QbE3zI?si=q3_sdoH-zRbpaOsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <div className={styles.chatter}>
             <span className={styles.feature}>Build curves in any language </span>
