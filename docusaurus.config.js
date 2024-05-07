@@ -127,7 +127,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Walkfares Ltd.`,
+      copyright: `Copyright © ${new Date().getFullYear()} OpenDataDSL Ltd.`,
     },
     prism: {
       theme: lightCodeTheme,
