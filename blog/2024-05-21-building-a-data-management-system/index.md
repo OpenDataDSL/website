@@ -4,10 +4,11 @@ title: Buy or Build?
 authors: [chartley]
 tags: [data management, odsl]
 ---
+import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="column">
-    <img src="/img/blog/decision.jpg"/>
+    <img src="/img/any_data.jpg"/>
   </div>
   <div className="column">
   <h2>Starting a Data Management project?</h2>
@@ -23,16 +24,22 @@ tags: [data management, odsl]
 
 At the start of a project to build a data management system, or simply getting a data feed to feed into an internal system, there are generally 2 considerations to make:
 
-1. Do we **buy** readily available software?
-2. Do we **build** something from scratch?
+![](/img/blog/buy-build.jpg)
 
 The decision of whether to buy or build a data management solution for your project depends on several factors, including:
 
-* **Requirements:** Determine what specific features and capabilities you need and if they are readily available in existing solutions.
-* **Budget:** Consider the cost of purchasing a commercial solution versus the time and resources needed to develop your own solution.
-* **Time to Rollout:** Evaluate if you can afford the time and resources required to build your own solution, or if you need a solution that is up and running quickly.
-* **In-house Expertise:** Assess the expertise of your team to develop and maintain the solution, and the availability of external resources if required.
-* **Integration:** Consider how the solution will integrate with other systems and tools in your technology stack.
+* **Requirements:** 
+  > Determine what specific features and capabilities you need and if they are readily available in existing solutions.
+* **Budget:** 
+  > Consider the cost of purchasing a commercial solution versus the time and resources needed to develop your own solution.
+* **Time to Rollout:** 
+  > Evaluate if you can afford the time and resources required to build your own solution, or if you need a solution that is up and running quickly.
+* **In-house Expertise:** 
+  > Assess the expertise of your team to develop and maintain the solution, and the availability of external resources if required.
+* **Integration:** 
+  > Consider how the solution will integrate with other systems and tools in your technology stack.
+* **Future Support & Maintenance:**
+  > Who will fix/extend/maintain the system, who will manage data format or source changes, will anyone internally guarantee availability/performance/quality?
 
 Ultimately, the decision to buy or build will depend on the specific needs of your project, budget, and organizational constraints. 
    
@@ -82,9 +89,17 @@ experience of buying off-the-shelf.
     * [Web-portal/Dashboard](https://doc.opendatadsl.com/docs/user/portal) - (Web/Desktop/Mobile)
     * [Excel Add-in](https://doc.opendatadsl.com/docs/user/excel)
     * [VSCode extension](https://doc.opendatadsl.com/docs/user/vscode)
+    * [MATLAB SDK](https://doc.opendatadsl.com/docs/sdk/matlab)
+    * [Python SDK](https://doc.opendatadsl.com/docs/sdk/python)
+    * [Java SDK](https://doc.opendatadsl.com/docs/sdk/java)
+* Create powerful, intuitive insights and reports
 * Customise the domain and user experience of all tools to [make it your own](/make-it-yours)
 * Fully supported and documented [REST API](https://doc.opendatadsl.com/docs/api/rest/standards) 
 * Secure user authentication and access control using your own [Azure Active Directory](/secure)
+* Comprehensive auditing and versioning - capture additions, corrections and deletions
+* Dashboards to monitor data loading and curves
+
+![](/img/gallery.png)
 
 ### What are the benefits?
 
@@ -107,4 +122,16 @@ experience of buying off-the-shelf.
 |**Documentation**|High|Low/Non-existent|High|
 |**Upgrades**|3 monthly/annually|Intially Monthly then likely rarely|Monthly|
 
-[Sign Up](/SignUp) today and become part of the OpenDataDSL community!
+
+## Next steps
+Do you want to see this in action and see how you can benefit from OpenDataDSL?
+
+Tell us about your project, and we can let you know how we can help.
+
+* Contact us at [info@opendatadsl.com](mailto:info@opendatadsl.com)
+* [Sign Up](/SignUp) today and become part of the OpenDataDSL community!
+* Fill out the form below, we will contact you to arrange a personally tailored demo.
+
+<Demo />
+
+
