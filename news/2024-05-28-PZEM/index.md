@@ -22,7 +22,7 @@ import {Demo} from '/src/components/Forms.js';
 
 <hr/>
 
-London, UK (June 1st 2024) OpenDataDSL, a leading provider of commodity data management software, announced today that PZEM Energy Company has chosen OpenDataDSL for their SaaS Data Management Platform.
+London, UK (May 28th 2024) OpenDataDSL, a leading provider of commodity data management software, announced today that PZEM Energy Company has chosen OpenDataDSL for their SaaS Data Management Platform.
 
 Following a competitive RFP process, PZEM selected OpenDataDSL to replace an incumbent, third-party application with the OpenDataDSL software platform, capable of providing a holistic and innovative approach to data collection, intelligence, and integration. Key criteria for the selection of OpenDataDSL were the product fit to meet PZEM’s current and future requirements and the responsiveness of OpenDataDSL.
 
