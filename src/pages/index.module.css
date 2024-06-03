@@ -451,3 +451,25 @@ div.slideshow {
 .no-cssanimations .cb-slideshow li span {
 	opacity: 1;
 }
+
+.showMore {
+    color: #303133;
+    margin: 0px 40px 0px 0px;
+    font-size: 18px;
+    text-align: right;
+}
+.news {
+    background-color: #b4d3ed;
+}
+.newsDate {
+    color: #303133;
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.newsHeadline {
+    color: #0E5D72 !important;
+    font-weight: 700 !important;
+    word-wrap: break-word;
+}

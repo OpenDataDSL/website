@@ -56,6 +56,10 @@ module.exports = {
               href: 'https://doc.opendatadsl.com/docs/Tutorials',
             },
             {
+              label: 'Topics',
+              href: 'https://doc.opendatadsl.com/docs/category/topics',
+            },
+            {
               label: 'Data Catalog',
               href: 'https://doc.opendatadsl.com/docs/data/catalog',
             },
@@ -99,6 +103,10 @@ module.exports = {
             {
               label: 'Vimeo',
               href: 'https://vimeo.com/user155861440'
+            },
+            {
+              label: 'Youtube',
+              href: 'https://www.youtube.com/channel/UCgoZgofpos9P8Zwtzkr3IWA'
             }
           ],
         },
@@ -112,6 +120,14 @@ module.exports = {
             {
               label: 'About Us',
               to: '/AboutUs',
+            },
+            {
+              label: 'Partners',
+              to: '/partners',
+            },
+            {
+              label: 'News',
+              to: '/news',
             },
             {
               label: 'Blog',

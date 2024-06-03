@@ -31,6 +31,8 @@ export default function Home() {
             <div className={styles.smallsectionskip} />
             <Slideshow />
             <div className={styles.smallsectionskip} />
+            <News />
+            <div className={styles.smallsectionskip} />
             <Products />
             <div className={styles.smallsectionskip} />
             <HomepageNextSteps />
@@ -42,6 +44,34 @@ export default function Home() {
         </main>
     </Layout>
   );
+}
+
+function News() {
+    return (
+    <div className={styles.news}>
+        <div className={styles.productBanner}>OpenDataDSL News</div>
+        <div className={styles.showMore}><a href="./news">Show More -></a></div>
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-4">
+                    <span className={styles.newsDate}>May 28, 2024</span>
+                    <h3 className={styles.newsHeadline}><a href="./news/pzem-chooses-opendatadsl">PZEM Energy Company chooses OpenDataDSL</a></h3>
+                    <p>OpenDataDSL, a leading provider of commodity data management software, announced today that PZEM Energy Company has chosen OpenDataDSL for their SaaS Data Management Platform.</p>
+                </div>
+                <div className="col-lg-4">
+                    <span className={styles.newsDate}>May 2, 2024</span>
+                    <h3 className={styles.newsHeadline}><a href="./news/previse-partnership">OpenDataDSL partners with Previse Systems</a></h3>
+                    <p>OpenDataDSL welcomes their first partner; Previse Systems, a leading provider of ETRM software.</p>
+                </div>
+                <div className="col-lg-4">
+                    <span className={styles.newsDate}>May 1, 2024</span>
+                    <h3 className={styles.newsHeadline}><a href="./news/partner-program">OpenDataDSL launches partnership program</a></h3>
+                    <p>Today, we launched an active, collaborative partnership program with a commitment to mutual growth and success.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    );
 }
 
 function MainFeature() {

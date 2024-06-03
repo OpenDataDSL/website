@@ -4,25 +4,22 @@ description: About Us
 ---
 # About Us
 
-![](/img/logo128.png)
-OpenDataDSL is the data management programming language.
+![](/img/logo_name.png)
 
-## What we do
 
-### Data Aggregation
-We are a data aggregator that collects data from multiple sources and combines it into a single, organized database. 
-The aim is to provide a comprehensive and centralized source of information, which can be used for various purposes such as market research, business intelligence, data analytics, portfolio pricing etc. 
+## Data Platform
 
-### Data Management and Governance Tools
-Data governance refers to the overall management of the availability, usability, integrity, and security of the data employed in an organization. 
-It involves establishing policies, procedures, standards, and guidelines for collecting, storing, using, and disposing of data. 
-The goal of data governance is to ensure that data is trustworthy and supports the objectives of the organization while protecting it from risk. 
-Data governance involves collaboration among stakeholders from various departments, including IT, legal, and business, to ensure that data is managed in a consistent, efficient, and effective manner.
+OpenDataDSL are a cloud data platform that specialize in ingesting, curating, cleansing, transforming, securing and integrating business critical data securely, intelligently and transparently. At each stage of the data lifecycle robust tools allow those relying on the data to understand state, status, quality, completeness, readiness and fitness for purpose. Data without context is just numbers, at OpenDataDSL we add context – through rich metadata, calendars, transformations and a wide range of visualisations. 
 
-### Automation
-Through the use of our workflow tools, you can automate repetitive, manual tasks associated with managing, processing, and analyzing data. 
-Our goal is to reduce the time and resources required to complete these tasks and to increase the accuracy and consistency of the data.
-Data automation can improve the speed, efficiency, and accuracy of data management processes, enabling organizations to make better-informed decisions, respond to changes more quickly, and increase the value of their data assets.
+To benefit from the investment you put into your business-critical data you need all the different types and sources of data presented in forms that are catalogued and optimized for a wide range of end uses – whether that is a downstream system, an algorithm, a data store or a human being. OpenDataDSL is designed and engineered to create useable data from multiple disparate sources and combine it into a single, organized data repository, accessed via a range of secure, performant APIs, apps and user interfaces. 
+
+OpenDataDSL provides a comprehensive and centralized source of internal and external information, which can be used across an enterprise in multiple work streams and for multiple purposes such as research, back testing, business intelligence, ERP, data analytics, portfolio pricing or risk management. 
+
+***There is no limitation.***
+
+## Mission Statement
+**Our mission is to take the data that matters to you – external or internal – and make it useful to you everywhere and anywhere – data plumbing for the cloud age.**
+
 
 ## Meet The Company
 
@@ -64,6 +61,14 @@ Kodandaramu (Ram) Rangaiah has been working in IT Industry for the last 20 years
 Ram started DataGenic India in 2006 and was responsible for the management of all operations in the Bangalore office and was the primary developer for the DataGenic data management systems.
 
 Ram worked previously in Sonata Software, Deutsche Bank and Lehman Brothers which provided exposure to the latest technologies and business domain knowledge.
+
+### Simon Jackson
+##### Operations Director
+Simon has been working in data management since 1987. He started working at a leading back-office data provider 1 week before Black Monday, which taught him that it is vital you have confidence in the data you rely on even when market conditions mean the data itself appears intuitively wrong. 
+After working in data content creation in the finance sector, his passion for solutions and customer needs led him into integration support and operations. 
+For the last few decades Simon has worked with some of the leading enterprise data solutions providers – building and leading teams, functions and divisions – always driving up client expectations for what a data management solution should provide, but just as importantly – delivering on them. 
+
+He has the utmost confidence he will do it again with OpenDataDSL allowing our clients to truly benefit from digitalisation and open standards - enabling the use of data anywhere and everywhere, easily, securely, compliantly and reliably. 
 
 ### Sunil Ramesh
 ###### Head of User Experience
@@ -107,5 +112,10 @@ His previous experience at DataGenic, along with his language skills made is ten
 He now joins OpenData DSL to promote the next generation of Market Data Management Software based on a true Saas Platform that goes beyond being simply a data feed and a curve builder.
 
 <hr />
+
+## Your next career move
+#### Are you interested in going beyond the basics?
+
+Send an email to careers@opendatadsl.com and let us know about what you can contribute to our growing team!
 
 *OpenDataDSL Ltd. Registered in the UK no: 11489767*
