@@ -2,7 +2,7 @@
 slug: pzem-chooses-opendatadsl
 title: PZEM chooses OpenDataDSL
 authors: [chartley]
-tags: [data management, odsl]
+tags: [data management, odsl, pzem]
 ---
 import {Demo} from '/src/components/Forms.js';
 
