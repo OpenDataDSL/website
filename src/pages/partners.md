@@ -4,12 +4,23 @@ slug: partners
 
 # Partners
 
-#### The OpenDataDSL Platform
+#### OpenDataDSL – a partner you can rely on
 
-The OpenDataDSL Platform provides many touch-points for technical and non-technical partnerships.
+Here at OpenDataDSL we are clear on our mission – to take the data that matters to our clients – external or internal – and make it useful to them everywhere and anywhere – data plumbing in the cloud. That mission means OpenDataDSL operates as part of a network of connected data storage providers, content providers, business applications, workflow engines and visualization tools. 
 
-We work closely with a network of partners to ensure our clients have a best-in-breed platform.  
+For our clients to be successful our partnerships need to be successful – increasingly a solution is not solely owned by one company, but a collection of best of breed capabilities provided by multiple organisations who collaborate when things are going well and even more so when they are not. Having trusted expert partners and being open to sharing knowledge, insight and opportunities benefits ourselves, our clients and our partners. 
+
+OpenDataDSL offers our partners 
+
+* Training and access to our documentation and people
+* Support in demonstrations and tender processes
+* Access to our platform to enable integration
+* Expertise in data and data management to help our partners optimize their solutions
+* Referral programme to ensure we all benefit from helping our ecosystem grow
+
 If you are interested in becoming a partner, email our partners team at partner@opendatadsl.com. 
+
+<hr/>
 
 ## ETRM/CTRM Partners
 ### Previse Systems
