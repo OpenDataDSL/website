@@ -3,13 +3,14 @@ slug: pzem-chooses-opendatadsl
 title: PZEM chooses OpenDataDSL
 authors: [chartley]
 tags: [data management, odsl, pzem]
+image: /img/news/pzem-odsl.png
 ---
 import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="column">
 
-![](pzem-odsl.png)
+![](/img/news/pzem-odsl.png)
 
   </div>
   <div className="column">

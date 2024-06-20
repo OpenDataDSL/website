@@ -77,7 +77,7 @@ function News() {
 function MainFeature() {
     return (
     <div className={styles.products}>
-        <div className={styles.productBanner}>Discover the tools that will transform your business</div>
+        <div className={styles.productBanner}>A SaaS Market Data Management System</div>
 
         <div className={styles.chatter}>
             <span className={styles.feature}>Cloud platform </span>
