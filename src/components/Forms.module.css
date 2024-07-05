@@ -45,4 +45,13 @@
         margin: 80px 10px 60px 10px;
         top: -180px;
     }
+    .eventpage {
+        border-top: 4px solid orange;
+        box-shadow: rgb(0 32 37 / 32%) 0px 16px 48px -16px;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 64px 64px 64px;
+        margin: 250px 10px 60px 10px;
+        top: -180px;
+    }
 }

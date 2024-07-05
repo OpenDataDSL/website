@@ -50,7 +50,7 @@ export function ContactForm() {
     return (
             <div className={styles.formpage}>
                 <p className={styles.filldetails}>Fill out your details below and somebody will be in contact with you very shortly.</p>
-                <form method="POST" action="https://odsl.azurewebsites.net/api/form/sales">
+                <form method="POST" action="https://odsl.azurewebsites.net/api/form/Sales">
                     <div className="row">
                        <div className="col">
                           <div className="mb-3">
@@ -97,7 +97,7 @@ export function MiniContactForm() {
     return (
             <div className={styles.minipage}>
                 <p className={styles.filldetails}>Fill out your details below and somebody will be in contact with you very shortly.</p>
-                <form method="POST" action="https://odsl.azurewebsites.net/api/form/sales">
+                <form method="POST" action="https://odsl.azurewebsites.net/api/form/Sales">
                     <div className="row">
                        <div className="col">
                           <div className="mb-3">
@@ -132,6 +132,49 @@ export function MiniContactForm() {
                     <textarea name="message" className="form-control" id="message" rows="6" aria-describedby="messageHelp" />
                     <div id="messageHelp" className="form-text">Enter information about your area of interest, include your telephone number if you would like us to call you.</div>
                   </div>
+                  <div id="recaptcha" className="g-recaptcha" data-sitekey="6LczjqUkAAAAACuHIEJpp3qDNKGqZtAV0k2aRBmr" onLoad={loadReCaptcha()}></div>
+                  <br />
+                  <button id="form_submit" type="submit" className="btn btn-primary" disabled>Submit</button>
+                </form>
+            </div>
+    );
+}
+
+export function Webinar(content) {
+    return (
+            <div className={styles.eventpage}>
+                <p className={styles.filldetails}>Fill out your details below to register for this webinar.</p>
+                <form method="POST" action="https://odsl.azurewebsites.net/api/form/Webinar">
+                    <div className="row">
+                       <div className="col">
+                          <div className="mb-3">
+                            <label htmlFor="firstName" className="form-label">First Name</label>
+                            <input type="text" name="firstName" className="form-control" id="firstName" />
+                          </div>
+                       </div>
+                       <div className="col">
+                          <div className="mb-3">
+                            <label htmlFor="lastName" className="form-label">Last Name</label>
+                            <input type="text" name="lastName" className="form-control" id="lastName" />
+                          </div>
+                       </div>
+                   </div>
+                    <div className="row">
+                       <div className="col">
+                          <div className="mb-3">
+                            <label htmlFor="inputEmail" className="form-label">Email address</label>
+                            <input type="email" name="email" className="form-control" id="inputEmail" aria-describedby="emailHelp" />
+                            <div id="emailHelp" className="form-text">We&apos;ll never share your email address</div>
+                          </div>
+                       </div>
+                       <div className="col">
+                          <div className="mb-3">
+                            <label htmlFor="company" className="form-label">Company</label>
+                            <input type="text" name="company" className="form-control" id="company" />
+                          </div>
+                       </div>
+                   </div>
+                  <input type="hidden" name="message" id="message" value={content.children} />
                   <div id="recaptcha" className="g-recaptcha" data-sitekey="6LczjqUkAAAAACuHIEJpp3qDNKGqZtAV0k2aRBmr" onLoad={loadReCaptcha()}></div>
                   <br />
                   <button id="form_submit" type="submit" className="btn btn-primary" disabled>Submit</button>

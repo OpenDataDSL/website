@@ -35,6 +35,7 @@ module.exports = {
         ]},
         {to: '/partners', label: 'Partners', position: 'left'},
         {to: '/news', label: 'News', position: 'left'},
+        {to: '/events', label: 'Events', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
         {href: 'https://doc.opendatadsl.com', label: 'Documentation', position: 'right'},
         {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'right'}
@@ -188,6 +189,26 @@ module.exports = {
           blogTitle: 'News',
         },
       ],
+    [
+        '@docusaurus/plugin-content-blog',
+
+          {
+            /**
+             * Required for any multi-instance plugin
+             */
+            id: 'events-blog',
+            /**
+             * URL route for the blog section of your site.
+             * *DO NOT* include a trailing slash.
+             */
+            routeBasePath: 'events',
+            /**
+             * Path to data on filesystem relative to site dir.
+             */
+            path: './events',
+            blogTitle: 'Events',
+          },
+    ]
   ],
   presets: [
     [
