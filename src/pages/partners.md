@@ -1,8 +1,10 @@
 ---
 slug: partners
 ---
+import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
+import styles from './partners.module.css';
 
-# Partners
+## Partners
 
 #### OpenDataDSL – a partner you can rely on
 
@@ -22,21 +24,44 @@ If you are interested in becoming a partner, email our partners team at partner@
 
 <hr/>
 
-# Our Valued Partners
+## Our Valued Partners
 
-## Previse Systems
+<Container className={styles.datablock}>
+    <Card className={styles.card}>
+        <Card.Body className={styles.body}>
+            <h2>Previse Systems</h2>
+            <a href="https://previsesystems.com"><img src="/img/partner/PVS_Logo_rgb.jpg" width="50%" /></a>
+            <p>At Previse Systems, we fundamentally reshape the way Energy Trading and Risk Management (ETRM) software is designed, implemented and operated.</p>
+        </Card.Body>
+        <Card.Footer>
+            <p><a href="/partners/previse-systems">More about Previse Systems</a></p>
+        </Card.Footer>
+    </Card>    
+    <Card className={styles.card}>
+        <Card.Body className={styles.body}>
+            <h2>Revenue.AI</h2>
+            <a href="https://revenue.ai"><img src="https://revenue.ai/wp-content/uploads/2023/04/Group-183.png" width="50%" /></a>
+            <p>Pricing and revenue management driven by cognitive AI</p>
+            <p>Outperform your competitiors with the power of cutting-edge technologies</p>
+        </Card.Body>
+        <Card.Footer>
+            <p><a href="/partners/revenue-ai">More about Revenue.AI</a></p>
+        </Card.Footer>
+    </Card>    
+</Container>
 
-<a href="https://previsesystems.com"><img src="/img/partner/PVS_Logo_rgb.jpg" width="30%" /></a>
 
-At Previse Systems, we fundamentally reshape the way Energy Trading and Risk Management (ETRM) software is designed, implemented and operated.
+<!-- 
+    <Card className={styles.card}>
+        <Card.Body className={styles.body}>
+            <h2>Time2Market</h2>
+            <a href="https://www.time2market.dk/"><img src="/img/partner/time2market.png" width="30%" /></a>
+            <p>Outsource your market access in the energy industry</p>
+            <p>Accelerate your market entry with Time2Market</p>
+        </Card.Body>
+        <Card.Footer>
+            <p><a href="/partners/time-2-market">More about Time2Market</a></p>
+        </Card.Footer>
+    </Card> 
+-->
 
-[More about Previse Systems](/partners/previse-systems)
-
-## Revenue.AI
-
-<a href="https://revenue.ai"><img src="https://revenue.ai/wp-content/uploads/2023/04/Group-183.png" width="30%" /></a>
-
-#### Pricing and revenue management driven by cognitive AI.
-Outperform your competitiors with the power of cutting-edge technologies
-
-[More about Revenue.AI](/partners/revenue-ai)
