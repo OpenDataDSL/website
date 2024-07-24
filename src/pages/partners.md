@@ -22,11 +22,21 @@ If you are interested in becoming a partner, email our partners team at partner@
 
 <hr/>
 
-## ETRM/CTRM Partners
-### Previse Systems
+# Our Valued Partners
+
+## Previse Systems
 
 <a href="https://previsesystems.com"><img src="/img/partner/PVS_Logo_rgb.jpg" width="30%" /></a>
 
 At Previse Systems, we fundamentally reshape the way Energy Trading and Risk Management (ETRM) software is designed, implemented and operated.
 
 [More about Previse Systems](/partners/previse-systems)
+
+## Revenue.AI
+
+<a href="https://revenue.ai"><img src="https://revenue.ai/wp-content/uploads/2023/04/Group-183.png" width="30%" /></a>
+
+#### Pricing and revenue management driven by cognitive AI.
+Outperform your competitiors with the power of cutting-edge technologies
+
+[More about Revenue.AI](/partners/revenue-ai)
