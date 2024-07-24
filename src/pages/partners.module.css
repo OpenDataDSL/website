@@ -1,0 +1,23 @@
+.datablock {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 24rem;
+    border-color: orange;
+    margin-bottom: 10px;
+}
+
+.body {
+    text-align: left;
+    font-size: 18px;
+}
+.message {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
