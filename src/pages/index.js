@@ -96,9 +96,18 @@ function MainFeature() {
 
 function NewFeatures() {
     return (
-    <div className={styles.products}>
+    <div className={styles.slides}>
         <div className={styles.productBanner}>Insights - <span className="badge bg-danger">New</span></div>
-        <img className={styles.center} src="/img/home/corrections-insight-sm.png" />
+
+        <div className={styles.slideshow}>
+            <ul className={styles.insights}>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+            </ul>
+        </div>
 
         <div className={styles.chatter}>
             <span className={styles.feature}>Create your own intuitive insight reports </span>

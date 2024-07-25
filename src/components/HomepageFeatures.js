@@ -21,7 +21,7 @@ const AboutList = [
     description: (
       <>
         Our vision is to make high quality, flexible and low cost data modelling, 
-        management and reporting tools for MongoDB for all sizes of businesses and all types of markets.
+        management and reporting tools for all sizes of businesses and all types of markets.
       </>
     )
   },

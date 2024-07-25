@@ -378,6 +378,11 @@ div.slideshow {
     height: 480px;
 }
 
+div.mainslideshow {
+    width: 100%;
+    height: 640px;
+}
+
 .slideshow {
   list-style-type: none;
   padding: 0;
@@ -438,6 +443,26 @@ div.slideshow {
     animation-delay: 24s;
 }
 
+
+.insights li:nth-child(1) span {
+    background-image: url("/img/home/corrections-insight-sm.png");
+}
+.insights li:nth-child(2) span {
+    background-image: url("/img/slideshow/calendar-usage.png");
+    animation-delay: 6s;
+}
+.insights li:nth-child(3) span {
+    background-image: url("/img/slideshow/audit-report.png");
+    animation-delay: 12s;
+}
+.insights li:nth-child(4) span {
+    background-image: url("/img/slideshow/script-report.png");
+    animation-delay: 18s;
+}
+.insights li:nth-child(5) span {
+    background-image: url("/img/slideshow/activity-report.png");
+    animation-delay: 24s;
+}
 
 
 @keyframes imageAnimation {
