@@ -48,6 +48,17 @@ If you are interested in becoming a partner, email our partners team at partner@
             <p><a href="/partners/revenue-ai">More about Revenue.AI</a></p>
         </Card.Footer>
     </Card>    
+    <Card className={styles.card}>
+        <Card.Body className={styles.body}>
+            <h2>Time2Market</h2>
+            <a href="https://www.time2market.dk/"><img src="/img/partner/time2market.png" width="30%" /></a>
+            <p>Time2Market’s vision is to become the leading provider of market access and trading support services.</p>
+            <p>We ensure accelerated and frictionless market entry.</p>
+        </Card.Body>
+        <Card.Footer>
+            <p><a href="/partners/time-2-market">More about Time2Market</a></p>
+        </Card.Footer>
+    </Card>    
 </Container>
 
 
