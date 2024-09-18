@@ -24,7 +24,7 @@ Lyngvej 2 | Aalborg | Denmark
 
 Read more about Time2Market: [https://www.time2market.dk/?utm_source=Partners&utm_medium=OpenDataDSL&utm_campaign=PartnersPage](https://www.time2market.dk/?utm_source=Partners&utm_medium=OpenDataDSL&utm_campaign=PartnersPage)  
 
-Get in touch with Time2Market: [info@time2market.dk](info@time2market.dk)
+Get in touch with Time2Market: [info@time2market.dk](mailto:info@time2market.dk)
 
 Book a meeting with Time2Market: [https://outlook.office365.com/book/Meeting@time2market.dk](https://outlook.office365.com/book/Meeting@time2market.dk) 
 
