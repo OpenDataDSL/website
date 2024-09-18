@@ -1,19 +1,30 @@
 ## Time2Market
 
-<a href="https://www.time2market.dk/"><img src="/img/partner/time2market.png" width="30%" /></a>
+<a href="https://www.time2market.dk/"><img src="/img/partner/time2market-dark-notagline-500.png" width="30%" /></a>
 
 <hr/>
 
-### About Us
-#### Mission
-Time2Market’s mission is to become the leading provider of market access and trading support services by growing our knowledge, network, and experiences. We are passionate about bringing innovative solutions to the energy trading industry and contributing to the transition to a more sustainable and efficient energy system.
+### Who is Time2Market
+Time2Market is the only independent market access service provider in the energy industry. We help energy trading companies looking to expand their operations to new power and gas markets, and investment firms entering the energy industry for the first time. 
 
-#### Vision
-Time2Market provides market access and trading support to companies who want to trade energy and commodities. We become part of our clients’ DNA and ensure accelerated and frictionless market entry while representing their best interests towards counterparties in every step of the market access process. Our clients’ success is our success.
+Time2Market is a one-stop shop, providing a complete market entry service, including trading and shipping licenses, balance responsibility agreements (BRP), onboarding on energy exchanges, establishing cross-border setups, and upkeep of the trading setup after the market entry. 
+
+
+### What drives Time2Market
+With decades of experience in energy market access and a proven track record of successfully onboarded clients in over 40 power and gas markets, Time2Market brings unparalleled expertise, an invaluable network of partners, and a passion for contributing to a more sustainable energy industry. 
+
+We become part of our clients’ DNA and ensure a fast and efficient market entry while representing their best interests towards counterparties in every step of the market access process. Our clients’ success is our success.
+
+We deliver. You excel.
+
 
 ### Contact Us
 
-**Time2Market ApS.**<br />
-Lyngvej 2 | Aalborg | Denmark<br />
-[time2market.dk](https://www.time2market.dk)<br />
-e-mail: info@time2market.dk
+Lyngvej 2 | Aalborg | Denmark
+
+Read more about Time2Market: [https://www.time2market.dk/?utm_source=Partners&utm_medium=OpenDataDSL&utm_campaign=PartnersPage](https://www.time2market.dk/?utm_source=Partners&utm_medium=OpenDataDSL&utm_campaign=PartnersPage)  
+
+Get in touch with Time2Market: [info@time2market.dk](info@time2market.dk)
+
+Book a meeting with Time2Market: [https://outlook.office365.com/book/Meeting@time2market.dk](https://outlook.office365.com/book/Meeting@time2market.dk) 
+
