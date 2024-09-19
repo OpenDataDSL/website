@@ -37,6 +37,7 @@ We then take you through the steps needed to arrive at the perfect forward curve
 A forward curve that can be trusted, explained and traced back to raw facts
 :::
 
-## Join us on this journey by signing up below
+## View the recorded webinar below
 
-<Webinar>Journey to the perfect forward curve - September 2024</Webinar>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Kb8G94C6Co0?si=FQNHlsNdwAs3rp-5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
