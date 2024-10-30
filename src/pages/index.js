@@ -54,6 +54,11 @@ function News() {
         <div className="container">
             <div className="row">
                 <div className="col-lg-4">
+                    <span className={styles.newsDate}>Sep 2, 2024</span>
+                    <h3 className={styles.newsHeadline}><a href="./news/partner-program">OpenDataDSL partners with Time2Market</a></h3><br/>
+                    <p>OpenDataDSL welcomes their latest partner; Time2Market, the leading provider of market access and trading support services.</p>
+                </div>
+                <div className="col-lg-4">
                     <span className={styles.newsDate}>May 28, 2024</span>
                     <h3 className={styles.newsHeadline}><a href="./news/pzem-chooses-opendatadsl">PZEM Energy Company chooses OpenDataDSL</a></h3>
                     <p>OpenDataDSL, a leading provider of commodity data management software, announced today that PZEM Energy Company has chosen OpenDataDSL for their SaaS Data Management Platform.</p>
@@ -62,11 +67,6 @@ function News() {
                     <span className={styles.newsDate}>May 2, 2024</span>
                     <h3 className={styles.newsHeadline}><a href="./news/previse-partnership">OpenDataDSL partners with Previse Systems</a></h3>
                     <p>OpenDataDSL welcomes their first partner; Previse Systems, a leading provider of ETRM software.</p>
-                </div>
-                <div className="col-lg-4">
-                    <span className={styles.newsDate}>May 1, 2024</span>
-                    <h3 className={styles.newsHeadline}><a href="./news/partner-program">OpenDataDSL launches partnership program</a></h3>
-                    <p>Today, we launched an active, collaborative partnership program with a commitment to mutual growth and success.</p>
                 </div>
             </div>
         </div>
@@ -77,14 +77,13 @@ function News() {
 function MainFeature() {
     return (
     <div className={styles.products}>
-        <div className={styles.productBanner}>A SaaS Market Data Management System</div>
-
+        <div className={styles.productBanner}>The SaaS Energy Market Data Management System, engineered in the cloud for world-scale performance and reliability</div>
         <div className={styles.chatter}>
-            <span className={styles.feature}>Cloud platform </span>
+            <span className={styles.feature}>Cloud native platform </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Smart Curves </span>
             <span className={styles.dot} />
             <span className={styles.feature}> Stunning reports </span>
-            <span className={styles.dot} />
-            <span className={styles.feature}> Intuitive tools </span>
             <span className={styles.dot} />
             <span className={styles.feature}> Excel Add-in </span>
             <span className={styles.dot} />
