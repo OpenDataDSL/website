@@ -27,6 +27,8 @@ export default function Home() {
             <div className={styles.smallsectionskip} />
             <NewFeatures />
             <div className={styles.smallsectionskip} />
+            <Insights />
+            <div className={styles.smallsectionskip} />
             <CurveManagement />
             <div className={styles.smallsectionskip} />
             <Slideshow />
@@ -54,6 +56,11 @@ function News() {
         <div className="container">
             <div className="row">
                 <div className="col-lg-4">
+                    <span className={styles.newsDate}>Jan 27, 2025</span>
+                    <h3 className={styles.newsHeadline}><a href="./news/dataset-monitoring">Data Monitoring gives unprecedented transparency</a></h3>
+                    <p>OpenDataDSL introduces the latest new feature to the SaaS platform - Data Monitoring - What is it and how can it help you?</p>
+                </div>
+                <div className="col-lg-4">
                     <span className={styles.newsDate}>Sep 2, 2024</span>
                     <h3 className={styles.newsHeadline}><a href="./news/partner-program">OpenDataDSL partners with Time2Market</a></h3><br/>
                     <p>OpenDataDSL welcomes their latest partner; Time2Market, the leading provider of market access and trading support services.</p>
@@ -62,11 +69,6 @@ function News() {
                     <span className={styles.newsDate}>May 28, 2024</span>
                     <h3 className={styles.newsHeadline}><a href="./news/pzem-chooses-opendatadsl">PZEM Energy Company chooses OpenDataDSL</a></h3>
                     <p>OpenDataDSL, a leading provider of commodity data management software, announced today that PZEM Energy Company has chosen OpenDataDSL for their SaaS Data Management Platform.</p>
-                </div>
-                <div className="col-lg-4">
-                    <span className={styles.newsDate}>May 2, 2024</span>
-                    <h3 className={styles.newsHeadline}><a href="./news/previse-partnership">OpenDataDSL partners with Previse Systems</a></h3>
-                    <p>OpenDataDSL welcomes their first partner; Previse Systems, a leading provider of ETRM software.</p>
                 </div>
             </div>
         </div>
@@ -96,7 +98,27 @@ function MainFeature() {
 function NewFeatures() {
     return (
     <div className={styles.slides}>
-        <div className={styles.productBanner}>Insights - <span className="badge bg-danger">New</span></div>
+        <div className={styles.productBanner}>Dataset Monitoring - <span className="badge bg-danger">New</span></div>
+        <iframe className={styles.center} width="560" height="500" src="https://www.youtube.com/embed/MTCyrLhbUVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div className={styles.chatter}>
+            <span className={styles.feature}>Unprecedented transparency of your data pipeline </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Quality checks and alerts </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Insights your business can use </span>
+        </div>
+
+        <div className={styles.chatter}>
+            <span className={styles.feature}><a href="/blog/dataset-monitoring">Read our blog about what it can do for you</a></span>
+        </div>
+    </div>
+   );
+}
+function Insights() {
+    return (
+    <div className={styles.slides}>
+        <div className={styles.productBanner}>Insights</div>
 
         <div className={styles.slideshow}>
             <ul className={styles.insights}>
