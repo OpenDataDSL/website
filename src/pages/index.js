@@ -15,7 +15,7 @@ export default function Home() {
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
-            <VideoBanner video="/img/home/data-video.mov" hltext={styles.h_text_highlight_green}>
+            <VideoBanner video="/img/home/Website-Banner.mp4" hltext={styles.h_text_highlight_green}>
                 <span>Go <span className={styles.h_text_highlight_green}>BEYOND</span> the basics</span>
                 <span className={styles.h_subtext}>More than a data feed and curve builder</span>
                 <span className={styles.collect}>Collect - gather data from anywhere</span>
