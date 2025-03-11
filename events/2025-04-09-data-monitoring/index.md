@@ -12,7 +12,7 @@ import {Webinar} from '/src/components/Forms.js';
   </div>
   <div className="column">
   <h4>Data Monitoring Insights</h4>
-  <em>Sign up for an hour of discovery where we discuss the daily issues users endure with late or missing data and how the OpenDataDSL platform gives you unprecedented transparency of your data pipeline</em>
+  <em>Sign up for an hour of discovery where we discuss the daily issues users endure with late or missing data and how the OpenDataDSL platform gives you the tools to manage these issues with unprecedented transparency of your data pipeline</em>
   </div>
 </div>
 
@@ -40,5 +40,5 @@ import {Webinar} from '/src/components/Forms.js';
 
 ## Join us on this journey by signing up below
 
-<Webinar>Journey to the perfect forward curve - September 2024</Webinar>
+<Webinar>Data Management Insights - April 2025</Webinar>
 
