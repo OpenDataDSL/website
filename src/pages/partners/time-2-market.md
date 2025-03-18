@@ -1,6 +1,6 @@
 ## Time2Market
 
-<a href="https://www.time2market.dk/"><img src="/img/partner/time2market-dark-notagline-500.png" width="30%" /></a>
+<a href="https://www.time2market.net?utm_source=Referral&utm_medium=OpenDataDSL-Website&utm_campaign=Partners"><img src="/img/partner/time2market-dark-notagline-500.png" width="30%" /></a>
 
 <hr/>
 
@@ -22,7 +22,7 @@ We deliver. You excel.
 
 Lyngvej 2 | Aalborg | Denmark
 
-Read more about Time2Market: [https://www.time2market.dk/?utm_source=Partners&utm_medium=OpenDataDSL&utm_campaign=PartnersPage](https://www.time2market.dk/?utm_source=Partners&utm_medium=OpenDataDSL&utm_campaign=PartnersPage)  
+Read more about Time2Market: [https://www.time2market.net/contact-us?utm_source=Referral&utm_medium=OpenDataDSL-Website&utm_campaign=Partners](https://www.time2market.net/contact-us?utm_source=Referral&utm_medium=OpenDataDSL-Website&utm_campaign=Partners)  
 
 Get in touch with Time2Market: [info@time2market.dk](mailto:info@time2market.dk)
 

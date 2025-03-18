@@ -55,7 +55,7 @@ If you are interested in becoming a partner, email our partners team at partner@
     <Card className={styles.card}>
         <Card.Body className={styles.body}>
             <h2>Time2Market</h2>
-            <a href="https://www.time2market.dk/"><img src="/img/partner/time2market-dark-notagline-500.png" width="50%" /></a>
+            <a href="https://www.time2market.net?utm_source=Referral&utm_medium=OpenDataDSL-Website&utm_campaign=Partners"><img src="/img/partner/time2market-dark-notagline-500.png" width="50%" /></a>
             <br />
             <br />
             <p>Time2Market is the only independent market access service provider in the energy industry. We help energy trading companies looking to expand their operations to new power and gas markets, and investment firms entering the energy industry for the first time.</p>
