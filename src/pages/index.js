@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import {HomepageFeatures, HomepageAbout, HomepageNextSteps} from '../components/HomepageFeatures';
+import {HomepageFeatures, HomepageAbout, HomepageNextSteps, WhyChooseODSL} from '../components/HomepageFeatures';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import CookieConsent from "react-cookie-consent";
 import { Product, VideoBanner, SocialMedia } from '../components/Industry';
@@ -32,6 +32,8 @@ export default function Home() {
             <CurveManagement />
             <div className={styles.smallsectionskip} />
             <Slideshow />
+            <div className={styles.smallsectionskip} />
+            <WhyChooseODSL />
             <div className={styles.smallsectionskip} />
             <News />
             <div className={styles.smallsectionskip} />

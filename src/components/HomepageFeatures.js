@@ -37,6 +37,63 @@ const AboutList = [
   }
 ]
 
+const WhyChoose = [
+  {
+    title: 'Agile & extensible',
+    jpg: require('../../static/img/logo.png').default,
+    description: (
+      <>
+        Our product is highly customer extensible due to the ODSL programming language.
+      </>
+    )
+  },
+  {
+    title: 'Data management expertise',
+    jpg: require('../../static/img/logo.png').default,
+    description: (
+      <>
+        Our team of data management experts have many years of experience of running and supporting large-scale data management systems.
+      </>
+    )
+  },
+  {
+    title: 'World-class support',
+    jpg: require('../../static/img/logo.png').default,
+    description: (
+      <>
+        Our clients receive world-class support so that best-practice data management becomes second nature.
+      </>
+    )
+  },
+  {
+    title: 'World-scale technology',
+    jpg: require('../../static/img/logo.png').default,
+    description: (
+      <>
+        Our product was built for the cloud, utilising the world-scale capabilities of the Microsoft Azure platform.
+      </>
+    )
+  },
+  {
+    title: 'Cloud based security',
+    jpg: require('../../static/img/logo.png').default,
+    description: (
+      <>
+        Use your own Microsoft Entra ID (Active Directory) to authorise access for your users.
+      </>
+    )
+  },
+  {
+    title: 'Seamless integrations',
+    jpg: require('../../static/img/logo.png').default,
+    description: (
+      <>
+        Seamlessly integrate with your ETRM/CTRM system and all your other major business systems.
+      </>
+    )
+  }
+]
+
 const FeatureList = [
   {
     title: 'Excel Add-in',
@@ -128,6 +185,40 @@ export function HomepageAbout() {
       </div>
     </section>
   );
+}
+
+export function WhyChooseODSL() {
+  return (
+    <section className={styles.features, styles.section}>
+      <div className="container">
+        <div className="row">
+            <p className={styles.sectionheader}>World-class support meets smart technology</p>
+        </div>
+        <div className="row">
+          {WhyChoose.map((props, idx) => (
+            <InfoBlock key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function InfoBlock({jpg, title, description, link}) {
+  var result = (
+      <div className={clsx('col col--4')}>
+        <a href={link}>
+          <div className="text--center">
+            <img src={jpg} className={styles.infoIcon} alt={title} />
+          </div>
+        </a>
+        <div className="text--center padding-horiz--md">
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </div>
+    );
+  return result;
 }
 
 export function HomepageNextSteps() {
