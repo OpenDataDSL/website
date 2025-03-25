@@ -41,7 +41,8 @@ This webinar discusses some of the common data management challenges and how the
   > How often do you analyse delivery performance?
 
 
-## Join us on this journey by signing up below
+## Join us on this journey
 
-<Webinar>Data Management Insights - April 2025</Webinar>
+Click [here](https://events.teams.microsoft.com/event/c5e32ee9-958d-46f5-af48-9ad42fb94d95@ef34dc37-9d55-43c4-99ad-a35f3c96f8f4) to register for the event
+
 
