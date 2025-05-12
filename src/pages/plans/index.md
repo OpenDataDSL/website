@@ -15,7 +15,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
 
 <Container className={styles.datablock}>
     <Card className={styles.card}>
-        <Card.Header className={styles.header}><a href="/plans/community"><span className={styles.name}>Community</span><br/><span className={styles.gbp}>£</span><span className={styles.price}>0</span><br/><span className={styles.info}>/user/month<br /><br /></span></a></Card.Header>
+        <Card.Header className={styles.header}><a href="/plans/community"><span className={styles.name}>Community</span><br/><span className={styles.gbp}>€</span><span className={styles.price}>0</span><br/><span className={styles.info}>/user/month<br /><br /></span></a></Card.Header>
         <Card.Body className={styles.body}>
             <br />
             <br />
@@ -34,7 +34,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
         </Card.Body>
     </Card>    
     <Card className={styles.card}>
-        <Card.Header className={styles.header}><a href="/plans/standard"><span className={styles.name}>Standard</span><br/><span className={styles.price}>Call</span><br/><span className={styles.info}><br /><br /></span></a></Card.Header>
+        <Card.Header className={styles.header}><a href="/plans/standard"><span className={styles.name}>Standard</span><br/><span className={styles.gbp}>€</span><span className={styles.price}>60</span><br/><span className={styles.info}>/user/month<br /><br /></span></a></Card.Header>
         <Card.Body className={styles.body}>
             <span className={styles.bold}>Community features plus:</span>
             <br />
@@ -55,7 +55,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
         </Card.Body>
     </Card>
     <Card className={styles.card}>
-        <Card.Header className={styles.header}><a href="/plans/premium"><span className={styles.name}>Premium</span><br/><span className={styles.price}>Call</span><br/><span className={styles.info}><br /><br /></span></a></Card.Header>
+        <Card.Header className={styles.header}><a href="/plans/premium"><span className={styles.name}>Premium</span><br/><span className={styles.gbp}>from €</span><span className={styles.price}>3.5k</span><br/><span className={styles.info}>per month<br /><br /></span></a></Card.Header>
         <Card.Body className={styles.body}>
             <span className={styles.bold}>Standard features plus:</span>
             <br />
