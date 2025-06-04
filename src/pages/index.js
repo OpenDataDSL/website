@@ -96,6 +96,11 @@ function News() {
         <div className="container">
             <div className="row">
                 <div className="col-lg-4">
+                    <span className={styles.newsDate}>Jun 06, 2025</span>
+                    <h3 className={styles.newsHeadline}><a href="./news/extensions">OpenDataDSL Application Extensions</a></h3><br/>
+                    <p>Clients, partners and OpenDataDSL can now easily add bespoke functionality into the web portal using application extensions.</p>
+                </div>
+                <div className="col-lg-4">
                     <span className={styles.newsDate}>Jan 27, 2025</span>
                     <h3 className={styles.newsHeadline}><a href="./news/dataset-monitoring">Data Monitoring gives unprecedented transparency</a></h3>
                     <p>OpenDataDSL introduces the latest new feature to the SaaS platform - Data Monitoring - What is it and how can it help you?</p>
@@ -105,10 +110,22 @@ function News() {
                     <h3 className={styles.newsHeadline}><a href="./news/partner-program">OpenDataDSL partners with Time2Market</a></h3><br/>
                     <p>OpenDataDSL welcomes their latest partner; Time2Market, the leading provider of market access and trading support services.</p>
                 </div>
+            </div>
+            <div className="row">
                 <div className="col-lg-4">
                     <span className={styles.newsDate}>May 28, 2024</span>
                     <h3 className={styles.newsHeadline}><a href="./news/pzem-chooses-opendatadsl">PZEM Energy Company chooses OpenDataDSL</a></h3>
                     <p>OpenDataDSL, a leading provider of commodity data management software, announced today that PZEM Energy Company has chosen OpenDataDSL for their SaaS Data Management Platform.</p>
+                </div>
+                <div className="col-lg-4">
+                    <span className={styles.newsDate}>May 2, 2024</span>
+                    <h3 className={styles.newsHeadline}><a href="./news/previse-partnership">OpenDataDSL partners with Previse Systems</a></h3>
+                    <p>OpenDataDSL welcomes their first partner; Previse Systems, a leading provider of ETRM software.</p>
+                </div>
+                <div className="col-lg-4">
+                    <span className={styles.newsDate}>May 1, 2024</span>
+                    <h3 className={styles.newsHeadline}><a href="./news/partner-program">OpenDataDSL launches partnership program</a></h3>
+                    <p>Today, we launched an active, collaborative partnership program with a commitment to mutual growth and success.</p>
                 </div>
             </div>
         </div>

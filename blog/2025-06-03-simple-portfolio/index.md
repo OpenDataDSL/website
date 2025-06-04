@@ -28,7 +28,7 @@ We define a portfolio as a basket of tradable instruments which can represent a 
 ### Trades
 Trades in our simple portfolio are a record of an amount of a specific instrument, bought or sold for a specific price and timepoint.
 
-Each trade event contains the following information:
+Each trade event contains the following information (only information required for calculating profit):
 
 |Name|Type|Description|
 |-|-|-|
@@ -55,7 +55,12 @@ The following reports are provided with the simple portfolio extension:
 
 * Trade report - a report of all your trades over a time period
 * Open positions - a report showing all your current open trades
+
+![](/img/blog/trade_report.png)
+
 * Profit and Loss - a report showing a daily P&L for each portfolio
+
+![](/img/blog/widget.png)
 
 ## Conclusion
 The simple portfolio extension is an example of bespoke functionality that can be easily added to the OpenDataDSL platform using the new extension functionality.
