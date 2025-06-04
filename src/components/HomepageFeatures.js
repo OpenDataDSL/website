@@ -43,7 +43,7 @@ const WhyChoose = [
     jpg: require('../../static/img/logo.png').default,
     description: (
       <>
-        Our product is highly customer extensible due to the ODSL programming language.
+        Our product is highly customer extensible. Build extensions, reports and insights to manage your data your way.
       </>
     )
   },

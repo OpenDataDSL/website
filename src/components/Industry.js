@@ -216,6 +216,27 @@ export function VideoBanner(props) {
 );
 }
 
+export function SimpleVideoBanner(props) {
+
+    return (
+    <div className={styles.simplevideocontainer}>
+        <span className={styles.videobg} data-ratio="2">
+			<div id="mep_0" tabIndex="0" role="application" aria-label="Video Player" className={styles.videoplayer} >
+			    <div className="mejs-inner">
+			        <div className={styles.mediaelement}>
+                        <div id="mejs_5779260256995651">
+                            <video loop="loop" autoPlay playsInline muted id="mejs_5779260256995651_html5" preload="none" src={props.video} className={styles.datavideo} >
+                                <source type="video/mp4" src={props.video} />
+                            </video>
+                        </div>
+			        </div>
+                </div>
+            </div>
+        </span>
+    </div>
+);
+}
+
 export function SocialMedia() {
 return (
             <section className={styles.stayintouch}>

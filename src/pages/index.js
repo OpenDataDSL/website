@@ -7,7 +7,7 @@ import styles from './index.module.css';
 import {HomepageFeatures, HomepageAbout, HomepageNextSteps, WhyChooseODSL} from '../components/HomepageFeatures';
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import CookieConsent from "react-cookie-consent";
-import { Product, VideoBanner, SocialMedia } from '../components/Industry';
+import { Product, VideoBanner, SimpleVideoBanner, SocialMedia } from '../components/Industry';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -15,23 +15,19 @@ export default function Home() {
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
-            <VideoBanner video="/img/home/Website-Banner.mp4" hltext={styles.h_text_highlight_green}>
-                <span>Go <span className={styles.h_text_highlight_green}>BEYOND</span> the basics</span>
-                <span className={styles.h_subtext}>More than a data feed and curve builder</span>
-                <span className={styles.collect}>Collect - gather data from anywhere</span>
-                <span className={styles.manage}>Manage - quality check and augment</span>
-                <span className={styles.share}>Share - create stunning reports to share</span>
-            </VideoBanner>
+            <SimpleVideoBanner video="/img/home/Website-Banner.mp4" hltext={styles.h_text_highlight_green} />
             <div className={styles.smallsectionskip} />
-            <MainFeature />
-            <div className={styles.smallsectionskip} />
-            <NewFeatures />
-            <div className={styles.smallsectionskip} />
-            <Insights />
-            <div className={styles.smallsectionskip} />
-            <CurveManagement />
-            <div className={styles.smallsectionskip} />
-            <Slideshow />
+            <div class="container">
+                <div class="row p-2">
+                    <div class="col p-2">
+                        <img src="/img/logo_instant-alerts.png" />
+                        <Benefits />
+                    </div>
+                    <div class="col">
+                        <CTA />
+                    </div>
+                </div>
+            </div>
             <div className={styles.smallsectionskip} />
             <WhyChooseODSL />
             <div className={styles.smallsectionskip} />
@@ -48,6 +44,48 @@ export default function Home() {
         </main>
     </Layout>
   );
+}
+
+function CTA() {
+    return (
+    <div className={styles.heroBanner}>
+        <div className={styles.tagline}>GO BEYOND</div>
+        <div className={styles.tagline2}>THE BASICS</div>
+        <div className={styles.h_text_minor}>
+            <div class="pt-2">
+                <Button className={styles.signupbutton} href="/contact">CONTACT US</Button>
+                <Button className={styles.signupbutton} href="/SignUp">START FOR FREE</Button>
+            </div>
+        </div>
+    </div>
+    );
+}
+function Benefits() {
+    return (
+    <div className={styles.heroBanner}>
+        <div className={styles.chatter}>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Data capture </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Data modelling </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> AI </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Apps and Extensions </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Cloud native platform </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Smart Curves </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Stunning reports </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Excel Add-in </span>
+            <span className={styles.dot} />
+            <span className={styles.feature}> Easy 4GL language </span>
+            <span className={styles.dot} />
+        </div>
+    </div>
+    );
 }
 
 function News() {
