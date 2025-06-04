@@ -15,16 +15,41 @@ export default function Home() {
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
         <main>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
-            <SimpleVideoBanner video="/img/home/Website-Banner.mp4" hltext={styles.h_text_highlight_green} />
+            <SimpleVideoBanner video="/img/home/Website-Banner.mp4" hltext={styles.h_text_highlight_green}>
+                <span className={styles.h_subtext}>More than a data feed and curve builder</span>
+                <span className={styles.collect}>Collect - gather data from anywhere</span>
+                <span className={styles.manage}>Manage - quality check and augment</span>
+                <span className={styles.share}>Share - create stunning reports to share</span>
+            </SimpleVideoBanner>
             <div className={styles.smallsectionskip} />
             <div class="container">
-                <div class="row p-2">
-                    <div class="col p-2">
+                <div class="row">
+                    <div class="col pb-2 pt-2">
                         <img src="/img/logo_instant-alerts.png" />
                         <Benefits />
                     </div>
                     <div class="col">
                         <CTA />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col p-4">
+                    <img className={styles.img} src="/img/home/easy-to-use.png" />
+                    <div className={styles.benefit}>EASY</div>
+                    <div className={styles.benefitinfo}>Future-proof data platform</div>
+                    <div>Save time on building, configuring and tuning infrastructure with an easy, fully managed platform that’s already in the cloud.</div>
+                    </div>
+                    <div class="col p-4">
+                    <img className={styles.img} src="/img/home/data-anywhere.png" />
+                    <div className={styles.benefit}>CONNECTED</div>
+                    <div className={styles.benefitinfo}>Connect your business ecosystem</div>
+                    <div>OpenDataDSL's rich and dynamic platform provides ultimate flexibility so you can integrate with all your internal systems.</div>
+                    </div>
+                    <div class="col p-4">
+                    <img className={styles.img} src="/img/home/secure.png" />
+                    <div className={styles.benefit}>SECURE</div>
+                    <div className={styles.benefitinfo}>Universal business security</div>
+                    <div>Support your most demanding workloads with unified security, observability and an always-on, high-performance managed platform.</div>
                     </div>
                 </div>
             </div>

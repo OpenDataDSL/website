@@ -14,7 +14,7 @@ import {Demo} from '/src/components/Forms.js';
   <h2>Manage Trading P&L</h2>
   <p>The latest OpenDataDSL platform release has a major new feature: Extensions</p>
   <p>Extensions allow us, our partners and you to extend the platform portal, allowing you to create bespoke tools and functionality.</p> 
-  <p><b>The blog focusses on a specific extension we have created which allows you to easily track profit and loss on trades you make.?</b></p> 
+  <p><b>The blog focusses on a specific extension we have created which allows you to easily track profit and loss on trades you make.</b></p> 
   </div>
 </div>
 

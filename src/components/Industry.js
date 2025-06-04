@@ -233,6 +233,21 @@ export function SimpleVideoBanner(props) {
                 </div>
             </div>
         </span>
+        <div class="mt-5">
+            <div className={styles.h_text_block}>
+                <div className={styles.h_text_major}>
+                    <div className={styles.h_text_inner}>
+                        {props.children}
+                    </div>
+                </div>
+                <div className={styles.h_text_minor}>
+                    <div className={styles.h_text_inner}>
+                        <div className={styles.tagline}><span className={props.textcolor}>{props.text}</span></div>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 );
 }

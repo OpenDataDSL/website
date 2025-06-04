@@ -59,6 +59,19 @@
   font-weight: 400;
   line-height: 120%;
 }
+.benefitinfo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 200%;
+}
+
+.img {
+    display: block;
+    margin-left: -30px;
+  width: 40%;
+}
 
 .smallsectionskip {
   background-color: #99ba9f;
@@ -540,3 +553,4 @@ div.mainslideshow {
     font-weight: 700 !important;
     word-wrap: break-word;
 }
+
