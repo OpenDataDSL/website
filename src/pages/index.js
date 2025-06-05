@@ -22,35 +22,37 @@ export default function Home() {
                 <span className={styles.share}>Share - create stunning reports to share</span>
             </SimpleVideoBanner>
             <div className={styles.smallsectionskip} />
-            <div class="container">
-                <div class="row">
-                    <div class="col pb-2 pt-2">
-                        <img src="/img/logo_instant-alerts.png" />
-                        <Benefits />
+            <div class={styles.altsection}>
+                <div class="container">
+                    <div class="row">
+                        <div class="col pb-2 pt-2">
+                            <img src="/img/logo_instant-alerts.png" />
+                            <Benefits />
+                        </div>
+                        <div class="col">
+                            <Tagline />
+                            <CTA />
+                        </div>
                     </div>
-                    <div class="col">
-                        <Tagline />
-                        <CTA />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col p-4">
-                    <img className={styles.img} src="/img/home/easy-to-use.png" />
-                    <div className={styles.benefit}>EASY</div>
-                    <div className={styles.benefitinfo}>Future-proof data platform</div>
-                    <div>Save time on building, configuring and tuning infrastructure with an easy, fully managed platform that’s already in the cloud.</div>
-                    </div>
-                    <div class="col p-4">
-                    <img className={styles.img} src="/img/home/data-anywhere.png" />
-                    <div className={styles.benefit}>CONNECTED</div>
-                    <div className={styles.benefitinfo}>Connect your business ecosystem</div>
-                    <div>OpenDataDSL's rich and dynamic platform provides ultimate flexibility so you can integrate with all your internal systems.</div>
-                    </div>
-                    <div class="col p-4">
-                    <img className={styles.img} src="/img/home/secure.png" />
-                    <div className={styles.benefit}>SECURE</div>
-                    <div className={styles.benefitinfo}>Universal business security</div>
-                    <div>Support your most demanding workloads with unified security, observability and an always-on, high-performance managed platform.</div>
+                    <div class="row">
+                        <div class="col p-4">
+                        <img className={styles.img} src="/img/home/easy-to-use.png" />
+                        <div className={styles.benefit}>EASY</div>
+                        <div className={styles.benefitinfo}>Future-proof data platform</div>
+                        <div>Save time on building, configuring and tuning infrastructure with an easy, fully managed platform that’s already in the cloud.</div>
+                        </div>
+                        <div class="col p-4">
+                        <img className={styles.img} src="/img/home/data-anywhere.png" />
+                        <div className={styles.benefit}>CONNECTED</div>
+                        <div className={styles.benefitinfo}>Connect your business ecosystem</div>
+                        <div>OpenDataDSL's rich and dynamic platform provides ultimate flexibility so you can integrate with all your internal systems.</div>
+                        </div>
+                        <div class="col p-4">
+                        <img className={styles.img} src="/img/home/secure.png" />
+                        <div className={styles.benefit}>SECURE</div>
+                        <div className={styles.benefitinfo}>Universal business security</div>
+                        <div>Support your most demanding workloads with unified security, observability and an always-on, high-performance managed platform.</div>
+                        </div>
                     </div>
                 </div>
             </div>
