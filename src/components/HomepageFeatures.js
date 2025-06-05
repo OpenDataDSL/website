@@ -43,7 +43,7 @@ const WhyChoose = [
     jpg: require('../../static/img/logo.png').default,
     description: (
       <>
-        Our product is highly customer extensible. Build extensions, reports and insights to manage your data your way.
+        Our platform is easily and rapidly extended. Build extensions, reports and insights to manage and visualise your data your way. Our service architecture ensures no downtime for upgrades and enhancements.
       </>
     )
   },
@@ -52,7 +52,7 @@ const WhyChoose = [
     jpg: require('../../static/img/logo.png').default,
     description: (
       <>
-        Our team of data management experts have many years of experience of running and supporting large-scale data management systems.
+        Our team of data management experts can design, load and productionise any data - fast. A full suite of automations covers history loading, validation and ongoing monitoring. Don't wait for new data.
       </>
     )
   },
@@ -61,7 +61,7 @@ const WhyChoose = [
     jpg: require('../../static/img/logo.png').default,
     description: (
       <>
-        Our clients receive world-class support so that best-practice data management becomes second nature.
+        Our clients receive world-class support so that best-practice data management becomes second nature. 24/5, 24/7, Working Hours - choose the package that is right for you.
       </>
     )
   },
@@ -70,7 +70,7 @@ const WhyChoose = [
     jpg: require('../../static/img/logo.png').default,
     description: (
       <>
-        Our product was built for the cloud, utilising the world-scale capabilities of the Microsoft Azure platform.
+        Our product was built in the cloud for the cloud, utilising the world-scale capabilities of the Microsoft Azure platform. Autoscaling ensures our platform doesn't slow down, neither do your critical tasks.
       </>
     )
   },
@@ -79,7 +79,7 @@ const WhyChoose = [
     jpg: require('../../static/img/logo.png').default,
     description: (
       <>
-        Use your own Microsoft Entra ID (Active Directory) to authorise access for your users.
+        Use your own Microsoft Entra ID (Active Directory) to authorise access for your users. Integrate security and authentication into your own corporate workflow.
       </>
     )
   },
@@ -88,7 +88,7 @@ const WhyChoose = [
     jpg: require('../../static/img/logo.png').default,
     description: (
       <>
-        Seamlessly integrate with your ETRM/CTRM system and all your other major business systems.
+        Seamlessly integrate with your ETRM/CTRM system and all your other major business systems. Push/Pull, File, API, Queue, Bucket and more - we have you covered.
       </>
     )
   }

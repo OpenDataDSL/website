@@ -29,6 +29,7 @@ export default function Home() {
                         <Benefits />
                     </div>
                     <div class="col">
+                        <Tagline />
                         <CTA />
                     </div>
                 </div>
@@ -56,10 +57,13 @@ export default function Home() {
             <div className={styles.smallsectionskip} />
             <WhyChooseODSL />
             <div className={styles.smallsectionskip} />
+            <CTA />
+            <div className={styles.smallsectionskip} />
             <News />
             <div className={styles.smallsectionskip} />
             <Products />
             <div className={styles.smallsectionskip} />
+            <CTA />
             <HomepageNextSteps />
             <div className={styles.smallsectionskip} />
             <HomepageAbout />
@@ -71,11 +75,17 @@ export default function Home() {
   );
 }
 
-function CTA() {
+function Tagline() {
     return (
     <div className={styles.heroBanner}>
         <div className={styles.tagline}>GO BEYOND</div>
         <div className={styles.tagline2}>THE BASICS</div>
+    </div>
+    );
+}
+function CTA() {
+    return (
+    <div className={styles.heroBanner}>
         <div className={styles.h_text_minor}>
             <div class="pt-2">
                 <Button className={styles.signupbutton} href="/contact">CONTACT US</Button>
