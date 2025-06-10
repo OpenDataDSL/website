@@ -12,13 +12,27 @@ Here at OpenDataDSL we are clear on our mission – to take the data that matter
 
 For our clients to be successful our partnerships need to be successful – increasingly a solution is not solely owned by one company, but a collection of best of breed capabilities provided by multiple organisations who collaborate when things are going well and even more so when they are not. Having trusted expert partners and being open to sharing knowledge, insight and opportunities benefits ourselves, our clients and our partners. 
 
-OpenDataDSL offers our partners 
+### Partner Benefits 
+
+<container className={styles.datablock}>
+<div class="row">
+<div class="col-lg-8">
 
 * Training and access to our documentation and people
 * Support in demonstrations and tender processes
 * Access to our platform to enable integration
 * Expertise in data and data management to help our partners optimize their solutions
-* Referral programme to ensure we all benefit from helping our ecosystem grow
+* [Referral program](/referrals) to ensure we all benefit from helping our ecosystem grow
+
+</div>
+<div class="col-lg-4">
+<a href="/referrals"><img src="/img/referral-program.jpg" /></a>
+</div>
+</div>
+</container>
+
+
+### Contact Us
 
 If you are interested in becoming a partner, email our partners team at partner@opendatadsl.com. 
 
