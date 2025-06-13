@@ -11,9 +11,12 @@ We are welcoming new partners to become referral partners to earn referral incom
 
 Generate income by referring OpenDataDSL to your clients or build extensions and insights within the platform for specific market sector functionality.
 
-### Unlimited Earning Potential
-
 <Container className={styles.datablock}>
+    <Card className={styles.goldcard}>
+        <Card.Body className={styles.body}>
+            <span className={styles.goldtext}>Unlimited Earning Potential</span>
+        </Card.Body>
+    </Card>    
     <Card className={styles.card}>
         <Card.Body className={styles.body}>
             <h2>Earn up to 40%</h2>
@@ -43,7 +46,9 @@ Generate income by referring OpenDataDSL to your clients or build extensions and
     </Card>    
 </Container>
 
-### Typical OpenDataDSL Referral Partners
+<hr />
+
+## Typical OpenDataDSL Referral Partners
 The OpenDataDSL referral program is a great match for:
 
 * **Developers**

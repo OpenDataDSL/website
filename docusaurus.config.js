@@ -33,7 +33,10 @@ module.exports = {
             {to: '/utility', label: 'Utilities'},
             {to: '/mongodb', label: 'MongoDB Users'}
         ]},
-        {to: '/partners', label: 'Partners', position: 'left'},
+        {type:'dropdown', label: 'Partners', position: 'left', items:[
+            {to: '/partners', label: 'Partner Program'},
+            {to: '/referrals', label: 'Referral Program'}
+        ]},
         {to: '/news', label: 'News', position: 'left'},
         {to: '/events', label: 'Events', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
