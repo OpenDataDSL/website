@@ -1,0 +1,38 @@
+.datablock {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 16rem;
+    border-color: orange;
+    margin-bottom: 10px;
+}
+
+.goldcard {
+    background-image: url("/img/gold_background.jpg");
+    width: 100%;
+    border-color: gold;
+    margin-bottom: 10px;
+}
+
+.goldtext {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.body {
+    text-align: center;
+    font-size: 18px;
+}
+.message {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+

@@ -35,7 +35,8 @@ module.exports = {
         ]},
         {type:'dropdown', label: 'Partners', position: 'left', items:[
             {to: '/partners', label: 'Partner Program'},
-            {to: '/referrals', label: 'Referral Program'}
+            {to: '/referrals', label: 'Referral Program'},
+            {to: '/developers', label: 'Developer Program'}
         ]},
         {to: '/news', label: 'News', position: 'left'},
         {to: '/events', label: 'Events', position: 'left'},
