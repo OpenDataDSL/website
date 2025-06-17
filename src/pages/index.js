@@ -80,8 +80,9 @@ export default function Home() {
 function Tagline() {
     return (
     <div className={styles.heroBanner}>
-        <div className={styles.tagline}>GO BEYOND</div>
-        <div className={styles.tagline2}>THE BASICS</div>
+        <div className={styles.tagline}>GET STARTED</div>
+        <div className={styles.tagline2}><a href="/plans">FROM €60</a></div>
+        <div className={styles.chatter}>per user per month</div>
     </div>
     );
 }
@@ -100,6 +101,7 @@ function CTA() {
 function Benefits() {
     return (
     <div className={styles.heroBanner}>
+        <div className={styles.feature}>GO BEYOND THE BASICS</div>
         <div className={styles.chatter}>
             <span className={styles.dot} />
             <span className={styles.feature}> Data capture </span>

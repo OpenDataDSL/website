@@ -29,13 +29,14 @@ You can add these loaders to your private database, configuring your own credent
 
 If you want us to build you a loader that we don't currently have, simply email our [data team - data@opendatadsl.com](mailto:data@opendatadsl.com)
 
-### Private managed storage
-You get 6Gb (per tenant) of MongoDB Atlas data storage included in your plan price.
-> Additional storage is chargeable at £250/10Gb/month
+## Additional Costs
+The only costs you would pay on top of the plan fees are for additional storage, compute hours and licensed data management.
 
-### Process Executions
-You get 250 process executions/month included in your plan price.
-> Additional process executions are chargeable at £25/250 executions/month
+|Type|Included|Equivalence|Additional|
+|-|-|-|-|
+|Storage|10Gb|1 million curves|€25/10Gb/Month|
+|Compute|10 Hours|300 curves/day/month|€5/10 Hr/Month|
+|Data|Public Only||Usually €50/feed/month contact us for a quote|
  
 ## Getting Started
 To get started, click the ```Portal``` button in the title bar which will direct you to the web portal to sign up.

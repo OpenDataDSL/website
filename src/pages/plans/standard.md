@@ -32,10 +32,14 @@ Use the OpenDataDSL cloud-based REST API to access all your data
 
 <MoreInfo href="https://doc.opendatadsl.com/docs/api/rest/standards" />
 
-### Private managed storage
-You get 2Gb (per tenant) of MongoDB Atlas data storage included in your plan price.
+## Additional Costs
+The only costs you would pay on top of the plan fees are for additional storage, compute hours and licensed data management.
 
-> Additional storage is chargeable at £250/10Gb/month
+|Type|Included|Equivalence|Additional|
+|-|-|-|-|
+|Storage|10Gb|1 million curves|€25/10Gb/Month|
+|Compute|10 Hours|300 curves/day/month|€5/10 Hr/Month|
+|Data|Public Only||Usually €50/feed/month contact us for a quote|
 
 ## Getting Started
 To get started, click the ```Portal``` button in the title bar which will direct you to the web portal to sign up.

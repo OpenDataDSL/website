@@ -33,7 +33,7 @@ This page gives an overview of the OpenDataDSL pricing plans - click on any of t
             </ul> 
         </Card.Body>
     </Card>    
-    <Card className={styles.card}>
+    <Card className={styles.cardhighlight}>
         <Card.Header className={styles.header}><a href="/plans/standard"><span className={styles.name}>Standard</span><br/><span className={styles.gbp}>€</span><span className={styles.price}>60</span><br/><span className={styles.info}>/user/month<br /><br /></span></a></Card.Header>
         <Card.Body className={styles.body}>
             <span className={styles.bold}>Community features plus:</span>

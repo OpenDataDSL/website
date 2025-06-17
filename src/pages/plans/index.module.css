@@ -9,6 +9,12 @@
     border-color: orange;
 }
 
+.cardhighlight {
+    width: 18rem;
+    border-color: green;
+    border-width: medium;
+}
+
 .header {
     text-align: center;
     font-weight: bold;
