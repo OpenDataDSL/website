@@ -12,8 +12,8 @@ import {Demo} from '/src/components/Forms.js';
   </div>
   <div className="column">
   <h2>Where Does the Vendor Stop and the Client Start?</h2>
-  <p>The latest OpenDataDSL platform release has a major new feature: Extensions</p>
-  <p>Extensions allow us, our partners and you to extend the platform portal, allowing you to create bespoke tools and functionality.</p> 
+  <p>This blog lays out the problems with legacy, locked-down data management technology and services.</p>
+  <p>The solution is to use a true data management platform that empowers companies to create, enrich and extend their data experience with an extensible data management platform like <b>OpenDataDSL</b>.</p> 
   </div>
 </div>
 
@@ -41,10 +41,10 @@ Many business users are already proficient in tools like Python and use them to 
 Give these users direct access to the data, APIs, and transformation tools they need, and they’ll accelerate your business. Faster iteration. More insight. Greater productivity—enterprise-wide.
 
 ## Where Does OpenDataDSL Fit In?
-OpenDataDSL was built with this new model in mind—a cloud-native data platform designed to ingest, curate, cleanse, transform, secure, and integrate business-critical data intelligently, securely, and transparently.
+OpenDataDSL was built with this new model in mind—a cloud-native data platform designed to **ingest, curate, cleanse, transform, secure, and integrate** business-critical data intelligently, securely, and transparently.
 At every step of the data lifecycle, robust tools put users in control. You gain visibility into data quality, completeness, readiness, and purpose—all enriched with contextual metadata, business calendars, standard transformations, and intuitive visualizations.
 But we didn’t stop there.
-We’ve developed a rich suite of tools, APIs, and services that empower users to create custom calculations, integrations, quality checks, reports, and dashboards—all within the platform.
+We’ve developed a rich suite of **tools, APIs, and services** that empower users to create custom calculations, integrations, quality checks, reports, and dashboards—all within the platform.
 And now, we’ve taken the next step:
 
 ## Custom Extensions
@@ -54,7 +54,7 @@ These extensions can be shared with internal teams or external partners, enablin
 
 ## From Consumer to Creator
 Our mission is simple: move beyond passive consumption.
-With OpenDataDSL, you're not just managing data—you’re creating value with it.
+With OpenDataDSL, you're not just managing data—you’re **creating value** with it.
 
 ### OpenDataDSL — Go Beyond the Basics.
 
