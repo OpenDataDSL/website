@@ -92,7 +92,7 @@ function CTA() {
         <div className={styles.h_text_minor}>
             <div class="pt-2">
                 <Button className={styles.signupbutton} href="/contact">CONTACT US</Button>
-                <Button className={styles.signupbutton} href="/SignUp">START FOR FREE</Button>
+                <Button className={styles.signupbutton} href="/POC">FREE PROOF OF CONCEPT</Button>
             </div>
         </div>
     </div>
