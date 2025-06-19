@@ -2,6 +2,7 @@
 slug: platform-extensions
 title: Platform Extensions
 authors: [sjackson]
+image: /img/blog/platform-extensions.jpg
 tags: [platform, odsl, extensions]
 ---
 import {Demo} from '/src/components/Forms.js';
