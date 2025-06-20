@@ -12,6 +12,8 @@ import styles from './index.module.css';
 
 This page gives an overview of the OpenDataDSL pricing plans - click on any of the plans to get further detailed information on the plans and how to get started.
 
+### Want to know if OpenDataDSL is right for you?
+Check out our [FREE Proof of Concept](/POC) offer!
 
 <Container className={styles.datablock}>
     <Card className={styles.card}>
