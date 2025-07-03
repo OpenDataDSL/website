@@ -15,7 +15,7 @@ import {Demo} from '/src/components/Forms.js';
   </div>
   <div className="column">
   <h2>What is the OpenDataDSL Platform?</h2>
-  <p>A platform transforms operations by delivering intelligent data management, automated processes, and actionable insights that drive both operational efficiency and regulatory compliance.</p>
+  <p>A platform that transforms operations by delivering intelligent data management, automated processes, and actionable insights that drive both operational efficiency and regulatory compliance.</p>
   <p>A platform that has AI-powered data ingestion that adapts to changing formats and automated actions triggered by real-time performance thresholds.</p> 
   </div>
 </div>
