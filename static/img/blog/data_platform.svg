@@ -1,0 +1,95 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="32" font-weight="bold" fill="#1e293b">
+    OpenDataDSL Platform
+  </text>
+  
+
+
+  <!-- Main Platform Box -->
+  <rect x="50" y="100" width="710" height="320" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" rx="10"/>
+  
+  <!-- Platform Title -->
+  <text x="400" y="125" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">
+    Smart Energy Data Platform
+  </text>
+  
+  <!-- Four Capabilities (2x2 grid) -->
+  
+  <!-- Data Modelling -->
+  <g transform="translate(70, 140)">
+    <rect x="0" y="0" width="330" height="120" fill="#ecfdf5" stroke="#10b981" stroke-width="2" rx="8"/>
+    <text x="10" y="20" font-size="18" font-weight="bold" fill="#065f46">1. Data Modelling</text>
+    <text x="10" y="42" font-size="16" fill="#065f46">• Metadata organization</text>
+    <text x="10" y="62" font-size="16" fill="#065f46">• Structural data mapping</text>
+    <text x="10" y="82" font-size="16" fill="#065f46">• Time-series capture</text>
+    <text x="10" y="102" font-size="16" fill="#065f46">• Unified data layer</text>
+  </g>
+  
+  <!-- Data Ingestion -->
+  <g transform="translate(410, 140)">
+    <rect x="0" y="0" width="330" height="120" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="8"/>
+    <text x="10" y="20" font-size="18" font-weight="bold" fill="#1e40af">2. Data Ingestion</text>
+    <text x="10" y="42" font-size="16" fill="#1e40af">• AI-powered ETL</text>
+    <text x="10" y="62" font-size="16" fill="#1e40af">• Smart loaders</text>
+    <text x="10" y="82" font-size="16" fill="#1e40af">• Quality monitoring</text>
+    <text x="10" y="102" font-size="16" fill="#1e40af">• Real-time adaptation</text>
+  </g>
+  
+  <!-- Data Automations -->
+  <g transform="translate(70, 270)">
+    <rect x="0" y="0" width="330" height="120" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+    <text x="10" y="20" font-size="18" font-weight="bold" fill="#92400e">3. Data Automation</text>
+    <text x="10" y="42" font-size="16" fill="#92400e">• Threshold-based triggers</text>
+    <text x="10" y="62" font-size="16" fill="#92400e">• Load balancing alerts</text>
+    <text x="10" y="82" font-size="16" fill="#92400e">• Automated reporting</text>
+    <text x="10" y="102" font-size="16" fill="#92400e">• Compliance integration</text>
+  </g>
+  
+  <!-- Dashboards & Reporting -->
+  <g transform="translate(410, 270)">
+    <rect x="0" y="0" width="330" height="120" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="2" rx="8"/>
+    <text x="10" y="20" font-size="18" font-weight="bold" fill="#6b21a8">4. Data Insights</text>
+    <text x="10" y="42" font-size="16" fill="#6b21a8">• Interactive visualizations</text>
+    <text x="10" y="62" font-size="16" fill="#6b21a8">• Performance analytics</text>
+    <text x="10" y="82" font-size="16" fill="#6b21a8">• Real-time insights</text>
+    <text x="10" y="102" font-size="16" fill="#6b21a8">• Decision support</text>
+  </g>
+  
+  <!-- Outcomes (Bottom) -->
+  <g transform="translate(50, 460)">
+    <text x="0" y="0" font-size="16" font-weight="bold" fill="#475569">Key Outcomes</text>
+    
+    <!-- Operational Efficiency -->
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="160" height="50" fill="#dcfce7" stroke="#16a34a" stroke-width="2" rx="5"/>
+      <text x="80" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Operational</text>
+      <text x="80" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Efficiency</text>
+    </g>
+    
+    <!-- Regulatory Compliance -->
+    <g transform="translate(190, 20)">
+      <rect x="0" y="0" width="160" height="50" fill="#dbeafe" stroke="#2563eb" stroke-width="2" rx="5"/>
+      <text x="80" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Regulatory</text>
+      <text x="80" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Compliance</text>
+    </g>
+    
+    <!-- Smart Decision Making -->
+    <g transform="translate(360, 20)">
+      <rect x="0" y="0" width="160" height="50" fill="#fef3c7" stroke="#d97706" stroke-width="2" rx="5"/>
+      <text x="80" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#b45309">Smart Decision</text>
+      <text x="80" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#b45309">Making</text>
+    </g>
+    
+    <!-- Sustainability -->
+    <g transform="translate(530, 20)">
+      <rect x="0" y="0" width="160" height="50" fill="#f0fdf4" stroke="#059669" stroke-width="2" rx="5"/>
+      <text x="80" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Sustainability</text>
+      <text x="80" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Goals</text>
+    </g>
+  </g>
+  
+</svg>
