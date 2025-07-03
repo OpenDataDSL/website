@@ -2,14 +2,16 @@
 slug: data-driven-innovation
 title: Data Driven Innovation
 authors: [chartley]
-image: /img/blog/data-platform.svg
+image: /img/blog/data-platform.jpg
 tags: [platform, odsl, extensions]
 ---
 import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="column">
-    <object data="/img/blog/data_platform.svg" type="image/svg+xml" width="750px" />
+    <object data="/img/blog/data_platform.svg" type="image/svg+xml" width="750px">
+        <img src="/img/blog/data_platform.jpg" />
+    </object>
   </div>
   <div className="column">
   <h2>What is the OpenDataDSL Platform?</h2>

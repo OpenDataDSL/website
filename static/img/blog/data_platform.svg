@@ -64,31 +64,31 @@
     <text x="0" y="0" font-size="16" font-weight="bold" fill="#475569">Key Outcomes</text>
     
     <!-- Operational Efficiency -->
-    <g transform="translate(100, 20)">
-      <rect x="0" y="0" width="120" height="50" fill="#dcfce7" stroke="#16a34a" stroke-width="2" rx="5"/>
-      <text x="60" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Operational</text>
-      <text x="60" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Efficiency</text>
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="160" height="50" fill="#dcfce7" stroke="#16a34a" stroke-width="2" rx="5"/>
+      <text x="80" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Operational</text>
+      <text x="80" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Efficiency</text>
     </g>
     
     <!-- Regulatory Compliance -->
-    <g transform="translate(240, 20)">
-      <rect x="0" y="0" width="120" height="50" fill="#dbeafe" stroke="#2563eb" stroke-width="2" rx="5"/>
-      <text x="60" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Regulatory</text>
-      <text x="60" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Compliance</text>
+    <g transform="translate(190, 20)">
+      <rect x="0" y="0" width="160" height="50" fill="#dbeafe" stroke="#2563eb" stroke-width="2" rx="5"/>
+      <text x="80" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Regulatory</text>
+      <text x="80" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Compliance</text>
     </g>
     
     <!-- Smart Decision Making -->
-    <g transform="translate(380, 20)">
-      <rect x="0" y="0" width="120" height="50" fill="#fef3c7" stroke="#d97706" stroke-width="2" rx="5"/>
-      <text x="60" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#b45309">Smart Decision</text>
-      <text x="60" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#b45309">Making</text>
+    <g transform="translate(360, 20)">
+      <rect x="0" y="0" width="160" height="50" fill="#fef3c7" stroke="#d97706" stroke-width="2" rx="5"/>
+      <text x="80" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#b45309">Smart Decision</text>
+      <text x="80" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#b45309">Making</text>
     </g>
     
     <!-- Sustainability -->
-    <g transform="translate(520, 20)">
-      <rect x="0" y="0" width="120" height="50" fill="#f0fdf4" stroke="#059669" stroke-width="2" rx="5"/>
-      <text x="60" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Sustainability</text>
-      <text x="60" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Goals</text>
+    <g transform="translate(530, 20)">
+      <rect x="0" y="0" width="160" height="50" fill="#f0fdf4" stroke="#059669" stroke-width="2" rx="5"/>
+      <text x="80" y="20" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Sustainability</text>
+      <text x="80" y="38" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Goals</text>
     </g>
   </g>
   
