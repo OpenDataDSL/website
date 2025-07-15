@@ -1,7 +1,7 @@
 ---
 slug: etw-2025
 title: Energy Trading Week
-image: /img/events/etw.jpg
+image: /img/events/ETW_EU.png
 authors: [rvieira]
 tags: [events, conference]
 ---
@@ -20,16 +20,26 @@ tags: [events, conference]
 
 <hr/>
 
-#### 25-26th September 2025 - London Business Design Centre
+### 25-26th September 2025 - London Business Design Centre
 
-## Exhibition Stand 39
-Visit us in the exhibition area at stand 39, we will be thrilled to show you how our platform is revolutionising Market Data Operations.
-
-Ask us about:
-* How we can get you started from as little as €60 per user per month
-* How we are using generative AI to create forward curves and insights
-
-Put your business card in the draw to win some wonderful prizes.
+<div className="row">
+  <div className="column">
+    <img src="/img/events/ETW.jpg"/>
+  </div>
+  <div className="column">
+    <h2>Exhibition Stand 39</h2>
+  <p>Visit us in the exhibition area at stand 39, we will be thrilled to show you how our platform is revolutionising Market Data Operations.</p>
+    <h4>Ask us about:</h4>
+    <ul>
+        <li>How we can get you started from as little as €60 per user per month</li>
+        <li>How we are using generative AI to create forward curves and insights</li>
+        <li>How we can optimise your market data operations</li>
+        <li>How SMART curves are the quickest and smartest way to create Forward Curves</li>
+    </ul>
+    <h4>Prize Draw</h4>
+    <p>Put your business card in the draw to win some wonderful prizes.</p>
+  </div>
+</div>
 
 ## Panel Discussion - Thursday 12:15 - 13:00
 Join the **Data Leaders on Energy Data Management** panel discussion where our CEO, Colin Hartley, will be an expert panellist.
