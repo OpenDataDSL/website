@@ -219,7 +219,9 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         gtag: {trackingID: 'G-BXX397L1KH'},
-        docs: false,
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js')
+        },
         blog: {
           postsPerPage: 'ALL',
           showReadingTime: true,
