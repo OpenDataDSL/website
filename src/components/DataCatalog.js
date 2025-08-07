@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './DataCatalog.module.css';
-var Data = require('/data/catalog.json');
+//var Data = require('https://odsldownloads.z6.web.core.windows.net/doc/catalog.json');
 import { Card, Container, Button, Col } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -8,10 +8,13 @@ import { faPlay, faCalendarDay, faGlobe, faMoneyBill } from '@fortawesome/free-s
 
 var filters = {tags: ["Financial"]};
 
+var response = await fetch('https://odsldownloads.z6.web.core.windows.net/doc/catalog.json');
+var Data = await response.json();
+
 function Logo(logo) {
-  var src = "/img/data/" + logo.logo;
+  var src = "https://doc.opendatadsl.com/img/data/" + logo.logo;
   return (
-    <Card.Img variant="top" src={src} className={styles.logo} />
+    <Card.Img variant="top" src={src} className={"logo "+styles.logo} />
   )
 }
 function Block(props) {
@@ -30,10 +33,20 @@ function Block(props) {
           <FontAwesomeIcon icon={faGlobe} />&nbsp;{props.region}
           <hr />
           {props.tags.map((item) => (
-            <Button key={item}>{item}</Button>
+            <span><Button className="btn-sm" key={item}>{item}</Button>&nbsp;</span>
           ))}
         </Card.Body>
       </Card>
+    );
+  }
+
+function ProviderRow(props) {
+    return (
+      <tr style={{ width: '18rem' }}>
+        <td><Logo logo={props.logo} /></td>
+        <td>{props.provider}</td>
+        <td>{props.links.map((l) => <span key={l.text}><a href={"https://doc.opendatadsl.com" + l.link}>{l.text}</a><br/></span>)}</td>
+      </tr>
     );
   }
 
@@ -44,6 +57,39 @@ function Block(props) {
             {Data.map((props, idx) => (
               <Block key={idx} {...props} />
             ))}
+          </Container>
+        </div>
+    );
+  }
+
+  export function DataProviders() {
+    var sorted = Data.sort((a,b) => a.provider.localeCompare(b.provider));
+    var list = [];
+    var last = null;
+    for (var item of sorted) {
+        if (last != null) {
+            if (last.provider == item.provider) {
+                last.links.push({link: item.link, text: item.text})
+            } else {
+                item.links = [{link: item.link, text: item.text}];
+                list.push(item);
+                last = item;
+            }
+        } else {
+            last = item;
+        }
+    }
+    return (
+        <div>
+          <Container className={styles.datablock}>
+            <table>
+                <thead><tr><th>Logo</th><th>Provider</th><th>Data Sets</th></tr></thead>
+                <tbody>
+                    {list.map((props, idx) => (
+                      <ProviderRow key={idx} {...props} />
+                    ))}
+                </tbody>
+            </table>
           </Container>
         </div>
     );
@@ -90,7 +136,7 @@ function TableRow(props) {
   return (
     <tr>
         <td>
-            <a href={props.props.link}><b>{props.props.provider}</b></a><br />
+            <a href={"https://doc.opendatadsl.com"+props.props.link} target="_blank"><b>{props.props.provider}</b></a><br />
             <sub>{props.props.text}</sub><br />
             <FontAwesomeIcon icon={faGlobe} /> {props.props.region}
         </td>
