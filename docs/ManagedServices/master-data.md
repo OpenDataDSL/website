@@ -1,5 +1,5 @@
 ---
-slug: /data/master-data
+slug: /managed_services/master-data
 title: Master Data
 sidebar_position: 2
 ---
@@ -31,5 +31,7 @@ Master Data in the OpenDataDSL platform is the key information about a product c
     video="/img/features/master-data-filtering.mp4"
     text1="Locating data in the platform is simple, intuitive and dynamic because it utilises master data properties."
     text2="Add custom tags to add your own nomenclature in order to enhance the searching and filtering for your end users."
+    section3="Save your filters"
+    text3="Saving your filters allows you to create a <a href='/docs/implementation/favourites'>one-click favourite</a> to improve productivity and get you right where you need to be."
 />
 </div>

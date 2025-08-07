@@ -1,5 +1,5 @@
 ---
-slug: excel
+slug: /applications/excel
 title: Excel Add-in
 sidebar_position: 3
 ---

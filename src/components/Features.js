@@ -35,14 +35,28 @@ function ShowText(props) {
             </div>
             <div>
                 <p>{props.text1}</p>
-                <p>{props.text2}</p>
+                {props.section2?<h4>{props.section2}</h4>:""}
+                {convertLinks(props.text2)}
+                <p></p>
                 {props.section3?<h4>{props.section3}</h4>:""}
-                <p>{props.text3}</p>
+                {convertLinks(props.text3)}
+                <p></p>
                 {props.section4?<h4>{props.section4}</h4>:""}
-                <p>{props.text4}</p>
+                {convertLinks(props.text4)}
             </div>
         </div>
     );
+}
+
+function convertLinks(text) {
+    if (text && text.includes("<a")) {
+        var before = text.substring(0, text.indexOf("<a"));
+        var after = convertLinks(text.substring(text.indexOf("</a>") + 4));
+        var name = text.substring(text.indexOf(">")+1, text.indexOf("</a>"))
+        var href = text.substring(text.indexOf("href=")+6, text.indexOf(">")-1)
+        return (<span>{before}<a href={href}>{name}</a>{after}</span>);
+    }
+    return (<span>{text}</span>);
 }
 
 function ShowButton(props) {

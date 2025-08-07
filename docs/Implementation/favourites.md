@@ -1,7 +1,7 @@
 ---
 slug: /implementation/favourites
 title: Groups and Favourites
-sidebar_position: 2
+sidebar_position: 1
 ---
 import { Feature } from '/src/components/Features';
 import styles from '/css/docs.module.css';
@@ -18,7 +18,7 @@ import styles from '/css/docs.module.css';
     section3="Dynamic"
     text3="Create dynamic groups based on a filter criteria that you define."
     section4="Functional"
-    text4="Use your groups in processes, scripts, automations and exports."
+    text4="Use your groups in <a href='/docs/integration/workflows'>workflows</a>, <a href='/docs/applications/odsl'>scripts</a>, <a href='/docs/integration/automations'>automations</a> and <a href='/docs/implementation/exports'>exports</a>."
 />
 <Feature
     title="Easily add items"

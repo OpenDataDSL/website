@@ -1,7 +1,7 @@
 ---
-slug: /applications/web-portal
-title: Web Portal
-sidebar_position: 2
+slug: /applications/odsl
+title: ODSL Language
+sidebar_position: 3
 ---
 
 ## Introduction
