@@ -1,12 +1,15 @@
 ---
-slug: /managed_services/master-data
-title: Master Data
+slug: /managed-services
+title: Managed Services
 sidebar_position: 2
 ---
 import { Feature } from '/src/components/Features';
 import styles from '/css/docs.module.css';
 
-<h2>Clean, categorised, descriptive, informative and searchable</h2>
+
+## Master Data
+
+<h3>Clean, categorised, descriptive, informative and searchable</h3>
 
 
 Master Data in the OpenDataDSL platform is the key information about a product comprised of:
@@ -18,15 +21,19 @@ Master Data in the OpenDataDSL platform is the key information about a product c
 
 
 <div className={styles.features}>
+
+### Detailed Information
+
 <Feature
-    title="Detailed Information"
     subtitle="Clear and precise information"
     image="/img/features/master-data.png"
     text1="Master Data is the glue that joins together all information related to a specific product."
     text2="For all the data we manage, we provide high quality master data which you can augment with your own properties, tags custom timeseries, curves, reports and documentation."
 />
+
+### Filtering
+
 <Feature
-    title="Filtering"
     subtitle="Automatic, dynamic filters"
     video="/img/features/master-data-filtering.mp4"
     text1="Locating data in the platform is simple, intuitive and dynamic because it utilises master data properties."

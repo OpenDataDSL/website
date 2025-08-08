@@ -15,9 +15,6 @@ export function Feature(props) {
     return (
             <div className="row padding-vert--md">
                 <div className="col text-left">
-                    <div>
-                        <h2>{props.title}</h2>
-                    </div>
                     <div className={border?styles.rowborder:styles.row}>
                         {ShowText(props)}
                         {props.video == null ? ShowImage(props.image, fixed, props.buttonurl, props.buttontext) : ShowVideo(props.video, props.buttonurl, props.buttontext)}
@@ -31,7 +28,7 @@ function ShowText(props) {
     return (
         <div className="text-left col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div>
-                <h3>{props.subtitle}</h3>
+                <h4>{props.subtitle}</h4>
             </div>
             <div>
                 <p>{props.text1}</p>
