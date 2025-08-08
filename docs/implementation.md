@@ -6,6 +6,10 @@ sidebar_position: 3
 import { Feature } from '/src/components/Features';
 import styles from '/css/docs.module.css';
 
+This page describes the features that are available for you to add into your private environment within the OpenDataDSL platform. 
+
+![](/img/features/implementation-horizontal.png)
+
 ## Groups and Favourites
 
 <h3>Organise, customise and group it together</h3>

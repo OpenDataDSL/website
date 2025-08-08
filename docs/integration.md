@@ -6,6 +6,10 @@ sidebar_position: 4
 import { Feature } from '/src/components/Features';
 import styles from '/css/docs.module.css';
 
+This page describes the integration possibilities with the OpenDataDSL platform.
+
+![](/img/features/integration-horizontal.png)
+
 ## Automations
 
 <h3>Reduce manual tasks, free up your time</h3>

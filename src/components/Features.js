@@ -85,7 +85,7 @@ function ShowImage(image, fixed, buttonurl, buttontext) {
     return (
         <div className="text-left col-xs-12 col-sm-12 col-md-8 col-lg-8">
             <div className="image_container">
-                <img className={fixed?styles.product_screenshot_fixed:styles.product_screenshot} src={image}/>
+                <img loading="lazy" className={fixed?styles.product_screenshot_fixed:styles.product_screenshot} src={image}/>
                 <ShowButton buttontext={buttontext} buttonurl={buttonurl} />
             </div>
         </div>
@@ -96,7 +96,7 @@ function ShowVideo(video, buttonurl, buttontext) {
     return (
         <div className="text-left col-xs-12 col-sm-12 col-md-8 col-lg-8">
             <div className="image_container">
-                <video loop="loop" autoPlay playsInline muted id="mejs_5779260256995651_html5" preload="none" src={video} className={styles.datavideo} >
+                <video loading="lazy" loop="loop" autoPlay playsInline muted id="mejs_5779260256995651_html5" preload="none" src={video} className={styles.datavideo} >
                     <source type="video/mp4" src={video} />
                 </video>
                 <ShowButton buttontext={buttontext} buttonurl={buttonurl} />
@@ -110,7 +110,7 @@ function ShowLinkImage(image, buttonurl) {
         <div className="text-left col-xs-12 col-sm-12 col-md-8 col-lg-8">
             <a href={buttonurl}>
                 <div className="image_container">
-                    <img className={styles.product_screenshot_fixed} src={image}/>
+                    <img loading="lazy" className={styles.product_screenshot_fixed} src={image}/>
                 </div>
             </a>
         </div>
