@@ -8,16 +8,16 @@ sidebar_position: 1
 
 <div className="container">
     <div className="row">
-        <div className="col-3">
+        <div className="col-xs-12 col-sm-12 col-md-3">
             <a href="/docs/managed-services"><img src="/img/features/managed-services.png" /></a>
         </div>
-        <div className="col-3">
+        <div className="col-xs-12 col-sm-12 col-md-3">
             <a href="/docs/implementation"><img src="/img/features/implementation.png" /></a>
         </div>
-        <div className="col-3">
+        <div className="col-xs-12 col-sm-12 col-md-3">
             <a href="/docs/integration"><img src="/img/features/integration.png" /></a>
         </div>
-        <div className="col-3">
+        <div className="col-xs-12 col-sm-12 col-md-3">
             <a href="/docs/applications"><img src="/img/features/applications.png" /></a>
         </div>
     </div>
