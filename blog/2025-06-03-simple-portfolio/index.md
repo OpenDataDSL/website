@@ -1,6 +1,7 @@
 ---
 slug: simple-portfolio
 title: Simple Portfolio
+image: /img/blog/portfolio/portfolio.jpg
 authors: [chartley]
 tags: [portfolio, profit, finance, odsl, extensions]
 ---
