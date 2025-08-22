@@ -194,6 +194,11 @@ function Saved() {
             <div className={styles.section}>
                 <h4>Thank You!</h4>
                 <PrizeName preText="You are in the prize draw" />
+                <p className="border border-success m-5 p-5">
+                    Why not take a quick tour of the
+                    <p className="m-2"><b>OpenDataDSL Market Data Management Platform</b></p>
+                    <a href="/docs"><img src="/img/gallery.png" /></a>
+                </p>
             </div>
         </div>
     );
@@ -216,7 +221,7 @@ function EndAndSave() {
                     <input className="form-control" type="email" id="q_email" />
                 </div>
             </div>
-            <button onClick={Save}>Save</button>
+            <button className="btn btn-success" onClick={Save}>Save</button>
         </div>
     );
 }
@@ -230,7 +235,7 @@ function Section() {
                 <h3>{section.id} : {section.name}</h3>
                 {section.questions.map((props,idx) => (<Question key={idx} {...props}/>))}
             </div>
-            <button onClick={nextSection}>Next</button>
+            <button className="btn btn-primary" onClick={nextSection}>Next</button>
         </div>
     );
 }
