@@ -194,7 +194,7 @@ function Saved() {
             <div className={styles.section}>
                 <h4>Thank You!</h4>
                 <PrizeName preText="You are in the prize draw" />
-                <p className="border border-success m-5 p-5">
+                <p className="border border-success m-5 p-2">
                     Why not take a quick tour of the
                     <p className="m-2"><b>OpenDataDSL Market Data Management Platform</b></p>
                     <a href="/docs"><img src="/img/gallery.png" /></a>
