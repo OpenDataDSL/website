@@ -14,6 +14,20 @@
       "name": "Market Data Management Platform",
       "questions": [
         {
+          "id": "You",
+          "question": "What business area/department do you work in?",
+          "type": "single",
+          "answers": [
+            { "text": "Front Office/Trading", "score": 0 },
+            { "text": "Middle Office", "score": 1 },
+            { "text": "Back Office", "score": 3 },
+            { "text": "Accounting", "score": 5 },
+            { "text": "IT", "score": 0 },
+            { "text": "Management", "score": 0 },
+            { "text": "Other", "score": 0 }
+          ]
+        },
+        {
           "id": "Q1",
           "question": "How would you rate your current market data management platform?",
           "type": "single",
