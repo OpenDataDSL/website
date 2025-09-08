@@ -124,6 +124,70 @@ He now joins OpenData DSL to promote the next generation of Market Data Manageme
 
 <hr />
 
+## Behind the data
+At ODSL, it’s not just about groundbreaking technology—it’s about the people who make it possible.
+We interviewed the OpenDataDSL key team members to explore their journeys, their roles in shaping the future of data management, and what drives their passion for building smarter, more scalable solutions.
+
+<div className="container"> 
+    <h5>Click on the portraits below to read their interviews</h5>
+    <h3>A conversation with:</h3>
+    <div className="row">
+        <div className="col-4">
+            <a href="https://www.linkedin.com/pulse/behind-data-meet-people-driving-innovation-odsl-renato-vieira-zaktf/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D">
+                <img style={{filter:'grayscale(1)',borderRadius:'10px'}} loading="lazy" src="https://media.licdn.com/dms/image/v2/D4D12AQHZV8bsdntsFA/article-cover_image-shrink_423_752/B4DZgXr201GgAc-/0/1752744029940?e=1759968000&v=beta&t=je3fddwiF-6UoV3l4lzWWGQeM07xJENspMPDIIAjcxo"></img>
+            </a>
+            <h4 style={{margin:'0px'}}>Ram Rangaiah</h4>
+            <i>Founder and COO</i>
+        </div>
+        <div className="col-4">
+            <a href="https://www.linkedin.com/pulse/behind-data-conversation-simon-jackson-operations-director-vieira-f7vgf/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D">
+                <img style={{filter:'grayscale(1)',borderRadius:'10px'}} loading="lazy" src="https://media.licdn.com/dms/image/v2/D4D12AQEnuMeVckUGVw/article-cover_image-shrink_720_1280/B4DZg8ofhUGQAI-/0/1753363904980?e=1759968000&v=beta&t=d5lRozAkTrzyRDTSkuk8nBbVpiDcXryfDKsgckT2fH0"></img>
+            </a>
+            <h4 style={{margin:'0px'}}>Simon Jackson</h4>
+            <i>Operations Director</i>
+        </div>
+        <div className="col-4">
+            <a href="https://www.linkedin.com/pulse/behind-data-conversation-dr-anja-vinzelberg-head-analytics-vieira-bl9ff/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D">
+                <img style={{filter:'grayscale(1)',borderRadius:'10px'}} loading="lazy" src="https://media.licdn.com/dms/image/v2/D4D12AQGHr8THpNdOXQ/article-cover_image-shrink_423_752/B4DZhfy_yPGQAU-/0/1753953861166?e=1759968000&v=beta&t=LBm8gDiOXTmdhiDPz_4o9P4qyWAl8vIt_H78dsis4iA"></img>
+            </a>
+            <h4 style={{margin:'0px'}}>Dr. Anja Vinzelberg</h4>
+            <i>Head of Data Analytics</i>
+        </div>
+        <hr/>
+        <div className="col-4">
+            <a href="https://www.linkedin.com/pulse/behind-data-4-engine-room-trusted-renato-vieira-qrjwf/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D">
+                <img style={{filter:'grayscale(1)',borderRadius:'10px'}} loading="lazy" width="300px" src="https://media.licdn.com/dms/image/v2/D4D12AQHgw--yr--lmw/article-cover_image-shrink_180_320/B4DZiD4LYHGgAo-/0/1754559199078?e=1759968000&v=beta&t=MIUWDFX6_sQyTN2R25ESpmqbRnbr3m8oUKqqpyVIJPU"></img>
+            </a>
+            <h4 style={{margin:'0px'}}>Shubha Swaroop</h4>
+            <i>Head of Data Operations</i>
+        </div>
+        <div className="col-4">
+            <a href="https://www.linkedin.com/pulse/behind-data-5-architecting-innovation-conversation-sunil-vieira-ieokf/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D">
+                <img style={{filter:'grayscale(1)',borderRadius:'10px'}} loading="lazy" src="https://media.licdn.com/dms/image/v2/D4D12AQHvqbrTqrf59A/article-cover_image-shrink_423_752/B4DZintnOOGkAY-/0/1755160409744?e=1759968000&v=beta&t=cUwxNrCDskpQXhAT2zT6gu4q-11wcolryJH3XFugAl4"></img>
+            </a>
+            <h4 style={{margin:'0px'}}>Sunil Ramesh</h4>
+            <i>Head of User Experience</i>
+        </div>
+        <div className="col-4">
+            <a href="https://www.linkedin.com/pulse/behind-data-6-connecting-vision-value-conversation-renato-vieira-dw0ef/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D">
+                <img style={{filter:'grayscale(1)',borderRadius:'10px'}} loading="lazy" src="https://media.licdn.com/dms/image/v2/D4D12AQEMGdIKiZt6Rw/article-cover_image-shrink_423_752/B4DZjL3Y6kH4Ac-/0/1755766951966?e=1759968000&v=beta&t=6Ry2zJMFL_fEFayar8lh8y92lv06upU8veal1C6OCMQ"></img>
+            </a>
+            <h4 style={{margin:'0px'}}>Renato Vieira</h4>
+            <i>Business Development Manager</i>
+        </div>
+        <hr/>
+        <div className="col-4">
+            <a href="https://www.linkedin.com/pulse/behind-data-7-leading-vision-building-purpose-from-idea-vieira-hu1gf/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D">
+                <img style={{filter:'grayscale(1)',borderRadius:'10px'}} loading="lazy" src="https://media.licdn.com/dms/image/v2/D4D12AQFiywY2p8POGA/article-cover_image-shrink_423_752/B4DZjwcf6tIEAU-/0/1756380659899?e=1759968000&v=beta&t=vu6XbsPBeJWH6c7myS-RfmRRXa93NoaFWTfIrNfNRJU"></img>
+            </a>
+            <h4 style={{margin:'0px'}}>Colin Hartley</h4>
+            <i>Founder and CEO</i>
+        </div>
+    </div>
+</div>
+
+<hr />
+
 ## Your next career move
 #### Are you interested in going beyond the basics?
 
