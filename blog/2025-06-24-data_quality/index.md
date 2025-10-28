@@ -30,6 +30,10 @@ import {Demo} from '/src/components/Forms.js';
 
 <!--truncate-->
 
+### Data Quality in Action
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iMkaV4Lxf5g?si=5JHxAebHwQA7pq6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ### Data as a Raw Material
 
 Regardless of volume, data on its own is just a raw material. 

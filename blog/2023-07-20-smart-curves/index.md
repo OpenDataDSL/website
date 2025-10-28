@@ -23,6 +23,9 @@ import {Demo} from '/src/components/Forms.js';
 
 <!--truncate-->
 
+### Smart Curves in Action
+<iframe width="560" height="315" src="https://www.youtube.com/embed/czAl3MwtVWU?si=TTu_m3lblnJZxTKC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### Creating Smart Curves
 Smart Curves are simply a Forward Curve with an expression applied to it.
