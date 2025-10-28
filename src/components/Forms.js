@@ -50,7 +50,7 @@ export function ContactForm() {
     return (
             <div className={styles.formpage}>
                 <p className={styles.filldetails}>Fill out your details below and somebody will be in contact with you very shortly.</p>
-                <form method="POST" action="https://odsl.azurewebsites.net/api/form/Sales">
+                <form method="POST" action="https://api.opendatadsl.com/api/form/Sales">
                     <div className="row">
                        <div className="col">
                           <div className="mb-3">
@@ -97,7 +97,7 @@ export function MiniContactForm() {
     return (
             <div className={styles.minipage}>
                 <p className={styles.filldetails}>Fill out your details below and somebody will be in contact with you very shortly.</p>
-                <form method="POST" action="https://odsl.azurewebsites.net/api/form/Sales">
+                <form method="POST" action="https://api.opendatadsl.com/api/form/Sales">
                     <div className="row">
                        <div className="col">
                           <div className="mb-3">
@@ -144,7 +144,7 @@ export function Webinar(content) {
     return (
             <div className={styles.eventpage}>
                 <p className={styles.filldetails}>Fill out your details below to register for this webinar.</p>
-                <form method="POST" action="https://odsl.azurewebsites.net/api/form/Webinar">
+                <form method="POST" action="https://api.opendatadsl.com/api/form/Webinar">
                     <div className="row">
                        <div className="col">
                           <div className="mb-3">
