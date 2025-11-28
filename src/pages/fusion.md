@@ -1,19 +1,22 @@
-# Fusion Marketing Content (Updated with New Features)
+## Fusion
+### Six AI Specialists. Infinite Customization. Intelligent Collaboration.
 
-## Hero Section
+<div className="row">
+  <div className="col-md">
+    <img src="/img/fusion/fusion_odsl.png"/>
+  </div>
 
-### Headline
-**Six AI Specialists. Infinite Customization. Intelligent Collaboration.**
-
-### Subheadline
-Fusion transforms how energy and commodity professionals work with OpenDataDSL—combining specialized AI assistants for analysis, curve modeling, operations, coding, and integration, plus the ability to create custom assistants for your unique workflows. One conversation, automatic expert routing, measurable results.
-
-### CTA
-**Start Building with Fusion** | **See It In Action**
+<div className="col-md mt-4">
+    <h3>What is Fusion?</h3>
+    <p>Fusion transforms how energy and commodity professionals — combining specialized AI assistants for analysis, curve modeling, operations, coding, and integration, plus the ability to create custom assistants for your unique workflows.</p>
+    <strong>One conversation, automatic expert routing, measurable results</strong>
+    <hr/>
+<a className="btn btn-primary me-1" href="/blog/fusion">Read the blog</a>
+<a className="btn btn-primary" href="https://outlook.office.com/bookwithme/user/b65847a3c74e442fa7163f549db68251@opendatadsl.com/meetingtype/oYnAbs9kbU6swY_macqH9g2?anonymous&ismsaljsauthenabled&ep=mLinkFromTile">See it in action</a>
+  </div>
+</div>
 
 ---
-
-## Above the Fold Description
 
 In energy and commodity markets, time is money. Every hour spent debugging code, building curves, or reconciling trades is an hour not spent on strategic decisions that move your business forward.
 
@@ -23,9 +26,7 @@ From hours to minutes. From generic AI to domain expertise. From one-size-fits-a
 
 ---
 
-## The Challenge Section
-
-### The Hidden Cost of Manual Data Work
+## The Hidden Cost of Manual Data Work
 
 Energy and commodity companies face relentless pressure to move faster with fewer resources. Yet data teams spend countless hours on tasks that don't directly generate value:
 
@@ -47,28 +48,34 @@ Energy and commodity companies face relentless pressure to move faster with fewe
 
 Fusion is six expert AI assistants (plus your custom specialists) engineered specifically for OpenDataDSL professionals in energy and commodity markets:
 
-**🧠 General Assistant**
-Your strategic partner for planning, problem-solving, and navigating complex challenges across the platform.
+* **General Assistant**
+> Your strategic partner for planning, problem-solving, and navigating complex challenges across the platform.
 
-**📊 Analyze Assistant**
-Deep data analysis, pattern recognition, and insights from your timeseries and market data—spot anomalies, validate data quality, and surface trends.
+* **Analyze Assistant**
+> Deep data analysis, pattern recognition, and insights from your timeseries and market data—spot anomalies, validate data quality, and surface trends.
 
-**📈 Curve Assistant**
-Forward curve modeling, curve construction, pricing algorithms, and market data expertise. Build and validate curves in minutes, not hours.
+* **Curve Assistant**
+> Forward curve modeling, curve construction, pricing algorithms, and market data expertise. Build and validate curves in minutes, not hours.
 
-**⚙️ Operations Assistant**
-MongoDB operations, data pipeline optimization, system architecture, and infrastructure guidance. Keep your data infrastructure running at peak efficiency.
+* **Operations Assistant**
+> MongoDB operations, data pipeline optimization, system architecture, and infrastructure guidance. Keep your data infrastructure running at peak efficiency.
 
-**💻 Code Assistant**
-ODSL code generation, debugging, optimization, and best practices. Your expert pair programmer who never takes a day off.
+* **Code Assistant**
+> ODSL code generation, debugging, optimization, and best practices. Your expert pair programmer who never takes a day off.
 
-**🔗 Integrate Assistant**
-API design, system integration, data flows, and connecting OpenDataDSL with ETRM systems, risk platforms, and your broader data ecosystem.
+* **Integrate Assistant**
+> API design, system integration, data flows, and connecting OpenDataDSL with ETRM systems, risk platforms, and your broader data ecosystem.
 
-**🎯 Your Custom Assistants**
-Trade reconciliation, compliance workflows, proprietary risk calculations, internal reporting—whatever your organization needs. Build specialists that understand your unique processes and connect to your systems.
+* **Your Custom Assistants**
+> Trade reconciliation, compliance workflows, proprietary risk calculations, internal reporting—whatever your organization needs. Build specialists that understand your unique processes and connect to your systems.
 
 Each assistant brings deep specialization. Together, they form a unified intelligence that understands your entire workflow.
+
+---
+
+## Fusion Architecture
+
+<img src="/img/fusion/fusion_architecture.png"/>
 
 ---
 
@@ -108,6 +115,29 @@ Your custom assistants work alongside Fusion's six core specialists, accessing t
 
 The workflows and domain expertise that differentiate your company can now be captured as AI-powered capabilities that your entire team can access instantly.
 
+## Agents
+
+Fusion agents are AI-powered specialists for energy and commodity professionals that automate complex workflows, generate code, analyze data, and integrate with your systems through natural conversation.
+
+Unlike general-purpose AI tools, Fusion agents understand the language of your industry—from ETRM systems and market data to REMIT compliance and curve building. They can generate OpenDataDSL code, analyze timeseries data, manage operations, and answer domain-specific questions with precision.
+
+### How Fusion Agents Benefit Users
+
+* **Accelerate daily workflows**
+  > Tasks that once required navigating multiple systems, writing queries, and formatting reports now happen through natural conversation. Need to analyze forward curves, check process execution status, or generate ODSL scripts? Just ask.
+
+* **Leverage your data intelligently**
+  > Fusion agents work with your licensed market data and internal systems while respecting data boundaries and privacy. They provide insights based on current information, not generic responses.
+
+* **Reduce technical barriers**
+  > Team members who aren't data engineers can still accomplish sophisticated tasks. The agents translate business questions into technical operations—generating correct ODSL code, building complex queries, and managing data workflows.
+
+* **Automate recurring tasks**
+  > Refine an analysis or report through conversation until it's exactly what you need, then schedule it to run automatically. Daily status summaries, weekly market analysis, or exception alerts—all delivered without manual intervention.
+
+* **Scale expertise**
+  > Your team gains access to specialized knowledge across data management, market analysis, compliance, and operations—without hiring additional specialists or waiting for expert availability.
+
 ---
 
 ## How It Works
@@ -131,24 +161,22 @@ When you need specialized functionality, create custom assistants trained on you
 
 ---
 
-## ROI Section
-
-### The Business Case for Fusion
+## The Business Case for Fusion
 
 **Accelerate Time-to-Value**
 
 | Task | Traditional Approach | With Fusion |
 |------|---------------------|-------------|
-| Build a new forward curve | 4-8 hours | 15-30 minutes |
+| Build a new forward curve | 4-8 hours | 1-5 minutes |
 | Debug complex ODSL script | 2-4 hours | 5-15 minutes |
-| Design integration architecture | 1-2 days | 1-2 hours |
-| Onboard new team member | 2-3 months | 2-3 weeks |
-| Create data quality report | 3-4 hours | 20-30 minutes |
-| Trade reconciliation review | 2-3 hours | 15-30 minutes |
+| Design integration architecture | 1-2 days | 20-30 minutes |
+| Onboard new team member | 2-3 months | 1-2 weeks |
+| Create data quality report | 3-4 hours | 1-2 minutes |
+| Trade reconciliation review | 2-3 hours | 1-2 minutes |
 
 **Quantified Benefits:**
 
-→ **60% reduction** in development time for routine data tasks  
+→ **90% reduction** in development time for routine data tasks  
 → **Faster onboarding** — new team members productive in weeks, not months  
 → **Reduced dependency** on specialist knowledge holders  
 → **Lower error rates** — catch issues before they reach production  
@@ -199,29 +227,29 @@ When you need specialized functionality, create custom assistants trained on you
 
 ### Why Energy & Commodity Teams Choose Fusion
 
-**⚡ Domain Expertise Built In**
-Fusion understands forward curves, basis differentials, settlement conventions, and energy market structures. No time wasted explaining industry basics.
+* **Domain Expertise Built In**
+> Fusion understands forward curves, basis differentials, settlement conventions, and energy market structures. No time wasted explaining industry basics.
 
-**🧠 Intelligent Expert Routing**
-Every question automatically goes to the right specialist. Code questions to the Code Assistant. Curve modeling to the Curve Assistant. Your proprietary workflows to your custom assistants. Full conversation context maintained throughout.
+* **Intelligent Expert Routing**
+> Every question automatically goes to the right specialist. Code questions to the Code Assistant. Curve modeling to the Curve Assistant. Your proprietary workflows to your custom assistants. Full conversation context maintained throughout.
 
-**🎯 Customizable for Your Operations**
-Extend Fusion with custom assistants trained on your specific processes. Connect to your internal systems. Deploy your institutional knowledge as AI capabilities.
+* **Customizable for Your Operations**
+> Extend Fusion with custom assistants trained on your specific processes. Connect to your internal systems. Deploy your institutional knowledge as AI capabilities.
 
-**🔄 Seamless System Integration**
-Connect OpenDataDSL with ETRM systems, risk platforms, trading systems, and regulatory reporting tools. Fusion knows the integration patterns that work.
+* **Seamless System Integration**
+> Connect OpenDataDSL with ETRM systems, risk platforms, trading systems, and regulatory reporting tools. Fusion knows the integration patterns that work.
 
-**📊 Market-Ready Analytics**
-From volatility analysis to seasonal decomposition, Fusion helps you extract insights from your timeseries data quickly and accurately.
+* **Market-Ready Analytics**
+> From volatility analysis to seasonal decomposition, Fusion helps you extract insights from your timeseries data quickly and accurately.
 
-**🛡️ Production-Grade Output**
-Every code suggestion includes error handling, logging, and follows OpenDataDSL best practices. Deploy with confidence.
+* **Production-Grade Output**
+> Every code suggestion includes error handling, logging, and follows OpenDataDSL best practices. Deploy with confidence.
 
-**📚 Institutional Knowledge Capture**
-Reduce key-person dependency. Fusion helps document processes, explain complex logic, and accelerate knowledge transfer across your team. Custom assistants preserve and scale your proprietary expertise.
+* **Institutional Knowledge Capture**
+> Reduce key-person dependency. Fusion helps document processes, explain complex logic, and accelerate knowledge transfer across your team. Custom assistants preserve and scale your proprietary expertise.
 
-**🚀 Rapid Prototyping**
-Test new ideas quickly. Build proof-of-concept curves, integrations, and analytics in hours instead of weeks.
+* **Rapid Prototyping**
+> Test new ideas quickly. Build proof-of-concept curves, integrations, and analytics in hours instead of weeks.
 
 ---
 
@@ -328,9 +356,7 @@ Leverage all six assistants across your data operations. Deploy custom assistant
 
 ---
 
-## Pricing/CTA Section
-
-### Start Delivering More with Less
+## Start Delivering More with Less
 
 **Ready to accelerate your energy and commodity data operations?**
 
@@ -340,7 +366,8 @@ Fusion is available now for teams who want to move faster without adding headcou
 **Custom Assistants** - Enterprise add-on for unlimited custom specialists  
 **Professional Services** - We help build your first custom assistants
 
-[**Get Started with Fusion**] [**Schedule a Demo**] [**Calculate Your ROI**]
+<a className="btn btn-primary me-1" href="/blog/fusion">Read the blog</a>
+<a className="btn btn-primary" href="https://outlook.office.com/bookwithme/user/b65847a3c74e442fa7163f549db68251@opendatadsl.com/meetingtype/oYnAbs9kbU6swY_macqH9g2?anonymous&ismsaljsauthenabled&ep=mLinkFromTile">See it in action</a>
 
 ---
 
@@ -372,24 +399,7 @@ A: Like all AI systems, custom assistants should be deployed with appropriate gu
 
 ---
 
-## Footer Tagline
-
 **Fusion: Accelerating Energy & Commodity Data Operations**
 
 *Six specialists. Infinite customization. Measurable results.*
 
----
-
-## Alternative Hero Options
-
-**Option 2:**  
-**Stop Adapting to Your Tools. Make Them Adapt to You.**  
-Six core AI specialists plus unlimited custom assistants—all working together with intelligent routing and full conversation context. Built for OpenDataDSL, tailored to your operations.
-
-**Option 3:**  
-**The AI Platform That Grows With Your Business**  
-From ODSL code generation to proprietary trade reconciliation—Fusion combines specialized intelligence with the flexibility to build exactly what your organization needs.
-
----
-
-This updated content positions Fusion as both a powerful out-of-the-box solution and a flexible platform that enterprises can extend to match their unique operations—addressing both immediate productivity needs and long-term strategic value.
