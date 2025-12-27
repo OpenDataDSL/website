@@ -249,7 +249,7 @@ export function HomepageAbout() {
 
 export function WhyChooseODSL() {
   return (
-    <section className="hidden">
+    <section>
       <div className="container">
         <div className="row">
             <p className={styles.sectionheader}>World-class support meets smart technology</p>
