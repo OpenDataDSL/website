@@ -8,6 +8,7 @@ import {HomepageFeatures, HomepageAbout, HomepageNextSteps} from '../components/
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import CookieConsent from "react-cookie-consent";
 import { Product, VideoBanner, SocialMedia, UseCase } from '../components/Industry';
+import { initialiseAnimations } from '../components/Animations';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
