@@ -139,28 +139,46 @@
   padding-bottom: 180px;
   background-color: var(--aigence-black7, #020B28);
 }
+.herodiv {
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
 @media (max-width: 1199px) {
   .herotwo {
-    padding-top: 190px;
-    border-radius: 40px 40px 60px 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 991px) {
   .herotwo {
-    padding-top: 190px;
-    border-radius: 0px 0px 60px 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 575px) {
   .herotwo {
-    border-radius: 0px 0px 30px 30px;
+    padding-bottom: 20px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 405px) {
   .herotwo {
-    padding-top: 180px;
+    padding-left: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
+@media (max-width: 320px) {
+  .herotwo {
+    padding-left: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+
 .herotwo__bg {
   position: relative;
   position: absolute;
@@ -638,12 +656,6 @@
   background: var(--aigence-base, #D032AF);
 }
 
-.herodiv {
-    background: white;
-    width: 373px;
-    height: 580px;
-    border-radius: 30px;
-}
 
 .swiper_header {
     display: block;

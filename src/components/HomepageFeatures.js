@@ -333,8 +333,13 @@ export function AIHero() {
                   speed={1000}
                   autoplay={{delay:3000, pauseOnMouseEnter: true, disableOnInteraction: false}}
                   autoHeight={true}
-                  //onSlideChange={() => console.log('slide change')}
-                  onSwiper={(swiper) => console.log(swiper)}
+                  breakpoints={{
+                        "0": {"slidesPerView": 1},
+                        "576": {"slidesPerView": 2},
+                        "992": {"slidesPerView": 3},
+                        "1200": {"slidesPerView": 5},
+                        "2500": {"slidesPerView": 6}
+                    }}
                 >
                   {BenefitList.map((props, idx) => (
                     <SwiperSlide key={idx}>
