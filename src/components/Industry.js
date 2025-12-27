@@ -30,6 +30,7 @@ export function Product(props) {
 
     if (props.left == "true" || isMobile) {
         return (
+            <section className="hidden">
                 <div className="row padding-vert--md">
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
                     <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
@@ -40,9 +41,11 @@ export function Product(props) {
                     </div>
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
                 </div>
+            </section>
         );
     } else {
         return (
+            <section className="hiddenright">
                 <div className="row padding-vert--md">
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
                     <div className="col  text-left col-xs-12 col-sm-10 col-md-10 col-lg-10">
@@ -53,6 +56,7 @@ export function Product(props) {
                     </div>
                     <div className="text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"> </div>
                 </div>
+            </section>
         );
     }
 }

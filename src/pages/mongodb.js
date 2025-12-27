@@ -13,7 +13,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
-        <main>
+        <main onLoad={initialiseAnimations}>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
             <VideoBanner video="/img/home/mongodb.mp4" text="All the tools you need to make the most of your MongoDB database" hltext={styles.h_text_highlight_green}>
                 <span>Turbocharge your <span className={styles.h_text_highlight_green}>MongoDB</span> Project</span>

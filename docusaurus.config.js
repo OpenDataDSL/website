@@ -240,7 +240,8 @@ module.exports = {
     {src:'/js/captcha.js',module:true},
     '/js/visitorqueue.js',
     {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true},
-    {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true}
+    {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true},
+    {src:'/js/app.js', defer: true}
   ],
   stylesheets: [{
         rel: "dns-prefetch",
@@ -256,6 +257,8 @@ module.exports = {
         href: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css",
         integrity: "sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We",
         crossorigin: "anonymous"
-    }
+    },
+    {rel: "stylesheet", href: "/css/animate.min.css"},
+    {rel: "stylesheet", href: "/css/app.css"}
   ]
 };

@@ -13,7 +13,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout title={`${siteConfig.title}`} description="Smart Data Management Tools">
-        <main>
+        <main onLoad={initialiseAnimations}>
             <CookieConsent location="top" overlay>We use cookies to personalise content and to analyse our traffic, if you continue we'll assume that you are happy to receive them. For more information, see our <a href="/legal/Cookie-Policy">cookie policy</a></CookieConsent>
             <VideoBanner video="/img/utility/turbines.mp4" text="Stay focussed with real-time, smart alerts" hltext={styles.darkgreen} textcolor={styles.dark}>
                 <span className={styles.dark}>Utility <span className={styles.darkgreen}>Market Data</span> Management</span>
