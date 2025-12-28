@@ -29,24 +29,17 @@ OpenDataDSL provides a comprehensive and centralized source of internal and exte
 <div className="row">
     <div className="col-lg-12">
         <h3>Our Story</h3>
-        <p>After many years of building and using data management systems, we condensed all this knowledge and expertise into a domain specific
-        language (DSL) which encapsulates all aspects of data management in a simple and intuitive way.
-        The key advantage of using a DSL for data management is that it provides a specialized and efficient way to work with data, making it easier to perform complex data operations.
-        </p>
+        <p>After many years of building and using data management systems, we condensed all this knowledge and expertise into a domain specific language (DSL) which encapsulates all aspects of data management in a simple and intuitive way. The key advantage of using a DSL for data management is that it provides a specialized and efficient way to work with data, making it easier to perform complex data operations.</p>
         <h5>We are passionate about all aspects of data management and continue to build and improve our platform.</h5>
     </div>
     <div className="col-lg-6">
         <h3>Our Vision</h3>
-        <p>Our vision is to make high quality, flexible and low cost data modelling, management and reporting for all sizes of 
-        businesses and all types of markets.
-        </p>
+        <p>Our vision is to make high quality, flexible and low cost data modelling, management and reporting for all sizes of businesses and all types of markets.</p>
         <h5>We aim to make the world's freely available pricing and fundamental data more accessible.</h5>
     </div>
     <div className="col-lg-6">
         <h3>Our Technology</h3>
-        <p>As a cloud SAAS company, we leverage elastic scaling and serverless technology to provide high quality, 
-        high performance, world scale software and services.
-        </p>
+        <p>As a cloud SAAS company, we leverage elastic scaling and serverless technology to provide high quality, high performance, world scale software and services.</p>
         <h5>We make it easier for clients to move their data and processes into the cloud.</h5>
     </div>
 </div>

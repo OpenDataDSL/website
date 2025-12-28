@@ -14,8 +14,7 @@ import styles from '/src/pages/index.module.css';
             <h2>Subscribe to our NewsLetter</h2>
             <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
             <div className="mc-field-group">
-                <label for="mce-EMAIL">Email Address  <span className="asterisk">*</span>
-                </label>
+                <label for="mce-EMAIL">Email Address  <span className="asterisk">*</span></label>
                 <input type="email" defaultValue="" name="EMAIL" className="required email" id="mce-EMAIL" />
             </div>
             <div className="mc-field-group">
