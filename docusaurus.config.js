@@ -111,6 +111,7 @@ const config = {
   scripts: [
     {src:'/js/captcha.js',module:true},
     '/js/visitorqueue.js',
+    '/js/odsl_client.js',
     {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true},
     {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true}
   ],
