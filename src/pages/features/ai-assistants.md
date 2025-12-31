@@ -2,7 +2,7 @@
 title: AI Assistants
 ---
 
-import { Feature, Integration } from '../../components/features'
+import { Feature, Integration } from '/src/components/features'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="AI Assistants" slogan="Expert assistance, smarter decisions" jpg="/img/icons/assistant.jpg" />

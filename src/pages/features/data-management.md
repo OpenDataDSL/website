@@ -2,7 +2,7 @@
 title: Data Management
 ---
 
-import { Feature } from '../../components/features'
+import { Feature, Integration } from '/src/components/features'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="Data Management" slogan="Your market data, unified and intelligent" jpg="/img/icons/mdm.jpg" />

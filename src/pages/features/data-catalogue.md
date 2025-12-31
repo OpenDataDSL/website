@@ -2,7 +2,7 @@
 title: Data Catalogue
 ---
 
-import { Feature, Integration, Card } from '../../components/features'
+import { Feature, Integration } from '/src/components/features'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="Data Catalogue" slogan="The complete energy pricing data hub" jpg="/img/icons/catalogue.jpg" />

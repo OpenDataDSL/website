@@ -2,7 +2,7 @@
 title: ODSL
 ---
 
-import { Feature, Integration } from '../../components/features'
+import { Feature, Integration } from '/src/components/features'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="ODSL Programming Language" slogan="Purpose-built for energy professionals" jpg="/img/icons/odsl.jpg" />

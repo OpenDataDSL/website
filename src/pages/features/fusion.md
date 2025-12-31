@@ -2,7 +2,7 @@
 title: ODSL
 ---
 
-import { Feature, Integration } from '../../components/features'
+import { Feature, Integration } from '/src/components/features'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="Fusion AI" slogan="Your AI expert for energy professionals" jpg="/img/icons/fusion.jpg" />
