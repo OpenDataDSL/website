@@ -23,7 +23,7 @@ Our ```community``` code editor is a Microsoft Visual Studio Code extension whic
 ### Visual Studio Code
 If you don't already have Microsoft VSCode installed, install it now using [this link](https://code.visualstudio.com/download)
 
-![The VSCode download screen](/attachments/33374/33387.png)
+![The VSCode download screen](/img/33387.png)
 
 ### Java JDK
 A Java JDK (at least version 11) needs to be installed and its location added to the path. 

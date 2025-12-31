@@ -4,8 +4,6 @@ description: Information on all the OpenDataDSL pricing plans
 hide_table_of_contents: true
 ---
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
-import { faPlug, faUpload, faDownload, faUser, faGlobe, faLock, faWrench, faBrain, faCode, faTable, faCubes } from '@fortawesome/free-solid-svg-icons'
-import { faCertificate, faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 import styles from './index.module.css';
 
 # Pricing Plans

@@ -1,25 +1,151 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+// @ts-check
+// `@type` JSDoc annotations allow editor autocompletion and type checking
+// (when paired with `@ts-check`).
+// There are various equivalent ways to declare your Docusaurus config.
+// See: https://docusaurus.io/docs/api/docusaurus-config
 
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
-  title: 'Smart SAAS Data Management',
-  tagline: 'SMART data management and reporting',
-  url: 'https://www.opendatadsl.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+import {themes as prismThemes} from 'prism-react-renderer';
+
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'Smart SAAS Data Platform for Energy Markets',
+  tagline: 'The Energy Intelligence Platform',
   favicon: 'img/favicon.ico',
+
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  },
+
+  // Set the production url of your site here
+  url: 'https://www.opendatadsl.com',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'OpenDataDSL', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
-  themeConfig: {
-    colorMode: { disableSwitch: true},
-    navbar: {
-      title: 'OpenDataDSL',
-      logo: {
-        alt: 'OpenDataDSL Logo',
-        src: 'img/logo.png',
+
+  onBrokenLinks: 'throw',
+
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+  plugins: [
+    [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'news-blog',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'news',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './news',
+          blogTitle: 'News',
+        },
+      ],
+    [
+        '@docusaurus/plugin-content-blog',
+
+          {
+            /**
+             * Required for any multi-instance plugin
+             */
+            id: 'events-blog',
+            /**
+             * URL route for the blog section of your site.
+             * *DO NOT* include a trailing slash.
+             */
+            routeBasePath: 'events',
+            /**
+             * Path to data on filesystem relative to site dir.
+             */
+            path: './events',
+            blogTitle: 'Events',
+          },
+    ]
+  ],
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        gtag: {trackingID: 'G-BXX397L1KH'},
+        docs: false,
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All our posts',
+          
+        },
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      }),
+    ],
+  ],
+  scripts: [
+    {src:'/js/captcha.js',module:true},
+    '/js/visitorqueue.js',
+    {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true},
+    {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true}
+  ],
+  stylesheets: [
+    {
+        rel: "dns-prefetch",
+        href: "//t.visitorqueue.com",
+        style: 'display: none !important;'
+    },{
+        rel: "stylesheet",
+        href: "https://p.visitorqueue.com/styles/c49aef6c-24b7-4b77-809d-b7e13c691cc8.css",
+        type: 'text/css',
+        id: 'vq_flick_styles'
+    },{
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css",
+        integrity: "sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We",
+        crossorigin: "anonymous"
+    }
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      // Replace with your project's social card
+      image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        disableSwitch: true,
       },
+      navbar: {
+        title: 'OpenDataDSL',
+        logo: {
+          alt: 'OpenDataDSL Logo',
+          src: 'img/logo.png',
+        },
       items: [
         {type:'dropdown', label: 'Company', position: 'left', items:[
             {to: '/AboutUs', label: 'About Us'},
@@ -28,10 +154,13 @@ module.exports = {
             {to: '/plans', label: 'Pricing'}
         ]},
         {type:'dropdown', label: 'Solutions', position: 'left', items:[
-            {to: '/energy', label: 'Energy and Oil Industry'},
-            {to: '/agriculture', label: 'Agricultural Industry'},
-            {to: '/utility', label: 'Utilities'},
-            {to: '/mongodb', label: 'MongoDB Users'}
+            {to: '/features/data-management', label: 'Data Management'},
+            {to: '/features/data-catalogue', label: 'Data Catalogue'},
+            {to: '/features/smart-curves', label: 'Smart Curves'},
+            {to: '/features/odsl-code', label: 'ODSL Language'},
+            {to: '/features/ai-assistants', label: 'AI Assistants'},
+            {to: '/features/ai-agents', label: 'AI Agents'},
+            {to: '/features/custom-tools', label: 'Custom AI Tools'}
         ]},
         {type:'dropdown', label: 'Partners', position: 'left', items:[
             {to: '/partners', label: 'Partner Program'},
@@ -44,10 +173,9 @@ module.exports = {
         {href: 'https://doc.opendatadsl.com', label: 'Documentation', position: 'right'},
         {href: 'https://portal.opendatadsl.com', label: 'Portal', position: 'right'}
       ],
-    },
-    metadata: [{name: 'keywords', content: 'mongodb, smart, smart curves, forward curves, market data, commodity, energy, timeseries, data management, blog, reporting'}],
-    footer: {
-      style: 'dark',
+      },
+      footer: {
+        style: 'dark',
       links: [
         {
           title: 'Documentation',
@@ -149,115 +277,14 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} OpenDataDSL Ltd.`,
-    },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-      additionalLanguages: ['java'],
-    },
-//    algolia: {
-//        enabled: false,
-//      apiKey: 'a8b0e275e6e4c02b53e5dffadd88e2c7',
-//      indexName: 'website',
-//
-//      // Optional: see doc section below
-//      contextualSearch: false,
-//
-//      // Optional: see doc section below
-//      appId: 'GNGE5W5WZ3',
-//
-//      // Optional: Algolia search parameters
-//      searchParameters: {},
-//
-//      //... other Algolia params
-//    }
-  },
-  plugins: [
-    [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'news-blog',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'news',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './news',
-          blogTitle: 'News',
-        },
-      ],
-    [
-        '@docusaurus/plugin-content-blog',
-
-          {
-            /**
-             * Required for any multi-instance plugin
-             */
-            id: 'events-blog',
-            /**
-             * URL route for the blog section of your site.
-             * *DO NOT* include a trailing slash.
-             */
-            routeBasePath: 'events',
-            /**
-             * Path to data on filesystem relative to site dir.
-             */
-            path: './events',
-            blogTitle: 'Events',
-          },
-    ]
-  ],
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        gtag: {trackingID: 'G-BXX397L1KH'},
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js')
-        },
-        blog: {
-          postsPerPage: 'ALL',
-          showReadingTime: true,
-          blogSidebarTitle: 'All posts',
-          blogSidebarCount: 'ALL',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-        sitemap: {
-        }
+        copyright: `Copyright © ${new Date().getFullYear()} OpenDataDSL Ltd.`,
       },
-    ],
-  ],
-  scripts: [
-    {src:'/js/captcha.js',module:true},
-    '/js/visitorqueue.js',
-    {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true},
-    {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true}
-  ],
-  stylesheets: [{
-        rel: "dns-prefetch",
-        href: "//t.visitorqueue.com",
-        style: 'display: none !important;'
-    },{
-        rel: "stylesheet",
-        href: "https://p.visitorqueue.com/styles/c49aef6c-24b7-4b77-809d-b7e13c691cc8.css",
-        type: 'text/css',
-        id: 'vq_flick_styles'
-    },{
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css",
-        integrity: "sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We",
-        crossorigin: "anonymous"
-    },
-    {rel: "stylesheet", href: "/css/animate.min.css"},
-    {rel: "stylesheet", href: "/css/app.css"}
-  ]
+      prism: {
+        theme: prismThemes.vsLight,
+        darkTheme: prismThemes.dracula,
+        additionalLanguages: ['java']
+      },
+    }),
 };
+
+export default config;

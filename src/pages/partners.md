@@ -1,5 +1,6 @@
 ---
 slug: partners
+hide_table_of_contents: true
 ---
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import styles from './partners.module.css';
@@ -26,7 +27,7 @@ For our clients to be successful our partnerships need to be successful – incr
 
 </div>
 <div class="col-lg-4">
-<a href="/referrals"><img src="/img/referral-program.jpg" /></a>
+<a href="/referrals"><img src="/img/partner/referral-program.jpg" width="250px" /></a>
 </div>
 </div>
 </container>

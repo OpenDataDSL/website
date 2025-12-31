@@ -8,7 +8,7 @@ import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="column">
-    <img src="/img/story.jpg"/>
+    <img src="/img/blog/story.jpg"/>
   </div>
   <div className="column">
   <h2>Dataset Monitoring</h2>

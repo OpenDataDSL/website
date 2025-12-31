@@ -1,5 +1,6 @@
 ---
 slug: referrals
+hide_table_of_contents: true
 ---
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import styles from './referrals.module.css';
@@ -19,8 +20,8 @@ Generate income by referring OpenDataDSL to your clients or build extensions and
     </Card>    
     <Card className={styles.card}>
         <Card.Body className={styles.body}>
-            <h2>Earn up to 40%</h2>
-            <img src="/img/home/big-savings.png" width="75px" />
+            <h2>Earnings up to 40%</h2>
+            <img src="/img/icons/earnings.jpg" width="75px" />
             <br />
             <br />
             <p>You will receive up to 40% of the revenue from your referred client for as long as they remain a paying client.</p>
@@ -29,7 +30,7 @@ Generate income by referring OpenDataDSL to your clients or build extensions and
     <Card className={styles.card}>
         <Card.Body className={styles.body}>
             <h2>Unrestricted Territory</h2>
-            <img src="/img/home/data-anywhere.png" width="75px" />
+            <img src="/img/icons/global.jpg" width="75px" />
             <br />
             <br />
             <p>You will have no restrictions on territory or market segment.</p>
@@ -38,7 +39,7 @@ Generate income by referring OpenDataDSL to your clients or build extensions and
     <Card className={styles.card}>
         <Card.Body className={styles.body}>
             <h2>Unlimited Earnings</h2>
-            <img src="/img/icons/curve.png" width="75px" />
+            <img src="/img/icons/unlimited.jpg" width="75px" />
             <br />
             <br />
             <p>You will have no cap on the amount of referral money you can earn.</p>

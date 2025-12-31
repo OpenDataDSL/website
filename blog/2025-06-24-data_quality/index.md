@@ -12,9 +12,9 @@ import {Demo} from '/src/components/Forms.js';
 <div className="row">
   <div className="col-md">
     <p></p>
-    <img src="/img/data_quality_flow.jpg"/>
+    <img src="/img/blog/data_quality_flow.jpg"/>
     <p></p>
-    <img src="/img/data_quality_algorithm.jpg"/>
+    <img src="/img/blog/data_quality_algorithm.jpg"/>
   </div>
   
 <div className="col-md">
@@ -55,7 +55,7 @@ letting you leverage your existing skills while exploring new capabilities.
 The platform is the enabler - offering transparency, flexibility, and control - while you steer the course. 
 This level of user empowerment is critical when aiming for meaningful, high-impact results in a **complex data ecosystem**.
 
-<img className={styles.product_screenshot} src="/img/data_quality.PNG" />
+<img className={styles.product_screenshot} src="/img/blog/data_quality.PNG" />
 
 ### Five Dimensions of Data Quality
 

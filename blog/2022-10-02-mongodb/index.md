@@ -135,7 +135,7 @@ You can supply a connection string to your own MongoDB Atlas so you can remain i
 ### Message queues
 Integrate your MongoDB data with your internal systems using message queues.
 Subscribe to data changes and push data to queues to be consumed by your internal systems.
-![queues](/attachments/8978718/9011498.png)
+![queues](9011498.png)
 
 ### Auditing
 Comprehensive audit logs to identify changes and user activity 

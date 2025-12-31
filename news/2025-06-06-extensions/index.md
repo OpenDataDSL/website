@@ -3,6 +3,7 @@ slug: extensions
 title: Application Extensions
 authors: [chartley]
 tags: [product, extension]
+hide_table_of_contents: true
 ---
 import {Demo} from '/src/components/Forms.js';
 

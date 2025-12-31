@@ -147,4 +147,4 @@ Contact us at [info@opendatadsl.com](mailto:info@opendatadsl.com)
 
 ## Further Reading
 * [What is OpenDataDSL?](https://doc.opendatadsl.com/docs/product/intro)
-* [MongoDB in OpenDataDSL](/mongodb)
+

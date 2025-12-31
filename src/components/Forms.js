@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './Forms.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 import { loadReCaptcha } from '/js/captcha.js'
 
 export function Sales(props) {
@@ -14,8 +12,8 @@ export function Sales(props) {
                         <img src="/img/logo128.png" />
                         <p className="h1">Contact Us</p>
                         <p className="h6">Our team is here to find the right solution for you, discuss various feature and pricing options, and connect you with the info you need.</p>
-                        <p className={styles.contactinfo} itemProp="email"><FontAwesomeIcon icon={faEnvelopeOpen} /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></p>
-                        <p className={styles.contactinfo} itemProp="telephone"><FontAwesomeIcon icon={faPhone} /><a href="tel:+44 1245 555053"> +44 1245 555053</a></p>
+                        <span className={styles.contactinfo} itemProp="email"><img src="/img/icons/email.jpg" alt="Email" width="40pc" /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></span>
+                        <span className={styles.contactinfo} itemProp="telephone"><img src="/img/icons/phone.jpg" alt="Phone" width="40pc" /><a href="tel:+44 1245 555053"> +44 1245 555053</a></span>
                     </div>
                 </div>
             </div>
@@ -35,8 +33,8 @@ export function Demo(props) {
                         <img src="/img/logo128.png" />
                         <p className="h1">How about a demo?</p>
                         <p className="h6">Our team is here to find the right solution for you, contact us to see this in action.</p>
-                        <p className={styles.contactinfo} itemProp="email"><FontAwesomeIcon icon={faEnvelopeOpen} /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></p>
-                        <p className={styles.contactinfo} itemProp="telephone"><FontAwesomeIcon icon={faPhone} /><a href="tel:+44 1245 555053"> +44 1245 555053</a></p>
+                        <span className={styles.contactinfo} itemProp="email"><img src="/img/icons/email.jpg" alt="Email" width="40pc" /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></span>
+                        <span className={styles.contactinfo} itemProp="telephone"><img src="/img/icons/phone.jpg" alt="Phone" width="40pc" /><a href="tel:+44 1245 555053"> +44 1245 555053</a></span>
                     </div>
                 </div>
             </div>

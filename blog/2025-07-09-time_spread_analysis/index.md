@@ -11,7 +11,7 @@ import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="col-md">
-    <img src="/img/timespread.png"/>
+    <img src="/img/blog/timespread.png"/>
   </div>
 
 <div className="col-md">
