@@ -200,10 +200,8 @@ export function HomepageFeatures() {
 function Benefit({jpg, title, text, link, slogan, id}) {
   return (
       <div className={clsx("row p-4 feature-item mb-2 scroll-to-display-x scroll-to-display-"+id)}>
-        <div className="col-4">
+        <div className='col-12'>
           <img src={jpg} className="featureSvg" alt={title} />
-        </div>
-        <div className="col-8">
           <h2>{title}</h2>
           <p>{text}</p>
           <h5>{slogan}</h5>

@@ -217,6 +217,9 @@ text {
   .herotwo__subtitle {
     font-size: 30px;
   }
+  .features {
+    width: 80%;
+  }
 }
 @media (max-width: 767px) {
   .herotwo__title {

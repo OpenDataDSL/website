@@ -10,10 +10,10 @@ export function Feature(props) {
 	return (
 		<div className="container">
 			<div className="feature-item row mb-5">
-				<div className="col-2">
+				<div className="col-4">
 					<img src={props.jpg} className="featureSvg scroll-to-display" alt={props.title} />
 				</div>
-				<div className="col-4">
+				<div className="col-8">
 					<h1 className="scroll-to-display">{props.title}</h1>
 					<h5 className="scroll-to-display">{props.slogan}</h5>
 				</div>
