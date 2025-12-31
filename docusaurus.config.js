@@ -159,6 +159,7 @@ const config = {
             {to: '/features/data-catalogue', label: 'Data Catalogue'},
             {to: '/features/smart-curves', label: 'Smart Curves'},
             {to: '/features/odsl-code', label: 'ODSL Language'},
+            {to: '/features/fusion', label: 'Fusion AI'},
             {to: '/features/ai-assistants', label: 'AI Assistants'},
             {to: '/features/ai-agents', label: 'AI Agents'},
             {to: '/features/custom-tools', label: 'Custom AI Tools'}
