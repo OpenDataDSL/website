@@ -2,7 +2,7 @@
 title: AI Agents
 ---
 
-import { Feature, Integration } from '/src/components/features'
+import { Feature, Integration } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="AI Agents" slogan="Your 24/7 energy operations team" jpg="/img/icons/agent.jpg" />

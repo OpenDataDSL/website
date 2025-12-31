@@ -2,7 +2,7 @@
 title: Smart Curves
 ---
 
-import { Feature, Integration } from '/src/components/features'
+import { Feature, Integration } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="Smart Curves" slogan="Create with AI, build with precision" jpg="/img/icons/curve.jpg" />

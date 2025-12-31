@@ -2,7 +2,7 @@
 title: Custom Tools
 ---
 
-import { Feature, Integration } from '/src/components/features'
+import { Feature, Integration } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="Custom Tools" slogan="Your workflows, your tools, your edge" jpg="/img/icons/tools.jpg" />
