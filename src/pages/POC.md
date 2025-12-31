@@ -2,7 +2,7 @@
 slug: POC
 title: FREE Proof of Concept
 ---
-import styles from './SignUp.module.css';
+import styles from './POC.module.css';
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css" />
 

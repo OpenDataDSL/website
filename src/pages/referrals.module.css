@@ -1,38 +1,36 @@
-.datablock {
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-between;
+.expertise_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 30px;
+	margin-top: 50px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
 
-.card {
-    width: 16rem;
-    border-color: orange;
-    margin-bottom: 10px;
+.section {
+	padding: 80px 20px;
 }
 
-.goldcard {
-    background-image: url("/img/gold_background.jpg");
-    width: 100%;
-    border-color: gold;
-    margin-bottom: 10px;
+.section_alt {
+	background-color: #f8fafc;
 }
 
-.goldtext {
-    font-size: 36px;
-    font-weight: 800;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+.section h2 {
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+	color: #1e3a8a;
+	text-align: center;
 }
 
-.body {
-    text-align: center;
-    font-size: 18px;
+.section p {
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
-.message {
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 

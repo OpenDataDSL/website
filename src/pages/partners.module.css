@@ -21,3 +21,43 @@
 }
 
 
+.expertise_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 30px;
+	margin-top: 50px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.section {
+	padding: 80px 20px;
+}
+
+.section_alt {
+	background-color: #f8fafc;
+}
+
+.section h2 {
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+	color: #1e3a8a;
+	text-align: center;
+}
+
+.section p {
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.section ul {
+    text-align: center;
+    list-style-type: none;
+}

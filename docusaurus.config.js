@@ -151,7 +151,7 @@ const config = {
             {to: '/AboutUs', label: 'About Us'},
             {to: '/contact', label: 'Contact Us'},
             {to: '/support', label: 'Support'},
-            {to: '/plans', label: 'Pricing'}
+            {to: '/SignUp', label: 'Plans'}
         ]},
         {type:'dropdown', label: 'Solutions', position: 'left', items:[
             {to: '/features/data-management', label: 'Data Management'},

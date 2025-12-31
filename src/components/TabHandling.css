@@ -1,0 +1,36 @@
+.tab {
+	padding: 15px 40px;
+	background: transparent;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	color: #64748b;
+}
+
+.tab_content {
+	display: none;
+}
+
+.tab_content.active {
+	display: block;
+}
+
+.tab.active {
+	background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+	color: white;
+}
+
+.tab:hover:not(.active) {
+	background: #f1f5f9;
+}
+
+.tab_content {
+	display: none;
+}
+
+.tab_content.active {
+	display: block;
+}
