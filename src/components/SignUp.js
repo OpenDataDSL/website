@@ -58,7 +58,7 @@ function PlatformTab() {
                 <div className={`${styles.pricing_card} ${styles.featured}`}>
                     <div className={styles.featured_badge}>POPULAR</div>
                     <div className={styles.plan_name}>Professional</div>
-                    <div className={styles.plan_price}>$499<span>/month</span></div>
+                    <div className={styles.plan_price}>€60<span>/user/month</span></div>
                     <div className={styles.plan_description}>For professional traders and analysts</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Everything in Starter</li>
@@ -73,7 +73,7 @@ function PlatformTab() {
 
                 <div className={styles.pricing_card}>
                     <div className={styles.plan_name}>Business</div>
-                    <div className={styles.plan_price}>$1,299<span>/month</span></div>
+                    <div className={styles.plan_price}>€900<span>/month</span></div>
                     <div className={styles.plan_description}>For teams and trading desks</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Everything in Professional</li>
@@ -96,7 +96,7 @@ function Fusion() {
             <div className={styles.pricing_grid}>
                 <div className={styles.pricing_card}>
                     <div className={styles.plan_name}>Fusion Essentials</div>
-                    <div className={styles.plan_price}>$199<span>/month</span></div>
+                    <div className={styles.plan_price}>€100<span>/month</span></div>
                     <div className={styles.plan_description}>AI-powered assistance for your daily tasks</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Access to 6 specialized AI assistants</li>
@@ -108,10 +108,10 @@ function Fusion() {
                     <button className={`${styles.signup_button} ${styles.secondary}`} onClick={(e) => showSignupForm('Fusion Essentials')}>Start Free Trial</button>
                 </div>
 
-                <div className={`{styles.pricing-card} ${styles.featured}`}>
-                    <div className={styles.featured_badge}>RECOMMENDED</div>
+                <div className={`${styles.pricing_card} ${styles.featured}`}>
+                    <div className={styles.featured_badge}>&nbsp;&nbsp;&nbsp;RECOMMENDED</div>
                     <div className={styles.plan_name}>Fusion Pro</div>
-                    <div className={styles.plan_price}>$599<span>/month</span></div>
+                    <div className={styles.plan_price}>€400<span>/month</span></div>
                     <div className={styles.plan_description}>Full AI capabilities for serious traders</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Everything in Essentials</li>
@@ -143,7 +143,7 @@ function Fusion() {
             </div>
 
             <div className={styles.info_box}>
-                <h3>🎯 What Makes Fusion Different?</h3>
+                <h3>What Makes Fusion Different?</h3>
                 <p>Fusion isn't just another AI chatbot. It's a team of six specialized assistants trained specifically for energy and commodity trading. From analyzing forward curves to generating ODSL code, Fusion understands your domain and speaks your language.</p>
             </div>
         </div>

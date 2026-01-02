@@ -231,6 +231,10 @@ text {
   h4 {
     font-size: 1.2rem;
   }
+  .video-spinner {
+    top: 180px;
+    left: 130px;
+  }
 }
 @media (max-width: 575px) {
   .herotwo {
@@ -241,10 +245,6 @@ text {
   }
   .herotwo__subtitle {
     font-size: 24px;
-  }
-  .video-spinner {
-    top: 180px;
-    left: 130px;
   }
 }
 @media (max-width: 405px) {

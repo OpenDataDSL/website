@@ -1,5 +1,6 @@
 ---
 title: ODSL
+hide_table_of_contents: true
 ---
 
 import { Feature, Integration } from '/src/components/Features.js'
@@ -363,27 +364,35 @@ Fusion is available now for teams who want to move faster without adding headcou
 ## FAQ Section
 
 **Q: How quickly can we see ROI from Fusion?**
+
 A: Most teams see immediate productivity gains in week one. The Code Assistant alone typically saves analysts 2-3 hours per day on routine tasks.
 
 **Q: Does Fusion understand our specific market conventions?**
+
 A: Yes. Fusion is trained on energy and commodity market structures, including forward curve conventions, settlement rules, and common data patterns across power, gas, oil, and other commodity markets. Plus, you can create custom assistants for your proprietary processes.
 
 **Q: How difficult is it to build custom assistants?**
+
 A: We've made it straightforward. Most custom assistants can be deployed in days, not months. Our team provides guidance and templates to accelerate development. For complex integrations, professional services are available.
 
 **Q: Can Fusion work with our existing ETRM and risk systems?**
+
 A: Absolutely. The Integrate Assistant specializes in connecting OpenDataDSL with enterprise systems including Allegro, Endur, Brady, and custom platforms. Custom assistants can provide even deeper integration with your specific systems.
 
 **Q: Is our proprietary data and code secure?**
+
 A: Fusion operates with enterprise-grade security. Your data and intellectual property remain private and are never used to train other models. Custom assistants run in your secure environment with full access controls.
 
 **Q: How does Fusion help with regulatory compliance?**
+
 A: Fusion understands REMIT, EMIR, and other commodity market regulations. It can help generate compliant reports, validate data quality, and document processes for auditors. Custom assistants can encode your specific compliance workflows and approval processes.
 
 **Q: Can Fusion replace our analysts?**
+
 A: No—and that's not the goal. Fusion amplifies your team's capabilities, handling routine tasks so your analysts can focus on strategic work that generates real value. Custom assistants help scale your team's expertise, not replace it.
 
 **Q: What happens if a custom assistant makes a mistake?**
+
 A: Like all AI systems, custom assistants should be deployed with appropriate guardrails. We recommend implementing validation checks, human-in-the-loop workflows for critical decisions, and comprehensive audit logging. Our team helps you design these safeguards.
 
 ---

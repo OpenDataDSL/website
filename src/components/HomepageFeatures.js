@@ -171,12 +171,14 @@ export function AIHero() {
   );
 };
 
-function BenefitCard({jpg, title, slogan}) {
+function BenefitCard({jpg, title, slogan, link}) {
   return (
       <div className="p-4">
-        <div className="text--center">
-          <img src={jpg} className="featureSvg" alt={title} />
-        </div>
+        <a href={"/features/"+link}>
+          <div className="text--center">
+            <img src={jpg} className="featureSvg" alt={title} />
+          </div>
+        </a>
         <div className="text--center padding-horiz--md">
           <h3>{title}</h3>
           <p>{slogan}</p>

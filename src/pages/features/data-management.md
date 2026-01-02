@@ -1,5 +1,6 @@
 ---
 title: Data Management
+hide_table_of_contents: true
 ---
 
 import { Feature, Integration } from '/src/components/Features.js'
