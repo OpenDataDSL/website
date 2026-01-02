@@ -1,5 +1,6 @@
 ---
 title: Data Catalogue
+hide_table_of_contents: true
 ---
 
 import { Feature, Integration, Card } from '/src/components/Features.js'
@@ -22,6 +23,8 @@ This fragmented approach creates significant overhead, delays time-to-market for
 The OpenDataDSL Data Catalogue provides comprehensive access to global energy and commodity pricing data through a single, unified interface. Our curated catalogue delivers verified, standardized market data from exchanges and providers worldwide—streamlining your data infrastructure and accelerating your operations.
 
 ### What's Included
+
+Explore the catalogue - [Browse available datasets](https://doc.opendatadsl.com/docs/data/catalog)
 
 <div className="container scroll-to-display-1">
 	<h3>Energy Markets</h3>
@@ -97,15 +100,16 @@ Every dataset in the catalogue includes rich metadata that makes data discovery 
 * **Security:** Enterprise authentication, role-based access control, and compliance with data vendor licensing terms.
 
 ## Real-World Impact
-* **Trading Desk Agility:** "We can now respond to new market opportunities within days instead of months. When management approved expansion into Asian LNG markets, we had pricing data integrated and models running before our competitors finished their data vendor RFPs." — Head of Gas Trading, European Energy Major
-* **Reduced IT Burden:** "Eliminating custom integrations for every data vendor freed our development team to focus on proprietary analytics that differentiate our trading strategies." — CTO, Commodity Trading Firm
-* **Improved Data Quality:** "Standardized validation caught data errors we'd been unknowingly trading on. The cost savings from avoiding bad trades paid for the platform in the first quarter." — Risk Manager, Power Trading Company
+* **Trading Desk Agility:** You can respond to new market opportunities within days instead of months.
+* **Reduced IT Burden:** You can eliminate custom integrations for every data vendor to free up your development team to focus on proprietary analytics that differentiate your trading strategies.
+* **Improved Data Quality:** Standardized validation can catch data errors that you have been unknowingly trading on.
 
 ## Beyond Data Access
 The Data Catalogue integrates seamlessly with OpenDataDSL's complete platform:
 
 <div className="container">
 	<div className="row">
+		<Integration title="Data Management" jpg="/img/icons/mdm.jpg" text="Consistently load market data using Smart Loaders." link="/features/data-management" />
 		<Integration title="Smart Curves" jpg="/img/icons/curve.jpg" text="Builds forward curves automatically from catalogue data." link="/features/smart-curves" />
 		<Integration title="AI Assistants" jpg="/img/icons/assistant.jpg" text="Answer questions about data availability and market coverage." link="/features/ai-assistants" />
 		<Integration title="AI Agents" jpg="/img/icons/assistant.jpg" text="Automate workflows using catalogue data as inputs." link="/features/ai-agents" />

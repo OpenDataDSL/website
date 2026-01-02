@@ -24,14 +24,14 @@ export function Feature(props) {
 
 export function Integration(props) {
 	return (
-		<div className="col-3 p-4 m-1 border border-radius">
+		<div className="col-md-6 col-lg-4 p-4 col-xs-12 border border-radius">
 			<a href={props.link}>
 				<div className='row'>
 					<div className="col-4">
 						<img src={props.jpg} className="integrationSvg" alt={props.title} />
 					</div>
 					<div className="col-8">
-						<h3>{props.title}</h3>
+						<h4>{props.title}</h4>
 						<p>{props.text}</p>
 					</div>
 				</div>
@@ -42,13 +42,13 @@ export function Integration(props) {
 
 export function Card(props) {
 	return (
-		<div className="col-4 p-4 m-1 border border-radius">
+		<div className="col-md-6 col-lg-4 p-md-1 p-lg-4 col-xs-12 border border-radius">
 			<div className='row'>
 				<div className="col-4">
 					<img src={props.jpg} className="integrationSvg" alt={props.title} />
 				</div>
 				<div className="col-8">
-					<h3>{props.title}</h3>
+					<h4>{props.title}</h4>
 					<p>{props.text}</p>
 				</div>
 			</div>
