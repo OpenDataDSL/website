@@ -6,7 +6,7 @@ hide_table_of_contents: true
 import { Feature, Integration } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
-<Feature title="Fusion AI" slogan="Your AI expert for energy professionals" jpg="/img/icons/fusion.jpg" />
+<Feature title="Fusion AI" slogan="Your AI expert for energy professionals" jpg="/img/icons/fusion.png" />
 
 In energy and commodity markets, time is money. Every hour spent debugging code, building curves, or reconciling trades is an hour not spent on strategic decisions that move your business forward.
 

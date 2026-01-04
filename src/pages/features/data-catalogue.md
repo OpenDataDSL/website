@@ -3,129 +3,155 @@ title: Data Catalogue
 hide_table_of_contents: true
 ---
 
-import { Feature, Integration, Card } from '/src/components/Features.js'
+import { Feature, Catalog } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
-<Feature title="Data Catalogue" slogan="The complete energy pricing data hub" jpg="/img/icons/catalogue.jpg" />
 
-## The Data Acquisition Challenge
-Energy and commodity trading firms typically maintain relationships with multiple data vendors—exchanges, brokers, price reporting agencies, and specialized providers. Each relationship requires:
+<Feature title="Data Catalogue" slogan="The complete energy pricing data hub" jpg="/img/icons/catalogue.png" />
 
-* Separate contract negotiations and licensing agreements
-* Unique integration work for different APIs and data formats
-* Individual billing and subscription management
-* Ongoing maintenance as vendors update their systems
-* Duplicate efforts when multiple teams need the same data
-
-This fragmented approach creates significant overhead, delays time-to-market for new trading strategies, and diverts IT resources from value-adding projects to repetitive integration work.
-
-## One Catalogue, Global Coverage
-The OpenDataDSL Data Catalogue provides comprehensive access to global energy and commodity pricing data through a single, unified interface. Our curated catalogue delivers verified, standardized market data from exchanges and providers worldwide—streamlining your data infrastructure and accelerating your operations.
-
-### What's Included
-
-Explore the catalogue - [Browse available datasets](https://doc.opendatadsl.com/docs/data/catalog)
-
-<div className="container scroll-to-display-1">
-	<h3>Energy Markets</h3>
-	<div className="row">
-		<Card title="Power" jpg="/img/icons/energy/power.svg" text="Day-ahead, intraday, and forward markets across European, US, and Asian power exchanges" />
-		<Card title="Natural Gas" jpg="/img/icons/energy/gas.svg" text="Hub prices, pipeline data, LNG markets, storage levels" />
-		<Card title="Oil & Products" jpg="/img/icons/energy/oil.svg" text="Crude benchmarks (Brent, WTI, Dubai), gasoline, diesel, jet fuel, heating oil" />
-		<Card title="Coal" jpg="/img/icons/energy/coal.svg" text="API2, API4, Newcastle, Richards Bay, and regional thermal coal indices" />
-		<Card title="Emissions" jpg="/img/icons/energy/emissions.svg" text="EU ETS, UK ETS, RGGI, carbon credit markets" />
+<section className="section">
+	<div className="container">
+		<h2>The Data Acquisition Challenge</h2>
+		<div className="story_content">
+			<div className="story_text">
+				<h3>The Challenge</h3>
+				<p>Energy and commodity trading firms typically maintain relationships with multiple data vendors—exchanges, brokers, price reporting agencies, and specialized providers. Each relationship requires:</p>
+				<ul>
+					<li>Unique integration work for different APIs and data formats</li>
+					<li>Ongoing maintenance as vendors update their systems</li>
+					<li>Duplicate efforts when multiple teams need the same data</li>
+				</ul>
+				<p>This fragmented approach creates significant overhead, delays time-to-market for new trading strategies, and diverts IT resources from value-adding projects to repetitive integration work.</p>				
+			</div>
+			<div className="story_text">
+				<h3>Our Solution</h3>
+				<p>The OpenDataDSL Data Catalogue provides comprehensive access to global energy and commodity pricing data through a single, unified interface. Our curated catalogue delivers verified, standardized market data from exchanges and providers worldwide—streamlining your data infrastructure and accelerating your operations.</p>
+				<h4>One Catalogue, Global Coverage</h4>
+				<p>Explore the catalogue - <a href="https://doc.opendatadsl.com/docs/data/catalog">Browse available datasets</a></p>
+			</div>
+		</div>
 	</div>
-</div>
+</section>
 
-<div className="container scroll-to-display-2">
-	<h3>Commodity Markets</h3>
-	<div className="row">
-		<Card title="Metals" jpg="/img/icons/energy/metals.jpg" text="Base metals, precious metals, steel" />
-		<Card title="Agriculture" jpg="/img/icons/energy/agriculture.jpg" text="Grains, softs, livestock" />
-		<Card title="Freight" jpg="/img/icons/energy/freight.jpg" text="Baltic indices, container rates" />
-		<Card title="Weather" jpg="/img/icons/energy/weather.svg" text="Temperature data, degree days, renewable generation factors" />
+<section className="section section_alt">
+	<div className="container">
+		<h2>Key Benefits</h2>		
+		<p>Transform data acquisition from weeks of vendor negotiations and integration work into immediate access—giving your team the global market intelligence they need to identify opportunities and execute strategies faster than competitors.</p>
+		<div className="orange_grid">
+			<div className="orange_item">
+				<h4>Comprehensive Global Coverage Through Single Access Point</h4>
+                <h5>Access worldwide energy and commodity pricing data through one unified catalogue.</h5>
+				<p>Power, natural gas, oil, coal, emissions, metals, agriculture, freight, and weather data from exchanges and providers globally—all standardized, verified, and ready to use. Eliminate the complexity of managing dozens of separate vendor portals, APIs, and data formats.</p>
+			</div>
+			<div className="orange_item">
+				<h4>Bring Your Own License (BYOL) Flexibility</h4>
+                <h5>Use your existing vendor subscriptions while benefiting from unified infrastructure.</h5>
+				<p>Maintain direct relationships with ICE, CME, Refinitiv, and other providers—no vendor lock-in, no data markups. Connect your licenses to OpenDataDSL and access everything through our standardized platform. Add new vendors seamlessly or switch providers without platform constraints or integration rework.</p>
+			</div>
+			<div className="orange_item">
+				<h4>Automatic Standardization and Normalization</h4>
+                <h5>All data conforms to consistent formats regardless of source. </h5>
+				<p>Vendor-specific naming conventions, data structures, units, and currencies are automatically mapped to industry-standard formats. A forward curve from ICE looks identical to one from CME in your applications—same structure, same query methods, same API calls. Write code once, apply it to any commodity.</p>
+			</div>
+			<div className="orange_item">
+				<h4>Rapid Time-to-Market for New Commodities</h4>
+                <h5>Expand into new markets in days, not months.</h5>
+				<p>When your trading desk wants to enter Asian LNG markets, Australian power, or European emissions—if it's in the catalogue, you're analyzing it immediately. No procurement delays, no integration projects, no waiting for IT resources. New trading opportunities don't stall on data availability.</p>
+			</div>
+			<div className="orange_item">
+				<h4>Built-In Quality Assurance and Rich Metadata</h4>
+                <h5>Every dataset includes automated validation and comprehensive context. </h5>
+				<p>Completeness checks, range validation, consistency verification, and structural integrity tests run automatically. Rich metadata provides market context, update frequencies, coverage periods, units, relationships to other datasets, and licensing terms—everything you need to confidently use the data without manual investigation.</p>
+			</div>
+			<div className="orange_item">
+				<h4>Seamless Integration with Platform Intelligence</h4>
+                <h5>Catalogue data powers your entire operation automatically.</h5>
+				<p>Smart Curves builds forward curves from catalogue data. AI Assistants analyze catalogue datasets conversationally. AI Agents monitor catalogue updates and trigger workflows. Custom Tools access catalogue data through simple syntax. ODSL scripts reference catalogue data directly with ```${data}```. One catalogue, infinite applications across your platform.</p>
+			</div>
+		</div>
 	</div>
-</div>
+</section>
 
-<div className="container scroll-to-display-3">
-	<h3>Fundamental Data</h3>
-	<div className="row">
-		<Card title="Generation" jpg="/img/icons/energy/generation.svg" text="Plant-level output, renewable production" />
-		<Card title="Consumption" jpg="/img/icons/energy/consumption.svg" text="Demand forecasts, actual consumption" />
-		<Card title="Storage" jpg="/img/icons/energy/storage.svg" text="Battery storage, gas storage, oil inventories" />
-		<Card title="Infrastructure" jpg="/img/icons/energy/infrastructure.svg" text="Pipeline flows, LNG terminals, interconnector capacity" />
+<section className="section">
+	<div className="container">
+		<h2>Data Catalogue</h2>
+		<h3>A sample list of the data we capture</h3>
+		<Catalog />
 	</div>
-</div>
+</section>
 
-### Bring Your Own License (BYOL)
-
-OpenDataDSL operates on a **Bring Your Own License model**, giving you complete flexibility in how you source market data:
-
-* **Use Your Existing Subscriptions:** Already have licenses with ICE, CME, Refinitiv, or other providers? Connect them to OpenDataDSL and leverage our intelligent data management without changing your vendor relationships.
-* **Add New Sources Seamlessly:** When you license data from a new provider, we handle the integration. You maintain the direct vendor relationship while benefiting from our standardized infrastructure.
-* **No Vendor Lock-In:** Your data licensing strategy remains under your control. Switch providers, renegotiate contracts, or add new sources without platform constraints.
-* **Cost Transparency:** You see exactly what you're paying each data vendor. No markup on data costs—you pay for the platform capabilities, not the data itself.
-
-## Standardization & Quality
-Raw vendor data arrives in countless formats—CSV files, XML feeds, proprietary APIs, Excel spreadsheets. The Data Catalogue eliminates this complexity:
-
-* **Unified Data Model:** All data conforms to OpenDataDSL's standardized schema. A forward curve from ICE looks identical to one from CME in your applications—same structure, same query methods, same API calls.
-* **Consistent Terminology:** Different vendors use different names for the same concept. Our catalogue maps vendor-specific terminology to consistent, industry-standard naming conventions.
-* **Automated Quality Checks:** Every data point passes through validation:
-  * Completeness checks (are all expected contracts present?)
-  * Range validation (does this price fall within reasonable bounds?)
-  * Consistency verification (do related instruments align logically?)
-  * Structural integrity (does curve shape make market sense?)
-* **Version History:** Complete audit trail of all data changes. Track when values were updated, what changed, and maintain historical snapshots for compliance and back-testing.
-
-### Intelligent Metadata
-Every dataset in the catalogue includes rich metadata that makes data discovery and usage effortless:
-
-* **Market Context:** Exchange, commodity type, contract specifications, trading hours
-* **Update Frequency:** How often data refreshes, typical publication times
-* **Coverage Periods:** Historical depth, forward curve tenors
-* **Units & Conventions:** Currency, volume units, price quotation methods
-* **Data Provenance:** Source attribution, licensing terms, usage restrictions
-* **Relationships:** Links to related datasets (spot vs. forward, cross-commodity spreads)
-
-### Rapid Time-to-Market
-* **For New Trading Strategies:** When your desk wants to trade a new commodity or geographic market, data availability no longer creates delays. If it's in the catalogue, you're analyzing it within minutes—not waiting weeks for procurement and integration.
-* **For Analytical Projects:** Quantitative analysts explore new datasets without requesting IT support. Self-service access to hundreds of commodities means faster hypothesis testing and model development.
-* **For System Integration:** Your risk systems, trading platforms, and analytical tools connect once to OpenDataDSL's API and immediately access the entire catalogue. Add new data sources without modifying downstream applications.
-
-### Enterprise-Grade Reliability
-* **High Availability:** Redundant infrastructure ensures continuous data access with 99.9% uptime SLA.
-* **Performance:** Sub-second query response times even for complex timeseries aggregations across decades of historical data.
-* **Scalability:** From single-user analysis to enterprise-wide deployment supporting hundreds of concurrent users.
-* **Security:** Enterprise authentication, role-based access control, and compliance with data vendor licensing terms.
-
-## Real-World Impact
-* **Trading Desk Agility:** You can respond to new market opportunities within days instead of months.
-* **Reduced IT Burden:** You can eliminate custom integrations for every data vendor to free up your development team to focus on proprietary analytics that differentiate your trading strategies.
-* **Improved Data Quality:** Standardized validation can catch data errors that you have been unknowingly trading on.
-
-## Beyond Data Access
-The Data Catalogue integrates seamlessly with OpenDataDSL's complete platform:
-
-<div className="container">
-	<div className="row">
-		<Integration title="Data Management" jpg="/img/icons/mdm.jpg" text="Consistently load market data using Smart Loaders." link="/features/data-management" />
-		<Integration title="Smart Curves" jpg="/img/icons/curve.jpg" text="Builds forward curves automatically from catalogue data." link="/features/smart-curves" />
-		<Integration title="AI Assistants" jpg="/img/icons/assistant.jpg" text="Answer questions about data availability and market coverage." link="/features/ai-assistants" />
-		<Integration title="AI Agents" jpg="/img/icons/assistant.jpg" text="Automate workflows using catalogue data as inputs." link="/features/ai-agents" />
-		<Integration title="ODSL Language" jpg="/img/icons/odsl.jpg" text="Query and transform catalogue data with domain-specific syntax." link="/features/odsl-code" />
-		<Integration title="Custom Tools" jpg="/img/icons/tools.jpg" text="Leverage catalogue data in your proprietary applications." link="/features/custom-tools" />
+<section className="section section_alt">
+	<div className="container">
+		<h2>Beyond Data Access</h2>
+		<h3>The Data Catalogue integrates seamlessly with OpenDataDSL's complete platform</h3>
+		<div className="orange_grid">
+			<div className="orange_item">
+				<a href="/features/data-management">
+					<img src="/img/icons/mdm.png" className="integrationSvg" />
+				</a>
+				<h4>Data Management</h4>
+				<p>Consistently load market data using Smart Loaders.</p>
+			</div>
+			<div className="orange_item">
+				<a href="/features/smart-curves">
+					<img src="/img/icons/curve.png" className="integrationSvg" />
+				</a>
+				<h4>Smart Curves</h4>
+				<p>Build forward curves automatically from catalogue data.</p>
+			</div>
+			<div className="orange_item">
+				<a href="/features/ai-assistants">
+					<img src="/img/icons/assistant.png" className="integrationSvg" />
+				</a>
+				<h4>AI Assistants</h4>
+				<p>Answer questions about data availability and market coverage.</p>
+			</div>
+			<div className="orange_item">
+				<a href="/features/ai-agentst">
+					<img src="/img/icons/agent.png" className="integrationSvg" />
+				</a>
+				<h4>AI Agents</h4>
+				<p>Automate workflows using catalogue data as inputs.</p>
+			</div>
+			<div className="orange_item">
+				<a href="/features/odsl-code">
+					<img src="/img/icons/odsl.png" className="integrationSvg" />
+				</a>
+				<h4>ODSL Language</h4>
+				<p>Query and transform catalogue data with domain-specific syntax.</p>
+			</div>
+			<div className="orange_item">
+				<a href="/features/custom-tools">
+					<img src="/img/icons/tools.png" className="integrationSvg" />
+				</a>
+				<h4>Custom Tools</h4>
+				<p>Leverage catalogue data in your proprietary applications.</p>
+			</div>
+		</div>
 	</div>
-</div>
+</section>
 
+<section className="section">
+	<div className="container">
+		<h2>From Fragmentation to Foundation</h2>
+		<div className="story_content">
+			<div className="story_text">
+				<p>The OpenDataDSL Data Catalogue transforms data acquisition from a repetitive operational burden into a strategic asset. Your team spends less time managing vendor relationships and integration complexity, and more time understanding markets and executing profitable trades.</p>
+			</div>
+			<div className="story_text">
+				<p>With comprehensive coverage, intelligent standardization, and flexible BYOL licensing, the Data Catalogue provides the data foundation modern energy trading demands.</p>				
+			</div>
+		</div>
+	</div>
+</section>
 
-#### From Fragmentation to Foundation
-The OpenDataDSL Data Catalogue transforms data acquisition from a repetitive operational burden into a strategic asset. Your team spends less time managing vendor relationships and integration complexity, and more time understanding markets and executing profitable trades.
-
-With comprehensive coverage, intelligent standardization, and flexible BYOL licensing, the Data Catalogue provides the data foundation modern energy trading demands.
-
-* Explore the catalogue - [Browse available datasets](https://doc.opendatadsl.com/docs/data/catalog)
-* Questions about specific data? - [Contact our data specialists](mailto:sales@opendatadsl.com)
-* Ready to connect your licenses? - [Schedule integration consultation](mailto:info@opendatadsl.com)
+<section className="section">
+	<div className="container" style={{textAlign: "center"}}>
+		<h2>Ready to Transform Your Data Operations?</h2>
+		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
+		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+	</div>
+</section>
 
 <Demo />
+

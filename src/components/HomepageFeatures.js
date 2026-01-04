@@ -12,7 +12,7 @@ const BenefitList = [
     {
         id: 1,
         title: 'Data Management',
-        jpg: require('../../static/img/icons/mdm.jpg').default,
+        jpg: require('../../static/img/icons/mdm.png').default,
         text: 'Consolidate fragmented market data into a single, unified platform. Eliminate silos, automate quality checks, and give your team real-time access to accurate, standardized data. Spend less time managing data feeds and more time making informed trading decisions.',
         link: "data-management",
         slogan: "Your market data, unified and intelligent"
@@ -20,7 +20,7 @@ const BenefitList = [
     {
         id: 2,
         title: 'Data Catalogue',
-        jpg: require('../../static/img/icons/catalogue.jpg').default,
+        jpg: require('../../static/img/icons/catalogue.png').default,
         text: 'Access comprehensive global energy pricing data with Bring Your Own License (BYOL) flexibility. Our curated catalogue delivers verified, standardized market data from worldwide exchanges and providers—streamlining vendor integrations and reducing time-to-market for new commodities.',
         link: "data-catalogue",
         slogan: "The complete energy pricing data hub"
@@ -28,7 +28,7 @@ const BenefitList = [
     {
         id: 3,
         title: 'Smart Curves',
-        jpg: require('../../static/img/icons/curve.jpg').default,
+        jpg: require('../../static/img/icons/curve.png').default,
         text: 'Build accurate forward curves in minutes with intelligent automation. Smart Curves handles gaps, seasonality, and market conventions automatically, freeing your analysts from repetitive spreadsheet work to focus on strategic market analysis and risk assessment.',
         link: "smart-curves",
         slogan: "Create with AI, build with precision"
@@ -36,7 +36,7 @@ const BenefitList = [
     {
         id: 4,
         title: 'Fusion AI',
-        jpg: require('../../static/img/icons/fusion.jpg').default,
+        jpg: require('../../static/img/icons/fusion.png').default,
         text: 'Fusion AI brings expert intelligence to every aspect of energy and commodity trading through six specialized AI assistants and autonomous AI agents. Get instant answers to complex market questions, build forward curves conversationally, automate operational workflows, and develop custom analytics—all through natural language interaction.',
         link: "fusion",
         slogan: "Your AI expert for energy professionals"
@@ -44,7 +44,7 @@ const BenefitList = [
     {
         id: 5,
         title: 'AI Assistants',
-        jpg: require('../../static/img/icons/assistant.jpg').default,
+        jpg: require('../../static/img/icons/assistant.png').default,
         text: 'Get instant expert assistance with six specialized AI assistants tailored to energy trading. From data analysis to API integration, your team accelerates decision-making with 24/7 access to intelligent support that understands your workflows and speaks your language.',
         link: "ai-assistants",
         slogan: "Expert assistance, smarter decisions"
@@ -52,7 +52,7 @@ const BenefitList = [
     {
         id: 6,
         title: 'AI Agents',
-        jpg: require('../../static/img/icons/agent.jpg').default,
+        jpg: require('../../static/img/icons/agent.png').default,
         text: 'Automate routine workflows and scale operations without adding headcount. AI Agents handle scheduled tasks—curve updates, data validation, reporting—autonomously, reducing operational risk and freeing your traders to focus on high-value strategic activities.',
         link: "ai-agents",
         slogan: "Your 24/7 energy operations team"
@@ -60,7 +60,7 @@ const BenefitList = [
     {
         id: 7,
         title: 'Custom Tools',
-        jpg: require('../../static/img/icons/tools.jpg').default,
+        jpg: require('../../static/img/icons/tools.png').default,
         text: 'Build proprietary workflows that encode your competitive advantage. Create custom tools using OpenDataDSL\'s flexible framework to automate unique trading strategies and analytical processes. Transform tribal knowledge into repeatable, scalable operations that preserve your market edge.',
         link: "custom-tools",
         slogan: "Your workflows, your tools, your edge"
@@ -68,7 +68,7 @@ const BenefitList = [
     {
         id: 8,
         title: 'ODSL',
-        jpg: require('../../static/img/icons/odsl.jpg').default,
+        jpg: require('../../static/img/icons/odsl.png').default,
         text: 'Express complex energy market operations in clear, concise code built specifically for commodities. ODSL\'s domain-specific syntax handles timeseries, curves, and data workflows naturally—reducing development time and making sophisticated operations accessible to your entire team.',
         link: "odsl-code",
         slogan: "Purpose-built for energy professionals"

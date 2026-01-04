@@ -6,7 +6,7 @@ hide_table_of_contents: true
 import { Feature, Integration } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
-<Feature title="AI Agents" slogan="Your 24/7 energy operations team" jpg="/img/icons/agent.jpg" />
+<Feature title="AI Agents" slogan="Your 24/7 energy operations team" jpg="/img/icons/agent.png" />
 
 ## The Automation Challenge
 Energy and commodity trading operations involve countless repetitive tasks that must be executed consistently, on schedule, and without error:

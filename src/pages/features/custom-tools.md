@@ -6,7 +6,7 @@ hide_table_of_contents: true
 import { Feature, Integration } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
-<Feature title="Custom Tools" slogan="Your workflows, your tools, your edge" jpg="/img/icons/tools.jpg" />
+<Feature title="Custom Tools" slogan="Your workflows, your tools, your edge" jpg="/img/icons/tools.png" />
 
 ## The Proprietary Workflow Challenge
 Every energy and commodity trading firm develops unique competitive advantages—proprietary trading strategies, specialized analytical methods, custom risk models, or unique operational workflows. These advantages represent years of market experience, quantitative research, and institutional knowledge.
