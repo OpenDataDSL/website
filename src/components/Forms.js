@@ -9,9 +9,6 @@ export function Sales(props) {
             <div className={styles.formheader}>
                 <div className="col text-center">
                     <div className={styles.formheadertext} itemScope itemType="https://schema.org/LocalBusiness">
-                        <img src="/img/logo128.png" />
-                        <p className="h1">Contact Us</p>
-                        <p className="h6">Our team is here to find the right solution for you, discuss various feature and pricing options, and connect you with the info you need.</p>
                         <p className={styles.contactinfo} itemProp="email"><i className="bi bi-envelope-at-fill" alt="Phone" /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></p>
                         <p className={styles.contactinfo} itemProp="telephone"><i className="bi bi-telephone-fill" alt="Phone" /><a href="tel:+44 1245 555053"> +44 1245 555053</a></p>
                     </div>
