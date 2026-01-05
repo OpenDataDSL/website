@@ -46,11 +46,11 @@ function PlatformTab() {
                     <div className={styles.plan_price}>Free</div>
                     <div className={styles.plan_description}>Perfect for exploring OpenDataDSL capabilities</div>
                     <ul className={styles.features_list}>
-                        <li><span className={styles.check_icon}>✓</span> Access to public data sets</li>
+                        <li><span className={styles.check_icon}>✓</span> Community version</li>
                         <li><span className={styles.check_icon}>✓</span> ODSL scripting environment</li>
                         <li><span className={styles.check_icon}>✓</span> Community support</li>
-                        <li><span className={styles.check_icon}>✓</span> Basic API access</li>
-                        <li><span className={styles.check_icon}>✓</span> 1GB data storage</li>
+                        <li><span className={styles.check_icon}>✓</span> Access local MongoDB</li>
+                        <li><span className={styles.check_icon}>✓</span> Access MongoDB Atlas</li>
                     </ul>
                     <button className={`${styles.signup_button} ${styles.secondary}`} onClick={(e) => showSignupForm('Starter')}>Get Started Free</button>
                 </div>
@@ -61,9 +61,11 @@ function PlatformTab() {
                     <div className={styles.plan_price}>€60<span>/user/month</span></div>
                     <div className={styles.plan_description}>For professional traders and analysts</div>
                     <ul className={styles.features_list}>
-                        <li><span className={styles.check_icon}>✓</span> Everything in Starter</li>
+                        <li><span className={styles.check_icon}>✓</span> Access all Public data</li>
                         <li><span className={styles.check_icon}>✓</span> Bring Your Own License (BYOL) data</li>
                         <li><span className={styles.check_icon}>✓</span> Advanced curve building</li>
+                        <li><span className={styles.check_icon}>✓</span> Web Portal</li>
+                        <li><span className={styles.check_icon}>✓</span> Excel Add-in</li>
                         <li><span className={styles.check_icon}>✓</span> Priority support</li>
                         <li><span className={styles.check_icon}>✓</span> 50GB data storage</li>
                         <li><span className={styles.check_icon}>✓</span> Custom workflows</li>
@@ -73,12 +75,14 @@ function PlatformTab() {
 
                 <div className={styles.pricing_card}>
                     <div className={styles.plan_name}>Business</div>
-                    <div className={styles.plan_price}>€900<span>/month</span></div>
+                    <div className={styles.plan_price}><span>from</span>€3.5k<span>/month</span></div>
                     <div className={styles.plan_description}>For teams and trading desks</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Everything in Professional</li>
                         <li><span className={styles.check_icon}>✓</span> Multi-user collaboration</li>
                         <li><span className={styles.check_icon}>✓</span> Advanced analytics</li>
+                        <li><span className={styles.check_icon}>✓</span> Message Queues</li>
+                        <li><span className={styles.check_icon}>✓</span> Managed Services</li>
                         <li><span className={styles.check_icon}>✓</span> Dedicated support</li>
                         <li><span className={styles.check_icon}>✓</span> 500GB data storage</li>
                         <li><span className={styles.check_icon}>✓</span> SSO integration</li>
@@ -95,13 +99,15 @@ function Fusion() {
         <div id="fusion" className="tab_content">
             <div className={styles.pricing_grid}>
                 <div className={styles.pricing_card}>
-                    <div className={styles.plan_name}>Fusion Essentials</div>
-                    <div className={styles.plan_price}>€100<span>/month</span></div>
+                    <div className={styles.plan_name}>Fusion PAYG</div>
+                    <div className={styles.plan_price}>PAYG<span> (Pay-As-You-Go)</span></div>
                     <div className={styles.plan_description}>AI-powered assistance for your daily tasks</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Access to 6 specialized AI assistants</li>
-                        <li><span className={styles.check_icon}>✓</span> 100,000 tokens/month</li>
-                        <li><span className={styles.check_icon}>✓</span> Basic ODSL code generation</li>
+                        <li><span className={styles.check_icon}>✓</span> Top up tokens as needed</li>
+                        <li><span className={styles.check_icon}>✓</span> Custom Assistants</li>
+                        <li><span className={styles.check_icon}>✓</span> AI Agents</li>
+                        <li><span className={styles.check_icon}>✓</span> Custom Tools</li>
                         <li><span className={styles.check_icon}>✓</span> Standard support</li>
                         <li><span className={styles.check_icon}>✓</span> Web interface access</li>
                     </ul>
@@ -111,32 +117,25 @@ function Fusion() {
                 <div className={`${styles.pricing_card} ${styles.featured}`}>
                     <div className={styles.featured_badge}>&nbsp;&nbsp;&nbsp;RECOMMENDED</div>
                     <div className={styles.plan_name}>Fusion Pro</div>
-                    <div className={styles.plan_price}>€400<span>/month</span></div>
+                    <div className={styles.plan_price}><span>from</span>€250<span>/month</span></div>
                     <div className={styles.plan_description}>Full AI capabilities for serious traders</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Everything in Essentials</li>
                         <li><span className={styles.check_icon}>✓</span> 500,000 tokens/month</li>
-                        <li><span className={styles.check_icon}>✓</span> Advanced code generation & debugging</li>
-                        <li><span className={styles.check_icon}>✓</span> Curve analysis & optimization</li>
+                        <li><span className={styles.check_icon}>✓</span> Top up tokens as needed</li>
                         <li><span className={styles.check_icon}>✓</span> Microsoft Teams integration</li>
                         <li><span className={styles.check_icon}>✓</span> Priority AI support</li>
-                        <li><span className={styles.check_icon}>✓</span> Custom assistant training</li>
                     </ul>
                     <button className={styles.signup_button} onClick={() => showSignupForm('Fusion Pro')}>Start Free Trial</button>
                 </div>
 
                 <div className={styles.pricing_card}>
                     <div className={styles.plan_name}>Fusion Enterprise</div>
-                    <div className={styles.plan_price}>Custom</div>
+                    <div className={styles.plan_price}>€50<span> BYO API Key</span></div>
                     <div className={styles.plan_description}>Unlimited AI power for your organization</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Everything in Pro</li>
-                        <li><span className={styles.check_icon}>✓</span> Unlimited tokens</li>
-                        <li><span className={styles.check_icon}>✓</span> Dedicated AI infrastructure</li>
-                        <li><span className={styles.check_icon}>✓</span> Custom assistant development</li>
-                        <li><span className={styles.check_icon}>✓</span> API access for automation</li>
-                        <li><span className={styles.check_icon}>✓</span> 24/7 premium support</li>
-                        <li><span className={styles.check_icon}>✓</span> SLA guarantees</li>
+                        <li><span className={styles.check_icon}>✓</span> Use your own Anthropic API key</li>
                     </ul>
                     <button className={styles.signup_button} onClick={() => showSignupForm('Fusion Enterprise')}>Contact Sales</button>
                 </div>
