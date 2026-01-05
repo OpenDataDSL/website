@@ -53,10 +53,7 @@ function PlatformTab() {
                         <li><span className={styles.check_icon}>✓</span> Access local MongoDB</li>
                         <li><span className={styles.check_icon}>✓</span> Access MongoDB Atlas</li>
                     </ul>
-                    <a href="https://doc.opendatadsl.com/docs/user/vscode"><button className={styles.signup_button}>Installing</button></a>
-                    <a href="https://doc.opendatadsl.com/docs/tutorials/qs/mongodb"><button className={styles.signup_button}>Getting Started</button></a>
-
-
+                    <a href="./plans/community"><button className={styles.signup_button}>More Info</button></a>
                 </div>
 
                 <div className={`${styles.pricing_card} ${styles.featured}`}>
