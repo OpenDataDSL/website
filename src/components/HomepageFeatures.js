@@ -37,7 +37,7 @@ const BenefitList = [
         id: 4,
         title: 'Fusion AI',
         jpg: require('../../static/img/icons/fusion.png').default,
-        text: 'Fusion AI brings expert intelligence to every aspect of energy and commodity trading through six specialized AI assistants and autonomous AI agents. Get instant answers to complex market questions, build forward curves conversationally, automate operational workflows, and develop custom analytics—all through natural language interaction.',
+        text: 'Fusion AI brings expert intelligence to every aspect of energy and commodity trading through six specialized AI assistants and autonomous AI agents. Get instant answers to complex market questions, build forward curves conversationally, automate operational workflows, and develop custom analytics — all through natural language interaction.',
         link: "fusion",
         slogan: "Your AI expert for energy professionals"
     },
@@ -174,11 +174,9 @@ export function AIHero() {
 function BenefitCard({jpg, title, slogan, link}) {
   return (
       <div className="p-4">
-        <a href={"/features/"+link}>
-          <div className="text--center">
-            <img src={jpg} className="featureSvg" alt={title} />
-          </div>
-        </a>
+        <div className="text--center">
+          <img src={jpg} className="featureSvg" alt={title} />
+        </div>
         <div className="text--center padding-horiz--md">
           <h3>{title}</h3>
           <p>{slogan}</p>
