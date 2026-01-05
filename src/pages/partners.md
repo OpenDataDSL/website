@@ -4,7 +4,7 @@ hide_table_of_contents: true
 ---
 import { Badge, Card, Container, Button, Col } from 'react-bootstrap';
 import styles from './partners.module.css';
-import { PartnerProgram, Partner } from '/src/components/PartnerProgram.js'
+import { PartnerProgram, Partner, PartnerSwiper } from '/src/components/PartnerProgram.js'
 
 <PartnerProgram title="OpenDataDSL - a partner you can rely on" subtitle="Join our ecosystem of technology innovators, consulting experts, and data providers transforming commodity markets worldwide." />
 
@@ -34,11 +34,7 @@ import { PartnerProgram, Partner } from '/src/components/PartnerProgram.js'
 <section className={styles.section}>
     <div className={styles.container}>
         <h2>Our Valued Partners</h2>
-        <div className={styles.expertise_grid}>
-            <Partner name="Previse Systems" text="At Previse Systems, we fundamentally reshape the way Energy Trading and Risk Management (ETRM) software is designed, implemented and operated." logo="/img/partner/PVS_Logo_rgb.jpg" link="/partners/previse-systems" website="https://previsesystems.com" />
-            <Partner name="Revenue.AI" text="Pricing and revenue management driven by cognitive AI - Outperform your competitiors with the power of cutting-edge technologies" logo="https://revenue.ai/wp-content/uploads/2023/04/Group-183.png" link="/partners/revenue-ai" website="https://revenue.ai" />
-            <Partner name="Time2Market" text="Time2Market is the only independent market access service provider in the energy industry. We help energy trading companies looking to expand their operations to new power and gas markets, and investment firms entering the energy industry for the first time." logo="/img/partner/time2market-dark-notagline-500.png" link="/partners/time-2-market" website="https://www.time2market.net?utm_source=Referral&utm_medium=OpenDataDSL-Website&utm_campaign=Partners" />
-        </div>
+        <PartnerSwiper />
     </div>
 </section>
 
