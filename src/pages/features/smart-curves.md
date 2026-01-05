@@ -89,107 +89,100 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section">
 	<div className="container">
 		<h2>Curve Creation</h2>		
-		<h3>How to create curve functions</h3>
-		<div className="story_content">
-			<div className="story_text">
-				<h3>Using ODSL code</h3>
-				<p>Example timespread function</p>
-				<pre>
-					<code className="odsl language-odsl">
-						function timespread(input)
-							// Bootstrap the input curve to create 
-							//an arbitrage-free monthly curve
-							bootstrapped = bootstrapCurve(input)
-							&nbsp;							
-							// Create a new curve to store the spread values
-							spread = Curve(input.ondate)
-							&nbsp;							
-							// Get all contracts from the bootstrapped curve
-							contracts = bootstrapped.contracts
-							&nbsp;							
-							// Get the total number of contracts
-							contractSize = contracts.size()
-							&nbsp;
-							// Iterate through contracts
-							for i = 2 to contractSize
-								// Get the current contract
-								current = contracts[i - 1]
-								&nbsp;
-								// Get the previous contract
-								previous = contracts[i - 2]
-								&nbsp;
-								// Calculate the spread value as the difference 
-								// between consecutive contracts
-								spreadValue = current.value - previous.value
-								&nbsp;
-								// Create the spread tenor label (e.g., "M01-M02")
-								spreadTenor = previous.tenor + "-" + current.tenor
-								&nbsp;
-								// Add the spread contract to the curve
-								spread.add(spreadTenor, spreadValue)
-							next
-							&nbsp;
-							// Return the spread curve
-							timespread = spread
-						end
-					</code>
-				</pre>
-			</div>
-			<div className="story_text">
-				<h3>Using Fusion AI</h3>
-<div className="chat-messages" id="chatMessages">
-	<div className="message user">
-		<div className="message-content">Can you create an odsl function that performs a timespread, e.g. M01-M02</div>
-	</div>    
-	<div className="message assistant">
-		<div className="message-content">
-			<div className="border-bottom mb-2"><span>Answer from assistant: <i className="bi-code text-success fs-4 ms-1 me-1"></i><strong>Code</strong></span></div>
-			<p>Perfect! ✅ The script has been validated successfully. Here's the <strong>timeSpread</strong> function:</p>
-			<h2 id="timespread-function">timeSpread Function</h2>
-			<pre><code className="odsl language-odsl">function timeSpread(input)
-				bootstrapped = bootstrapCurve(input)
-				spread = Curve(input.ondate)
-				&nbsp;
-				contracts = bootstrapped.contracts
-				contractSize = contracts.size()
-				&nbsp;
-				for i = 2 to contractSize
-					current = contracts[i - 1]
-					future = contracts[i - 2]
+		<h3>Using ODSL code</h3>
+		<p>Example timespread function</p>
+
+		```js
+				function timespread(input)
+					// Bootstrap the input curve to create 
+					//an arbitrage-free monthly curve
+					bootstrapped = bootstrapCurve(input)
+					&nbsp;							
+					// Create a new curve to store the spread values
+					spread = Curve(input.ondate)
+					&nbsp;							
+					// Get all contracts from the bootstrapped curve
+					contracts = bootstrapped.contracts
+					&nbsp;							
+					// Get the total number of contracts
+					contractSize = contracts.size()
 					&nbsp;
-					spreadValue = future.value - current.value
-					spreadTenor = current.tenor + "-" + future.tenor
+					// Iterate through contracts
+					for i = 2 to contractSize
+						// Get the current contract
+						current = contracts[i - 1]
+						&nbsp;
+						// Get the previous contract
+						previous = contracts[i - 2]
+						&nbsp;
+						// Calculate the spread value as the difference 
+						// between consecutive contracts
+						spreadValue = current.value - previous.value
+						&nbsp;
+						// Create the spread tenor label (e.g., "M01-M02")
+						spreadTenor = previous.tenor + "-" + current.tenor
+						&nbsp;
+						// Add the spread contract to the curve
+						spread.add(spreadTenor, spreadValue)
+					next
 					&nbsp;
-					spread.add(spreadTenor, spreadValue)
-				next
-				&nbsp;
-				timeSpread = spread
-			end</code></pre>
-			<br/>
-			<h3 id="what-it-does">What it does:</h3>
-			<p>Calculates <strong>month spreads</strong> (month-over-month spreads) from a forward curve. It compares prices that are 1 month apart (e.g., M01 vs M02, M02 vs M03, etc.).</p>
-			<br/>
-			<h3 id="function-signature">Function Signature:</h3>
-			<pre><code className="odsl language-odsl">timeSpread(input)</code></pre>
-			<br/>
-			<h3 id="parameters">Parameters:</h3>
-			<ul>
-				<li><strong>input</strong> (Curve) - A forward curve to calculate spreads from</li>
-			</ul>
-			<br/>
-			<h3 id="example-usage">Example Usage:</h3>
-			<pre><code className="odsl language-odsl">// Load a crude oil curve
-			crude = $\{data:"ICE.IFEU.B:SETTLE:2024-01-15"\}
-			&nbsp;
-			// Calculate spreads
-			spreads = timeSpread(crude)
-			&nbsp;
-			// Print results
-			print spreads
-			// Output: Curve with M01-M102: 2.50, M02-M03: 1.75, M03-M04: 0.50, etc.</code></pre>
-        </div>
-	</div>
-</div>
+					// Return the spread curve
+					timespread = spread
+				end
+```
+
+		<h3>Using Fusion AI</h3>
+				<div className="chat-messages" id="chatMessages">
+					<div className="message user">
+						<div className="message-content">Can you create an odsl function that performs a timespread, e.g. M01-M02</div>
+					</div>    
+					<div className="message assistant">
+						<div className="message-content">
+							<div className="border-bottom mb-2"><span>Answer from assistant: <i className="bi-code text-success fs-4 ms-1 me-1"></i><strong>Code</strong></span></div>
+							<p>Perfect! ✅ The script has been validated successfully. Here's the <strong>timeSpread</strong> function:</p>
+							<h2 id="timespread-function">timeSpread Function</h2>
+							<pre><code className="odsl language-odsl">function timeSpread(input)
+								bootstrapped = bootstrapCurve(input)
+								spread = Curve(input.ondate)
+								&nbsp;
+								contracts = bootstrapped.contracts
+								contractSize = contracts.size()
+								&nbsp;
+								for i = 2 to contractSize
+									current = contracts[i - 1]
+									future = contracts[i - 2]
+									&nbsp;
+									spreadValue = future.value - current.value
+									spreadTenor = current.tenor + "-" + future.tenor
+									&nbsp;
+									spread.add(spreadTenor, spreadValue)
+								next
+								&nbsp;
+								timeSpread = spread
+							end</code></pre>
+							<br/>
+							<h3 id="what-it-does">What it does:</h3>
+							<p>Calculates <strong>month spreads</strong> (month-over-month spreads) from a forward curve. It compares prices that are 1 month apart (e.g., M01 vs M02, M02 vs M03, etc.).</p>
+							<br/>
+							<h3 id="function-signature">Function Signature:</h3>
+							<pre><code className="odsl language-odsl">timeSpread(input)</code></pre>
+							<br/>
+							<h3 id="parameters">Parameters:</h3>
+							<ul>
+								<li><strong>input</strong> (Curve) - A forward curve to calculate spreads from</li>
+							</ul>
+							<br/>
+							<h3 id="example-usage">Example Usage:</h3>
+							<pre><code className="odsl language-odsl">// Load a crude oil curve
+							crude = $\{data:"ICE.IFEU.B:SETTLE:2024-01-15"\}
+							&nbsp;
+							// Calculate spreads
+							spreads = timeSpread(crude)
+							&nbsp;
+							// Print results
+							print spreads
+							// Output: Curve with M01-M102: 2.50, M02-M03: 1.75, M03-M04: 0.50, etc.</code></pre>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -240,12 +240,12 @@ import {Demo} from '/src/components/Forms.js';
 		<p>Creating a custom assistant uses Fusion's intuitive configuration interface:</p>
 		<div className="story_content">
 			<div className="story_text">
-				<h3>1. Define Purpose and Scope</h3>
+				<h4>1. Define Purpose and Scope</h4>
 				<p>Specify what the assistant should help with—a particular market, workflow type, or functional area.</p>
 				<p>Example: "Emissions Trading Assistant" focused on EU ETS, UK ETS, and voluntary carbon markets.</p>
 			</div>
 			<div className="story_text">
-				<h3>2. Upload Knowledge Sources</h3>
+				<h4>2. Upload Knowledge Sources</h4>
 				<p>Provide documents that define your domain expertise:</p>
 				<ul>
 					<li>Trading strategy guides</li>
@@ -256,7 +256,7 @@ import {Demo} from '/src/components/Forms.js';
 				</ul>
 			</div>
 			<div className="story_text">
-				<h3>3. Configure Tools and Integrations</h3>
+				<h4>3. Configure Tools and Integrations</h4>
 				<p>Connect the assistant to relevant systems:</p>
 				<ul>
 					<li>Internal databases for proprietary data</li>
@@ -266,7 +266,7 @@ import {Demo} from '/src/components/Forms.js';
 				</ul>
 			</div>
 			<div className="story_text">
-				<h3>4. Set Behavioral Guidelines</h3>
+				<h4>4. Set Behavioral Guidelines</h4>
 				<p>Define how the assistant should interact:</p>
 				<ul>
 					<li>Tone and communication style</li>
@@ -276,11 +276,11 @@ import {Demo} from '/src/components/Forms.js';
 				</ul>
 			</div>
 			<div className="story_text">
-				<h3>5. Test</h3>
+				<h4>5. Test</h4>
 				<p>Test the assistant with real questions and gather feedback from users.</p>
 			</div>
 			<div className="story_text">
-				<h3>6. Refine</h3>
+				<h4>6. Refine</h4>
 				<p>Refine responses and continuously improve performance.</p>
 			</div>
 		</div>
@@ -305,108 +305,6 @@ import {Demo} from '/src/components/Forms.js';
 		</div>
 	</div>
 </section>
-
-
-
-## Conversational Intelligence
-Fusion's assistants don't just answer isolated questions—they engage in multi-turn conversations that build context and refine solutions.
-
-### Context Awareness
-* You: "Build me a Brent forward curve"
-* Curve Assistant: [Generates curve]
-* You: "Now create a WTI curve using the same methodology"
-* Curve Assistant: [Applies same approach to WTI data, remembering your preferences]
-
-### Iterative Refinement
-* You: "Analyze the correlation between coal and natural gas prices"
-* Analyse Assistant: [Provides correlation analysis]
-* You: "The correlation looks weak in summer months—can you analyze those periods separately?"
-* Analyse Assistant: [Segments analysis by season, providing deeper insight]
-
-### Proactive Suggestions
-* You: "I need to automate daily curve updates"
-* Operations Assistant: "I can help set up that workflow. Will you need validation checks before curves update? Should stakeholders be notified of significant moves?"
-
-
-## Assistant Collaboration
-
-### Beyond Individual Expertise
-While each Fusion assistant brings deep specialized knowledge, their true power emerges when they collaborate. Just as your trading floor benefits from specialists working together—a curve builder consulting with a quantitative analyst, or an operations manager coordinating with a developer—Fusion's assistants seamlessly collaborate to solve complex problems that span multiple domains.
-
-### How Assistants Collaborate
-Assistants understand when a task requires expertise beyond their specialty and automatically engage the right colleague:
-
-#### Curve Assistant + Code Assistant:
-
-> * **You:** "Build a complex oil crack spread curve that accounts for seasonal refinery utilization patterns"
-> * **Curve Assistant:** "This requires custom ODSL code for the refinery utilization logic. Let me consult with the Code Assistant..."
-> * [Curve Assistant engages Code Assistant]
-> * **Code Assistant:** [Generates ODSL script for seasonal utilization patterns]
-> * **Curve Assistant:** [Integrates the code into curve construction methodology]
-> * **Result:** "Here's your crack spread curve with seasonal adjustments. The Code Assistant created the utilization pattern logic, and I've applied it to your refinery margins."
-
-#### Code Assistant + Integrate Assistant:
-
-> * **You:** "Write a script that fetches weather data from an external API and combines it with our power demand forecasts"
-> * **Code Assistant:** "I'll handle the data combination logic. Let me work with the Integrate Assistant on the external API connection..."
-> * [Code Assistant engages Integrate Assistant]
-> * **Integrate Assistant:** [Creates external API client code with authentication]
-> * **Code Assistant:** [Writes data merging and forecast adjustment logic]
-> * **Result:** "Here's your complete script. The Integrate Assistant handled the weather API connection, and I've written the logic to adjust your demand forecasts based on temperature data."
-
-### Transparent Collaboration
-When assistants collaborate, you see the process:
-
-* **Who's Helping:** Clear indication when additional assistants join the conversation
-* **Why They're Involved:** Explanation of what expertise each assistant contributes
-* **Seamless Integration:** Results presented coherently as if from a single expert team
-* **Full Context:** All assistants have access to the complete conversation history
-
-You don't need to manually switch between assistants or repeat context—Fusion handles coordination intelligently.
-
-### Learning From Collaboration
-As assistants work together on your projects, they learn your preferences and patterns:
-
-* If you frequently need curve validation after building curves, the Curve Assistant proactively suggests engaging the Analyse Assistant
-* When you ask the Code Assistant for integration scripts, it remembers you prefer Python and automatically consults the Integrate Assistant for API patterns
-* The Operations Assistant learns that your volatility alerts should always include analysis commentary, so it coordinates with the Analyse Assistant by default
-
-### Multi-Domain Problem Solving
-Complex energy trading challenges rarely fit neatly into single specialties. Fusion's collaborative assistants tackle problems the way expert teams do—bringing together the right mix of skills:
-
-#### Scenario: New Market Entry
-You: "We're entering the Australian power market. Help me get set up."
-
-General Assistant orchestrates:
-
-* Integrate Assistant: Connects to Australian NEM data sources
-* Curve Assistant: Builds appropriate forward curves for regional nodes
-* Analyse Assistant: Analyzes historical price patterns and volatility
-* Operations Assistant: Sets up daily data loading and curve updates
-* Code Assistant: Creates custom analytics for NEM-specific features
-
-Result: Complete market entry support from data connectivity through analytical infrastructure—delivered collaboratively by the entire assistant team.
-
-### The Collaborative Advantage
-This inter-assistant collaboration delivers benefits impossible with isolated tools:
-
-**No Knowledge Silos:** Expertise flows seamlessly across domains
-**Comprehensive Solutions:** Complex problems solved end-to-end without multiple tool switches
-**Reduced Learning Curve:** You don't need to know which specialist to consult—the General Assistant routes intelligently
-**Consistent Quality:** All assistants work from shared context and organizational knowledge
-**Accelerated Workflows:** Solutions that might require coordinating multiple human specialists happen in a single conversation
-
-### Human-Like Team Dynamics
-
-#### Fusion's assistants collaborate the way effective human teams do:
-
-* **Specialization:** Each maintains deep expertise in their domain
-* **Communication:** They understand each other's capabilities and languages
-* **Coordination:** The General Assistant orchestrates complex multi-specialist tasks
-* **Shared Goals:** All work toward solving your complete problem, not just their piece
-* **Continuous Learning:** The team improves together based on your feedback and patterns
-
-The result is an AI team that doesn't just answer questions—it collaboratively solves the complex, multi-faceted challenges that define energy and commodity trading operations.
 
 <section className="section">
 	<div className="container">
