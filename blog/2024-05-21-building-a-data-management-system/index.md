@@ -95,7 +95,7 @@ experience of buying off-the-shelf.
 * Create powerful, intuitive insights and reports
 * Customise the domain and user experience of all tools to make it your own
 * Fully supported and documented [REST API](https://doc.opendatadsl.com/docs/api/rest/standards) 
-* Secure user authentication and access control using your own [Azure Active Directory](/secure)
+* Secure user authentication and access control using your own Azure Active Directory
 * Comprehensive auditing and versioning - capture additions, corrections and deletions
 * Dashboards to monitor data loading and curves
 
@@ -104,7 +104,7 @@ experience of buying off-the-shelf.
 ### What are the benefits?
 
 * Quick initial set-up, simply sign-up for a free account and start building!
-* Low cost, [only pay for what you use](/plans) and a free trial enabling you to try-out our services with zero cost
+* Low cost and a free Proof of Concept enabling you to try-out our services with zero cost
 * Flexible, smart and relevant - utilising robust cloud technology
 * Customisable - utilise your [own database](https://doc.opendatadsl.com/docs/it/database) or use ours, it is your choice
 * Highly scalable utilising serverless technology
