@@ -98,7 +98,7 @@ function PlatformTab() {
 function Fusion() {
 	return (
         <div id="fusion" className="tab_content">
-            <h2>Fusion AI is a premium feature that can be added to <b>Professional</b>, <b>Business</b> or <b>Enterprise</b> OpenDataDSL platform plan</h2>
+            <h2 className={styles.desc}>Fusion AI is a premium feature that can be added to <b>Professional</b>, <b>Business</b> or <b>Enterprise</b> OpenDataDSL platform plan</h2>
             <div className={styles.pricing_grid}>
                 <div className={styles.pricing_card}>
                     <div className={styles.plan_name}>Fusion PAYG</div>

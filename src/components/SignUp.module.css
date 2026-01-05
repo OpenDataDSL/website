@@ -33,7 +33,7 @@
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+h2.desc {
 	color: #64748b;
 	text-align: center;
 	font-size: medium;
