@@ -113,7 +113,13 @@ const config = {
     '/js/visitorqueue.js',
     '/js/odsl_client.js',
     {src:'https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit', defer: true, async: true},
-    {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true}
+    {src:'https://opendatadsl.statuspage.io/embed/script.js', defer: true, async: true},
+    {
+      src:'https://res.public.onecdn.static.microsoft/customerconnect/v1/7dttl/init.js', 
+      id:'chatbot', 
+      environmentId:'cfb09aee-3d6e-e618-a4cf-d4db519731a4',
+      crossorigin:'anonymous'
+    }
   ],
   stylesheets: [
     {
