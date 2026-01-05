@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import {configureAnimations} from '/js/odsl.js';
 import styles from './SignUp.module.css';
 import './TabHandling.css';
+import { ContactForm } from '/src/components/Forms.js';
 
 export function SignUp() {
   useEffect(() => {
@@ -52,7 +53,10 @@ function PlatformTab() {
                         <li><span className={styles.check_icon}>✓</span> Access local MongoDB</li>
                         <li><span className={styles.check_icon}>✓</span> Access MongoDB Atlas</li>
                     </ul>
-                    <button className={`${styles.signup_button} ${styles.secondary}`} onClick={(e) => showSignupForm('Starter')}>Get Started Free</button>
+                    <a href="https://doc.opendatadsl.com/docs/user/vscode"><button className={styles.signup_button}>Installing</button></a>
+                    <a href="https://doc.opendatadsl.com/docs/tutorials/qs/mongodb"><button className={styles.signup_button}>Getting Started</button></a>
+
+
                 </div>
 
                 <div className={`${styles.pricing_card} ${styles.featured}`}>
@@ -70,7 +74,7 @@ function PlatformTab() {
                         <li><span className={styles.check_icon}>✓</span> 50GB data storage</li>
                         <li><span className={styles.check_icon}>✓</span> Custom workflows</li>
                     </ul>
-                    <button className={styles.signup_button} onClick={(e) => showSignupForm('Professional')}>Start 14-Day Trial</button>
+                    <a href="/POC"><button className={styles.signup_button}>Free POC</button></a>
                 </div>
 
                 <div className={styles.pricing_card}>
@@ -87,7 +91,7 @@ function PlatformTab() {
                         <li><span className={styles.check_icon}>✓</span> 500GB data storage</li>
                         <li><span className={styles.check_icon}>✓</span> SSO integration</li>
                     </ul>
-                    <button className={styles.signup_button} onClick={(e) => showSignupForm('Business')}>Start 14-Day Trial</button>
+                    <a href="/POC"><button className={styles.signup_button}>Free POC</button></a>
                 </div>
             </div>
         </div>
@@ -97,6 +101,7 @@ function PlatformTab() {
 function Fusion() {
 	return (
         <div id="fusion" className="tab_content">
+            <h2>Fusion AI is a premium feature that can be added to <b>Professional</b>, <b>Business</b> or <b>Enterprise</b> OpenDataDSL platform plan</h2>
             <div className={styles.pricing_grid}>
                 <div className={styles.pricing_card}>
                     <div className={styles.plan_name}>Fusion PAYG</div>
@@ -104,14 +109,14 @@ function Fusion() {
                     <div className={styles.plan_description}>AI-powered assistance for your daily tasks</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Access to 6 specialized AI assistants</li>
-                        <li><span className={styles.check_icon}>✓</span> Top up tokens as needed</li>
+                        <li><span className={styles.check_icon}>✓</span> Top up as needed</li>
                         <li><span className={styles.check_icon}>✓</span> Custom Assistants</li>
                         <li><span className={styles.check_icon}>✓</span> AI Agents</li>
                         <li><span className={styles.check_icon}>✓</span> Custom Tools</li>
                         <li><span className={styles.check_icon}>✓</span> Standard support</li>
                         <li><span className={styles.check_icon}>✓</span> Web interface access</li>
                     </ul>
-                    <button className={`${styles.signup_button} ${styles.secondary}`} onClick={(e) => showSignupForm('Fusion Essentials')}>Start Free Trial</button>
+                    <a href="/POC"><button className={styles.signup_button}>Free POC</button></a>
                 </div>
 
                 <div className={`${styles.pricing_card} ${styles.featured}`}>
@@ -121,12 +126,13 @@ function Fusion() {
                     <div className={styles.plan_description}>Full AI capabilities for serious traders</div>
                     <ul className={styles.features_list}>
                         <li><span className={styles.check_icon}>✓</span> Everything in Essentials</li>
-                        <li><span className={styles.check_icon}>✓</span> 500,000 tokens/month</li>
-                        <li><span className={styles.check_icon}>✓</span> Top up tokens as needed</li>
+                        <li><span className={styles.check_icon}>✓</span> 100M input tokens/month</li>
+                        <li><span className={styles.check_icon}>✓</span> 5M output tokens/month</li>
+                        <li><span className={styles.check_icon}>✓</span> Top up as needed</li>
                         <li><span className={styles.check_icon}>✓</span> Microsoft Teams integration</li>
                         <li><span className={styles.check_icon}>✓</span> Priority AI support</li>
                     </ul>
-                    <button className={styles.signup_button} onClick={() => showSignupForm('Fusion Pro')}>Start Free Trial</button>
+                    <a href="/POC"><button className={styles.signup_button}>Free POC</button></a>
                 </div>
 
                 <div className={styles.pricing_card}>
@@ -137,7 +143,7 @@ function Fusion() {
                         <li><span className={styles.check_icon}>✓</span> Everything in Pro</li>
                         <li><span className={styles.check_icon}>✓</span> Use your own Anthropic API key</li>
                     </ul>
-                    <button className={styles.signup_button} onClick={() => showSignupForm('Fusion Enterprise')}>Contact Sales</button>
+                    <a href="/POC"><button className={styles.signup_button}>Free POC</button></a>
                 </div>
             </div>
 
@@ -152,70 +158,7 @@ function Fusion() {
 function Enterpise() {
 	return (
         <div id="enterprise" className="tab_content">
-            <div className={styles.form_section}>
-                <h2>Enterprise Solutions</h2>
-                <p style={{textAlign: "center", color: "#64748b", marginBottom: "30px"}}>
-                    Get a custom solution tailored to your organization's unique needs
-                </p>
-
-                <form id="enterpriseForm">
-                    <div className={styles.form_group}>
-                        <label>Full Name *</label>
-                        <input type="text" required placeholder="John Smith" />
-                    </div>
-                    <div className={styles.form_group}>
-                        <label>Company Email *</label>
-                        <input type="email" required placeholder="john.smith@company.com" />
-                    </div>
-
-                    <div className={styles.form_group}>
-                        <label>Company Name *</label>
-                        <input type="text" required placeholder="Your Company" />
-                    </div>
-
-                    <div className={styles.form_group}>
-                        <label>Phone Number</label>
-                        <input type="tel" placeholder="+44 20 1234 5678" />
-                    </div>
-
-                    <div className={styles.form_group}>
-                        <label>Company Size *</label>
-                        <select required>
-                            <option value="">Select size</option>
-                            <option value="1-10">1-10 employees</option>
-                            <option value="11-50">11-50 employees</option>
-                            <option value="51-200">51-200 employees</option>
-                            <option value="201-500">201-500 employees</option>
-                            <option value="500+">500+ employees</option>
-                        </select>
-                    </div>
-
-                    <div className={styles.form_group}>
-                        <label>Primary Use Case *</label>
-                        <select required>
-                            <option value="">Select use case</option>
-                            <option value="energy-trading">Energy Trading</option>
-                            <option value="commodity-trading">Commodity Trading</option>
-                            <option value="risk-management">Risk Management</option>
-                            <option value="data-analytics">Data Analytics</option>
-                            <option value="portfolio-management">Portfolio Management</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-
-                    <div className={styles.form_group}>
-                        <label>Tell us about your requirements</label>
-                        <textarea placeholder="What are you looking to achieve? What challenges are you facing?"></textarea>
-                    </div>
-
-                    <div className={`{styles.form_group} ${styles.checkbox_group}`}>
-                        <input type="checkbox" id="agree" required />
-                        <label htmlFor="agree">I agree to be contacted by OpenDataDSL regarding this inquiry and understand I can opt out at any time.</label>
-                    </div>
-
-                    <button type="submit" className={styles.submit_button}>Request Consultation</button>
-                </form>
-            </div>
+                <ContactForm />
 
             <div className={styles.benefits}>
                 <h3>Enterprise Benefits</h3>

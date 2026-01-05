@@ -57,6 +57,8 @@ const config = {
            */
           path: './news',
           blogTitle: 'News',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All our news',
         },
       ],
     [
@@ -77,6 +79,8 @@ const config = {
              */
             path: './events',
             blogTitle: 'Events',
+            blogSidebarCount: 'ALL',
+            blogSidebarTitle: 'All our events',
           },
     ]
   ],
@@ -159,7 +163,8 @@ const config = {
             {to: '/AboutUs', label: 'About Us'},
             {to: '/contact', label: 'Contact Us'},
             {to: '/support', label: 'Support'},
-            {to: '/SignUp', label: 'Plans'}
+            {to: '/SignUp', label: 'Plans'},
+            {to: '/POC', label: 'Free POC'}
         ]},
         {type:'dropdown', label: 'Solutions', position: 'left', items:[
             {to: '/features/data-management', label: 'Data Management'},

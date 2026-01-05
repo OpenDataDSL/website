@@ -19,7 +19,7 @@
 @media only screen and (min-width: 800px) {
     .formheadertext {
         color: rgb(80, 40, 40);
-        padding: 40px 300px 120px 300px;
+        padding: 20px 300px 20px 300px;
     }
     .demoheadertext {
         color: rgb(80, 40, 40);
@@ -34,7 +34,6 @@
         background-color: rgb(255, 255, 255);
         padding: 20px 64px 64px 64px;
         margin: 80px;
-        top: -180px;
     }
     .minipage {
         border-top: 4px solid orange;

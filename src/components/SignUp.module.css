@@ -33,6 +33,13 @@
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+h2 {
+	color: #64748b;
+	text-align: center;
+	font-size: medium;
+	padding-bottom: 20px;
+}
+
 .tab {
 	padding: 15px 40px;
 	background: transparent;
@@ -153,6 +160,7 @@
 .signup_button {
 	width: 100%;
 	padding: 15px;
+	margin-bottom: 5px;
 	background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
 	color: white;
 	border: none;

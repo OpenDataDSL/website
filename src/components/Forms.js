@@ -11,6 +11,7 @@ export function Sales(props) {
                     <div className={styles.formheadertext} itemScope itemType="https://schema.org/LocalBusiness">
                         <p className={styles.contactinfo} itemProp="email"><i className="bi bi-envelope-at-fill" alt="Phone" /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></p>
                         <p className={styles.contactinfo} itemProp="telephone"><i className="bi bi-telephone-fill" alt="Phone" /><a href="tel:+44 1245 555053"> +44 1245 555053</a></p>
+                        <p className={styles.contactinfo}><a target="_blank" href="http://eepurl.com/ih0lVr">Sign up to our newsletters!</a></p>
                     </div>
                 </div>
             </div>
@@ -32,6 +33,7 @@ export function Demo(props) {
                         <p className="h6">Our team is here to find the right solution for you, contact us to see this in action.</p>
                         <p className={styles.contactinfo} itemProp="email"><i className="bi bi-envelope-at-fill" alt="Phone" /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></p>
                         <p className={styles.contactinfo} itemProp="telephone"><i className="bi bi-telephone-fill" alt="Phone" /><a href="tel:+44 1245 555053"> +44 1245 555053</a></p>
+                        <p className={styles.contactinfo}><a target="_blank" href="http://eepurl.com/ih0lVr">Sign up to our newsletters!</a></p>
                     </div>
                 </div>
             </div>
@@ -41,11 +43,15 @@ export function Demo(props) {
     );
 }
 
-export function ContactForm() {
+export function ContactForm(props) {
+    var to = "sales";
+    if (props.to) {
+      to = props.to;
+    }
     return (
             <div className={styles.formpage}>
                 <p className={styles.filldetails}>Fill out your details below and somebody will be in contact with you very shortly.</p>
-                <form method="POST" action="https://api.opendatadsl.com/api/form/Sales">
+                <form method="POST" action={"https://api.opendatadsl.com/api/form/" + to}>
                     <div className="row">
                        <div className="col">
                           <div className="mb-3">
