@@ -63,7 +63,7 @@ export function PartnerSwiper() {
   return (
         <div>
             <section className="partner-section">
-                <div className="news-swiper scroll-to-display">
+                <div className="partner-swiper scroll-to-display">
                   <Swiper modules={[Autoplay]}
                     spaceBetween={10}
                     slidesPerView={3}
@@ -95,10 +95,10 @@ export function PartnerSwiper() {
 
 export function Partner(props) {
 	return (
-		<div className={styles.expertise_item}>
+		<div className="blue_item">
 			<h4>{props.name}</h4>
 			<a href={props.website}><img src={props.logo} width="150px" style={{marginBottom: "30px"}} /></a>
-			<p>{props.text}</p>
+			<p className="partner-text">{props.text}</p>
 			<a href={props.link}>More about {props.name}</a>
 		</div>
 	);

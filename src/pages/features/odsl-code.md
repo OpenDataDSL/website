@@ -3,7 +3,7 @@ title: ODSL
 hide_table_of_contents: true
 ---
 
-import { Feature, Integration } from '/src/components/Features.js'
+import { Feature, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="ODSL Programming Language" slogan="Purpose-built for energy professionals" jpg="/img/icons/odsl.png" />
@@ -49,7 +49,7 @@ import {Demo} from '/src/components/Forms.js';
 			<div className="orange_item">
 				<h4>Native Energy Market Understanding</h4>
                 <h5>Timeseries, forward curves, and market conventions are built-in language constructs.</h5>
-				<p>No importing libraries to handle contract months, delivery periods, business day calendars, or curve interpolation. ODSL understands ```2025Q02``` and ```M01``` natively. Date arithmetic, tenor calculations, and calendar alignments just work—exactly how energy professionals think about markets.</p>
+				<p>No importing libraries to handle contract months, delivery periods, business day calendars, or curve interpolation. ODSL understands delivery periods like ```2025Q02``` and ```M01``` natively. Date arithmetic, tenor calculations, and calendar alignments just work—exactly how energy professionals think about markets.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Readable by non-programmers</h4>
@@ -64,7 +64,7 @@ import {Demo} from '/src/components/Forms.js';
 			<div className="orange_item">
 				<h4>Seamless Platform Integration</h4>
                 <h5>Direct access to your entire data infrastructure with simple syntax.</h5>
-				<p>Reference market data with ```${data:"ICE.IFEU.B"}```, save results with the ```save``` command. ODSL scripts power Smart Curves, drive AI Agents, define Custom Tools, and integrate with external systems—all using the same clear, consistent language throughout the platform.</p>
+				<p>Reference market data with the data service e.g. ```${data:"ICE.IFEU.B"}```, save results with the ```save``` command. ODSL scripts power Smart Curves, drive AI Agents, define Custom Tools, and integrate with external systems—all using the same clear, consistent language throughout the platform.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Maintainable and Future-Proof Code</h4>
@@ -75,10 +75,10 @@ import {Demo} from '/src/components/Forms.js';
 	</div>
 </section>
 
-<section className="section">
+<section className="section section_lfo">
 	<div className="container">
 		<h2>ODSL in Action: Real Example</h2>		
-		<h3>Spark Spread Calculation</h3>
+		<h3>Spark Spread Calculation - comparison between Python and ODSL</h3>
         <p>**The Task:** Calculate spark spread (power price minus gas cost adjusted for heat rate) across a forward curve.</p>
 		<div className="story_content">
 			<div className="story_text">
@@ -109,7 +109,7 @@ result = spark_spread.resample('M').mean()
 ```js
 // Load forward curves
 powerCurve = ${data:"EEX.EL.DE.BASE:SETTLE_MONTHS:2026-01-02"}
-gasCurve = ${data:"EEX.NG.NL.TTF:SETTLE_MONTHS"}
+gasCurve = ${data:"EEX.NG.NL.TTF:SETTLE_MONTHS:2026-01-02"}
 
 // Calculate spark spread
 sparkSpread = powerCurve - (gasCurve * 7.5 * 1.05)
@@ -139,6 +139,7 @@ sparkSpread = powerCurve - (gasCurve * 7.5 * 1.05)
 		<h2>Ready to Transform Your Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/fusion" text="Fusion AI" />
 	</div>
 </section>
 

@@ -224,7 +224,7 @@ function Team() {
 					<p>Sunil now heads up the UX team working on the front-ends for the web, excel and mobile platforms for OpenDataDSL.</p>
                 </div>
                 <div className={styles.team_item}>
-					<img className={styles.team_icon} src='/img/authors/ShubhaSwaroop.jpg' />
+					<img className={styles.team_icon} src='/img/authors/ShubhaSwaroop.png' />
                     <h4>Shubha Swaroop</h4>
 					<h5>Head of Data Operations</h5>
 					<a href="https://www.linkedin.com/pulse/behind-data-4-engine-room-trusted-renato-vieira-qrjwf/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D" ><h5>Read her interview in the Behind the Data series</h5></a>

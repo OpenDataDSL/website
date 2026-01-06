@@ -34,6 +34,12 @@ export function Feature(props) {
 	);
 }
 
+export function NextButton(props) {
+	return (
+		<a href={props.link} className="cta_button next_button" style={{background: "#0c7011ff", color: "white"}}>{props.text}&nbsp;&nbsp;<i className="bi bi-fast-forward-fill" /></a>
+	);
+}
+
 export function Integration(props) {
 	return (
 		<div className="col-md-6 col-lg-4 p-4 col-xs-12 border border-radius">
@@ -137,3 +143,4 @@ function CatalogCard({link, provider, title, text, providerType, dataset}) {
       </a>
     )
 }
+

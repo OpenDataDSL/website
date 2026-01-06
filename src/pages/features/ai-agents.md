@@ -3,7 +3,7 @@ title: AI Agents
 hide_table_of_contents: true
 ---
 
-import { Feature, Integration } from '/src/components/Features.js'
+import { Feature, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="AI Agents" slogan="Your 24/7 energy operations team" jpg="/img/icons/agent.png" />
@@ -100,7 +100,7 @@ import {Demo} from '/src/components/Forms.js';
 	</div>
 </section>
 
-<section className="section section_alt">
+<section className="section section_alt section_lfo">
 	<div className="container">
 		<h2>Common AI Agent Workflows</h2>		
 		<p>Some real-world examples of agents</p>
@@ -248,6 +248,7 @@ import {Demo} from '/src/components/Forms.js';
 		<h2>Ready to Transform Your AI Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/custom-tools" text="Custom Tools" />
 	</div>
 </section>
 

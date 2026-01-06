@@ -3,7 +3,7 @@ title: AI Assistants
 hide_table_of_contents: true
 ---
 
-import { Feature, Integration } from '/src/components/Features.js'
+import { Feature, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="AI Assistants" slogan="Expert assistance, smarter decisions" jpg="/img/icons/assistant.png" />
@@ -99,6 +99,7 @@ import {Demo} from '/src/components/Forms.js';
 					<li>"Which assistant should I use for building a custom analytics dashboard?"</li>
 				</ul>
 				<p>The General Assistant serves as your intelligent guide—understanding your question's context and either providing immediate answers or directing you to the specialist who can help best.</p>
+		        <a href="/features/ai-conversations-general">View real user conversations with the general assistant</a>
 			</div>
 			<div className="blue_item">
 				<h4>Analyse Assistant</h4>
@@ -118,6 +119,7 @@ import {Demo} from '/src/components/Forms.js';
 					<li>"Create a report showing daily price moves greater than 5% for all my monitored commodities this month"</li>
 				</ul>
 				<p>The Analyse Assistant transforms raw market data into actionable insights, performing sophisticated analytics through natural language requests without requiring manual spreadsheet work or statistical software.</p>
+		        <a href="/features/ai-conversations-analyse">View real user conversations with the analyse assistant</a>
 			</div>
 			<div className="blue_item">
 				<h4>Curve Assistant</h4>
@@ -139,6 +141,7 @@ import {Demo} from '/src/components/Forms.js';
 					<li>"Why does my curve show an unusual spike in December 2025? Validate the input data"</li>
 				</ul>
 				<p>The Curve Assistant combines deep knowledge of energy market structures with ODSL programming expertise, enabling both conversational curve building and sophisticated code generation.</p>
+		        <a href="/features/ai-conversations-curve">View real user conversations with the curve assistant</a>
 			</div>
 			<div className="blue_item">
 				<h4>Operations Assistant</h4>
@@ -160,6 +163,7 @@ import {Demo} from '/src/components/Forms.js';
 					<li>"My power data feed failed yesterday—what happened and how do I backfill the missing data?"</li>
 				</ul>
 				<p>The Operations Assistant transforms platform management from reactive troubleshooting to proactive workflow design, ensuring your data pipelines run smoothly and issues are caught before they impact trading decisions.</p>
+		        <a href="/features/ai-conversations-operations">View real user conversations with the operations assistant</a>
 			</div>
 			<div className="blue_item">
 				<h4>Code Assistant</h4>
@@ -182,6 +186,7 @@ import {Demo} from '/src/components/Forms.js';
 					<li>"Generate a script that exports all curves to CSV files for my risk system"</li>
 				</ul>
 				<p>The Code Assistant accelerates development for both experienced programmers and those new to ODSL, providing working code examples, debugging assistance, and best practice guidance.</p>
+		        <a href="/features/ai-conversations-code">View real user conversations with the code assistant</a>
 			</div>
 			<div className="blue_item">
 				<h4>Integrate Assistant</h4>
@@ -204,6 +209,7 @@ import {Demo} from '/src/components/Forms.js';
 					<li>"My API call is returning a 403 error—what's wrong with my authentication?"</li>
 				</ul>
 				<p>The Integrate Assistant bridges OpenDataDSL with your broader technology ecosystem, enabling seamless data flow between platforms and empowering your team to build connected workflows.</p>
+		        <a href="/features/ai-conversations-integrate">View real user conversations with the integrate assistant</a>
 			</div>
 		</div>
 	</div>
@@ -325,6 +331,7 @@ import {Demo} from '/src/components/Forms.js';
 		<h2>Ready to Transform Your AI Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/ai-agents" text="AI Agents" />
 	</div>
 </section>
 

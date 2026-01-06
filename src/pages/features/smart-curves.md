@@ -3,7 +3,7 @@ title: Smart Curves
 hide_table_of_contents: true
 ---
 
-import { Feature, Integration } from '/src/components/Features.js'
+import { Feature, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="Smart Curves" slogan="Create with AI, build with precision" jpg="/img/icons/curve.png" />
@@ -86,7 +86,7 @@ import {Demo} from '/src/components/Forms.js';
 </section>
 
 
-<section className="section">
+<section className="section section_lfo">
 	<div className="container">
 		<h2>Curve Creation</h2>		
 		<h3>Using ODSL code</h3>
@@ -237,6 +237,7 @@ import {Demo} from '/src/components/Forms.js';
 		<h2>Ready to Transform Your Curve Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/odsl-code" text="ODSL Language" />
 	</div>
 </section>
 

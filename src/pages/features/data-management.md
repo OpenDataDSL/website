@@ -3,19 +3,10 @@ title: Data Management
 hide_table_of_contents: true
 ---
 
-import { Animate, Integration } from '/src/components/Features.js'
+import { Feature, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
-<Animate />
-
-<div className="hero">
-	<div className="container">
-		<img src="/img/icons/mdm.png" className="featureSvg scroll-to-display" />
-		<h1 className="scroll-to-display">Data Management</h1>
-		<p className="scroll-to-display">Your market data, unified and intelligent</p>
-	</div>
-</div>
-
+<Feature title="Data Management" slogan="Your market data, unified and intelligent" jpg="/img/icons/mdm.png" />
 
 <section className="section">
 	<div className="container">
@@ -157,6 +148,7 @@ import {Demo} from '/src/components/Forms.js';
 		<h2>Ready to Transform Your Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/data-catalogue" text="Data Catalogue" />
 	</div>
 </section>
 

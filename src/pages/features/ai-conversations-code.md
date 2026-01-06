@@ -1,22 +1,37 @@
-# Real converations with Fusion AI
-This page shows some real conversations that users have had with Fusion AI
+---
+title: AI Converations
+hide_table_of_contents: true
+---
 
-## Code Assistant
-Your programming expert for ODSL development, scripting, and technical implementation.
+import { Feature, NextButton } from '/src/components/Features.js'
+import {Demo} from '/src/components/Forms.js';
 
-#### Expertise Areas:
+<Feature title="Code AI Conversations" slogan="Real interations with the code assistant for generating and using the ODSL language" jpg="/img/icons/assistants/code.png" />
 
-* ODSL language syntax and best practices
-* Custom analytics development
-* Data transformation scripting
-* Code debugging and optimization
-* Algorithm implementation
-* Integration code examples
 
-The Code Assistant accelerates development for both experienced programmers and those new to ODSL, providing working code examples, debugging assistance, and best practice guidance.
+<section className="section">
+	<div className="container">
+		<h2>Code Assistant</h2>
+		<p>Your programming expert for ODSL development, scripting, and technical implementation.</p>
+		<h5>Expertise Areas</h5>
+		<ul>
+			<li>ODSL language syntax and best practices</li>
+			<li>Custom analytics development</li>
+			<li>Data transformation scripting</li>
+			<li>Code debugging and optimization</li>
+			<li>Algorithm implementation</li>
+			<li>Integration code examples</li>
+		</ul>
+	</div>
+</section>
 
-### Analysing Scripts
-The code assistant can pull stored user scripts from the platform and analyse the functionality.
+
+<section className="section">
+	<div className="container">
+		### Analysing Scripts
+		The code assistant can pull stored user scripts from the platform and analyse the functionality.
+	</div>
+</section>
 
 <div class="chat-messages" id="chatMessages">
 	<div class="message user">
@@ -62,8 +77,12 @@ The code assistant can pull stored user scripts from the platform and analyse th
 	</div>
 </div>
 
-### Create a curve build function
-This example shows the code assistant generating a new curve building function.
+<section className="section">
+	<div className="container">
+		### Create a curve build function
+		This example shows the code assistant generating a new curve building function.
+	</div>
+</section>
 
 <div class="chat-messages" id="chatMessages">
 	<div class="message user">
@@ -134,8 +153,13 @@ This example shows the code assistant generating a new curve building function.
 	</div>
 </div>
 
-### Save script
-The code assistant can save the script to the platform.
+<section className="section">
+	<div className="container">
+		### Save script
+		The code assistant can save the script to the platform.
+	</div>
+</section>
+
 
 <div class="chat-messages" id="chatMessages">
 	<div class="message user">
@@ -173,9 +197,12 @@ The code assistant can save the script to the platform.
 	</div>
 </div>
 
-### Add comments to a script
-
-The code assistant can read a script from the platform, add comments to it and save it back
+<section className="section">
+	<div className="container">
+		### Add comments to a script
+		The code assistant can read a script from the platform, add comments to it and save it back
+	</div>
+</section>
 
 <div class="chat-messages" id="chatMessages">
 	<div class="message user">
@@ -259,62 +286,3 @@ The code assistant can read a script from the platform, add comments to it and s
 	</div>
 </div>
 
-## Curve Assistant
-
-Your curve-building specialist for forward curve construction, validation, and methodology.
-
-#### Expertise Areas:
-
-* Forward curve construction techniques
-* Interpolation and extrapolation methods
-* Gap handling and curve smoothing
-* Multi-source curve blending
-* Curve validation and quality checks
-* ODSL curve-building code generation
-
-The Curve Assistant combines deep knowledge of energy market structures with ODSL programming expertise, enabling both conversational curve building and sophisticated code generation.
-
-### Create a smart curve
-<div class="chat-messages" id="chatMessages">
-	<div class="message user">
-		<div class="message-content">Can you create a smart curve using this function use ICE Brent</div>
-	</div>    
-	<div class="message assistant">
-		<div class="message-content">
-		<div class="border-bottom mb-2"><span>Answer from assistant: <i class="bi-graph-up text-info fs-4 ms-1 me-1"></i><strong>Curve</strong></span></div>
-		<p>🎉 <strong>Success!</strong> I've created a SMART curve for you!</p>
-		<h2 id="smart-curve-details">SMART Curve Details</h2>
-		<p><strong>Curve ID:</strong> <code>BRENT.YEARSPREAD</code></p>
-		<p><strong>Configuration:</strong></p>
-		<ul>
-		<li><strong>Base Curve:</strong> ICE.IFEU.B:SETTLE (ICE Brent Crude Futures Settlement Prices)</li>
-		<li><strong>Expression:</strong> <code>yearSpread(BASE)</code></li>
-		<li><strong>Script:</strong> MyFunctions</li>
-		<li><strong>What it does:</strong> Calculates 12-month year-over-year spreads from the ICE Brent forward curve</li>
-		</ul>
-		<h3 id="how-to-use-it">How to use it:</h3>
-		<pre><code class="odsl language-odsl">// Retrieve the smart curve
-		brent_year_spreads = $\{curve:"BRENT.YEARSPREAD:2024-01-15"\}
-		&nbsp;
-		// Or get the latest curve
-		latest_spreads = $\{curve:"BRENT.YEARSPREAD"\}
-		&nbsp;
-		// Print results
-		print brent_year_spreads</code><i title="Copy this code" class="bi-copy me-1 float-end actionicon"></i></pre>
-		<h3 id="example-output">Example Output:</h3>
-		<p>The curve will contain contracts like:</p>
-		<ul>
-		<li><strong>M01-M13:</strong> 2.50 (January vs January next year)</li>
-		<li><strong>M02-M14:</strong> 1.75 (February vs February next year)</li>
-		<li><strong>M03-M15:</strong> 0.50 (March vs March next year)</li>
-		<li>etc.</li>
-		</ul>
-		<p>This helps traders analyze the <strong>seasonal contango/backwardation pattern</strong> in Brent crude, showing how much the curve is moving up or down across a 12-month period.</p>
-		<p>Would you like me to:</p>
-		<ol>
-		<li><strong>Retrieve and display</strong> the latest curve data?</li>
-		<li><strong>Create other SMART curves</strong> with different spreads (6-month, 3-month, etc.)?</li>
-		<li><strong>Modify the expression</strong> (e.g., add a scaling factor like <code>yearSpread(BASE) * 1.1</code>)?</li>
-		</ol><i title="Like this response" class="bi-hand-thumbs-up me-1 actionicon"></i><i title="Dislike this response" class="bi-hand-thumbs-down me-1 actionicon"></i></div>
-	</div>
-</div>

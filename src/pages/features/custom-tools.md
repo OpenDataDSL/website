@@ -3,7 +3,7 @@ title: Custom Tools
 hide_table_of_contents: true
 ---
 
-import { Feature, Integration } from '/src/components/Features.js'
+import { Feature, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="Custom Tools" slogan="Your workflows, your tools, your edge" jpg="/img/icons/tools.png" />
@@ -131,6 +131,7 @@ import {Demo} from '/src/components/Forms.js';
 		<h2>Ready to Transform Your AI Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/data-management" text="Data Management" />
 	</div>
 </section>
 

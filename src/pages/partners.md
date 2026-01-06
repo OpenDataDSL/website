@@ -8,16 +8,16 @@ import { PartnerProgram, Partner, PartnerSwiper } from '/src/components/PartnerP
 
 <PartnerProgram title="OpenDataDSL - a partner you can rely on" subtitle="Join our ecosystem of technology innovators, consulting experts, and data providers transforming commodity markets worldwide." />
 
-<section className={styles.section}>
-    <div className={styles.container}>
+<section className="section">
+	<div className="container">
         <h2>Partnership Mission</h2>
         <p>Here at OpenDataDSL we are clear on our mission – to take the data that matters to our clients – external or internal – and make it useful to them everywhere and anywhere – data plumbing in the cloud. That mission means OpenDataDSL operates as part of a network of connected data storage providers, content providers, business applications, workflow engines and visualization tools.</p>    
         <p>For our clients to be successful our partnerships need to be successful – increasingly a solution is not solely owned by one company, but a collection of best of breed capabilities provided by multiple organisations who collaborate when things are going well and even more so when they are not. Having trusted expert partners and being open to sharing knowledge, insight and opportunities benefits ourselves, our clients and our partners. </p>    
     </div>
 </section>
 
-<section className={`${styles.section} ${styles.section_alt}`}>
-    <div className={styles.container}>
+<section className="section section_alt">
+	<div className="container">
         <h2>Partner Benefits</h2>
         <ul>
             <li>Training and access to our documentation and people</li>
@@ -31,12 +31,12 @@ import { PartnerProgram, Partner, PartnerSwiper } from '/src/components/PartnerP
     </div>
 </section>
 
-<section className={styles.section}>
-    <div className={styles.container}>
+<section className="section">
+	<div className="container">
         <h2>Our Valued Partners</h2>
+        <p>If you are interested in becoming a partner, email our partners team at partner@opendatadsl.com</p>
         <PartnerSwiper />
     </div>
 </section>
 
 
-If you are interested in becoming a partner, email our partners team at partner@opendatadsl.com. 

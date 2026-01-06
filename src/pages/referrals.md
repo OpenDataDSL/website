@@ -10,10 +10,11 @@ import { PartnerProgram, ExpertiseItem } from '/src/components/PartnerProgram.js
 
 
 
-<section className={styles.section}>
-    <div className={styles.container}>
+<section className="section">
+	<div className="container">
         <h2>Unlimited Earning Potential</h2>
         <p>Generate income by referring OpenDataDSL to your clients or build extensions and insights within the platform for specific market sector functionality</p>        
+        <p>If you are interested in becoming a partner, email our partners team at partner@opendatadsl.com</p>
         <div className={styles.expertise_grid}>
             <ExpertiseItem title="Earnings up to 40%" text="You will receive up to 40% of the revenue from your referred client for as long as they remain a paying client." />
             <ExpertiseItem title="Unrestricted Territory" text="You will have no restrictions on territory or market segment." />
@@ -22,8 +23,8 @@ import { PartnerProgram, ExpertiseItem } from '/src/components/PartnerProgram.js
     </div>
 </section>
 
-<section className={`${styles.section} ${styles.section_alt}`}>
-    <div className={styles.container}>
+<section className="section section_alt">
+	<div className="container">
         <h2>Typical OpenDataDSL Referral Partners</h2>
         <p>The OpenDataDSL referral program is a great match for</p>
         <div className={styles.expertise_grid}>
@@ -35,5 +36,4 @@ import { PartnerProgram, ExpertiseItem } from '/src/components/PartnerProgram.js
     </div>
 </section>
 
-If you are interested in becoming a referral partner, email our partners team at partner@opendatadsl.com.
 

@@ -3,7 +3,7 @@ title: ODSL
 hide_table_of_contents: true
 ---
 
-import { Feature, Integration } from '/src/components/Features.js'
+import { Feature, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 <Feature title="Fusion AI" slogan="Your AI expert for energy professionals" jpg="/img/icons/fusion.png" />
@@ -73,8 +73,6 @@ import {Demo} from '/src/components/Forms.js';
 	</div>
 </section>
 
-
-
 <section className="section">
 	<div className="container">
 		<h2>Fusion Architecture</h2>	
@@ -110,6 +108,45 @@ import {Demo} from '/src/components/Forms.js';
 
 <section className="section">
 	<div className="container">
+		<h2>Real World Usage</h2>
+    <p>View some real-user conversations</p>
+    <div className="red_grid">
+      <div className="red_item">
+        <h4>General</h4>
+        <p>Real interations with the general assistant for help using the OpenDataDSL Platform</p>
+        <button><a href="/features/ai-conversations-general"><img className="red_icon" src="/img/icons/assistants/general.png" /></a></button>
+      </div>
+      <div className="red_item">
+        <h4>Analyse</h4>
+        <p>Real interations with the analyse assistant for analysing and reporting on data</p>
+        <button><a href="/features/ai-conversations-analyse"><img className="red_icon" src="/img/icons/assistants/analyse.png" /></a></button>
+      </div>
+      <div className="red_item">
+        <h4>Smart Curve</h4>
+        <p>Real interations with the curve assistant for creating and working with Smart Curves</p>
+        <button><a href="/features/ai-conversations-curve"><img className="red_icon" src="/img/icons/assistants/curve.png" /></a></button>
+      </div>
+      <div className="red_item">
+        <h4>Operations</h4>
+        <p>Real interations with the operations assistant for monitoring processes, curves and data</p>
+        <button><a href="/features/ai-conversations-operations"><img className="red_icon" src="/img/icons/assistants/operations.png" /></a></button>
+      </div>
+      <div className="red_item">
+        <h4>ODSL Code</h4>
+        <p>Real interations with the code assistant for generating and using the ODSL language</p>
+        <button><a href="/features/ai-conversations-code"><img className="red_icon" src="/img/icons/assistants/code.png" /></a></button>
+      </div>
+      <div className="red_item">
+        <h4>Integrations</h4>
+        <p>Real interations with the integrate assistant for assisting with integrating data into/out of systems</p>
+        <button><a href="/features/ai-conversations-integrate"><img className="red_icon" src="/img/icons/assistants/integrate.png" /></a></button>
+      </div>
+    </div>
+	</div>
+</section>
+
+<section className="section">
+	<div className="container">
 		<h2>From generic AI to domain expertise</h2>
 		<div className="story_content">
 			<div className="story_text">
@@ -127,6 +164,7 @@ import {Demo} from '/src/components/Forms.js';
 		<h2>Ready to Transform Your AI Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/ai-assistants" text="AI Assistants" />
 	</div>
 </section>
 

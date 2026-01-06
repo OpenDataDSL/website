@@ -3,7 +3,7 @@ title: Data Catalogue
 hide_table_of_contents: true
 ---
 
-import { Feature, Catalog } from '/src/components/Features.js'
+import { Feature, Catalog, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
 
@@ -150,6 +150,7 @@ import {Demo} from '/src/components/Forms.js';
 		<h2>Ready to Transform Your Data Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/smart-curves" text="Smart Curves" />
 	</div>
 </section>
 
