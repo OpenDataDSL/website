@@ -31,7 +31,7 @@ import {Demo} from '/src/components/Forms.js';
 
 <div class="chat-messages" id="chatMessages">
 	<div class="message user">
-		<div class="message-content">Can you create a smart curve using the yearSpread function using ICE Brent</div>
+		<div class="message-content">What is the syntax for iterating through an array in odsl code?</div>
 	</div>    
 	<div class="message assistant">
 		<div class="message-content">
