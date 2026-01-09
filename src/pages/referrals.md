@@ -16,7 +16,7 @@ import { PartnerProgram, ExpertiseItem } from '/src/components/PartnerProgram.js
         <p>Generate income by referring OpenDataDSL to your clients or build extensions and insights within the platform for specific market sector functionality</p>        
         <p>If you are interested in becoming a partner, email our partners team at partner@opendatadsl.com</p>
         <div className={styles.expertise_grid}>
-            <ExpertiseItem title="Earnings up to 40%" text="You will receive up to 40% of the revenue from your referred client for as long as they remain a paying client." />
+            <ExpertiseItem title="Earnings up to 20%" text="You will receive up to 20% of the revenue from your referred client for as long as they remain a paying client." />
             <ExpertiseItem title="Unrestricted Territory" text="You will have no restrictions on territory or market segment." />
             <ExpertiseItem title="Unlimited Earnings" text="You will have no cap on the amount of referral money you can earn." />
         </div>
