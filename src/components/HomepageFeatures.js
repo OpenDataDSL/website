@@ -75,38 +75,58 @@ const BenefitList = [
     }
 ]
 
-const NewsArticles = [
+const Articles = [
   {
+    type: "Blog",
     date: "Jan 01, 2026",
-    title: "New Feature: Fusion AI, Energy Intelligence",
-    link: "./news/fusion-ai",
+    title: "Blog: Fusion AI, Energy Intelligence",
+    link: "./blog/fusion",
     text: "Fusion AI brings expert intelligence to every aspect of energy and commodity trading companies."
   },
   {
+    type: "Event",
+    date: "Jul 15, 2025",
+    title: "Energy Trading Week",
+    link: "./events/etw-2025",
+    text: "ETW Europe 2025 - Come and visit us at ETW Europe on stand 39"
+  },
+  {
+    type: "Blog",
+    date: "Jul 09, 2025",
+    title: "Forward Curve Insights - Time Spreads",
+    link: "./blog/time_spread",
+    text: "Decoding Forward Curves: Building Market Structure Intelligence with OpenDataDSL."
+  },
+  {
+    type: "News",
     date: "Jun 06, 2025",
     title: "New Feature: OpenDataDSL Application Extensions",
     link: "./news/extensions",
     text: "Clients, partners and OpenDataDSL can now easily add bespoke functionality into the web portal using application extensions."
   },
   {
+    type: "News",
     date: "Jan 27, 2025",
     title: "Data Monitoring gives unprecedented transparency",
     link: "./news/dataset-monitoring",
     text: "OpenDataDSL introduces the latest new feature to the SaaS platform - Data Monitoring - What is it and how can it help you?"
   },
   {
+    type: "News",
     date: "Sep 2, 2024",
     title: "OpenDataDSL partners with Time2Market",
     link: "./news/partner-program",
     text: "OpenDataDSL welcomes their latest partner; Time2Market, the leading provider of market access and trading support services."
   },
   {
+    type: "News",
     date: "May 28, 2024",
     title: "PZEM Energy Company chooses OpenDataDSL",
     link: "./news/pzem-chooses-opendatadsl",
     text: "OpenDataDSL announced today that PZEM Energy Company has chosen OpenDataDSL for their SaaS Data Management Platform."
   },
   {
+    type: "News",
     date: "May 02, 2024",
     title: "OpenDataDSL partners with Previse Systems",
     link: "./news/previse-partnership",
@@ -219,7 +239,7 @@ export function News() {
             <section className="news-section">
                     <div className="container">
                     <div className="herotwo__content">
-                        <h2 className="herotwo__title scroll-to-display">Latest News</h2>
+                        <h2 className="herotwo__title scroll-to-display">Insights</h2>
                     </div>
                 </div>
                 <div className="news-swiper scroll-to-display">
@@ -238,7 +258,7 @@ export function News() {
                           "2500": {"slidesPerView": 3}
                       }}
                   >
-                    {NewsArticles.map((props, idx) => (
+                    {Articles.map((props, idx) => (
                       <SwiperSlide key={idx}>
                           <div className="news-div">
                               <NewsCard key={idx} {...props} />
@@ -252,12 +272,12 @@ export function News() {
   );
 };
 
-function NewsCard({link, title, text, date}) {
+function NewsCard({type, link, title, text, date}) {
   return (
       <a href={link}>
         <div className="p-4">
           <div className="text--center padding-horiz--md">
-            <span className="news-date">{date}</span>
+            <span className="news-date">{type + " - " + date}</span>
             <h3 className="news-headline">{title}</h3>
             <p>{text}</p>
           </div>

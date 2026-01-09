@@ -36,6 +36,11 @@ import {Demo} from '/src/components/Forms.js';
 	</div>
 </section>
 
+<center>
+	<video className="feature-video" autoPlay loop muted>
+	<source src="/img/fusion/Fusion_Assistants.mp4" type="video/mp4" />
+	</video>
+</center>
 
 <section className="section section_alt">
 	<div className="container">

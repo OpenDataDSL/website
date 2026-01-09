@@ -11,7 +11,7 @@ import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="col-md">
-    <img src="/img/fusion/fusion_odsl.png"/>
+    <img src="/img/fusion/fusion_logo.png"/>
   </div>
 
 <div className="col-md">

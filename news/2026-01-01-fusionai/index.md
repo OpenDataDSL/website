@@ -9,7 +9,7 @@ import {Demo} from '/src/components/Forms.js';
 
 <div className="row">
   <div className="column">
-    <img src="/img/fusion/fusion_odsl.png" width="80%" />
+    <img src="/img/fusion/fusion_logo.png" width="80%" />
   </div>
   <div className="column">
   <h4>Fusion AI</h4>

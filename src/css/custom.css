@@ -157,6 +157,7 @@ ul.footer__items {
 }
 
 .video-spinner {
+  display: none;
   position: absolute;
   top: 120px;
   left: 100px;
@@ -737,6 +738,11 @@ code {
   margin-left: 30px;
 }
 
+.feature-video {
+  width: 640px;
+  height: 360px;
+}
+
 @media (max-width: 1199px) {
   .herotwo {
     padding-top: 40px;
@@ -794,6 +800,10 @@ code {
   .herotwo__subtitle {
     font-size: 24px;
   }
+.feature-video {
+  width: 320px;
+  height: 180px;
+}
 }
 @media (max-width: 425px) {
   .herotwo {
