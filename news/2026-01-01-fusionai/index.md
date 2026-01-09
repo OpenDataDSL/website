@@ -38,8 +38,6 @@ Fusion's breakthrough capability lies in how its specialized assistants collabor
 
 "We're seeing traders solve problems in minutes that previously required coordinating between quantitative analysts, operations specialists, and IT developers over days or weeks," Hartley noted. "The assistants work together the way expert teams do, but with immediate availability and perfect consistency."
 
-Early adopters report dramatic efficiency gains. A European power trading firm reduced daily curve construction time from 3-4 hours to minutes through Fusion's conversational curve building. A commodity hedge fund eliminated 15-20 hours weekly of manual reporting by deploying Fusion's autonomous AI agents to handle routine operational workflows.
-
 ### Autonomous Operations Through AI Agents
 Beyond conversational assistance, Fusion's AI agents provide autonomous workflow execution. Traders configure agents through natural language to handle recurring tasks—daily curve updates, data quality monitoring, portfolio valuation, alert generation, and system integration—without manual intervention.
 
@@ -53,8 +51,6 @@ This integration enables sophisticated workflows impossible with standalone AI t
 ### Custom Assistants for Proprietary Workflows
 Organizations can create custom AI assistants tailored to their specific methodologies and workflows. Firms are building specialized assistants for emissions trading, LNG cargo optimization, regulatory compliance, and client-facing portfolio services—encoding institutional knowledge into AI tools that scale expertise across teams.
 
-"Our proprietary curve-building methodology took years to develop," said a risk manager at a natural gas marketing firm using Fusion. "We've encoded it into a custom assistant that ensures everyone on the desk applies our methodology consistently, preserving our competitive advantage even as team members change."
-
 ### Addressing Industry Challenges
 The energy and commodity trading industry faces mounting pressure to operate more efficiently while managing increasingly complex markets and regulatory requirements. Fusion addresses critical pain points:
 
@@ -64,11 +60,7 @@ The energy and commodity trading industry faces mounting pressure to operate mor
 * **Scale Limitations:** Growing operations without proportional headcount increases
 * **Knowledge Preservation:** Institutional expertise captured and accessible rather than locked in individual minds
 
-### Market Response and Availability
-Industry response to Fusion's beta program has driven rapid adoption. Trading firms, utilities, energy merchants, and commodity funds across Europe, North America, and Asia are deploying Fusion for applications ranging from daily curve construction to complex structured product analysis.
-
-"We evaluated multiple AI platforms for trading operations," said the CTO of a commodity trading house. "Generic tools couldn't understand our domain. Fusion delivered value immediately because it was built specifically for what we do—energy and commodity trading."
-
+### Availability
 Fusion AI is available now through OpenDataDSL's cloud platform, with flexible licensing for trading desks, analytics teams, and enterprise-wide deployments. Organizations can start with the six core assistants and expand to custom assistants and AI agents as workflows mature.
 
 ### About OpenDataDSL
