@@ -87,6 +87,7 @@ import {Demo} from '/src/components/Forms.js';
 		<p>We have created six assistants with their own area of specialisation.</p>
 		<div className="blue_grid">
 			<div className="blue_item">
+				<img className="integrationSvg" src="/img/icons/assistants/general.png" />
 				<h4>General Assistant</h4>
                 <p>Your starting point for any question about energy markets, trading concepts, or platform navigation.</p>
 				<h5>Expertise Areas</h5>
@@ -107,6 +108,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-general">View real user conversations with the general assistant</a>
 			</div>
 			<div className="blue_item">
+				<img className="integrationSvg" src="/img/icons/assistants/analyse.png" />
 				<h4>Analyse Assistant</h4>
                 <p>Your quantitative analyst for market data exploration, statistical analysis, and insight generation.</p>
 				<h5>Expertise Areas</h5>
@@ -127,6 +129,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-analyse">View real user conversations with the analyse assistant</a>
 			</div>
 			<div className="blue_item">
+				<img className="integrationSvg" src="/img/icons/assistants/curve.png" />
 				<h4>Curve Assistant</h4>
                 <p>Your curve-building specialist for forward curve construction, validation, and methodology.</p>
 				<h5>Expertise Areas</h5>
@@ -149,6 +152,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-curve">View real user conversations with the curve assistant</a>
 			</div>
 			<div className="blue_item">
+				<img className="integrationSvg" src="/img/icons/assistants/operations.png" />
 				<h4>Operations Assistant</h4>
                 <p>Your workflow automation expert for managing data pipelines, monitoring operations, and troubleshooting issues.</p>
 				<h5>Expertise Areas</h5>
@@ -171,6 +175,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-operations">View real user conversations with the operations assistant</a>
 			</div>
 			<div className="blue_item">
+				<img className="integrationSvg" src="/img/icons/assistants/code.png" />
 				<h4>Code Assistant</h4>
                 <p>Your programming expert for ODSL development, scripting, and technical implementation.</p>
 				<h5>Expertise Areas</h5>
@@ -194,6 +199,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-code">View real user conversations with the code assistant</a>
 			</div>
 			<div className="blue_item">
+				<img className="integrationSvg" src="/img/icons/assistants/integrate.png" />
 				<h4>Integrate Assistant</h4>
                 <p>Your integration specialist for connecting OpenDataDSL with external systems, APIs, and applications.</p>
 				<h5>Expertise Areas</h5>
@@ -249,52 +255,14 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container">
 		<h2>Building a Custom Assistant</h2>		
 		<p>Creating a custom assistant uses Fusion's intuitive configuration interface:</p>
-		<div className="story_content">
-			<div className="story_text">
-				<h4>1. Define Purpose and Scope</h4>
-				<p>Specify what the assistant should help with—a particular market, workflow type, or functional area.</p>
-				<p>Example: "Emissions Trading Assistant" focused on EU ETS, UK ETS, and voluntary carbon markets.</p>
-			</div>
-			<div className="story_text">
-				<h4>2. Upload Knowledge Sources</h4>
-				<p>Provide documents that define your domain expertise:</p>
-				<ul>
-					<li>Trading strategy guides</li>
-					<li>Market analysis reports</li>
-					<li>Operational procedures</li>
-					<li>Compliance documentation</li>
-					<li>Code libraries and examples</li>
-				</ul>
-			</div>
-			<div className="story_text">
-				<h4>3. Configure Tools and Integrations</h4>
-				<p>Connect the assistant to relevant systems:</p>
-				<ul>
-					<li>Internal databases for proprietary data</li>
-					<li>Custom analytics functions</li>
-					<li>External APIs for specialized data</li>
-					<li>Notification systems for alerts</li>
-				</ul>
-			</div>
-			<div className="story_text">
-				<h4>4. Set Behavioral Guidelines</h4>
-				<p>Define how the assistant should interact:</p>
-				<ul>
-					<li>Tone and communication style</li>
-					<li>Level of technical detail</li>
-					<li>Approval workflows for sensitive operations</li>
-					<li>Escalation procedures for complex questions</li>
-				</ul>
-			</div>
-			<div className="story_text">
-				<h4>5. Test</h4>
-				<p>Test the assistant with real questions and gather feedback from users.</p>
-			</div>
-			<div className="story_text">
-				<h4>6. Refine</h4>
-				<p>Refine responses and continuously improve performance.</p>
-			</div>
-		</div>
+		<center>
+			<img src="/img/fusion/custom-ai-assistant-flow.png" />
+		</center>
+	</div>
+</section>
+
+<section className="section section_alt">
+	<div className="container">
 		<h2>Custom Assistant Examples</h2>		
 		<div className="blue_grid">
 			<div className="blue_item">
@@ -316,6 +284,7 @@ import {Demo} from '/src/components/Forms.js';
 		</div>
 	</div>
 </section>
+
 
 <section className="section">
 	<div className="container">
