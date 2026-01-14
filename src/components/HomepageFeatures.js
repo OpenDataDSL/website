@@ -72,6 +72,14 @@ const BenefitList = [
         text: 'Express complex energy market operations in clear, concise code built specifically for commodities. ODSL\'s domain-specific syntax handles timeseries, curves, and data workflows naturally—reducing development time and making sophisticated operations accessible to your entire team.',
         link: "odsl-code",
         slogan: "Purpose-built for energy professionals"
+    },
+    {
+        id: 8,
+        title: 'Data Reconciliation',
+        jpg: require('../../static/img/icons/reconcile.png').default,
+        text: 'Whether you\'re reconciling trades, verifying REMIT compliance, or validating data across multiple providers, this powerful tool catches discrepancies instantly and adapts to your specific business rules.',
+        link: "data-reconciliation",
+        slogan: "Automated Comparison Analysis for Energy Data"
     }
 ]
 
