@@ -174,7 +174,8 @@ const config = {
             {to: '/features/fusion', label: 'Fusion AI'},
             {to: '/features/ai-assistants', label: 'AI Assistants'},
             {to: '/features/ai-agents', label: 'AI Agents'},
-            {to: '/features/custom-tools', label: 'Custom AI Tools'}
+            {to: '/features/custom-tools', label: 'Custom AI Tools'},
+            {to: '/features/data-reconciliation', label: 'Data Reconciliation'}
         ]},
         {type:'dropdown', label: 'Partners', position: 'left', items:[
             {to: '/partners', label: 'Partner Program'},
