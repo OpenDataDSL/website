@@ -79,7 +79,7 @@ const BenefitList = [
         jpg: require('../../static/img/icons/reconcile.png').default,
         text: 'Whether you\'re reconciling trades, verifying REMIT compliance, or validating data across multiple providers, this powerful tool catches discrepancies instantly and adapts to your specific business rules.',
         link: "data-reconciliation",
-        slogan: "Automated Comparison Analysis for Energy Data"
+        slogan: "Automated Comparison Analysis"
     }
 ]
 
