@@ -10,6 +10,10 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="Data Catalogue" slogan="The complete energy pricing data hub" jpg="/img/icons/catalogue.png" />
 
 <section className="section">
+	<h1>Transform data acquisition from weeks of vendor negotiations and integration work into immediate access.</h1>
+</section>
+
+<section className="section">
 	<div className="container">
 		<h2>The Data Acquisition Challenge</h2>
 		<div className="story_content">
@@ -36,7 +40,7 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt">
 	<div className="container">
 		<h2>Key Benefits</h2>		
-		<p>Transform data acquisition from weeks of vendor negotiations and integration work into immediate access—giving your team the global market intelligence they need to identify opportunities and execute strategies faster than competitors.</p>
+		<p>Give your team the global market intelligence they need to identify opportunities and execute strategies faster than competitors.</p>
 		<div className="orange_grid">
 			<div className="orange_item">
 				<h4>Comprehensive Global Coverage Through Single Access Point</h4>

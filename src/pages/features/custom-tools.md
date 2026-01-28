@@ -9,6 +9,10 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="Custom Tools" slogan="Your workflows, your tools, your edge" jpg="/img/icons/tools.png" />
 
 <section className="section">
+	<h1>Transform your unique competitive advantages, turn spreadsheets and siloed expertise into enterprise-grade solutions that scale your unique market advantage.</h1>
+</section>
+
+<section className="section">
 	<div className="container">
 		<h2>The Proprietary Workflow Challenge</h2>
 		<div className="story_content">
@@ -46,7 +50,7 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt">
 	<div className="container">
 		<h2>Key Benefits</h2>		
-		<p>Transform your unique competitive advantages—trading strategies, analytical methods, operational workflows—from fragile spreadsheets and individual expertise into robust, scalable, protected tools that amplify what makes your firm distinctive in the market.</p>
+		<p>Convert fragile spreadsheets and individual expertise into robust, scalable, protected tools that amplify what makes your firm distinctive in the market.</p>
 		<div className="orange_grid">
 			<div className="orange_item">
 				<h4>Encode Proprietary Expertise Into Scalable Assets</h4>

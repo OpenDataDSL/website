@@ -9,6 +9,10 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="AI Assistants" slogan="Expert assistance, smarter decisions" jpg="/img/icons/assistant.png" />
 
 <section className="section">
+	<h1>Transform expertise from a bottleneck into a competitive advantage.</h1>
+</section>
+
+<section className="section">
 	<div className="container">
 		<h2>The Knowledge Challenge</h2>
 		<div className="story_content">
@@ -45,7 +49,7 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt">
 	<div className="container">
 		<h2>Key Benefits</h2>		
-		<p>Transform expertise from a bottleneck into a competitive advantage—delivering specialist-level support instantly, consistently, collaboratively, and scalably across your entire energy trading operation.</p>
+		<p>Deliver specialist-level support instantly, consistently, collaboratively, and scalably across your entire energy trading operation.</p>
 		<div className="orange_grid">
 			<div className="orange_item">
 				<h4>Instant Access to Specialist Expertise 24/7</h4>

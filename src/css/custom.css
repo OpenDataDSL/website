@@ -537,6 +537,13 @@ code {
 	background-color: #f8fafc;
 }
 
+.section h1 {
+	font-size: 3.5rem;
+	margin-bottom: 30px;
+	color: #1e3a8a;
+	text-align: center;
+}
+
 .section h2 {
 	font-size: 2.5rem;
 	margin-bottom: 30px;
@@ -819,6 +826,9 @@ code {
   }
   .hero h1 {
     font-size: 32px;
+  }
+  .section h1 {
+    font-size: 40px;
   }
   .section h2 {
     font-size: 32px;

@@ -9,6 +9,10 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="Fusion AI" slogan="Your AI expert for energy professionals" jpg="/img/icons/fusion.png" />
 
 <section className="section">
+	<h1>AI built into every workflow, helping your business respond faster, work smarter, and scale effortlessly.</h1>
+</section>
+
+<section className="section">
 	<div className="container">
 		<h2>The AI Challenge</h2>
 		<div className="story_content">

@@ -9,6 +9,10 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="Data Management" slogan="Your market data, unified and intelligent" jpg="/img/icons/mdm.png" />
 
 <section className="section">
+	<h1>Transform market data from a fragmented operational burden into a unified strategic foundation.</h1>
+</section>
+
+<section className="section">
 	<div className="container">
 		<h2>The Challenge of Energy Market Data</h2>
 		<div className="story_content">
@@ -30,7 +34,7 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt">
 	<div className="container">
 		<h2>Key Benefits</h2>		
-		<p>Transform market data from a fragmented operational burden into a unified strategic foundation—reliable, consistent, validated, and automatically powering intelligent decisions across your entire organization.</p>
+		<p>Reliable, consistent, validated, and automatically powering intelligent decisions across your entire organization.</p>
 		<div className="orange_grid">
 			<div className="orange_item">
 				<h4>Eliminate Data Silos and Fragmentation</h4>

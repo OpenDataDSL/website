@@ -9,6 +9,10 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="Smart Curves" slogan="Create with AI, build with precision" jpg="/img/icons/curve.png" />
 
 <section className="section">
+	<h1>Transform forward curve construction from a time-consuming, error-prone manual bottleneck into intelligent, consistent, automated infrastructure.</h1>
+</section>
+
+<section className="section">
 	<div className="container">
 		<h2>The Forward Curve Challenge</h2>
 		<div className="story_content">
@@ -49,7 +53,7 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt">
 	<div className="container">
 		<h2>Key Benefits</h2>		
-		<p>Transform forward curve construction from a time-consuming, error-prone manual bottleneck into intelligent, consistent, automated infrastructure—freeing your analysts from mechanical work to focus on strategic market analysis and profitable trading decisions.</p>
+		<p>Frree your analysts from mechanical work to focus on strategic market analysis and profitable trading decisions.</p>
 		<div className="orange_grid">
 			<div className="orange_item">
 				<h4>Automated Curve Construction in Minutes, Not Hours</h4>

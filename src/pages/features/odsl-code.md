@@ -9,6 +9,10 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="ODSL Programming Language" slogan="Purpose-built for energy professionals" jpg="/img/icons/odsl.png" />
 
 <section className="section">
+	<h1>Empower business users to code with the 4GL language purpose-built for energy professionals.</h1>
+</section>
+
+<section className="section">
 	<div className="container">
 		<h2>The Programming Language Challenge</h2>
 		<div className="story_content">

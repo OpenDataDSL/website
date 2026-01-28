@@ -9,6 +9,10 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="Data Reconciliation" slogan="Automated Comparison Analysis for Energy Data" jpg="/img/icons/reconcile.png" />
 
 <section className="section">
+	<h1>Transform reconciliation from manual, time-consuming, error-prone processes into intelligent, autonomous workflows.</h1>
+</section>
+
+<section className="section">
 	<div className="container">
 		<h2>The Reconciliation Challenge</h2>
 		<div className="story_content">
@@ -46,7 +50,7 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt">
 	<div className="container">
 		<h2>Key Benefits</h2>		
-		<p>Transform reconciliation from manual, time-consuming, error-prone processes into intelligent, autonomous workflows—enabling your organization to scale efficiently, operate continuously, and redirect human expertise from routine execution to strategic decision-making.</p>
+		<p>Enable your organization to scale efficiently, operate continuously, and redirect human expertise from routine execution to strategic decision-making.</p>
 		<div className="orange_grid">
 			<div className="orange_item">
 				<h4>Automated Accuracy</h4>
