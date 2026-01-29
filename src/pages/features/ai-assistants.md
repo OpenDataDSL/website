@@ -54,32 +54,39 @@ import {Demo} from '/src/components/Forms.js';
 			<div className="orange_item">
 				<h4>Instant Access to Specialist Expertise 24/7</h4>
                 <h5>Eliminate waiting for scarce specialists. </h5>
-				<p>Get immediate, expert-level answers to complex questions about market analysis, curve construction, operations management, coding, and system integration—any time, from anywhere. No scheduling meetings, no dependency on specific individuals, no delays. Your team in London, Singapore, and New York all have the same expert support without overlapping coverage requirements.</p>
+				<p>Get immediate, expert-level answers to complex questions about market analysis, curve construction, operations management, coding, and system integration—any time, from anywhere.</p>
+				<p>No scheduling meetings, no dependency on specific individuals, no delays. Your team in London, Singapore, and New York all have the same expert support without overlapping coverage requirements.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Collaborative Intelligence Across Domains</h4>
                 <h5>Assistants work together to solve complex, multi-domain problems automatically.</h5>
-				<p>When the Curve Assistant needs custom interpolation logic, it consults the Code Assistant. When the Analyse Assistant identifies optimization opportunities, it coordinates with the Operations Assistant to automate monitoring. Problems requiring expertise across curve building, analytics, coding, and operations get solved seamlessly in single conversations—no manual coordination between specialists required.</p>
+				<p>When the Curve Assistant needs custom interpolation logic, it consults the Code Assistant. When the Analyse Assistant identifies optimization opportunities, it coordinates with the Operations Assistant to automate monitoring.</p>
+				<p>Problems requiring expertise across curve building, analytics, coding, and operations get solved seamlessly in single conversations—no manual coordination between specialists required.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Dramatic Acceleration of Decision-Making</h4>
                 <h5>Questions answered in seconds instead of hours or days. </h5>
-				<p>What previously required research, documentation searches, consulting colleagues, or waiting for expert availability now happens conversationally and immediately. "Calculate the rolling correlation between German power and TTF gas"—done in seconds. "Build a coal curve with quality adjustments"—complete with methodology explanation. Analysis that took hours now takes minutes.</p>
+				<p>What previously required research, documentation searches, consulting colleagues, or waiting for expert availability now happens conversationally and immediately.</p>
+				<p><strong>"Calculate the rolling correlation between German power and TTF gas"</strong> —done in seconds.</p>
+				<p><strong>"Build a coal curve with quality adjustments"</strong> —complete with methodology explanation. Analysis that took hours now takes minutes.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Consistent Methodology Across Your Organization</h4>
                 <h5>Everyone applies the same analytical approaches and best practices.</h5>
-				<p>Assistants ensure uniform application of curve-building techniques, analytical methods, and operational procedures—eliminating valuation disputes caused by different teams using different methodologies. New team members learn approved approaches from day one. Institutional knowledge remains consistent even as personnel change.</p>
+				<p>Assistants ensure uniform application of curve-building techniques, analytical methods, and operational procedures, eliminating valuation disputes caused by different teams using different methodologies.</p>
+				<p>New team members learn approved approaches from day one. Institutional knowledge remains consistent even as personnel change.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Scalable Expertise Without Headcount</h4>
                 <h5>Expand operations, markets, and capabilities without proportional hiring.</h5>
-				<p>Six specialized assistants deliver expert support across analysis, curve construction, operations, coding, integrations, and general guidance—capabilities that would otherwise require multiple full-time specialists. Enter new commodity markets, build sophisticated analytics, automate complex workflows—all without expanding your expert headcount or training budget.</p>
+				<p>Six specialized assistants deliver expert support across analysis, curve construction, operations, coding, integrations, and general guidance; capabilities that would otherwise require multiple full-time specialists.</p>
+				<p>Enter new commodity markets, build sophisticated analytics, automate complex workflows—all without expanding your expert headcount or training budget.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Custom Assistants Encode Your Competitive Advantage</h4>
                 <h5>Transform proprietary methodologies into scalable AI-powered tools. </h5>
-				<p>Build custom assistants that embed your unique trading strategies, specialized analytical approaches, regulatory compliance procedures, or client service workflows. Your institutional knowledge becomes accessible across the entire organization—preserving competitive advantages, ensuring consistent execution, and making expertise independent of individual personnel.</p>
+				<p>Build custom assistants that embed your unique trading strategies, specialized analytical approaches, regulatory compliance procedures, or client service workflows.</p>
+				<p>Your institutional knowledge becomes accessible across the entire organization, preserving competitive advantages, ensuring consistent execution, and making expertise independent of individual personnel.</p>
 			</div>
 		</div>
 	</div>
@@ -282,8 +289,8 @@ import {Demo} from '/src/components/Forms.js';
 				<p>Understands your firm's risk limits, capital constraints, and strategic objectives. Suggests optimal hedging strategies, evaluates new trade opportunities against portfolio constraints, and performs what-if scenario analysis.</p>
 			</div>
 			<div className="blue_item">
-				<h4>Client Service Assistant</h4>
-				<p>Provides your clients with self-service access to their data, curve updates, and market commentary—answering questions about positions, valuations, and market moves without requiring analyst time.</p>
+				<h4>Renewable Generation Optimisation</h4>
+				<p>The renewable generation optimiser assistant helps energy traders and asset managers maximise the value of their wind and solar portfolios.</p>
 			</div>
 		</div>
 	</div>
