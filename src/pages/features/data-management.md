@@ -12,6 +12,10 @@ import {Demo} from '/src/components/Forms.js';
 	<h1>Transform market data from a fragmented operational burden into a unified strategic foundation.</h1>
 </section>
 
+<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/RuVfcidmieU?si=AIsDGnS9XDzgj-3Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 <section className="section">
 	<div className="container">
 		<h2>The Challenge of Energy Market Data</h2>

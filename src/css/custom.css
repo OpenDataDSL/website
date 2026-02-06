@@ -781,6 +781,9 @@ code {
   .features {
     width: 80%;
   }
+  .big-video {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .herotwo__title {
