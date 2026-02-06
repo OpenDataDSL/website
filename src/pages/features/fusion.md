@@ -28,18 +28,6 @@ import {Demo} from '/src/components/Forms.js';
 	</div>
 </section>
 
-<section className="section big-video">
-	<div className="container">
-		<h2>Conversational Access</h2>
-		<p>No technical expertise required. Traders, analysts, and operations staff access sophisticated capabilities through natural language—no coding, no IT involvement.</p>
-		<iframe width="1024" height="576"
-			src="https://www.youtube.com/embed/qnrhPW_6Moc?autoplay=1&mute=1&controls=0&playlist=qnrhPW_6Moc,2eyLCg7qfL8&loop=1">
-		</iframe>
-	</div>
-</section>
-
-<hr/>
-
 <section className="section section_alt">
 	<div className="container">
 		<h2>Key Benefits</h2>		
