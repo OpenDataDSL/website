@@ -25,6 +25,6 @@ Meet Us at E-World 2026 in Essen!
 
 Join us next week at E-World Conference to discuss how our Market Data Management and AI Solutions can empower your business. Let’s explore how we can collaborate to optimize your data strategies.
 
-📅 [Book a 30-minute meeting with us](https://calendly.com/renato-vieira-opendatadsl/e-world-30min-meeting?month=2026-02)
+📅 [Book a 30-minute meeting with us](https://outlook.office.com/bookwithme/user/b65847a3c74e442fa7163f549db68251@opendatadsl.com?anonymous&ismsaljsauthenabled&ep=plink)
 
 
