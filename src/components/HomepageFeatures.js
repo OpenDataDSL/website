@@ -85,6 +85,13 @@ const BenefitList = [
 
 const Articles = [
   {
+    type: "Event",
+    date: "Feb 13, 2026",
+    title: "E-world 2026 recap",
+    link: "./events/e-world-recap-2026",
+    text: "The team visited the E-World conference in Essen, Germany - here is what we learned."
+  },
+  {
     type: "Blog",
     date: "Jan 01, 2026",
     title: "Blog: Fusion AI, Energy Intelligence",
