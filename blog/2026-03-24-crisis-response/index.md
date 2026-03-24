@@ -1,7 +1,7 @@
 ---
 slug: crisis-response
 title: How to Navigate Market Shocks
-authors: [chartley]
+authors: [sjackson]
 image: /img/blog/crisis-response.png
 tags: [platform, odsl]
 ---
