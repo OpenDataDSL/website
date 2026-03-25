@@ -14,7 +14,8 @@ import {Demo} from '/src/components/Forms.js';
   </div>
   <div className="column">
     <h4>Identities Are the Foundation of Smart Data Management</h4>
-    <p>The way your organisation identifies and connects data assets is either your greatest competitive advantage or your biggest hidden liability. <strong>With OpenDataDSL, it's the former.</strong></p>
+    <p>The way your organisation identifies and connects data assets is either your greatest competitive advantage or your biggest hidden liability.</p>
+    <p><strong>With OpenDataDSL, it's the former.</strong></p>
   </div>
 </div>
 
@@ -25,16 +26,19 @@ import {Demo} from '/src/components/Forms.js';
 ## The Identity Problem Nobody Talks About
 
 
-Every energy trading and risk management (ETRM) system, every data vendor feed, every internal spreadsheet and legacy database shares one thing in common: they all have their own way of identifying the same underlying thing.
+Every energy trading and risk management (ETRM) system, every data vendor feed, every internal spreadsheet and legacy database shares one thing in common: **they all have their own way of identifying the same underlying thing.**
 
-A natural gas hub. A counterparty. A forward curve. A pricing benchmark.
+* A natural gas hub.
+* A counterparty.
+* A forward curve. 
+* A pricing benchmark.
 
 In one system, it's `TTF_DA`. In another, it's `NL-TTF-D`. Your ETRM calls it `GAS_NL_TTF`. Your risk team's spreadsheet uses something else entirely.
 
 <img className={styles.product_screenshot} src="/img/blog/identities1.png" />
 
 
-This is the identity problem — and it silently costs trading organisations millions in reconciliation time, data errors, delayed decisions, and missed opportunities. Most platforms paper over it. OpenDataDSL solves it.
+This is the identity problem, and it silently costs trading organisations millions in reconciliation time, data errors, delayed decisions, and missed opportunities. Most platforms paper over it. **OpenDataDSL solves it.**
 
 ---
 
@@ -47,17 +51,19 @@ OpenDataDSL treats identities as first-class citizens of your data architecture.
 With OpenDataDSL, your team can:
 
 * **Define master identities** for every data entity, owned and governed centrally
-* **Map external identifiers** from any source — vendor codes, ETRM internal IDs, exchange symbology — directly to your canonical identity
+* **Map external identifiers** from any source - vendor codes, ETRM internal IDs, exchange symbology - directly to your canonical identity
 * **Resolve conflicts automatically** when the same entity arrives from multiple sources with different labels
 * **Audit every identity relationship** with full lineage, so you always know where a data point came from and what it maps to
 
-> **The result? Your data speaks one language — everywhere.**
+> **The result? Your data speaks one language - everywhere.**
 
 ---
 
 ## Seamless ETRM Integration Starts with Identities
 
-ETRMs are the operational heartbeat of an energy trading business. Brady, Aspect, Openlink, CTRM, Triple Point - each has its own internal data model, its own symbology, its own quirks. Integrating clean, reliable market data into these systems has historically been painful, brittle, and expensive.
+ETRMs are the operational heartbeat of an energy trading business. Brady, Aspect, Openlink, Triple Point - each has its own internal data model, its own symbology, its own quirks. 
+
+Integrating clean, reliable market data into these systems has historically been painful, brittle, and expensive.
 
 OpenDataDSL changes this entirely.
 
@@ -86,11 +92,11 @@ OpenDataDSL's identity framework is specifically designed to make migration safe
 
 ### How It Works
 
-**Step 1 — Import your existing identifiers.** OpenDataDSL ingests your current identifier schemes — whatever they are — and registers them as external aliases against OpenDataDSL's canonical identity model. Your legacy codes don't disappear; they're preserved and mapped.
+**Step 1: Import your existing identifiers.** OpenDataDSL ingests your current identifier schemes, whatever they are, and registers them as external aliases against OpenDataDSL's canonical identity model. Your legacy codes don't disappear; they're preserved and mapped.
 
-**Step 2 — Run in parallel.** During your migration window, OpenDataDSL can serve data using both your legacy identifiers and the new canonical ones. Your downstream systems — including your ETRM — can be migrated one at a time, at your pace, without a big-bang cutover.
+**Step 2: Run in parallel.** During your migration window, OpenDataDSL can serve data using both your legacy identifiers and the new canonical ones. Your downstream systems, including your ETRM, can be migrated one at a time, at your pace, without a big-bang cutover.
 
-**Step 3 — Cut over cleanly.** Once your consumers are updated, the legacy aliases are retired. You're left with a clean, governed, future-proof identity model — and a complete audit trail of how you got there.
+**Step 3: Cut over cleanly.** Once your consumers are updated, the legacy aliases are retired. You're left with a clean, governed, future-proof identity model - and a complete audit trail of how you got there.
 
 This approach eliminates the two biggest risks of any data platform migration: data loss and operational disruption. Your historical curves, reference data, and time series are all preserved, re-identified, and immediately available.
 
@@ -106,7 +112,7 @@ The identity layer in OpenDataDSL isn't just a technical feature - it's a direct
 
 **Lower vendor risk.** Because OpenDataDSL owns the identity layer, you're no longer dependent on any single vendor's symbology or data model. You can switch data suppliers, add new feeds, or migrate downstream systems without rebuilding your data architecture from scratch.
 
-**Better decisions.** When every system in your organisation is working from the same, correctly identified data, your traders, risk managers, and analysts can trust what they see — and act on it with confidence.
+**Better decisions.** When every system in your organisation is working from the same, correctly identified data, your traders, risk managers, and analysts can trust what they see - and act on it with confidence.
 
 ---
 
