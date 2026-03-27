@@ -3,7 +3,7 @@ slug: identities
 title: SMART Identities
 authors: [chartley]
 image: /img/blog/identities.png
-tags: [platform, odsl]
+tags: [odsl, identities, integration]
 ---
 import styles from './index.module.css';
 import {Demo} from '/src/components/Forms.js';

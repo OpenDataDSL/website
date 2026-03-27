@@ -3,7 +3,7 @@ slug: polyglot
 title: Running Python Tasks
 authors: [chartley]
 image: /img/blog/polyglot.png
-tags: [platform, odsl]
+tags: [polyglot, odsl, sdk, language]
 ---
 import styles from './index.module.css';
 import {Demo} from '/src/components/Forms.js';

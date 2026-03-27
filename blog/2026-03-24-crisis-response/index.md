@@ -3,7 +3,7 @@ slug: crisis-response
 title: How to Navigate Market Shocks
 authors: [sjackson]
 image: /img/blog/crisis-response.png
-tags: [platform, odsl]
+tags: [crisis, odsl, oil]
 ---
 import styles from './index.module.css';
 import {Demo} from '/src/components/Forms.js';
