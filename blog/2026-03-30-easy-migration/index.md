@@ -14,7 +14,9 @@ import {Demo} from '/src/components/Forms.js';
   </div>
   <div className="column">
     <h4>Leaving Legacy Data Management Behind Doesn't Have to Be Painful</h4>
-    <p>If your organisation is running a legacy data management system, you already know the signs. Slow curve builds. Thread starvation. Data quality issues that require manual fixes under time pressure. The question isn't whether to move - it's whether moving is worth the pain. We think it doesn't have to be painful at all.</p>
+    <p>If your organisation is running a legacy data management system, you already know the signs. Slow curve builds. Software bugs that have been there for months. Data quality issues that require manual fixes under time pressure.</p>
+    <p>The question isn't whether to move - it's whether moving is worth the pain.</p>
+    <p><strong>We think it doesn't have to be painful.</strong></p>
   </div>
 </div>
 
@@ -23,25 +25,32 @@ import {Demo} from '/src/components/Forms.js';
 ---
 If your organisation is running a legacy data management system, you already know the signs.
 
+<img className={styles.product_screenshot} src="/img/blog/legacy-system.png" />
+
+---
+
 Curve builds running late because of a software bug. Data quality issues that require a human to intervene under time pressure - with no audit trail, and no guarantee it won't happen again tomorrow. A vendor roadmap that moves too slowly for the pace your business operates at. A team that spends more time maintaining parsers and chasing feed changes than doing actual data work.
 
-The question isn't whether to move. The question is whether the move is worth the pain.
+> *The question isn't whether to move. The question is whether the move is worth the pain.*
 
 We've spent a lot of time thinking about this. And our conclusion is that migration away from a legacy data management platform does not have to be painful. With the right architecture and the right approach, it can be clean, incremental, and genuinely low risk.
 
-**Here's how we think about it.**
-
 ## The Problem With Legacy Platforms Isn't Just Features
 
-When organisations talk about migrating away from legacy data management systems, the conversation often starts with features. What does the new platform have that the old one doesn't? Can it handle more data sources? Does it have better curve building? Is the API faster?
+When organisations talk about migrating away from legacy data management systems, the conversation often starts with features. 
 
-These are all reasonable questions. But they miss the deeper issue.
+* What does the new platform have that the old one doesn't? 
+* Can it handle more data sources? 
+* Does it have better curve building? 
+* Is the API faster?
+
+**These are all reasonable questions. But they miss the deeper issue.**
 
 Legacy platforms were built in a different era, around a different set of assumptions. Processing was sequential. Compute was a scarce resource to be shared. Workflows were rigid. The idea that you might want to call a Python service from inside a curve build, or have AI assistants query your data in natural language, or spin up a new environment in seconds - none of that was on the design agenda.
 
-The result is an architecture that creates systemic risk. When curve builds and data distributions share the same thread pool, a bug in one can starve the other. When all your processing runs through a single shared resource, peak periods create backlogs. When the platform's extensibility is limited to what the vendor has built, your business is always waiting for someone else's roadmap.
+The result is an architecture that creates systemic risk. When all your processing runs through a single shared resource, peak periods create backlogs. When the platform's extensibility is limited to what the vendor has built, your business is always waiting for someone else's roadmap.
 
-These aren't bugs. They're design decisions that made sense in their time and don't make sense anymore.
+**These aren't bugs. They're design decisions that made sense in their time and don't make sense anymore.**
 
 ## The Migration Fear Is Real - And It's Usually About Risk, Not Cost
 
@@ -51,7 +60,7 @@ When a data management system is deeply embedded in an organisation - feeding te
 
 These are legitimate concerns. And they deserve a legitimate answer, not a dismissal.
 
-Our answer is: don't migrate all at once. Never do it that way.
+> **Our answer is:** don't migrate all at once. Never do it that way.
 
 ## The Case for Phased Migration
 
@@ -77,9 +86,11 @@ Get these right in a low-stakes environment and document them. Every feed you bu
 
 ## What Happens to Your Historical Data?
 
-One of the most common concerns we hear is about historical data. "We've been running this system for years. We have a decade of curves in there. We can't just leave that behind."
+One of the most common concerns we hear is about historical data. 
 
-You don't have to.
+> "We've been running this system for years. We have a decade of curves in there. We can't just leave that behind."
+
+**You don't have to.**
 
 Modern data platforms are built on document-oriented storage rather than relational tables. This actually makes migration easier than it sounds, because a relational table row and a document-store base event are structurally very similar - both are essentially named collections of key-value fields. There's no complex transformation logic required to move from one to the other.
 
@@ -91,11 +102,18 @@ There's a question worth asking about any system you're considering as a migrati
 
 A product is something a vendor builds and you consume. Features arrive on the vendor's timeline. If you need something that isn't on the roadmap, you wait. If a regulation changes, you raise a ticket. If you want to integrate with a new system, you negotiate. The vendor decides what gets built and when.
 
-A platform is different. A platform gives you the tools to build what you need, when you need it. New data source? Build it yourself, or ask the platform team to build it for you - either way, it's live today, not in six months. New workflow? Write it in the platform's scripting language or call your existing Python service. New AI assistant trained on your own terminology and connected to your internal systems? Configure it and deploy it.
+A platform is different. A platform gives you the tools to build what you need, when you need it. 
+
+* **New data source?**
+*Build it yourself, or ask the platform team to build it for you - either way, it's live today, not in six months.*
+* **New workflow?**
+*Write it in the platform's scripting language or call your existing Python service.*
+* **New AI assistant trained on your own terminology and connected to your internal systems?**
+*Configure it and deploy it.*
 
 The distinction matters enormously when you're thinking about a migration. You're not just choosing a replacement for what you have. You're choosing the architectural foundation for the next decade of your data infrastructure. A platform gives you room to grow in ways you can't fully predict today. A product gives you a ceiling.
 
-<img src="/img/blog/product_v_platform.jpg" />
+<img className={styles.product_screenshot} src="/img/blog/product_v_platform.jpg" />
 
 ---
 
@@ -103,9 +121,15 @@ The distinction matters enormously when you're thinking about a migration. You'r
 
 It would be disingenuous to write about modern data management without mentioning AI. Every platform claims to have it. Most implementations amount to a chatbot bolted onto a data catalogue.
 
-The meaningful version of AI in a data management platform is one where the AI assistants are genuinely context-aware - where they understand not just the structure of your data but the content of it. Where an analyst can ask "what data do we have for German power prices?" and get a real answer, grounded in your actual environment, not a generic response. Where a developer can describe what they want to build in plain language and have the platform generate the code. Where an operations assistant can identify anomalies in your data pipeline before they become incidents.
+The meaningful version of AI in a data management platform is one where the AI assistants are genuinely context-aware - where they understand not just the structure of your data but the content of it. Where an analyst can ask 
 
-This kind of AI integration isn't a feature you add later. It's something that has to be designed into the platform from the ground up, with the right architecture to support it. When you're evaluating migration targets, it's worth asking not just "does it have AI?" but "how deeply is the AI integrated into how the platform actually works?"
+> "what data do we have for German power prices?" 
+
+and get a real answer, grounded in your actual environment, not a generic response. Where a developer can describe what they want to build in plain language and have the platform generate the code. Where an operations assistant can identify anomalies in your data pipeline before they become incidents.
+
+This kind of AI integration isn't a feature you add later. It's something that has to be designed into the platform from the ground up, with the right architecture to support it. When you're evaluating migration targets, it's worth asking not just "does it have AI?" but 
+
+> "How deeply is the AI integrated into how the platform actually works?"
 
 ## A Note on What We've Learned
 
@@ -119,9 +143,11 @@ And finally: the first phase is the most important. Not because it delivers the 
 
 ## Where to Start
 
-If you're running a legacy data management platform and you're thinking about what comes next, the best starting point is usually a structured conversation about what's actually causing you pain. Not a sales call - a diagnosis.
+If you're running a legacy data management platform and you're thinking about what comes next, the best starting point is usually a structured conversation about what's actually causing you pain. **Not a sales call - a diagnosis.**
 
-What are the failure modes that keep happening? Where is your team spending time that should be spent on something else? What can't your current platform do that your business needs it to do?
+* What are the failure modes that keep happening? 
+* Where is your team spending time that should be spent on something else? 
+* What can't your current platform do that your business needs it to do?
 
 From those answers, it's usually possible to sketch out a phase one that's meaningful, low risk, and achievable within a month. Something real enough to prove the concept, constrained enough to be safe, and useful enough that the people running it can see immediately why the new platform is better.
 
@@ -129,7 +155,7 @@ Migration doesn't have to be a big bang. It doesn't have to be a project that ru
 
 The legacy platform doesn't get switched off on day one. It gets switched off on day three hundred and thirty, after ten teams have independently validated their data, migrated their connections, and decided they don't need it anymore.
 
-That's not painful. That's just good engineering.
+**That's not painful. That's just good engineering.**
 
 ---
 Interested in discussing what a migration from your current platform could look like? Get in touch with the OpenDataDSL team - we're happy to start with a conversation, not a pitch.
