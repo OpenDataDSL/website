@@ -115,6 +115,48 @@ import {Demo} from '/src/components/Forms.js';
 
 <section className="section">
 	<div className="container">
+		<h2>Works With the Tools You Already Use</h2>
+		<p>Cloud Connect uses the open Delta Sharing protocol, which means your data is accessible from any platform that can read Parquet files or implement the Delta Sharing REST API. Whether your team works in a data lakehouse, a BI tool, or a Python notebook, you connect with the same credential file.</p>
+		<div className="blue_grid">
+			<div className="blue_item">
+				<h4>Databricks</h4>
+				<p>The native home of Delta Sharing. Upload your credential file once through Catalog Explorer and your data appears as a Unity Catalog-backed catalog — queryable with standard SQL, usable in notebooks and jobs, and governed with Unity Catalog access controls. Works on Databricks on AWS, Azure, and GCP.</p>
+			</div>
+			<div className="blue_item">
+				<h4>Apache Spark</h4>
+				<p>Use the open-source Delta Sharing Spark connector to load shared tables as Spark DataFrames in any Spark environment — including Azure Synapse Analytics Spark pools, Amazon EMR, and Google Dataproc. Query with Spark SQL or the DataFrame API exactly as you would any other table.</p>
+			</div>
+			<div className="blue_item">
+				<h4>Snowflake</h4>
+				<p>Snowflake supports reading Delta Sharing tables via the Apache Iceberg REST Catalog API. Use your credential file to generate a SQL command that registers the shared tables in your Snowflake account, then query them like any other external table — with no data movement.</p>
+			</div>
+			<div className="blue_item">
+				<h4>Azure Synapse Analytics</h4>
+				<p>Load shared data into Azure Synapse Spark pools using either the Delta Sharing Spark connector or the Python delta-sharing library. Once loaded as a Spark DataFrame, data can be written to Synapse dedicated pools or queried directly through PySpark and Spark SQL notebooks.</p>
+			</div>
+			<div className="blue_item">
+				<h4>Power BI</h4>
+				<p>The Delta Sharing Power BI connector lets you import shared tables directly into Power BI Desktop and Power BI Service. Point the connector at your credential file and browse available tables — no gateway, no staging database, and no scheduled refresh pipelines to maintain.</p>
+			</div>
+			<div className="blue_item">
+				<h4>Tableau</h4>
+				<p>The Delta Sharing Tableau connector — available from Tableau Exchange — connects Tableau Desktop and Tableau Server 2024.1 and above to your shared data. Upload your credential file, browse available tables, and build visualisations directly from live OpenDataDSL forward curve and timeseries data.</p>
+			</div>
+			<div className="blue_item">
+				<h4>Python (pandas)</h4>
+				<p>The open-source <code>delta-sharing</code> Python library lets you load any shared table as a pandas DataFrame with a single line of code. No Spark cluster required — ideal for data scientists working in local notebooks, Jupyter environments, or lightweight Python scripts.</p>
+			</div>
+			<div className="blue_item">
+				<h4>Microsoft Excel</h4>
+				<p>The Delta Sharing Excel connector allows you to pull shared data directly into Excel worksheets. Analysts who work primarily in spreadsheets can access the same live, validated forward curves and timeseries that power your Databricks and Spark workflows — without any additional tools.</p>
+			</div>
+		</div>
+		<p style={{marginTop: "1.5rem"}}>Any other tool that can read Apache Parquet files from cloud storage — including AWS Athena, Google BigQuery, Trino, and DuckDB — can also access your shared data. If your tool supports the Delta Sharing REST protocol directly, connection is immediate. For tools that do not, the Python library or Spark connector provides a straightforward bridge.</p>
+	</div>
+</section>
+
+<section className="section">
+	<div className="container">
 		<h2>How It Works</h2>
 		<div className="story_content">
 			<div className="story_text">
