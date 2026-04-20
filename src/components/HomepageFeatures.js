@@ -74,12 +74,20 @@ const BenefitList = [
         slogan: "Purpose-built for energy professionals"
     },
     {
-        id: 8,
+        id: 9,
         title: 'Data Reconciliation',
         jpg: require('../../static/img/icons/reconcile.png').default,
         text: 'Transform reconciliation from manual, time-consuming, error-prone processes into intelligent, autonomous workflows.',
         link: "data-reconciliation",
         slogan: "Automated Comparison Analysis"
+    },
+    {
+        id: 10,
+        title: 'Cloud Connect',
+        jpg: require('../../static/img/icons/cloud-connect.png').default,
+        text: 'Access your OpenDataDSL platform data directly in Databricks, Spark, pandas, and any analytics tool you already use — without copying, exporting, or waiting.',
+        link: "cloud-connect",
+        slogan: "Your data, in your cloud, in your tools"
     }
 ]
 
