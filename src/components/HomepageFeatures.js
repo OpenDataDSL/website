@@ -93,6 +93,13 @@ const BenefitList = [
 
 const Articles = [
   {
+    type: "News",
+    date: "Apr 21, 2026",
+    title: "New Feature: Cloud Connect",
+    link: "./news/cloud-connect",
+    text: "Cloud Connect allows seamless integration with Databricks, Spark, and Azure Synapse."
+  },
+  {
     type: "Event",
     date: "Feb 13, 2026",
     title: "E-world 2026 recap",
