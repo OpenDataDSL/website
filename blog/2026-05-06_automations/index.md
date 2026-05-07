@@ -1,6 +1,6 @@
 ---
 slug: automations
-title: Stop Polling, Start Reacting
+title: Automations - Stop Polling, Start Reacting
 authors: [chartley]
 image: /img/blog/automation.png
 tags: [platform, odsl, automation, event-driven, data-pipelines]
@@ -29,6 +29,11 @@ Polling works. But it is inherently inefficient. You are either checking too oft
 
 OpenDataDSL takes a different approach. Automations let you define what should happen when something changes — and then get out of the way.
 
+## Automations in action
+
+Watch our video on how you can easily create automations in the OpenDataDSL platform.
+
+<iframe width="640" height="400" src="https://www.youtube.com/embed/tddvnDzsnWs?si=GiO1G4F77CCDq12n&amp;start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ## What is an automation?
@@ -74,6 +79,8 @@ When the curve build succeeds, send an email to the trading desk with the update
 In parallel with step 4, write the curve data to Azure Data Lake Storage, partitioned by date, for consumption by analytics tools downstream.
 
 Five automations. No scheduler. No polling. The whole pipeline runs itself, triggered entirely by data state changes.
+
+<img className={styles.product_screenshot} src="/img/blog/automation-pipeline.png" />
 
 ## The power of chaining
 
