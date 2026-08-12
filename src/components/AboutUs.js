@@ -206,15 +206,6 @@ function Team() {
 					<p>Anja now utilises her almost 20 years of in-depth expertise in data management solutions and data science and is successfully bridging the technical team with the business users.</p>
                 </div>
                 <div className={styles.team_item}>
-					<img className={styles.team_icon} src='/img/authors/RenatoVieira.jpg' />
-                    <h4>Renato Vieira</h4>
-					<h5>Business Development Manager</h5>
-					<a href="https://www.linkedin.com/pulse/behind-data-6-connecting-vision-value-conversation-renato-vieira-dw0ef/?trackingId=7UwaqEfQR5OlPt70BiooYw%3D%3D" ><h5>Read his interview in the Behind the Data series</h5></a>
-                    <p>Renato is a seasoned Sales Professional, with over 20 years of experience in the Energy Commodities Data Industry working at various software companies in the Energy Sector.</p>
-					<p>His previous experience at DataGenic, along with his language skills made is tenure a success by adding logos to the client list and building client relationships all across Europe.</p>
-					<p>He now joins OpenData DSL to promote the next generation of Market Data Management Software based on a true Saas Platform that goes beyond being simply a data feed and a curve builder.</p>
-                </div>
-                <div className={styles.team_item}>
 					<img className={styles.team_icon} src='/img/authors/SunilRamesh.jpg' />
                     <h4>Sunil Ramesh</h4>
 					<h5>Head of User Experience</h5>
