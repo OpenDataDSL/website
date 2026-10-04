@@ -41,7 +41,7 @@ import {Demo} from '/src/components/Forms.js';
 			<div className="orange_item">
 				<h4>Autonomous Operations</h4>
         		<h5>Assistants work together automatically</h5>
-				<p>AI Agents handle routine workflows automatically, freeing your team to focus on strategic analysis and profitable trading decisions.</p>
+				<p>AI Agents handle routine workflows automatically, and AI Playbooks run your team's own processes step by step with checks and approvals, freeing your team to focus on strategic analysis and profitable trading decisions.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Custom Assistants</h4>
@@ -71,6 +71,11 @@ import {Demo} from '/src/components/Forms.js';
 				<h4>AI Agents</h4>
         <h5>Fusion Tailored to Your Operations</h5>
         <p>Automate complex workflows through natural conversation. Unlike generic AI, Fusion agents understand your industry—from ETRM systems to REMIT compliance and curve building.</p>
+      </div>
+			<div className="blue_item">
+				<h4>AI Playbooks</h4>
+        <h5>Your Processes, Run by AI</h5>
+        <p>Write a job down once and Fusion runs it step by step on your data, checking each result and pausing for approval before anything changes. Start from the OpenDataDSL library or let Fusion draft one for you. <a href="/features/ai-playbooks">Learn more</a></p>
       </div>
 			<div className="blue_item">
 				<h4>Custom Tools</h4>

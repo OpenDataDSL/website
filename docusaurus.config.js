@@ -174,6 +174,7 @@ const config = {
             {to: '/features/fusion', label: 'Fusion AI'},
             {to: '/features/ai-assistants', label: 'AI Assistants'},
             {to: '/features/ai-agents', label: 'AI Agents'},
+            {to: '/features/ai-playbooks', label: 'AI Playbooks'},
             {to: '/features/custom-tools', label: 'Custom AI Tools'},
             {to: '/features/data-reconciliation', label: 'Data Reconciliation'},
             {to: '/features/cloud-connect', label: 'Cloud Connect'}

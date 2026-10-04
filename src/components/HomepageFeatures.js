@@ -58,6 +58,14 @@ const BenefitList = [
         slogan: "Your 24/7 energy operations team"
     },
     {
+        id: 11,
+        title: 'AI Playbooks',
+        jpg: require('../../static/img/icons/playbook.png').default,
+        text: 'Write a job down once in plain language. Fusion runs it step by step, checks its own work, and asks before anything changes.',
+        link: "ai-playbooks",
+        slogan: "Your best process, run the same way every time"
+    },
+    {
         id: 7,
         title: 'Custom Tools',
         jpg: require('../../static/img/icons/tools.png').default,
@@ -92,6 +100,13 @@ const BenefitList = [
 ]
 
 const Articles = [
+  {
+    type: "News",
+    date: "Oct 04, 2026",
+    title: "New Feature: Fusion AI Playbooks",
+    link: "./news/ai-playbooks",
+    text: "Repeatable, governed AI workflows: Fusion runs your process step by step, checks its work and asks before anything changes."
+  },
   {
     type: "News",
     date: "Apr 21, 2026",
