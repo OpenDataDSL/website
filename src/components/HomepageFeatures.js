@@ -101,6 +101,13 @@ const BenefitList = [
 
 const Articles = [
   {
+    type: "Blog",
+    date: "Oct 08, 2026",
+    title: "Blog: Fusion AI Playbooks",
+    link: "./blog/fusion-ai-playbooks",
+    text: "Your best process, run the same way every time: how playbooks make AI repeatable, checked and governed."
+  },
+  {
     type: "News",
     date: "Oct 04, 2026",
     title: "New Feature: Fusion AI Playbooks",
