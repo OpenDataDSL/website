@@ -169,6 +169,7 @@ const config = {
         {type:'dropdown', label: 'Solutions', position: 'left', items:[
             {to: '/features/data-management', label: 'Data Management'},
             {to: '/features/data-catalogue', label: 'Data Catalogue'},
+            {to: '/features/validation', label: 'Validation'},
             {to: '/features/smart-curves', label: 'Smart Curves'},
             {to: '/features/composer', label: 'Composer'},
             {to: '/features/odsl-code', label: 'ODSL Language'},

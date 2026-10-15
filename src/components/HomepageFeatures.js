@@ -26,6 +26,14 @@ const BenefitList = [
         slogan: "The complete energy pricing data hub"
     },
     {
+        id: 13,
+        title: 'Validation',
+        jpg: require('../../static/img/icons/validation.png').default,
+        text: 'Check every curve and timeseries as it arrives, keep a record of every data point, and only send on the data you can trust.',
+        link: "validation",
+        slogan: "Trust every curve and timeseries before anyone uses it"
+    },
+    {
         id: 3,
         title: 'Smart Curves',
         jpg: require('../../static/img/icons/curve.png').default,
@@ -108,6 +116,20 @@ const BenefitList = [
 ]
 
 const Articles = [
+  {
+    type: "Blog",
+    date: "Oct 15, 2026",
+    title: "Blog: Validation",
+    link: "./blog/validation",
+    text: "Trust every curve and timeseries before anyone uses it: checks suggested from your own data, a record for every data point, and only validated data downstream."
+  },
+  {
+    type: "News",
+    date: "Oct 15, 2026",
+    title: "New Feature: Validation",
+    link: "./news/validation",
+    text: "Automatic checks on every curve and timeseries, a record of every data point, and automations that only send on data you can trust."
+  },
   {
     type: "Blog",
     date: "Oct 15, 2026",
