@@ -34,6 +34,14 @@ const BenefitList = [
         slogan: "Create with AI, build with precision"
     },
     {
+        id: 12,
+        title: 'Composer',
+        jpg: require('../../static/img/icons/composer.png').default,
+        text: 'Line up curves and timeseries side by side, calculate spreads and margins, and chart them, rebuilt every time the data changes.',
+        link: "composer",
+        slogan: "Your market views, built in minutes and kept up to date"
+    },
+    {
         id: 4,
         title: 'Fusion AI',
         jpg: require('../../static/img/icons/fusion.png').default,
@@ -100,6 +108,20 @@ const BenefitList = [
 ]
 
 const Articles = [
+  {
+    type: "Blog",
+    date: "Oct 15, 2026",
+    title: "Blog: Composer",
+    link: "./blog/composer",
+    text: "Your market views, built in minutes and kept up to date: spreads, margins and converted curves without spreadsheets."
+  },
+  {
+    type: "News",
+    date: "Oct 15, 2026",
+    title: "New Feature: Composer",
+    link: "./news/composer",
+    text: "Analytic worksheets of curves and timeseries: line them up, calculate and chart them, rebuilt automatically when the data changes."
+  },
   {
     type: "Blog",
     date: "Oct 08, 2026",

@@ -170,6 +170,7 @@ const config = {
             {to: '/features/data-management', label: 'Data Management'},
             {to: '/features/data-catalogue', label: 'Data Catalogue'},
             {to: '/features/smart-curves', label: 'Smart Curves'},
+            {to: '/features/composer', label: 'Composer'},
             {to: '/features/odsl-code', label: 'ODSL Language'},
             {to: '/features/fusion', label: 'Fusion AI'},
             {to: '/features/ai-assistants', label: 'AI Assistants'},
