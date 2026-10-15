@@ -48,7 +48,7 @@ import {Demo} from '/src/components/Forms.js';
 			<div className="orange_item">
 				<h4>Built in Minutes</h4>
 				<h5>Start from a template, or just describe it.</h5>
-				<p>Pick one of 24 library templates, from curve spreads and clean spark spreads to crack spreads and oil-indexed gas, fill in your curves and it runs. Or describe what you want and Fusion AI designs the composition for you to check and save.</p>
+				<p>Pick one of 50 library templates, from curve spreads and clean spark spreads to LNG export margins, FX cross rates and soybean crush, fill in your curves and it runs. Or describe what you want and Fusion AI designs the composition for you to check and save.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Everything Lined Up</h4>
@@ -73,7 +73,7 @@ import {Demo} from '/src/components/Forms.js';
 			<div className="orange_item">
 				<h4>Shared With Everyone</h4>
 				<h5>The same view in the portal, Excel and the gallery.</h5>
-				<p>Every composition is a report in the portal and the Excel Add-in. The Composer gallery shows each analytics area as a board of live charts you can arrange and size to suit you.</p>
+				<p>Every composition is a report in the portal and the Excel Add-in, where it opens as a clean table of just the columns you choose. The Composer gallery shows each analytics area as a board of live charts you can arrange and size to suit you.</p>
 			</div>
 		</div>
 	</div>
@@ -96,6 +96,7 @@ import {Demo} from '/src/components/Forms.js';
 				<h3>Keep It Running</h3>
 				<p>Once saved, a composition looks after itself:</p>
 				<p><b>Stored Builds:</b> each day's result is stored, so opening a composition, or reading it in Excel, is instant.</p>
+				<p><b>Excel Ready:</b> in the Excel Add-in a composition is a table of tenors or dates, with only the columns you mark for Excel and numbers you can calculate with.</p>
 				<p><b>Automatic Rebuilds:</b> when an input curve or timeseries updates, the composition is rebuilt for that day.</p>
 				<p><b>Chart Indicators:</b> add trend lines, levels, moving averages and Bollinger bands. Draw a trend line today and tomorrow's build shows it too.</p>
 				<p><b>Templates:</b> save any composition as a template so the whole team can reuse the design with their own curves.</p>
@@ -107,7 +108,7 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt section_lfo">
 	<div className="container">
 		<h2>Ready-Made Templates</h2>
-		<p>Start from the OpenDataDSL library: 24 templates across curves, power, gas, oil, carbon, risk and pricing. Use one as it is, or copy it to make it your own.</p>
+		<p>Start from the OpenDataDSL library: 50 templates across curves, power, gas, oil, carbon, coal, FX, metals, agriculture, risk and pricing. Use one as it is, or copy it to make it your own.</p>
 		<div className="blue_grid">
 			<div className="blue_item">
 				<h4>Clean Spark Spread</h4>

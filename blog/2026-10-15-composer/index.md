@@ -67,7 +67,7 @@ The clean spark spread is what a gas-fired power plant earns for each MWh it gen
 
 The data is the focus: a chart and a table for the ondate you pick. Everything else is edited in the panel beside it, so you see each change as you make it. The expression editor suggests the column ids, built-in functions and functions from your own scripts as you type, and shows their parameters. Every change can be undone.
 
-You do not even need to build it yourself: **Clean spark spread** is one of the 24 templates in the OpenDataDSL library. Choose it, pick your power, gas and carbon curves, and it is ready.
+You do not even need to build it yourself: **Clean spark spread** is one of the 50 templates in the OpenDataDSL library. Choose it, pick your power, gas and carbon curves, and it is ready.
 
 ---
 
@@ -80,6 +80,8 @@ A spreadsheet is only as current as the last time someone refreshed it. A saved 
 * **Composed curves and timeseries:** any column can be published as a curve or timeseries in its own right. A spread built in Composer becomes a curve your scripts, other compositions, automations and reports can use like any other, with automations of its own.
 
 So the NBP premium, the clean spark spread and the converted curves are ready by the time the team sits down, without anyone opening a spreadsheet.
+
+And when someone does want a spreadsheet, every composition opens in the **OpenDataDSL Excel Add-in** as a clean table: a row for each tenor or date, and only the columns marked for Excel. The working columns that feed a spread stay out of the way, and the numbers are ready to calculate with.
 
 ---
 
@@ -105,7 +107,7 @@ Each person arranges their own gallery: drag the cards into the order you want, 
 
 ## Start from a template, or just describe it
 
-Composer comes with a library of **24 templates** across curves, power, gas, oil, carbon, risk and pricing, including:
+Composer comes with a library of **50 templates** across curves, power, gas, oil, carbon, coal, FX, metals, agriculture, risk and pricing, including:
 
 * **Curve spread** and **timeseries spread**
 * **Clean spark spread**, **clean dark spread** and **market implied heat rate**
@@ -113,6 +115,10 @@ Composer comes with a library of **24 templates** across curves, power, gas, oil
 * **Gas hub basis** and **oil-indexed gas price**
 * **Rolling front months** and **spot against front month**
 * **Hedge mark to market** and **indexed contract price**
+* **US LNG export margin**, **seasonal storage spread** and **oil to gas price ratio**
+* **Tolling margin**, **PPA value** and **contract for difference payment**
+* **FX cross rate**, **ECB major currencies rebased to 100** and **gold to silver ratio**
+* **Coal arbitrage API2 against API4** and **soybean crush spread**
 
 A template asks only for its inputs, such as the curves to use, and creates a composition you can then change as you like. Save any composition as a template of your own, so the whole team can reuse the design with their own curves.
 
