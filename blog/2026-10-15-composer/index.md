@@ -91,6 +91,10 @@ Analysts do not just look at a chart: they draw on it. Composer lets you add **t
 
 <img src="/img/blog/composer-indicators.png" />
 
+There is more than averages. **Donchian channels**, **Parabolic SAR** and a **VaR envelope** draw on the chart itself; the VaR envelope shows the range each price was expected to stay within at a confidence level such as 95%, and marks the days it broke out in red. Oscillators get a pane of their own below the chart: the **relative strength index (RSI)**, **MACD**, the **stochastic oscillator** and **momentum**.
+
+<img src="/img/blog/composer-oscillators.png" />
+
 Indicators are saved with the composition and belong to the day they were added. Tick **Keep on later ondates**, and a trend line drawn on yesterday's composition is still there on today's build, and on every build after it, until you remove it from that day on. The same indicators appear when the composition is opened as a report in the portal.
 
 ---

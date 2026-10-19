@@ -98,7 +98,7 @@ import {Demo} from '/src/components/Forms.js';
 				<p><b>Stored Builds:</b> each day's result is stored, so opening a composition, or reading it in Excel, is instant.</p>
 				<p><b>Excel Ready:</b> in the Excel Add-in a composition is a table of tenors or dates, with only the columns you mark for Excel and numbers you can calculate with.</p>
 				<p><b>Automatic Rebuilds:</b> when an input curve or timeseries updates, the composition is rebuilt for that day.</p>
-				<p><b>Chart Indicators:</b> add trend lines, levels, moving averages and Bollinger bands. Draw a trend line today and tomorrow's build shows it too.</p>
+				<p><b>Chart Indicators:</b> add trend lines, levels, moving averages, Bollinger bands, Parabolic SAR, VaR envelopes, and RSI, MACD and stochastic oscillators in panes below the chart. Draw a trend line today and tomorrow's build shows it too.</p>
 				<p><b>Templates:</b> save any composition as a template so the whole team can reuse the design with their own curves.</p>
 			</div>
 		</div>

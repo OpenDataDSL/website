@@ -183,10 +183,10 @@ Playbooks are available now in the Fusion AI extension. Open the **Playbooks** t
 
 The documentation covers everything in detail, including the full playbook syntax with examples:
 
-* [What are AI Playbooks?](https://doc.opendatadsl.com/docs/topics/fusion-ai-playbooks/overview)
-* [Creating playbooks](https://doc.opendatadsl.com/docs/topics/fusion-ai-playbooks/creating)
-* [Playbook syntax](https://doc.opendatadsl.com/docs/topics/fusion-ai-playbooks/syntax)
-* [Example playbooks](https://doc.opendatadsl.com/docs/topics/fusion-ai-playbooks/examples)
+* [What are AI Playbooks?](https://doc.opendatadsl.com/docs/extensions/fusion-ai/playbooks/overview)
+* [Creating playbooks](https://doc.opendatadsl.com/docs/extensions/fusion-ai/playbooks/creating)
+* [Playbook syntax](https://doc.opendatadsl.com/docs/extensions/fusion-ai/playbooks/syntax)
+* [Example playbooks](https://doc.opendatadsl.com/docs/extensions/fusion-ai/playbooks/examples)
 
 **Your best analyst's process, available to the whole team, every day.**
 

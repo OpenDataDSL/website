@@ -46,7 +46,7 @@ Composer converts currencies, units and calendars column by column, and shows th
 - **Fusion AI:** describe a composition in a sentence and Fusion designs it, or ask Fusion to change an existing one and review the difference before applying it.
 - **Builds and automation:** each day's result is stored, and a composition is rebuilt automatically when the curves and timeseries it reads are updated.
 - **Composed curves and timeseries:** any column can be published as a curve or timeseries that the rest of the platform uses like any other.
-- **Chart indicators:** trend lines, levels, moving averages and Bollinger bands, drawn on the chart. An indicator added today is carried onto future builds.
+- **Chart indicators:** trend lines, levels, moving averages, Bollinger bands, Donchian channels, Parabolic SAR and VaR envelopes on the chart, and RSI, MACD, stochastic and momentum oscillators in panes below it. An indicator added today is carried onto future builds.
 - **Gallery:** each analytics area as a board of live charts, arranged and sized by each user.
 - **Everywhere:** every composition is a report in the portal and in the Excel Add-in, where it opens as a table of tenors or dates with just the columns you mark for Excel.
 
