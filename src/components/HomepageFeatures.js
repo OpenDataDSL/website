@@ -154,6 +154,14 @@ const BenefitList = [
 const Articles = [
   {
     type: "Blog",
+    date: "Nov 07, 2026",
+    title: "Blog: Data Loaders",
+    link: "./blog/data-loaders",
+    image: "/img/blog/data-loaders-overview.png",
+    text: "Any file or API, into the platform, without writing a script: build a loader on screen, map its columns with Fusion AI's help, and run it on a schedule."
+  },
+  {
+    type: "Blog",
     date: "Nov 05, 2026",
     title: "Blog: Integration",
     link: "./blog/integration",
