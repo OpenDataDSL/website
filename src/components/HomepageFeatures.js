@@ -298,7 +298,7 @@ export function AIHero() {
           </div>
         </div>
         <div className="home-hero__shot">
-          <BrowserFrame src="/img/product/data-loaders.png" alt="Data Loaders mapping the columns of a broker settlement file to the fields of an event" />
+          <img className="home-hero__collage" src="/img/product/home-collage.png" alt="OpenDataDSL screens: Data Loaders mapping a broker file, with Composer, Validation and Fusion AI behind it" />
         </div>
       </div>
     </section>
@@ -337,7 +337,7 @@ function Benefit({title, text, link}) {
   return (
     <a className="product-card" href={"/features/" + link}>
       <div className="product-card__shot">
-        <img src={"/img/diagrams/" + link + ".png"} alt={title + ": how it works"} loading="lazy" />
+        <img src={"/img/product/" + link + ".png"} alt={title + " screenshot"} loading="lazy" />
       </div>
       <div className="product-card__body">
         <h3>{title}</h3>
