@@ -97,7 +97,7 @@ function CTA() {
         <div className={styles.container} style={{textAlign: "center"}}>
             <h2>Ready to Transform Your Operations?</h2>
             <p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
-            <a href="/SignUp" className={styles.cta_button} style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+            <a href="/SignUp" className={styles.cta_button} style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
         </div>
     </section>
 	);

@@ -202,42 +202,42 @@ import {Demo} from '/src/components/Forms.js';
 		<div className="orange_grid">
 			<div className="orange_item">
 				<a href="/features/ai-assistants">
-					<img src="/img/icons/assistant.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-chat-square-text" /></span>
 				</a>
 				<h4>AI Assistants</h4>
 				<p>Each step runs with the assistant best suited to it, from Curve to Code.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/smart-curves">
-					<img src="/img/icons/curve.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-graph-up" /></span>
 				</a>
 				<h4>Smart Curves</h4>
 				<p>Playbooks check, report on and build forward curves.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/data-management">
-					<img src="/img/icons/mdm.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-database" /></span>
 				</a>
 				<h4>Data Management</h4>
 				<p>Playbooks set up dataset monitoring and investigate deliveries.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/odsl-code">
-					<img src="/img/icons/odsl.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-code-slash" /></span>
 				</a>
 				<h4>ODSL Language</h4>
 				<p>Playbooks write, validate and save ODSL scripts and report templates.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/ai-agents">
-					<img src="/img/icons/agent.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-gear-wide-connected" /></span>
 				</a>
 				<h4>AI Agents</h4>
 				<p>Agents handle open-ended monitoring; playbooks handle jobs with a defined process.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/custom-tools">
-					<img src="/img/icons/tools.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-tools" /></span>
 				</a>
 				<h4>Custom Tools</h4>
 				<p>Steps can use your own tools to reach your internal systems.</p>
@@ -264,7 +264,7 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>See a Playbook Run on Your Data</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Book a demo and we will run a playbook against your own curves or datasets, and help you sketch one for a job your team does every week.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
 		<NextButton link="/features/custom-tools" text="Custom Tools" />
 	</div>
 </section>

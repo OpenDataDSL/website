@@ -91,42 +91,42 @@ import {Demo} from '/src/components/Forms.js';
 		<div className="orange_grid">
 			<div className="orange_item">
 				<a href="/features/data-management">
-					<img src="/img/icons/mdm.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-database" /></span>
 				</a>
 				<h4>Data Management</h4>
 				<p>Consistently load market data using Smart Loaders.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/smart-curves">
-					<img src="/img/icons/curve.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-graph-up" /></span>
 				</a>
 				<h4>Smart Curves</h4>
 				<p>Build forward curves automatically from catalogue data.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/ai-assistants">
-					<img src="/img/icons/assistant.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-chat-square-text" /></span>
 				</a>
 				<h4>AI Assistants</h4>
 				<p>Answer questions about data availability and market coverage.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/ai-agentst">
-					<img src="/img/icons/agent.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-gear-wide-connected" /></span>
 				</a>
 				<h4>AI Agents</h4>
 				<p>Automate workflows using catalogue data as inputs.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/odsl-code">
-					<img src="/img/icons/odsl.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-code-slash" /></span>
 				</a>
 				<h4>ODSL Language</h4>
 				<p>Query and transform catalogue data with domain-specific syntax.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/custom-tools">
-					<img src="/img/icons/tools.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-tools" /></span>
 				</a>
 				<h4>Custom Tools</h4>
 				<p>Leverage catalogue data in your proprietary applications.</p>
@@ -153,8 +153,8 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>Ready to Transform Your Data Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
-		<NextButton link="/features/validation" text="Validation" />
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/data-loaders" text="Data Loaders" />
 	</div>
 </section>
 

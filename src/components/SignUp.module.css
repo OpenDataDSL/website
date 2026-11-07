@@ -1,5 +1,6 @@
 .header {
-	background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+	background: #0b1b36;
+	background-image: radial-gradient(ellipse at 85% 0%, rgba(31, 95, 191, 0.35), transparent 60%);
 	color: white;
 	padding: 60px 20px;
 	text-align: center;
@@ -8,12 +9,14 @@
 .header h1 {
 	font-size: 2.5rem;
 	margin-bottom: 15px;
-	font-weight: 700;
+	font-weight: 650;
+	letter-spacing: -0.02em;
+	color: white;
 }
 
 .header p {
-	font-size: 1.2rem;
-	opacity: 0.95;
+	font-size: 1.15rem;
+	color: #c9d3e3;
 }
 
 .container {
@@ -30,7 +33,7 @@
 	background: white;
 	padding: 10px;
 	border-radius: 12px;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border: 1px solid #e3e8ef;
 }
 
 h2.desc {
@@ -53,7 +56,7 @@ h2.desc {
 }
 
 .tab.active {
-	background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+	background: #1f5fbf;
 	color: white;
 }
 
@@ -78,28 +81,28 @@ h2.desc {
 
 .pricing_card {
 	background: white;
-	border-radius: 16px;
+	border-radius: 10px;
 	padding: 40px 30px;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	border: 1px solid #e3e8ef;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
 	position: relative;
 	overflow: hidden;
 }
 
 .pricing_card:hover {
-	transform: translateY(-5px);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+	border-color: #b9c7db;
+	box-shadow: 0 8px 24px -8px rgba(15, 31, 61, 0.18);
 }
 
 .pricing_card.featured {
-	border: 3px solid #3b82f6;
+	border: 2px solid #1f5fbf;
 }
 
 .featured_badge {
 	position: absolute;
 	top: 20px;
 	right: -35px;
-	background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+	background: #1f5fbf;
 	color: white;
 	padding: 5px 40px;
 	transform: rotate(45deg);
@@ -108,16 +111,16 @@ h2.desc {
 }
 
 .plan_name {
-	font-size: 1.8rem;
-	font-weight: 700;
-	color: #1e3a8a;
+	font-size: 1.5rem;
+	font-weight: 650;
+	color: #0f1f3d;
 	margin-bottom: 15px;
 }
 
 .plan_price {
-	font-size: 3rem;
-	font-weight: 700;
-	color: #3b82f6;
+	font-size: 2.5rem;
+	font-weight: 650;
+	color: #1f5fbf;
 	margin-bottom: 10px;
 }
 
@@ -161,43 +164,43 @@ h2.desc {
 	width: 100%;
 	padding: 15px;
 	margin-bottom: 5px;
-	background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+	background: #1f5fbf;
 	color: white;
 	border: none;
 	border-radius: 8px;
 	font-size: 1.1rem;
 	font-weight: 600;
 	cursor: pointer;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .signup_button:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 6px 12px rgba(59, 130, 246, 0.4);
+	background: #184d9c;
+	box-shadow: 0 6px 12px rgba(15, 31, 61, 0.18);
 }
 
 .signup_button.secondary {
 	background: white;
-	color: #3b82f6;
-	border: 2px solid #3b82f6;
+	color: #1f5fbf;
+	border: 2px solid #1f5fbf;
 }
 
 .signup_button.secondary:hover {
 	background: #f8fafc;
-	box-shadow: 0 6px 12px rgba(59, 130, 246, 0.2);
+	box-shadow: 0 6px 12px rgba(15, 31, 61, 0.12);
 }
 
 .form_section {
 	background: white;
 	border-radius: 16px;
 	padding: 50px;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border: 1px solid #e3e8ef;
 	max-width: 600px;
 	margin: 0 auto;
 }
 
 .form_section h2 {
-	color: #1e3a8a;
+	color: #0f1f3d;
 	font-size: 2rem;
 	margin-bottom: 30px;
 	text-align: center;
@@ -210,7 +213,7 @@ h2.desc {
 .form_group label {
 	display: block;
 	margin-bottom: 8px;
-	color: #1e3a8a;
+	color: #0f1f3d;
 	font-weight: 600;
 }
 
@@ -229,7 +232,7 @@ h2.desc {
 .form_group select:focus,
 .form_group textarea:focus {
 	outline: none;
-	border-color: #3b82f6;
+	border-color: #1f5fbf;
 }
 
 .form_group textarea {
@@ -256,31 +259,31 @@ h2.desc {
 .submit_button {
 	width: 100%;
 	padding: 15px;
-	background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+	background: #1f5fbf;
 	color: white;
 	border: none;
 	border-radius: 8px;
 	font-size: 1.2rem;
 	font-weight: 600;
 	cursor: pointer;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .submit_button:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 6px 12px rgba(59, 130, 246, 0.4);
+	background: #184d9c;
+	box-shadow: 0 6px 12px rgba(15, 31, 61, 0.18);
 }
 
 .info_box {
-	background: #f0f9ff;
-	border-left: 4px solid #3b82f6;
+	background: #f5f7fa;
+	border-left: 3px solid #1f5fbf;
 	padding: 20px;
 	margin: 30px 0;
 	border-radius: 8px;
 }
 
 .info_box h3 {
-	color: #1e3a8a;
+	color: #0f1f3d;
 	margin-bottom: 10px;
 }
 
@@ -293,11 +296,11 @@ h2.desc {
 	border-radius: 16px;
 	padding: 40px;
 	margin-top: 40px;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border: 1px solid #e3e8ef;
 }
 
 .benefits h3 {
-	color: #1e3a8a;
+	color: #0f1f3d;
 	font-size: 1.8rem;
 	margin-bottom: 30px;
 	text-align: center;
@@ -319,7 +322,7 @@ h2.desc {
 }
 
 .benefit_item h4 {
-	color: #1e3a8a;
+	color: #0f1f3d;
 	margin-bottom: 10px;
 }
 

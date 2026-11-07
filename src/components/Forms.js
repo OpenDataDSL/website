@@ -28,7 +28,7 @@ export function Demo(props) {
             <div className={styles.demoheader}>
                 <div className="col text-center">
                     <div className={styles.demoheadertext} itemScope itemType="https://schema.org/LocalBusiness">
-                        <img src="/img/logo128.png" />
+                        <img src="/img/logo128.png" width="64" height="64" alt="OpenDataDSL" />
                         <p className="h1">How about a demo?</p>
                         <p className="h6">Our team is here to find the right solution for you, contact us to see this in action.</p>
                         <p className={styles.contactinfo} itemProp="email"><i className="bi bi-envelope-at-fill" alt="Phone" /><a href="mailto:info@opendatadsl.com"> info@opendatadsl.com</a></p>

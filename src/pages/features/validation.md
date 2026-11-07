@@ -190,42 +190,42 @@ import {Demo} from '/src/components/Forms.js';
 		<div className="orange_grid">
 			<div className="orange_item">
 				<a href="/features/data-management">
-					<img src="/img/icons/mdm.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-database" /></span>
 				</a>
 				<h4>Data Management</h4>
 				<p>Checks run on your curves and timeseries as they are saved, and set their quality status.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/data-catalogue">
-					<img src="/img/icons/catalogue.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-collection" /></span>
 				</a>
 				<h4>Data Catalogue</h4>
 				<p>Check public market data in your own environment, with your own checks.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/smart-curves">
-					<img src="/img/icons/curve.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-graph-up" /></span>
 				</a>
 				<h4>Smart Curves</h4>
 				<p>Smart and event curves are checked every time they are rebuilt.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/composer">
-					<img src="/img/icons/composer.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-table" /></span>
 				</a>
 				<h4>Composer</h4>
 				<p>Composed curves and timeseries are checked when their composition is built.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/odsl-code">
-					<img src="/img/icons/odsl.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-code-slash" /></span>
 				</a>
 				<h4>ODSL Language</h4>
 				<p>Write your own checks as ODSL functions, alongside the validation library.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/data-reconciliation">
-					<img src="/img/icons/reconcile.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-arrow-left-right" /></span>
 				</a>
 				<h4>Data Reconciliation</h4>
 				<p>Reconcile sources against each other, and validate the result.</p>
@@ -252,7 +252,7 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>See Validation on Your Data</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Book a demo and we will suggest checks for your own curves and timeseries from their last 30 days of data, and show you what they would have caught.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
 		<NextButton link="/features/smart-curves" text="Smart Curves" />
 	</div>
 </section>

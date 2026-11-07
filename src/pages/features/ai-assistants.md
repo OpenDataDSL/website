@@ -98,7 +98,7 @@ import {Demo} from '/src/components/Forms.js';
 		<p>We have created six assistants with their own area of specialisation.</p>
 		<div className="blue_grid">
 			<div className="blue_item">
-				<img className="integrationSvg" src="/img/icons/assistants/general.png" />
+				<span className="product-icon"><i className="bi bi-chat-dots" /></span>
 				<h4>General Assistant</h4>
                 <p>Your starting point for any question about energy markets, trading concepts, or platform navigation.</p>
 				<h5>Expertise Areas</h5>
@@ -119,7 +119,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-general">View real user conversations with the general assistant</a>
 			</div>
 			<div className="blue_item">
-				<img className="integrationSvg" src="/img/icons/assistants/analyse.png" />
+				<span className="product-icon"><i className="bi bi-bar-chart" /></span>
 				<h4>Analyse Assistant</h4>
                 <p>Your quantitative analyst for market data exploration, statistical analysis, and insight generation.</p>
 				<h5>Expertise Areas</h5>
@@ -140,7 +140,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-analyse">View real user conversations with the analyse assistant</a>
 			</div>
 			<div className="blue_item">
-				<img className="integrationSvg" src="/img/icons/assistants/curve.png" />
+				<span className="product-icon"><i className="bi bi-graph-up" /></span>
 				<h4>Curve Assistant</h4>
                 <p>Your curve-building specialist for forward curve construction, validation, and methodology.</p>
 				<h5>Expertise Areas</h5>
@@ -163,7 +163,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-curve">View real user conversations with the curve assistant</a>
 			</div>
 			<div className="blue_item">
-				<img className="integrationSvg" src="/img/icons/assistants/operations.png" />
+				<span className="product-icon"><i className="bi bi-activity" /></span>
 				<h4>Operations Assistant</h4>
                 <p>Your workflow automation expert for managing data pipelines, monitoring operations, and troubleshooting issues.</p>
 				<h5>Expertise Areas</h5>
@@ -186,7 +186,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-operations">View real user conversations with the operations assistant</a>
 			</div>
 			<div className="blue_item">
-				<img className="integrationSvg" src="/img/icons/assistants/code.png" />
+				<span className="product-icon"><i className="bi bi-code-slash" /></span>
 				<h4>Code Assistant</h4>
                 <p>Your programming expert for ODSL development, scripting, and technical implementation.</p>
 				<h5>Expertise Areas</h5>
@@ -210,7 +210,7 @@ import {Demo} from '/src/components/Forms.js';
 		        <a href="/features/ai-conversations-code">View real user conversations with the code assistant</a>
 			</div>
 			<div className="blue_item">
-				<img className="integrationSvg" src="/img/icons/assistants/integrate.png" />
+				<span className="product-icon"><i className="bi bi-plug" /></span>
 				<h4>Integrate Assistant</h4>
                 <p>Your integration specialist for connecting OpenDataDSL with external systems, APIs, and applications.</p>
 				<h5>Expertise Areas</h5>
@@ -315,7 +315,7 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>Ready to Transform Your AI Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
 		<NextButton link="/features/ai-agents" text="AI Agents" />
 	</div>
 </section>

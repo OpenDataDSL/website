@@ -26,7 +26,7 @@ import { PartnerProgram, Partner, PartnerSwiper } from '/src/components/PartnerP
             <li>Expertise in data and data management to help our partners optimize their solutions</li>
         </ul>
         <center>
-            <a href="/referrals"><img src="/img/partner/referral-program.jpg" width="250px" /></a>
+            <a href="/referrals" className="cta_button next_button" style={{marginLeft: 0}}>Our Referral Program&nbsp;&nbsp;<i className="bi bi-arrow-right" /></a>
         </center>
     </div>
 </section>

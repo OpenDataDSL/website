@@ -189,42 +189,42 @@ import {Demo} from '/src/components/Forms.js';
 		<div className="orange_grid">
 			<div className="orange_item">
 				<a href="/features/data-management">
-					<img src="/img/icons/mdm.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-database" /></span>
 				</a>
 				<h4>Data Management</h4>
 				<p>Agents check data consistency and report issues.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/smart-curves">
-					<img src="/img/icons/curve.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-graph-up" /></span>
 				</a>
 				<h4>Smart Curves</h4>
 				<p>Agents rebuild curves using intelligent curve construction.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/ai-assistants">
-					<img src="/img/icons/assistant.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-chat-square-text" /></span>
 				</a>
 				<h4>AI Assistants</h4>
 				<p>Agents consult assistants for complex decision-making.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/data-catalogue">
-					<img src="/img/icons/catalogue.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-collection" /></span>
 				</a>
 				<h4>Data Catalogue</h4>
 				<p>Agents access standardized market data automatically.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/odsl-code">
-					<img src="/img/icons/odsl.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-code-slash" /></span>
 				</a>
 				<h4>ODSL Language</h4>
 				<p>Agents can run ODSL scripts to perform data management tasks.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/custom-tools">
-					<img src="/img/icons/tools.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-tools" /></span>
 				</a>
 				<h4>Custom Tools</h4>
 				<p>Agents use custom tools to integrate with your internal systems.</p>
@@ -251,7 +251,7 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>Ready to Transform Your AI Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
 		<NextButton link="/features/ai-playbooks" text="AI Playbooks" />
 	</div>
 </section>

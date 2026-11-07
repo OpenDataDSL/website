@@ -48,7 +48,7 @@ import {Demo} from '/src/components/Forms.js';
 			<div className="orange_item">
 				<h4>Built in Minutes</h4>
 				<h5>Start from a template, or just describe it.</h5>
-				<p>Pick one of 50 library templates, from curve spreads and clean spark spreads to LNG export margins, FX cross rates and soybean crush, fill in your curves and it runs. Or describe what you want and Fusion AI designs the composition for you to check and save.</p>
+				<p>Pick one of 58 library templates, from curve spreads and clean spark spreads to LNG export margins, FX cross rates, soybean crush and option volatility smiles, fill in your curves and it runs. Or describe what you want and Fusion AI designs the composition for you to check and save.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Everything Lined Up</h4>
@@ -108,7 +108,7 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt section_lfo">
 	<div className="container">
 		<h2>Ready-Made Templates</h2>
-		<p>Start from the OpenDataDSL library: 50 templates across curves, power, gas, oil, carbon, coal, FX, metals, agriculture, risk and pricing. Use one as it is, or copy it to make it your own.</p>
+		<p>Start from the OpenDataDSL library: 58 templates across curves, power, gas, oil, carbon, coal, FX, metals, agriculture, options, risk and pricing. Use one as it is, or copy it to make it your own.</p>
 		<div className="blue_grid">
 			<div className="blue_item">
 				<h4>Clean Spark Spread</h4>
@@ -193,42 +193,42 @@ import {Demo} from '/src/components/Forms.js';
 		<div className="orange_grid">
 			<div className="orange_item">
 				<a href="/features/smart-curves">
-					<img src="/img/icons/curve.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-graph-up" /></span>
 				</a>
 				<h4>Smart Curves</h4>
 				<p>Compose any forward curve, and rebuild when it is rebuilt.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/data-catalogue">
-					<img src="/img/icons/catalogue.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-collection" /></span>
 				</a>
 				<h4>Data Catalogue</h4>
 				<p>Use market data from the catalogue alongside your own.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/fusion">
-					<img src="/img/icons/fusion.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-lightning-charge" /></span>
 				</a>
 				<h4>Fusion AI</h4>
 				<p>Describe a composition and Fusion designs it, or ask it to change one.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/odsl-code">
-					<img src="/img/icons/odsl.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-code-slash" /></span>
 				</a>
 				<h4>ODSL Language</h4>
 				<p>Use ODSL functions and your own scripts in expressions.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/data-management">
-					<img src="/img/icons/mdm.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-database" /></span>
 				</a>
 				<h4>Data Management</h4>
 				<p>Compositions and their curves are stored on your master data, with automations.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/ai-playbooks">
-					<img src="/img/icons/playbook.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-journal-check" /></span>
 				</a>
 				<h4>AI Playbooks</h4>
 				<p>Playbook steps read composed curves like any other curve.</p>
@@ -255,7 +255,7 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>See Your Spreads in Composer</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Book a demo and we will build a composition on your own curves, from a spread or a margin your team calculates every day.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
 		<NextButton link="/features/odsl-code" text="ODSL Language" />
 	</div>
 </section>

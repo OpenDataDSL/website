@@ -67,7 +67,7 @@ The clean spark spread is what a gas-fired power plant earns for each MWh it gen
 
 The data is the focus: a chart and a table for the ondate you pick. Everything else is edited in the panel beside it, so you see each change as you make it. The expression editor suggests the column ids, built-in functions and functions from your own scripts as you type, and shows their parameters. Every change can be undone.
 
-You do not even need to build it yourself: **Clean spark spread** is one of the 50 templates in the OpenDataDSL library. Choose it, pick your power, gas and carbon curves, and it is ready.
+You do not even need to build it yourself: **Clean spark spread** is one of the 58 templates in the OpenDataDSL library. Choose it, pick your power, gas and carbon curves, and it is ready.
 
 ---
 
@@ -111,7 +111,7 @@ Each person arranges their own gallery: drag the cards into the order you want, 
 
 ## Start from a template, or just describe it
 
-Composer comes with a library of **50 templates** across curves, power, gas, oil, carbon, coal, FX, metals, agriculture, risk and pricing, including:
+Composer comes with a library of **58 templates** across curves, power, gas, oil, carbon, coal, FX, metals, agriculture, options, risk and pricing, including:
 
 * **Curve spread** and **timeseries spread**
 * **Clean spark spread**, **clean dark spread** and **market implied heat rate**

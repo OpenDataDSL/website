@@ -42,7 +42,7 @@ Composer converts currencies, units and calendars column by column, and shows th
 
 ## Built for everyday use
 
-- **50 library templates:** curve and timeseries spreads, clean spark and dark spreads, crack spreads, gas hub basis, oil-indexed gas, LNG export margins, tolling and PPA values, FX cross rates, metals and agriculture spreads, hedge mark to market and more. Teams can save their own templates too.
+- **58 library templates:** curve and timeseries spreads, clean spark and dark spreads, crack spreads, gas hub basis, oil-indexed gas, LNG export margins, tolling and PPA values, FX cross rates, metals and agriculture spreads, hedge mark to market and more. Teams can save their own templates too.
 - **Fusion AI:** describe a composition in a sentence and Fusion designs it, or ask Fusion to change an existing one and review the difference before applying it.
 - **Builds and automation:** each day's result is stored, and a composition is rebuilt automatically when the curves and timeseries it reads are updated.
 - **Composed curves and timeseries:** any column can be published as a curve or timeseries that the rest of the platform uses like any other.

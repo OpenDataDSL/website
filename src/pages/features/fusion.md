@@ -94,32 +94,32 @@ import {Demo} from '/src/components/Forms.js';
       <div className="red_item">
         <h4>General</h4>
         <p>Platform guidance</p>
-        <button><a href="/features/ai-conversations-general"><img className="red_icon" src="/img/icons/assistants/general.png" /></a></button>
+        <button><a href="/features/ai-conversations-general"><span className="product-icon"><i className="bi bi-chat-dots" /></span></a></button>
       </div>
       <div className="red_item">
         <h4>Analyse</h4>
         <p>Data analysis and reporting</p>
-        <button><a href="/features/ai-conversations-analyse"><img className="red_icon" src="/img/icons/assistants/analyse.png" /></a></button>
+        <button><a href="/features/ai-conversations-analyse"><span className="product-icon"><i className="bi bi-bar-chart" /></span></a></button>
       </div>
       <div className="red_item">
         <h4>Smart Curve</h4>
         <p>Forward curve buil;ding</p>
-        <button><a href="/features/ai-conversations-curve"><img className="red_icon" src="/img/icons/assistants/curve.png" /></a></button>
+        <button><a href="/features/ai-conversations-curve"><span className="product-icon"><i className="bi bi-graph-up" /></span></a></button>
       </div>
       <div className="red_item">
         <h4>Operations</h4>
         <p>Process monitoring</p>
-        <button><a href="/features/ai-conversations-operations"><img className="red_icon" src="/img/icons/assistants/operations.png" /></a></button>
+        <button><a href="/features/ai-conversations-operations"><span className="product-icon"><i className="bi bi-activity" /></span></a></button>
       </div>
       <div className="red_item">
         <h4>ODSL Code</h4>
         <p>Code generation</p>
-        <button><a href="/features/ai-conversations-code"><img className="red_icon" src="/img/icons/assistants/code.png" /></a></button>
+        <button><a href="/features/ai-conversations-code"><span className="product-icon"><i className="bi bi-code-slash" /></span></a></button>
       </div>
       <div className="red_item">
         <h4>Integrations</h4>
         <p>System integration</p>
-        <button><a href="/features/ai-conversations-integrate"><img className="red_icon" src="/img/icons/assistants/integrate.png" /></a></button>
+        <button><a href="/features/ai-conversations-integrate"><span className="product-icon"><i className="bi bi-plug" /></span></a></button>
       </div>
     </div>
 	</div>
@@ -143,7 +143,7 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>Ready to Transform Your AI Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
 		<NextButton link="/features/ai-assistants" text="AI Assistants" />
 	</div>
 </section>

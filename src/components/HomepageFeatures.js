@@ -1,12 +1,6 @@
 import clsx from 'clsx';
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Autoplay } from 'swiper/modules';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
 
 const BenefitList = [
     {
@@ -24,6 +18,13 @@ const BenefitList = [
         text: 'Transform data acquisition from weeks of vendor negotiations and integration work into immediate access.',
         link: "data-catalogue",
         slogan: "The complete energy pricing data hub"
+    },
+    {
+        id: 19,
+        title: 'Data Loaders',
+        text: 'Load broker files, exchange workbooks, APIs and web page tables step by step on screen, and run them on a schedule, with no code.',
+        link: "data-loaders",
+        slogan: "Load any file or API into the platform, without writing a script"
     },
     {
         id: 13,
@@ -112,15 +113,59 @@ const BenefitList = [
         text: 'Access your OpenDataDSL platform data directly in Databricks, Spark, pandas, and any analytics tool you already use — without copying, exporting, or waiting.',
         link: "cloud-connect",
         slogan: "Your data, in your cloud, in your tools"
+    },
+    {
+        id: 14,
+        title: 'Integration',
+        text: 'Send curves and timeseries to ETRMs, risk engines and data lakes on a schedule, with a daily report of what reached each system.',
+        link: "integration",
+        slogan: "Every curve, every system, every morning, with proof"
+    },
+    {
+        id: 15,
+        title: 'Workflows',
+        text: 'Draw the steps that download, load, check and build your data as a diagram, and run them as scheduled processes.',
+        link: "workflows",
+        slogan: "Draw your data processes, run them on a schedule"
+    },
+    {
+        id: 16,
+        title: 'Promotion',
+        text: 'Move what you build and test into production, see every change before you push, and undo any deployment.',
+        link: "promotion",
+        slogan: "From test to production, reviewed, recorded and reversible"
+    },
+    {
+        id: 17,
+        title: 'Alerts',
+        text: 'Every problem with your data in one place, tracked like a support ticket until it is solved.',
+        link: "alerts",
+        slogan: "Every problem with your data, in one place until it is solved"
+    },
+    {
+        id: 18,
+        title: 'Extensions',
+        text: 'Ready-made apps for the portal and Excel, and Fusion AI to build your own on the data you already have.',
+        link: "extensions",
+        slogan: "Ready-made apps for the portal and Excel, and the tools to build your own"
     }
 ]
 
 const Articles = [
   {
     type: "Blog",
+    date: "Nov 05, 2026",
+    title: "Blog: Integration",
+    link: "./blog/integration",
+    image: "/img/blog/integration-hero.png",
+    text: "Every curve, every system, every morning, with proof: send validated data to ETRMs, risk engines and data lakes on a schedule."
+  },
+  {
+    type: "Blog",
     date: "Oct 15, 2026",
     title: "Blog: Validation",
     link: "./blog/validation",
+    image: "/img/blog/validation-overview.png",
     text: "Trust every curve and timeseries before anyone uses it: checks suggested from your own data, a record for every data point, and only validated data downstream."
   },
   {
@@ -128,6 +173,7 @@ const Articles = [
     date: "Oct 15, 2026",
     title: "New Feature: Validation",
     link: "./news/validation",
+    image: "/img/blog/validation-dashboard.png",
     text: "Automatic checks on every curve and timeseries, a record of every data point, and automations that only send on data you can trust."
   },
   {
@@ -135,6 +181,7 @@ const Articles = [
     date: "Oct 15, 2026",
     title: "Blog: Composer",
     link: "./blog/composer",
+    image: "/img/blog/composer-overview.png",
     text: "Your market views, built in minutes and kept up to date: spreads, margins and converted curves without spreadsheets."
   },
   {
@@ -142,6 +189,7 @@ const Articles = [
     date: "Oct 15, 2026",
     title: "New Feature: Composer",
     link: "./news/composer",
+    image: "/img/blog/composer-gallery.png",
     text: "Analytic worksheets of curves and timeseries: line them up, calculate and chart them, rebuilt automatically when the data changes."
   },
   {
@@ -149,6 +197,7 @@ const Articles = [
     date: "Oct 08, 2026",
     title: "Blog: Fusion AI Playbooks",
     link: "./blog/fusion-ai-playbooks",
+    image: "/img/blog/fusion-playbooks-overview.png",
     text: "Your best process, run the same way every time: how playbooks make AI repeatable, checked and governed."
   },
   {
@@ -233,185 +282,106 @@ const Articles = [
 
 export function AIHero() {
   return (
-        <div>
-            <section className="herotwo">
-                <div className="herotwo__bg">
-                    <div className="herotwo__bg__inner"></div>
-                </div>
-                <div className="container">
-                    <div className="herotwo__content">
-                        <h2 className="herotwo__title scroll-to-display">Energy Intelligence Platform</h2>
-                        <p className="herotwo__subtitle scroll-to-display pb-5">AI Enabled Data Management</p>
-                    </div>
-                </div>
-                <div className='video-spinner scroll-to-display'>
-                  <img src='/img/home/hero-video-bg.png' alt="Loading..." />
-                  <svg className="circleText" viewBox="830 -80 50 550" data-duration="5">
-                    <path id="textcircle" fill="none" stroke="#FF9800" strokeWidth="0" data-duration="5"
-                          d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250">
-                    </path>                    
-                    <text dy="-25">  
-                      <textPath className='curved-circle-item' href="#textcircle"> - Play Intro Video - Play Intro Video</textPath>
-                    </text>                  
-                  </svg>
-                </div>
-                <div className="main-swiper scroll-to-display">
-                  <Swiper modules={[EffectCoverflow, Autoplay]}
-                    effect="coverflow"
-                    spaceBetween={10}
-                    slidesPerView={5}
-                    loop={true}
-                    coverflowEffect={{rotate:40, stretch:0,depth:100,modifier:1,slideShadows:true}}
-                    speed={1000}
-                    autoplay={{delay:1000, pauseOnMouseEnter: true, disableOnInteraction: false}}
-                    autoHeight={true}
-                    breakpoints={{
-                          "0": {"slidesPerView": 1},
-                          "576": {"slidesPerView": 2},
-                          "992": {"slidesPerView": 3},
-                          "1200": {"slidesPerView": 5},
-                          "2500": {"slidesPerView": 6}
-                      }}
-                  >
-                    {BenefitList.map((props, idx) => (
-                      <SwiperSlide key={idx}>
-                          <div className="herodiv">
-                              <BenefitCard key={idx} {...props} />
-                          </div>
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-              </div>
-            </section>
+    <section className="home-hero">
+      <div className="container home-hero__inner">
+        <div className="home-hero__text">
+          <p className="eyebrow">Energy Intelligence Platform</p>
+          <h1>Market data you can trust, ready for every team and every system</h1>
+          <p className="home-hero__lead">
+            OpenDataDSL collects, validates and manages your energy and commodity market data,
+            builds your forward curves, and puts AI to work on it, so traders, analysts and risk
+            teams all work from the same numbers.
+          </p>
+          <div className="home-hero__actions">
+            <a className="btn-solid" href="/contact">Book a demo</a>
+            <a className="btn-outline" href="#platform">Explore the platform</a>
+          </div>
+        </div>
+        <div className="home-hero__shot">
+          <BrowserFrame src="/img/product/data-loaders.png" alt="Data Loaders mapping the columns of a broker settlement file to the fields of an event" />
+        </div>
       </div>
+    </section>
   );
 };
 
-function BenefitCard({jpg, title, slogan, link}) {
+export function BrowserFrame({src, alt}) {
   return (
-      <div className="p-4">
-        <div className="text--center">
-          <img src={jpg} className="featureSvg" alt={title} />
-        </div>
-        <div className="text--center padding-horiz--md">
-          <h3>{title}</h3>
-          <p>{slogan}</p>
-        </div>
-      </div>
-    )
-}
-
-export function HomepageFeaturesOld() {
-  return (
-      <section className="feature-section">
-        <div className="features">
-          {BenefitList.map((props, idx) => (
-              <Benefit key={idx} {...props} />
-          ))}
-        </div>
-      </section>
+    <div className="browser-frame">
+      <div className="browser-frame__bar"><span /><span /><span /></div>
+      <img src={src} alt={alt} loading="lazy" />
+    </div>
   );
 }
 
 export function HomepageFeatures() {
   return (
-      <section className="section">
-      	<div className="container">
-          <h2>Unified tools that strengthen processes and empower teams</h2>		
-          <p>Enable every team to respond quickly, scale effortlessly, and drive tangible outcomes.</p>
-          <div className="orange_grid">
-            {BenefitList.map((props, idx) => (
-                <Benefit key={idx} {...props} />
-            ))}
-          </div>
+    <section className="home-section" id="platform">
+      <div className="container">
+        <div className="home-section__head">
+          <p className="eyebrow">The platform</p>
+          <h2>One platform for your market data, curves and AI</h2>
+          <p>Unified tools that strengthen processes and let every team respond quickly, scale and deliver measurable outcomes.</p>
         </div>
-      </section>
+        <div className="product-grid">
+          {BenefitList.map((props, idx) => (
+            <Benefit key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
-function Benefit({jpg, title, text, link, slogan, id}) {
+function Benefit({title, text, link}) {
   return (
-      <div className={clsx("orange_item scroll-to-display-x scroll-to-display-1")}>
-        <div className='col-12'>
-          <a href={"/features/"+link}>
-            <img src={jpg} className="integrationSvg" alt={title} />
-          </a>
-          <h4>{title}</h4>
-          <p>{text}</p>
-          <h5>{slogan}</h5>
-          <a href={"/features/"+link}>
-            <button className="button button--primary">Learn More</button>
-          </a>
-        </div>
+    <a className="product-card" href={"/features/" + link}>
+      <div className="product-card__shot">
+        <img src={"/img/diagrams/" + link + ".png"} alt={title + ": how it works"} loading="lazy" />
       </div>
-    )
-}
-
-function BenefitOld({jpg, title, text, link, slogan, id}) {
-  return (
-      <div className={clsx("row p-4 feature-item mb-2 scroll-to-display-x scroll-to-display-"+id)}>
-        <div className='col-12'>
-          <img src={jpg} className="featureSvg" alt={title} />
-          <h2>{title}</h2>
-          <p>{text}</p>
-          <h5>{slogan}</h5>
-          <a href={"/features/"+link}>
-            <button className="button button--primary">Learn More</button>
-          </a>
-        </div>
+      <div className="product-card__body">
+        <h3>{title}</h3>
+        <p>{text}</p>
+        <span className="product-card__link">Learn more <i className="bi bi-arrow-right" /></span>
       </div>
-    )
+    </a>
+  )
 }
 
 export function News() {
+  const latest = Articles.filter(a => a.image).slice(0, 6);
   return (
-        <div>
-            <section className="news-section">
-                    <div className="container">
-                    <div className="herotwo__content">
-                        <h2 className="herotwo__title scroll-to-display">Insights</h2>
-                    </div>
-                </div>
-                <div className="news-swiper scroll-to-display">
-                  <Swiper modules={[Autoplay]}
-                    spaceBetween={10}
-                    slidesPerView={3}
-                    loop={true}
-                    speed={1000}
-                    autoplay={{delay:1000, pauseOnMouseEnter: true, disableOnInteraction: false}}
-                    autoHeight={true}
-                    breakpoints={{
-                          "0": {"slidesPerView": 1},
-                          "576": {"slidesPerView": 1},
-                          "992": {"slidesPerView": 1},
-                          "1200": {"slidesPerView": 3},
-                          "2500": {"slidesPerView": 3}
-                      }}
-                  >
-                    {Articles.map((props, idx) => (
-                      <SwiperSlide key={idx}>
-                          <div className="news-div">
-                              <NewsCard key={idx} {...props} />
-                          </div>
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-              </div>
-            </section>
+    <section className="home-section home-section--alt">
+      <div className="container">
+        <div className="home-section__head home-section__head--row">
+          <div>
+            <p className="eyebrow">Insights</p>
+            <h2>Latest from OpenDataDSL</h2>
+          </div>
+          <div className="home-section__links">
+            <a href="/blog">All blog posts <i className="bi bi-arrow-right" /></a>
+            <a href="/news">All news <i className="bi bi-arrow-right" /></a>
+          </div>
+        </div>
+        <div className="article-grid">
+          {latest.map((props, idx) => (
+            <NewsCard key={idx} {...props} />
+          ))}
+        </div>
       </div>
+    </section>
   );
 };
 
-function NewsCard({type, link, title, text, date}) {
+function NewsCard({type, link, title, text, date, image}) {
   return (
-      <a href={link}>
-        <div className="p-4">
-          <div className="text--center padding-horiz--md">
-            <span className="news-date">{type + " - " + date}</span>
-            <h3 className="news-headline">{title}</h3>
-            <p>{text}</p>
-          </div>
-        </div>
-      </a>
-    )
+    <a className="article-card" href={link}>
+      <div className="article-card__img"><img src={image} alt="" loading="lazy" /></div>
+      <div className="article-card__body">
+        <span className="article-card__meta">{type} &middot; {date}</span>
+        <h3>{title.replace(/^(Blog|New Feature): /, '')}</h3>
+        <p>{text}</p>
+      </div>
+    </a>
+  )
 }

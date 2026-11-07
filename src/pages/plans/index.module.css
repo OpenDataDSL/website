@@ -6,19 +6,20 @@
 
 .card {
     width: 18rem;
-    border-color: orange;
+    border-color: #e3e8ef;
 }
 
 .cardhighlight {
     width: 18rem;
-    border-color: green;
-    border-width: medium;
+    border-color: #1f5fbf;
+    border-width: 2px;
 }
 
 .header {
     text-align: center;
     font-weight: bold;
-    background-color: light-blue;
+    background-color: #f5f7fa;
+    color: #0f1f3d;
 }
 .body {
     text-align: left;

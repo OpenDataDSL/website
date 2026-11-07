@@ -204,21 +204,21 @@ import {Demo} from '/src/components/Forms.js';
 		<div className="orange_grid">
 			<div className="orange_item">
 				<a href="/features/data-catalogue">
-					<img src="/img/icons/catalogue.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-collection" /></span>
 				</a>
 				<h4>Data Catalogue</h4>
 				<p>Curves automatically pull from catalogued market data. When you build a curve, you reference standardized datasets, not raw vendor feeds.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/data-management#smart-loaders">
-					<img src="/img/icons/mdm.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-database" /></span>
 				</a>
 				<h4>Smart Loaders</h4>
 				<p>Curves rebuild automatically when underlying data updates. A new futures settlement triggers immediate curve recalculation.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/ai-agents">
-					<img src="/img/icons/agent.png" className="integrationSvg" />
+					<span className="product-icon"><i className="bi bi-gear-wide-connected" /></span>
 				</a>
 				<h4>AI Agents</h4>
 				<p>Automate curve construction workflows—daily updates, exception monitoring, publication to downstream systems.</p>
@@ -245,7 +245,7 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>Ready to Transform Your Curve Operations?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already leveraging OpenDataDSL and Fusion to work smarter, faster, and more profitably.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
 		<NextButton link="/features/composer" text="Composer" />
 	</div>
 </section>

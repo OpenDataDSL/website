@@ -177,8 +177,8 @@ import {Demo} from '/src/components/Forms.js';
 	<div className="container" style={{textAlign: "center"}}>
 		<h2>Ready to Access Your Platform Data in Your Analytics Environment?</h2>
 		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Join energy and commodity professionals who are already using OpenDataDSL Cloud Connect to query live, validated market data directly in Databricks and beyond.</p>
-		<a href="/SignUp" className="cta_button" style={{background: "#3b82f6", color: "white"}}>Get Started Today</a>
-		<NextButton link="/features/data-management" text="Data Management" />
+		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
+		<NextButton link="/features/integration" text="Integration" />
 	</div>
 </section>
 

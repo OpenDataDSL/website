@@ -18,17 +18,59 @@ export function Animate() {
 	return (<></>);
 }
 
+const SHOTS = {
+	'Data Management': 'data-management',
+	'Data Catalogue': 'data-catalogue',
+	'Data Loaders': 'data-loaders',
+	'Validation': 'validation',
+	'Smart Curves': 'smart-curves',
+	'Composer': 'composer',
+	'Fusion AI': 'fusion',
+	'AI Assistants': 'ai-assistants',
+	'AI Agents': 'ai-agents',
+	'AI Playbooks': 'ai-playbooks',
+	'Custom Tools': 'custom-tools',
+	'ODSL Programming Language': 'odsl-code',
+	'Data Reconciliation': 'data-reconciliation',
+	'Cloud Connect': 'cloud-connect',
+	'Integration': 'integration',
+	'Workflows': 'workflows',
+	'Promotion': 'promotion',
+	'Alerts': 'alerts',
+	'Extensions': 'extensions',
+};
+
 export function Feature(props) {
 	useEffect(() => {
 		configureAnimations();
 	}, [])
 
+	let shot = props.shot;
+	if (!shot) {
+		const key = SHOTS[props.title] || (props.title && props.title.endsWith('AI Conversations') ? 'fusion' : null);
+		if (key) shot = '/img/product/' + key + '.png';
+	}
+
 	return (
-		<div className="hero">
-			<div className="container">
-				<img src={props.jpg} className="featureSvg scroll-to-display" />
-				<h1 className="scroll-to-display">{props.title}</h1>
-				<p className="scroll-to-display">{props.slogan}</p>
+		<div className={shot ? "hero hero--split" : "hero"}>
+			<div className="container hero__inner">
+				<div className="hero__text">
+					<p className="eyebrow">OpenDataDSL</p>
+					<h1>{props.title}</h1>
+					<p className="hero__lead">{props.slogan}</p>
+					{shot && (<div className="hero__actions">
+						<a className="btn-solid" href="/contact">Book a demo</a>
+						<a className="btn-outline" href="https://doc.opendatadsl.com" target="_blank">Documentation</a>
+					</div>)}
+				</div>
+				{shot && (
+					<div className="hero__shot">
+						<div className="browser-frame">
+							<div className="browser-frame__bar"><span /><span /><span /></div>
+							<img src={shot} alt={props.title + " screenshot"} />
+						</div>
+					</div>
+				)}
 			</div>
 		</div>
 	);
@@ -36,7 +78,7 @@ export function Feature(props) {
 
 export function NextButton(props) {
 	return (
-		<a href={props.link} className="cta_button next_button" style={{background: "#0c7011ff", color: "white"}}>{props.text}&nbsp;&nbsp;<i className="bi bi-fast-forward-fill" /></a>
+		<a href={props.link} className="cta_button next_button">{props.text}&nbsp;&nbsp;<i className="bi bi-arrow-right" /></a>
 	);
 }
 

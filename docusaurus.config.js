@@ -169,6 +169,7 @@ const config = {
         {type:'dropdown', label: 'Solutions', position: 'left', items:[
             {to: '/features/data-management', label: 'Data Management'},
             {to: '/features/data-catalogue', label: 'Data Catalogue'},
+            {to: '/features/data-loaders', label: 'Data Loaders'},
             {to: '/features/validation', label: 'Validation'},
             {to: '/features/smart-curves', label: 'Smart Curves'},
             {to: '/features/composer', label: 'Composer'},
@@ -179,7 +180,12 @@ const config = {
             {to: '/features/ai-playbooks', label: 'AI Playbooks'},
             {to: '/features/custom-tools', label: 'Custom AI Tools'},
             {to: '/features/data-reconciliation', label: 'Data Reconciliation'},
-            {to: '/features/cloud-connect', label: 'Cloud Connect'}
+            {to: '/features/cloud-connect', label: 'Cloud Connect'},
+            {to: '/features/integration', label: 'Integration'},
+            {to: '/features/workflows', label: 'Workflows'},
+            {to: '/features/promotion', label: 'Promotion'},
+            {to: '/features/alerts', label: 'Alerts'},
+            {to: '/features/extensions', label: 'Extensions'}
         ]},
         {type:'dropdown', label: 'Partners', position: 'left', items:[
             {to: '/partners', label: 'Partner Program'},
