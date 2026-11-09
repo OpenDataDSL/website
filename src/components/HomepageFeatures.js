@@ -107,14 +107,6 @@ const BenefitList = [
         slogan: "Automated Comparison Analysis"
     },
     {
-        id: 10,
-        title: 'Cloud Connect',
-        jpg: require('../../static/img/icons/cloud-connect.png').default,
-        text: 'Access your OpenDataDSL platform data directly in Databricks, Spark, pandas, and any analytics tool you already use — without copying, exporting, or waiting.',
-        link: "cloud-connect",
-        slogan: "Your data, in your cloud, in your tools"
-    },
-    {
         id: 14,
         title: 'Integration',
         text: 'Send curves and timeseries to ETRMs, risk engines and data lakes on a schedule, with a daily report of what reached each system.',
@@ -214,13 +206,6 @@ const Articles = [
     title: "New Feature: Fusion AI Playbooks",
     link: "./news/ai-playbooks",
     text: "Repeatable, governed AI workflows: Fusion runs your process step by step, checks its work and asks before anything changes."
-  },
-  {
-    type: "News",
-    date: "Apr 21, 2026",
-    title: "New Feature: Cloud Connect",
-    link: "./news/cloud-connect",
-    text: "Cloud Connect allows seamless integration with Databricks, Spark, and Azure Synapse."
   },
   {
     type: "Event",

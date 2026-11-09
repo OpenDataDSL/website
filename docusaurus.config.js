@@ -180,7 +180,6 @@ const config = {
             {to: '/features/ai-playbooks', label: 'AI Playbooks'},
             {to: '/features/custom-tools', label: 'Custom AI Tools'},
             {to: '/features/data-reconciliation', label: 'Data Reconciliation'},
-            {to: '/features/cloud-connect', label: 'Cloud Connect'},
             {to: '/features/integration', label: 'Integration'},
             {to: '/features/workflows', label: 'Workflows'},
             {to: '/features/promotion', label: 'Promotion'},

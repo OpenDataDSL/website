@@ -32,7 +32,6 @@ const SHOTS = {
 	'Custom Tools': 'custom-tools',
 	'ODSL Programming Language': 'odsl-code',
 	'Data Reconciliation': 'data-reconciliation',
-	'Cloud Connect': 'cloud-connect',
 	'Integration': 'integration',
 	'Workflows': 'workflows',
 	'Promotion': 'promotion',
