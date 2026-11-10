@@ -6,34 +6,33 @@ hide_table_of_contents: true
 import { Feature, NextButton } from '/src/components/Features.js'
 import {Demo} from '/src/components/Forms.js';
 
-<Feature title="Data Loaders" slogan="Load any file or API into the platform, without writing a script" />
+<Feature title="Data Loaders" slogan="Get any source into the platform today, and on a schedule" />
 
 <section className="section">
-	<h1>Build a loader for a broker file, an exchange workbook, a JSON API or a table on a web page step by step on screen, map its columns to your fields, and run it on a schedule.</h1>
+	<h1>The tactical way to bring in a file, an API or a web page table quickly: build the loader on screen with the data in front of you, deploy it on a schedule, and have it running the same day.</h1>
 </section>
 
 <section className="section">
 	<div className="container">
-		<h2>The Data Loading Challenge</h2>
+		<h2>The Gap Between Needing Data and Having It</h2>
 		<div className="story_content">
 			<div className="story_text">
 				<h3>The Challenge</h3>
-				<p>A lot of the data a trading business relies on does not come from a market data vendor. It arrives as:</p>
+				<p>The data your business runs on every day belongs in a managed feed or the Data Catalogue. But there is always a source that is needed now:</p>
 				<ul>
-					<li>A broker's end of day settlements as a CSV file</li>
-					<li>An exchange's settlement workbook</li>
-					<li>Readings from a wind farm's JSON API</li>
-					<li>Prices published in a table on a web page</li>
+					<li>A new broker's end of day settlements file</li>
+					<li>A client's monthly price workbook</li>
+					<li>Government statistics such as EIA stocks or e-Stat prices</li>
+					<li>Prices published in a table on a supplier's web page</li>
 				</ul>
-				<p>Getting each one into the platform used to mean writing a script by hand: reading the file, working out the date formats and decimal commas, deciding which rows to leave out, and making sure a rerun does not load everything twice.</p>
-				<p>Every new source waits for someone who can write that script.</p>
+				<p>Each one is too small to be a project, so it waits for a developer to write a script, or ends up in someone's spreadsheet, copied in by hand.</p>
 			</div>
 			<div className="story_text">
 				<h3>Our Solution</h3>
-				<p>Data Loaders lets you build that loader step by step, on screen. Point it at the source and the platform reads a sample exactly as a run will, shows you every column, and lets you map each column to the fields of an event type with a line from one to the other.</p>
-				<p>Choose where the events go and how often to load them. Deploying creates a workflow of standard actions and a process that runs it, with a report of every run.</p>
-				<p>Fusion AI can propose the event type and the whole mapping from the sample, asking you about anything only you can decide.</p>
-				<h4>Data Loaders: From a File or API to Events, With No Code</h4>
+				<p>Data Loaders gets that source into the platform quickly, without a project. Point it at the source, see a real sample, map its columns to your fields with a line from one to the other, and deploy.</p>
+				<p>The loader runs on a schedule straight away, with a report of every run, alerts when a source goes missing, and a stage that shows where it is from sandbox to production.</p>
+				<p>Fusion AI proposes the mapping from the sample, so most loaders take minutes, not days.</p>
+				<h4>Data Loaders: In Today, Scheduled Tonight</h4>
 			</div>
 		</div>
 	</div>
@@ -42,37 +41,37 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt">
 	<div className="container">
 		<h2>Key Benefits</h2>
-		<p>Bring every file and API your business relies on into the platform, built and run by the people who know the data.</p>
+		<p>A quick, reliable way in for every source that cannot wait for a managed feed.</p>
 		<div className="orange_grid">
+			<div className="orange_item">
+				<h4>Fast</h4>
+				<h5>Minutes, not a project.</h5>
+				<p>Build, check and deploy a loader in one sitting, with the sample in front of you at every step and Fusion AI to propose the mapping.</p>
+			</div>
+			<div className="orange_item">
+				<h4>Scheduled From Day One</h4>
+				<h5>Not a one-off import.</h5>
+				<p>Weekdays at 18:30, hourly, monthly or any schedule, with a holiday calendar. Load years of history in a single run, then keep it up to date.</p>
+			</div>
 			<div className="orange_item">
 				<h4>Any File or API</h4>
 				<h5>Six kinds of source.</h5>
-				<p>CSV and text files, JSON APIs, XML documents, Excel workbooks and tables on web pages, read from a URL, or your own ODSL for anything else. Pick a table on a web page by clicking it.</p>
+				<p>CSV and text files, JSON APIs, XML documents, Excel workbooks and tables on web pages, or your own ODSL for anything else, with secrets kept in the secret store.</p>
 			</div>
 			<div className="orange_item">
-				<h4>See the Data First</h4>
-				<h5>A real sample, examined for you.</h5>
-				<p>The platform reads the first rows exactly as a run will, and shows every column with what it holds: numbers, dates, text, how full it is, and examples of its values.</p>
-			</div>
-			<div className="orange_item">
-				<h4>Map Columns Visually</h4>
-				<h5>Drag a column onto a field.</h5>
-				<p>Columns on the left, the event's fields on the right, joined by a line. Set the data type, the date format, a decimal comma, a scale, empty values and a value map for each field.</p>
-			</div>
-			<div className="orange_item">
-				<h4>Help From Fusion AI</h4>
-				<h5>A proposal from your sample.</h5>
-				<p>Fusion AI reads the sample and proposes the event type, the mapping and the event id, and asks with buttons when a choice is yours. Describe a change to a field's text in your own words and it writes it.</p>
+				<h4>Handles Messy Sources</h4>
+				<h5>No clean-up script.</h5>
+				<p>A product in every column, only the columns you need, totals under a blank row, decimal commas, Japanese dates and names: all handled on screen.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Safe to Run Again</h4>
 				<h5>No duplicates.</h5>
-				<p>Each event's id is built from its time and the columns that make a row unique, so loading a file again replaces its events instead of adding copies.</p>
+				<p>Each event's id is built from its time and the fields that make a row unique, so loading a file again replaces its events instead of adding copies.</p>
 			</div>
 			<div className="orange_item">
-				<h4>Scheduled and Reported</h4>
+				<h4>Monitored</h4>
 				<h5>Every run recorded.</h5>
-				<p>Run on weekdays, every day, every hour or a custom schedule, with a holiday calendar. Each run's report shows the rows read, the events saved and the rows left out, and a failed run raises an alert.</p>
+				<p>Each run's report shows the rows read, the events saved and the rows left out. A failed run raises an alert, and the Data Loader Runs insight shows them all.</p>
 			</div>
 		</div>
 	</div>
@@ -83,20 +82,18 @@ import {Demo} from '/src/components/Forms.js';
 		<h2>How Data Loaders Work</h2>
 		<div className="story_content">
 			<div className="story_text">
-				<h3>Build It, Step by Step</h3>
-				<p><b>Extract:</b> choose the kind of source and its URL, which can contain the date being loaded, variables and secrets such as an API key.</p>
-				<p><b>Examine:</b> the rows of the sample and what each column holds.</p>
-				<p><b>Event type:</b> choose one, define a new one from the columns, or use none.</p>
-				<p><b>Map:</b> join each column to a field, and preview the events the sample makes.</p>
-				<p><b>Destination:</b> the master data record and event list the events go to, the event id, and the dataset id for monitoring.</p>
+				<h3>Get It In</h3>
+				<p><b>Extract:</b> choose the kind of source and its URL, which can contain the date being loaded, variables and secrets. Take a sample, or extract all of it.</p>
+				<p><b>Examine:</b> the rows of the sample and what each column holds, with the columns to use and the shape of the data.</p>
+				<p><b>Event type:</b> choose one, or define a new one from the columns.</p>
+				<p><b>Map:</b> join each column to a field, or let Fusion AI propose it, and preview the events before anything is saved.</p>
 			</div>
 			<div className="story_text">
-				<h3>Deploy and Run It</h3>
-				<p>When every check passes:</p>
+				<h3>Keep It Coming</h3>
 				<p><b>Deploy:</b> saves a workflow of the standard extract, transform, load and report actions, and a process that runs it.</p>
-				<p><b>Schedule:</b> weekdays at 18:30 UK time, every hour, or any cron schedule, in the time zone you choose.</p>
-				<p><b>Run now:</b> load today, or any earlier date, and see the run report straight away.</p>
-				<p><b>Curves and series:</b> make event timeseries, forward curves and option chains from the events, once, on the same record.</p>
+				<p><b>Schedule:</b> any schedule, in the time zone you choose, with a holiday calendar.</p>
+				<p><b>Run now:</b> load today, an earlier date, or the whole history in one go.</p>
+				<p><b>Series:</b> make event timeseries, curves and your team's standard sets of series on every record the loader fills.</p>
 			</div>
 		</div>
 		<div className="feature-figure">
@@ -112,19 +109,19 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section section_alt section_lfo">
 	<div className="container">
 		<h2>Real-World Applications</h2>
-		<p>Data that energy and commodity teams load with Data Loaders.</p>
+		<p>Sources that energy and commodity teams get in quickly with Data Loaders.</p>
 		<div className="blue_grid">
 			<div className="blue_item">
-				<h4>Broker End of Day Settlements</h4>
-				<p>Two brokers send a semicolon separated file of TTF, THE, NBP and PEG settlements every evening. A loader saves them as events every weekday at 18:30, with the decimal commas and contract names handled.</p>
+				<h4>A New Broker's Settlements</h4>
+				<p>A second broker starts sending a semicolon separated file of gas settlements. A loader has it on the platform the same evening, every weekday at 18:30, with the decimal commas and contract names handled.</p>
 			</div>
 			<div className="blue_item">
-				<h4>Exchange Settlement Workbooks</h4>
-				<p>Read the power settlements from a sheet of an Excel workbook, leave out the total rows, and build a forward curve for each day from the events.</p>
+				<h4>Government Statistics</h4>
+				<p>Load decades of EIA stock levels, a series for each column, as a history load, then keep them up to date every month. Read Japanese wholesale prices from e-Stat, with the product names translated.</p>
 			</div>
 			<div className="blue_item">
-				<h4>Weather at Every Wind Farm</h4>
-				<p>Call a weather API once for each wind farm's latitude and longitude, with the API key kept in the secret store, and load the readings every hour.</p>
+				<h4>A Client's Spreadsheet</h4>
+				<p>Use only the columns that matter, stop at the blank row before the totals, and make the client's standard set of price, unit and currency series on every product.</p>
 			</div>
 			<div className="blue_item">
 				<h4>Prices From a Web Page</h4>
@@ -137,8 +134,15 @@ import {Demo} from '/src/components/Forms.js';
 <section className="section">
 	<div className="container">
 		<h2>Integration with Platform Capabilities</h2>
-		<h3>Data Loaders bring in the data the rest of the platform uses</h3>
+		<h3>Tactical data, with everything the rest of the platform offers</h3>
 		<div className="orange_grid">
+			<div className="orange_item">
+				<a href="/features/data-catalogue">
+					<span className="product-icon"><i className="bi bi-collection" /></span>
+				</a>
+				<h4>Data Catalogue</h4>
+				<p>The strategic route for managed data. Data Loaders covers the sources in between, and the work is already done if one moves to a managed feed.</p>
+			</div>
 			<div className="orange_item">
 				<a href="/features/data-management">
 					<span className="product-icon"><i className="bi bi-database" /></span>
@@ -151,14 +155,14 @@ import {Demo} from '/src/components/Forms.js';
 					<span className="product-icon"><i className="bi bi-diagram-3" /></span>
 				</a>
 				<h4>Workflows</h4>
-				<p>Each loader runs as a workflow you can open as a diagram, and the standard actions work in your own workflows.</p>
+				<p>Each loader runs as a workflow of standard actions, scheduled by a process like any other.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/smart-curves">
 					<span className="product-icon"><i className="bi bi-graph-up" /></span>
 				</a>
 				<h4>Smart Curves</h4>
-				<p>Event timeseries, curves and option chains are built from the loaded events whenever they are read.</p>
+				<p>Event timeseries, curves and converted series are built from the loaded events whenever they are read.</p>
 			</div>
 			<div className="orange_item">
 				<a href="/features/validation">
@@ -174,26 +178,19 @@ import {Demo} from '/src/components/Forms.js';
 				<h4>Alerts</h4>
 				<p>A run that cannot read its source or save its events raises an alert for your team.</p>
 			</div>
-			<div className="orange_item">
-				<a href="/features/integration">
-					<span className="product-icon"><i className="bi bi-plug" /></span>
-				</a>
-				<h4>Integration</h4>
-				<p>The other direction: send the data you load and build on to your downstream systems.</p>
-			</div>
 		</div>
 	</div>
 </section>
 
 <section className="section">
 	<div className="container">
-		<h2>From Hand-Written Scripts to Loaders Anyone Can Build</h2>
+		<h2>Get It In Now, Decide Later</h2>
 		<div className="story_content">
 			<div className="story_text">
-				<p>Data Loaders turns loading a new file or API from a development task into a few minutes on screen, with the sample in front of you at every step and Fusion AI to help with the mapping.</p>
+				<p>Data Loaders turns a new source from a request in a queue into a scheduled loader the same day, built by the people who know the data.</p>
 			</div>
 			<div className="story_text">
-				<p>The people who know the data build the loaders, every run is scheduled, reported and safe to repeat, and a new source no longer waits for someone who can write the script.</p>
+				<p>Start it in the sandbox, move it to production when the business relies on it, and if it grows into a strategic feed, the mapping, the types and the series are already on the platform.</p>
 			</div>
 		</div>
 	</div>
@@ -201,8 +198,8 @@ import {Demo} from '/src/components/Forms.js';
 
 <section className="section">
 	<div className="container" style={{textAlign: "center"}}>
-		<h2>See Your Files Loaded in Minutes</h2>
-		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Book a demo and we will build a loader for one of your own files or APIs while you watch.</p>
+		<h2>Load a Source This Week</h2>
+		<p style={{fontSize: "1.2rem", marginBottom: "40px"}}>Book a demo and we will build and schedule a loader for one of your own files or APIs while you watch.</p>
 		<a href="/SignUp" className="cta_button" style={{background: "#1f5fbf", color: "white"}}>Get Started Today</a>
 		<NextButton link="/features/validation" text="Validation" />
 	</div>

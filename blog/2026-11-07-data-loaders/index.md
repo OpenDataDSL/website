@@ -1,9 +1,9 @@
 ---
 slug: data-loaders
-title: Data Loaders - Any File or API, Into the Platform, Without Writing a Script
+title: Data Loaders - Get Any Source Into the Platform Today, and Keep It Coming
 authors: [chartley]
 image: /img/blog/data-loaders-hero-square.png
-tags: [data loaders, etl, extension, fusion ai, events, workflows, automation]
+tags: [data loaders, etl, extension, fusion ai, events, workflows, automation, scheduling]
 hide_table_of_contents: false
 ---
 import styles from './index.module.css';
@@ -15,8 +15,8 @@ import {Demo} from '/src/components/Forms.js';
   </div>
   <div className="column">
     <h4>Introducing Data Loaders</h4>
-    <p>A lot of the data a trading business runs on never comes from a market data vendor. It arrives as a broker's CSV file, an exchange workbook, a JSON API or a table on a web page, and every one of them used to need a script.</p>
-    <p>Data Loaders lets the people who know the data build that loader themselves, step by step on screen, with a real sample in front of them the whole way. Deploy it, and it runs on a schedule with a report of every run.</p>
+    <p>Some data cannot wait for a project. A client sends a spreadsheet, a desk needs a government statistic, a broker starts sending a new file, and the traders want it on the platform this week, not next quarter.</p>
+    <p>Data Loaders is the quick way in. Point it at the file, API or web page, map it on screen with a real sample in front of you, and deploy it on a schedule. It is in the platform and running the same day, with a report of every run.</p>
   </div>
 </div>
 
@@ -24,19 +24,19 @@ import {Demo} from '/src/components/Forms.js';
 
 ---
 
-## The script nobody has time to write
+## When the data cannot wait for a project
 
-Every desk has a list of data it needs but does not have yet. A second broker's end of day settlements. A new exchange report. Weather readings for the wind farms. Prices published on a supplier's website.
+Most of the data on the platform arrives the strategic way: through the Data Catalogue, a managed feed from a vendor, or an integration built and tested for the long term. That is the right home for the data your business runs on every day.
 
-None of it is hard to read. But each one means someone has to write a script: find the right columns, work out whether the date is day first, deal with decimal commas and `n/a`, leave out the total line, and make sure a rerun does not load everything twice. Then it needs scheduling, monitoring and someone to fix it when the file changes.
+But there is always a gap between needing a source and having it. A new broker's end of day file. A client's monthly price workbook. Stock levels from the EIA, or Japanese wholesale prices from e-Stat. Prices in a table on a supplier's web page. Each one is too small to be a project and too important to leave in someone's spreadsheet.
 
-So the list gets longer, and the analysts keep copying numbers into spreadsheets while they wait.
+Data Loaders fills that gap. It is a tactical tool: get the source in today, scheduled and monitored, and decide later whether it deserves a managed feed. Many never need one.
 
 ---
 
-## Build it step by step, with the data in front of you
+## From a URL to scheduled data in an afternoon
 
-A data loader is built in five steps, and each one shows you what the platform has actually read.
+A data loader is built in a few steps, and each one shows you what the platform has actually read.
 
 **Extract.** Choose the kind of source and give its URL:
 
@@ -54,17 +54,9 @@ The URL can contain the date being loaded, such as `settlements_{date:yyyyMMdd}.
 
 In our example, Northgate Energy's two gas brokers send a semicolon separated file every evening. The profile spots straight away that the trade date is day first, that the prices use a decimal comma and that `Settle` has an `n/a` in it. Nobody has to open the file to find out.
 
----
-
-## Map columns to fields by drawing a line
-
-**Event type.** Choose an existing event type, define a new one from the columns, or load without one.
-
-**Map.** Columns are on the left, the event's fields on the right. Drag a column onto a field and a line joins them.
+**Map.** Columns are on the left, the fields of an event type on the right. Drag a column onto a field and a line joins them. Each field has its own settings: the data type, the date format, a decimal comma, a scale, the values that mean empty, and a value map that turns the broker's `Dec-26` into your `2026M12`.
 
 <img src="/img/blog/data-loaders-map.png" alt="Mapping the broker file's columns to the fields of a broker settlement event" />
-
-Each field has its own settings: the data type, the date format, a decimal comma, a scale (pence to pounds, for example), the values that mean empty, and a value map that turns the broker's `Dec-26` into your `2026M12`. Fields that are not on the type can be added as you go.
 
 Then the preview shows the events the sample makes, before anything is saved: here, 20 events from 21 rows, with the broker's total line left out by a condition.
 
@@ -74,51 +66,57 @@ Then the preview shows the events the sample makes, before anything is saved: he
 
 ## Fusion AI does the tedious part
 
-Not sure how to map a file you have never seen? Ask Fusion AI. It reads the sample's columns and first rows and proposes the event type, every field's mapping, the rows to leave out and the event id.
-
-When there is a choice only you can make, it asks, with buttons:
+Not sure how to map a file you have never seen? Ask Fusion AI. It reads the sample's columns and first rows and proposes the event type, every field's mapping, the rows to leave out and the event id. When there is a choice only you can make, it asks, with buttons.
 
 <img src="/img/blog/data-loaders-fusion-ai.png" alt="Fusion AI asks which column identifies the contract, then proposes the whole mapping" />
 
-Apply the proposal, check it in the preview, and change anything you like.
-
-### Changing the text, in plain words
-
-Real data is messy. A web page of metal prices writes its dates as `Thu 05 Nov 2026 AM`, with the morning and afternoon gold prices as separate rows. You want the date as the event time, and `AM` or `PM` on the gold name.
-
-That used to mean a regular expression. Now you choose a common change from a list, such as **Take out AM or PM at the end**, or describe what you want in your own words and let Fusion AI work it out. Either way, you see what every value in the sample becomes before you use it.
+It also changes text for you. Describe what you want in your own words, such as "keep the name and add AM or PM from the date", or ask it to translate the Japanese product names into English, and it writes the change or a value map. You see what every value in the sample becomes before you use it.
 
 <img src="/img/blog/data-loaders-change-text-ai.png" alt="Fusion AI works out a change from a description: keep the name and add AM or PM from the date" />
 
 ---
 
-## Web pages, API keys and many calls
+## Built for the messy sources
 
-Some of the most useful data is the hardest to get at. Data Loaders handles the common cases on screen.
+The sources that fall into the gap are rarely tidy, so Data Loaders handles the usual problems on screen rather than in a script.
+
+**One column per product.** Government and agency spreadsheets often have the dates down one column and a product in each of the others, sometimes with a row of codes and a row of descriptions above them. Say that each column is a series, and the loader makes a master data record for every column, named from the descriptions.
+
+<img src="/img/blog/data-loaders-shape-columns.png" alt="Each column is a series: keep the column of dates, take each series name from the row of descriptions, and leave out empty cells" />
+
+**Only the columns you need.** Leave out the monthly change, the notes and the columns nobody uses. Each column shows its spreadsheet letter, so you can see exactly which one is which.
+
+<img src="/img/blog/data-loaders-columns-to-use.png" alt="Columns to use: the date column C used and a column of monthly changes left out, each column with its spreadsheet letter" />
+
+**The end of the data.** Set the last row, or stop at the first empty row, so the totals added under a blank line at the bottom of a workbook are never loaded.
+
+**All the history, not just a sample.** Some columns only start years after others. Extract all reads the whole source, so every column is seen before you define the type.
+
+**Japanese dates and text.** Read Japanese era and calendar dates directly, and translate product names with a value map Fusion AI writes for you.
+
+---
+
+## Web pages, API keys and many calls
 
 **Tables on web pages.** Show the page, point at a table and click it. The platform remembers which table it was and reads it the same way every run.
 
 <img src="/img/blog/data-loaders-html-picker.png" alt="Choosing a table of end of day settlements on a web page" />
 
-**Secrets.** An API key goes in the platform's secret store, never in the loader. The URL just says `{API key}`, and the key is masked in every preview and run report.
-
-**Variables.** Call the same API once for each wind farm's latitude and longitude, or each product code, and every row says which call it came from.
+**Secrets and variables.** An API key goes in the platform's secret store, never in the loader, and is masked in every preview and run report. Variables call the same API once for each wind farm or product code, and every row says which call it came from.
 
 <img src="/img/blog/data-loaders-variables-secrets.png" alt="Variables for each wind farm and an API key kept in the secret store" />
 
-**Request bodies.** Some data feeds only answer a POST with the list of codes you want. Add the body and its type, and the loader sends it.
-
 ---
 
-## Deploy, schedule, and forget about it
+## Scheduled from day one
 
-**Destination.** Choose the master data record and event list the events go to, and the event id. The id is built from the event time and the columns that make a row unique, so loading a file again replaces its events instead of adding copies.
+A tactical loader is still a proper one. Choose the master data record, the event list and the event id. The id is built from the event time and the columns that make a row unique, so loading a file again replaces its events instead of adding copies.
 
-**Deploy and run.** When every check passes, one click saves a workflow of the standard extract, transform, load and report actions, and a process that runs it. Choose weekdays at 18:30 UK time, every hour, or any schedule you like, with a holiday calendar.
+When every check passes, one click deploys a workflow of the standard extract, transform, load and report actions, and a process that runs it. Choose weekdays at 18:30 UK time, every hour, monthly, or any schedule you like, with a holiday calendar.
 
 <img src="/img/blog/data-loaders-schedule.png" alt="The schedule: weekdays at 18:30 UK time" />
 
-Run it now for today, or for any earlier date to fill in history, and the run report shows the rows read, the events saved and the rows left out.
+Run it now for today, or for any earlier date. For a source with years of history, tick **Load as history** and the first run loads it all in one go, without running the automations for every date.
 
 <img src="/img/blog/data-loaders-runs.png" alt="A run of the broker loader: 21 rows, 20 events saved, 1 left out" />
 
@@ -128,19 +126,31 @@ A run that cannot read its source or save its events raises an alert, so the tea
 
 ---
 
-## From events to curves, once
+## Series on every record, the same way every time
 
-Loaded events are useful on their own, but most of the time you want a series or a curve. The optional last step makes event timeseries, forward curves and option chains from the events, on the same master data record. Make one for each hub with a single form:
+Loaded events are useful on their own, but most of the time you want a series or a curve. The last step makes event timeseries, forward curves and option chains from the events, on every master data record the loader fills, with the calendar you choose.
 
 <img src="/img/blog/data-loaders-build-form.png" alt="Making a front month settlement timeseries for each hub from the loaded events" />
 
-They are built from the events whenever they are read, so they keep up as the loader adds data, and they work with everything else on the platform: Validation, Composer, Integration and your dashboards.
+If your team always makes the same series, save them as a set. A set of `SOURCE_PRICE`, `SOURCE_UNIT_CNV`, `SOURCE_FX_CNV` and `PRICE` only needs the source currency and units: the unit conversions and the euro series are made from them, on every record, in one go.
+
+<img src="/img/blog/data-loaders-series-set.png" alt="A set of series ready to make on each of 83 records: the source price in USD per T, and series converting it to KG, to EUR, and to EUR per KG" />
+
+---
+
+## From sandbox to production, and beyond
+
+Give each loader a stage, from sandbox through development and testing to production, and filter the list by it, so everyone can see which loaders the business already relies on.
+
+<img src="/img/blog/data-loaders-stage.png" alt="The stage badge next to a loader's name, set to Development" />
+
+And if a source grows into something the business depends on every day, the loader has already done the hard part: the mapping, the event type and the series are on the platform, ready for a managed feed to take over.
 
 ---
 
 ## Getting started
 
-Data Loaders is available now as an extension for OpenDataDSL customers. Open **Operations > Data Loaders**, select **New data loader**, and point it at your first file.
+Data Loaders is available now as an extension for OpenDataDSL customers. Open **Operations > Data Loaders**, select **New data loader**, and point it at the source you need today.
 
 The documentation covers everything in detail:
 
@@ -154,14 +164,14 @@ The documentation covers everything in detail:
 * [Fusion AI](https://doc.opendatadsl.com/docs/extensions/etl/fusion-ai)
 * [The Data Loader Runs insight](https://doc.opendatadsl.com/docs/public/insights/data-loader-runs)
 
-**Any file or API, into the platform, without writing a script.**
+**Get any source into the platform today, and on a schedule.**
 
 #### OpenDataDSL - Go Beyond the Basics.
 
 ## Next steps
-Do you have a file or API you have been meaning to load?
+Is there a source you need on the platform this week?
 
-Send us an example, and we will build the loader with you and show you its first run.
+Send us an example, and we will build the loader with you and show you its first scheduled run.
 
 * Contact us at [info@opendatadsl.com](mailto:info@opendatadsl.com)
 * [Sign Up](/SignUp) today and become part of the OpenDataDSL community!

@@ -22,9 +22,9 @@ const BenefitList = [
     {
         id: 19,
         title: 'Data Loaders',
-        text: 'Load broker files, exchange workbooks, APIs and web page tables step by step on screen, and run them on a schedule, with no code.',
+        text: 'The quick, tactical way to get a file, API or web page table into the platform today, built on screen and running on a schedule.',
         link: "data-loaders",
-        slogan: "Load any file or API into the platform, without writing a script"
+        slogan: "Get any source into the platform today, and on a schedule"
     },
     {
         id: 13,
@@ -150,7 +150,7 @@ const Articles = [
     title: "Blog: Data Loaders",
     link: "./blog/data-loaders",
     image: "/img/blog/data-loaders-overview.png",
-    text: "Any file or API, into the platform, without writing a script: build a loader on screen, map its columns with Fusion AI's help, and run it on a schedule."
+    text: "Get any source into the platform today, and keep it coming: build a loader on screen with Fusion AI's help, and have it running on a schedule the same day."
   },
   {
     type: "Blog",
