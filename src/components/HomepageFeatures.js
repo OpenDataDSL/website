@@ -22,7 +22,7 @@ const BenefitList = [
     {
         id: 19,
         title: 'Data Loaders',
-        text: 'The quick, tactical way to get a file, API or web page table into the platform today, built on screen and running on a schedule.',
+        text: 'The quick, tactical way to get a file, API, web page table or spreadsheet into the platform today, built on screen and run on a schedule or uploaded by hand.',
         link: "data-loaders",
         slogan: "Get any source into the platform today, and on a schedule"
     },

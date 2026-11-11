@@ -3,7 +3,7 @@ slug: data-loaders
 title: Data Loaders - Get Any Source Into the Platform Today, and Keep It Coming
 authors: [chartley]
 image: /img/blog/data-loaders-hero-square.png
-tags: [data loaders, etl, extension, fusion ai, events, workflows, automation, scheduling]
+tags: [data loaders, etl, extension, fusion ai, events, workflows, automation, scheduling, spreadsheet upload]
 hide_table_of_contents: false
 ---
 import styles from './index.module.css';
@@ -16,7 +16,7 @@ import {Demo} from '/src/components/Forms.js';
   <div className="column">
     <h4>Introducing Data Loaders</h4>
     <p>Some data cannot wait for a project. A client sends a spreadsheet, a desk needs a government statistic, a broker starts sending a new file, and the traders want it on the platform this week, not next quarter.</p>
-    <p>Data Loaders is the quick way in. Point it at the file, API or web page, map it on screen with a real sample in front of you, and deploy it on a schedule. It is in the platform and running the same day, with a report of every run.</p>
+    <p>Data Loaders is the quick way in. Point it at the file, API or web page, map it on screen with a real sample in front of you, and deploy it on a schedule. It is in the platform and running the same day, with a report of every run. And when there is no URL at all, drop the workbook on the page.</p>
   </div>
 </div>
 
@@ -94,6 +94,31 @@ The sources that fall into the gap are rarely tidy, so Data Loaders handles the 
 
 **Japanese dates and text.** Read Japanese era and calendar dates directly, and translate product names with a value map Fusion AI writes for you.
 
+**Working out new fields.** Add a calculated field such as `settle_gbp = settle * fx` and every event gets it, worked out from the fields you mapped, with `+`, `-`, `*`, `/` and brackets.
+
+<img src="/img/blog/data-loaders-calc-fields.png" alt="Two calculated fields: settle_gbp from settle and fx, and value_gbp from settle_gbp and volume, with their values on the first event" />
+
+---
+
+## No URL? Drop the workbook
+
+Some data never comes from a URL. A client keeps it in a workbook and sends a new copy each month, or someone downloads a report by hand. A **spreadsheet upload** loader is made for these: describe the workbook once, and from then on anyone drops the latest copy on the page, checks what it makes, and loads it. Nothing is scheduled; the workbook drives everything.
+
+<img src="/img/blog/data-loaders-upload-new.png" alt="The New data loader dialog: from a file or API on a schedule, or a spreadsheet upload by hand" />
+
+It reads two common layouts, and works out which one from the first workbook you drop:
+
+* **Three sheets**: dataset information as name and value pairs, a row for each master data record with its properties, and the values with a column for each record and a row for each month. Japanese timber prices from MAFF come like this: nine products, 69 months, 621 events.
+* **One sheet, a row for each value**: each row has the properties, the date and the value. Baker Hughes' worldwide rig count report is one: from its WW Monthly sheet, with the headings in row 12, a record for each country, fuel and location, and an event for each month.
+
+<img src="/img/blog/data-loaders-upload-rows.png" alt="One sheet with a row for each value: the WW Monthly sheet with headings in row 12, and what each column is: properties, the date, the value and another event field" />
+
+You choose the master data type, the event type and the set of series each upload makes, and build the master data and event `_id` from templates such as `BH_RIGS_{Country}_{DrillFor}_{Location}` and `ID_{eventtime}`. Add more properties to every record, from the type or your own, and calculated fields that use them, such as `real_price = input_price * ConvertedFactor`.
+
+Before anything is saved, the preview shows every master data record, new or already there, with its properties, and the events each one gets.
+
+<img src="/img/blog/data-loaders-upload-preview.png" alt="The preview of the rig count upload: 212 master data records and 4654 events from January 2024 to October 2026, with the records and the events of the first one" />
+
 ---
 
 ## Web pages, API keys and many calls
@@ -136,6 +161,10 @@ If your team always makes the same series, save them as a set. A set of `SOURCE_
 
 <img src="/img/blog/data-loaders-series-set.png" alt="A set of series ready to make on each of 83 records: the source price in USD per T, and series converting it to KG, to EUR, and to EUR per KG" />
 
+Each event timeseries can read its own field, and each smart timeseries can have its own expression, such as `BASE * 1.1`. A spreadsheet upload can change a set's series for itself only, then update the set for everyone or save it as a new set.
+
+<img src="/img/blog/data-loaders-upload-set.png" alt="A set of series changed for one upload: the source price read from input_price, and PRICE in USD per KG with the expression BASE * 1.1" />
+
 ---
 
 ## From sandbox to production, and beyond
@@ -161,6 +190,7 @@ The documentation covers everything in detail:
 * [Sources](https://doc.opendatadsl.com/docs/extensions/etl/sources)
 * [Deploying, running and scheduling](https://doc.opendatadsl.com/docs/extensions/etl/running)
 * [Curves and series](https://doc.opendatadsl.com/docs/extensions/etl/curves-and-series)
+* [Spreadsheet uploads](https://doc.opendatadsl.com/docs/extensions/etl/uploads)
 * [Fusion AI](https://doc.opendatadsl.com/docs/extensions/etl/fusion-ai)
 * [The Data Loader Runs insight](https://doc.opendatadsl.com/docs/public/insights/data-loader-runs)
 

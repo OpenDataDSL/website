@@ -9,7 +9,7 @@ import {Demo} from '/src/components/Forms.js';
 <Feature title="Data Loaders" slogan="Get any source into the platform today, and on a schedule" />
 
 <section className="section">
-	<h1>The tactical way to bring in a file, an API or a web page table quickly: build the loader on screen with the data in front of you, deploy it on a schedule, and have it running the same day.</h1>
+	<h1>The tactical way to bring in a file, an API, a web page table or a spreadsheet quickly: build the loader on screen with the data in front of you, deploy it on a schedule or upload by hand, and have it running the same day.</h1>
 </section>
 
 <section className="section">
@@ -55,8 +55,8 @@ import {Demo} from '/src/components/Forms.js';
 			</div>
 			<div className="orange_item">
 				<h4>Any File or API</h4>
-				<h5>Six kinds of source.</h5>
-				<p>CSV and text files, JSON APIs, XML documents, Excel workbooks and tables on web pages, or your own ODSL for anything else, with secrets kept in the secret store.</p>
+				<h5>Six kinds of source, or a workbook.</h5>
+				<p>CSV and text files, JSON APIs, XML documents, Excel workbooks and tables on web pages, or your own ODSL for anything else, with secrets kept in the secret store. No URL? Drop the workbook on the page.</p>
 			</div>
 			<div className="orange_item">
 				<h4>Handles Messy Sources</h4>
@@ -106,6 +106,36 @@ import {Demo} from '/src/components/Forms.js';
 	</div>
 </section>
 
+<section className="section">
+	<div className="container">
+		<h2>Spreadsheets Uploaded by Hand</h2>
+		<div className="story_content">
+			<div className="story_text">
+				<h3>Describe It Once</h3>
+				<p>Some data never comes from a URL: a client's workbook, or a report someone downloads each month. A spreadsheet upload loader describes the workbook once, in either of two layouts:</p>
+				<ul>
+					<li><b>Three sheets:</b> dataset information, a row for each master data record, and the values by date</li>
+					<li><b>One sheet, a row for each value:</b> the properties, the date and the value in each row, from a heading row you choose</li>
+				</ul>
+				<p>Choose the master data type, event type and set of series, build the master data and event _id from templates, add more properties to every record, and calculated fields such as a real price from a conversion factor.</p>
+			</div>
+			<div className="story_text">
+				<h3>Drop It Each Time</h3>
+				<p>From then on, anyone drops the latest workbook on the page. The preview shows every master data record, new or already there, with its properties and events, before anything is saved.</p>
+				<p>Then one click loads the records, the events and the series. Nothing is scheduled: the workbook drives it all, and the loader keeps a list of its uploads.</p>
+				<h4>No URL, No Script, No Problem</h4>
+			</div>
+		</div>
+		<div className="feature-figure">
+			<div className="browser-frame">
+				<div className="browser-frame__bar"><span /><span /><span /></div>
+				<img src="/img/blog/data-loaders-upload-preview.png" alt="The preview of a spreadsheet upload: 212 master data records and 4654 events from a monthly rig count report" />
+			</div>
+			<p className="feature-caption">A monthly rig count report dropped on the page: a master data record for each country, fuel and location, and an event for each month.</p>
+		</div>
+	</div>
+</section>
+
 <section className="section section_alt section_lfo">
 	<div className="container">
 		<h2>Real-World Applications</h2>
@@ -117,11 +147,11 @@ import {Demo} from '/src/components/Forms.js';
 			</div>
 			<div className="blue_item">
 				<h4>Government Statistics</h4>
-				<p>Load decades of EIA stock levels, a series for each column, as a history load, then keep them up to date every month. Read Japanese wholesale prices from e-Stat, with the product names translated.</p>
+				<p>Load decades of EIA stock levels, a series for each column, as a history load, then keep them up to date every month. Upload the monthly rig count report by hand, a record for each country, fuel and location.</p>
 			</div>
 			<div className="blue_item">
-				<h4>A Client's Spreadsheet</h4>
-				<p>Use only the columns that matter, stop at the blank row before the totals, and make the client's standard set of price, unit and currency series on every product.</p>
+				<h4>A Client's Monthly Workbook</h4>
+				<p>Drop the client's workbook on the page each month: a record for each product with its properties, the values by month, a real price calculated from a conversion factor, and the client's standard set of price, unit and currency series on every product.</p>
 			</div>
 			<div className="blue_item">
 				<h4>Prices From a Web Page</h4>
